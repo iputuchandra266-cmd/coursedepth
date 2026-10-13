@@ -3,9 +3,30 @@ interface Props {
   title?: string;
   description?: string;
 }
-const { title = "CourseDepth — Student Reviews for Online Courses", description = "Find honest reviews, pricing, and details for online courses from Udemy, Coursera, edX, and more — all in one place." } = Astro.props;
+const {
+  title = "Udemy Course Reviews — Honest Ratings, Prices & Details | CourseDepth",
+  description = "Read real Udemy course reviews: ratings, prices, instructor details and updates for the best Udemy courses — plus Coursera, edX and more, all in one place.",
+} = Astro.props;
 import "../styles/global.css";
 import { u } from "../lib/u";
+
+const site = Astro.site ?? new URL("https://coursedepth.com");
+const canonical = new URL(Astro.url.pathname, site).href;
+const siteName = "CourseDepth";
+const keyword = "Udemy Course Reviews";
+const ld = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: siteName,
+  alternateName: keyword,
+  url: site.href,
+  description,
+  potentialAction: {
+    "@type": "SearchAction",
+    target: { "@type": "EntryPoint", urlTemplate: `${site.href}?q={search_term_string}` },
+    "query-input": "required name=search_term_string",
+  },
+};
 ---
 <!doctype html>
 <html lang="en">
@@ -13,7 +34,28 @@ import { u } from "../lib/u";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <meta name="keywords" content="Udemy course reviews, Udemy reviews, online course reviews, Udemy course ratings, Udemy prices" />
+    <meta name="robots" content="index, follow" />
+    <meta name="google-site-verification" content="M-Dvg5LZUyfKhQBWatEfQD4puD9M8YZNYTBPTgjoLQ4" />
+    <meta name="theme-color" content="#243693" />
+    <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href={u("/favicon.svg")} />
+    <link rel="alternate icon" href={u("/favicon.ico")} sizes="any" />
+    <link rel="sitemap" href={u("/sitemap.xml")} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(u("/images/og-default.svg"), site).href} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={new URL(u("/images/og-default.svg"), site).href} />
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3534671891943282" crossorigin="anonymous"></script>
+    <script type="application/ld+json" set:html={JSON.stringify(ld)} />
     <title>{title}</title>
   </head>
   <body>

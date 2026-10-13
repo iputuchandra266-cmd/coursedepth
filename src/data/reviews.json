@@ -1,0 +1,925 @@
+{
+  "complete-python-bootcamp": [
+    {
+      "id": "r3",
+      "author": "Sarah M.",
+      "rating": 4.8,
+      "title": "Solid course",
+      "body": "Clear explanations and plenty of exercises. The Python update feels fresh, and the pace is manageable even with a full-time job.",
+      "pros": [
+        "Plenty of exercises",
+        "Great value on discount"
+      ],
+      "cons": [
+        "Could go deeper"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 8,
+      "subRatings": {
+        "content": 4.8,
+        "instructor": 4.699999999999999,
+        "value": 4.6,
+        "ease": 4.3999999999999995
+      }
+    },
+    {
+      "id": "r4",
+      "author": "Emily A.",
+      "rating": 4,
+      "title": "Worth it",
+      "body": "A bit fast in the middle, but the Q&A section answered almost every question I had. Worth every cent.",
+      "pros": [
+        "Fresh 2026 content",
+        "Realistic projects"
+      ],
+      "cons": [
+        "Some repeated slides"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 15,
+      "subRatings": {
+        "content": 4.8,
+        "instructor": 4.699999999999999,
+        "value": 4.6,
+        "ease": 4.3999999999999995
+      }
+    },
+    {
+      "id": "r5",
+      "author": "Daniel K.",
+      "rating": 4.8,
+      "title": "Very good, not perfect",
+      "body": "Best value course I have taken in Python. The projects are realistic, not toy examples.",
+      "pros": [
+        "Great value on discount",
+        "Responsive Q&A"
+      ],
+      "cons": [
+        "Short capstone"
+      ],
+      "level": "Intermediate",
+      "date": "2026-10-07",
+      "helpful": 22,
+      "subRatings": {
+        "content": 4.8,
+        "instructor": 4.699999999999999,
+        "value": 4.6,
+        "ease": 4.3999999999999995
+      }
+    }
+  ],
+  "excel-beginner-to-advanced": [
+    {
+      "id": "r6",
+      "author": "Emily A.",
+      "rating": 4.9,
+      "title": "Solid course",
+      "body": "A bit fast in the middle, but the Q&A section answered almost every question I had. Worth every cent.",
+      "pros": [
+        "Fresh 2026 content",
+        "Realistic projects"
+      ],
+      "cons": [
+        "Some repeated slides"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 13,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r7",
+      "author": "Daniel K.",
+      "rating": 4.1,
+      "title": "Worth it",
+      "body": "Best value course I have taken in Excel. The projects are realistic, not toy examples.",
+      "pros": [
+        "Great value on discount",
+        "Responsive Q&A"
+      ],
+      "cons": [
+        "Short capstone"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 20,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r8",
+      "author": "Maya S.",
+      "rating": 4.9,
+      "title": "Very good, not perfect",
+      "body": "Good fundamentals, though a few sections could go deeper. Still one of the best rated Udemy course reviews picks in Excel.",
+      "pros": [
+        "Realistic projects",
+        "Clear explanations"
+      ],
+      "cons": [
+        "Assumes basic tooling"
+      ],
+      "level": "Intermediate",
+      "date": "2026-10-07",
+      "helpful": 27,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r9",
+      "author": "Robert L.",
+      "rating": 4.9,
+      "title": "Recommended",
+      "body": "The instructor explains patiently and the resources are excellent. Finished it in three weeks and built a portfolio piece.",
+      "pros": [
+        "Responsive Q&A",
+        "Plenty of exercises"
+      ],
+      "cons": [
+        "Fast middle sections"
+      ],
+      "level": "Beginner",
+      "date": "2026-10-10",
+      "helpful": 34,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    }
+  ],
+  "100-days-of-code": [
+    {
+      "id": "r10",
+      "author": "Daniel K.",
+      "rating": 4.9,
+      "title": "Solid course",
+      "body": "Best value course I have taken in Python. The projects are realistic, not toy examples.",
+      "pros": [
+        "Great value on discount",
+        "Responsive Q&A"
+      ],
+      "cons": [
+        "Short capstone"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 18,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r11",
+      "author": "Maya S.",
+      "rating": 4.1,
+      "title": "Worth it",
+      "body": "Good fundamentals, though a few sections could go deeper. Still one of the best rated Udemy course reviews picks in Python.",
+      "pros": [
+        "Realistic projects",
+        "Clear explanations"
+      ],
+      "cons": [
+        "Assumes basic tooling"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 25,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    }
+  ],
+  "ultimate-aws-solutions-architect": [
+    {
+      "id": "r12",
+      "author": "Maya S.",
+      "rating": 4.9,
+      "title": "Solid course",
+      "body": "Good fundamentals, though a few sections could go deeper. Still one of the best rated Udemy course reviews picks in Aws.",
+      "pros": [
+        "Realistic projects",
+        "Clear explanations"
+      ],
+      "cons": [
+        "Assumes basic tooling"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 23,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r13",
+      "author": "Robert L.",
+      "rating": 4.1,
+      "title": "Worth it",
+      "body": "The instructor explains patiently and the resources are excellent. Finished it in three weeks and built a portfolio piece.",
+      "pros": [
+        "Responsive Q&A",
+        "Plenty of exercises"
+      ],
+      "cons": [
+        "Fast middle sections"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 30,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r14",
+      "author": "Aisha R.",
+      "rating": 4.9,
+      "title": "Very good, not perfect",
+      "body": "Well-structured content with real examples. I applied it at work the same week and it immediately paid for itself.",
+      "pros": [
+        "Clear explanations",
+        "Fresh 2026 content"
+      ],
+      "cons": [
+        "Could go deeper"
+      ],
+      "level": "Intermediate",
+      "date": "2026-10-07",
+      "helpful": 37,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    }
+  ],
+  "web-developer-bootcamp-2026": [
+    {
+      "id": "r15",
+      "author": "Robert L.",
+      "rating": 4.9,
+      "title": "Solid course",
+      "body": "The instructor explains patiently and the resources are excellent. Finished it in three weeks and built a portfolio piece.",
+      "pros": [
+        "Responsive Q&A",
+        "Plenty of exercises"
+      ],
+      "cons": [
+        "Fast middle sections"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 28,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r16",
+      "author": "Aisha R.",
+      "rating": 4.1,
+      "title": "Worth it",
+      "body": "Well-structured content with real examples. I applied it at work the same week and it immediately paid for itself.",
+      "pros": [
+        "Clear explanations",
+        "Fresh 2026 content"
+      ],
+      "cons": [
+        "Could go deeper"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 35,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r17",
+      "author": "Tom H.",
+      "rating": 4.9,
+      "title": "Very good, not perfect",
+      "body": "Clear explanations and plenty of exercises. The Web Development update feels fresh, and the pace is manageable even with a full-time job.",
+      "pros": [
+        "Plenty of exercises",
+        "Great value on discount"
+      ],
+      "cons": [
+        "Some repeated slides"
+      ],
+      "level": "Intermediate",
+      "date": "2026-10-07",
+      "helpful": 42,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r18",
+      "author": "Nina W.",
+      "rating": 4.9,
+      "title": "Recommended",
+      "body": "A bit fast in the middle, but the Q&A section answered almost every question I had. Worth every cent.",
+      "pros": [
+        "Fresh 2026 content",
+        "Realistic projects"
+      ],
+      "cons": [
+        "Short capstone"
+      ],
+      "level": "Beginner",
+      "date": "2026-10-10",
+      "helpful": 9,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    }
+  ],
+  "complete-sql-bootcamp": [
+    {
+      "id": "r19",
+      "author": "Aisha R.",
+      "rating": 4.9,
+      "title": "Solid course",
+      "body": "Well-structured content with real examples. I applied it at work the same week and it immediately paid for itself.",
+      "pros": [
+        "Clear explanations",
+        "Fresh 2026 content"
+      ],
+      "cons": [
+        "Could go deeper"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 33,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r20",
+      "author": "Tom H.",
+      "rating": 4.1,
+      "title": "Worth it",
+      "body": "Clear explanations and plenty of exercises. The Postgresql update feels fresh, and the pace is manageable even with a full-time job.",
+      "pros": [
+        "Plenty of exercises",
+        "Great value on discount"
+      ],
+      "cons": [
+        "Some repeated slides"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 40,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    }
+  ],
+  "react-complete-guide": [
+    {
+      "id": "r21",
+      "author": "Tom H.",
+      "rating": 4.8,
+      "title": "Solid course",
+      "body": "Clear explanations and plenty of exercises. The Redux update feels fresh, and the pace is manageable even with a full-time job.",
+      "pros": [
+        "Plenty of exercises",
+        "Great value on discount"
+      ],
+      "cons": [
+        "Some repeated slides"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 38,
+      "subRatings": {
+        "content": 4.8,
+        "instructor": 4.699999999999999,
+        "value": 4.6,
+        "ease": 4.3999999999999995
+      }
+    },
+    {
+      "id": "r22",
+      "author": "Nina W.",
+      "rating": 4,
+      "title": "Worth it",
+      "body": "A bit fast in the middle, but the Q&A section answered almost every question I had. Worth every cent.",
+      "pros": [
+        "Fresh 2026 content",
+        "Realistic projects"
+      ],
+      "cons": [
+        "Short capstone"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 5,
+      "subRatings": {
+        "content": 4.8,
+        "instructor": 4.699999999999999,
+        "value": 4.6,
+        "ease": 4.3999999999999995
+      }
+    },
+    {
+      "id": "r23",
+      "author": "Carlos G.",
+      "rating": 4.8,
+      "title": "Very good, not perfect",
+      "body": "Best value course I have taken in Redux. The projects are realistic, not toy examples.",
+      "pros": [
+        "Great value on discount",
+        "Responsive Q&A"
+      ],
+      "cons": [
+        "Assumes basic tooling"
+      ],
+      "level": "Intermediate",
+      "date": "2026-10-07",
+      "helpful": 12,
+      "subRatings": {
+        "content": 4.8,
+        "instructor": 4.699999999999999,
+        "value": 4.6,
+        "ease": 4.3999999999999995
+      }
+    }
+  ],
+  "angular-complete-guide": [
+    {
+      "id": "r24",
+      "author": "Nina W.",
+      "rating": 4.9,
+      "title": "Solid course",
+      "body": "A bit fast in the middle, but the Q&A section answered almost every question I had. Worth every cent.",
+      "pros": [
+        "Fresh 2026 content",
+        "Realistic projects"
+      ],
+      "cons": [
+        "Short capstone"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 3,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r25",
+      "author": "Carlos G.",
+      "rating": 4.1,
+      "title": "Worth it",
+      "body": "Best value course I have taken in Angular. The projects are realistic, not toy examples.",
+      "pros": [
+        "Great value on discount",
+        "Responsive Q&A"
+      ],
+      "cons": [
+        "Assumes basic tooling"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 10,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r26",
+      "author": "Priya N.",
+      "rating": 4.9,
+      "title": "Very good, not perfect",
+      "body": "Good fundamentals, though a few sections could go deeper. Still one of the best rated Udemy course reviews picks in Angular.",
+      "pros": [
+        "Realistic projects",
+        "Clear explanations"
+      ],
+      "cons": [
+        "Fast middle sections"
+      ],
+      "level": "Intermediate",
+      "date": "2026-10-07",
+      "helpful": 17,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    },
+    {
+      "id": "r27",
+      "author": "Lukas B.",
+      "rating": 4.9,
+      "title": "Recommended",
+      "body": "The instructor explains patiently and the resources are excellent. Finished it in three weeks and built a portfolio piece.",
+      "pros": [
+        "Responsive Q&A",
+        "Plenty of exercises"
+      ],
+      "cons": [
+        "Could go deeper"
+      ],
+      "level": "Beginner",
+      "date": "2026-10-10",
+      "helpful": 24,
+      "subRatings": {
+        "content": 4.9,
+        "instructor": 4.8,
+        "value": 4.7,
+        "ease": 4.5
+      }
+    }
+  ],
+  "the-complete-agentic-ai-engineering-course": [
+    {
+      "id": "r28",
+      "author": "Carlos G.",
+      "rating": 4.8,
+      "title": "Solid course",
+      "body": "Best value course I have taken in AI Agents & Agentic AI. The projects are realistic, not toy examples.",
+      "pros": [
+        "Great value on discount",
+        "Responsive Q&A"
+      ],
+      "cons": [
+        "Assumes basic tooling"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 8,
+      "subRatings": {
+        "content": 4.8,
+        "instructor": 4.699999999999999,
+        "value": 4.8,
+        "ease": 4.3999999999999995
+      }
+    },
+    {
+      "id": "r29",
+      "author": "Priya N.",
+      "rating": 4,
+      "title": "Worth it",
+      "body": "Good fundamentals, though a few sections could go deeper. Still one of the best rated Udemy course reviews picks in AI Agents & Agentic AI.",
+      "pros": [
+        "Realistic projects",
+        "Clear explanations"
+      ],
+      "cons": [
+        "Fast middle sections"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 15,
+      "subRatings": {
+        "content": 4.8,
+        "instructor": 4.699999999999999,
+        "value": 4.8,
+        "ease": 4.3999999999999995
+      }
+    }
+  ],
+  "the-ai-engineer-course-complete-ai-engineer-bootcamp": [
+    {
+      "id": "r30",
+      "author": "Priya N.",
+      "rating": 4.4,
+      "title": "Solid course",
+      "body": "Good fundamentals, though a few sections could go deeper. Still one of the best rated Udemy course reviews picks in Artificial Intelligence (AI).",
+      "pros": [
+        "Realistic projects",
+        "Clear explanations"
+      ],
+      "cons": [
+        "Fast middle sections"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 13,
+      "subRatings": {
+        "content": 4.4,
+        "instructor": 4.3,
+        "value": 4.8,
+        "ease": 4
+      }
+    },
+    {
+      "id": "r31",
+      "author": "Lukas B.",
+      "rating": 3.6,
+      "title": "Worth it",
+      "body": "The instructor explains patiently and the resources are excellent. Finished it in three weeks and built a portfolio piece.",
+      "pros": [
+        "Responsive Q&A",
+        "Plenty of exercises"
+      ],
+      "cons": [
+        "Could go deeper"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 20,
+      "subRatings": {
+        "content": 4.4,
+        "instructor": 4.3,
+        "value": 4.8,
+        "ease": 4
+      }
+    },
+    {
+      "id": "r32",
+      "author": "James P.",
+      "rating": 4.4,
+      "title": "Very good, not perfect",
+      "body": "Well-structured content with real examples. I applied it at work the same week and it immediately paid for itself.",
+      "pros": [
+        "Clear explanations",
+        "Fresh 2026 content"
+      ],
+      "cons": [
+        "Some repeated slides"
+      ],
+      "level": "Intermediate",
+      "date": "2026-10-07",
+      "helpful": 27,
+      "subRatings": {
+        "content": 4.4,
+        "instructor": 4.3,
+        "value": 4.8,
+        "ease": 4
+      }
+    }
+  ],
+  "playwright-tutorials-automation-testing": [
+    {
+      "id": "r33",
+      "author": "Lukas B.",
+      "rating": 4.7,
+      "title": "Solid course",
+      "body": "The instructor explains patiently and the resources are excellent. Finished it in three weeks and built a portfolio piece.",
+      "pros": [
+        "Responsive Q&A",
+        "Plenty of exercises"
+      ],
+      "cons": [
+        "Could go deeper"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 18,
+      "subRatings": {
+        "content": 4.7,
+        "instructor": 4.6,
+        "value": 4.8,
+        "ease": 4.3
+      }
+    },
+    {
+      "id": "r34",
+      "author": "James P.",
+      "rating": 3.9,
+      "title": "Worth it",
+      "body": "Well-structured content with real examples. I applied it at work the same week and it immediately paid for itself.",
+      "pros": [
+        "Clear explanations",
+        "Fresh 2026 content"
+      ],
+      "cons": [
+        "Some repeated slides"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 25,
+      "subRatings": {
+        "content": 4.7,
+        "instructor": 4.6,
+        "value": 4.8,
+        "ease": 4.3
+      }
+    },
+    {
+      "id": "r35",
+      "author": "Sarah M.",
+      "rating": 4.7,
+      "title": "Very good, not perfect",
+      "body": "Clear explanations and plenty of exercises. The Microsoft Playwright update feels fresh, and the pace is manageable even with a full-time job.",
+      "pros": [
+        "Plenty of exercises",
+        "Great value on discount"
+      ],
+      "cons": [
+        "Short capstone"
+      ],
+      "level": "Intermediate",
+      "date": "2026-10-07",
+      "helpful": 32,
+      "subRatings": {
+        "content": 4.7,
+        "instructor": 4.6,
+        "value": 4.8,
+        "ease": 4.3
+      }
+    },
+    {
+      "id": "r36",
+      "author": "Emily A.",
+      "rating": 4.7,
+      "title": "Recommended",
+      "body": "A bit fast in the middle, but the Q&A section answered almost every question I had. Worth every cent.",
+      "pros": [
+        "Fresh 2026 content",
+        "Realistic projects"
+      ],
+      "cons": [
+        "Assumes basic tooling"
+      ],
+      "level": "Beginner",
+      "date": "2026-10-10",
+      "helpful": 39,
+      "subRatings": {
+        "content": 4.7,
+        "instructor": 4.6,
+        "value": 4.8,
+        "ease": 4.3
+      }
+    }
+  ],
+  "langchain": [
+    {
+      "id": "r37",
+      "author": "James P.",
+      "rating": 4.2,
+      "title": "Solid course",
+      "body": "Well-structured content with real examples. I applied it at work the same week and it immediately paid for itself.",
+      "pros": [
+        "Clear explanations",
+        "Fresh 2026 content"
+      ],
+      "cons": [
+        "Some repeated slides"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 23,
+      "subRatings": {
+        "content": 4.2,
+        "instructor": 4.1,
+        "value": 4.8,
+        "ease": 3.8
+      }
+    },
+    {
+      "id": "r38",
+      "author": "Sarah M.",
+      "rating": 3.4,
+      "title": "Worth it",
+      "body": "Clear explanations and plenty of exercises. The LangChain update feels fresh, and the pace is manageable even with a full-time job.",
+      "pros": [
+        "Plenty of exercises",
+        "Great value on discount"
+      ],
+      "cons": [
+        "Short capstone"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 30,
+      "subRatings": {
+        "content": 4.2,
+        "instructor": 4.1,
+        "value": 4.8,
+        "ease": 3.8
+      }
+    }
+  ],
+  "delegating-and-managing-tasks-effectively-as-a-tech-leader": [
+    {
+      "id": "r39",
+      "author": "Sarah M.",
+      "rating": 5,
+      "title": "Solid course",
+      "body": "Clear explanations and plenty of exercises. The Leadership & Management update feels fresh, and the pace is manageable even with a full-time job.",
+      "pros": [
+        "Plenty of exercises",
+        "Great value on discount"
+      ],
+      "cons": [
+        "Short capstone"
+      ],
+      "level": "Beginner",
+      "date": "2026-09-28",
+      "helpful": 28,
+      "subRatings": {
+        "content": 5,
+        "instructor": 4.8999999999999995,
+        "value": 4.8,
+        "ease": 4.6
+      }
+    },
+    {
+      "id": "r40",
+      "author": "Emily A.",
+      "rating": 4.2,
+      "title": "Worth it",
+      "body": "A bit fast in the middle, but the Q&A section answered almost every question I had. Worth every cent.",
+      "pros": [
+        "Fresh 2026 content",
+        "Realistic projects"
+      ],
+      "cons": [
+        "Assumes basic tooling"
+      ],
+      "level": "All levels",
+      "date": "2026-10-02",
+      "helpful": 35,
+      "subRatings": {
+        "content": 5,
+        "instructor": 4.8999999999999995,
+        "value": 4.8,
+        "ease": 4.6
+      }
+    },
+    {
+      "id": "r41",
+      "author": "Daniel K.",
+      "rating": 5,
+      "title": "Very good, not perfect",
+      "body": "Best value course I have taken in Leadership & Management. The projects are realistic, not toy examples.",
+      "pros": [
+        "Great value on discount",
+        "Responsive Q&A"
+      ],
+      "cons": [
+        "Fast middle sections"
+      ],
+      "level": "Intermediate",
+      "date": "2026-10-07",
+      "helpful": 42,
+      "subRatings": {
+        "content": 5,
+        "instructor": 4.8999999999999995,
+        "value": 4.8,
+        "ease": 4.6
+      }
+    }
+  ]
+}

@@ -35,6 +35,7 @@ const seeds: CategorySeed[] = [
   { slug: "javascript", name: "JavaScript", group: "Development", icon: "⚡", color: "#F7DF1E", description: "ES2026, TypeScript, Node, and modern frameworks." },
   { slug: "data-science", name: "Data Science", group: "Development", icon: "📊", color: "#10B981", description: "Pandas, ML, statistics, and portfolio projects." },
   { slug: "artificial-intelligence", name: "Artificial Intelligence", group: "Development", icon: "🤖", color: "#8B5CF6", description: "LLMs, prompt engineering, LangChain, and agents." },
+  { slug: "claude-ai", name: "Claude AI", group: "Development", icon: "✳️", color: "#D97757", description: "Claude AI courses: prompting, agents and AI-assisted workflows." },
   { slug: "ai-agents", name: "AI Agents & Agentic AI", group: "Development", icon: "🧠", color: "#7C3AED", description: "Build autonomous agents with OpenAI SDK, CrewAI, AutoGen, and MCP." },
   { slug: "langchain", name: "LangChain", group: "Development", icon: "🦜", color: "#1C3C3C", description: "Agentic AI engineering with LangChain and LangGraph." },
   { slug: "it-and-software", name: "IT & Software", group: "IT & Software", icon: "💻", color: "#0EA5E9", description: "Networking, operating systems, troubleshooting, and IT support." },

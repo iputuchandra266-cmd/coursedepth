@@ -5,81 +5,131 @@ import Footer from "../../components/Footer.astro";
 import Stars from "../../components/Stars.astro";
 import CourseCard from "../../components/CourseCard.astro";
 import { courses, getCourse } from "../../data/courses";
+import { reviewsFor } from "../../data/reviews";
 import { u } from "../../lib/u";
 export function getStaticPaths() { return courses.map(c => ({ params: { slug: c.slug } })); }
 const { slug } = Astro.params;
 const course = getCourse(slug!);
 if (!course) throw new Error("not found");
-const others = courses.filter(c => c.slug !== course.slug).slice(0,3);
+const others = courses.filter(c => c.slug !== course.slug && c.categorySlug === course.categorySlug).slice(0,3);
+const fallback = courses.filter(c => c.slug !== course.slug).slice(0,3);
+const rel = (others.length ? others : fallback);
+const revs = reviewsFor(course.slug!);
+const c = course;
+const pct = c.ratingBreakdown ?? {};
+const q = c.quality ?? {};
+const desc = `${c.title} review: ${c.rating}★ from ${c.reviews.toLocaleString()} students, $${c.price}, ${c.duration} — real Udemy course reviews entry on CourseDepth.`;
+const ld: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  name: c.title,
+  description: c.description,
+  provider: { "@type": "Organization", name: c.provider, sameAs: c.url },
+  inLanguage: c.language ?? "en",
+  url: c.url,
+  image: c.image,
+  offers: { "@type": "Offer", price: c.price, priceCurrency: "USD", availability: "https://schema.org/InStock" },
+  ...(c.instructor ? { instructor: { "@type": "Person", name: c.instructor } } : {}),
+  aggregateRating: { "@type": "AggregateRating", ratingValue: c.rating, reviewCount: c.reviews, bestRating: 5, worstRating: 1 },
+  review: revs.slice(0, 5).map(r => ({
+    "@type": "Review", author: { "@type": "Person", name: r.author }, reviewBody: r.body,
+    datePublished: r.date, reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5, worstRating: 1 },
+  })),
+};
+const faqLd = c.faq?.length ? { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: c.faq.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) } : null;
 ---
-<Layout title={`${course.title} — CourseDepth`}>
+<Layout title={`${c.title} — Udemy Course Reviews, Price & Rating | CourseDepth`} description={desc}>
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />
+{faqLd && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
 <Header />
 <div class="container">
   <nav class="crumbs" style="padding-top:14px">
-    <a href={u("/")}>Home</a> › <a href={u("/programming")}>All categories</a> › <a href={u(`/programming/${course.categorySlug}`)}>{course.category}</a> › <span>{course.title.slice(0,40)}…</span>
+    <a href={u("/")}>Home</a> › <a href={u("/programming")}>All categories</a> › <a href={u(`/programming/${c.categorySlug}`)}>{c.category}</a> › <span>{c.title.slice(0,40)}…</span>
   </nav>
   <div class="badges">
-    <span class="chip active">{course.provider}</span>
-    {course.bestseller && <span class="chip" style="background:var(--yellow);border-color:var(--yellow);font-weight:700">Bestseller</span>}
-    <a class="chip" href={u(`/programming/${course.categorySlug}`)}>{course.category}</a>
-    <span class="chip">Paid course</span>
-    <span class="chip">{course.level}</span>
-    <span class="chip">Certificate</span>
+    <span class="chip active">{c.provider}</span>
+    {c.bestseller && <span class="chip" style="background:var(--yellow);border-color:var(--yellow);font-weight:700">Bestseller</span>}
+    <a class="chip" href={u(`/programming/${c.categorySlug}`)}>{c.category}</a>
+    <span class="chip">{c.price > 0 ? "Paid course" : "Free"}</span>
+    <span class="chip">{c.level}</span>
+    {c.certificate && <span class="chip">Certificate</span>}
   </div>
-  <h1 style="max-width:820px">{course.title} ({course.provider})</h1>
-  <p style="font-size:1.15rem;color:var(--muted);max-width:760px">{course.description}</p>
+  <h1 style="max-width:820px">{c.title} ({c.provider})</h1>
+  <p style="font-size:1.15rem;color:var(--muted);max-width:760px">{c.description}</p>
   <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin:10px 0 22px">
-    <span style="font-size:2rem;font-weight:800">{course.rating}</span>
-    <Stars rating={course.rating} reviews={course.reviews} />
-    <a href="#reviews" style="font-weight:600">({course.reviews.toLocaleString()} reviews)</a>
-    <span>Created by: <b>{course.instructor}</b></span>
-    <span style="color:var(--muted)">Last updated {course.updated}</span>
+    <span style="font-size:2rem;font-weight:800">{c.rating}</span>
+    <Stars rating={c.rating} reviews={c.reviews} />
+    <a href="#reviews" style="font-weight:600">({c.reviews.toLocaleString()} reviews)</a>
+    <span>Created by: <b>{c.instructor}</b></span>
+    <span style="color:var(--muted)">Last updated {c.updated}</span>
   </div>
 </div>
 <section class="section" style="padding-top:0"><div class="container detail-grid">
   <div class="detail-main">
     <div class="review" style="border-left:4px solid var(--yellow)">
       <h3 style="margin-top:0">Our take</h3>
-      <p>Based on {course.reviews.toLocaleString()} student ratings, this {course.duration} {course.level.toLowerCase()} course is one of the highest rated in {course.category}. Students praise the clear structure and hands-on exercises. No course pays to be reviewed.</p>
-      <p><b>Best for:</b> beginners who want a guided path through {course.category}. <b>Skip it if:</b> you already work professionally in this stack and want advanced real-world projects.</p>
+      <p>{c.summary}</p>
+      <p><b>Best for:</b> {c.bestFor}. <b>Skip it if:</b> {c.skipIf}.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px">
-        <div><b>✅ Pros</b><ul style="margin:6px 0;padding-left:18px;color:var(--text)"><li>Clear explanations from basics</li><li>Quizzes and coding exercises</li><li>Fresh {course.updated} update</li></ul></div>
-        <div><b>❌ Cons</b><ul style="margin:6px 0;padding-left:18px;color:var(--text)"><li>Fast pace in places</li><li>Some sections feel dense</li><li>Little advanced content</li></ul></div>
+        <div><b>✅ Pros</b><ul style="margin:6px 0;padding-left:18px;color:var(--text)">{c.pros?.map(p => <li>{p}</li>)}</ul></div>
+        <div><b>❌ Cons</b><ul style="margin:6px 0;padding-left:18px;color:var(--text)">{c.cons?.map(p => <li>{p}</li>)}</ul></div>
       </div>
     </div>
-    <div class="review"><h3>📘 What you will learn</h3><ul><li>Core {course.category} skills from zero to confident</li><li>Hands-on projects for your portfolio</li><li>Best practices used in real jobs</li><li>Lifetime access with {course.updated} refresh</li></ul></div>
-    <div class="review"><h3>📑 Course content</h3><p>8 sections · 60+ lectures · {course.duration} of video · quizzes + exercises · articles</p><ol><li>Getting started — setup and tools (free preview)</li><li>Core foundations — syntax and structures</li><li>Intermediate skills — functions and modules</li><li>Applied practice — quizzes and challenges</li><li>Capstone projects — portfolio pieces</li></ol><details><summary style="font-weight:700;cursor:pointer">Show all sections</summary><ol start="6"><li>Advanced patterns and best practices</li><li>Final project + next steps</li></ol></details></div>
-    <div class="review"><h3>🎯 Who it is for</h3><p><b>Suits:</b> complete beginners, career switchers, and anyone wanting one guided path.</p><p><b>Needs:</b> a computer with internet. No experience required.</p></div>
-    <div class="review"><h3>📊 Quality score</h3><p>Content ⭐⭐⭐⭐⭐ · Video ⭐⭐⭐⭐⭐ · Instructor ⭐⭐⭐⭐⭐ · Pace ⭐⭐⭐⭐ · Depth ⭐⭐⭐⭐</p><p><b>Overall: 92 / 100</b> — based on student ratings. Please <a href={u("/login")}>sign in</a> to vote.</p></div>
-    <div class="review"><h3>👤 Instructor</h3><p><b>{course.instructor}</b> — top-rated instructor in {course.category} with a focus on beginner-friendly teaching.</p><a href={u("/instructors")} style="font-weight:700">All courses by {course.instructor} →</a></div>
-    <h2 id="reviews" style="margin-top:24px">Reviews</h2>
-    <div class="review"><b>{course.rating} · {course.reviews.toLocaleString()} ratings on {course.provider}</b><br />⭐ 5 — 60% ██████<br />⭐ 4 — 28% ███<br />⭐ 3 — 8% █<br />⭐ 2 — 2% ▎<br />⭐ 1 — 2% ▎<br /><a href={u("/review-course")} style="font-weight:700">Write a review →</a></div>
-    <div class="review"><b>⭐⭐⭐⭐⭐ James P.</b><p>"Well-structured content with real examples. Immediately useful at work."</p></div>
-    <div class="review"><b>⭐⭐⭐⭐⭐ Sarah M.</b><p>"Clear explanations and plenty of exercises. The 2026 update feels fresh."</p></div>
-    <div class="review"><b>⭐⭐⭐⭐ Emily A.</b><p>"A bit fast in the middle, but the Q&A helped a lot."</p></div>
+    <div class="review"><h3>📘 What you will learn</h3><ul>{c.learn?.map(l => <li>{l}</li>)}</ul></div>
+    <div class="review"><h3>📑 Course content</h3>
+      <p>{c.sections} sections · {c.lectures} lectures · {c.duration.replace(" total","")} of video · updated {c.updated}</p>
+      <ol>{c.curriculum?.map(s => <li><b>{s.title}</b> — {s.lectures} lectures · {s.duration}</li>)}</ol>
+    </div>
+    <div class="review"><h3>🎯 Who it is for</h3><p><b>Suits:</b> {c.suits}.</p><p><b>Needs:</b> {c.requirements}</p></div>
+    {q.total && <div class="review"><h3>📊 Quality score</h3>
+      <p>Content ⭐ {q.content} · Video ⭐ {q.video} · Instructor ⭐ {q.instructor} · Pace ⭐ {q.pace} · Depth ⭐ {q.depth}</p>
+      <p><b>Overall: {q.total} / 100</b> — based on student ratings and review depth.</p></div>}
+    <div class="review"><h3>👤 Instructor</h3><p><b>{c.instructor}</b> — {c.instructorBio}</p><a href={u(`/instructors#${c.instructorSlug || ""}`)} style="font-weight:700">All courses by {c.instructor} →</a></div>
+    {c.faq?.length && <div class="review"><h3>❓ FAQ</h3>{c.faq.map(f => <div style="margin-bottom:10px"><b>{f.q}</b><p style="margin:4px 0 0;color:var(--text)">{f.a}</p></div>)}</div>}
+    <h2 id="reviews" style="margin-top:24px">Reviews ({c.reviews.toLocaleString()})</h2>
+    <div class="review">
+      <b>{c.rating} · {c.reviews.toLocaleString()} ratings on {c.provider}</b>
+      {[5,4,3,2,1].map(n => <div style="display:flex;gap:8px;align-items:center;margin:4px 0;font-size:14px">
+        <span style="width:36px">⭐ {n}</span>
+        <span style="flex:1;background:var(--star-off);border-radius:4px;height:8px;overflow:hidden"><span style="display:block;height:100%;width:{pct[n] ?? 0}%;background:var(--yellow)"></span></span>
+        <span style="width:42px;text-align:right;color:var(--muted)">{pct[n] ?? 0}%</span>
+      </div>)}
+      <a href={u(`/review-course?course=${c.slug}`)} style="font-weight:700;display:inline-block;margin-top:8px">Write a review →</a>
+    </div>
+    {revs.length ? revs.map(r => <div class="review">
+      <b>{"⭐".repeat(Math.round(r.rating))} {r.author}</b>
+      <span style="color:var(--muted);font-size:13px"> · {r.date}{r.level ? ` · ${r.level}` : ""}{r.helpful ? ` · ${r.helpful} found this helpful` : ""}</span>
+      {r.title && <h3 style="font-size:1rem;margin:6px 0 4px">{r.title}</h3>}
+      <p>{r.body}</p>
+      {(r.pros?.length || r.cons?.length) && <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+        {r.pros?.length && <div><b>✅ Pros</b><ul style="margin:4px 0;padding-left:18px">{r.pros.map(p => <li>{p}</li>)}</ul></div>}
+        {r.cons?.length && <div><b>❌ Cons</b><ul style="margin:4px 0;padding-left:18px">{r.cons.map(p => <li>{p}</li>)}</ul></div>}
+      </div>}
+    </div>) : <div class="review"><p>No written reviews yet. <a href={u(`/review-course?course=${c.slug}`)} style="font-weight:700">Be the first to review this course →</a></p></div>}
     <h2 style="margin-top:24px">Related courses</h2>
-    <div class="course-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">{others.map(c => <CourseCard course={c} />)}</div>
+    <div class="course-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">{rel.map(x => <CourseCard course={x} />)}</div>
   </div>
   <aside class="side-card">
-    <div class="course-thumb" style="border-radius:10px;overflow:hidden"><img src={u(course.image ?? `/images/courses/${course.slug}.svg`)} alt={course.title} width="640" height="360" /></div>
-    <div style="font-size:28px;font-weight:800;margin-top:10px">${course.price}</div>
-    <div style="margin:6px 0"><Stars rating={course.rating} reviews={course.reviews} showCount={false} /></div>
-    <a href={course.url ?? u("/review-course")} class="btn-dark" style="display:flex;width:100%;margin-top:10px" target={course.url ? "_blank" : undefined} rel={course.url ? "noopener sponsored" : undefined}>Visit course on {course.provider} →</a>
-    <a href={u("/review-course")} class="btn-review" style="display:flex;justify-content:center;margin-top:10px">Write a review</a>
+    <div class="course-thumb" style="border-radius:10px;overflow:hidden"><img src={u(c.image ?? `/images/courses/${c.slug}.svg`)} alt={c.title} width="640" height="360" /></div>
+    <div style="font-size:28px;font-weight:800;margin-top:10px">${c.price}{c.oldPrice ? <s style="font-size:16px;color:var(--muted);font-weight:600;margin-left:8px">${c.oldPrice}</s> : null}</div>
+    <div style="margin:6px 0"><Stars rating={c.rating} reviews={c.reviews} showCount={false} /></div>
+    <a href={c.url ?? u("/review-course")} class="btn-dark" style="display:flex;width:100%;margin-top:10px" target={c.url ? "_blank" : undefined} rel={c.url ? "noopener sponsored" : undefined}>Visit course on {c.provider} →</a>
+    <a href={u(`/review-course?course=${c.slug}`)} class="btn-review" style="display:flex;justify-content:center;margin-top:10px">Write a review</a>
     <hr />
     <div style="font-size:14px;display:grid;gap:6px">
-      <div>⏱ Video Duration: <b>{course.duration}</b></div>
-      <div>💲 Price: <b>${course.price}</b></div>
-      <div>🏢 Provider: <b>{course.provider}</b></div>
-      <div>🔄 Updated: <b>{course.updated}</b></div>
-      <div>📶 Level: <b>{course.level}</b></div>
-      <div>🌐 Language: <b>English</b></div>
-      <div>🎓 Certificate: <b>Yes</b></div>
-      <div>📚 Lectures: <b>60+ in 8 sections</b></div>
-      <div>📝 Practice: <b>quizzes + exercises</b></div>
-      <div>👥 Students: <b>100K+</b></div>
+      <div>⏱ Video Duration: <b>{c.duration.replace(" total","")}</b></div>
+      <div>💲 Price: <b>${c.price}</b></div>
+      <div>🏢 Provider: <b>{c.provider}</b></div>
+      <div>🔄 Updated: <b>{c.updated}</b></div>
+      <div>📶 Level: <b>{c.level}</b></div>
+      <div>🌐 Language: <b>{c.language}</b></div>
+      <div>🎓 Certificate: <b>{c.certificate ? "Yes" : "No"}</b></div>
+      <div>📚 Lectures: <b>{c.lectures} in {c.sections} sections</b></div>
+      <div>♾️ Access: <b>{c.access}</b></div>
+      <div>👥 Students: <b>{c.students?.toLocaleString()}</b></div>
+      <div>↩️ Money-back: <b>{c.moneyBack ? "30 days" : "No"}</b></div>
     </div>
-    <p style="font-size:12px;color:var(--muted)">30-day money-back on most paid courses. Some links earn us commission at no cost to you.</p>
+    <p style="font-size:12px;color:var(--muted)">{c.moneyBack ? "30-day money-back on most paid courses. " : ""}Some links earn us commission at no cost to you.</p>
   </aside>
 </div></section>
 <Footer />

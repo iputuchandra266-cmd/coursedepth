@@ -2,20 +2,71 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { courses } from "../data/courses";
+import { u } from "../lib/u";
+const dev = import.meta.env.DEV;
+const API = u("/api/reviews");
 ---
-<Layout title="Write a review — CourseDepth">
+<Layout title="Write a Udemy Course Review — CourseDepth" description="Share your honest Udemy course review: rating, sub-ratings, pros and cons. Help thousands of students pick the right course.">
 <Header />
 <section class="page-hero"><div class="container"><h1>Write a review</h1><p>A two-minute review helps thousands of students. Providers cannot edit or remove what you write.</p></div></section>
 <section class="section"><div class="container" style="max-width:680px">
-<form class="form-card" onsubmit="event.preventDefault();document.getElementById('done').style.display='block';window.scrollTo(0,0)">
-<label>Course title</label><input required placeholder="e.g. The Complete Python Bootcamp" />
-<label>Provider</label><select><option>Udemy</option><option>Coursera</option><option>edX</option><option>Udacity</option><option>Pluralsight</option><option>YouTube</option><option>Other</option></select>
-<label>Rating</label><select><option>5 — Excellent</option><option>4 — Good</option><option>3 — Average</option><option>2 — Poor</option><option>1 — Terrible</option></select>
-<label>Your review</label><textarea rows="5" required placeholder="What did you like? What could be better?"></textarea>
-<label>Display name</label><input placeholder="e.g. Alex" />
-<button class="btn-dark" style="margin-top:14px;width:100%">Submit review</button>
-<p id="done" style="display:none;background:#dcfce7;border:1px solid #16a34a;padding:10px;border-radius:10px;margin-top:12px">Thanks! Your review was received and will be published after moderation.</p>
+{!dev && <p style="background:#fef3c7;border:1px solid #fcd34d;color:#92400e;padding:12px;border-radius:10px;font-size:14px">Situs produksi statis tidak menyimpan data. Preview lokal (<code>npm run dev</code> / <code>npm run admin</code>) menyimpan review langsung ke data; di produksi kirim review lewat form ini untuk dimoderasi.</p>}
+<form class="form-card" id="revForm">
+<label>Course *</label>
+<select name="slug" id="courseSel" required>
+  <option value="">— pilih course —</option>
+  {courses.map(c => <option value={c.slug}>{c.title} ({c.provider})</option>)}
+</select>
+<label>Overall rating *</label>
+<select name="rating" required>
+  <option value="5">5 — Excellent</option><option value="4.5">4.5</option><option value="4">4 — Good</option>
+  <option value="3.5">3.5</option><option value="3">3 — Average</option><option value="2">2 — Poor</option><option value="1">1 — Terrible</option>
+</select>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+  <div><label>Materi</label><select name="content"><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select></div>
+  <div><label>Penyampaian</label><select name="instructor"><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select></div>
+  <div><label>Value for money</label><select name="value"><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select></div>
+  <div><label>Mudah diikuti</label><select name="ease"><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select></div>
+</div>
+<label>Judul review</label><input name="title" placeholder="e.g. Worth it, clear and practical" />
+<label>Isi review *</label><textarea name="body" rows="5" required placeholder="What did you like? What could be better?"></textarea>
+<label>Pros (opsional)</label><textarea name="pros" rows="2" placeholder="One per line"></textarea>
+<label>Cons (opsional)</label><textarea name="cons" rows="2" placeholder="One per line"></textarea>
+<label>Level saat ambil course</label><select name="level"><option>Beginner</option><option>Intermediate</option><option>Advanced</option><option>All levels</option></select>
+<label>Nama tampilan</label><input name="author" placeholder="e.g. Alex" />
+<button class="btn-dark" style="margin-top:14px;width:100%" type="submit">Submit review</button>
+<p id="done" style="display:none;background:#dcfce7;border:1px solid #16a34a;padding:10px;border-radius:10px;margin-top:12px"></p>
 </form>
 </div></section>
 <Footer />
+<script define:vars={{ API }}>
+  const form = document.getElementById("revForm");
+  const done = document.getElementById("done");
+  const pre = new URLSearchParams(location.search).get("course");
+  if (pre) { const sel = document.getElementById("courseSel"); if ([...sel.options].some(o => o.value === pre)) sel.value = pre; }
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const f = form.elements;
+    const lines = (v) => v.split("\\n").map(x => x.trim()).filter(Boolean);
+    const payload = {
+      slug: f.slug.value, rating: Number(f.rating.value), title: f.title.value.trim(), body: f.body.value.trim(),
+      author: f.author.value.trim() || "Anonymous", level: f.level.value,
+      pros: lines(f.pros.value), cons: lines(f.cons.value),
+      subRatings: { content: Number(f.content.value), instructor: Number(f.instructor.value), value: Number(f.value.value), ease: Number(f.ease.value) },
+    };
+    try {
+      const r = await fetch(API, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(payload) });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.error || r.statusText);
+      done.style.display = "block"; done.textContent = "Thanks! Your review was published.";
+      form.reset();
+      window.scrollTo(0, 0);
+    } catch (err) {
+      done.style.display = "block";
+      done.style.background = "#fee2e2"; done.style.borderColor = "#dc2626";
+      done.textContent = "Gagal: " + err.message;
+    }
+  });
+</script>
 </Layout>

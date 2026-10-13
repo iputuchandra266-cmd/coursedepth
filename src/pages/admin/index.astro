@@ -12,31 +12,36 @@ const dev = import.meta.env.DEV;
 <style is:global>
 :root{--bg:#0b0e14;--surface:#11151c;--surface2:#1c212b;--border:#1e242e;--border2:#232b36;--text:#EDE9DC;--muted:#868d9b;--faint:#5a6472;--accent:#A9C7FF;--acc-dim:rgba(169,199,255,.12);--acc-bd:rgba(169,199,255,.30);--danger:#f07178;--ok:#aad94c;--yellow:#ffc900}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;-webkit-font-smoothing:antialiased;color-scheme:dark}
 a{text-decoration:none}
 ::placeholder{color:var(--faint);opacity:1}
 svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 .adm{min-height:100vh;display:flex}
 /* sidebar */
-.sb{width:258px;flex-shrink:0;background:var(--bg);border-right:1px solid var(--border);position:sticky;top:0;height:100vh;display:flex;flex-direction:column;z-index:60}
-.brand{display:flex;align-items:center;gap:.8rem;padding:1.25rem 1.25rem 1rem}
-.brand-logo{width:40px;height:40px;border-radius:.7rem;background:var(--accent);color:#0b0e14;font-weight:800;font-size:1.1rem;display:grid;place-items:center;box-shadow:0 6px 18px rgba(169,199,255,.25)}
-.brand-name{font-weight:800;font-size:1rem;line-height:1.1}
-.brand-sub{font-size:.72rem;color:var(--faint);font-weight:600;letter-spacing:.04em;text-transform:uppercase}
-.nav{flex:1;padding:.5rem .9rem 1rem}
-.nav-sec{font-size:.7rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--faint);padding:.9rem .75rem .45rem}
-.nav-item{display:flex;align-items:center;gap:.7rem;padding:.62rem .8rem;border-radius:.6rem;color:var(--muted);font-weight:600;font-size:.9rem;margin-bottom:2px;border:1px solid transparent;transition:.15s;position:relative}
-.nav-item:hover{background:var(--surface2);color:var(--text)}
-.nav-item.active{background:var(--acc-dim);color:var(--accent);font-weight:700;border-color:var(--acc-bd)}
-.nav-item.active::before{content:"";position:absolute;left:-9px;top:50%;transform:translateY(-50%);width:3px;height:20px;border-radius:2px;background:var(--accent)}
-.sb-foot{padding:.9rem;border-top:1px solid var(--border2)}
+
+
+
+
+
+
+
+
+
+
+
+
 /* main */
 .main{flex:1;min-width:0;display:flex;flex-direction:column}
+.brand-mini{display:flex;align-items:center;gap:.6rem;padding-right:1rem;border-right:1px solid var(--border);margin-right:.25rem}
+.brand-logo{width:38px;height:38px;border-radius:.7rem;background:var(--accent);color:#0b0e14;font-weight:800;font-size:1.05rem;display:grid;place-items:center;box-shadow:0 6px 18px rgba(169,199,255,.25)}
+.brand-name{font-weight:800;font-size:.98rem;line-height:1.1}
+.brand-sub{font-size:.68rem;color:var(--faint);font-weight:600;letter-spacing:.04em;text-transform:uppercase}
 .top{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:1rem;padding:.95rem 1.5rem;background:rgba(11,14,20,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);flex-wrap:wrap}
-.title{margin:0;font-size:1.4rem;font-weight:800}
+.title{margin:0;font-size:1.35rem;font-weight:800}
 .badge{font-size:.78rem;color:var(--muted);background:var(--surface2);border:1px solid var(--border);padding:.25rem .7rem;border-radius:999px;white-space:nowrap}
 .top-r{display:flex;gap:.6rem;margin-left:auto;flex-wrap:wrap}
-.content{width:100%;max-width:1340px;margin:0 auto;padding:1.75rem 1.5rem 4rem}
+.content{width:100%;max-width:1440px;margin:0 auto;padding:1.75rem 1.5rem 4rem}
 /* buttons */
 .btn{display:inline-flex;align-items:center;gap:.45rem;padding:.65rem 1.25rem;border-radius:.6rem;font-weight:700;font-size:.88rem;cursor:pointer;border:1px solid transparent;color:inherit;font-family:inherit;line-height:1;transition:.15s}
 .btn svg{width:16px;height:16px}
@@ -105,33 +110,13 @@ tbody tr:hover td:last-child{background:var(--surface2)}
 #toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(8px);background:#1c212b;border:1px solid var(--acc-bd);color:var(--accent);padding:.7rem 1.2rem;border-radius:.7rem;font-weight:700;font-size:.88rem;opacity:0;pointer-events:none;transition:.2s;z-index:99;box-shadow:0 16px 40px rgba(0,0,0,.5)}
 #toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
 #toast.err{color:var(--danger);border-color:rgba(240,113,120,.4)}
-@media(max-width:920px){.sb{display:none}.content{padding:1.25rem 1rem 3rem}.ed-grid{grid-template-columns:1fr}}
+@media(max-width:920px){.content{padding:1.25rem 1rem 3rem}.ed-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<div class="adm">
-  <aside class="sb">
-    <div class="brand">
-      <div class="brand-logo">C</div>
-      <div><div class="brand-name">Course<em style="font-style:normal;color:var(--accent)">Depth</em></div><div class="brand-sub">Admin Panel</div></div>
-    </div>
-    <nav class="nav">
-      <div class="nav-sec">Manage</div>
-      <a class="nav-item active" href="/admin">
-        <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-        Courses
-      </a>
-    </nav>
-    <div class="sb-foot">
-      <a class="nav-item" href="/" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-        View Site
-      </a>
-    </div>
-  </aside>
-
-  <div class="main">
+<div class="main">
     <header class="top">
+      <div class="brand-mini"><div class="brand-logo">C</div><div><div class="brand-name">Course<em style="font-style:normal;color:var(--accent)">Depth</em></div><div class="brand-sub">Admin Panel</div></div></div>
       <h1 class="title">Courses</h1>
       <span class="badge" id="badge">memuat…</span>
       <div class="top-r">
@@ -168,6 +153,22 @@ tbody tr:hover td:last-child{background:var(--surface2)}
         </div>
       </form>
 
+      <div id="revSec" hidden style="border-top:1px solid var(--border);margin-top:1rem;padding-top:1rem">
+          <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem">
+            <h3 style="margin:0;font-size:.95rem">Reviews siswa</h3>
+            <span class="count" id="revCount"></span>
+            <button type="button" class="btn btn-o btn-sm" id="revNew">+ Tambah</button>
+          </div>
+          <div id="revList"></div>
+          <form id="revForm" hidden style="margin-top:.8rem;display:grid;grid-template-columns:1fr 100px 140px 2fr auto;gap:.6rem;align-items:end">
+            <div class="f"><label>Nama</label><input name="author" required></div>
+            <div class="f"><label>Rating</label><input name="rating" type="number" step="0.1" min="1" max="5" required></div>
+            <div class="f"><label>Tanggal</label><input name="date" placeholder="03/2025"></div>
+            <div class="f"><label>Teks review</label><input name="body" required></div>
+            <div style="display:flex;gap:.4rem"><button type="submit" class="btn btn-p btn-sm">Simpan</button><button type="button" class="btn btn-o btn-sm" id="revCancel">Batal</button></div>
+          </form>
+        </div>
+
       <div class="card">
         <div class="toolbar">
           <div class="search">
@@ -184,9 +185,9 @@ tbody tr:hover td:last-child{background:var(--surface2)}
           </table>
         </div>
       </div>
+
     </main>
   </div>
-</div>
 
 <div id="toast"></div>
 
@@ -199,6 +200,7 @@ tbody tr:hover td:last-child{background:var(--surface2)}
     { k: "categorySlug", l: "Kategori slug" },
     { k: "instructor", l: "Instructor" },
     { k: "instructorSlug", l: "Instructor slug" },
+    { k: "instructorImage", l: "Image instructor (URL)", full: 1 },
     { k: "rating", l: "Rating (0–5)", t: "number", step: "0.1" },
     { k: "reviews", l: "Jumlah review", t: "number" },
     { k: "price", l: "Harga ($)", t: "number", step: "0.01" },
@@ -210,6 +212,26 @@ tbody tr:hover td:last-child{background:var(--surface2)}
     { k: "description", l: "Deskripsi", t: "textarea", full: 1 },
     { k: "image", l: "Image URL/path", full: 1 },
     { k: "url", l: "URL kursus", full: 1 },
+    { k: "language", l: "Bahasa" },
+    { k: "certificate", l: "Sertifikat", t: "checkbox" },
+    { k: "students", l: "Jumlah siswa", t: "number" },
+    { k: "sections", l: "Jumlah section", t: "number" },
+    { k: "lectures", l: "Jumlah lecture", t: "number" },
+    { k: "access", l: "Akses" },
+    { k: "moneyBack", l: "Money-back 30 hari", t: "checkbox" },
+    { k: "summary", l: "Our take (ringkasan editor)", t: "textarea", full: 1 },
+    { k: "bestFor", l: "Best for" },
+    { k: "skipIf", l: "Skip it if" },
+    { k: "suits", l: "Who it suits" },
+    { k: "requirements", l: "Requirements" },
+    { k: "learn", l: "What you will learn (1 per baris)", t: "lines", full: 1 },
+    { k: "curriculum", l: "Curriculum (Judul | lecture | durasi, per baris)", t: "curriculum", full: 1 },
+    { k: "pros", l: "Pros (1 per baris)", t: "lines" },
+    { k: "cons", l: "Cons (1 per baris)", t: "lines" },
+    { k: "instructorBio", l: "Bio instructor", t: "textarea", full: 1 },
+    { k: "ratingBreakdown", l: "Rating breakdown % (5,4,3,2,1 dipisah koma)", t: "breakdown" },
+    { k: "quality", l: "Quality score (content,video,instructor,pace,depth,total — koma)", t: "quality" },
+    { k: "faq", l: "FAQ (Pertanyaan | Jawaban, per baris)", t: "faq", full: 1 },
   ];
   let data = [], editing = null;
   const $ = (s) => document.querySelector(s);
@@ -258,7 +280,7 @@ tbody tr:hover td:last-child{background:var(--surface2)}
         ? `<img class="thumb" src="${esc(c.image)}" alt="" loading="lazy">`
         : '<div class="thumb-fb">🎓</div>';
       return `<tr>
-        <td><div class="course">${img}<div style="min-width:0"><a class="link" href="${c.url ? esc(c.url) : "#"}" target="_blank" rel="noopener">${esc(c.title)}</a><span class="chip">/${esc(c.slug)}</span></div></div></td>
+        <td><div class="course">${img}<div style="min-width:0"><a class="link" href="/course/${esc(c.slug)}/" target="_blank" rel="noopener" title="Buka di situs CourseDepth">${esc(c.title)}</a><span class="chip">/${esc(c.slug)}</span></div></div></td>
         <td><span class="chip chip-acc">${esc(c.category)}</span></td>
         <td>${esc(c.provider)}</td>
         <td><span class="rate">★ ${Number(c.rating || 0).toFixed(1)} <small>(${Number(c.reviews || 0).toLocaleString()})</small></span></td>
@@ -275,17 +297,23 @@ tbody tr:hover td:last-child{background:var(--surface2)}
       const v = course ? course[f.k] : "";
       const req = f.req ? " required" : "", full = f.full ? " full" : "", step = f.step ? ` step="${f.step}"` : "";
       if (f.t === "textarea") return `<div class="f ${full}"><label>${f.l}</label><textarea name="${f.k}">${esc(v)}</textarea></div>`;
+      if (f.t === "lines") return `<div class="f ${full}"><label>${f.l}</label><textarea name="${f.k}">${esc((v || []).join("\n"))}</textarea></div>`;
+      if (f.t === "curriculum") return `<div class="f ${full}"><label>${f.l}</label><textarea name="${f.k}">${esc((v || []).map(x => `${x.title} | ${x.lectures} | ${x.duration}`).join("\n"))}</textarea></div>`;
+      if (f.t === "breakdown") return `<div class="f ${full}"><label>${f.l}</label><input name="${f.k}" value="${esc(v ? [v[5],v[4],v[3],v[2],v[1]].join(",") : "")}"></div>`;
+      if (f.t === "quality") return `<div class="f ${full}"><label>${f.l}</label><input name="${f.k}" value="${esc(v ? [v.content,v.video,v.instructor,v.pace,v.depth,v.total].join(",") : "")}"></div>`;
+      if (f.t === "faq") return `<div class="f ${full}"><label>${f.l}</label><textarea name="${f.k}">${esc((v || []).map(x => `${x.q} | ${x.a}`).join("\n"))}</textarea></div>`;
       if (f.t === "checkbox") return `<div class="chk full"><input type="checkbox" name="${f.k}" id="c_${f.k}" ${v ? "checked" : ""}><label for="c_${f.k}">${f.l}</label></div>`;
       return `<div class="f ${full}"><label>${f.l}</label><input type="${f.t === "number" ? "number" : "text"}"${step}${req} name="${f.k}" value="${esc(v)}"></div>`;
     }).join("");
   }
-  function closeEd() { form.hidden = true; editing = null; }
+  function closeEd() { form.hidden = true; editing = null; revSec.hidden = true; }
   function open(course) {
     editing = course;
     $("#dlgTitle").textContent = course ? "Edit kursus" : "Tambah kursus baru";
     const st = $("#edStatus"); st.textContent = ""; st.className = "ed-status";
     buildFields(course);
     form.hidden = false;
+    revLoad(course ? course.slug : null);
     form.scrollIntoView({ behavior: "smooth", block: "start" });
     setTimeout(() => form.querySelector("input")?.focus(), 250);
   }
@@ -314,7 +342,15 @@ tbody tr:hover td:last-child{background:var(--surface2)}
     for (const f of FIELDS) {
       const el = form.elements[f.k];
       if (!el) continue;
-      if (f.t === "checkbox") { if (el.checked) body[f.k] = true; }
+      if (["lines","curriculum","faq"].includes(f.t)) {
+        const rows2 = el.value.split("\n").map(x => x.trim()).filter(Boolean);
+        if (f.t === "curriculum") body[f.k] = rows2.map(l => { const [title, lectures, duration] = l.split("|").map(x => (x||"").trim()); return { title, lectures: Number(lectures)||0, duration: duration||"" }; });
+        else if (f.t === "faq") body[f.k] = rows2.map(l => { const i = l.indexOf("|"); return { q: l.slice(0,i).trim(), a: l.slice(i+1).trim() }; }).filter(x => x.q);
+        else body[f.k] = rows2;
+      }
+      else if (f.t === "breakdown") { const [a,b,cc,d,e2] = el.value.split(",").map(x => Number(x)||0); body[f.k] = { 5:a, 4:b, 3:cc, 2:d, 1:e2 }; }
+      else if (f.t === "quality") { const [content,video,instructor,pace,depth,total] = el.value.split(",").map(x => Number(x)||0); body[f.k] = { content,video,instructor,pace,depth,total }; }
+      else if (f.t === "checkbox") { if (el.checked) body[f.k] = true; }
       else if (f.t === "number") { const n = Number(el.value); if (el.value !== "" && !Number.isNaN(n)) body[f.k] = n; }
       else if (el.value.trim() !== "") body[f.k] = el.value.trim();
     }
@@ -336,11 +372,54 @@ tbody tr:hover td:last-child{background:var(--surface2)}
     }
   }, true);
 
-  load();
+
+  const RAPI = API.replace(/courses$/, "reviews");
+  let revAll = [], revEdit = null;
+  const revForm = $("#revForm"), revList = $("#revList"), revSec = $("#revSec");
+  async function revLoad(slug) {
+    if (!slug) { revSec.hidden = true; return; }
+    revSec.hidden = false;
+    try { revAll = (await api(RAPI)).filter(r => r.slug === slug); } catch { revAll = []; }
+    $("#revCount").textContent = revAll.length + " review";
+    revList.innerHTML = revAll.length ? revAll.map(r => `
+      <div style="display:flex;gap:.75rem;align-items:flex-start;padding:.55rem 0;border-bottom:1px solid var(--border2)">
+        <div style="flex:1;min-width:0"><b>${esc(r.author)}</b> &#11088;${Number(r.rating).toFixed(1)} <small style="color:var(--faint)">${esc(r.date || "")}</small>
+          <div style="color:var(--muted);font-size:.9rem">${esc(r.body || "")}</div></div>
+        <button type="button" class="btn btn-o btn-sm" data-rev-edit="${esc(r.id)}">Edit</button>
+        <button type="button" class="btn btn-d btn-sm" data-rev-del="${esc(r.id)}">Hapus</button>
+      </div>`).join("") : '<div style="color:var(--muted);font-size:.9rem">Belum ada review.</div>';
+  }
+  $("#revNew").addEventListener("click", () => { revEdit = null; revForm.reset(); revForm.hidden = false; revForm.author.focus(); });
+  $("#revCancel").addEventListener("click", () => { revEdit = null; revForm.hidden = true; });
+  revList.addEventListener("click", async (e) => {
+    const ed = e.target.closest("[data-rev-edit]"), dl = e.target.closest("[data-rev-del]");
+    if (ed) {
+      const r = revAll.find(x => x.id === ed.dataset.revEdit); if (!r) return;
+      revEdit = r.id;
+      ["author","rating","date","body"].forEach(k => { if (revForm[k]) revForm[k].value = r[k] ?? ""; });
+      revForm.hidden = false; revForm.author.focus();
+    }
+    if (dl) {
+      if (!confirm("Hapus review ini?")) return;
+      try { await api(RAPI + "?id=" + encodeURIComponent(dl.dataset.revDel), { method: "DELETE" }); revForm.hidden = true; revEdit = null; revLoad(editing && editing.slug); toast("Review dihapus"); }
+      catch (err) { toast(err.message, true); }
+    }
+  });
+  revForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    if (!editing) return;
+    const f = new FormData(revForm);
+    const body = { slug: editing.slug, author: f.get("author"), rating: parseFloat(f.get("rating")), date: f.get("date") || undefined, body: f.get("body") };
+    try {
+      await (revEdit ? api(RAPI + "?id=" + encodeURIComponent(revEdit), { method: "PUT", body: JSON.stringify(body) }) : api(RAPI, { method: "POST", body: JSON.stringify(body) }));
+      revEdit = null; revForm.hidden = true; revLoad(editing.slug); toast("Review tersimpan");
+    } catch (err) { toast(err.message, true); }
+  });
   async function load() {
     try { data = await api(API); render(); }
     catch (e) { rows.innerHTML = '<tr><td colspan="6" class="empty">Gagal memuat: ' + esc(e.message) + "</td></tr>"; }
   }
+  load();
 </script>
 </body>
 </html>

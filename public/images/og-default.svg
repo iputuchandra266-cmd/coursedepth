@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#243693"/>
+      <stop offset="1" stop-color="#0f1740"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="1040" cy="120" r="220" fill="#ffc900" opacity="0.14"/>
+  <circle cx="140" cy="540" r="180" fill="#ffc900" opacity="0.10"/>
+  <rect x="80" y="240" width="72" height="72" rx="16" fill="#ffc900"/>
+  <text x="97" y="292" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" fill="#0f1740">C</text>
+  <text x="172" y="292" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">Course<tspan fill="#ffc900">Depth</tspan></text>
+  <text x="80" y="400" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="800" fill="#ffffff">Udemy Course Reviews</text>
+  <text x="80" y="462" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="500" fill="#dfe4f7">Honest ratings, prices &amp; details for online courses</text>
+  <text x="80" y="540" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffc900">coursedepth.com</text>
+</svg>

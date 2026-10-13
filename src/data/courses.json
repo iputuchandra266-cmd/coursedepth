@@ -1,5 +1,251 @@
 [
   {
+    "title": "The Complete SQL Bootcamp (30 Hours): Go from Zero to Hero",
+    "slug": "the-complete-sql-bootcamp-30-hours-go-from-zero-to-hero",
+    "provider": "Udemy",
+    "category": "SQL",
+    "categorySlug": "sql",
+    "instructor": "Baraa Khatib Salkini",
+    "instructorSlug": "baraa-khatib-salkini",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/210728354_d7e2_3.jpg",
+    "rating": 4.7,
+    "reviews": 12190,
+    "price": 14,
+    "oldPrice": 189,
+    "level": "All Level",
+    "duration": "29.5 hours",
+    "updated": "10/2026",
+    "description": "The Only SQL Course with 200+ Visual Animations: Learn Fast, Practice Hard & Build Real-World Projects",
+    "image": "https://img-c.udemycdn.com/course/480x270/5934818_9a72.jpg",
+    "url": "https://www.udemy.com/course/the-complete-sql-bootcamp-30-hours-go-from-zero-to-hero/?couponCode=MT261012G2",
+    "language": "English",
+    "certificate": true,
+    "students": 64180,
+    "sections": 29,
+    "lectures": 302,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "The Complete SQL Bootcamp (30 Hours): Go from Zero to Hero is a all level SQL course from Baraa Khatib Salkini on Udemy. It runs about 29.5 hours, and holds 4.7★ from 12,190 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through SQL",
+    "skipIf": "You already work professionally in SQL and need advanced architecture patterns",
+    "suits": "Students in data science, computer science, or related fields who want a practical, hands-on approach to SQL.",
+    "requirements": "No prior SQL or programming experience is required! You just need a computer with internet access All tools used in the course are free and easy to set up — we’ll guide you every step of the way",
+    "learn": [
+      "You'll learn the basics: what SQL is, how databases work, and why SQL is essential for working with data",
+      "You’ll learn how to query using SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, and more",
+      "You’ll learn how to combine multiple tables using JOINS, UNION, INTERSECT, and EXCEPT",
+      "You’ll learn all SQL functions including String, Numeric, Date/Time, and CASE logic",
+      "You’ll learn how to handle NULL values in SQL",
+      "You'll master ALL Window Functions (LEAD, LAG, RANK, ROW_NUMBER etc.)",
+      "You’ll master advanced SQL techniques like Subqueries, CTEs, Views, and Temp Tables",
+      "You’ll learn how to create and use Stored Procedures and Triggers for automation and logic",
+      "You’ll learn how to optimize performance, reduce query time, and tune indexes",
+      "You’ll learn how to integrate SQL with AI and Data Science tools for real business use",
+      "You’ll learn how to build and query a complete SQL Warehouse from scratch",
+      "You’ll learn how to use SQL for EDA (Exploratory Data Analysis) on real-world datasets",
+      "You’ll learn how to apply advanced analytics techniques using SQL"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 43,
+        "duration": "4.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 43,
+        "duration": "4.2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 43,
+        "duration": "4.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 43,
+        "duration": "4.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 43,
+        "duration": "4.2h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 43,
+        "duration": "4.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 43,
+        "duration": "4.2h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hey, I’m Baraa, a Data Engineer with over 17 years of experience and former Lead Data Engineer at Mercedes-Benz.\nI’ve spent my career building large-scale data platforms for analytics and AI, and now I teach the same skills that shaped my journey.\n\nMy courses focus on visual explanations, real-world projects, and practical lessons that make complex topics simple and help you build the skills that get you hired.\n\nIf you want to learn data in a calm, clear, and structured way, you’re in the right place.",
+    "ratingBreakdown": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "quality": {
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
+    },
+    "faq": [
+      {
+        "q": "Is The Complete SQL Bootcamp (30 Hours): Go from Zero to Hero suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $149.99 with a 4.7★ average from 12,190 students, our Udemy course reviews put it above most SQL alternatives."
+      }
+    ]
+  },
+  {
+    "title": "Claude Certified Architect (CCAR-F) - 2026 Exam Prep",
+    "slug": "certified-claude-architect-masterclass-2026",
+    "provider": "Udemy",
+    "category": "Claude Certified Architect Foundations (CCAF)",
+    "categorySlug": "claude-certified-architect-foundations-ccaf",
+    "instructor": "Jacob Bushong",
+    "instructorSlug": "jacob-bushong",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/164759774_4222.jpg",
+    "rating": 4.3,
+    "reviews": 3711,
+    "price": 12.99,
+    "oldPrice": 149.99,
+    "level": "All Level",
+    "duration": "15h 30m",
+    "updated": "09/2026",
+    "bestseller": true,
+    "description": "Complete CCAR-F (Previously CCA-F) certification prep: all 5 domains - agentic architecture & orchestration, and more",
+    "image": "https://img-c.udemycdn.com/course/480x270/7150101_2585_5.jpg",
+    "url": "https://www.udemy.com/course/certified-claude-architect-masterclass-2026/?couponCode=MT261012G2",
+    "language": "English",
+    "certificate": true,
+    "students": 33780,
+    "sections": 21,
+    "lectures": 136,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "Claude Certified Architect (CCAR-F) - 2026 Exam Prep is a all level Claude Certified Architect Foundations (CCAF) course from Jacob Bushong on Udemy. It runs about 15 hours, and holds 4.3★ from 3,711 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Claude Certified Architect Foundations (CCAF)",
+    "skipIf": "You already work professionally in Claude Certified Architect Foundations (CCAF) and need advanced architecture patterns",
+    "suits": "Software engineers and developers who build with the Claude API and want to validate their architectural knowledge with Anthropic's official CCA-F certification. AI engineers and solutions architects designing agentic systems, multi-agent pipelines, or Claude Code workflows who want structured coverage of the full exam blueprint. Technical leads and staff engineers evaluating Claude for production use who want a deep understanding of context management, tool use, safety, and cost optimization. DevOps and platform engineers integrating Claude into CI/CD pipelines, developer tooling, or enterprise workflows who want to understand best practices at scale. Product engineers and technical PMs who work closely with Claude-powered features and want to understand the architectural tradeoffs behind agentic system design. Anyone preparing for the Anthropic CCA-F exam who wants a structured, instructor-led course covering all five exam domains with scenario-based practice questions.",
+    "requirements": "No specific prerequisites required. Some familiarity with CCA-F-related concepts is helpful but not mandatory — this course teaches everything from the ground up.",
+    "learn": [
+      "Understand and apply agentic architecture & orchestration concepts including foundations of agentic systems and task decomposition and planning",
+      "Evaluate multi-agent architecture in the context of agentic architecture & orchestration",
+      "Understand and apply claude code configuration & workflows concepts including claude code fundamentals and claudemd configuration hierarchy",
+      "Evaluate commands, skills, and subagents in the context of claude code configuration & workflows",
+      "Understand and apply prompt engineering & structured output concepts including core prompt engineering and advanced prompting techniques",
+      "Evaluate structured output and evaluation in the context of prompt engineering & structured output",
+      "Understand and apply tool design & mcp integration concepts including tool design fundamentals and model context protocol foundations",
+      "Evaluate advanced mcp and production in the context of tool design & mcp integration",
+      "Understand and apply context management & reliability concepts including context window fundamentals and rag and retrieval patterns",
+      "Evaluate cost optimization and reliability in the context of context management & reliability"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 19,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 19,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 19,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 19,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 19,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 19,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 19,
+        "duration": "2.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 09/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I have 20 years of experience in IT and security roles, including leading infrastructure and security teams in excess of 50 staff. I have completed a masters program in Cybersecurity at Harvard, and so far, have never failed a certification exam.  That includes incredibly challenging exams such as CISSP.  I have a formula for passing the exam on the first attempt, and I'm excited to share that process with others!",
+    "ratingBreakdown": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "quality": {
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
+    },
+    "faq": [
+      {
+        "q": "Is Claude Certified Architect (CCAR-F) - 2026 Exam Prep suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 09/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $12.99 with a 4.3★ average from 3,711 students, our Udemy course reviews put it above most Claude Certified Architect Foundations (CCAF) alternatives."
+      }
+    ]
+  },
+  {
     "title": "The Complete Claude Code & Claude Cowork Masterclass [2026]",
     "slug": "claude-aiagents-cowork-masterclass",
     "provider": "Udemy",
@@ -11,13 +257,98 @@
     "reviews": 10460,
     "price": 12.99,
     "oldPrice": 169.99,
-    "level": "beginner",
+    "level": "Beginner",
     "duration": "22",
     "updated": "13/10/2026",
     "bestseller": true,
     "description": "The 2026 Claude Masterclass teaches comprehensive skills for using Claude’s AI agents, cowork workflows, coding environment, and Microsoft Office automation to build applications and automate professional tasks",
     "image": "https://img-c.udemycdn.com/course/480x270/7066971_118a_4.jpg",
-    "url": "https://www.udemy.com/course/claude-aiagents-cowork-masterclass/?couponCode=MT261012G2"
+    "url": "https://www.udemy.com/course/claude-aiagents-cowork-masterclass/?couponCode=MT261012G2",
+    "language": "English",
+    "certificate": true,
+    "students": 22040,
+    "sections": 5,
+    "lectures": 29,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core Claude AI fundamentals with Prof. Ryan Ahmed's step-by-step method",
+      "Real-world Claude AI projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Claude AI problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 6,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 6,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 6,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 6,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 6,
+        "duration": "1.6h"
+      }
+    ],
+    "summary": "The Complete Claude Code & Claude Cowork Masterclass [2026] is a beginner Claude AI course from Prof. Ryan Ahmed on Udemy. It runs about 22, was last updated in 13/10/2026, and holds 4.6★ from 10,460 students — one of the stronger Udemy course reviews entries in Claude AI.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 13/10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "bestFor": "beginner learners who want one guided path through Claude AI",
+    "skipIf": "You already work professionally in Claude AI and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.8,
+      "video": 4.6,
+      "instructor": 4.6,
+      "pace": 4.6,
+      "depth": 4.6,
+      "total": 93
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "Prof. Ryan Ahmed teaches Claude AI on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Claude AI.",
+    "faq": [
+      {
+        "q": "Is The Complete Claude Code & Claude Cowork Masterclass [2026] suitable for beginners?",
+        "a": "Yes — it is rated \"Beginner\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 13/10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $12.99 with a 4.6★ average from 10,460 students, our Udemy course reviews put it above most Claude AI alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "complete-python-bootcamp",
@@ -36,7 +367,102 @@
     "image": "https://img-c.udemycdn.com/course/480x270/567828_67d0.jpg",
     "url": "https://www.udemy.com/course/complete-python-bootcamp/?couponCode=KEEPLEARNING",
     "bestseller": false,
-    "description": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games."
+    "description": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games.",
+    "language": "English",
+    "certificate": true,
+    "students": 926056,
+    "sections": 9,
+    "lectures": 71,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core Python fundamentals with Jose Portilla's step-by-step method",
+      "Real-world Python projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Python problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 10,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 10,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 10,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 10,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 10,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 10,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 10,
+        "duration": "3.1h"
+      }
+    ],
+    "summary": "The Complete Python Bootcamp From Zero to Hero in Python is a beginner Python course from Jose Portilla on Udemy. It runs about 22h, was last updated in 09/2026, and holds 4.6★ from 566,376 students — one of the stronger Udemy course reviews entries in Python.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 09/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "bestFor": "beginner learners who want one guided path through Python",
+    "skipIf": "You already work professionally in Python and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.4,
+      "video": 4.5,
+      "instructor": 4.6,
+      "pace": 4.5,
+      "depth": 4.7,
+      "total": 91
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "Jose Portilla teaches Python on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Python.",
+    "faq": [
+      {
+        "q": "Is The Complete Python Bootcamp From Zero to Hero in Python suitable for beginners?",
+        "a": "Yes — it is rated \"Beginner\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 09/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $199.99 with a 4.6★ average from 566,376 students, our Udemy course reviews put it above most Python alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "excel-beginner-to-advanced",
@@ -55,7 +481,102 @@
     "image": "https://img-c.udemycdn.com/course/480x270/793796_0e89_5.jpg",
     "url": "https://www.udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/?couponCode=KEEPLEARNING",
     "bestseller": true,
-    "description": "Master Excel: formulas, PivotTables, Power Query, dashboards, and VBA for analysts and finance teams."
+    "description": "Master Excel: formulas, PivotTables, Power Query, dashboards, and VBA for analysts and finance teams.",
+    "language": "English",
+    "certificate": true,
+    "students": 1139135,
+    "sections": 8,
+    "lectures": 67,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core Excel fundamentals with Kyle Pew's step-by-step method",
+      "Real-world Excel projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Excel problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 10,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 10,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 10,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 10,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 10,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 10,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 10,
+        "duration": "2.6h"
+      }
+    ],
+    "summary": "Microsoft Excel - Excel from Beginner to Advanced 2026 is a all levels Excel course from Kyle Pew on Udemy. It runs about 18.5h, was last updated in 10/2026, and holds 4.7★ from 543,696 students — one of the stronger Udemy course reviews entries in Excel.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "bestFor": "all levels learners who want one guided path through Excel",
+    "skipIf": "You already work professionally in Excel and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.8,
+      "video": 4.8,
+      "instructor": 4.8,
+      "pace": 5,
+      "depth": 4.6,
+      "total": 96
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "Kyle Pew teaches Excel on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Excel.",
+    "faq": [
+      {
+        "q": "Is Microsoft Excel - Excel from Beginner to Advanced 2026 suitable for beginners?",
+        "a": "Yes — it is rated \"All levels\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $139.99 with a 4.7★ average from 543,696 students, our Udemy course reviews put it above most Excel alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "100-days-of-code",
@@ -73,7 +594,102 @@
     "updated": "10/2026",
     "image": "https://img-c.udemycdn.com/course/480x270/2776760_f176_10.jpg",
     "bestseller": true,
-    "description": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!"
+    "description": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+    "language": "English",
+    "certificate": true,
+    "students": 937333,
+    "sections": 20,
+    "lectures": 204,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core Python fundamentals with Dr. Angela Yu's step-by-step method",
+      "Real-world Python projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Python problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 29,
+        "duration": "9.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 29,
+        "duration": "9.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 29,
+        "duration": "9.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 29,
+        "duration": "9.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 29,
+        "duration": "9.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 29,
+        "duration": "9.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 29,
+        "duration": "9.3h"
+      }
+    ],
+    "summary": "100 Days of Code™: The Complete Python Pro Bootcamp is a beginner Python course from Dr. Angela Yu on Udemy. It runs about 65h, was last updated in 10/2026, and holds 4.7★ from 437,756 students — one of the stronger Udemy course reviews entries in Python.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "bestFor": "beginner learners who want one guided path through Python",
+    "skipIf": "You already work professionally in Python and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.6,
+      "video": 4.6,
+      "instructor": 4.8,
+      "pace": 4.9,
+      "depth": 5,
+      "total": 96
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "Dr. Angela Yu teaches Python on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Python.",
+    "faq": [
+      {
+        "q": "Is 100 Days of Code™: The Complete Python Pro Bootcamp suitable for beginners?",
+        "a": "Yes — it is rated \"Beginner\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $124.99 with a 4.7★ average from 437,756 students, our Udemy course reviews put it above most Python alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "ultimate-aws-solutions-architect",
@@ -92,7 +708,102 @@
     "image": "https://img-c.udemycdn.com/course/480x270/2196488_8fc7_10.jpg",
     "url": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/?couponCode=KEEPLEARNING",
     "bestseller": true,
-    "description": "Pass the SAA-C03: EC2, S3, VPC, IAM, serverless, plus practice exams and hands-on labs."
+    "description": "Pass the SAA-C03: EC2, S3, VPC, IAM, serverless, plus practice exams and hands-on labs.",
+    "language": "English",
+    "certificate": true,
+    "students": 607028,
+    "sections": 11,
+    "lectures": 103,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core Aws fundamentals with Stephane Maarek's step-by-step method",
+      "Real-world Aws projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Aws problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 15,
+        "duration": "3.9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 15,
+        "duration": "3.9h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 15,
+        "duration": "3.9h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 15,
+        "duration": "3.9h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 15,
+        "duration": "3.9h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 15,
+        "duration": "3.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 15,
+        "duration": "3.9h"
+      }
+    ],
+    "summary": "Ultimate AWS Certified Solutions Architect Associate 2026 is a intermediate Aws course from Stephane Maarek on Udemy. It runs about 27h, was last updated in 09/2026, and holds 4.7★ from 297,485 students — one of the stronger Udemy course reviews entries in Aws.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 09/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "bestFor": "intermediate learners who want one guided path through Aws",
+    "skipIf": "You already work professionally in Aws and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.9,
+      "video": 4.8,
+      "instructor": 4.8,
+      "pace": 4.9,
+      "depth": 4.8,
+      "total": 97
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "Stephane Maarek teaches Aws on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Aws.",
+    "faq": [
+      {
+        "q": "Is Ultimate AWS Certified Solutions Architect Associate 2026 suitable for beginners?",
+        "a": "Yes — it is rated \"Intermediate\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 09/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $129.99 with a 4.7★ average from 297,485 students, our Udemy course reviews put it above most Aws alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "web-developer-bootcamp-2026",
@@ -110,7 +821,102 @@
     "updated": "08/2026",
     "image": "https://img-c.udemycdn.com/course/480x270/625204_436a_3.jpg",
     "url": "https://www.udemy.com/course/the-web-developer-bootcamp/?couponCode=KEEPLEARNING",
-    "description": "The legendary bootcamp: HTML, CSS, JS, Node, Express, Mongo, auth, and deployment."
+    "description": "The legendary bootcamp: HTML, CSS, JS, Node, Express, Mongo, auth, and deployment.",
+    "language": "English",
+    "certificate": true,
+    "students": 567648,
+    "sections": 20,
+    "lectures": 230,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core Web Development fundamentals with Colt Steele's step-by-step method",
+      "Real-world Web Development projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Web Development problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 33,
+        "duration": "10.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 33,
+        "duration": "10.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 33,
+        "duration": "10.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 33,
+        "duration": "10.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 33,
+        "duration": "10.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 33,
+        "duration": "10.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 33,
+        "duration": "10.6h"
+      }
+    ],
+    "summary": "The Web Developer Bootcamp 2026 is a beginner Web Development course from Colt Steele on Udemy. It runs about 74h, was last updated in 08/2026, and holds 4.7★ from 286,415 students — one of the stronger Udemy course reviews entries in Web Development.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 08/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "bestFor": "beginner learners who want one guided path through Web Development",
+    "skipIf": "You already work professionally in Web Development and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.7,
+      "video": 4.5,
+      "instructor": 4.6,
+      "pace": 4.9,
+      "depth": 4.7,
+      "total": 94
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "Colt Steele teaches Web Development on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Web Development.",
+    "faq": [
+      {
+        "q": "Is The Web Developer Bootcamp 2026 suitable for beginners?",
+        "a": "Yes — it is rated \"Beginner\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 08/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $159.99 with a 4.7★ average from 286,415 students, our Udemy course reviews put it above most Web Development alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "complete-sql-bootcamp",
@@ -129,7 +935,97 @@
     "image": "https://img-c.udemycdn.com/course/480x270/762616_7693_3.jpg",
     "url": "https://www.udemy.com/course/the-complete-sql-bootcamp/?couponCode=KEEPLEARNING",
     "bestseller": true,
-    "description": "PostgreSQL from SELECT to window functions, joins, and query optimization."
+    "description": "PostgreSQL from SELECT to window functions, joins, and query optimization.",
+    "language": "English",
+    "certificate": true,
+    "students": 471094,
+    "sections": 6,
+    "lectures": 32,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core Postgresql fundamentals with Jose Portilla's step-by-step method",
+      "Real-world Postgresql projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Postgresql problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 5,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 5,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 5,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 5,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 5,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 5,
+        "duration": "1.5h"
+      }
+    ],
+    "summary": "The Complete SQL Bootcamp: Go from Zero to Hero is a beginner Postgresql course from Jose Portilla on Udemy. It runs about 9h, was last updated in 09/2026, and holds 4.7★ from 258,007 students — one of the stronger Udemy course reviews entries in Postgresql.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 09/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "bestFor": "beginner learners who want one guided path through Postgresql",
+    "skipIf": "You already work professionally in Postgresql and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.5,
+      "video": 4.8,
+      "instructor": 4.6,
+      "pace": 4.6,
+      "depth": 5,
+      "total": 94
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "Jose Portilla teaches Postgresql on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Postgresql.",
+    "faq": [
+      {
+        "q": "Is The Complete SQL Bootcamp: Go from Zero to Hero suitable for beginners?",
+        "a": "Yes — it is rated \"Beginner\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 09/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $159.99 with a 4.7★ average from 258,007 students, our Udemy course reviews put it above most Postgresql alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "react-complete-guide",
@@ -148,7 +1044,102 @@
     "image": "https://img-c.udemycdn.com/course/480x270/1362070_b9a1_2.jpg",
     "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/?couponCode=KEEPLEARNING",
     "bestseller": true,
-    "description": "Hooks, Router, Redux, Next.js 15, Server Components, and TypeScript."
+    "description": "Hooks, Router, Redux, Next.js 15, Server Components, and TypeScript.",
+    "language": "English",
+    "certificate": true,
+    "students": 448193,
+    "sections": 20,
+    "lectures": 226,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core Redux fundamentals with Academind by Maximilian Schwarzmüller's step-by-step method",
+      "Real-world Redux projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Redux problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 32,
+        "duration": "9.7h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 32,
+        "duration": "9.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 32,
+        "duration": "9.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 32,
+        "duration": "9.7h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 32,
+        "duration": "9.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 32,
+        "duration": "9.7h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 32,
+        "duration": "9.7h"
+      }
+    ],
+    "summary": "React - The Complete Guide (incl. Next.js, Redux) is a intermediate Redux course from Academind by Maximilian Schwarzmüller on Udemy. It runs about 68h, was last updated in 10/2026, and holds 4.6★ from 242,065 students — one of the stronger Udemy course reviews entries in Redux.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "bestFor": "intermediate learners who want one guided path through Redux",
+    "skipIf": "You already work professionally in Redux and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.5,
+      "video": 4.7,
+      "instructor": 4.6,
+      "pace": 4.6,
+      "depth": 4.5,
+      "total": 92
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "Academind by Maximilian Schwarzmüller teaches Redux on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Redux.",
+    "faq": [
+      {
+        "q": "Is React - The Complete Guide (incl. Next.js, Redux) suitable for beginners?",
+        "a": "Yes — it is rated \"Intermediate\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $199.99 with a 4.6★ average from 242,065 students, our Udemy course reviews put it above most Redux alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "angular-complete-guide",
@@ -167,7 +1158,102 @@
     "image": "https://img-c.udemycdn.com/course/480x270/756150_c033_4.jpg",
     "url": "https://www.udemy.com/course/the-complete-guide-to-angular-2/?couponCode=KEEPLEARNING",
     "bestseller": true,
-    "description": "Standalone components, signals, RxJS, NgRx, and deployment."
+    "description": "Standalone components, signals, RxJS, NgRx, and deployment.",
+    "language": "English",
+    "certificate": true,
+    "students": 318656,
+    "sections": 13,
+    "lectures": 129,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core Angular fundamentals with Maximilian Schwarzmüller's step-by-step method",
+      "Real-world Angular projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Angular problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 18,
+        "duration": "5.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 18,
+        "duration": "5.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 18,
+        "duration": "5.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 18,
+        "duration": "5.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 18,
+        "duration": "5.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 18,
+        "duration": "5.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 18,
+        "duration": "5.1h"
+      }
+    ],
+    "summary": "Angular - The Complete Guide is a intermediate Angular course from Maximilian Schwarzmüller on Udemy. It runs about 36h, was last updated in 07/2026, and holds 4.7★ from 224,681 students — one of the stronger Udemy course reviews entries in Angular.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 07/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "bestFor": "intermediate learners who want one guided path through Angular",
+    "skipIf": "You already work professionally in Angular and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.6,
+      "video": 4.9,
+      "instructor": 4.6,
+      "pace": 5,
+      "depth": 4.6,
+      "total": 95
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "Maximilian Schwarzmüller teaches Angular on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Angular.",
+    "faq": [
+      {
+        "q": "Is Angular - The Complete Guide suitable for beginners?",
+        "a": "Yes — it is rated \"Intermediate\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 07/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $129.99 with a 4.7★ average from 224,681 students, our Udemy course reviews put it above most Angular alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "the-complete-agentic-ai-engineering-course",
@@ -186,7 +1272,102 @@
     "image": "https://img-c.udemycdn.com/course/480x270/6566789_2e8a_10.jpg",
     "url": "https://www.udemy.com/course/the-complete-agentic-ai-engineering-course/?couponCode=KEEPLEARNING",
     "bestseller": true,
-    "description": "Master AI Agents in 30 days: build 8 real-world projects with OpenAI Agents SDK, CrewAI, LangGraph, AutoGen and MCP."
+    "description": "Master AI Agents in 30 days: build 8 real-world projects with OpenAI Agents SDK, CrewAI, LangGraph, AutoGen and MCP.",
+    "language": "English",
+    "certificate": true,
+    "students": 2874,
+    "sections": 9,
+    "lectures": 68,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core AI Agents & Agentic AI fundamentals with Ed Donner's step-by-step method",
+      "Real-world AI Agents & Agentic AI projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug AI Agents & Agentic AI problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 10,
+        "duration": "3.0h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 10,
+        "duration": "3.0h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 10,
+        "duration": "3.0h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 10,
+        "duration": "3.0h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 10,
+        "duration": "3.0h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 10,
+        "duration": "3.0h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 10,
+        "duration": "3.0h"
+      }
+    ],
+    "summary": "AI Engineer Agentic Track: The Complete Agent & MCP Course is a all levels AI Agents & Agentic AI course from Ed Donner on Udemy. It runs about 21h, was last updated in 10/2026, and holds 4.6★ from 1,656 students — one of the stronger Udemy course reviews entries in AI Agents & Agentic AI.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "bestFor": "all levels learners who want one guided path through AI Agents & Agentic AI",
+    "skipIf": "You already work professionally in AI Agents & Agentic AI and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.7,
+      "video": 4.6,
+      "instructor": 4.8,
+      "pace": 4.7,
+      "depth": 4.7,
+      "total": 94
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "Ed Donner teaches AI Agents & Agentic AI on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for AI Agents & Agentic AI.",
+    "faq": [
+      {
+        "q": "Is AI Engineer Agentic Track: The Complete Agent & MCP Course suitable for beginners?",
+        "a": "Yes — it is rated \"All levels\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $18.99 with a 4.6★ average from 1,656 students, our Udemy course reviews put it above most AI Agents & Agentic AI alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "the-ai-engineer-course-complete-ai-engineer-bootcamp",
@@ -205,7 +1386,92 @@
     "image": "https://img-c.udemycdn.com/course/480x270/6112535_7103.jpg",
     "url": "https://www.udemy.com/course/the-ai-engineer-course-complete-ai-engineer-bootcamp/?couponCode=KEEPLEARNING",
     "bestseller": true,
-    "description": "Complete AI Engineer Training: Python, NLP, Transformers, LLMs, LangChain, Hugging Face, APIs"
+    "description": "Complete AI Engineer Training: Python, NLP, Transformers, LLMs, LangChain, Hugging Face, APIs",
+    "language": "English",
+    "certificate": true,
+    "students": 2816,
+    "sections": 5,
+    "lectures": 26,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core Artificial Intelligence (AI) fundamentals with 365 Careers's step-by-step method",
+      "Real-world Artificial Intelligence (AI) projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Artificial Intelligence (AI) problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 5,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 5,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 5,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 5,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 5,
+        "duration": "1.6h"
+      }
+    ],
+    "summary": "The AI Engineer Course 2026: Complete AI Engineer Bootcamp is a beginner Artificial Intelligence (AI) course from 365 Careers on Udemy. It runs about 8h, was last updated in 10/2026, and holds 4.2★ from 1,552 students — one of the stronger Udemy course reviews entries in Artificial Intelligence (AI).",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "bestFor": "beginner learners who want one guided path through Artificial Intelligence (AI)",
+    "skipIf": "You already work professionally in Artificial Intelligence (AI) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.4,
+      "video": 4.4,
+      "instructor": 4.3,
+      "pace": 4.4,
+      "depth": 4.4,
+      "total": 88
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "365 Careers teaches Artificial Intelligence (AI) on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Artificial Intelligence (AI).",
+    "faq": [
+      {
+        "q": "Is The AI Engineer Course 2026: Complete AI Engineer Bootcamp suitable for beginners?",
+        "a": "Yes — it is rated \"Beginner\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $16.99 with a 4.2★ average from 1,552 students, our Udemy course reviews put it above most Artificial Intelligence (AI) alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "playwright-tutorials-automation-testing",
@@ -224,7 +1490,97 @@
     "image": "https://img-c.udemycdn.com/course/480x270/4574326_d02f_5.jpg",
     "url": "https://www.udemy.com/course/playwright-tutorials-automation-testing/?couponCode=KEEPLEARNING",
     "bestseller": true,
-    "description": "150k Learners- Playwright tutorials on TypeScript and JavaScript (Web - API )Testing, AI Agents, Cucumber, CI/CD etc."
+    "description": "150k Learners- Playwright tutorials on TypeScript and JavaScript (Web - API )Testing, AI Agents, Cucumber, CI/CD etc.",
+    "language": "English",
+    "certificate": true,
+    "students": 2762,
+    "sections": 6,
+    "lectures": 42,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core Microsoft Playwright fundamentals with Rahul Shetty Academy's step-by-step method",
+      "Real-world Microsoft Playwright projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Microsoft Playwright problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 7,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 7,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 7,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 7,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 7,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 7,
+        "duration": "1.8h"
+      }
+    ],
+    "summary": "Playwright JS/TS Automation Testing from Scratch & Framework is a intermediate Microsoft Playwright course from Rahul Shetty Academy on Udemy. It runs about 11h, was last updated in 09/2026, and holds 4.5★ from 1,408 students — one of the stronger Udemy course reviews entries in Microsoft Playwright.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 09/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "bestFor": "intermediate learners who want one guided path through Microsoft Playwright",
+    "skipIf": "You already work professionally in Microsoft Playwright and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 4.6,
+      "video": 4.5,
+      "instructor": 4.6,
+      "pace": 4.4,
+      "depth": 4.5,
+      "total": 90
+    },
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "instructorBio": "Rahul Shetty Academy teaches Microsoft Playwright on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Microsoft Playwright.",
+    "faq": [
+      {
+        "q": "Is Playwright JS/TS Automation Testing from Scratch & Framework suitable for beginners?",
+        "a": "Yes — it is rated \"Intermediate\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 09/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $13.99 with a 4.5★ average from 1,408 students, our Udemy course reviews put it above most Microsoft Playwright alternatives — and Udemy discounts it frequently."
+      }
+    ]
   },
   {
     "slug": "langchain",
@@ -243,2096 +1599,96 @@
     "image": "https://img-c.udemycdn.com/course/480x270/5281528_8f36.jpg",
     "url": "https://www.udemy.com/course/langchain/?couponCode=KEEPLEARNING",
     "bestseller": true,
-    "description": "Facebook Ads and organic growth in 2026: targeting, creatives, and retargeting."
-  },
-  {
-    "slug": "delegating-and-managing-tasks-effectively-as-a-tech-leader",
-    "title": "Delegating and managing tasks effectively as a tech leader",
-    "provider": "Udemy",
-    "category": "Leadership & Management",
-    "categorySlug": "leadership",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.8,
-    "reviews": 6955,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Transform your career with 'Delegating and managing tasks effectively' a course designed for tech professionals embarking on or aspiring to leadership roles. Whether you're newly appointed or looking to enhance your leadership skills, this ",
-    "image": "https://i.udemycdn.com/course/480x270/6684121_0113.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6684121&u=https%3A%2F%2Fwww.udemy.com%2Fdelegating-and-managing-tasks-effectively-as-a-tech-leader&intsrc=APIG_26324"
-  },
-  {
-    "slug": "aprenda-power-bi-na-pratica-com-projeto-real",
-    "title": "Aprenda Power BI na Pratica com Projeto Real",
-    "provider": "Udemy",
-    "category": "Data Analysis",
-    "categorySlug": "data-analysis",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 638,
-    "price": 34.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Você vai conhecer e aprender a trabalhar com o Power BI e trabalhar em projeto que vai despertar o seu conhecimento e te fazer crescer aprendendo a otimizar o seu tempo com Power Query, Power BI e desenvolver um Dashboard na pratica acredit",
-    "image": "https://i.udemycdn.com/course/480x270/4344784_fd16_4.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4344784&u=https%3A%2F%2Fwww.udemy.com%2Faprenda-power-bi-na-pratica-com-projeto-real&intsrc=APIG_26324"
-  },
-  {
-    "slug": "master-a-i-vibe-coding-in-7-days",
-    "title": "Master A.I. Vibe coding in 7 days",
-    "provider": "Udemy",
-    "category": "Artificial Intelligence",
-    "categorySlug": "artificial-intelligence",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.9,
-    "reviews": 3887,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Your Dream App is Stuck in Your Head While Someone Else is Banking $10K/Month With a Worse IdeaThe Truth: That app idea you've been sitting on? Someone with half your vision is already making money with a crappier version.You know exactly w",
-    "image": "https://i.udemycdn.com/course/480x270/7152553_1e2e_4.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.7152553&u=https%3A%2F%2Fwww.udemy.com%2Fmaster-ai-vibe-coding-in-7-days&intsrc=APIG_26324"
-  },
-  {
-    "slug": "ics-cybersecurity-scada-plc-dcs-iec-62443-guide",
-    "title": "ICS Cybersecurity: SCADA, PLC, DCS & IEC 62443 Guide",
-    "provider": "Udemy",
-    "category": "Hacking",
-    "categorySlug": "hacking",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4,
-    "reviews": 7411,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "358 students. 4.19/5.0 rating. 95% say \"knowledgeable instructor.\" 92% say \"valuable information.\" 88% say \"clear explanations.\" Master industrial control system cybersecurity with comprehensive training in SCADA, PLC, DCS protection, IEC 6",
-    "image": "https://i.udemycdn.com/course/480x270/5647972_a4b7.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5647972&u=https%3A%2F%2Fwww.udemy.com%2Fcyber-security-industrial-control-system-security&intsrc=APIG_26324"
-  },
-  {
-    "slug": "starten-met-sql",
-    "title": "Starten met SQL",
-    "provider": "Udemy",
-    "category": "SQL",
-    "categorySlug": "sql",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.1,
-    "reviews": 5829,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Hallo en welkom bij deze cursus Starten met SQL. Mijn naam is Maikel en ik ga je in deze cursus leren hoe je een begin kan maken met het werken met SQL.SQL is de afkorting voor Structured Query Language. Het kan ook uitgesproken worden als ",
-    "image": "https://i.udemycdn.com/course/480x270/7088061_7a86_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.7088061&u=https%3A%2F%2Fwww.udemy.com%2Fstarten-met-sql&intsrc=APIG_26324"
-  },
-  {
-    "slug": "nano-banana-gpt-image-2-30-ai-1",
-    "title": "初心者向け【 Nano Banana / GPT Image 2 講座 】30秒でAI漫画を1枚描こう！",
-    "provider": "Udemy",
-    "category": "Graphic Design",
-    "categorySlug": "graphic-design",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.8,
-    "reviews": 7052,
-    "price": 79.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "「AI漫画に挑戦したいけど、プロンプトの英語が難しそう……」「コマ割りって、どうやるの？」「生成された吹き出しのセリフがおかしい…」そんな疑問を持ったまま止まっている初心者さんのための講座です。この講座では、Nano Banana Pro / Nano Banana 2 を使って、コマ数やコマ割りの決め方から、目玉内容のたった30秒でプロンプトを入力する超時短術、さらに生成後の部分修正まで、お教えします。講座内の画像はすべてNano Bananaによるものですが、GPT Im",
-    "image": "https://i.udemycdn.com/course/480x270/7114033_8c4b_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.7114033&u=https%3A%2F%2Fwww.udemy.com%2Fshun-nano-banana-quickly&intsrc=APIG_26324"
-  },
-  {
-    "slug": "certificacao-commvault-professional-simulados-2026",
-    "title": "Certificação Commvault Professional / Simulados 2026",
-    "provider": "Udemy",
-    "category": "AWS",
-    "categorySlug": "aws",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.5,
-    "reviews": 4698,
-    "price": 34.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Por que este simulado é essencial :1. Simulações Realistas: Nossos simulados são projetados para replicar fielmente o formato e o estilo do exame Commvault Professional. Você se familiarizará com o tipo de perguntas, a estrutura do exame e ",
-    "image": "https://i.udemycdn.com/course/480x270/5775936_1f16_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5775936&u=https%3A%2F%2Fwww.udemy.com%2Fsimulado-certificacao-commvault-100-questoes-em-portugues&intsrc=APIG_26324"
-  },
-  {
-    "slug": "fastapi-full-stack-web-development",
-    "title": "FastAPI Full Stack Web Development",
-    "provider": "Udemy",
-    "category": "SQL",
-    "categorySlug": "sql",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.8,
-    "reviews": 6456,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "This course is a guide to learn FastAPI. The FastAPI documentation is one of the best documentation. This course is for students who love videos as a medium to learn. We will be learning FastAPI with best practices. The Test-Driven Developm",
-    "image": "https://i.udemycdn.com/course/480x270/4011906_435a_6.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4011906&u=https%3A%2F%2Fwww.udemy.com%2Ffastapi-course&intsrc=APIG_26324"
-  },
-  {
-    "slug": "practice-exams-az-900-microsoft-azure-fundamentals",
-    "title": "Practice Exams | AZ-900 Microsoft Azure Fundamentals",
-    "provider": "Udemy",
-    "category": "AWS",
-    "categorySlug": "aws",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.1,
-    "reviews": 711,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "340 Questions | Warm-Up Tests | Real Exam Simulations | Visual Explanations | Official Microsoft Documentation LinksYou do not pass AZ-900 by only “reading about Azure.”You pass by understanding how Azure concepts are tested, recognizing th",
-    "image": "https://i.udemycdn.com/course/480x270/6422205_2566.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6422205&u=https%3A%2F%2Fwww.udemy.com%2Faz-900-practice-exams-microsoft-azure-fundamentals&intsrc=APIG_26324"
-  },
-  {
-    "slug": "cost-management-professional-cmp-course",
-    "title": "Cost Management Professional (CMP Course)",
-    "provider": "Udemy",
-    "category": "Leadership & Management",
-    "categorySlug": "leadership",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.5,
-    "reviews": 5323,
-    "price": 64.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Are you a construction professional looking to master the financial side of projects and ensure they are delivered on budget? In an industry where 9 out of 10 projects experience cost overruns, the ability to manage costs isn't just a skill",
-    "image": "https://i.udemycdn.com/course/480x270/6877965_2a69_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6877965&u=https%3A%2F%2Fwww.udemy.com%2Fcost-management-professional-cmp-course&intsrc=APIG_26324"
-  },
-  {
-    "slug": "facebook-werbeanzeigen-fur-lokale-unternehmen-meisterkurs",
-    "title": "Facebook Werbeanzeigen für Lokale Unternehmen Meisterkurs",
-    "provider": "Udemy",
-    "category": "Digital Marketing",
-    "categorySlug": "digital-marketing",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.1,
-    "reviews": 5457,
-    "price": 199.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Möchtest du wissen wie du mehr Kunden für dein Geschäft generieren kannst und willst du mehr Leute in deiner Umgebung erreichen? Dann ist dies genau der richtige Kurs für dich! In diesem Kurs werde ich dir Schritt für Schritt zeigen wie man",
-    "image": "https://i.udemycdn.com/course/480x270/1642646_9949.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.1642646&u=https%3A%2F%2Fwww.udemy.com%2Ffacebook-werbeanzeigen-fur-lokale-unternehmen-meisterkurs&intsrc=APIG_26324"
-  },
-  {
-    "slug": "sap-brfplus-step-by-step-getting-started",
-    "title": "SAP BRFPlus Step by Step: Getting Started",
-    "provider": "Udemy",
-    "category": "IT Certifications",
-    "categorySlug": "it-certifications",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.4,
-    "reviews": 5312,
-    "price": 39.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Updated (23 Mar 2025)Important Update: Since launching this course, I have created a brand-new SAP BRF+ in 8 Hours (S/4HANA Edition - Updated Version!), specifically designed to cover the latest enhancements and best practices in the S/4HAN",
-    "image": "https://i.udemycdn.com/course/480x270/4047214_3ff8_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4047214&u=https%3A%2F%2Fwww.udemy.com%2Fsap-brfplus-step-by-step-getting-started&intsrc=APIG_26324"
-  },
-  {
-    "slug": "oracle-ebs-r12",
-    "title": "Oracle EBS R12 | 企业规划与预算基础 | 初学者 | 普通话版本",
-    "provider": "Udemy",
-    "category": "SQL",
-    "categorySlug": "sql",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 6588,
-    "price": 39.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "## 一、基础核心概念- 定义：GL内建的全生命周期财务管控工具，覆盖「预算编制→执行→控制→差异分析→调整」- 核心价值：制定财务目标、逐级责任分配、实时超支管控、经营绩效对比- 初学者必记3个底层逻辑1. 预算数与实际账务完全分离，存在独立预算余额表，不影响GL凭证2. 100%依附科目弹性域(COA)，所有预算对应「科目+部门+成本中心+项目」组合3. 预算有不可逆生命周期：`将来(Future)` → `开放(Open)` → `冻结(Frozen)` → `关闭(C",
-    "image": "https://i.udemycdn.com/course/480x270/7147577_f544.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.7147577&u=https%3A%2F%2Fwww.udemy.com%2Foracle-ebs-r12-lc&intsrc=APIG_26324"
-  },
-  {
-    "slug": "siemens-s71200-plc-training-2-intermediate-advanced",
-    "title": "Siemens S71200 PLC Training-2 (İntermediate&advanced)",
-    "provider": "Udemy",
-    "category": "AWS",
-    "categorySlug": "aws",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4,
-    "reviews": 7466,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "“This course contains the use of artificial intelligence.”Siemens S7-1200 PLC Intermediate and Adcanced Level TrainingOur videos are available with subtitles in English, Hindi.The Siemens S7-1200 PLC&nbsp; Intermediate and Adcanced Level Tr",
-    "image": "https://i.udemycdn.com/course/480x270/6782205_27cc_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6782205&u=https%3A%2F%2Fwww.udemy.com%2Fsiemens-wincc-scada-training-basic-intermediate-level&intsrc=APIG_26324"
-  },
-  {
-    "slug": "run-a-membership-site-using-wordpress-starter-training",
-    "title": "Run A Membership Site Using WordPress: Starter Training",
-    "provider": "Udemy",
-    "category": "Web Development",
-    "categorySlug": "web-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.6,
-    "reviews": 859,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Run A Membership Site Using WordPress: Starter TrainingNow you can break free...Brand New Over-The-Shoulder Video Series On How To Build Continuity Income With Wishlist Member.Having a membership site where your members can access digital c",
-    "image": "https://i.udemycdn.com/course/480x270/3490224_e564_7.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.3490224&u=https%3A%2F%2Fwww.udemy.com%2Frun-a-membership-site-using-wordpress-starter-training&intsrc=APIG_26324"
-  },
-  {
-    "slug": "learning-path-azure-explore-azure-functions-and-logic-apps",
-    "title": "LEARNING PATH: Azure: Explore Azure Functions and Logic Apps",
-    "provider": "Udemy",
-    "category": "SQL",
-    "categorySlug": "sql",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.5,
-    "reviews": 7352,
-    "price": 199.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Azure functions can easily run small pieces of code in the cloud without worrying about a whole application or the infrastructure to run it. Logic Apps bring speed and scalability into the enterprise integration space. As businesses move to",
-    "image": "https://i.udemycdn.com/course/480x270/1423038_fae7_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.1423038&u=https%3A%2F%2Fwww.udemy.com%2Flearning-path-azure-explore-azure-functions-and-logic-apps&intsrc=APIG_26324"
-  },
-  {
-    "slug": "genai-and-responsible-ai-for-leaders",
-    "title": "GenAI and Responsible AI for Leaders",
-    "provider": "Udemy",
-    "category": "Artificial Intelligence",
-    "categorySlug": "artificial-intelligence",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.7,
-    "reviews": 7910,
-    "price": 199.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "GenAI and Responsible AI for LeadersWelcome to the Future of GenAI Cybersecurity LeadershipWelcome to a transformative journey designed exclusively for leaders navigating the AI revolution. As Generative AI reshapes the business landscape, ",
-    "image": "https://i.udemycdn.com/course/480x270/6353239_fe41.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6353239&u=https%3A%2F%2Fwww.udemy.com%2Fgenai-and-cybersecurity-for-leaders&intsrc=APIG_26324"
-  },
-  {
-    "slug": "siemens-wincc-scada-advanced-2-training-tia-portal-v20",
-    "title": "Siemens WinCC SCADA Advanced-2 Training, TIA Portal V20",
-    "provider": "Udemy",
-    "category": "IT Certifications",
-    "categorySlug": "it-certifications",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4,
-    "reviews": 577,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "“This course contains the use of artificial intelligence.”Our videos are available with subtitles in English, Hindi, Arabic, Spanish, Russian, Portuguese, German, and Japanese.Take Control of Your Career with Intermediate-Advanced WinCC SCA",
-    "image": "https://i.udemycdn.com/course/480x270/6730131_11b6_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6730131&u=https%3A%2F%2Fwww.udemy.com%2Fendustriyel-otomasyonun-kalbi-hmi-egitim-tia-portal-v20&intsrc=APIG_26324"
-  },
-  {
-    "slug": "complete-regular-expressions-bootcamp-go-from-zero-to-hero",
-    "title": "Complete Regular Expressions Bootcamp - Go from Zero to Hero",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.5,
-    "reviews": 7525,
-    "price": 129.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Hello and Welcome to the complete Regular Expressions Bootcamp - Learn how to use Regular Expression or regex from scratch. This course will help you to go from zero to hero in Regex for all Programming languages. Regular Expressions are ma",
-    "image": "https://i.udemycdn.com/course/480x270/1608250_7ff9_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.1608250&u=https%3A%2F%2Fwww.udemy.com%2Flearn-regular-expressions-in-online-regex-course&intsrc=APIG_26324"
-  },
-  {
-    "slug": "flutter-e-dart-crea-app-android-e-ios",
-    "title": "Flutter e Dart: Crea App Android e iOS",
-    "provider": "Udemy",
-    "category": "Web Development",
-    "categorySlug": "web-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.4,
-    "reviews": 1089,
-    "price": 199.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Trasforma la tua Passione in una Carriera di SuccessoVuoi entrare nel mondo dello sviluppo mobile cross-platform? Con Flutter e Dart puoi creare applicazioni professionali che girano sia su iOS che su Android partendo da un unico codice.Que",
-    "image": "https://i.udemycdn.com/course/480x270/6297927_42d1_5.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6297927&u=https%3A%2F%2Fwww.udemy.com%2Fflutter-dart-app-android-ios&intsrc=APIG_26324"
-  },
-  {
-    "slug": "550-web-services-interview-questions-practice-test",
-    "title": "550+ Web Services Interview Questions Practice Test",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.1,
-    "reviews": 2916,
-    "price": 74.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Web Services Interview Questions and Answers Preparation Practice Test | Freshers to Experienced Welcome to our comprehensive practice test course, designed meticulously to prepare you for interviews in the rapidly evolving field of Web Ser",
-    "image": "https://i.udemycdn.com/course/480x270/5718592_46d3_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5718592&u=https%3A%2F%2Fwww.udemy.com%2F550-web-services-interview-questions-practice-test&intsrc=APIG_26324"
-  },
-  {
-    "slug": "550-unix-interview-questions-practice-test-2026",
-    "title": "550+ Unix Interview Questions Practice Test [2026]",
-    "provider": "Udemy",
-    "category": "IT Certifications",
-    "categorySlug": "it-certifications",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.7,
-    "reviews": 5118,
-    "price": 74.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Unix Interview Questions and Answers Preparation Practice Test | Freshers to Experienced Welcome to \"Mastering Unix: Comprehensive Practice Tests for Interview Success,\" the ultimate destination for professionals and enthusiasts aiming to e",
-    "image": "https://i.udemycdn.com/course/480x270/5717466_47bd_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5717466&u=https%3A%2F%2Fwww.udemy.com%2Funix-interview-questions-test&intsrc=APIG_26324"
-  },
-  {
-    "slug": "flutter-firebase-chatgpt-ai",
-    "title": "Flutter × Firebaseでチャットアプリを開発する｜データベース・画像保存・ChatGPT（AI）",
-    "provider": "Udemy",
-    "category": "Web Development",
-    "categorySlug": "web-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.4,
-    "reviews": 7067,
-    "price": 109.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "※この動画コースは、Flutter学習サービス『Flutterラボ』でも公開しています。概要チャットアプリの作成を通してFlutterとFirebaseの連携・活用方法を学習することができる動画コースです。Firebaseの中でもDB機能であるFirestore、データ保存機能であるCloud Storageの活用方法を学習できます。また、Flutterの開発の基礎であるWidgetの活用方法もチャットアプリのUI作成を通じて学習することができます。Firebaseの使い方を",
-    "image": "https://i.udemycdn.com/course/480x270/4137934_f601_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4137934&u=https%3A%2F%2Fwww.udemy.com%2Fflutter-firebase-chat&intsrc=APIG_26324"
-  },
-  {
-    "slug": "600-cyber-security-interview-questions-practice-test",
-    "title": "600+ Cyber Security Interview Questions Practice Test",
-    "provider": "Udemy",
-    "category": "Hacking",
-    "categorySlug": "hacking",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 3.9,
-    "reviews": 6023,
-    "price": 74.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Cyber Security Interview Questions and Answers Preparation Practice Test | Freshers to Experienced Welcome to the Cyber Security Interview Questions Practice Test Course! If you're aspiring to launch a successful career in the dynamic field",
-    "image": "https://i.udemycdn.com/course/480x270/5724096_be68_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5724096&u=https%3A%2F%2Fwww.udemy.com%2Fcyber-security-interview-questions&intsrc=APIG_26324"
-  },
-  {
-    "slug": "become-pharmacy-technician-in-canada-pebc-technician-mcq",
-    "title": "Become Pharmacy Technician in Canada. PEBC Technician MCQ",
-    "provider": "Udemy",
-    "category": "Health & Fitness",
-    "categorySlug": "health-and-fitness",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 2918,
-    "price": 39.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "In order to become regulated (certified) a pharmacy technician must satisfy the requirements of the Pharmacy Examining Board of Canada (PEBC®) by completing successfully the Qualifying Exam divided in Part 1: MCQ and Part 2: OSPE. Check our",
-    "image": "https://i.udemycdn.com/course/480x270/2397266_5c0b_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.2397266&u=https%3A%2F%2Fwww.udemy.com%2Fbecome-pharmacy-technician-in-canada-pebc-technician-mcq&intsrc=APIG_26324"
-  },
-  {
-    "slug": "mockups-erstellen-mit-ki-chatgpt-der-praxiskurs",
-    "title": "Mockups erstellen mit KI & ChatGPT: Der Praxiskurs",
-    "provider": "Udemy",
-    "category": "Artificial Intelligence",
-    "categorySlug": "artificial-intelligence",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 3.9,
-    "reviews": 7492,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "In diesem Kurs lernst Du Schritt für Schritt die wichtigsten Grundlagen kennen, um eigene digitale Mockups zu erstellen. Dabei zeige ich Dir verschiedene praktische Online-Tools und erläutere anhand konkreter Beispiele, wie Du Deine eigenen",
-    "image": "https://i.udemycdn.com/course/480x270/3511526_676a_22.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.3511526&u=https%3A%2F%2Fwww.udemy.com%2Fmockup-palace&intsrc=APIG_26324"
-  },
-  {
-    "slug": "documentary-video-editing-course",
-    "title": "Documentary Video Editing Course",
-    "provider": "Udemy",
-    "category": "Video Editing & Animation",
-    "categorySlug": "video-editing-and-animation",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 3.9,
-    "reviews": 5963,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Become a Documentary Style Video Editing Master with ezedit!This course offers you an exclusive opportunity to learn directly from creators who have successfully carved their niche in the documentary video space. Whether you’re a beginner o",
-    "image": "https://i.udemycdn.com/course/480x270/6226797_2a97_6.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6226797&u=https%3A%2F%2Fwww.udemy.com%2Fdocumentary-video-editing-course&intsrc=APIG_26324"
-  },
-  {
-    "slug": "church-leadership-101-bob-whitesel-phd-leadership-church",
-    "title": "Church Leadership 101 -Bob Whitesel PhD - Leadership.church",
-    "provider": "Udemy",
-    "category": "Leadership & Management",
-    "categorySlug": "leadership",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.1,
-    "reviews": 2930,
-    "price": 149.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "In his energetic and insightful style, award-winning church leadership expert and author, Bob Whitesel D.Min., Ph.D., shows that good leadership begins by knowing the style of leadership you most enjoy. Dr. Whitesel introduces the student t",
-    "image": "https://i.udemycdn.com/course/480x270/2798386_019e.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.2798386&u=https%3A%2F%2Fwww.udemy.com%2Fchurch-leadership-101-bob-whitesel-phd-leadershipchurch&intsrc=APIG_26324"
-  },
-  {
-    "slug": "legal-pro",
-    "title": "Курс для юристов и адвокатов \"Юридический бизнес\" LEGAL PRO",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 3578,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Рынок консалтинга сегодня перенасыщен псевдоспециалистами, рассказывающие вам как вести свой бизнес, когда они никогда не делали это сами.Legal Pro - это полноценный профессиональный видеокурс с углубленным обучением от А до Я по каждому из",
-    "image": "https://i.udemycdn.com/course/480x270/6203615_ce96.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6203615&u=https%3A%2F%2Fwww.udemy.com%2Flegal-pro&intsrc=APIG_26324"
-  },
-  {
-    "slug": "quantity-survying-course-civil-arch",
-    "title": "Quantity Survying course (Civil-Arch)",
-    "provider": "Udemy",
-    "category": "Engineering",
-    "categorySlug": "engineering",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 3.9,
-    "reviews": 7306,
-    "price": 39.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "The ability to survy all civiland architectural worksPreparing reports, analyses, contracts, budgets, and other documents.Understand all structural and architectural shopdrawingall Autocad tricks in quantity survyingTeaching you all survyin",
-    "image": "https://i.udemycdn.com/course/480x270/5258920_55cc_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5258920&u=https%3A%2F%2Fwww.udemy.com%2Fquantity-survying-course-civil-arch-pont-ac&intsrc=APIG_26324"
-  },
-  {
-    "slug": "iso-20000-1-2018-lead-auditor-training",
-    "title": "ISO 20000-1:2018 LEAD AUDITOR TRAINING",
-    "provider": "Udemy",
-    "category": "AWS",
-    "categorySlug": "aws",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.2,
-    "reviews": 7028,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Here’s your adapted ISO 20000-1:2018 Lead Auditor Job Description:ISO 20000-1 Lead Auditor Job DescriptionNote: Candidates can apply for the Lead Auditor exam conducted by Megademi and obtain an Recognized Lead Auditor Certificate, which is",
-    "image": "https://i.udemycdn.com/course/480x270/6465009_9bbe.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6465009&u=https%3A%2F%2Fwww.udemy.com%2Fiso-20001-12018-lead-auditor-training&intsrc=APIG_26324"
-  },
-  {
-    "slug": "ok",
-    "title": "簡単・ズボラOKのりちゃんのナチュラルやさい作り講座～基礎編～",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.4,
-    "reviews": 5027,
-    "price": 24.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "初めての野菜作りを家庭菜園で始めようという方、今まで農薬、化学肥料を使ってやさい作りをしていたけど、より環境にやさしい作り方に変えたい方に向けて、できるだけ簡単に、初心者向けにこれだけは知っておくと、便利だったり、失敗を未然に防ぐ基礎知識をお伝えしています。",
-    "image": "https://i.udemycdn.com/course/480x270/6517395_8092.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6517395&u=https%3A%2F%2Fwww.udemy.com%2Fmanamama&intsrc=APIG_26324"
-  },
-  {
-    "slug": "timos-fingerstyle-workshop-level-1",
-    "title": "Timos Fingerstyle Workshop Level 1",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 3.9,
-    "reviews": 2088,
-    "price": 59.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Hallo und herzlich willkommen zu Timos Fingerstyle Workshop Level 1.In diesem Workshop lernst du mit einfachen Übungen und Liedern die Finger deiner rechten Hand unabhängig voneinander einzusetzen und somit gleichzeitig Melodien und Bassbeg",
-    "image": "https://i.udemycdn.com/course/480x270/4465972_526c.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4465972&u=https%3A%2F%2Fwww.udemy.com%2Ftimos-fingerstyle-workshop-level-1&intsrc=APIG_26324"
-  },
-  {
-    "slug": "event-planning-certified-sponsors-volunteers-100k-events",
-    "title": "Event Planning Certified: Sponsors, Volunteers, 100k events",
-    "provider": "Udemy",
-    "category": "Project Management",
-    "categorySlug": "project-management",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.9,
-    "reviews": 3541,
-    "price": 199.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "--Certification for people who finish this course included--Do you believe in making a real positive impact on people?In this course, we show you how we built Startup Funding Event into an international 6-figure business in less than 12 mon",
-    "image": "https://i.udemycdn.com/course/480x270/3368834_5a01_6.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.3368834&u=https%3A%2F%2Fwww.udemy.com%2Felite-event-creator&intsrc=APIG_26324"
-  },
-  {
-    "slug": "ezoterik-tarot-ac-l-m",
-    "title": "Ezoterik tarot açılımı",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.2,
-    "reviews": 1623,
-    "price": 104.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Tarot, Ezoterik bir İnisiasyon yöntemiBilgilerin asıl kaynağı, her bireyin bağlı olduğu Evrensel Üst Bilinçtir. Tarotun ezoterik evrenselliğiKursun bölümleri;1.Bölüm: Büyük arkananın 22 kartı destenin kalbidir.2. Bölüm: Küçük Arkana kartlar",
-    "image": "https://i.udemycdn.com/course/480x270/5473360_5ef9_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5473360&u=https%3A%2F%2Fwww.udemy.com%2Fezoteriktarot&intsrc=APIG_26324"
-  },
-  {
-    "slug": "become-a-certified-cold-water-therapy-coach",
-    "title": "Become a Certified Cold Water Therapy Coach",
-    "provider": "Udemy",
-    "category": "Leadership & Management",
-    "categorySlug": "leadership",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.2,
-    "reviews": 991,
-    "price": 199.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Become a Certified Cold Water Therapy CoachIn this course you will learn as much as you need to be fully immersed in the cold water immersion experience and will be able to coach others into the cold water. You will learn about the history ",
-    "image": "https://i.udemycdn.com/course/480x270/5345110_39ae.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5345110&u=https%3A%2F%2Fwww.udemy.com%2Fcold-water-therapy-coach&intsrc=APIG_26324"
-  },
-  {
-    "slug": "ciberseguridad-gestion-de-incidentes-y-continuidad-bcp-drp",
-    "title": "Ciberseguridad: Gestión de Incidentes y Continuidad BCP/DRP",
-    "provider": "Udemy",
-    "category": "Hacking",
-    "categorySlug": "hacking",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.9,
-    "reviews": 6046,
-    "price": 59.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "¿Alguna vez te has preguntado cómo responde realmente una organización cuando enfrenta un incidente grave de ciberseguridad? ¿Qué ocurre cuando un sistema crítico deja de estar disponible, una operación se interrumpe y el negocio necesita s",
-    "image": "https://i.udemycdn.com/course/480x270/7119139_2a52.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.7119139&u=https%3A%2F%2Fwww.udemy.com%2Fciberseguridad-gestion-de-incidentes-y-continuidad-bcpdrp&intsrc=APIG_26324"
-  },
-  {
-    "slug": "start-dropshipping-business-in-1-hour-reach-7-figure-sales",
-    "title": "Start Dropshipping Business in 1 Hour & Reach 7 Figure Sales",
-    "provider": "Udemy",
-    "category": "Graphic Design",
-    "categorySlug": "graphic-design",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.9,
-    "reviews": 6973,
-    "price": 159.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Ready to get serious about your income? The dropshipping model is still a highly profitable way of selling physical products online. Follow along with me as I guide you step-by-step to creating your own dropship empire.Course update&nbsp; J",
-    "image": "https://i.udemycdn.com/course/480x270/4101006_6f77_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4101006&u=https%3A%2F%2Fwww.udemy.com%2Fdropshipping-business-model-from-scratch-to-7-figure-profits&intsrc=APIG_26324"
-  },
-  {
-    "slug": "the-complete-pinterest-marketing-guide-for-creatives",
-    "title": "The Complete Pinterest Marketing Guide for Creatives",
-    "provider": "Udemy",
-    "category": "Digital Marketing",
-    "categorySlug": "digital-marketing",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4,
-    "reviews": 4769,
-    "price": 109.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "I believe in making your business work for YOU and not the other way. Join over 10.000 happy Students that are already enrolled to this course and pinning to win!This Pinterest Course is a Complete Pinterest Marketing Guide for Creatives an",
-    "image": "https://i.udemycdn.com/course/480x270/3554999_845c_6.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.3554999&u=https%3A%2F%2Fwww.udemy.com%2Fthe-pinterest-marketing-guide-for-creatives&intsrc=APIG_26324"
-  },
-  {
-    "slug": "goal-hacking-the-fastest-way-to-achieving-your-top-3-goals",
-    "title": "Goal Hacking - the fastest way to achieving your top 3 goals",
-    "provider": "Udemy",
-    "category": "Hacking",
-    "categorySlug": "hacking",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.4,
-    "reviews": 4653,
-    "price": 159.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Goal Hacking is a revolutionary new accelerated success system from bestselling author and serial entrepreneur Mike Pettigrew. It includes groundbreaking techniques that have been scientifically proved to work.In Goal Hacking you will disco",
-    "image": "https://i.udemycdn.com/course/480x270/2486816_31e6.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.2486816&u=https%3A%2F%2Fwww.udemy.com%2Fgoal-hacking&intsrc=APIG_26324"
-  },
-  {
-    "slug": "el-arte-de-descubrir-y-desarrollar-tu-proposito",
-    "title": "El arte de descubrir y desarrollar tu propósito",
-    "provider": "Udemy",
-    "category": "Graphic Design",
-    "categorySlug": "graphic-design",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.1,
-    "reviews": 4677,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Este curso, si bien no hace mención específicamente a emprendedores, está recomendado para aquellas personas que desean dar sus primeros pasos como emprendedor, añadiendo su propósito al mismo. Podrán observar a través del desarrollo del mi",
-    "image": "https://i.udemycdn.com/course/480x270/4835474_0912_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4835474&u=https%3A%2F%2Fwww.udemy.com%2Fel-arte-de-descubrir-y-desarrollar-tu-proposito&intsrc=APIG_26324"
-  },
-  {
-    "slug": "karate-em-casa-1-0-arte-marcial-para-defesa-pessoal-e-saude",
-    "title": "Karate em casa 1.0! Arte Marcial para Defesa Pessoal e Saúde",
-    "provider": "Udemy",
-    "category": "Graphic Design",
-    "categorySlug": "graphic-design",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 7154,
-    "price": 34.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "KARATE EM CASA é um CURSO ONLINE para você que deseja praticar, mas não têm oportunidade de frequentar uma Academia!!Se não há uma Academia próxima, você não têm tempo para frequentar as aulas, ou qualquer outro motivo...Essa é a sua chance",
-    "image": "https://i.udemycdn.com/course/480x270/2447262_6054_4.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.2447262&u=https%3A%2F%2Fwww.udemy.com%2Fkaratecasa1&intsrc=APIG_26324"
-  },
-  {
-    "slug": "affiliate-marketing-hacks-1-smarter-campaigns",
-    "title": "Affiliate marketing hacks #1: smarter campaigns",
-    "provider": "Udemy",
-    "category": "Hacking",
-    "categorySlug": "hacking",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 2394,
-    "price": 189.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Still working like a charm in 2021!Join over 40,000 students from 172 countries worldwide taking my courses today!no fluff, no filler content, just straight to the point course that you can start and actually finish in 1 day!If you are an a",
-    "image": "https://i.udemycdn.com/course/480x270/1188050_1e26_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.1188050&u=https%3A%2F%2Fwww.udemy.com%2Faffiliate-marketing-hacks-1-smarter-campaigns&intsrc=APIG_26324"
-  },
-  {
-    "slug": "prashnottara-ratna-maalikaa-hindi",
-    "title": "प्रश्नोत्तररत्नमालिका (Prashnottara Ratna Maalikaa)- Hindi",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 3739,
-    "price": 29.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "प्रश्नोत्तररत्नमालिका जगद्गुरु भगवान् आदि शङ्कराचार्य के अद्वितीय और सरल ग्रंथों में से एक है। जो एक प्रकरण ग्रंथ है और जिसमे प्रश्नोत्तर अर्थात् प्रश्न और उसके उत्तर प्रत्येक श्लोक में समाहित किये गए है। इसमें कुल ६७ श्लोक हैं जिनमें १८२ प",
-    "image": "https://i.udemycdn.com/course/480x270/3807454_6b98_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.3807454&u=https%3A%2F%2Fwww.udemy.com%2Fprashnottara-ratna-maalikaa-hindi&intsrc=APIG_26324"
-  },
-  {
-    "slug": "draft-to-done-a-creative-qwik-course-for-effective-revision",
-    "title": "Draft to Done: A Creative QWIK Course for Effective Revision",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.5,
-    "reviews": 6668,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "From Draft to Done: A Creative Writing QWIK Course for Effective RevisionAll of my Creative Writing Qwik Courses are designed to tackle a single creative writing concept or problem in about an hour.Course Overview:You’ve finished a draft. N",
-    "image": "https://i.udemycdn.com/course/480x270/6685195_1f2e.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6685195&u=https%3A%2F%2Fwww.udemy.com%2Fdraft-to-done-a-creative-qwik-course-for-effective-revision&intsrc=APIG_26324"
-  },
-  {
-    "slug": "aprende-split-frontal-y-lateral",
-    "title": "Aprende split frontal y lateral",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.6,
-    "reviews": 5467,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Te gustaría aprender Hanumanasana y upavista konasana, el split frontal y lateral? Si tu respuesta es sí, este curso es para ti.Este curso es todo lo que necesitas para lograr de forma segura estas dos posturas avanzadas. Encontrarás videos",
-    "image": "https://i.udemycdn.com/course/480x270/5441952_868f.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5441952&u=https%3A%2F%2Fwww.udemy.com%2Faprende-split-frontal-y-lateral&intsrc=APIG_26324"
-  },
-  {
-    "slug": "how-to-get-nice-healthy-clear-skin-using-home-remedies",
-    "title": "How to Get Nice & Healthy & Clear Skin Using Home Remedies",
-    "provider": "Udemy",
-    "category": "Health & Fitness",
-    "categorySlug": "health-and-fitness",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4,
-    "reviews": 7454,
-    "price": 179.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Hello Guys!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Welcome to my course on \"How to Get Nice &amp; Healthy &amp; Clear Skin Using Home Remedies\"So, In this Course we will learn About Skin care Using Home Remedies:Everyo",
-    "image": "https://i.udemycdn.com/course/480x270/4349262_b5a2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4349262&u=https%3A%2F%2Fwww.udemy.com%2Fhow-to-get-nice-healthy-clear-skin-using-home-remedies&intsrc=APIG_26324"
-  },
-  {
-    "slug": "ballpoint-pen-drawing",
-    "title": "Ballpoint Pen Drawing",
-    "provider": "Udemy",
-    "category": "Graphic Design",
-    "categorySlug": "graphic-design",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.5,
-    "reviews": 2520,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "When people think of drawing portraits, they usually think of pencils, but did you know that a simple pen can generate gorgeous effects? In this ballpoint pen art video course, we will break the entire process down.Drawing is not a talent. ",
-    "image": "https://i.udemycdn.com/course/480x270/5687336_f983.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5687336&u=https%3A%2F%2Fwww.udemy.com%2Fballpoint-pen-drawing-p&intsrc=APIG_26324"
-  },
-  {
-    "slug": "frances-basico-curso-pratico-de-frances-passo-a-passo",
-    "title": "Francês Básico - Curso Prático de Francês Passo a Passo",
-    "provider": "Udemy",
-    "category": "Language Learning",
-    "categorySlug": "language-learning",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 5898,
-    "price": 54.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Aprenda o Básico de Francês, mesmo que atualmente você não saiba quase nada ou muito pouco, para poder:- Entender as conversas e situações do dia a dia- Viajar com a segurança de entender e falar o francês sem dificuldades- Ser capaz de ler",
-    "image": "https://i.udemycdn.com/course/480x270/2474026_e895_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.2474026&u=https%3A%2F%2Fwww.udemy.com%2Fcurso-basico-frances&intsrc=APIG_26324"
-  },
-  {
-    "slug": "course",
-    "title": "الليلة المظلمة للروح",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.6,
-    "reviews": 4422,
-    "price": 99.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "كثيرون من المتأملين و المتدبرين و الباحثين عن الحقيقة يمرون بمرحلة صعبة جدا تسمى بالليلة المظلمة للروح. اذا كنت تعيش الآن حالة دمار شامل في حياتك، و كل شيء بنيته وحققته في حياتك صار الآن يتحطم و ينهار أمام عينيك فأنت في مرحلة حاسمة من حياتك",
-    "image": "https://i.udemycdn.com/course/480x270/5803988_b69a_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5803988&u=https%3A%2F%2Fwww.udemy.com%2Fdark-night-of-the-soul&intsrc=APIG_26324"
-  },
-  {
-    "slug": "sap-bw-introduction-training-2017-sap-bw-7-4",
-    "title": "SAP BW Introduction Training 2017 - SAP BW 7.4",
-    "provider": "Udemy",
-    "category": "IT Certifications",
-    "categorySlug": "it-certifications",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.6,
-    "reviews": 6466,
-    "price": 94.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Course Updated On : 09th Aug 2018 SAP BW is very Niche Skills and market has lot of demand for BW consultant as this skill provides best business solutions, eventually giving higher Turnovers &amp; Profits but due to scarcity of such skille",
-    "image": "https://i.udemycdn.com/course/480x270/115494_18e0_7.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.115494&u=https%3A%2F%2Fwww.udemy.com%2Fsap-bw-intro&intsrc=APIG_26324"
-  },
-  {
-    "slug": "dental-courses-in-uk",
-    "title": "Dental courses in UK",
-    "provider": "Udemy",
-    "category": "Health & Fitness",
-    "categorySlug": "health-and-fitness",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.1,
-    "reviews": 4555,
-    "price": 24.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "TRANSFORM LIVES WITH A SMILESTUDY DENTISTRY IN UKEmbark on a rewarding journey to become a skilled dental professional through world calss dentistry degree in united kingdom.Renowned for academic excellence and hands on training , UK dental",
-    "image": "https://i.udemycdn.com/course/480x270/6596819_1f43_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6596819&u=https%3A%2F%2Fwww.udemy.com%2Fdental-courses-in-uk&intsrc=APIG_26324"
-  },
-  {
-    "slug": "giac-gcih-exam-prep-cybersecurity-incident-handling",
-    "title": "GIAC GCIH Exam Prep: Cybersecurity Incident Handling",
-    "provider": "Udemy",
-    "category": "Hacking",
-    "categorySlug": "hacking",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 5841,
-    "price": 39.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Prepare for the GCIH (GIAC Certified Incident Handler) certification with this comprehensive, hands-on cybersecurity practice exam course. This course is designed for aspiring cybersecurity professionals, SOC analysts, IT administrators, an",
-    "image": "https://i.udemycdn.com/course/480x270/6972243_95c9_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6972243&u=https%3A%2F%2Fwww.udemy.com%2Fgiac-gcih-exam-prep-cybersecurity-incident-handling&intsrc=APIG_26324"
-  },
-  {
-    "slug": "course-1",
-    "title": "楷书毛笔字入门课程",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.9,
-    "reviews": 5167,
-    "price": 34.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "本课程前两节为认识笔墨纸砚，了解软笔书法文化，以及如何执笔、运笔，和一些学习书法最基础的知识。后面的课程为学习欧体楷书。欧体，始祖欧阳询生于南朝陈武帝永定元年（557），卒于唐太宗贞观十五年（641），字信本，潭州临湘人（今湖南）。以楷书和行书著称。为书法史上第一大楷书家，其字体被称为\"欧体\"，与颜（真卿）体、柳（公权）体、赵（孟頫）体并驾齐驱。欧体是唐代大书法家欧阳询创作的一种楷书字体，其特点是方圆兼施，以方为主，点画劲挺，笔力凝聚。既欹侧险峻，又严谨工整。欹侧中保持稳健，",
-    "image": "https://i.udemycdn.com/course/480x270/4454892_501a_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4454892&u=https%3A%2F%2Fwww.udemy.com%2Fmokeshuyuan&intsrc=APIG_26324"
-  },
-  {
-    "slug": "the-muse-quickstart-guide-online-passive-income-in-7-days",
-    "title": "The Muse QuickStart Guide: Online Passive Income in 7 Days",
-    "provider": "Udemy",
-    "category": "Graphic Design",
-    "categorySlug": "graphic-design",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 3.9,
-    "reviews": 1772,
-    "price": 24.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "The Muse QuickStart Guide is a step-by-step guide teaching you how to create online passive income by selling knowledge. To read chapter one for free, please visit the website at www.MuseQuickStart.com The internet is full of advice, especi",
-    "image": "https://i.udemycdn.com/course/480x270/19293_02e1_5.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.19293&u=https%3A%2F%2Fwww.udemy.com%2Fthe-muse-quickstart-guide&intsrc=APIG_26324"
-  },
-  {
-    "slug": "travel-course-air-ticketing-course-airline-course",
-    "title": "Travel Course Air Ticketing Course Airline Course",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.4,
-    "reviews": 7411,
-    "price": 29.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Travel Itinerary is the most important part of Travel Industry. Nor Travel Agents, Neither Travel Manager can grow without the knowledge of Travel Itinerary. Travel Itineraries are the first step of Designing Travel Packages of any destinat",
-    "image": "https://i.udemycdn.com/course/480x270/3331474_7b37_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.3331474&u=https%3A%2F%2Fwww.udemy.com%2Ftravel-course-air-ticketing-course-airline-course&intsrc=APIG_26324"
-  },
-  {
-    "slug": "1-1nt2-12",
-    "title": "Курс 1.1NT2 на русском (12 уроков с домашкой для мобильного)",
-    "provider": "Udemy",
-    "category": "Language Learning",
-    "categorySlug": "language-learning",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.7,
-    "reviews": 1275,
-    "price": 119.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Тот самый курс, с которого начинается обучение нидерландскому в школе NT2. Только на понятном тебе языке. Курс состоит из 12 уроков с домашкой, которую можно делать с мобильного.Каждый урок длится в среднем 2 часа, но разделен на блоки по 1",
-    "image": "https://i.udemycdn.com/course/480x270/6468497_61b6_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6468497&u=https%3A%2F%2Fwww.udemy.com%2Fnedobelgi-11nt2&intsrc=APIG_26324"
-  },
-  {
-    "slug": "nonprofit-essentials-from-startup-to-impact",
-    "title": "Nonprofit Essentials: From Startup to Impact",
-    "provider": "Udemy",
-    "category": "Graphic Design",
-    "categorySlug": "graphic-design",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.1,
-    "reviews": 7388,
-    "price": 129.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Are you passionate about making a difference in your community—or the world—but unsure how to start or grow your nonprofit organization? Nonprofit Essentials: From Startup to Impact is your step-by-step guide to launching and scaling a succ",
-    "image": "https://i.udemycdn.com/course/480x270/6940443_a72b_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6940443&u=https%3A%2F%2Fwww.udemy.com%2Fnonprofit-essentials-from-startup-to-impact&intsrc=APIG_26324"
-  },
-  {
-    "slug": "discover-the-i-ching-1-inner-guidance-for-any-question",
-    "title": "Discover the I Ching #1: Inner Guidance for Any Question",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.5,
-    "reviews": 1163,
-    "price": 59.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Unlock Ancient Wisdom for Modern Problems: A Guide to the I ChingTired of feeling lost in a sea of endless choices? Discover a 3,000-year-old system (in continuous use) for clarity and guidance.Are you facing a major life decision? Navigati",
-    "image": "https://i.udemycdn.com/course/480x270/1309034_a5f7_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.1309034&u=https%3A%2F%2Fwww.udemy.com%2Fdiscover-the-i-ching&intsrc=APIG_26324"
-  },
-  {
-    "slug": "salesforce-account-engagement-consultant-practice-tests",
-    "title": "Salesforce Account Engagement Consultant Practice Tests",
-    "provider": "Udemy",
-    "category": "IT Certifications",
-    "categorySlug": "it-certifications",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.7,
-    "reviews": 5156,
-    "price": 29.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "This comprehensive course is designed for individuals preparing to take a certification exam in their chosen field. By providing an extensive collection of high-quality practice exams, this course allows learners to assess and reinforce the",
-    "image": "https://i.udemycdn.com/course/480x270/6213427_987a.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6213427&u=https%3A%2F%2Fwww.udemy.com%2Fsalesforce-account-engagement-consultant-practice-tests&intsrc=APIG_26324"
-  },
-  {
-    "slug": "psychological-types-4-neuroscience-of-personality",
-    "title": "Psychological Types #4: “NEUROSCIENCE OF PERSONALITY”",
-    "provider": "Udemy",
-    "category": "Health & Fitness",
-    "categorySlug": "health-and-fitness",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.9,
-    "reviews": 7652,
-    "price": 69.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "This is the 4th of four courses on the Myers-Briggs / Jungian psychological types.The other courses in this series are informed by 15 years of hands-on neuroscience research. Now is your chance to go deeper into the results and implications",
-    "image": "https://i.udemycdn.com/course/480x270/4857062_46d4_4.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4857062&u=https%3A%2F%2Fwww.udemy.com%2Fpsychological-types-4-neuroscience-of-personality&intsrc=APIG_26324"
-  },
-  {
-    "slug": "lucid-ruya-sertifikal",
-    "title": "Lucid Rüya (Sertifikalı)",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.4,
-    "reviews": 2251,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "KURSBu Rüya Akademi kursunu, yeni başlayanlar tarafından kolayca anlaşılabilecek şekilde tasarladım.Hızlı pratik ve olabilecek en akılda kalıcı şekilde rüya tabiri ögrenin.Hiç rüyanız ne anlama geliyor merak ettiniz mi ?Bu kursta, hep birli",
-    "image": "https://i.udemycdn.com/course/480x270/4508952_eaf9_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4508952&u=https%3A%2F%2Fwww.udemy.com%2Flucid-ruya&intsrc=APIG_26324"
-  },
-  {
-    "slug": "esprimersi-con-il-cucito",
-    "title": "Esprimersi con il Cucito",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.8,
-    "reviews": 1561,
-    "price": 99.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Un percorso creativo per valorizzare te stessa attraverso ciò che indossi.Gli abiti parlano di noi, spesso più delle parole. Raccontano chi siamo, come ci sentiamo e come scegliamo di mostrarci al mondo. “Esprimersi con il cucito” non è un ",
-    "image": "https://i.udemycdn.com/course/480x270/7077521_b4b9.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.7077521&u=https%3A%2F%2Fwww.udemy.com%2Fesprimersi-con-il-cucito&intsrc=APIG_26324"
-  },
-  {
-    "slug": "course-2",
-    "title": "السيارات الكهربائية ومحطات الشحن",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.7,
-    "reviews": 3861,
-    "price": 49.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "1. Electric Vehicles (EVs)a. Introduction to EVsb. EV Types and Technologyc. EV Components in detaild. Modern EVse. EV battery types, specifications, and charging characteristics2. Electric Vehicle Supply Equipment /EVSE (“Charging Stations",
-    "image": "https://i.udemycdn.com/course/480x270/4925370_9bce_4.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4925370&u=https%3A%2F%2Fwww.udemy.com%2Fvrsuzgjl&intsrc=APIG_26324"
-  },
-  {
-    "slug": "spirituelles-heilen-i",
-    "title": "Spirituelles Heilen I",
-    "provider": "Udemy",
-    "category": "Health & Fitness",
-    "categorySlug": "health-and-fitness",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.7,
-    "reviews": 4499,
-    "price": 59.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Hallo! Ich freue mich sehr, dass Du Dich für diesen Kurs interessierst! Der Kurs \"Spirituelles Heilen\" besteht aus drei Teilen. In diesem ersten Teil legen wir die Grundlagen. Wir schauen uns an, warum spirituelles Heilen oft Heilung und Ge",
-    "image": "https://i.udemycdn.com/course/480x270/5870260_a645.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5870260&u=https%3A%2F%2Fwww.udemy.com%2Fspirituelles-heilen-i&intsrc=APIG_26324"
-  },
-  {
-    "slug": "tiktok-for-business",
-    "title": "TikTok for Business",
-    "provider": "Udemy",
-    "category": "Digital Marketing",
-    "categorySlug": "digital-marketing",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 3.9,
-    "reviews": 6157,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Short-form video marketing is one of the best ways to grow your business and build your brand online - but where to start?Join Cheryl A. Spencer for this in-depth class as she teaches you everything you need to know about creating a success",
-    "image": "https://i.udemycdn.com/course/480x270/5578562_cb06_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5578562&u=https%3A%2F%2Fwww.udemy.com%2Ftiktok-for-business-owners&intsrc=APIG_26324"
-  },
-  {
-    "slug": "learn-video-editing-for-freelancing-social-media-marketing",
-    "title": "Learn Video Editing for Freelancing & Social Media Marketing",
-    "provider": "Udemy",
-    "category": "Video Editing & Animation",
-    "categorySlug": "video-editing-and-animation",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.6,
-    "reviews": 3989,
-    "price": 69.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "In this video editing course you will learn how to edit videos from raw clips to professional looking business promotional video.we have covered all main features of any video editing software like cutting, trimming, transitions, enhancing,",
-    "image": "https://i.udemycdn.com/course/480x270/1880760_a185_8.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.1880760&u=https%3A%2F%2Fwww.udemy.com%2Flearn-video-editing-for-freelancing-social-media-marketing&intsrc=APIG_26324"
-  },
-  {
-    "slug": "curso-projeto-de-comandos-eletricos-com-o-qeletrotech",
-    "title": "Curso projeto de comandos elétricos com o QEletroTech",
-    "provider": "Udemy",
-    "category": "Engineering",
-    "categorySlug": "engineering",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.8,
-    "reviews": 2064,
-    "price": 69.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Para todo aquele que deseja desenvolver projeto de comandos elétricos do zero como um profissional.Basta o conhecimento no uso de computador e leitura e interpretação de esquemas elétricos.Irá aprender com um software 100% gratuito a inseri",
-    "image": "https://i.udemycdn.com/course/480x270/4485296_e31a.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4485296&u=https%3A%2F%2Fwww.udemy.com%2Fprojeto-de-comandos-eletricos-com-o-qeletrotech&intsrc=APIG_26324"
-  },
-  {
-    "slug": "building-better-behaviour",
-    "title": "Building Better Behaviour",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.6,
-    "reviews": 2985,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Teaching can be incredibly rewarding, the best job in the world.It can also be one of the most challenging ones.30 human beings in a single classroom and you are responsible for what happens in it.Managing the different behaviours and devel",
-    "image": "https://i.udemycdn.com/course/480x270/5113436_98b2_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5113436&u=https%3A%2F%2Fwww.udemy.com%2Fbuilding-better-behaviour&intsrc=APIG_26324"
-  },
-  {
-    "slug": "a-beginner-s-guide-to-rebirth",
-    "title": "A Beginner's Guide to Rebirth",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 414,
-    "price": 54.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "So many of us long for spiritual transformation or are experiencing a time of transition in our lives, which involves a kind of death and rebirth. This process of deep letting go can be daunting, but it’s also a period of huge spiritual opp",
-    "image": "https://i.udemycdn.com/course/480x270/2664874_30e9.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.2664874&u=https%3A%2F%2Fwww.udemy.com%2Fa-beginners-guide-to-rebirth&intsrc=APIG_26324"
-  },
-  {
-    "slug": "spanish-basics-2",
-    "title": "SPANISH BASICS 2",
-    "provider": "Udemy",
-    "category": "Language Learning",
-    "categorySlug": "language-learning",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4,
-    "reviews": 3379,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Understanding how adjectives work in Spanish is essential for fluency and accuracy. Unlike English, where adjectives come before nouns, Spanish adjectives usually follow the noun—but there are important exceptions! This course will guide yo",
-    "image": "https://i.udemycdn.com/course/480x270/6452545_eb61_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6452545&u=https%3A%2F%2Fwww.udemy.com%2Fspanish-basics-2&intsrc=APIG_26324"
-  },
-  {
-    "slug": "publish-your-own-spring-ninja-game-for-iphone-and-android",
-    "title": "Publish your own Spring Ninja* game for iPhone and Android",
-    "provider": "Udemy",
-    "category": "JavaScript",
-    "categorySlug": "javascript",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 3.9,
-    "reviews": 5341,
-    "price": 199.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "The source code is compatible with iOS 8, and also ready for iPhone 6/6+ and latest Android PhonesThank you for your interest in this course, this is your instructor Yohann.This course is not just about theory, it&#039;s about getting thing",
-    "image": "https://i.udemycdn.com/course/480x270/500340_6db4_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.500340&u=https%3A%2F%2Fwww.udemy.com%2Fpublish-your-own-spring-ninja-game-for-iphone-and-android&intsrc=APIG_26324"
-  },
-  {
-    "slug": "powerpoint-2010-a-todo-su-potencial-actualizacion-2019",
-    "title": "Powerpoint 2010 a todo su potencial (Actualización 2019).",
-    "provider": "Udemy",
-    "category": "Office Productivity",
-    "categorySlug": "office-productivity",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.6,
-    "reviews": 1822,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "El curso pretende hacer de Power point una herramienta 100% multimedia y sencilla de utilizar ya que muchas veces realizamos presentaciones que dejan mucho que desear, que por lo regular es por falta de conocimiento en el manejo del program",
-    "image": "https://i.udemycdn.com/course/480x270/308734_fa47_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.308734&u=https%3A%2F%2Fwww.udemy.com%2Fpower-point-a-todo-su-potencial&intsrc=APIG_26324"
-  },
-  {
-    "slug": "comprendre-et-coacher-les-mecanismes-de-defense",
-    "title": "Comprendre et coacher les mécanismes de défense",
-    "provider": "Udemy",
-    "category": "Leadership & Management",
-    "categorySlug": "leadership",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4,
-    "reviews": 5397,
-    "price": 199.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Bienvenue à toutes et à tous.Si vous êtes arrivé sur cette page, c'est que le sujet des mécanismes de défense psychologiques vous intéresse. Vous êtes coach, thérapeute, professionnel de la relation d'aide ? Les résistances qu'amènent les m",
-    "image": "https://i.udemycdn.com/course/480x270/5709990_53a5.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5709990&u=https%3A%2F%2Fwww.udemy.com%2Fcomprendre-et-coacher-les-mecanismes-de-defense&intsrc=APIG_26324"
-  },
-  {
-    "slug": "food-decoration-from-beginner-to-expert",
-    "title": "Food Decoration from Beginner to Expert",
-    "provider": "Udemy",
-    "category": "Lifestyle",
-    "categorySlug": "lifestyle",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 5561,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "In this course you will learn how to decorate fruit like a pro. Among other things, on the course we will learn how to make a snake, how to make a mouse or a hedgehog, how to make a butterfly or a candlestick in which a candle will burn. We",
-    "image": "https://i.udemycdn.com/course/480x270/4914142_92de_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4914142&u=https%3A%2F%2Fwww.udemy.com%2Ffood-decoration-from-beginner-to-expert&intsrc=APIG_26324"
-  },
-  {
-    "slug": "quick-mental-math-tricks-shortcuts-for-competitive-exams",
-    "title": "Quick Mental Math Tricks & Shortcuts for Competitive Exams",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.4,
-    "reviews": 1475,
-    "price": 59.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "This course is carefully designed to prepare students for the ‘Quantitative aptitude’ section of the competitive exams. It has around 2000+ solved questions and I constantly upgrade the course to ensure it is in line with the current year e",
-    "image": "https://i.udemycdn.com/course/480x270/1245272_9dce_4.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.1245272&u=https%3A%2F%2Fwww.udemy.com%2Fmath-tricks-shortcuts-for-competitive-exams&intsrc=APIG_26324"
-  },
-  {
-    "slug": "course-3",
-    "title": "رسم بورتريه واقعي",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 764,
-    "price": 29.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "في هذه الدورة التدريبية ، سوف آخذك معي خطوة بخطوة خلال العملية الكاملة للعمل على صورة واقعية للغاية. ستستمتع بمقاطع الفيديو في الوقت الفعلي بصوت يشرح العملية ويعلمك كل أسراري. هذه الدورة ليست مناسبة للمبتدئين تمامًا.هذه الدورة مقسمة إلى أقس",
-    "image": "https://i.udemycdn.com/course/480x270/4820968_b11d.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4820968&u=https%3A%2F%2Fwww.udemy.com%2Fhyperrealismcourse&intsrc=APIG_26324"
-  },
-  {
-    "slug": "a-complete-guide-to-self-awareness",
-    "title": "A Complete Guide to Self-Awareness",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.7,
-    "reviews": 3773,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "\"Awaken Your Potential: A Journey to Self-Awareness\"Do you know who you really are? Do you know your impact on others? Do you know and understand why you behave and act the way that you do? Do you want to be the best version of yourself? Co",
-    "image": "https://i.udemycdn.com/course/480x270/5972498_4014_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5972498&u=https%3A%2F%2Fwww.udemy.com%2Fa-complete-guide-to-self-awareness&intsrc=APIG_26324"
-  },
-  {
-    "slug": "the-pitching-pr-playbook",
-    "title": "The Pitching & PR Playbook",
-    "provider": "Udemy",
-    "category": "Digital Marketing",
-    "categorySlug": "digital-marketing",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4,
-    "reviews": 2754,
-    "price": 199.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Are you tired of pouring time and energy into social media without seeing the impact you’re hoping for?The Pitching &amp; PR Playbook is your step-by-step guide to building your business’s visibility through strategic pitching, media covera",
-    "image": "https://i.udemycdn.com/course/480x270/6504023_41ba.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6504023&u=https%3A%2F%2Fwww.udemy.com%2Fpitchingprplaybook&intsrc=APIG_26324"
-  },
-  {
-    "slug": "produccion-musical-mezcla-y-grabacion-de-audio",
-    "title": "Producción Musical, Mezcla y Grabación de Audio",
-    "provider": "Udemy",
-    "category": "Music",
-    "categorySlug": "music",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.2,
-    "reviews": 1112,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Bienvenidos a este curso dedicado a Steinberg Nuendo , una de las estaciones de trabajo de audio digital más famosas utilizadas en el campo de la producción musical.Curso ideal para músicos, o cantantes sin demasiada experiencia en la produ",
-    "image": "https://i.udemycdn.com/course/480x270/3273978_0d1c.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.3273978&u=https%3A%2F%2Fwww.udemy.com%2Fproduce-musica-con-steinberg-nuendo&intsrc=APIG_26324"
-  },
-  {
-    "slug": "blumen-malen-in-aquarell-vom-einsteiger-zum-profi",
-    "title": "Blumen malen in Aquarell - Vom Einsteiger zum Profi",
-    "provider": "Udemy",
-    "category": "Graphic Design",
-    "categorySlug": "graphic-design",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.6,
-    "reviews": 1600,
-    "price": 199.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "In diesem Onlinekurs lernst du Strich für Strich, wie man Aquarellblumen malt. Du lernst die tollen illustrierten Blüten zu malen, die du aus Magazinen kennst, du wirst realistische Blumen malen lernen und erfährst alles über Materialien un",
-    "image": "https://i.udemycdn.com/course/480x270/2029676_f457.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.2029676&u=https%3A%2F%2Fwww.udemy.com%2Fblumen-malen-in-aquarell-vom-einsteiger-zum-profi&intsrc=APIG_26324"
-  },
-  {
-    "slug": "enrolled-agent-taxable-income-in-u-s-taxation",
-    "title": "Enrolled Agent: Taxable Income in U.S. Taxation",
-    "provider": "Udemy",
-    "category": "Finance & Accounting",
-    "categorySlug": "finance-and-accounting",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 7031,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "The course Taxable Income Other than IRA provides a comprehensive understanding of income sources that are taxable under U.S. individual tax laws, excluding income derived from Individual Retirement Accounts (IRAs). It aims to build a stron",
-    "image": "https://i.udemycdn.com/course/480x270/6899277_5c2b_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6899277&u=https%3A%2F%2Fwww.udemy.com%2Ftaxable-income-other-than-ira-p&intsrc=APIG_26324"
-  },
-  {
-    "slug": "apprends-le-francais-en-francais-2-les-100-mots-courants",
-    "title": "Apprends le français en français 2 : les 100 mots courants",
-    "provider": "Udemy",
-    "category": "Language Learning",
-    "categorySlug": "language-learning",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.8,
-    "reviews": 6876,
-    "price": 49.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Connais-tu déjà un peu de français, environ 100-150 mots ?Veux-tu continuer à apprendre?L'immersion totale te semble intéressante ?Super! Tu es sur le point d'apprendre la langue française... 100% en français&nbsp;!Un cours pour débutants, ",
-    "image": "https://i.udemycdn.com/course/480x270/4946264_8cf8_5.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4946264&u=https%3A%2F%2Fwww.udemy.com%2Fapprends-le-francais-en-francais-2-les-100-mots-courants-cours&intsrc=APIG_26324"
-  },
-  {
-    "slug": "07",
-    "title": "07. Рисуем Вазу. Построение",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.8,
-    "reviews": 1877,
-    "price": 49.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Привет!Это уникальное упражнение!Это задание с первого курса худ. ВУЗов с классической вазой Боргезе.Вообще это начертательная геометрия, но получили мы это задание на предмете \"Основы графики\", тк оно незаменимо для тех, у кого пока&nbsp; ",
-    "image": "https://i.udemycdn.com/course/480x270/2747640_14c3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.2747640&u=https%3A%2F%2Fwww.udemy.com%2Fjeergnrh&intsrc=APIG_26324"
-  },
-  {
-    "slug": "beginner-french-course",
-    "title": "Beginner french course",
-    "provider": "Udemy",
-    "category": "Language Learning",
-    "categorySlug": "language-learning",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.9,
-    "reviews": 3395,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Would you like to learn French?Whether for work or simply for leisure, you will learn French from scratch with this course for beginners.This is a carefully drafted course, which gives you step-by-step understanding of your learning modules",
-    "image": "https://i.udemycdn.com/course/480x270/4513358_e37a.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4513358&u=https%3A%2F%2Fwww.udemy.com%2Fbeginner-french-course&intsrc=APIG_26324"
-  },
-  {
-    "slug": "escritura-para-principiantes",
-    "title": "Escritura para principiantes",
-    "provider": "Udemy",
-    "category": "Graphic Design",
-    "categorySlug": "graphic-design",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.7,
-    "reviews": 6467,
-    "price": 189.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Este curso corto dirigido a todo público permitirá introducirse en la escritura, promoviendo la lectura, creatividad, la comunicación y el desarrollo personal. Las bases de la escritura son la literatura, las humanidades, filosofía y la psi",
-    "image": "https://i.udemycdn.com/course/480x270/5402502_f4dc.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5402502&u=https%3A%2F%2Fwww.udemy.com%2Fescritura-terapeutica-j&intsrc=APIG_26324"
-  },
-  {
-    "slug": "course-4",
-    "title": "برمجة الروبوتات المستوى التانى (للمتقدمين )",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.4,
-    "reviews": 5621,
-    "price": 29.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "كورس تنزيل أندرويد للمتقدمين اون لاينيعني اي هنشتغل اون لاين عملى عندنا برنامج سيموليشن فيه كل العاملين هنخليك تشتغل عليها وتجرب دي من غير ما تشتغلى خلق واحد بس حتى وبراحتك يا عمتفاصيل الدورة/جزئية الكهرباءزى ما اشتغلنا فى ليفيل 1 وتكلمنا ع",
-    "image": "https://i.udemycdn.com/course/480x270/6370523_bf6b_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6370523&u=https%3A%2F%2Fwww.udemy.com%2Fuuyoiphk&intsrc=APIG_26324"
-  },
-  {
-    "slug": "course-5",
-    "title": "\"ГВ як воно Є\"",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.3,
-    "reviews": 7339,
-    "price": 119.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "На курсі тебе чекає 37 відео, які проведуть через всю тему лактації, включаючи тригерні питання животика, зубів, хвороб, прикорму, сну та інше.Я, як мама чотирьох дітей, що в сумі має 8 років лактаційного стажу, можу авторитетно заявити, що",
-    "image": "https://i.udemycdn.com/course/480x270/6649479_f488.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6649479&u=https%3A%2F%2Fwww.udemy.com%2Fpdayowqu&intsrc=APIG_26324"
-  },
-  {
-    "slug": "fundraising-success-board-engagement-empowerment",
-    "title": "Fundraising Success: Board Engagement & Empowerment",
-    "provider": "Udemy",
-    "category": "Business",
-    "categorySlug": "business",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.8,
-    "reviews": 7255,
-    "price": 49.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Do you struggle to get your nonprofit board members interested or engaged in fundraising? Does your board even know that fundraising is something they should be participating in? Do you want to change that? Empowering and engaging your boar",
-    "image": "https://i.udemycdn.com/course/480x270/754516_4b78_6.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.754516&u=https%3A%2F%2Fwww.udemy.com%2Ffundraising-success-board-engagement-empowerment&intsrc=APIG_26324"
-  },
-  {
-    "slug": "the-wind-beneath-my-wings-guitar-tutorial-technique",
-    "title": "\"The Wind Beneath My Wings\", Guitar Tutorial & Technique",
-    "provider": "Udemy",
-    "category": "Guitar",
-    "categorySlug": "guitar",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4,
-    "reviews": 6052,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "In This Guitar Lesson I will teach you how to play the great guitar piece \"The Wind Beneath My Wings\"The Wind Beneath My Wings is one of those great songs that carry both a memorable melody and a memorable set of words. The masterclass is d",
-    "image": "https://i.udemycdn.com/course/480x270/4229026_2ab5_4.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.4229026&u=https%3A%2F%2Fwww.udemy.com%2Fclassical-guitar-technique-thewindbeneathmywings&intsrc=APIG_26324"
-  },
-  {
-    "slug": "issap-information-systems-security-architecture-professional",
-    "title": "ISSAP Information Systems Security Architecture Professional",
-    "provider": "Udemy",
-    "category": "Hacking",
-    "categorySlug": "hacking",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.5,
-    "reviews": 4700,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Information Systems Security Architecture Professional (ISSAP) – Practice Tests by NextGen LabWorksWelcome to the ISSAP (Information Systems Security Architecture Professional) Practice Tests by NextGen LabWorks!Are you preparing for the IS",
-    "image": "https://i.udemycdn.com/course/480x270/7151663_1ba7.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.7151663&u=https%3A%2F%2Fwww.udemy.com%2Fissap-information-systems-security-architecture-professional-prep&intsrc=APIG_26324"
-  },
-  {
-    "slug": "course-6",
-    "title": "あなたの天命・天職を見つけだす３１の質問　〈質問にこたえるだけで生き方がステージアップ〉",
-    "provider": "Udemy",
-    "category": "Personal Development",
-    "categorySlug": "personal-development",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.2,
-    "reviews": 5198,
-    "price": 199.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "31の質問にこたえるだけで『あなたにとって心地いい生き方』が見えてくる。あなただけの天命・天職が何なのかあなたは何者なのかを探求し、今後の未来に活かしたい方のための質問集。＼ このような方におすすめ ／いつも未来に不安がある自分が何に向いているかわからない専業主婦だけど在宅でお金をいただいてみたい自分の個性にあった環境で働きたい生きがいに思える志事をしたい自分の強みを武器にしたい転職活動中副業は楽しいことをやりたいetc.",
-    "image": "https://i.udemycdn.com/course/480x270/6061857_1dbe_5.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6061857&u=https%3A%2F%2Fwww.udemy.com%2F31question&intsrc=APIG_26324"
-  },
-  {
-    "slug": "clinical-psychology",
-    "title": "Clinical Psychology",
-    "provider": "Udemy",
-    "category": "Health & Fitness",
-    "categorySlug": "health-and-fitness",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.4,
-    "reviews": 2758,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "The Subject of Psychology has a vast field, having numerous branches, Clinical psychology is one among them. It is a field of psychology that focuses on the assessment, diagnosis, and treatment of mental disorders.The aim of Clinical psycho",
-    "image": "https://i.udemycdn.com/course/480x270/5398928_129c_2.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.5398928&u=https%3A%2F%2Fwww.udemy.com%2Fclinical-psychology&intsrc=APIG_26324"
-  },
-  {
-    "slug": "sc-900-simulados-explicacoes-seguranca-microsoft",
-    "title": "SC-900: Simulados + Explicações | Segurança Microsoft",
-    "provider": "Udemy",
-    "category": "AWS",
-    "categorySlug": "aws",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.2,
-    "reviews": 4709,
-    "price": 34.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Este curso de simulado foi desenvolvido para ajudar você a se preparar para o exame SC-900: Segurança, Conformidade e Identidade Fundamentais da Microsoft. Com uma abordagem prática e focada, você encontrará uma série de questões que simula",
-    "image": "https://i.udemycdn.com/course/480x270/6207127_cbed_3.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.6207127&u=https%3A%2F%2Fwww.udemy.com%2Fsc-900-simulado-portugues&intsrc=APIG_26324"
-  },
-  {
-    "slug": "iv-therapy-masterclass-skin-hair-detox",
-    "title": "IV Therapy Masterclass: Skin, Hair & Detox",
-    "provider": "Udemy",
-    "category": "Health & Fitness",
-    "categorySlug": "health-and-fitness",
-    "instructor": "Udemy Instructor",
-    "instructorSlug": "udemy-instructor",
-    "rating": 4.5,
-    "reviews": 8055,
-    "price": 19.99,
-    "oldPrice": 0,
-    "level": "All levels",
-    "duration": "Self-paced",
-    "updated": "10/2026",
-    "gradient": "linear-gradient(135deg,#111827,#1e3a8a)",
-    "emoji": "🎓",
-    "bestseller": false,
-    "description": "Intravenous (IV) therapy has become one of the most advanced and result-driven approaches in modern aesthetic and wellness practice. It allows direct delivery of essential vitamins, antioxidants, and nutrients into the bloodstream, ensuring",
-    "image": "https://i.udemycdn.com/course/480x270/7132345_1724.jpg",
-    "url": "https://trk.udemy.com/c/6564357/3227798/39854?prodsku=course.7132345&u=https%3A%2F%2Fwww.udemy.com%2Fiv-therapy-masterclass-skin-hair-detox&intsrc=APIG_26324"
+    "description": "Facebook Ads and organic growth in 2026: targeting, creatives, and retargeting.",
+    "language": "English",
+    "certificate": true,
+    "students": 2046,
+    "sections": 6,
+    "lectures": 37,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "learn": [
+      "Core LangChain fundamentals with Eden Marco's step-by-step method",
+      "Real-world LangChain projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug LangChain problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 6,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 6,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 6,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 6,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 6,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 6,
+        "duration": "1.6h"
+      }
+    ],
+    "summary": "LangChain- Agentic AI Engineering with LangChain & LangGraph is a beginner LangChain course from Eden Marco on Udemy. It runs about 9.5h, was last updated in 10/2026, and holds 4★ from 1,102 students — one of the stronger Udemy course reviews entries in LangChain.",
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "bestFor": "beginner learners who want one guided path through LangChain",
+    "skipIf": "You already work professionally in LangChain and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "quality": {
+      "content": 3.8,
+      "video": 4.2,
+      "instructor": 4.2,
+      "pace": 4.1,
+      "depth": 4.2,
+      "total": 82
+    },
+    "ratingBreakdown": {
+      "1": 2,
+      "2": 2,
+      "3": 6,
+      "4": 13,
+      "5": 77
+    },
+    "instructorBio": "Eden Marco teaches LangChain on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for LangChain.",
+    "faq": [
+      {
+        "q": "Is LangChain- Agentic AI Engineering with LangChain & LangGraph suitable for beginners?",
+        "a": "Yes — it is rated \"Beginner\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $17.99 with a 4★ average from 1,102 students, our Udemy course reviews put it above most LangChain alternatives — and Udemy discounts it frequently."
+      }
+    ]
   }
 ]

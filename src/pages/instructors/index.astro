@@ -10,8 +10,8 @@ import { u } from "../../lib/u";
 <section class="page-hero"><div class="container"><h1>All instructors A-Z</h1><p>The most-reviewed instructors, ranked by students.</p></div></section>
 <section class="section"><div class="container"><div class="inst-grid">
 {instructors.map(i => (
-  <div class="inst-card">
-    <span class="avatar"><img src={u(i.image ?? `/images/instructors/${i.slug}.svg`)} alt={i.name} width="44" height="44" loading="lazy" /></span>
+  <div class="inst-card" id={i.slug}>
+    <span class="avatar">{i.image ? <img src={u(i.image)} alt={i.name} width="44" height="44" loading="lazy" /> : <span class="emoji">{i.name.split(/\s+/).map(w => w[0]).slice(0, 2).join("").toUpperCase()}</span>}</span>
     <span><b>{i.name}</b><small>{i.courses} courses • {i.reviews} reviews • {i.students} students</small></span>
   </div>
 ))}

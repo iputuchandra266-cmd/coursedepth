@@ -1,4 +1,5 @@
 import coursesData from "./courses.json";
+import { autofill } from "../../scripts/course-autofill.mjs";
 
 export interface Course {
   slug: string;
@@ -23,6 +24,26 @@ export interface Course {
   image?: string;
   /** Outbound course URL (e.g. the Udemy landing/affiliate link). Omit if unavailable. */
   url?: string;
+  language?: string;
+  certificate?: boolean;
+  students?: number;
+  sections?: number;
+  lectures?: number;
+  access?: string;
+  moneyBack?: boolean;
+  learn?: string[];
+  curriculum?: { title: string; lectures: number; duration: string }[];
+  summary?: string;
+  pros?: string[];
+  cons?: string[];
+  bestFor?: string;
+  skipIf?: string;
+  suits?: string;
+  requirements?: string;
+  quality?: { content?: number; video?: number; instructor?: number; pace?: number; depth?: number; total?: number };
+  ratingBreakdown?: Record<string, number>;
+  instructorBio?: string;
+  faq?: { q: string; a: string }[];
 }
 
 /**
@@ -30,7 +51,7 @@ export interface Course {
  * (`astro dev` → http://localhost:4321/admin) which writes this JSON file.
  * Featured/unranked order matters: the homepage slices the first entries.
  */
-export const courses: Course[] = coursesData as Course[];
+export const courses: Course[] = (coursesData as Course[]).map((c) => autofill(c) as Course);
 
 export function getCourse(slug: string) {
   return courses.find((c) => c.slug === slug);

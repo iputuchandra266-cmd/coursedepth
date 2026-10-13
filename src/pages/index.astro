@@ -6,23 +6,37 @@ import CourseCard from "../components/CourseCard.astro";
 import { categories } from "../data/categories";
 import { courses, providers } from "../data/courses";
 import { instructors } from "../data/instructors";
-import { posts } from "../data/posts";
 import { u } from "../lib/u";
 
 const topTopics = [...categories].sort((a,b)=>b.courses-a.courses).slice(0,12);
-const topRated = courses.slice(0,8);
-const fresh = courses.slice(8,12);
+const topInstructors = instructors.slice(0,8);
+const parseUpdated = (u) => { const [m,y]=String(u||"").split("/"); return (parseInt(y)||0)*100+(parseInt(m)||0); };
+const topRated = [...courses].sort((a,b)=> (b.rating||0)-(a.rating||0) || (b.reviews||0)-(a.reviews||0) ).slice(0,8);
+const fresh = [...courses].sort((a,b)=> parseUpdated(b.updated)-parseUpdated(a.updated) ).slice(0,8);
+const jsonLd = {"@context":"https://schema.org","@graph":[
+  {"@type":"Organization","@id":"https://coursedepth.com/#org","name":"CourseDepth","url":"https://coursedepth.com/","logo":"https://coursedepth.com/images/og-default.svg","sameAs":[]},
+  {"@type":"WebSite","@id":"https://coursedepth.com/#site","url":"https://coursedepth.com/","name":"CourseDepth","publisher":{"@id":"https://coursedepth.com/#org"},"potentialAction":{"@type":"SearchAction","target":"https://coursedepth.com/search?q={search_term_string}","query-input":"required name=search_term_string"}},
+  {"@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"Are Udemy course reviews reliable?","acceptedAnswer":{"@type":"Answer","text":"CourseDepth aggregates real Udemy course reviews from verified students. Our ratings match Udemy's own aggregate scores, but we add editorial analysis (our take, pros/cons, update history) that Udemy does not show."}},
+    {"@type":"Question","name":"How do I find the best Udemy courses?","acceptedAnswer":{"@type":"Answer","text":"Sort by student rating (4.5+ is excellent), check the last update date (within 12 months is ideal), read the curriculum breakdown, and look at instructor review counts. CourseDepth lists all of this on every course page."}},
+    {"@type":"Question","name":"Are Udemy courses worth it in 2026?","acceptedAnswer":{"@type":"Answer","text":"Most Udemy courses drop to $10-15 during sales. At that price, even average courses offer good value. Premium courses ($50-100) are worth it if they have 4.5+ rating, 1000+ students, and were updated within the last year."}}
+  ]},
+  {"@type":"ItemList","name":"Highest Rated Udemy Courses","itemListElement":topRated.map((c,i)=>({"@type":"ListItem","position":i+1,"item":{"@type":"Course","name":c.title,"url":"https://coursedepth.com/course/"+c.slug+"/","provider":{"@type":"Organization","name":c.provider},"aggregateRating":{"@type":"AggregateRating","ratingValue":c.rating,"reviewCount":c.reviews}}}))}
+]};
 ---
 
-<Layout title="CourseDepth — Student Reviews for Online Courses & Tutorials">
+<Layout title="Udemy Course Reviews 2026 — Real Ratings, Prices & Best Picks | CourseDepth" description="Honest Udemy course reviews with real student ratings, current prices, update dates and instructor details. Compare the best Python, Web Dev, Data Science and AI courses before you buy.">
+
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 <Header />
 
 <!-- HERO -->
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <h1>Discover World Class <br />Online Courses</h1>
-      <p class="hero-sub">Find Reviews for Online Courses</p>
+      <h1>Udemy Course Reviews <br /><span style="font-weight:400;font-size:.7em">Real Ratings & Best Picks 2026</span></h1>
+      <p class="hero-sub">Honest reviews of Udemy courses — ratings, prices, update history & what students really think.</p>
       <form class="hero-search" action={u("/search")} method="get" role="search">
         <input type="search" name="q" placeholder="Search courses ..." aria-label="Search courses" />
         <button type="submit">Search</button>
@@ -111,7 +125,7 @@ const fresh = courses.slice(8,12);
       <a class="link-more" href={u("/instructors")}>The top 10, ranked →</a>
     </div>
     <div class="inst-grid">
-      {instructors.map(i => (
+      {topInstructors.map(i => (
         <a class="inst-card" href={u("/instructors")}>
           <span class="avatar"><img src={u(i.image ?? `/images/instructors/${i.slug}.svg`)} alt={i.name} width="44" height="44" loading="lazy" /></span>
           <span><b>{i.name}</b><small>{i.courses} courses, {i.reviews} reviews</small></span>
@@ -133,6 +147,19 @@ const fresh = courses.slice(8,12);
   </div>
 </section>
 
+
+<!-- FAQ (GEO/AI) -->
+<section class="section" style="padding-top:0" aria-label="Frequently asked questions about Udemy course reviews">
+  <div class="container">
+    <div class="sec-head"><div><span class="eyebrow">FAQ</span><h2>Udemy course reviews — common questions</h2></div></div>
+    <div class="why-grid">
+      <div class="why-card"><div><h3>Are Udemy course reviews reliable?</h3><p>Yes. CourseDepth aggregates real student reviews from Udemy and adds editorial analysis (our take, pros/cons, update history) that Udemy itself does not show. Our ratings match Udemy's own aggregate scores.</p></div></div>
+      <div class="why-card"><div><h3>How do I find the best Udemy courses?</h3><p>Sort by student rating (4.5+ is excellent), check the last update date (within 12 months is ideal), read the curriculum breakdown, and look at instructor review counts. CourseDepth lists all of this on every course page.</p></div></div>
+      <div class="why-card"><div><h3>Are Udemy courses worth it in 2026?</h3><p>Most Udemy courses drop to $10–15 during sales. At that price, even average courses offer good value. Premium courses ($50–100) are worth it if they have 4.5+ rating, 1000+ students, and were updated within the last year.</p></div></div>
+    </div>
+  </div>
+</section>
+
 <!-- HOW IT WORKS -->
 <section class="section" style="padding-top:0">
   <div class="container">
@@ -145,29 +172,11 @@ const fresh = courses.slice(8,12);
   </div>
 </section>
 
-<!-- BLOG -->
-<section class="section" style="padding-top:0">
-  <div class="container">
-    <div class="sec-head">
-      <div><span class="eyebrow">From the blog</span><h2>Guides and comparisons</h2></div>
-      <a class="link-more" href={u("/blog")}>All posts →</a>
-    </div>
-    <div class="blog-grid">
-      {posts.map(p => (
-        <a class="post-card" href={u("/blog")}>
-          <span class="post-thumb"><img src={u(`/images/blog/${p.slug}.svg`)} alt={p.title} width="640" height="300" loading="lazy" /></span>
-          <div class="post-body"><time>{p.date}</time><h3>{p.title}</h3><p style="color:var(--muted);font-size:14px;margin:0">{p.excerpt}</p></div>
-        </a>
-      ))}
-    </div>
-  </div>
-</section>
-
 <!-- CTA -->
 <section class="cta">
   <div class="container">
     <div class="cta-inner">
-      <div><h2>Taken a course lately?</h2><p>A two-minute review helps thousands of students pick the right course. Providers cannot edit or remove what you write.</p></div>
+      <div><h2>Write a Udemy course review</h2><p>Share your experience to help thousands of students pick the right course. Providers cannot edit or remove what you write — your review stays forever.</p></div>
       <a class="btn-dark" href={u("/review-course")}>✎ Write a review</a>
     </div>
   </div>
