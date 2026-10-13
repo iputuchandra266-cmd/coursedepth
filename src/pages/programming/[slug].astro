@@ -15,7 +15,7 @@ const cat = getCategory(slug!);
 if (!cat) throw new Error("Category not found");
 const list = courses.filter(c => c.categorySlug === slug);
 ---
-<Layout title={`${cat.name} Courses — Reviews, Prices — CourseReviews`}>
+<Layout title={`${cat.name} Courses — Reviews, Prices — CourseDepth`}>
 <Header />
 <section class="page-hero"><div class="container">
   <div style="font-size:40px"><img src={u(`/images/categories/${cat.slug}.svg`)} alt={cat.name} width="80" height="80" /></div>

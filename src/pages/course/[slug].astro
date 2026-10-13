@@ -12,7 +12,7 @@ const course = getCourse(slug!);
 if (!course) throw new Error("not found");
 const others = courses.filter(c => c.slug !== course.slug).slice(0,3);
 ---
-<Layout title={`${course.title} — CourseReviews`}>
+<Layout title={`${course.title} — CourseDepth`}>
 <Header />
 <div class="container">
   <nav class="crumbs" style="padding-top:14px">

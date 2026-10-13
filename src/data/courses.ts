@@ -23,7 +23,9 @@ export interface Course {
   url?: string;
 }
 
-export const courses: Course[] = [
+import { catalogCourses } from "./udemy-catalog";
+
+const featured: Course[] = [
   {
     slug: "complete-python-bootcamp",
     title: "The Complete Python Bootcamp From Zero to Hero in Python",
@@ -251,6 +253,8 @@ export const courses: Course[] = [
     description: "Facebook Ads and organic growth in 2026: targeting, creatives, and retargeting."
   },
 ];
+
+export const courses: Course[] = [...featured, ...catalogCourses];
 
 export function getCourse(slug: string) {
   return courses.find((c) => c.slug === slug);
