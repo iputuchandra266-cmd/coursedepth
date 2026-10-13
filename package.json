@@ -7,8 +7,14 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "admin": "astro dev --port 4325",
     "build": "astro build",
     "preview": "astro preview",
+    "prod": "npm run build && npm run deploy",
+    "deploy": "git add -A && (git diff --cached --quiet || git commit -m \"Deploy CourseDepth\") && git push origin main",
+    "dev:stop": "astro dev stop",
+    "dev:status": "astro dev status",
+    "dev:logs": "astro dev logs",
     "astro": "astro"
   },
   "dependencies": {

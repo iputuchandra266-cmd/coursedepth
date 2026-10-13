@@ -1,0 +1,346 @@
+---
+const API = "/api/courses";
+const dev = import.meta.env.DEV;
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Courses — CourseDepth Admin</title>
+<meta name="robots" content="noindex, nofollow" />
+<meta name="theme-color" content="#0b0e14" /><meta name="color-scheme" content="dark" />
+<style is:global>
+:root{--bg:#0b0e14;--surface:#11151c;--surface2:#1c212b;--border:#1e242e;--border2:#232b36;--text:#EDE9DC;--muted:#868d9b;--faint:#5a6472;--accent:#A9C7FF;--acc-dim:rgba(169,199,255,.12);--acc-bd:rgba(169,199,255,.30);--danger:#f07178;--ok:#aad94c;--yellow:#ffc900}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;-webkit-font-smoothing:antialiased;color-scheme:dark}
+a{text-decoration:none}
+::placeholder{color:var(--faint);opacity:1}
+svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.adm{min-height:100vh;display:flex}
+/* sidebar */
+.sb{width:258px;flex-shrink:0;background:var(--bg);border-right:1px solid var(--border);position:sticky;top:0;height:100vh;display:flex;flex-direction:column;z-index:60}
+.brand{display:flex;align-items:center;gap:.8rem;padding:1.25rem 1.25rem 1rem}
+.brand-logo{width:40px;height:40px;border-radius:.7rem;background:var(--accent);color:#0b0e14;font-weight:800;font-size:1.1rem;display:grid;place-items:center;box-shadow:0 6px 18px rgba(169,199,255,.25)}
+.brand-name{font-weight:800;font-size:1rem;line-height:1.1}
+.brand-sub{font-size:.72rem;color:var(--faint);font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.nav{flex:1;padding:.5rem .9rem 1rem}
+.nav-sec{font-size:.7rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--faint);padding:.9rem .75rem .45rem}
+.nav-item{display:flex;align-items:center;gap:.7rem;padding:.62rem .8rem;border-radius:.6rem;color:var(--muted);font-weight:600;font-size:.9rem;margin-bottom:2px;border:1px solid transparent;transition:.15s;position:relative}
+.nav-item:hover{background:var(--surface2);color:var(--text)}
+.nav-item.active{background:var(--acc-dim);color:var(--accent);font-weight:700;border-color:var(--acc-bd)}
+.nav-item.active::before{content:"";position:absolute;left:-9px;top:50%;transform:translateY(-50%);width:3px;height:20px;border-radius:2px;background:var(--accent)}
+.sb-foot{padding:.9rem;border-top:1px solid var(--border2)}
+/* main */
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+.top{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:1rem;padding:.95rem 1.5rem;background:rgba(11,14,20,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);flex-wrap:wrap}
+.title{margin:0;font-size:1.4rem;font-weight:800}
+.badge{font-size:.78rem;color:var(--muted);background:var(--surface2);border:1px solid var(--border);padding:.25rem .7rem;border-radius:999px;white-space:nowrap}
+.top-r{display:flex;gap:.6rem;margin-left:auto;flex-wrap:wrap}
+.content{width:100%;max-width:1340px;margin:0 auto;padding:1.75rem 1.5rem 4rem}
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:.45rem;padding:.65rem 1.25rem;border-radius:.6rem;font-weight:700;font-size:.88rem;cursor:pointer;border:1px solid transparent;color:inherit;font-family:inherit;line-height:1;transition:.15s}
+.btn svg{width:16px;height:16px}
+.btn-p{background:var(--accent);color:#0b0e14}.btn-p:hover{background:#C9DBFF}
+.btn-o{background:transparent;color:var(--muted);border-color:var(--border2)}.btn-o:hover{color:var(--text);border-color:var(--muted)}
+.btn-d{background:transparent;color:var(--danger);border-color:rgba(240,113,120,.35)}.btn-d:hover{background:rgba(240,113,120,.1)}
+.btn-sm{padding:.4rem .75rem;font-size:.8rem;border-radius:.45rem}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:1rem;margin-bottom:1.5rem}
+.stat{display:flex;align-items:center;gap:1rem;background:var(--surface);border:1px solid var(--border);border-radius:1rem;padding:1.15rem 1.25rem;box-shadow:0 12px 28px rgba(0,0,0,.3)}
+.stat-ic{width:46px;height:46px;border-radius:.85rem;display:grid;place-items:center;background:var(--acc-dim);color:var(--accent);border:1px solid var(--acc-bd);flex-shrink:0}
+.stat-ic svg{width:22px;height:22px}
+.stat-num{font-size:1.55rem;font-weight:800;line-height:1.05}
+.stat-lbl{font-size:.78rem;color:var(--muted);font-weight:600;margin-top:.2rem}
+/* card + toolbar */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:1rem;box-shadow:0 12px 32px rgba(0,0,0,.35);padding:1.5rem;margin-bottom:1.5rem}
+.toolbar{display:flex;gap:.75rem;flex-wrap:wrap;align-items:center;margin-bottom:1rem}
+.search{position:relative;flex:1 1 240px;max-width:380px}
+.search input{width:100%;padding:.75rem .9rem;padding-right:2.5rem;background:#0b0e14;border:1px solid var(--border);border-radius:.65rem;color:var(--text);font-size:.95rem;outline:none;font-family:inherit;transition:.15s}
+.search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(169,199,255,.15)}
+.search-x{position:absolute;right:.45rem;top:50%;transform:translateY(-50%);width:1.7rem;height:1.7rem;border-radius:50%;border:1px solid var(--border2);background:var(--surface2);color:var(--muted);cursor:pointer;display:grid;place-items:center;padding:0;font-family:inherit}
+.search-x:hover{color:var(--accent);border-color:var(--acc-bd)}
+select.sel{padding:.72rem .85rem;background:#0b0e14;border:1px solid var(--border);border-radius:.65rem;color:var(--text);font-family:inherit;font-size:.9rem;outline:none}
+.count{color:var(--muted);font-size:.85rem;margin-left:auto;white-space:nowrap}
+/* table */
+.tw{overflow-x:auto;border:1px solid var(--border);border-radius:.9rem;background:var(--surface);scrollbar-width:thin}
+table{width:100%;border-collapse:collapse}
+th{font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);text-align:left;padding:.75rem 1rem;border-bottom:1px solid var(--border);white-space:nowrap;font-weight:800}
+td{padding:.8rem 1rem;font-size:.9rem;border-bottom:1px solid var(--border2);vertical-align:middle}
+tbody tr{transition:background .12s}
+tbody tr:hover{background:var(--surface2)}
+tr:last-child td{border-bottom:none}
+th:last-child,td:last-child{position:sticky;right:0;background:var(--surface);z-index:2;border-left:1px solid var(--border2)}
+tbody tr:hover td:last-child{background:var(--surface2)}
+.course{display:flex;align-items:center;gap:.8rem;min-width:0}
+.thumb{width:52px;height:36px;border-radius:.4rem;object-fit:cover;border:1px solid var(--border);background:var(--surface2);flex-shrink:0}
+.thumb-fb{width:52px;height:36px;border-radius:.4rem;border:1px solid var(--border);background:var(--surface2);display:grid;place-items:center;font-size:1rem;flex-shrink:0}
+.link{color:var(--text);font-weight:700;display:block;max-width:420px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.link:hover{color:var(--accent)}
+.chip{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.76rem;background:var(--surface2);border:1px solid var(--border);color:var(--muted);padding:.15rem .5rem;border-radius:.35rem;display:inline-block;white-space:nowrap}
+.chip-acc{color:var(--accent);background:var(--acc-dim);border-color:var(--acc-bd)}
+.rate{color:var(--yellow);font-weight:700;white-space:nowrap}
+.rate small{color:var(--faint);font-weight:400}
+.price{color:var(--accent);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-weight:700;white-space:nowrap}
+.acts{display:flex;gap:.45rem;white-space:nowrap}
+.empty{color:var(--muted);text-align:center;padding:3rem 1rem}
+.warn{background:rgba(255,201,0,.08);border:1px solid rgba(255,201,0,.35);color:#ffd9a0;padding:.85rem 1rem;border-radius:.7rem;font-size:.86rem;margin-bottom:1.25rem}
+/* inline editor (bukan modal) */
+.ed{border:1px solid var(--acc-bd);box-shadow:0 16px 40px rgba(0,0,0,.45)}
+.ed[hidden]{display:none}
+.ed-h{display:flex;align-items:center;gap:.75rem;padding-bottom:1rem;margin-bottom:1.1rem;border-bottom:1px solid var(--border)}
+.ed-h h2{margin:0;font-size:1.05rem;font-weight:800;margin-right:auto}
+.ed-grid{display:grid;grid-template-columns:1fr 1fr;gap:.95rem 1.1rem}
+.f label{display:block;color:var(--text);font-weight:700;font-size:.85rem;margin-bottom:.4rem}
+.f input,.f textarea{width:100%;padding:.65rem .8rem;background:#0b0e14;border:1px solid var(--border);border-radius:.6rem;color:var(--text);font-size:.92rem;outline:none;font-family:inherit;color-scheme:dark;transition:.15s}
+.f input:focus,.f textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(169,199,255,.15)}
+.f textarea{min-height:84px;resize:vertical;line-height:1.5}
+.hint{display:block;color:var(--faint);font-size:.76rem;margin-top:.3rem}
+.full{grid-column:1/-1}
+.chk{display:flex;gap:.55rem;align-items:center;padding-top:1.6rem}
+.chk input{width:15px;height:15px;accent-color:var(--accent)}
+.chk label{margin:0;font-weight:600;font-size:.9rem}
+.ed-f{display:flex;gap:.7rem;justify-content:flex-end;align-items:center;margin-top:1.2rem;padding-top:1.1rem;border-top:1px solid var(--border)}
+.ed-status{color:var(--muted);font-size:.85rem;margin-right:auto}
+.ed-status.ok{color:var(--ok)}.ed-status.err{color:var(--danger)}
+#toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(8px);background:#1c212b;border:1px solid var(--acc-bd);color:var(--accent);padding:.7rem 1.2rem;border-radius:.7rem;font-weight:700;font-size:.88rem;opacity:0;pointer-events:none;transition:.2s;z-index:99;box-shadow:0 16px 40px rgba(0,0,0,.5)}
+#toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+#toast.err{color:var(--danger);border-color:rgba(240,113,120,.4)}
+@media(max-width:920px){.sb{display:none}.content{padding:1.25rem 1rem 3rem}.ed-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="adm">
+  <aside class="sb">
+    <div class="brand">
+      <div class="brand-logo">C</div>
+      <div><div class="brand-name">Course<em style="font-style:normal;color:var(--accent)">Depth</em></div><div class="brand-sub">Admin Panel</div></div>
+    </div>
+    <nav class="nav">
+      <div class="nav-sec">Manage</div>
+      <a class="nav-item active" href="/admin">
+        <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        Courses
+      </a>
+    </nav>
+    <div class="sb-foot">
+      <a class="nav-item" href="/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        View Site
+      </a>
+    </div>
+  </aside>
+
+  <div class="main">
+    <header class="top">
+      <h1 class="title">Courses</h1>
+      <span class="badge" id="badge">memuat…</span>
+      <div class="top-r">
+        <a class="btn btn-o" href="/" target="_blank" rel="noopener">Lihat site
+          <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+        <button class="btn btn-p" id="newBtn">
+          <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Kursus baru
+        </button>
+      </div>
+    </header>
+
+    <main class="content">
+      {!dev && <div class="warn">Dashboard ini hanya berjalan saat <code>astro dev</code> di komputer kamu — versi live (GitHub Pages) tidak punya API untuk menyimpan data.</div>}
+
+      <div class="stats">
+        <div class="stat"><div class="stat-ic"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div><div><div class="stat-num" id="sTotal">–</div><div class="stat-lbl">Total kursus</div></div></div>
+        <div class="stat"><div class="stat-ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div><div><div class="stat-num" id="sProv">–</div><div class="stat-lbl">Provider</div></div></div>
+        <div class="stat"><div class="stat-ic"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div><div class="stat-num" id="sRating">–</div><div class="stat-lbl">Rating rata-rata</div></div></div>
+        <div class="stat"><div class="stat-ic"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><div><div class="stat-num" id="sBest">–</div><div class="stat-lbl">Bestseller</div></div></div>
+      </div>
+
+      <form id="form" class="card ed" hidden>
+        <div class="ed-h">
+          <h2 id="dlgTitle">Edit kursus</h2>
+          <button type="button" class="x btn btn-o btn-sm" id="closeBtn" aria-label="Tutup">✕ Tutup</button>
+        </div>
+        <div class="ed-grid" id="fields"></div>
+        <div class="ed-f">
+          <span class="ed-status" id="edStatus"></span>
+          <button type="button" class="btn btn-o" id="cancelBtn">Batal</button>
+          <button type="submit" class="btn btn-p" id="saveBtn">Simpan</button>
+        </div>
+      </form>
+
+      <div class="card">
+        <div class="toolbar">
+          <div class="search">
+            <input type="search" id="q" placeholder="Cari judul, slug, kategori, instructor…" aria-label="Cari kursus" />
+            <button class="search-x" id="qx" type="button" aria-label="Clear">×</button>
+          </div>
+          <select class="sel" id="fProvider" aria-label="Filter provider"><option value="">Semua provider</option></select>
+          <span class="count" id="count"></span>
+        </div>
+        <div class="tw">
+          <table>
+            <thead><tr><th>Kursus</th><th>Kategori</th><th>Provider</th><th>Rating</th><th>Harga</th><th style="text-align:right">Aksi</th></tr></thead>
+            <tbody id="rows"><tr><td colspan="6" class="empty">Memuat…</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script define:vars={{ API }}>
+  const FIELDS = [
+    { k: "title", l: "Judul", req: 1, full: 1 },
+    { k: "slug", l: "Slug (URL)", req: 1 },
+    { k: "provider", l: "Provider" },
+    { k: "category", l: "Kategori" },
+    { k: "categorySlug", l: "Kategori slug" },
+    { k: "instructor", l: "Instructor" },
+    { k: "instructorSlug", l: "Instructor slug" },
+    { k: "rating", l: "Rating (0–5)", t: "number", step: "0.1" },
+    { k: "reviews", l: "Jumlah review", t: "number" },
+    { k: "price", l: "Harga ($)", t: "number", step: "0.01" },
+    { k: "oldPrice", l: "Harga coret ($)", t: "number", step: "0.01" },
+    { k: "level", l: "Level" },
+    { k: "duration", l: "Durasi" },
+    { k: "updated", l: "Update (MM/YYYY)" },
+    { k: "bestseller", l: "Bestseller", t: "checkbox" },
+    { k: "description", l: "Deskripsi", t: "textarea", full: 1 },
+    { k: "image", l: "Image URL/path", full: 1 },
+    { k: "url", l: "URL kursus", full: 1 },
+  ];
+  let data = [], editing = null;
+  const $ = (s) => document.querySelector(s);
+  const rows = $("#rows"), form = $("#form");
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  function toast(msg, err) {
+    const t = $("#toast");
+    t.textContent = msg; t.className = "on" + (err ? " err" : "");
+    clearTimeout(t._h); t._h = setTimeout(() => (t.className = ""), 2600);
+  }
+  async function api(url, opt) {
+    const r = await fetch(url, Object.assign({ headers: { "content-type": "application/json" } }, opt));
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(j.error || r.statusText);
+    return j;
+  }
+  function stats() {
+    const provs = new Set(data.map((c) => c.provider).filter(Boolean));
+    const ratings = data.map((c) => Number(c.rating) || 0).filter(Boolean);
+    $("#sTotal").textContent = data.length;
+    $("#sProv").textContent = provs.size;
+    $("#sRating").textContent = ratings.length ? (ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(2) + "★" : "–";
+    $("#sBest").textContent = data.filter((c) => c.bestseller).length;
+    $("#badge").textContent = data.length + " courses";
+  }
+  function filtered() {
+    const q = $("#q").value.trim().toLowerCase(), p = $("#fProvider").value;
+    return data.filter((c) => {
+      if (p && c.provider !== p) return false;
+      if (!q) return true;
+      return [c.title, c.slug, c.category, c.instructor, c.provider].some((v) => String(v || "").toLowerCase().includes(q));
+    });
+  }
+  function render() {
+    const list = filtered();
+    stats();
+    const sel = $("#fProvider"), cur = sel.value;
+    const provs = [...new Set(data.map((c) => c.provider).filter(Boolean))].sort();
+    sel.innerHTML = '<option value="">Semua provider</option>' + provs.map((p) => "<option" + (p === cur ? " selected" : "") + ">" + esc(p) + "</option>").join("");
+    $("#count").textContent = list.length !== data.length ? list.length + " / " + data.length + " kursus" : data.length + " kursus";
+    $("#qx").hidden = !$("#q").value;
+    if (!list.length) { rows.innerHTML = '<tr><td colspan="6" class="empty">Tidak ada kursus yang cocok</td></tr>'; return; }
+    rows.innerHTML = list.map((c) => {
+      const img = c.image
+        ? `<img class="thumb" src="${esc(c.image)}" alt="" loading="lazy">`
+        : '<div class="thumb-fb">🎓</div>';
+      return `<tr>
+        <td><div class="course">${img}<div style="min-width:0"><a class="link" href="${c.url ? esc(c.url) : "#"}" target="_blank" rel="noopener">${esc(c.title)}</a><span class="chip">/${esc(c.slug)}</span></div></div></td>
+        <td><span class="chip chip-acc">${esc(c.category)}</span></td>
+        <td>${esc(c.provider)}</td>
+        <td><span class="rate">★ ${Number(c.rating || 0).toFixed(1)} <small>(${Number(c.reviews || 0).toLocaleString()})</small></span></td>
+        <td><span class="price">$${Number(c.price || 0)}</span></td>
+        <td><div class="acts" style="justify-content:flex-end">
+          <button class="btn btn-o btn-sm" data-edit="${esc(c.slug)}">Edit</button>
+          <button class="btn btn-d btn-sm" data-del="${esc(c.slug)}">Hapus</button>
+        </div></td>
+      </tr>`;
+    }).join("");
+  }
+  function buildFields(course) {
+    $("#fields").innerHTML = FIELDS.map((f) => {
+      const v = course ? course[f.k] : "";
+      const req = f.req ? " required" : "", full = f.full ? " full" : "", step = f.step ? ` step="${f.step}"` : "";
+      if (f.t === "textarea") return `<div class="f ${full}"><label>${f.l}</label><textarea name="${f.k}">${esc(v)}</textarea></div>`;
+      if (f.t === "checkbox") return `<div class="chk full"><input type="checkbox" name="${f.k}" id="c_${f.k}" ${v ? "checked" : ""}><label for="c_${f.k}">${f.l}</label></div>`;
+      return `<div class="f ${full}"><label>${f.l}</label><input type="${f.t === "number" ? "number" : "text"}"${step}${req} name="${f.k}" value="${esc(v)}"></div>`;
+    }).join("");
+  }
+  function closeEd() { form.hidden = true; editing = null; }
+  function open(course) {
+    editing = course;
+    $("#dlgTitle").textContent = course ? "Edit kursus" : "Tambah kursus baru";
+    const st = $("#edStatus"); st.textContent = ""; st.className = "ed-status";
+    buildFields(course);
+    form.hidden = false;
+    form.scrollIntoView({ behavior: "smooth", block: "start" });
+    setTimeout(() => form.querySelector("input")?.focus(), 250);
+  }
+  $("#newBtn").onclick = () => open(null);
+  $("#closeBtn").onclick = $("#cancelBtn").onclick = () => closeEd();
+  $("#q").oninput = render;
+  $("#qx").onclick = () => { $("#q").value = ""; render(); $("#q").focus(); };
+  $("#fProvider").onchange = render;
+
+  rows.addEventListener("click", async (e) => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    if (b.dataset.edit) return open(data.find((c) => c.slug === b.dataset.edit));
+    if (b.dataset.del) {
+      const c = data.find((x) => x.slug === b.dataset.del);
+      if (!confirm(`Hapus "${c.title}"?`)) return;
+      try {
+        data = (await api(API + "?slug=" + encodeURIComponent(b.dataset.del), { method: "DELETE" })).courses;
+        render(); toast("Kursus dihapus");
+      } catch (err) { toast(err.message, true); }
+    }
+  });
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    const body = {};
+    for (const f of FIELDS) {
+      const el = form.elements[f.k];
+      if (!el) continue;
+      if (f.t === "checkbox") { if (el.checked) body[f.k] = true; }
+      else if (f.t === "number") { const n = Number(el.value); if (el.value !== "" && !Number.isNaN(n)) body[f.k] = n; }
+      else if (el.value.trim() !== "") body[f.k] = el.value.trim();
+    }
+    try {
+      const isEdit = !!editing;
+      const res = await api(isEdit ? API + "?slug=" + encodeURIComponent(editing.slug) : API, { method: isEdit ? "PUT" : "POST", body: JSON.stringify(body) });
+      data = res.courses;
+      closeEd(); render();
+      toast(isEdit ? "Tersimpan" : "Kursus baru ditambahkan");
+    } catch (err) { toast(err.message, true); }
+  };
+  document.addEventListener("error", (e) => {
+    const t = e.target;
+    if (t && t.tagName === "IMG" && t.classList && t.classList.contains("thumb")) {
+      const d = document.createElement("div");
+      d.className = "thumb-fb";
+      d.textContent = "🎓";
+      t.replaceWith(d);
+    }
+  }, true);
+
+  load();
+  async function load() {
+    try { data = await api(API); render(); }
+    catch (e) { rows.innerHTML = '<tr><td colspan="6" class="empty">Gagal memuat: ' + esc(e.message) + "</td></tr>"; }
+  }
+</script>
+</body>
+</html>
