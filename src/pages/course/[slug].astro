@@ -18,7 +18,9 @@ const revs = reviewsFor(course.slug!);
 const c = course;
 const pct = c.ratingBreakdown ?? {};
 const q = c.quality ?? {};
-const desc = `${c.title} review: ${c.rating}★ from ${c.reviews.toLocaleString()} students, $${c.price}, ${c.duration} — real Udemy course reviews entry on CourseDepth.`;
+const t = (c.title.length > 38 ? c.title.slice(0, 38).trim() + "…" : c.title);
+const title = `${t} Review | CourseDepth`;
+const desc = `${c.title} (${c.provider}): ${c.rating}★ from ${c.reviews.toLocaleString()} students, $${c.price}, ${c.duration.replace(" total", "")}. Curriculum, pros, cons & verdict.`.slice(0, 158);
 const ld: Record<string, unknown> = {
   "@context": "https://schema.org",
   "@type": "Course",
@@ -38,7 +40,7 @@ const ld: Record<string, unknown> = {
 };
 const faqLd = c.faq?.length ? { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: c.faq.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) } : null;
 ---
-<Layout title={`${c.title} — Udemy Course Reviews, Price & Rating | CourseDepth`} description={desc}>
+<Layout title={title} description={desc}>
 <script type="application/ld+json" set:html={JSON.stringify(ld)} />
 {faqLd && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
 <Header />
@@ -113,7 +115,7 @@ const faqLd = c.faq?.length ? { "@context": "https://schema.org", "@type": "FAQP
     <div class="course-thumb" style="border-radius:10px;overflow:hidden"><img src={u(c.image ?? `/images/courses/${c.slug}.svg`)} alt={c.title} width="640" height="360" /></div>
     <div style="font-size:28px;font-weight:800;margin-top:10px">${c.price}{c.oldPrice ? <s style="font-size:16px;color:var(--muted);font-weight:600;margin-left:8px">${c.oldPrice}</s> : null}</div>
     <div style="margin:6px 0"><Stars rating={c.rating} reviews={c.reviews} showCount={false} /></div>
-    <a href={c.url ?? u("/review-course")} class="btn-dark" style="display:flex;width:100%;margin-top:10px" target={c.url ? "_blank" : undefined} rel={c.url ? "noopener sponsored" : undefined}>Visit course on {c.provider} →</a>
+    <a href={c.url ?? u("/review-course")} class="btn-dark" style="display:flex;width:100%;margin-top:10px" target={c.url ? "_blank" : undefined} rel={c.url ? "sponsored nofollow noopener" : undefined}>Visit course on {c.provider} →</a>
     <a href={u(`/review-course?course=${c.slug}`)} class="btn-review" style="display:flex;justify-content:center;margin-top:10px">Write a review</a>
     <hr />
     <div style="font-size:14px;display:grid;gap:6px">

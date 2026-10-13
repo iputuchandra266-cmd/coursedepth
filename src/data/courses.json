@@ -140,7 +140,7 @@
     "duration": "15h 30m",
     "updated": "09/2026",
     "bestseller": true,
-    "description": "Complete CCAR-F (Previously CCA-F) certification prep: all 5 domains - agentic architecture & orchestration, and more",
+    "description": "The material is aligned with the official 2026 exam guide and includes scenario-based practice questions, a full-length timed mock exam (60 questions, 120 minutes), detailed answer explanations, and practical strategies for handling both multiple-choice and multiple-response questions. Ideal for solution architects, AI engineers, and practitioners who want to demonstrate their ability to design production-grade agentic systems with Claude.",
     "image": "https://img-c.udemycdn.com/course/480x270/7150101_2585_5.jpg",
     "url": "https://www.udemy.com/course/certified-claude-architect-masterclass-2026/?couponCode=MT261012G2",
     "language": "English",
@@ -150,9 +150,9 @@
     "lectures": 136,
     "access": "Lifetime access",
     "moneyBack": true,
-    "summary": "Claude Certified Architect (CCAR-F) - 2026 Exam Prep is a all level Claude Certified Architect Foundations (CCAF) course from Jacob Bushong on Udemy. It runs about 15 hours, and holds 4.3★ from 3,711 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Claude Certified Architect Foundations (CCAF)",
-    "skipIf": "You already work professionally in Claude Certified Architect Foundations (CCAF) and need advanced architecture patterns",
+    "summary": "This is one of the most relevant and practical CCAR-F exam prep resources available in 2026. The course stays focused on real architectural decision-making rather than pure theory — matching the scenario-driven nature of the actual exam (where you face 4 out of 6 randomly selected scenarios).\nIt emphasizes judgment calls: when to use multi-agent patterns, how to design solid MCP integrations, managing context windows effectively, and avoiding common anti-patterns.\nIf you already have hands-on experience with the Claude API, Agent SDK, Claude Code, and MCP, this course will significantly accelerate your readiness. Complete beginners will get more value by combining it with official Anthropic Partner Academy materials and real project practice.",
+    "bestFor": "Solution Architects / Technical Architects designing Claude-based systems AI Engineers and developers who have already built agents, tools, or workflows with Claude Practitioners working at Claude Partner Network companies who need the CCAR-F credential Professionals looking to move from “I can use Claude” to “I can design reliable production systems” Anyone already familiar with Claude Code, advanced prompt engineering, and the Model Context Protocol (MCP)",
+    "skipIf": "You are a complete beginner with little to no hands-on experience building with the Claude API You only need basic prompting knowledge (consider the Claude Certified Associate – Foundations / CCAO-F instead) You do not have access to the Claude Partner Network (the official exam is currently gated) You are looking for a pure coding-focused path (consider the Claude Certified Developer – Foundations / CCDV-F) You have already passed CCAR-F and want to prepare for the Professional level (CCAR-P)",
     "suits": "Software engineers and developers who build with the Claude API and want to validate their architectural knowledge with Anthropic's official CCA-F certification. AI engineers and solutions architects designing agentic systems, multi-agent pipelines, or Claude Code workflows who want structured coverage of the full exam blueprint. Technical leads and staff engineers evaluating Claude for production use who want a deep understanding of context management, tool use, safety, and cost optimization. DevOps and platform engineers integrating Claude into CI/CD pipelines, developer tooling, or enterprise workflows who want to understand best practices at scale. Product engineers and technical PMs who work closely with Claude-powered features and want to understand the architectural tradeoffs behind agentic system design. Anyone preparing for the Anthropic CCA-F exam who wants a structured, instructor-led course covering all five exam domains with scenario-based practice questions.",
     "requirements": "No specific prerequisites required. Some familiarity with CCA-F-related concepts is helpful but not mandatory — this course teaches everything from the ground up.",
     "learn": [
@@ -169,50 +169,44 @@
     ],
     "curriculum": [
       {
-        "title": "Getting started",
-        "lectures": 19,
-        "duration": "2.1h"
+        "title": "D1 — Agentic Architecture & Orchestration (27% of the exam)",
+        "lectures": 0,
+        "duration": ""
       },
       {
-        "title": "Core foundations",
-        "lectures": 19,
-        "duration": "2.1h"
+        "title": "D2 — Claude Code Configuration & Workflows (20% of the exam)",
+        "lectures": 0,
+        "duration": ""
       },
       {
-        "title": "Building real projects",
-        "lectures": 19,
-        "duration": "2.1h"
+        "title": "D3 — Prompt Engineering & Structured Output (20% of the exam)",
+        "lectures": 0,
+        "duration": ""
       },
       {
-        "title": "Intermediate techniques",
-        "lectures": 19,
-        "duration": "2.1h"
+        "title": "D4 — Tool Design & MCP Integration (18% of the exam)",
+        "lectures": 0,
+        "duration": ""
       },
       {
-        "title": "Deep dive & best practices",
-        "lectures": 19,
-        "duration": "2.1h"
-      },
-      {
-        "title": "Capstone project",
-        "lectures": 19,
-        "duration": "2.1h"
-      },
-      {
-        "title": "Next steps",
-        "lectures": 19,
-        "duration": "2.1h"
+        "title": "D5 — Context Management & Reliability (15% of the exam)",
+        "lectures": 0,
+        "duration": ""
       }
     ],
     "pros": [
-      "Clear explanations that start from zero",
-      "Hands-on exercises after every major topic",
-      "Fresh 09/2026 content and lifetime access"
+      "Closely aligned with the official 2026 CCAR-F exam blueprint (domain weights and question style)",
+      "Strong emphasis on scenario-based questions that mirror the real exam",
+      "Detailed explanations that often reference official Anthropic documentation",
+      "Includes a full-length timed mock exam",
+      "Focuses on architectural judgment rather than rote memorization",
+      "Content is kept up to date with 2026 Claude model and feature changes"
     ],
     "cons": [
-      "Pace accelerates in the middle sections",
-      "Limited advanced, production-scale projects",
-      "Long: budget several weeks to finish"
+      "Does not replace real hands-on practice (you still need to build things yourself)",
+      "Some sections can feel advanced if you lack production experience",
+      "Official exam access remains limited to Claude Partner Network members",
+      "Quality can vary depending on the specific instructor or platform (always check recent reviews and update dates)"
     ],
     "instructorBio": "I have 20 years of experience in IT and security roles, including leading infrastructure and security teams in excess of 50 staff. I have completed a masters program in Cybersecurity at Harvard, and so far, have never failed a certification exam.  That includes incredibly challenging exams such as CISSP.  I have a formula for passing the exam on the first attempt, and I'm excited to share that process with others!",
     "ratingBreakdown": {
@@ -232,16 +226,84 @@
     },
     "faq": [
       {
-        "q": "Is Claude Certified Architect (CCAR-F) - 2026 Exam Prep suitable for beginners?",
-        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+        "q": "1. What is the Claude Certified Architect – Foundations (CCAR-F)",
+        "a": "1. What is the Claude Certified Architect – Foundations (CCAR-F)?"
       },
       {
-        "q": "How often is the course updated?",
-        "a": "Last updated 09/2026. Lifetime access means future refreshes are included at no extra cost."
+        "q": "It is Anthropic’s official foundational certification for solution architects who design and build agentic systems with Claude. Format: 60 scenario-based questions (multiple-choice and multiple-response), 120 minutes, passing score 720/1000",
+        "a": "It is Anthropic’s official foundational certification for solution architects who design and build agentic systems with Claude. Format: 60 scenario-based questions (multiple-choice and multiple-response), 120 minutes, passing score 720/1000."
       },
       {
-        "q": "Is it worth the price?",
-        "a": "At $12.99 with a 4.3★ average from 3,711 students, our Udemy course reviews put it above most Claude Certified Architect Foundations (CCAF) alternatives."
+        "q": "2. Who is eligible to take the official exam",
+        "a": "2. Who is eligible to take the official exam?"
+      },
+      {
+        "q": "Currently only employees of organizations registered in the Claude Partner Network (using a recognized company email domain)",
+        "a": "Currently only employees of organizations registered in the Claude Partner Network (using a recognized company email domain)."
+      },
+      {
+        "q": "3. How much does the official exam cost",
+        "a": "3. How much does the official exam cost?"
+      },
+      {
+        "q": "Approximately $125 per attempt (before partner-tier discounts). The certification is valid for 12 months",
+        "a": "Approximately $125 per attempt (before partner-tier discounts). The certification is valid for 12 months."
+      },
+      {
+        "q": "4. Is this course official from Anthropic",
+        "a": "4. Is this course official from Anthropic?"
+      },
+      {
+        "q": "No. This is an independent exam prep resource. Anthropic provides the official exam guide and preparation courses through the Partner Academy",
+        "a": "No. This is an independent exam prep resource. Anthropic provides the official exam guide and preparation courses through the Partner Academy."
+      },
+      {
+        "q": "5. Which domain carries the most weight",
+        "a": "5. Which domain carries the most weight?"
+      },
+      {
+        "q": "Agentic Architecture & Orchestration (27%) is the largest, followed by Claude Code Configuration & Workflows and Prompt Engineering & Structured Output (20% each)",
+        "a": "Agentic Architecture & Orchestration (27%) is the largest, followed by Claude Code Configuration & Workflows and Prompt Engineering & Structured Output (20% each)."
+      },
+      {
+        "q": "6. How long should I study",
+        "a": "6. How long should I study?"
+      },
+      {
+        "q": "Experienced candidates: 2–4 weeks of focused study. Those still building foundational skills: 4–8 weeks combined with hands-on practice",
+        "a": "Experienced candidates: 2–4 weeks of focused study. Those still building foundational skills: 4–8 weeks combined with hands-on practice."
+      },
+      {
+        "q": "7. Does the course include realistic mock exams",
+        "a": "7. Does the course include realistic mock exams?"
+      },
+      {
+        "q": "Yes. Good courses provide full-length mock exams (60 questions / 120 minutes) that follow the official domain distribution",
+        "a": "Yes. Good courses provide full-length mock exams (60 questions / 120 minutes) that follow the official domain distribution."
+      },
+      {
+        "q": "8. What should I do after passing CCAR-F",
+        "a": "8. What should I do after passing CCAR-F?"
+      },
+      {
+        "q": "You can progress to the Claude Certified Architect – Professional (CCAR-P) for more advanced topics such as enterprise integration, governance, evaluation, and stakeholder management",
+        "a": "You can progress to the Claude Certified Architect – Professional (CCAR-P) for more advanced topics such as enterprise integration, governance, evaluation, and stakeholder management."
+      },
+      {
+        "q": "9. Is this certification recognized in the industry",
+        "a": "9. Is this certification recognized in the industry?"
+      },
+      {
+        "q": "Yes, especially within the Anthropic partner ecosystem. Many firms now view it as a valuable credential (or even a requirement) for Claude delivery roles",
+        "a": "Yes, especially within the Anthropic partner ecosystem. Many firms now view it as a valuable credential (or even a requirement) for Claude delivery roles."
+      },
+      {
+        "q": "10. Do I need strong coding skills",
+        "a": "10. Do I need strong coding skills?"
+      },
+      {
+        "q": "You don’t need to be a pure software engineer, but solid practical understanding of the Agent SDK, tool design, Claude Code, structured outputs, and context management is essential",
+        "a": "You don’t need to be a pure software engineer, but solid practical understanding of the Agent SDK, tool design, Claude Code, structured outputs, and context management is essential."
       }
     ]
   },
@@ -1599,7 +1661,7 @@
     "image": "https://img-c.udemycdn.com/course/480x270/5281528_8f36.jpg",
     "url": "https://www.udemy.com/course/langchain/?couponCode=KEEPLEARNING",
     "bestseller": true,
-    "description": "Facebook Ads and organic growth in 2026: targeting, creatives, and retargeting.",
+    "description": "LangChain and LangGraph from basics to production: chains, agents, memory, RAG, tools and deployment.",
     "language": "English",
     "certificate": true,
     "students": 2046,
@@ -1608,41 +1670,41 @@
     "access": "Lifetime access",
     "moneyBack": true,
     "learn": [
-      "Core LangChain fundamentals with Eden Marco's step-by-step method",
-      "Real-world LangChain projects you can add to a portfolio",
-      "Practical workflows and best practices used on the job",
-      "How to troubleshoot and debug LangChain problems on your own"
+      "Build LLM chains, agents and RAG pipelines with LangChain",
+      "Master LangGraph for stateful, multi-step agent workflows",
+      "Connect models, tools, vector stores and memory correctly",
+      "Ship a portfolio project with evaluation and guardrails"
     ],
     "curriculum": [
       {
-        "title": "Getting started",
-        "lectures": 6,
-        "duration": "1.6h"
+        "title": "Introduction & environment setup",
+        "lectures": 4,
+        "duration": "0.7h"
       },
       {
-        "title": "Core foundations",
-        "lectures": 6,
-        "duration": "1.6h"
+        "title": "Prompting, models and chains",
+        "lectures": 7,
+        "duration": "1.5h"
       },
       {
-        "title": "Building real projects",
-        "lectures": 6,
-        "duration": "1.6h"
+        "title": "Memory, tools and retrieval (RAG)",
+        "lectures": 8,
+        "duration": "2.0h"
       },
       {
-        "title": "Intermediate techniques",
-        "lectures": 6,
-        "duration": "1.6h"
+        "title": "Agents with LangGraph",
+        "lectures": 9,
+        "duration": "2.4h"
       },
       {
-        "title": "Deep dive & best practices",
-        "lectures": 6,
-        "duration": "1.6h"
+        "title": "Evaluation, debugging and cost control",
+        "lectures": 5,
+        "duration": "1.2h"
       },
       {
-        "title": "Capstone project",
-        "lectures": 6,
-        "duration": "1.6h"
+        "title": "Capstone project & deployment",
+        "lectures": 4,
+        "duration": "1.7h"
       }
     ],
     "summary": "LangChain- Agentic AI Engineering with LangChain & LangGraph is a beginner LangChain course from Eden Marco on Udemy. It runs about 9.5h, was last updated in 10/2026, and holds 4★ from 1,102 students — one of the stronger Udemy course reviews entries in LangChain.",

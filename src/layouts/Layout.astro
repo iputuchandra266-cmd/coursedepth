@@ -2,10 +2,12 @@
 interface Props {
   title?: string;
   description?: string;
+  robots?: string;
 }
 const {
-  title = "Udemy Course Reviews — Honest Ratings, Prices & Details | CourseDepth",
-  description = "Read real Udemy course reviews: ratings, prices, instructor details and updates for the best Udemy courses — plus Coursera, edX and more, all in one place.",
+  title = "Udemy Course Reviews — Ratings & Best Picks | CourseDepth",
+  description = "Honest Udemy course reviews: ratings, prices, update history and instructor details for the best Python, Web Dev, Data Science and AI courses.",
+  robots = "index, follow",
 } = Astro.props;
 import "../styles/global.css";
 import { u } from "../lib/u";
@@ -34,8 +36,7 @@ const ld = {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="keywords" content="Udemy course reviews, Udemy reviews, online course reviews, Udemy course ratings, Udemy prices" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content={robots} />
     <meta name="google-site-verification" content="10yuLeZ2qhvag_zD9PkjLG49rg10la3f57_12DpOSDA" />
     <meta name="theme-color" content="#243693" />
     <link rel="canonical" href={canonical} />
@@ -48,11 +49,13 @@ const ld = {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={new URL(u("/images/og-default.svg"), site).href} />
+    <meta property="og:image" content={new URL(u("/images/og-default.png"), site).href} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={new URL(u("/images/og-default.svg"), site).href} />
+    <meta name="twitter:image" content={new URL(u("/images/og-default.png"), site).href} />
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3534671891943282" crossorigin="anonymous"></script>
     <script type="application/ld+json" set:html={JSON.stringify(ld)} />

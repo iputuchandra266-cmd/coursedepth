@@ -13,8 +13,9 @@ const topInstructors = instructors.slice(0,8);
 const parseUpdated = (u) => { const [m,y]=String(u||"").split("/"); return (parseInt(y)||0)*100+(parseInt(m)||0); };
 const topRated = [...courses].sort((a,b)=> (b.rating||0)-(a.rating||0) || (b.reviews||0)-(a.reviews||0) ).slice(0,8);
 const fresh = [...courses].sort((a,b)=> parseUpdated(b.updated)-parseUpdated(a.updated) ).slice(0,8);
+const totalReviews = courses.reduce((s,c)=>s+(c.reviews||0),0);
 const jsonLd = {"@context":"https://schema.org","@graph":[
-  {"@type":"Organization","@id":"https://coursedepth.com/#org","name":"CourseDepth","url":"https://coursedepth.com/","logo":"https://coursedepth.com/images/og-default.svg","sameAs":[]},
+  {"@type":"Organization","@id":"https://coursedepth.com/#org","name":"CourseDepth","url":"https://coursedepth.com/","logo":"https://coursedepth.com/images/og-default.png","sameAs":[]},
   {"@type":"WebSite","@id":"https://coursedepth.com/#site","url":"https://coursedepth.com/","name":"CourseDepth","publisher":{"@id":"https://coursedepth.com/#org"},"potentialAction":{"@type":"SearchAction","target":"https://coursedepth.com/search?q={search_term_string}","query-input":"required name=search_term_string"}},
   {"@type":"FAQPage","mainEntity":[
     {"@type":"Question","name":"Are Udemy course reviews reliable?","acceptedAnswer":{"@type":"Answer","text":"CourseDepth aggregates real Udemy course reviews from verified students. Our ratings match Udemy's own aggregate scores, but we add editorial analysis (our take, pros/cons, update history) that Udemy does not show."}},
@@ -25,7 +26,7 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
 ]};
 ---
 
-<Layout title="Udemy Course Reviews 2026 — Real Ratings, Prices & Best Picks | CourseDepth" description="Honest Udemy course reviews with real student ratings, current prices, update dates and instructor details. Compare the best Python, Web Dev, Data Science and AI courses before you buy.">
+<Layout title="Udemy Course Reviews 2026 — Ratings & Best Picks | CourseDepth" description="Honest Udemy course reviews with real student ratings, current prices, update dates and instructor details. Compare the best Python, Web Dev, Data Science and AI courses before you buy.">
 
 
 <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
@@ -70,7 +71,7 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
       <span class="provider-word">YouTube</span>
       <span class="provider-word">LinkedIn Learning</span>
     </div>
-    <a class="pill-more" href={u("/courses")}>+150 more →</a>
+    <a class="pill-more" href={u("/courses")}>+{courses.length} more →</a>
   </div>
 </section>
 
@@ -79,13 +80,13 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
   <div class="container">
     <div class="sec-head">
       <div><h2>Browse by topic</h2><p>Pick a subject to see its best courses</p></div>
-      <a class="link-more" href={u("/programming")}>All 117 topics →</a>
+      <a class="link-more" href={u("/programming")}>All {categories.length} topics →</a>
     </div>
     <div class="topic-grid">
       {topTopics.map(t => (
         <a class="topic-card" href={u(`/programming/${t.slug}`)}>
           <span class="topic-ico"><img src={u(`/images/categories/${t.slug}.svg`)} alt={t.name} width="64" height="64" loading="lazy" /></span>
-          <span><b>{t.name}</b><small>{t.courses.toLocaleString()} courses</small></span>
+          <span><b>{t.name}</b><small>{t.courses} {t.courses === 1 ? "course" : "courses"}</small></span>
         </a>
       ))}
     </div>
@@ -111,7 +112,7 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
     <div class="sec-head"><div><span class="eyebrow">Why CourseDepth</span><h2>Choose with confidence</h2></div></div>
     <div class="why-grid">
       <div class="why-card"><div class="why-ico">🌍</div><div><h3>Every provider in one place</h3><p>Udemy, Coursera, edX, YouTube, Udacity, Pluralsight and dozens more, compared side by side instead of tab by tab.</p></div></div>
-      <div class="why-card"><div class="why-ico">⭐</div><div><h3>1.3M real reviews</h3><p>Written by students who took the course. Providers cannot pay to bury or remove a bad one.</p></div></div>
+      <div class="why-card"><div class="why-ico">⭐</div><div><h3>{(totalReviews / 1e6).toFixed(1)}M student ratings</h3><p>Aggregated from real students who took the course. Providers cannot pay to bury or remove a rating.</p></div></div>
       <div class="why-card"><div class="why-ico">🔎</div><div><h3>Details you will not find elsewhere</h3><p>Video length, difficulty, certificates, language and the current price, checked for each course.</p></div></div>
     </div>
   </div>
@@ -165,7 +166,7 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
   <div class="container">
     <div class="sec-head"><div><span class="eyebrow">How it works</span><h2>Three steps to the right course</h2></div></div>
     <div class="steps">
-      <div class="step"><h3>Search or browse</h3><p>Type a course or instructor name, or start from one of 117 topics ranked by student rating.</p></div>
+      <div class="step"><h3>Search or browse</h3><p>Type a course or instructor name, or start from one of {categories.length} topics ranked by student rating.</p></div>
       <div class="step"><h3>Compare the details</h3><p>Ratings, review counts, length, level, price and what other students say, on one page per course.</p></div>
       <div class="step"><h3>Enrol on the provider's site</h3><p>Every course links straight to where it is sold. Some links earn us a commission, at no cost to you.</p></div>
     </div>

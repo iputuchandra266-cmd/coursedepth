@@ -30,10 +30,20 @@ export function autofill(c) {
     "Practical workflows and best practices used on the job",
     `How to troubleshoot and debug ${cat} problems on your own`,
   ];
-  if (empty(c.curriculum)) {
+  if (empty(c.curriculum) || new Set((c.curriculum||[]).map(s=>s.lectures+"|"+s.duration)).size === 1) {
     const titles = ["Getting started", "Core foundations", "Building real projects", "Intermediate techniques", "Deep dive & best practices", "Capstone project", "Next steps"];
-    const n = Math.min(7, c.sections);
-    c.curriculum = titles.slice(0, n).map((t) => ({ title: t, lectures: Math.max(2, Math.round(c.lectures / n)), duration: `${Math.max(0.5, H / n).toFixed(1)}h` }));
+    const n = Math.max(1, Math.min(c.sections || 7, titles.length));
+    const totalLectures = c.lectures || n * 10;
+    const w = titles.slice(0, n).map((_, i) => 0.7 + r() * 0.6);
+    const wSum = w.reduce((a, b) => a + b, 0);
+    let leftL = totalLectures, leftH = H;
+    c.curriculum = titles.slice(0, n).map((t, i) => {
+      const last = i === n - 1;
+      const lectures = last ? Math.max(1, leftL) : Math.max(1, Math.round((totalLectures * w[i]) / wSum));
+      const hours = last ? Math.max(0.3, +leftH.toFixed(1)) : Math.max(0.3, +((H * w[i]) / wSum).toFixed(1));
+      leftL -= lectures; leftH = +(leftH - hours).toFixed(1);
+      return { title: t, lectures, duration: `${hours}h` };
+    });
   }
   if (empty(c.summary)) c.summary = `${c.title || "This course"} is a ${String(c.level || "beginner").toLowerCase()} ${cat} course from ${inst} on ${prov}. It runs about ${String(c.duration || `${H}h`).replace(" total", "")}, and holds ${rating}★ from ${reviews.toLocaleString()} students in our Udemy course reviews.`;
   if (empty(c.pros)) c.pros = ["Clear explanations that start from zero", "Hands-on exercises after every major topic", `Fresh ${c.updated || "2026"} content and lifetime access`];

@@ -5,9 +5,9 @@ import Footer from "../../components/Footer.astro";
 import { categories, groups } from "../../data/categories";
 import { u } from "../../lib/u";
 ---
-<Layout title="Browse every category — CourseDepth">
+<Layout title="All Course Categories — Reviews & Prices | CourseDepth" description={`Browse ${categories.length} course topics — ratings, prices and update history for every category.`}>
 <Header />
-<section class="page-hero"><div class="container"><h1>Browse every category</h1><p>117 topics across {groups.length} groups, ranked by student reviews.</p></div></section>
+<section class="page-hero"><div class="container"><h1>Browse every category</h1><p>{categories.length} topics across {groups.length} groups, ranked by student reviews.</p></div></section>
 <section class="section"><div class="container">
 {groups.map(g => (
   <div style="margin-bottom:28px">
@@ -16,7 +16,7 @@ import { u } from "../../lib/u";
       {categories.filter(c=>c.group===g).map(c => (
         <a class="topic-card" href={u(`/programming/${c.slug}`)}>
           <span class="topic-ico"><img src={u(`/images/categories/${c.slug}.svg`)} alt={c.name} width="64" height="64" loading="lazy" /></span>
-          <span><b>{c.name}</b><small>{c.courses.toLocaleString()} courses</small></span>
+          <span><b>{c.name}</b><small>{c.courses} {c.courses === 1 ? "course" : "courses"}</small></span>
         </a>
       ))}
     </div>

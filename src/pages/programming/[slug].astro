@@ -14,13 +14,15 @@ const { slug } = Astro.params;
 const cat = getCategory(slug!);
 if (!cat) throw new Error("Category not found");
 const list = courses.filter(c => c.categorySlug === slug);
+const empty = list.length === 0;
+const tname = cat.name.length > 24 ? cat.name.slice(0, 24).trim() + "…" : cat.name;
 ---
-<Layout title={`${cat.name} Courses — Udemy Course Reviews & Prices | CourseDepth`}>
+<Layout title={`${tname} Courses — Reviews & Prices | CourseDepth`} description={`Best ${cat.name} courses with student ratings, prices and update dates. ${cat.description}`} robots={empty ? "noindex, follow" : "index, follow"}>
 <Header />
 <section class="page-hero"><div class="container">
   <div style="font-size:40px"><img src={u(`/images/categories/${cat.slug}.svg`)} alt={cat.name} width="80" height="80" /></div>
   <h1>{cat.name} Courses</h1>
-  <p>{cat.description} • {cat.courses.toLocaleString()} courses • Updated Oct 2026</p>
+  <p>{cat.description} • {cat.courses} {cat.courses === 1 ? "course" : "courses"} • Updated Oct 2026</p>
   <div style="margin-top:12px"><a href={u("/programming")} style="color:var(--blue);font-weight:800">← All categories</a></div>
 </div></section>
 <section class="section"><div class="container">

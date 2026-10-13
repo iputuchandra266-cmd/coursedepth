@@ -8,7 +8,7 @@ import { categories } from "../data/categories";
 import { u } from "../lib/u";
 const base = import.meta.env.BASE_URL;
 ---
-<Layout title="Search courses — CourseDepth">
+<Layout title="Search courses — CourseDepth" robots="noindex, follow">
 <Header />
 <section class="page-hero"><div class="container"><h1>Search</h1><p>Search courses, instructors, and topics.</p>
 <form action={u("/search")} method="get" class="hero-search" style="margin-top:14px;max-width:560px">
