@@ -1,5 +1,114 @@
 [
   {
+    "title": "AI A-Z [2026]: Agentic AI, Gen AI, Prompt Engineering and RL",
+    "slug": "agentic-ai-gen-ai-prompt-engineering-and-rl",
+    "provider": "Udemy",
+    "category": "Artificial Intelligence (AI)",
+    "categorySlug": "artificial-intelligence-ai",
+    "instructor": "Hadelin de Ponteves",
+    "instructorSlug": "hadelin-de-ponteves",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/22113450_6fb5_5.jpg",
+    "rating": 4.3,
+    "reviews": 51005,
+    "price": 13,
+    "oldPrice": 15,
+    "duration": "17 hours on",
+    "updated": "10/2026",
+    "description": "Combine the power of Agentic AI, Generative AI, Prompt Engineering and Deep RL to build powerful AIs with AWS and Python",
+    "image": "https://img-c.udemycdn.com/course/480x270/1219332_bdd7_2.jpg",
+    "url": "https://www.udemy.com/course/artificial-intelligence-az/?couponCode=MT261019G3",
+    "language": "English",
+    "students": 360888,
+    "sections": 25,
+    "lectures": 163,
+    "learn": [
+      "Core Artificial Intelligence (AI) fundamentals with Hadelin de Ponteves's step-by-step method",
+      "Real-world Artificial Intelligence (AI) projects you can add to a portfolio",
+      "Practical workflows and best practices used on the job",
+      "How to troubleshoot and debug Artificial Intelligence (AI) problems on your own"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 28,
+        "duration": "2.9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 29,
+        "duration": "3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 17,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 23,
+        "duration": "2.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 17,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 21,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 28,
+        "duration": "3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hadelin is one of Udemy’s top instructors and a recognized leader in AI education. He has taught AI to over 2.6 million learners worldwide and is a frequent guest speaker at prominent industry events. Hadelin has created more than 30 top-rated courses on topics such as AI, Machine Learning, Deep Learning, Blockchain, and Cloud Computing, empowering learners around the globe to upskill in cutting-edge technologies.\n\nIn addition to his partnership with Udemy, Hadelin is the co-founder of CloudWolf and SuperDataScience. He is passionate about education and is on a mission to make complex technologies simple, practical, and widely accessible to all.\n\nAs a side activity, he is also an actor who acted in seven films, and a movie producer of two films (Indian and French).",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AI A-Z [2026]: Agentic AI, Gen AI, Prompt Engineering and RL suitable for beginners?",
+        "a": "Yes — it is rated \"Beginner\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $13 with a 4.3★ average from 51,005 students, our Udemy course reviews put it above most Artificial Intelligence (AI) alternatives."
+      }
+    ],
+    "certificate": true,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "AI A-Z [2026]: Agentic AI, Gen AI, Prompt Engineering and RL is a beginner Artificial Intelligence (AI) course from Hadelin de Ponteves on Udemy. It runs about 17 hours on, and holds 4.3★ from 51,005 students in our Udemy course reviews.",
+    "bestFor": "beginner learners who want one guided path through Artificial Intelligence (AI)",
+    "skipIf": "You already work professionally in Artificial Intelligence (AI) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed."
+  },
+  {
     "title": "The Complete SQL Bootcamp (30 Hours): Go from Zero to Hero",
     "slug": "the-complete-sql-bootcamp-30-hours-go-from-zero-to-hero",
     "provider": "Udemy",
@@ -9,7 +118,7 @@
     "instructorSlug": "baraa-khatib-salkini",
     "instructorImage": "https://img-c.udemycdn.com/user/200_H/210728354_d7e2_3.jpg",
     "rating": 4.7,
-    "reviews": 12190,
+    "reviews": 13000,
     "price": 14,
     "oldPrice": 189,
     "level": "All Level",
@@ -48,38 +157,38 @@
     "curriculum": [
       {
         "title": "Getting started",
-        "lectures": 43,
-        "duration": "4.2h"
+        "lectures": 54,
+        "duration": "5.2h"
       },
       {
         "title": "Core foundations",
-        "lectures": 43,
-        "duration": "4.2h"
+        "lectures": 41,
+        "duration": "4h"
       },
       {
         "title": "Building real projects",
-        "lectures": 43,
-        "duration": "4.2h"
+        "lectures": 40,
+        "duration": "3.9h"
       },
       {
         "title": "Intermediate techniques",
-        "lectures": 43,
-        "duration": "4.2h"
+        "lectures": 50,
+        "duration": "4.9h"
       },
       {
         "title": "Deep dive & best practices",
-        "lectures": 43,
-        "duration": "4.2h"
+        "lectures": 39,
+        "duration": "3.8h"
       },
       {
         "title": "Capstone project",
-        "lectures": 43,
-        "duration": "4.2h"
+        "lectures": 40,
+        "duration": "4h"
       },
       {
         "title": "Next steps",
-        "lectures": 43,
-        "duration": "4.2h"
+        "lectures": 38,
+        "duration": "3.7h"
       }
     ],
     "pros": [
@@ -94,11 +203,11 @@
     ],
     "instructorBio": "Hey, I’m Baraa, a Data Engineer with over 17 years of experience and former Lead Data Engineer at Mercedes-Benz.\nI’ve spent my career building large-scale data platforms for analytics and AI, and now I teach the same skills that shaped my journey.\n\nMy courses focus on visual explanations, real-world projects, and practical lessons that make complex topics simple and help you build the skills that get you hired.\n\nIf you want to learn data in a calm, clear, and structured way, you’re in the right place.",
     "ratingBreakdown": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
     },
     "quality": {
       "content": 0,
