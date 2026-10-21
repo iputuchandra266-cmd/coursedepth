@@ -5,7 +5,7 @@ import { u } from "../lib/u";
   <div class="container footer-grid">
     <div class="footer-brand">
       <a class="logo" href={u("/")} style="color:#fff">
-        <span class="logo-mark" style="background:var(--yellow);color:var(--ink)">🎓</span>
+        <img class="logo-mark" src={u("/images/logo-mark.svg")} alt="" width="40" height="40" />
         <span>Course<em style="color:#ffc900">Depth</em></span>
       </a>
       <p>Real student reviews, prices and details for online courses from Udemy, Coursera, edX, YouTube and dozens more, all in one place.</p>
@@ -34,6 +34,15 @@ import { u } from "../lib/u";
       <a href={u("/login")}>My account</a>
     </div>
     <div>
+      <h4>Course reviews</h4>
+      <a href={u("/udemy-python-course-reviews")}>Udemy Python reviews</a>
+      <a href={u("/are-udemy-courses-worth-it")}>Are Udemy courses worth it?</a>
+      <a href={u("/are-udemy-reviews-fake")}>Are Udemy reviews fake?</a>
+      <a href={u("/how-to-choose-an-online-course")}>How to choose a course</a>
+      <a href={u("/udemy-certificate-worth-it")}>Udemy certificates worth it?</a>
+      <a href={u("/how-we-rate-courses")}>How we rate courses</a>
+    </div>
+    <div>
       <h4>Small print</h4>
       <a href={u("/terms")}>Terms & conditions</a>
       <a href={u("/privacy")}>Privacy policy</a>
@@ -51,6 +60,6 @@ import { u } from "../lib/u";
   </div>
   <div class="container footer-bottom">
     <span>© 2026 CourseDepth built with Astro.js — All rights reserved.</span>
-    <span>Some links are affiliate links, at no cost to you. <a href={u("/about-us")} style="display:inline;color:#fff">How we rank →</a></span>
+    <span>Some links are affiliate links, at no cost to you. <a href={u("/how-we-rate-courses")} style="display:inline;color:#fff">How we rank →</a></span>
   </div>
 </footer>

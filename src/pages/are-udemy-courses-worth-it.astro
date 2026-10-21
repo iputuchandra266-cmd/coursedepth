@@ -1,0 +1,138 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { courses } from "../data/courses";
+import { u } from "../lib/u";
+
+const totalReviews = courses.reduce((s, c) => s + (c.reviews || 0), 0);
+const avg = (courses.reduce((s, c) => s + (c.rating || 0), 0) / courses.length).toFixed(2);
+const site = "https://coursedepth.com";
+const url = `${site}/are-udemy-courses-worth-it/`;
+
+const faqs = [
+  {
+    q: "Are cheap $10 Udemy courses any good?",
+    a: "Usually yes. During sales most courses drop to $10–$19, and at that price a course with a 4.5+ rating, 1,000+ reviews and an update within the last 12 months is very likely worth the money. The risk is not the price — it is buying a course you will never start.",
+  },
+  {
+    q: "Is it worth paying full price for a Udemy course?",
+    a: "Rarely. List prices of $100–$200 are anchor prices: Udemy runs site-wide sales roughly every two to three weeks where the same course sells for $12.99–$19.99. Only pay full price if you need the course immediately and cannot wait for the next sale.",
+  },
+  {
+    q: "Do Udemy courses expire? Can I rewatch them?",
+    a: "Purchased courses give you lifetime access to the content you bought, including updates the instructor pushes to that course. Subscriptions are a different model — see the platform comparison below.",
+  },
+  {
+    q: "What if the course is not worth it?",
+    a: "Udemy offers a 30-day money-back guarantee on most purchases, including sale prices. If the curriculum does not match the description, request a refund through your purchase history — you do not need to justify it in detail.",
+  },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: site + "/" },
+        { "@type": "ListItem", position: 2, name: "Are Udemy Courses Worth It?", item: url },
+      ],
+    },
+    {
+      "@type": "Article",
+      headline: "Are Udemy Courses Worth It in 2026? Honest Value Breakdown",
+      description: "Are Udemy courses worth it? A data-backed answer: sale prices, when a course is worth buying, when to skip it, and how Udemy compares with other platforms.",
+      datePublished: "2026-10-21",
+      dateModified: "2026-10-21",
+      inLanguage: "en",
+      author: { "@type": "Organization", name: "CourseDepth", url: site + "/" },
+      publisher: { "@type": "Organization", name: "CourseDepth", url: site + "/", logo: { "@type": "ImageObject", url: site + "/images/logo-mark.svg" } },
+      mainEntityOfPage: { "@type": "WebPage", "@id": url },
+      speakable: { "@type": "SpeakableSpecification", cssSelector: [".lead"] },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+    },
+  ],
+};
+---
+<Layout title="Are Udemy Courses Worth It in 2026? Honest Value Breakdown" description="Are Udemy courses worth it? A data-backed answer: what $10–19 buys, when to skip a course, refunds, and how Udemy compares with Coursera, edX and Pluralsight.">
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+<Header />
+
+<section class="page-hero"><div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href={u("/")}>Home</a> <span aria-hidden="true">›</span> <span>Are Udemy courses worth it?</span></nav>
+  <h1>Are Udemy Courses Worth It?</h1>
+  <p>An honest, data-backed answer — when $10 buys real value, and when you should skip the sale.</p>
+</div></section>
+
+<section class="section"><div class="container" style="max-width:760px">
+  <p class="guide-updated">Updated 21 October 2026 · Based on {courses.length} tracked courses and {(totalReviews / 1e6).toFixed(2)}M student reviews</p>
+
+  <p class="lead"><strong>Short answer:</strong> Yes — <b>at sale prices ($10–$19)</b>, a course rated 4.5★ or higher with 1,000+ reviews and an update in the last 12 months is worth buying. At full list price ($100–$200), almost never: wait two or three weeks for the next sale. The real cost of a cheap course is not money, it is the hours you spend watching — so choose by review quality, not by discount depth.</p>
+
+  <div class="takeaways">
+    <b>Key takeaways</b>
+    <ul>
+      <li>Udemy sales run roughly <b>every 2–3 weeks</b>, dropping most courses to <b>$12.99–$19.99</b>.</li>
+      <li>Our tracked best-rated courses average <b>{avg}★ across {(totalReviews / 1e6).toFixed(2)} million reviews</b> — the ratings are not an illusion.</li>
+      <li>Worth it when: rating ≥ 4.5★, updated within 12 months, project-based, taught in your language.</li>
+      <li>Skip it when: last update &gt; 2 years, no preview videos, generic description, no curriculum detail.</li>
+      <li>Every purchase is covered by a <b>30-day money-back guarantee</b> — the downside risk is close to zero.</li>
+    </ul>
+  </div>
+
+  <h2>When a Udemy course is worth buying</h2>
+  <ul>
+    <li><b>Sale price.</b> Under ~$20 for lifetime access to a course that gets free updates is genuinely cheap education.</li>
+    <li><b>Fresh content.</b> Updated within the last 12 months means the code, tools and workflows still work.</li>
+    <li><b>Specific outcome.</b> "Automate Excel reports with Python" beats "Master Python" — you can verify the outcome in the curriculum.</li>
+    <li><b>Proof from volume.</b> Thousands of recent reviews surface problems fast; a course with 4.8★ from 50,000 students is a safer bet than 5.0★ from 12 students.</li>
+    <li><b>You have a plan to finish.</b> The value of a $15 course is infinite per hour only if you watch it.</li>
+  </ul>
+
+  <h2>When it is not worth it</h2>
+  <ul>
+    <li><b>Full list price</b> during a normal week — the same course will be $15 soon.</li>
+    <li><b>Stale courses.</b> Last updated 2+ years ago, especially in fast-moving areas like AI, React or cloud.</li>
+    <li><b>Bloated certificates.</b> A completion certificate does not prove skill to employers (more in <a href={u("/udemy-certificate-worth-it")}>are Udemy certificates worth it?</a>).</li>
+    <li><b>Courses with no preview and no refund window.</b> Both are standard on Udemy — treat their absence as a warning sign elsewhere.</li>
+  </ul>
+
+  <h2>Udemy vs other platforms</h2>
+  <p>Same goal, different pricing logic. Pick the model that matches how you learn:</p>
+  <table class="cmp">
+    <thead><tr><th>Platform</th><th>Pricing model</th><th>Certificate</th><th>Best for</th></tr></thead>
+    <tbody>
+      <tr><td><b>Udemy</b></td><td>One-time purchase per course; frequent sales ($10–19)</td><td>Completion certificate included</td><td>Buying a specific skill course cheaply, lifetime access</td></tr>
+      <tr><td><b>Coursera</b></td><td>Subscription or per-specialization payment (audit often free)</td><td>Paid track certificates</td><td>University-branded structured programs</td></tr>
+      <tr><td><b>edX</b></td><td>Free to audit; pay for verified certificate</td><td>Verified certificate (paid)</td><td>Academic courses you want to sample first</td></tr>
+      <tr><td><b>Pluralsight</b></td><td>Monthly/annual subscription</td><td>Course completion only</td><td>Teams and continuous tech upskilling</td></tr>
+    </tbody>
+  </table>
+  <p>Always confirm current pricing on the provider's site — plans and sale dates change.</p>
+
+  <h2>The bottom line</h2>
+  <p>Udemy is worth it when you treat it like a library sale instead of a tuition bill: wait for the sale, pick a highly rated and recently updated course with a clear outcome, and use the refund window if it disappoints. Combined with independent reviews like ours, a $15 decision carries very little risk and a lot of upside. Browse the current best-rated picks in <a href={u("/courses")}>all courses</a>.</p>
+
+  <h2 id="faq">Udemy courses worth it? — common questions</h2>
+  {faqs.map((f) => (
+    <div class="faq-item">
+      <h3>{f.q}</h3>
+      <p class="faq-a">{f.a}</p>
+    </div>
+  ))}
+
+  <div class="related">
+    <b>Related guides</b>
+    <a href={u("/udemy-python-course-reviews")}>Udemy Python course reviews</a> ·
+    <a href={u("/udemy-certificate-worth-it")}>Are Udemy certificates worth it?</a> ·
+    <a href={u("/are-udemy-reviews-fake")}>Are Udemy reviews fake?</a> ·
+    <a href={u("/how-to-choose-an-online-course")}>How to choose an online course</a>
+  </div>
+</div></section>
+
+<Footer />
+</Layout>

@@ -1,0 +1,151 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { courses } from "../data/courses";
+import { u } from "../lib/u";
+
+const site = "https://coursedepth.com";
+const url = `${site}/how-to-choose-an-online-course/`;
+
+const steps = [
+  { t: "Define the outcome, not the topic", d: "Write one sentence: \"After this course I can ___\". If the description cannot fill that blank concretely, keep looking." },
+  { t: "Check the last update date", d: "For tech and AI topics, anything older than 12–18 months risks outdated tools, broken links and deprecated syntax." },
+  { t: "Read reviews by recency and specificity", d: "Sort newest first, then skim the 3★ reviews — they name weak modules far better than 1★ rants or 5★ praise." },
+  { t: "Inspect the curriculum and the preview", d: "Section titles should tell the story of the course. Watch two preview videos: teaching style decides whether you finish." },
+  { t: "Judge the instructor's track record", d: "Look at total review count across courses, instructor bio, and how they answer tough questions in the Q&A." },
+  { t: "Compare price to the sale price", d: "On marketplaces like Udemy, list prices are anchors — most courses sell for $10–19 several times a month." },
+  { t: "Confirm the safety net", d: "Money-back window, subtitles in your language, offline/mobile access, and a certificate if you need one." },
+];
+
+const checklist = [
+  { k: "Freshness", ok: "Updated in the last 12 months", bad: "Last update 2+ years ago" },
+  { k: "Social proof", ok: "4.3–4.7★ with 1,000+ recent reviews", bad: "5.0★ from 15 reviews, all at launch" },
+  { k: "Outcome", ok: "Specific skills and built projects", bad: "Vague promises, no project list" },
+  { k: "Curriculum", ok: "Named sections, hours visible, preview available", bad: "Only marketing bullets, no syllabus" },
+  { k: "Instructor", ok: "Answers questions, proven track record", bad: "No bio, no replies to criticism" },
+  { k: "Terms", ok: "30-day refund, lifetime access, certificate", bad: "No refund path, unclear access" },
+];
+
+const faqs = [
+  {
+    q: "What should I check before buying an online course?",
+    a: "Seven things, in order: your concrete outcome, the last update date, recent and specific reviews, the curriculum and preview videos, the instructor's track record, the real (sale) price, and the refund policy. If a course fails on freshness or refund, skip it regardless of its star rating.",
+  },
+  {
+    q: "How many reviews should a course have before I trust it?",
+    a: "As a rule of thumb, 1,000+ reviews with a 4.3–4.7★ average gives you a statistically meaningful picture. Below roughly 100 reviews, the average swings on a handful of opinions — treat it as a signal, not proof.",
+  },
+  {
+    q: "Is a higher rated course always better?",
+    a: "No. Rating must be read together with review volume, recency and curriculum scope. A 4.6★ course with 500,000 reviews and a 2026 update is usually a safer pick than a 4.9★ course with 200 reviews from three years ago.",
+  },
+  {
+    q: "Should I buy a course or use free content?",
+    a: "Free content is excellent for sampling and for narrow how-to questions. Paid courses earn their money on structure, sequencing and completeness — the parts that keep you moving. Sample free first, then buy the course that fills your specific gaps.",
+  },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: site + "/" },
+        { "@type": "ListItem", position: 2, name: "How to Choose an Online Course", item: url },
+      ],
+    },
+    {
+      "@type": "Article",
+      headline: "How to Choose an Online Course: A 7-Step Checklist",
+      description: "How to choose an online course you will actually finish: a 7-step method, a buy/no-buy checklist, and how to read ratings, update dates and reviews.",
+      datePublished: "2026-10-21",
+      dateModified: "2026-10-21",
+      inLanguage: "en",
+      author: { "@type": "Organization", name: "CourseDepth", url: site + "/" },
+      publisher: { "@type": "Organization", name: "CourseDepth", url: site + "/", logo: { "@type": "ImageObject", url: site + "/images/logo-mark.svg" } },
+      mainEntityOfPage: { "@type": "WebPage", "@id": url },
+      speakable: { "@type": "SpeakableSpecification", cssSelector: [".lead"] },
+    },
+    {
+      "@type": "HowTo",
+      name: "How to Choose an Online Course Before You Buy",
+      description: "Seven checks that tell you whether an online course is worth buying and worth finishing.",
+      step: steps.map((s, i) => ({ "@type": "HowToStep", position: i + 1, name: s.t, text: `${s.t}: ${s.d}` })),
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+    },
+  ],
+};
+---
+<Layout title="How to Choose an Online Course: 7-Step Checklist (2026)" description="How to choose an online course you will finish: 7 checks (freshness, reviews, curriculum, instructor, price, refund) plus a buy/no-buy checklist.">
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+<Header />
+
+<section class="page-hero"><div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href={u("/")}>Home</a> <span aria-hidden="true">›</span> <span>How to choose an online course</span></nav>
+  <h1>How to Choose an Online Course</h1>
+  <p>A 7-step checklist to judge quality, reviews and value before you spend a cent.</p>
+</div></section>
+
+<section class="section"><div class="container" style="max-width:760px">
+  <p class="guide-updated">Updated 21 October 2026 · Method used by the CourseDepth editorial team</p>
+
+  <p class="lead"><strong>Short answer:</strong> Choose a course by checking, in order: the <b>concrete outcome</b> it promises, the <b>last update date</b>, <b>recent and specific reviews</b>, the <b>curriculum and preview</b>, the <b>instructor's track record</b>, the <b>real sale price</b>, and the <b>refund policy</b>. A course that fails on freshness or refund is not worth buying at any price.</p>
+
+  <div class="takeaways">
+    <b>Key takeaways</b>
+    <ul>
+      <li>Decide with an outcome sentence: "After this course I can ___".</li>
+      <li>Trust <b>4.3–4.7★ with 1,000+ reviews</b> more than 5.0★ from a tiny pool.</li>
+      <li>Read the newest 3★ reviews — they map the weak modules precisely.</li>
+      <li>Update date beats star rating in fast-moving fields (AI, web, cloud).</li>
+      <li>Never pay list price on marketplaces that run sales every 2–3 weeks.</li>
+    </ul>
+  </div>
+
+  <h2>The 7 checks, in order</h2>
+  <ol class="step-list">
+    {steps.map((s) => (
+      <li><b>{s.t}.</b> {s.d}</li>
+    ))}
+  </ol>
+
+  <h2>Buy or skip? Quick checklist</h2>
+  <table class="cmp">
+    <thead><tr><th>Signal</th><th>Buy when…</th><th>Skip when…</th></tr></thead>
+    <tbody>
+      {checklist.map((c) => (
+        <tr><td><b>{c.k}</b></td><td>{c.ok}</td><td>{c.bad}</td></tr>
+      ))}
+    </tbody>
+  </table>
+
+  <h2>How to read a course page in 60 seconds</h2>
+  <p>Open the course page and scan top to bottom: <b>rating and review count</b> next to the title → <b>last updated</b> date in the sidebar → <b>curriculum</b> section titles → one <b>preview video</b> → the <b>reviews sorted by newest</b>. Anything missing in that sequence (no preview, no dates, no syllabus) is a warning. For a live example, compare two picks in our <a href={u("/udemy-python-course-reviews")}>Udemy Python course reviews</a>.</p>
+
+  <h2>Match the platform to your goal</h2>
+  <p>Marketplace courses (Udemy-style) suit targeted skills at low one-time cost; subscription platforms suit continuous learning; university platforms suit credentials. Our breakdown of <a href={u("/are-udemy-courses-worth-it")}>whether Udemy courses are worth it</a> compares the models side by side — including when paying more is actually the smarter move.</p>
+
+  <h2 id="faq">Choosing an online course — common questions</h2>
+  {faqs.map((f) => (
+    <div class="faq-item">
+      <h3>{f.q}</h3>
+      <p class="faq-a">{f.a}</p>
+    </div>
+  ))}
+
+  <div class="related">
+    <b>Related guides</b>
+    <a href={u("/courses")}>Browse all {courses.length}+ courses</a> ·
+    <a href={u("/are-udemy-reviews-fake")}>Are Udemy reviews fake?</a> ·
+    <a href={u("/udemy-certificate-worth-it")}>Are Udemy certificates worth it?</a> ·
+    <a href={u("/how-we-rate-courses")}>How we rate courses</a>
+  </div>
+</div></section>
+
+<Footer />
+</Layout>

@@ -1,0 +1,141 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { u } from "../lib/u";
+
+const site = "https://coursedepth.com";
+const url = `${site}/are-udemy-reviews-fake/`;
+
+const redFlags = [
+  { s: "Launch burst", look: "Hundreds of reviews in the first days", flag: "Course released with instant 5★ wall" },
+  { s: "Review wording", look: "Specific: what changed, what was hard", flag: "Generic praise: \"amazing, best ever, life changing\"" },
+  { s: "Rating spread", look: "A realistic 4.3–4.7 with some 3★", flag: "95%+ perfect 5★ and almost no low scores" },
+  { s: "Recency", look: "Fresh reviews confirming current content", flag: "All reviews are 18+ months old" },
+  { s: "Disclosure", look: "Organic purchases (no disclosure needed)", flag: "\"I received this course for free/reduced price\" on many reviews" },
+  { s: "Instructor replies", look: "Instructor answers questions and criticism", flag: "No response to negative feedback" },
+];
+
+const faqs = [
+  {
+    q: "Are Udemy course reviews real?",
+    a: "Mostly yes. Udemy's aggregate star rating matches its own published scores and incentivised reviews are prohibited, so the headline rating is a reliable baseline. Individual reviews can still be skewed by free or heavily discounted copies given at launch — that is why distribution and recency matter more than any single comment.",
+  },
+  {
+    q: "How can you tell if a course review is fake?",
+    a: "Fake or low-signal reviews are vague, extremely short, identical in tone, clustered around the launch date, and avoid mentioning actual course content. Real reviews name chapters, mention problems, and often criticise something small while still recommending the course.",
+  },
+  {
+    q: "Do instructors buy fake reviews on Udemy?",
+    a: "Buying reviews violates Udemy's terms and review farms get purged periodically, which is why some courses see sudden drops in review counts. Instructors are, however, allowed to give free copies — the honest version of inflated numbers is a heavy coupon campaign at launch.",
+  },
+  {
+    q: "How does CourseDepth make reviews more reliable?",
+    a: "We aggregate official ratings and review counts, then add editorial checks Udemy does not show: last update date, price history, curriculum depth, pros/cons and quality sub-scores. Providers cannot pay to boost, bury or remove anything — see how we rate courses.",
+  },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: site + "/" },
+        { "@type": "ListItem", position: 2, name: "Are Udemy Reviews Fake?", item: url },
+      ],
+    },
+    {
+      "@type": "Article",
+      headline: "Are Udemy Reviews Fake? How to Spot Bought Course Reviews",
+      description: "Are Udemy course reviews real? Six signals that separate genuine student reviews from coupon-driven or fake reviews, plus how CourseDepth verifies ratings.",
+      datePublished: "2026-10-21",
+      dateModified: "2026-10-21",
+      inLanguage: "en",
+      author: { "@type": "Organization", name: "CourseDepth", url: site + "/" },
+      publisher: { "@type": "Organization", name: "CourseDepth", url: site + "/", logo: { "@type": "ImageObject", url: site + "/images/logo-mark.svg" } },
+      mainEntityOfPage: { "@type": "WebPage", "@id": url },
+      speakable: { "@type": "SpeakableSpecification", cssSelector: [".lead"] },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+    },
+  ],
+};
+---
+<Layout title="Are Udemy Reviews Fake? How to Spot Bought Course Reviews" description="Are Udemy course reviews real? Learn the 6 signals of fake or coupon-driven reviews, what aggregate ratings really mean, and how CourseDepth verifies ratings.">
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+<Header />
+
+<section class="page-hero"><div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href={u("/")}>Home</a> <span aria-hidden="true">›</span> <span>Are Udemy reviews fake?</span></nav>
+  <h1>Are Udemy Reviews Fake?</h1>
+  <p>How to tell real student feedback from coupon-driven hype — six signals, with examples.</p>
+</div></section>
+
+<section class="section"><div class="container" style="max-width:760px">
+  <p class="guide-updated">Updated 21 October 2026 · Written from CourseDepth's editorial review checks</p>
+
+  <p class="lead"><strong>Short answer:</strong> Udemy's <b>aggregate ratings are largely trustworthy</b> — they match the provider's own scores and incentivised reviews are banned. But individual reviews can be inflated: instructors legally hand out free or $1 copies at launch, which produces a burst of easy 5★ reviews. Judge a course by the <b>pattern</b> of reviews (specificity, spread, recency), not by any single comment.</p>
+
+  <div class="takeaways">
+    <b>Key takeaways</b>
+    <ul>
+      <li>The star <b>average</b> is a reliable baseline; a single glowing review is not evidence.</li>
+      <li>Free/cheap review copies are permitted — they are the #1 source of inflated launch numbers.</li>
+      <li>Six red flags: launch burst, vague wording, unnatural 5★ spread, stale recency, free-copy disclaimers, silent instructors.</li>
+      <li>Real reviews criticise something specific — a mix of 4★ and 3★ is a <b>health sign</b>, not a problem.</li>
+      <li>CourseDepth adds editorial checks (update history, price history, pros/cons) that Udemy itself does not display.</li>
+    </ul>
+  </div>
+
+  <h2>Why some course reviews look fake</h2>
+  <p>Three structural reasons, none of which require a conspiracy:</p>
+  <ol class="step-list">
+    <li><b>Coupon launches.</b> Instructors promote a course with free or deeply discounted copies to new students. Udemy allows it, and gratitude reviews follow immediately — genuine people, artificially easy scoring.</li>
+    <li><b>Placement incentives.</b> Until Udemy tightened its rules, courses could gain visibility through affiliate-driven installs. Some legacy courses still carry review counts from that era.</li>
+    <li><b>Selection bias.</b> People with strong positive or negative experiences review more often; the quiet middle rarely writes. This pushes averages away from the true middle.</li>
+  </ol>
+
+  <h2>Six signals that separate real reviews from hype</h2>
+  <table class="cmp">
+    <thead><tr><th>Signal</th><th>Looks real when…</th><th>Red flag</th></tr></thead>
+    <tbody>
+      {redFlags.map((r) => (
+        <tr><td><b>{r.s}</b></td><td>{r.look}</td><td>{r.flag}</td></tr>
+      ))}
+    </tbody>
+  </table>
+
+  <h2>How to read ratings correctly</h2>
+  <ul>
+    <li><b>4.3–4.7★ with thousands of reviews</b> is the sweet spot — high enough to trust, low enough to be honest.</li>
+    <li><b>5.0★ from a small pool</b> says almost nothing; it often reflects a launch campaign rather than quality.</li>
+    <li><b>Sort by newest</b> — reviews from the last six months describe the course you will actually buy.</li>
+    <li><b>Read the 2–3★ reviews first</b>; they name the exact modules that disappoint.</li>
+    <li><b>Cross-check the update date.</b> A course praised in 2023 may have aged badly regardless of what reviewers said.</li>
+  </ul>
+
+  <h2>How CourseDepth keeps ratings trustworthy</h2>
+  <p>We mirror each course's official rating and review count, then layer editorial checks on top: last update date, price history, curriculum depth, instructor track record, and pros/cons written by our team. Providers cannot pay to boost, bury or remove a rating — the methodology is published in <a href={u("/how-we-rate-courses")}>how we rate courses</a>, and anyone can challenge a listing through <a href={u("/contact")}>contact</a>.</p>
+
+  <h2 id="faq">Udemy reviews fake? — common questions</h2>
+  {faqs.map((f) => (
+    <div class="faq-item">
+      <h3>{f.q}</h3>
+      <p class="faq-a">{f.a}</p>
+    </div>
+  ))}
+
+  <div class="related">
+    <b>Related guides</b>
+    <a href={u("/how-we-rate-courses")}>How we rate courses</a> ·
+    <a href={u("/are-udemy-courses-worth-it")}>Are Udemy courses worth it?</a> ·
+    <a href={u("/how-to-choose-an-online-course")}>How to choose an online course</a> ·
+    <a href={u("/udemy-python-course-reviews")}>Udemy Python course reviews</a>
+  </div>
+</div></section>
+
+<Footer />
+</Layout>

@@ -1,0 +1,138 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { courses } from "../data/courses";
+import { u } from "../lib/u";
+
+const py = courses.filter((c) => c.categorySlug === "python" || /python/i.test(c.title));
+const site = "https://coursedepth.com";
+const url = `${site}/udemy-python-course-reviews/`;
+
+const faqs = [
+  {
+    q: "Which Udemy Python course has the best reviews?",
+    a: "Dr. Angela Yu's \"100 Days of Code: The Complete Python Pro Bootcamp\" has the highest rating of the top Python courses we track — 4.7 out of 5 from 437,756 students. Jose Portilla's \"Complete Python Bootcamp\" has more reviews overall (566,376) at 4.6 out of 5. Both are strong picks: choose 100 Days of Code if you learn best by building small projects daily, and the Complete Python Bootcamp if you want one long, reference-style course.",
+  },
+  {
+    q: "Are Udemy Python courses good for complete beginners?",
+    a: "Yes. Both top Python courses on Udemy are rated for beginners — they start from variables and loops and progress to projects, libraries and web basics. Check that the last update date is within the last 12 months so examples match the current Python version.",
+  },
+  {
+    q: "How much do Udemy Python courses cost?",
+    a: "List prices for the top Python bootcamps are $124.99–$199.99, but Udemy runs sales roughly every two to three weeks where courses drop to $12.99–$19.99. Never pay full list price — add the course to your wishlist and wait for the next sale.",
+  },
+  {
+    q: "Do Udemy Python courses include a certificate?",
+    a: "Yes. Both top-rated Python courses include a certificate of completion and a 30-day money-back guarantee. The certificate proves attendance, not competence — see our guide on whether Udemy certificates are worth it.",
+  },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: site + "/" },
+        { "@type": "ListItem", position: 2, name: "Udemy Python Course Reviews", item: url },
+      ],
+    },
+    {
+      "@type": "Article",
+      headline: "Udemy Python Course Reviews 2026 — Real Student Ratings",
+      description: "Honest Udemy Python course reviews: real student ratings, review counts, prices, update dates and which top Python bootcamp fits you.",
+      datePublished: "2026-10-21",
+      dateModified: "2026-10-21",
+      inLanguage: "en",
+      author: { "@type": "Organization", name: "CourseDepth", url: site + "/" },
+      publisher: { "@type": "Organization", name: "CourseDepth", url: site + "/", logo: { "@type": "ImageObject", url: site + "/images/logo-mark.svg" } },
+      mainEntityOfPage: { "@type": "WebPage", "@id": url },
+      speakable: { "@type": "SpeakableSpecification", cssSelector: [".lead"] },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+    },
+  ],
+};
+---
+<Layout title="Udemy Python Course Reviews 2026 — Real Student Ratings" description="Honest Udemy Python course reviews: real student ratings, review counts, prices, update dates and which top Python bootcamp fits you.">
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+<Header />
+
+<section class="page-hero"><div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href={u("/")}>Home</a> <span aria-hidden="true">›</span> <span>Udemy Python course reviews</span></nav>
+  <h1>Udemy Python Course Reviews</h1>
+  <p>Real student ratings, prices and update history for the best Python courses on Udemy in 2026.</p>
+</div></section>
+
+<section class="section"><div class="container" style="max-width:760px">
+  <p class="guide-updated">Updated 21 October 2026 · Reviewed by the CourseDepth editorial team · Data from {py.length} tracked Python courses</p>
+
+  <p class="lead"><strong>Short answer:</strong> The best-reviewed Python courses on Udemy are Angela Yu's <b>100 Days of Code</b> (4.7★ from 437,756 students) and Jose Portilla's <b>Complete Python Bootcamp</b> (4.6★ from 566,376 students). Both were updated in 2026, include a certificate and a 30-day money-back guarantee, and typically sell for $13–$19 during Udemy sales.</p>
+
+  <div class="takeaways">
+    <b>Key takeaways</b>
+    <ul>
+      <li><b>100 Days of Code</b> wins on rating (4.7★) — best for beginners who learn by building a project every day.</li>
+      <li><b>Complete Python Bootcamp</b> has the most reviews (566K) — the broadest reference-style curriculum.</li>
+      <li>Both courses were <b>updated in 2026</b> and include a certificate plus a 30-day money-back guarantee.</li>
+      <li>Expect to pay <b>$12.99–$19.99 on sale</b>; list prices are $124.99–$199.99.</li>
+      <li>Star rating alone is not enough — always check the <b>last update date</b> and recent reviews.</li>
+    </ul>
+  </div>
+
+  <h2>Top Udemy Python courses compared</h2>
+  <p>Current ratings, review counts and prices for the Python courses we track, checked on 21 October 2026:</p>
+  <table class="cmp">
+    <thead><tr><th>Course</th><th>Rating</th><th>Reviews</th><th>Level</th><th>Updated</th><th>Price</th></tr></thead>
+    <tbody>
+      {py.map((c) => (
+        <tr>
+          <td><a href={u(`/course/${c.slug}`)}>{c.title}</a></td>
+          <td>{c.rating}★</td>
+          <td>{c.reviews.toLocaleString("en-US")}</td>
+          <td>{c.level}</td>
+          <td>{c.updated}</td>
+          <td>${c.price}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <h2>What students actually say in Python course reviews</h2>
+  <p>Across the two biggest Python bootcamps, positive reviews repeat the same three themes: <b>project-based teaching</b> (students write code from the first hour), <b>instructor clarity</b> (Jose Portilla and Angela Yu both average high instructor sub-scores), and <b>breadth</b> (automation, files, OOP, libraries, web basics).</p>
+  <p>The most common criticism is <b>length</b>. Long bootcamps take 30–60 hours to complete, and some sections age faster than others — reviews that praise the core but flag "some videos look dated" are usually pointing at third-party libraries that have released major versions. That is exactly why update recency matters more than the headline star rating.</p>
+
+  <h2>How to judge Python course reviews before you buy</h2>
+  <ul>
+    <li><b>Update date first.</b> A 4.9★ course last updated in 2022 will teach deprecated syntax and broken links.</li>
+    <li><b>Read the 3★ reviews</b> — they are the most specific about gaps in the curriculum.</li>
+    <li><b>Sort reviews by recency</b> and look for comments from the last six months.</li>
+    <li><b>Check the preview videos.</b> Ten minutes of lecture tells you more than 100,000 reviews about teaching style.</li>
+    <li><b>Look at the curriculum list,</b> not just the promises in the description.</li>
+  </ul>
+
+  <h2>How much do Udemy Python courses cost?</h2>
+  <p>List prices for the top Python bootcamps sit at $124.99–$199.99, but Udemy discounts almost everything to <b>$12.99–$19.99</b> during its sales, which run roughly every two to three weeks. At sale price, even a 4.5★ course with fresh content is low-risk: you keep the 30-day money-back guarantee as a fallback. For how we weigh price against rating, see <a href={u("/how-we-rate-courses")}>how we rate courses</a>.</p>
+
+  <h2 id="faq">Udemy Python course reviews — common questions</h2>
+  {faqs.map((f) => (
+    <div class="faq-item">
+      <h3>{f.q}</h3>
+      <p class="faq-a">{f.a}</p>
+    </div>
+  ))}
+
+  <div class="related">
+    <b>Related guides</b>
+    <a href={u("/programming/python")}>All Python courses</a> ·
+    <a href={u("/are-udemy-courses-worth-it")}>Are Udemy courses worth it?</a> ·
+    <a href={u("/are-udemy-reviews-fake")}>Are Udemy reviews fake?</a> ·
+    <a href={u("/how-to-choose-an-online-course")}>How to choose an online course</a>
+  </div>
+</div></section>
+
+<Footer />
+</Layout>

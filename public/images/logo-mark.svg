@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="CourseDepth">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c4ded"/>
+      <stop offset=".55" stop-color="#5b2fd0"/>
+      <stop offset="1" stop-color="#341b86"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ece7ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- tile -->
+  <rect x="1" y="1" width="62" height="62" rx="15.5" fill="url(#tile)"/>
+  <rect x="1" y="1" width="62" height="62" rx="15.5" fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
+
+  <!-- mortarboard -->
+  <path d="M32 15 54 25 32 35 10 25Z" fill="url(#cap)"/>
+  <path d="M19 30 32 36 45 30 V39 C45 44 39.5 48 32 48 C24.5 48 19 44 19 39 Z" fill="url(#cap)" opacity=".92"/>
+
+  <!-- gold tassel -->
+  <path d="M54 26 V37" stroke="#f5c242" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="54" cy="40.5" r="3.6" fill="#ffc900"/>
+</svg>

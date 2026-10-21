@@ -1,0 +1,106 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { courses } from "../data/courses";
+import { u } from "../lib/u";
+
+const totalReviews = courses.reduce((s, c) => s + (c.reviews || 0), 0);
+const avg = (courses.reduce((s, c) => s + (c.rating || 0), 0) / courses.length).toFixed(2);
+const site = "https://coursedepth.com";
+const url = `${site}/how-we-rate-courses/`;
+
+const faqs = [
+  { q: "How does CourseDepth rank courses?", a: "Four weighted factors: student rating × review volume (50%), content freshness — last update date (25%), curriculum completeness (15%) and price value (10%). Providers cannot pay to change any score." },
+  { q: "Do providers pay for placement?", a: "No. Some links earn us a commission, at no cost to you, but commission never affects ratings, order or inclusion. Removing a listing is only possible for factual errors, and only after evidence." },
+  { q: "How often is the data updated?", a: "Ratings, prices and update dates are re-checked continuously, and every page shows the date of its last editorial review." },
+  { q: "What if a rating looks wrong?", a: "Send it through the contact page with the course link. We re-verify against the provider's published score and correct the page plus its dateModified stamp." },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "BreadcrumbList", itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: site + "/" },
+      { "@type": "ListItem", position: 2, name: "How We Rate Courses", item: url },
+    ]},
+    {
+      "@type": "Article",
+      headline: "How We Rate Courses: CourseDepth's Review Methodology",
+      description: "How CourseDepth rates and ranks online courses: the four weighted factors, our data sources, editorial checks, and our no-paid-placement policy.",
+      datePublished: "2026-10-21", dateModified: "2026-10-21", inLanguage: "en",
+      author: { "@type": "Organization", name: "CourseDepth", url: site + "/" },
+      publisher: { "@type": "Organization", name: "CourseDepth", url: site + "/", logo: { "@type": "ImageObject", url: site + "/images/logo-mark.svg" } },
+      mainEntityOfPage: { "@type": "WebPage", "@id": url },
+      speakable: { "@type": "SpeakableSpecification", cssSelector: [".lead"] },
+    },
+    { "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
+  ],
+};
+---
+<Layout title="How We Rate Courses — CourseDepth Review Methodology" description="How CourseDepth rates online courses: four weighted factors (rating, freshness, curriculum, price), data sources, editorial checks and our no-paid-placement policy.">
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+<Header />
+
+<section class="page-hero"><div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href={u("/")}>Home</a> <span aria-hidden="true">›</span> <span>How we rate courses</span></nav>
+  <h1>How We Rate Courses</h1>
+  <p>Our review methodology — what goes into every score, and what never does.</p>
+</div></section>
+
+<section class="section"><div class="container" style="max-width:760px">
+  <p class="guide-updated">Updated 21 October 2026 · Covers {courses.length} tracked courses, {(totalReviews / 1e6).toFixed(2)}M reviews, average {avg}★</p>
+
+  <p class="lead"><strong>Short answer:</strong> Every CourseDepth score combines <b>rating × review volume (50%)</b>, <b>content freshness (25%)</b>, <b>curriculum completeness (15%)</b> and <b>price value (10%)</b>, re-checked against the provider's published data. Commissions never change a score — <b>no placement can be bought</b>.</p>
+
+  <div class="takeaways">
+    <b>Key takeaways</b>
+    <ul>
+      <li>Four weighted factors: rating × volume 50%, freshness 25%, curriculum 15%, price 10%.</li>
+      <li>Ratings come from the provider's own aggregate — we never invent stars.</li>
+      <li>Editorial layer adds what providers don't show: update history, pros/cons, quality sub-scores.</li>
+      <li>Affiliate commissions are decoupled from rankings, entirely.</li>
+      <li>Every page carries a last-reviewed date; corrections update dateModified.</li>
+    </ul>
+  </div>
+
+  <h2>The four ranking factors</h2>
+  <table class="cmp">
+    <thead><tr><th>Factor</th><th>Weight</th><th>What we measure</th></tr></thead>
+    <tbody>
+      <tr><td><b>Rating × review volume</b></td><td>50%</td><td>Provider aggregate score weighted by how many students left it</td></tr>
+      <tr><td><b>Content freshness</b></td><td>25%</td><td>Last update date vs today; fast-moving topics get a stricter clock</td></tr>
+      <tr><td><b>Curriculum completeness</b></td><td>15%</td><td>Sections, hours, projects, coverage of the promised outcome</td></tr>
+      <tr><td><b>Price value</b></td><td>10%</td><td>Typical sale price against hours and depth, not list price</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Where the data comes from</h2>
+  <p>Ratings, review counts, prices, durations and update dates are taken from each provider's published course page and re-checked regularly. Anything editorial — pros, cons, "our take", quality sub-scores — is written by our team and labelled as such. See <a href={u("/are-udemy-reviews-fake")}>how we read reviews</a> for why the star average is only step one.</p>
+
+  <h2>What never influences a ranking</h2>
+  <ul>
+    <li><b>Payment.</b> Providers cannot pay for a position, a better score, or removal of a bad review.</li>
+    <li><b>Affiliate status.</b> Commission links are added where available — a course without one ranks on identical merits.</li>
+    <li><b>Recency bias.</b> New courses enter with no advantage until volume accumulates.</li>
+  </ul>
+
+  <h2 id="faq">Methodology — common questions</h2>
+  {faqs.map((f) => (
+    <div class="faq-item">
+      <h3>{f.q}</h3>
+      <p class="faq-a">{f.a}</p>
+    </div>
+  ))}
+
+  <div class="related">
+    <b>Related guides</b>
+    <a href={u("/about-us")}>About us</a> ·
+    <a href={u("/how-to-choose-an-online-course")}>How to choose an online course</a> ·
+    <a href={u("/are-udemy-courses-worth-it")}>Are Udemy courses worth it?</a> ·
+    <a href={u("/review-course")}>Write a review</a>
+  </div>
+</div></section>
+
+<Footer />
+</Layout>

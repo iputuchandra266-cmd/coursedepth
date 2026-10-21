@@ -2,9 +2,9 @@
 import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
-import CourseCard from "../../components/CourseCard.astro";
+import Stars from "../../components/Stars.astro";
 import { categories, getCategory } from "../../data/categories";
-import { courses } from "../../data/courses";
+import { courses, type Course } from "../../data/courses";
 import { u } from "../../lib/u";
 
 export function getStaticPaths() {
@@ -13,29 +13,310 @@ export function getStaticPaths() {
 const { slug } = Astro.params;
 const cat = getCategory(slug!);
 if (!cat) throw new Error("Category not found");
+
+const site = "https://coursedepth.com";
 const list = courses.filter(c => c.categorySlug === slug);
 const empty = list.length === 0;
-const tname = cat.name.length > 24 ? cat.name.slice(0, 24).trim() + "…" : cat.name;
+
+const hours = (s: string) => parseFloat(String(s).replace(",", ".")) || 0;
+const upTs = (s: string) => {
+  const p = String(s).split("/").map(Number);
+  return p.length === 3 ? p[2] * 10000 + p[1] * 100 + p[0] : p.length === 2 ? p[1] * 10000 + p[0] * 100 + 1 : 0;
+};
+const score = (c: Course) => c.rating * Math.log10((c.reviews || 0) + 10);
+const ranked = [...list].sort((a, b) => score(b) - score(a));
+
+const n = list.length;
+const providers = new Set(list.map(c => c.provider)).size;
+const totalReviews = list.reduce((s, c) => s + (c.reviews || 0), 0);
+const reviewsLabel = totalReviews >= 1e6 ? `${+(totalReviews / 1e6).toFixed(1)}M` : totalReviews.toLocaleString("en-US");
+const reviewsLong = reviewsLabel.endsWith("M") ? `${reviewsLabel.replace("M", "")} million` : reviewsLabel;
+const over10 = list.filter(c => hours(c.duration) >= 10).length;
+const maxH = list.length ? Math.max(...list.map(c => hours(c.duration))) : 0;
+const certN = list.filter(c => c.certificate).length;
+const freeN = list.filter(c => !c.price).length;
+const minP = list.length ? Math.min(...list.map(c => c.price)) : 0;
+const maxP = list.length ? Math.max(...list.map(c => c.price)) : 0;
+const updatedLabel = "Updated October 21, 2026";
+
+const courseW = n === 1 ? "course" : "courses";
+const h1 = empty ? `Best ${cat.name} Courses & Certificates [2026]` : n === 1 ? `Best ${cat.name} Course & Certificate [2026]` : `${n} Best + Free ${cat.name} Courses & Certificates [2026]`;
+const pageTitle = empty ? `${cat.name} Courses — Reviews & Prices | CourseDepth` : `${h1} | CourseDepth`;
+const metaDesc = empty
+  ? `${cat.name} courses with student ratings, prices and update dates. ${cat.description}`
+  : `Compare ${n} ${cat.name} ${courseW} from ${providers} provider${providers === 1 ? "" : "s"}${freeN ? `, ${freeN} free` : ""}, ranked by ${reviewsLong} student reviews. Prices, length and real reviews.`;
+
+const filters: { k: string; label: string; test: (c: Course) => boolean }[] = [
+  { k: "certificate", label: "Certificate", test: (c) => !!c.certificate },
+  { k: "beginner", label: "Beginner", test: (c) => /beginner/i.test(c.level || "") },
+  { k: "under20", label: "Under $20", test: (c) => c.price < 20 },
+  { k: "crash", label: "Crash course", test: (c) => { const h = hours(c.duration); return h > 0 && h < 5; } },
+  { k: "long", label: "10+ hours", test: (c) => hours(c.duration) >= 10 },
+];
+const activeFilters = filters.filter(f => list.some(f.test));
+
+const related = categories.filter(c => c.slug !== cat.slug && c.courses > 0).sort((a, b) => b.courses - a.courses).slice(0, 9);
+
+const top = ranked[0];
+const faqs = empty
+  ? [
+      { q: `What is ${cat.name}?`, a: `${cat.name} courses cover ${cat.description} CourseDepth tracks the strongest options in this topic and ranks them from student reviews, update history and curriculum depth.` },
+      { q: `How does CourseDepth rank ${cat.name} courses?`, a: "Four weighted factors: student rating and review volume (50%), content freshness (25%), curriculum completeness (15%) and price value (10%). Providers cannot pay for placement or a better score." },
+    ]
+  : [
+      { q: `What is the most popular ${cat.name} course?`, a: `The most-reviewed course in this category is ${top.title} by ${top.instructor}, with ${(top.reviews ?? 0).toLocaleString("en-US")} reviews at ${top.rating} out of 5 as of October 2026.` },
+      { q: `Do ${cat.name} courses come with a certificate?`, a: certN === n
+          ? `Yes — all ${n} ${cat.name} ${courseW} we track include a certificate of completion. It shows you finished the coursework, but it is not an accredited qualification.`
+          : `${certN} of the ${n} ${cat.name} ${courseW} we track include a certificate of completion. It shows you finished the coursework, but it is not an accredited qualification.` },
+      { q: `How much do ${cat.name} courses cost?`, a: `List prices in this category run from $${minP} to $${maxP}. Udemy runs sales roughly every two to three weeks that bring most courses down to $12.99–$19.99, so it is usually worth waiting for the next sale.` },
+      { q: `How are these ${cat.name} courses ranked?`, a: "By student rating weighted with review volume (50%), content freshness — the last update date (25%), curriculum completeness (15%) and price value (10%). No provider can pay to be listed or ranked." },
+    ];
+
+const groupSlug = cat.group.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+const guide = cat.slug === "python"
+  ? { href: "/udemy-python-course-reviews", label: "Udemy Python course reviews 2026: real student ratings" }
+  : { href: "/how-to-choose-an-online-course", label: "How to choose an online course before you buy" };
+
+const about = empty
+  ? `CourseDepth is building the ${cat.name} section: ratings, prices, update dates and honest pros and cons for every course we track. Nothing here is paid placement — below are the closest topics while this list grows.`
+  : `CourseDepth compares the ${n} ${cat.name} ${courseW} listed here from ${providers} provider${providers === 1 ? "" : "s"}${freeN ? `, ${freeN} of them free` : certN ? `, ${certN} of them with a certificate` : ""}, and ranks them from the ${reviewsLong} ratings and reviews their students have left, with the price, length and level of each one side by side. No course pays to be listed or ranked. <a href="${u("/how-we-rate-courses")}">How we rank</a>`;
+
+const breadcrumbGraph = {
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: site + "/" },
+    { "@type": "ListItem", position: 2, name: "All categories", item: site + "/programming/" },
+    { "@type": "ListItem", position: 3, name: cat.group, item: `${site}/programming/#group-${groupSlug}` },
+    { "@type": "ListItem", position: 4, name: cat.name, item: `${site}/programming/${cat.slug}/` },
+  ],
+};
+const collectionGraph = {
+  "@type": "CollectionPage",
+  "@id": `${site}/programming/${cat.slug}/`,
+  url: `${site}/programming/${cat.slug}/`,
+  name: pageTitle,
+  headline: h1,
+  description: metaDesc,
+  datePublished: "2026-10-21T00:00:00+00:00",
+  dateModified: "2026-10-21T00:00:00+00:00",
+  inLanguage: "en",
+  author: { "@type": "Organization", name: "CourseDepth", url: site + "/" },
+  publisher: { "@type": "Organization", name: "CourseDepth", url: site + "/", logo: { "@type": "ImageObject", url: site + "/images/logo-mark.svg" } },
+};
+const faqGraph = {
+  "@type": "FAQPage",
+  mainEntity: faqs.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+};
+const itemGraph = empty ? [] : [{
+  "@type": "ItemList",
+  name: `Best ${cat.name} courses, ranked`,
+  itemListElement: ranked.map((c, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    item: {
+      "@type": "Course",
+      url: `${site}/course/${c.slug}/`,
+      name: c.title,
+      description: c.description,
+      provider: { "@type": "Organization", name: c.provider },
+      aggregateRating: { "@type": "AggregateRating", ratingValue: c.rating, reviewCount: c.reviews },
+    },
+  })),
+}];
+const jsonLd = { "@context": "https://schema.org", "@graph": [breadcrumbGraph, collectionGraph, faqGraph, ...itemGraph] };
 ---
-<Layout title={`${tname} Courses — Reviews & Prices | CourseDepth`} description={`Best ${cat.name} courses with student ratings, prices and update dates. ${cat.description}`} robots={empty ? "noindex, follow" : "index, follow"}>
+<Layout title={pageTitle} description={metaDesc} robots={empty ? "noindex, follow" : "index, follow"}>
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 <Header />
-<section class="page-hero"><div class="container">
-  <div style="font-size:40px"><img src={u(`/images/categories/${cat.slug}.svg`)} alt={cat.name} width="80" height="80" /></div>
-  <h1>{cat.name} Courses</h1>
-  <p>{cat.description} • {cat.courses} {cat.courses === 1 ? "course" : "courses"} • Updated Oct 2026</p>
-  <div style="margin-top:12px"><a href={u("/programming")} style="color:var(--blue);font-weight:800">← All categories</a></div>
+
+<section class="course-head cat-hero">
+<div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href={u("/")}>Home</a> › <a href={u("/programming")}>All categories</a> ›
+    <a href={u(`/programming/#group-${groupSlug}`)}>{cat.group}</a> › <span>{cat.name}</span>
+  </nav>
+  <div class="cat-hero__grid">
+    <img class="cat-hero__icon" src={u(`/images/categories/${cat.slug}.svg`)} alt="" width="84" height="84" />
+    <div>
+      <h1>{h1}</h1>
+      <p class="cat-hero__meta">
+        {empty ? (
+          <span>{updatedLabel}</span>
+        ) : (
+          <>
+            <span><strong>{n}</strong> {courseW} compared</span>
+            <span><strong>{over10 > 0 ? over10 : maxH + "h"}</strong> {over10 > 0 ? "over 10 hours long" : "longest course"}</span>
+            <span><strong>{reviewsLabel}</strong> student reviews</span>
+            <span>{updatedLabel}</span>
+          </>
+        )}
+      </p>
+      <p class="cat-hero__by">Ranked by the CourseDepth editorial team from student reviews across every provider. <a href={u("/how-we-rate-courses")}>How we rank</a></p>
+      <p class="cat-hero__guide"><b>Our guide:</b> <a href={u(guide.href)}>{guide.label}</a></p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section" style="padding-top:34px"><div class="container">
+    <div class={`cat-intro${empty ? " cat-intro--solo" : ""}`}>
+    {!empty && (
+      <div class="picks-card">
+        <h2>Our top picks</h2>
+        <ol class="picks-list">
+          {ranked.map((c, i) => (
+            <li>
+              <span class="picks-num">{i + 1}</span>
+              <a href={`#rank-${i + 1}`}>{c.title}</a>
+              <em class="picks-prov">[{c.provider}]</em>
+              {c.bestseller && <span class="picks-flag">Bestseller</span>}
+            </li>
+          ))}
+        </ol>
+      </div>
+    )}
+    <div class="cat-about">
+      <h2>About the best {cat.name} courses</h2>
+      <div class="cat-prose"><p set:html={about} /></div>
+      <h3>Frequently asked questions</h3>
+      {faqs.map(f => (
+        <details class="faq-d">
+          <summary>{f.q}</summary>
+          <p class="faq-a">{f.a}</p>
+        </details>
+      ))}
+      <div class="cat-related">
+        <h3>Related topics</h3>
+        <div class="badges">
+          {related.map(r => (
+            <a class="chip" href={u(`/programming/${r.slug}`)}>{r.name} <span class="chip-count">{r.courses}</span></a>
+          ))}
+          <a class="chip" href={u("/programming")}>All categories</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div></section>
-<section class="section"><div class="container">
-  <div class="toolbar">
-    <span class="chip active">Best rated</span><span class="chip">Most reviewed</span><span class="chip">Beginner</span><span class="chip">Under $20</span>
-  </div>
-  <div class="course-grid">
-    {list.map(c => <CourseCard course={c} />)}
-  </div>
-  <div class="review">
-    <h3>How we rank {cat.name} courses</h3>
-    <p style="color:var(--muted)">Ranked by average rating × review count, update freshness, and curriculum completeness. Pricing is checked regularly with providers.</p>
-  </div>
-</div></section>
+
+{empty ? (
+  <section class="section" style="padding-top:0"><div class="container">
+    <div class="review">
+      <h3>{cat.name} courses are coming soon</h3>
+      <p style="color:var(--muted)">We are still verifying {cat.name} courses — ratings, prices and update dates get added only after an editorial pass. Meanwhile, browse the closest tracked topics above or <a href={u("/programming")}>all categories</a>.</p>
+    </div>
+  </div></section>
+) : (
+  <section class="section" style="padding-top:0"><div class="container">
+    <div class="cat-toolbar">
+      <div class="cat-filters">
+        <button class="chip active" type="button" data-filter="all">All</button>
+        {activeFilters.map(f => <button class="chip" type="button" data-filter={f.k}>{f.label}</button>)}
+      </div>
+      <label class="cat-sort"><span>Sort by</span>
+        <select id="rank-sort" aria-label="Sort courses">
+          <option value="default">Editors' ranking</option>
+          <option value="reviews">Most reviews</option>
+          <option value="rating">Student rating</option>
+          <option value="recent">Most recent</option>
+        </select>
+      </label>
+    </div>
+    <p class="found-count" id="found-count"><b>{n}</b> courses</p>
+    <div class="rank-list" id="rank-list">
+      {ranked.map((c, i) => (
+        <article
+          class="rank-row"
+          id={`rank-${i + 1}`}
+          data-rank={i + 1}
+          data-reviews={c.reviews ?? 0}
+          data-rating={c.rating}
+          data-updated={upTs(c.updated)}
+          data-price={c.price}
+          data-level={c.level ?? ""}
+          data-certificate={c.certificate ? "1" : "0"}
+          data-hours={hours(c.duration)}
+        >
+          <div class="rank-media">
+            <a href={u(`/course/${c.slug}`)} aria-label={c.title}>
+              <img src={u(c.image ?? `/images/courses/${c.slug}.svg`)} alt="" width="640" height="360" loading="lazy" />
+              {c.bestseller && <span class="badge-best">Bestseller</span>}
+            </a>
+          </div>
+          <div class="rank-body">
+            <div class="rank-head">
+              <span class="rank-num">{i + 1}</span>
+              <h3 class="rank-title"><a href={u(`/course/${c.slug}`)}>{c.title}</a></h3>
+            </div>
+            <div class="rank-meta">
+              <Stars rating={c.rating} reviews={c.reviews} />
+              <span>{c.level}</span>
+              <span>{c.duration}</span>
+              <span>Updated {c.updated}</span>
+              <i class="rank-prov">{c.provider}</i>
+            </div>
+            <p class="rank-desc">{c.description}</p>
+            {c.bestFor && <p class="rank-best"><b>Best for:</b> {c.bestFor}</p>}
+            <div class="rank-actions">
+              <span class="rank-price">${c.price}</span>
+              {c.oldPrice && c.oldPrice > c.price && <s class="rank-old">${c.oldPrice}</s>}
+              <a class="btn-rank" href={u(`/course/${c.slug}`)}>View course →</a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+    <div class="review">
+      <h3>How we rank {cat.name} courses</h3>
+      <p style="color:var(--muted)">Ranked by average rating × review count, update freshness, and curriculum completeness. Pricing is checked regularly with providers. <a href={u("/how-we-rate-courses")}>Full methodology →</a></p>
+    </div>
+  </div></section>
+)}
+
+<script>
+  const listEl = document.getElementById("rank-list");
+  if (listEl) {
+    const rows = Array.from(listEl.querySelectorAll<HTMLElement>(".rank-row"));
+    const total = rows.length;
+    const chips = Array.from(document.querySelectorAll<HTMLButtonElement>(".cat-filters .chip"));
+    const sortSel = document.getElementById("rank-sort") as HTMLSelectElement | null;
+    const countEl = document.getElementById("found-count");
+    const checks: Record<string, (r: HTMLElement) => boolean> = {
+      certificate: (r) => r.dataset.certificate === "1",
+      beginner: (r) => /beginner/i.test(r.dataset.level || ""),
+      under20: (r) => +r.dataset.price < 20,
+      crash: (r) => +r.dataset.hours > 0 && +r.dataset.hours < 5,
+      long: (r) => +r.dataset.hours >= 10,
+    };
+    let filter = "all";
+    const apply = () => {
+      let shown = 0;
+      rows.forEach((r) => {
+        const ok = filter === "all" ? true : (checks[filter]?.(r) ?? true);
+        r.style.display = ok ? "" : "none";
+        if (ok) shown++;
+      });
+      if (countEl) countEl.innerHTML = `<b>${shown}</b> ${shown === 1 ? "course" : "courses"}${shown !== total ? ` of ${total}` : ""}`;
+    };
+    chips.forEach((ch) => ch.addEventListener("click", () => {
+      chips.forEach((c) => c.classList.remove("active"));
+      ch.classList.add("active");
+      filter = ch.dataset.filter || "all";
+      apply();
+    }));
+    sortSel?.addEventListener("change", () => {
+      const key = sortSel.value;
+      const sorted = [...rows].sort((a, b) => {
+        if (key === "reviews") return +b.dataset.reviews - +a.dataset.reviews;
+        if (key === "rating") return +b.dataset.rating - +a.dataset.rating;
+        if (key === "recent") return +b.dataset.updated - +a.dataset.updated;
+        return +a.dataset.rank - +b.dataset.rank;
+      });
+      sorted.forEach((r) => listEl.appendChild(r));
+      apply();
+    });
+    apply();
+  }
+</script>
+
 <Footer />
 </Layout>

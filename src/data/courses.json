@@ -10,17 +10,25 @@
     "instructorImage": "https://img-c.udemycdn.com/user/200_H/22113450_6fb5_5.jpg",
     "rating": 4.3,
     "reviews": 51005,
-    "price": 13,
-    "oldPrice": 15,
+    "price": 29.99,
+    "level": "all level",
     "duration": "17 hours on",
     "updated": "10/2026",
     "description": "Combine the power of Agentic AI, Generative AI, Prompt Engineering and Deep RL to build powerful AIs with AWS and Python",
     "image": "https://img-c.udemycdn.com/course/480x270/1219332_bdd7_2.jpg",
-    "url": "https://www.udemy.com/course/artificial-intelligence-az/?couponCode=MT261019G3",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.1219332&u=https%3A%2F%2Fwww.udemy.com%2Fartificial-intelligence-az&intsrc=APIG_26324",
     "language": "English",
+    "certificate": true,
     "students": 360888,
     "sections": 25,
     "lectures": 163,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "AI A-Z [2026]: Agentic AI, Gen AI, Prompt Engineering and RL is a beginner Artificial Intelligence (AI) course from Hadelin de Ponteves on Udemy. It runs about 17 hours on, and holds 4.3★ from 51,005 students in our Udemy course reviews.",
+    "bestFor": "beginner learners who want one guided path through Artificial Intelligence (AI)",
+    "skipIf": "You already work professionally in Artificial Intelligence (AI) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Artificial Intelligence (AI) fundamentals with Hadelin de Ponteves's step-by-step method",
       "Real-world Artificial Intelligence (AI) projects you can add to a portfolio",
@@ -83,7 +91,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -98,15 +111,7 @@
         "q": "Is it worth the price?",
         "a": "At $13 with a 4.3★ average from 51,005 students, our Udemy course reviews put it above most Artificial Intelligence (AI) alternatives."
       }
-    ],
-    "certificate": true,
-    "access": "Lifetime access",
-    "moneyBack": true,
-    "summary": "AI A-Z [2026]: Agentic AI, Gen AI, Prompt Engineering and RL is a beginner Artificial Intelligence (AI) course from Hadelin de Ponteves on Udemy. It runs about 17 hours on, and holds 4.3★ from 51,005 students in our Udemy course reviews.",
-    "bestFor": "beginner learners who want one guided path through Artificial Intelligence (AI)",
-    "skipIf": "You already work professionally in Artificial Intelligence (AI) and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed."
+    ]
   },
   {
     "title": "The Complete SQL Bootcamp (30 Hours): Go from Zero to Hero",
@@ -119,14 +124,13 @@
     "instructorImage": "https://img-c.udemycdn.com/user/200_H/210728354_d7e2_3.jpg",
     "rating": 4.7,
     "reviews": 13000,
-    "price": 14,
-    "oldPrice": 189,
+    "price": 19.99,
     "level": "All Level",
     "duration": "29.5 hours",
     "updated": "10/2026",
     "description": "The Only SQL Course with 200+ Visual Animations: Learn Fast, Practice Hard & Build Real-World Projects",
     "image": "https://img-c.udemycdn.com/course/480x270/5934818_9a72.jpg",
-    "url": "https://www.udemy.com/course/the-complete-sql-bootcamp-30-hours-go-from-zero-to-hero/?couponCode=MT261012G2",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.5934818&u=https%3A%2F%2Fwww.udemy.com%2Fthe-complete-sql-bootcamp-30-hours-go-from-zero-to-hero&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 64180,
@@ -750,8 +754,8 @@
     ]
   },
   {
-    "slug": "100-days-of-code",
     "title": "100 Days of Code™: The Complete Python Pro Bootcamp",
+    "slug": "100-days-of-code",
     "provider": "Udemy",
     "category": "Python",
     "categorySlug": "python",
@@ -763,9 +767,9 @@
     "level": "Beginner",
     "duration": "65h total",
     "updated": "10/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/2776760_f176_10.jpg",
     "bestseller": true,
     "description": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+    "image": "https://img-c.udemycdn.com/course/480x270/2776760_f176_10.jpg",
     "language": "English",
     "certificate": true,
     "students": 937333,
@@ -773,6 +777,11 @@
     "lectures": 204,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "100 Days of Code: The Complete Python Pro Bootcamp by Dr. Angela Yu on Udemy is widely regarded as one of the best and most comprehensive hands-on Python courses available online. It takes a strictly project-based approach, prompting you to build 100 unique projects over 100 days to take you from a complete beginner to a job-ready professional.",
+    "bestFor": "beginner learners who want one guided path through Python",
+    "skipIf": "You already work professionally in Python and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Python fundamentals with Dr. Angela Yu's step-by-step method",
       "Real-world Python projects you can add to a portfolio",
@@ -782,55 +791,56 @@
     "curriculum": [
       {
         "title": "Getting started",
-        "lectures": 29,
-        "duration": "9.3h"
+        "lectures": 35,
+        "duration": "11.3h"
       },
       {
         "title": "Core foundations",
-        "lectures": 29,
-        "duration": "9.3h"
+        "lectures": 22,
+        "duration": "7.1h"
       },
       {
         "title": "Building real projects",
-        "lectures": 29,
-        "duration": "9.3h"
+        "lectures": 22,
+        "duration": "7.2h"
       },
       {
         "title": "Intermediate techniques",
-        "lectures": 29,
-        "duration": "9.3h"
+        "lectures": 25,
+        "duration": "7.9h"
       },
       {
         "title": "Deep dive & best practices",
-        "lectures": 29,
-        "duration": "9.3h"
+        "lectures": 30,
+        "duration": "9.6h"
       },
       {
         "title": "Capstone project",
-        "lectures": 29,
-        "duration": "9.3h"
+        "lectures": 33,
+        "duration": "10.6h"
       },
       {
         "title": "Next steps",
-        "lectures": 29,
-        "duration": "9.3h"
+        "lectures": 37,
+        "duration": "11.3h"
       }
     ],
-    "summary": "100 Days of Code™: The Complete Python Pro Bootcamp is a beginner Python course from Dr. Angela Yu on Udemy. It runs about 65h, was last updated in 10/2026, and holds 4.7★ from 437,756 students — one of the stronger Udemy course reviews entries in Python.",
     "pros": [
-      "Clear explanations that start from zero",
-      "Hands-on exercises after every major topic",
-      "Fresh 10/2026 content and lifetime access"
+      "Excellent Explanations: Angela Yu is highly praised on platforms like Reddit for breaking down complex coding topics into bite-sized, digestible pieces without assuming you already know everything.",
+      "Immediate Practicality: You build a functioning script or game every single day, keeping motivation high through immediate feedback loops."
     ],
     "cons": [
-      "Pace accelerates in the middle sections",
-      "Limited advanced, production-scale projects",
-      "Long: budget several weeks to finish"
+      "The 100-Day Myth: Learners on Reddit heavily emphasize that it rarely takes just 100 days. Expect to spend 2–3 hours per day instead of 1, stretching the timeline out much longer.",
+      "Late-Course Shift: Multiple students note that after Day 57, the videos become less heavily structured, requiring significant external research and independent documentation reading to complete the prompts."
     ],
-    "bestFor": "beginner learners who want one guided path through Python",
-    "skipIf": "You already work professionally in Python and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Dr. Angela Yu teaches Python on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Python.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.6,
       "video": 4.6,
@@ -839,26 +849,82 @@
       "depth": 5,
       "total": 96
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "Dr. Angela Yu teaches Python on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Python.",
     "faq": [
       {
-        "q": "Is 100 Days of Code™: The Complete Python Pro Bootcamp suitable for beginners?",
-        "a": "Yes — it is rated \"Beginner\" and starts from the fundamentals, though complete beginners should budget extra time for the practice exercises."
+        "q": "Getting Started & Requirement",
+        "a": "Getting Started & Requirements"
       },
       {
-        "q": "How often is the course updated?",
-        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+        "q": "• Do I need prior coding experience",
+        "a": "• Do I need prior coding experience?"
       },
       {
-        "q": "Is it worth the price?",
-        "a": "At $124.99 with a 4.7★ average from 437,756 students, our Udemy course reviews put it above most Python alternatives — and Udemy discounts it frequently."
+        "q": "No. The course is built specifically for absolute beginners and assumes zero prior knowledge of programming or computer science",
+        "a": "No. The course is built specifically for absolute beginners and assumes zero prior knowledge of programming or computer science."
+      },
+      {
+        "q": "• What hardware/software do I need",
+        "a": "• What hardware/software do I need?"
+      },
+      {
+        "q": "Any standard Mac, Windows, or Linux computer with internet access. All development software used in the course—such as Python, PyCharm, and Google Colab—is entirely free to use",
+        "a": "Any standard Mac, Windows, or Linux computer with internet access. All development software used in the course—such as Python, PyCharm, and Google Colab—is entirely free to use."
+      },
+      {
+        "q": "⏱️ Time Commitment & Structur",
+        "a": "⏱️ Time Commitment & Structure"
+      },
+      {
+        "q": "• Does it actually take exactly 1 hour a day",
+        "a": "• Does it actually take exactly 1 hour a day?"
+      },
+      {
+        "q": "Rarely. Opinions are mixed on Reddit; while the video lessons for each day are brief, writing the code, debugging errors, and solving challenges typically push the daily commitment to 2 to 3 hours. Most students take 4 to 6 months to complete the entire track",
+        "a": "Rarely. Opinions are mixed on Reddit; while the video lessons for each day are brief, writing the code, debugging errors, and solving challenges typically push the daily commitment to 2 to 3 hours. Most students take 4 to 6 months to complete the entire track."
+      },
+      {
+        "q": "• Can I skip days or complete multiple days at once",
+        "a": "• Can I skip days or complete multiple days at once?"
+      },
+      {
+        "q": "Yes. The course offers full lifetime access upon a single purchase. You can binge multiple modules on weekends or pause your progress whenever life gets busy",
+        "a": "Yes. The course offers full lifetime access upon a single purchase. You can binge multiple modules on weekends or pause your progress whenever life gets busy."
+      },
+      {
+        "q": "💻 Outdated Content & Maintenanc",
+        "a": "💻 Outdated Content & Maintenance"
+      },
+      {
+        "q": "• Is the course content up to date",
+        "a": "• Is the course content up to date?"
+      },
+      {
+        "q": "Based on discussions on Reddit, opinions are mixed. While Udemy regularly features updated built-in coding exercises, external packages taught in later modules (like Selenium or certain web APIs) change rapidly over time. You may occasionally need to look at the Udemy Q&A section or developer documentation to find minor workarounds for broken web-scraping scripts",
+        "a": "Based on discussions on Reddit, opinions are mixed. While Udemy regularly features updated built-in coding exercises, external packages taught in later modules (like Selenium or certain web APIs) change rapidly over time. You may occasionally need to look at the Udemy Q&A section or developer documentation to find minor workarounds for broken web-scraping scripts."
+      },
+      {
+        "q": "💼 Career Outcomes & Valu",
+        "a": "💼 Career Outcomes & Value"
+      },
+      {
+        "q": "• Will this course make me job-ready",
+        "a": "• Will this course make me job-ready?"
+      },
+      {
+        "q": "It lays an exceptional foundation. It teaches you the core pillars (Web Development, Data Science, and Scripting), leaving you with a portfolio of 100 functional scripts. However, landing a job usually requires building a couple of large, completely original projects outside the bootcamp portfolio to stand out",
+        "a": "It lays an exceptional foundation. It teaches you the core pillars (Web Development, Data Science, and Scripting), leaving you with a portfolio of 100 functional scripts. However, landing a job usually requires building a couple of large, completely original projects outside the bootcamp portfolio to stand out."
+      },
+      {
+        "q": "• Does it provide a certificate",
+        "a": "• Does it provide a certificate?"
+      },
+      {
+        "q": "Yes, completing all modules rewards you with a downloadable Udemy Certificate of Completion. Note that while it looks great on a resume, employers value the code repository you build over the certificate itself",
+        "a": "Yes, completing all modules rewards you with a downloadable Udemy Certificate of Completion. Note that while it looks great on a resume, employers value the code repository you build over the certificate itself."
+      },
+      {
+        "q": "Are you trying to decide between Data Science or Web Development as your focus, or are you just looking to learn Python as a general skill? Let me know, and I can tell you which sections of the course will be the most valuable for your goal",
+        "a": "Are you trying to decide between Data Science or Web Development as your focus, or are you just looking to learn Python as a general skill? Let me know, and I can tell you which sections of the course will be the most valuable for your goal!"
       }
     ]
   },
@@ -1427,8 +1493,8 @@
     ]
   },
   {
-    "slug": "the-complete-agentic-ai-engineering-course",
     "title": "AI Engineer Agentic Track: The Complete Agent & MCP Course",
+    "slug": "the-complete-agentic-ai-engineering-course",
     "provider": "Udemy",
     "category": "AI Agents & Agentic AI",
     "categorySlug": "ai-agents",
@@ -1440,10 +1506,10 @@
     "level": "All levels",
     "duration": "21h total",
     "updated": "10/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/6566789_2e8a_10.jpg",
-    "url": "https://www.udemy.com/course/the-complete-agentic-ai-engineering-course/?couponCode=KEEPLEARNING",
     "bestseller": true,
     "description": "Master AI Agents in 30 days: build 8 real-world projects with OpenAI Agents SDK, CrewAI, LangGraph, AutoGen and MCP.",
+    "image": "https://img-c.udemycdn.com/course/480x270/6566789_2e8a_10.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6566789&u=https%3A%2F%2Fwww.udemy.com%2Fthe-complete-agentic-ai-engineering-course&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 2874,
@@ -1451,6 +1517,11 @@
     "lectures": 68,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "AI Engineer Agentic Track: The Complete Agent & MCP Course is a all levels AI Agents & Agentic AI course from Ed Donner on Udemy. It runs about 21h, was last updated in 10/2026, and holds 4.6★ from 1,656 students — one of the stronger Udemy course reviews entries in AI Agents & Agentic AI.",
+    "bestFor": "all levels learners who want one guided path through AI Agents & Agentic AI",
+    "skipIf": "You already work professionally in AI Agents & Agentic AI and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core AI Agents & Agentic AI fundamentals with Ed Donner's step-by-step method",
       "Real-world AI Agents & Agentic AI projects you can add to a portfolio",
@@ -1460,41 +1531,40 @@
     "curriculum": [
       {
         "title": "Getting started",
-        "lectures": 10,
-        "duration": "3.0h"
+        "lectures": 9,
+        "duration": "2.8h"
       },
       {
         "title": "Core foundations",
-        "lectures": 10,
-        "duration": "3.0h"
+        "lectures": 8,
+        "duration": "2.5h"
       },
       {
         "title": "Building real projects",
         "lectures": 10,
-        "duration": "3.0h"
+        "duration": "3h"
       },
       {
         "title": "Intermediate techniques",
         "lectures": 10,
-        "duration": "3.0h"
+        "duration": "3h"
       },
       {
         "title": "Deep dive & best practices",
-        "lectures": 10,
-        "duration": "3.0h"
+        "lectures": 12,
+        "duration": "3.6h"
       },
       {
         "title": "Capstone project",
         "lectures": 10,
-        "duration": "3.0h"
+        "duration": "3h"
       },
       {
         "title": "Next steps",
-        "lectures": 10,
-        "duration": "3.0h"
+        "lectures": 9,
+        "duration": "3.1h"
       }
     ],
-    "summary": "AI Engineer Agentic Track: The Complete Agent & MCP Course is a all levels AI Agents & Agentic AI course from Ed Donner on Udemy. It runs about 21h, was last updated in 10/2026, and holds 4.6★ from 1,656 students — one of the stronger Udemy course reviews entries in AI Agents & Agentic AI.",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -1505,10 +1575,14 @@
       "Limited advanced, production-scale projects",
       "Long: budget several weeks to finish"
     ],
-    "bestFor": "all levels learners who want one guided path through AI Agents & Agentic AI",
-    "skipIf": "You already work professionally in AI Agents & Agentic AI and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Ed Donner teaches AI Agents & Agentic AI on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for AI Agents & Agentic AI.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.7,
       "video": 4.6,
@@ -1517,14 +1591,6 @@
       "depth": 4.7,
       "total": 94
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "Ed Donner teaches AI Agents & Agentic AI on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for AI Agents & Agentic AI.",
     "faq": [
       {
         "q": "Is AI Engineer Agentic Track: The Complete Agent & MCP Course suitable for beginners?",
@@ -1754,8 +1820,8 @@
     ]
   },
   {
+    "title": "LangChain & LangGraph AI Engineer: Agents, Agentic RAG & MCP",
     "slug": "langchain",
-    "title": "LangChain- Agentic AI Engineering with LangChain & LangGraph",
     "provider": "Udemy",
     "category": "LangChain",
     "categorySlug": "langchain",
@@ -1763,14 +1829,14 @@
     "instructorSlug": "eden-marco",
     "rating": 4,
     "reviews": 1102,
-    "price": 17.99,
+    "price": 19.99,
     "level": "Beginner",
     "duration": "9.5h total",
     "updated": "10/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/5281528_8f36.jpg",
-    "url": "https://www.udemy.com/course/langchain/?couponCode=KEEPLEARNING",
     "bestseller": true,
     "description": "LangChain and LangGraph from basics to production: chains, agents, memory, RAG, tools and deployment.",
+    "image": "https://i.udemycdn.com/course/480x270/5281528_8f36_2.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.5281528&u=https%3A%2F%2Fwww.udemy.com%2Flangchain&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 2046,
@@ -1778,6 +1844,11 @@
     "lectures": 37,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "LangChain- Agentic AI Engineering with LangChain & LangGraph is a beginner LangChain course from Eden Marco on Udemy. It runs about 9.5h, was last updated in 10/2026, and holds 4★ from 1,102 students — one of the stronger Udemy course reviews entries in LangChain.",
+    "bestFor": "beginner learners who want one guided path through LangChain",
+    "skipIf": "You already work professionally in LangChain and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Build LLM chains, agents and RAG pipelines with LangChain",
       "Master LangGraph for stateful, multi-step agent workflows",
@@ -1816,7 +1887,6 @@
         "duration": "1.7h"
       }
     ],
-    "summary": "LangChain- Agentic AI Engineering with LangChain & LangGraph is a beginner LangChain course from Eden Marco on Udemy. It runs about 9.5h, was last updated in 10/2026, and holds 4★ from 1,102 students — one of the stronger Udemy course reviews entries in LangChain.",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -1827,10 +1897,14 @@
       "Limited advanced, production-scale projects",
       "Short — best as a supplement, not a full path"
     ],
-    "bestFor": "beginner learners who want one guided path through LangChain",
-    "skipIf": "You already work professionally in LangChain and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Eden Marco teaches LangChain on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for LangChain.",
+    "ratingBreakdown": {
+      "1": 2,
+      "2": 2,
+      "3": 6,
+      "4": 13,
+      "5": 77
+    },
     "quality": {
       "content": 3.8,
       "video": 4.2,
@@ -1839,14 +1913,6 @@
       "depth": 4.2,
       "total": 82
     },
-    "ratingBreakdown": {
-      "1": 2,
-      "2": 2,
-      "3": 6,
-      "4": 13,
-      "5": 77
-    },
-    "instructorBio": "Eden Marco teaches LangChain on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for LangChain.",
     "faq": [
       {
         "q": "Is LangChain- Agentic AI Engineering with LangChain & LangGraph suitable for beginners?",

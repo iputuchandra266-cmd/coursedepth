@@ -44,29 +44,31 @@ const faqLd = c.faq?.length ? { "@context": "https://schema.org", "@type": "FAQP
 <script type="application/ld+json" set:html={JSON.stringify(ld)} />
 {faqLd && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
 <Header />
+<section class="course-head">
 <div class="container">
   <nav class="crumbs" style="padding-top:14px">
     <a href={u("/")}>Home</a> › <a href={u("/programming")}>All categories</a> › <a href={u(`/programming/${c.categorySlug}`)}>{c.category}</a> › <span>{c.title.slice(0,40)}…</span>
   </nav>
   <div class="badges">
     <span class="chip active">{c.provider}</span>
-    {c.bestseller && <span class="chip" style="background:var(--yellow);border-color:var(--yellow);font-weight:700">Bestseller</span>}
+    {c.bestseller && <span class="chip chip-hot">Bestseller</span>}
     <a class="chip" href={u(`/programming/${c.categorySlug}`)}>{c.category}</a>
     <span class="chip">{c.price > 0 ? "Paid course" : "Free"}</span>
     <span class="chip">{c.level}</span>
     {c.certificate && <span class="chip">Certificate</span>}
   </div>
   <h1 style="max-width:820px">{c.title} ({c.provider})</h1>
-  <p style="font-size:1.15rem;color:var(--muted);max-width:760px">{c.description}</p>
-  <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin:10px 0 22px">
+  <p style="max-width:760px">{c.description}</p>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin:12px 0 0">
     <span style="font-size:2rem;font-weight:800">{c.rating}</span>
     <Stars rating={c.rating} reviews={c.reviews} />
     <a href="#reviews" style="font-weight:600">({c.reviews.toLocaleString()} reviews)</a>
     <span>Created by: <b>{c.instructor}</b></span>
-    <span style="color:var(--muted)">Last updated {c.updated}</span>
+    <span style="color:#cfc4f5">Last updated {c.updated}</span>
   </div>
 </div>
-<section class="section" style="padding-top:0"><div class="container detail-grid">
+</section>
+<section class="section" style="padding-top:26px"><div class="container detail-grid">
   <div class="detail-main">
     <div class="review" style="border-left:4px solid var(--yellow)">
       <h3 style="margin-top:0">Our take</h3>

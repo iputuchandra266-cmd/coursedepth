@@ -166,6 +166,28 @@
   ],
   "100-days-of-code": [
     {
+      "id": "rmvhu3usz",
+      "author": "Johny",
+      "rating": 4.5,
+      "title": "Good Python Courses",
+      "body": "i learning Coding in 100 Days with this The Complete Python Pro Bootcamp, this Python Courses perfect for beginner and advanced users",
+      "pros": [
+        "Length Content Courses\nNeed 100 Days to Complete Learning"
+      ],
+      "cons": [
+        "Not Free Courses"
+      ],
+      "level": "Beginner",
+      "date": "2026-10-21",
+      "helpful": 0,
+      "subRatings": {
+        "content": 5,
+        "instructor": 5,
+        "value": 5,
+        "ease": 5
+      }
+    },
+    {
       "id": "r10",
       "author": "Daniel K.",
       "rating": 4.9,
@@ -919,6 +941,26 @@
         "instructor": 4.8999999999999995,
         "value": 4.8,
         "ease": 4.6
+      }
+    }
+  ],
+  "agentic-ai-gen-ai-prompt-engineering-and-rl": [
+    {
+      "id": "rmvhtz0yy",
+      "author": "Anonymous",
+      "rating": 5,
+      "title": "Perfect",
+      "body": "this is perfect courses for beginners",
+      "pros": [],
+      "cons": [],
+      "level": "Beginner",
+      "date": "2026-10-21",
+      "helpful": 0,
+      "subRatings": {
+        "content": 5,
+        "instructor": 5,
+        "value": 5,
+        "ease": 5
       }
     }
   ]
