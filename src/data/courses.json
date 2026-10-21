@@ -247,15 +247,14 @@
     "instructorImage": "https://img-c.udemycdn.com/user/200_H/164759774_4222.jpg",
     "rating": 4.3,
     "reviews": 3711,
-    "price": 12.99,
-    "oldPrice": 149.99,
+    "price": 89.99,
     "level": "All Level",
     "duration": "15h 30m",
     "updated": "09/2026",
     "bestseller": true,
     "description": "The material is aligned with the official 2026 exam guide and includes scenario-based practice questions, a full-length timed mock exam (60 questions, 120 minutes), detailed answer explanations, and practical strategies for handling both multiple-choice and multiple-response questions. Ideal for solution architects, AI engineers, and practitioners who want to demonstrate their ability to design production-grade agentic systems with Claude.",
     "image": "https://img-c.udemycdn.com/course/480x270/7150101_2585_5.jpg",
-    "url": "https://www.udemy.com/course/certified-claude-architect-masterclass-2026/?couponCode=MT261012G2",
+    "url": "https://trk.udemy.com/c/6591367/3939309/39854?prodsku=course.7150101&u=https%3A%2F%2Fwww.udemy.com%2Fcertified-claude-architect-masterclass-2026&intsrc=APIG_34565",
     "language": "English",
     "certificate": true,
     "students": 33780,
@@ -282,29 +281,39 @@
     ],
     "curriculum": [
       {
-        "title": "D1 — Agentic Architecture & Orchestration (27% of the exam)",
-        "lectures": 0,
-        "duration": ""
+        "title": "Getting started",
+        "lectures": 23,
+        "duration": "2.5h"
       },
       {
-        "title": "D2 — Claude Code Configuration & Workflows (20% of the exam)",
-        "lectures": 0,
-        "duration": ""
+        "title": "Core foundations",
+        "lectures": 16,
+        "duration": "1.7h"
       },
       {
-        "title": "D3 — Prompt Engineering & Structured Output (20% of the exam)",
-        "lectures": 0,
-        "duration": ""
+        "title": "Building real projects",
+        "lectures": 24,
+        "duration": "2.7h"
       },
       {
-        "title": "D4 — Tool Design & MCP Integration (18% of the exam)",
-        "lectures": 0,
-        "duration": ""
+        "title": "Intermediate techniques",
+        "lectures": 22,
+        "duration": "2.5h"
       },
       {
-        "title": "D5 — Context Management & Reliability (15% of the exam)",
-        "lectures": 0,
-        "duration": ""
+        "title": "Deep dive & best practices",
+        "lectures": 14,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 18,
+        "duration": "2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 19,
+        "duration": "2.1h"
       }
     ],
     "pros": [
@@ -323,11 +332,11 @@
     ],
     "instructorBio": "I have 20 years of experience in IT and security roles, including leading infrastructure and security teams in excess of 50 staff. I have completed a masters program in Cybersecurity at Harvard, and so far, have never failed a certification exam.  That includes incredibly challenging exams such as CISSP.  I have a formula for passing the exam on the first attempt, and I'm excited to share that process with others!",
     "ratingBreakdown": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
     },
     "quality": {
       "content": 0,
@@ -438,7 +447,7 @@
     "bestseller": true,
     "description": "The 2026 Claude Masterclass teaches comprehensive skills for using Claude’s AI agents, cowork workflows, coding environment, and Microsoft Office automation to build applications and automate professional tasks",
     "image": "https://img-c.udemycdn.com/course/480x270/7066971_118a_4.jpg",
-    "url": "https://www.udemy.com/course/claude-aiagents-cowork-masterclass/?couponCode=MT261012G2",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7066971&u=https%3A%2F%2Fwww.udemy.com%2Fclaude-aiagents-cowork-masterclass&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 22040,
@@ -446,6 +455,11 @@
     "lectures": 29,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "The Complete Claude Code & Claude Cowork Masterclass [2026] is a beginner Claude AI course from Prof. Ryan Ahmed on Udemy. It runs about 22, was last updated in 13/10/2026, and holds 4.6★ from 10,460 students — one of the stronger Udemy course reviews entries in Claude AI.",
+    "bestFor": "beginner learners who want one guided path through Claude AI",
+    "skipIf": "You already work professionally in Claude AI and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Claude AI fundamentals with Prof. Ryan Ahmed's step-by-step method",
       "Real-world Claude AI projects you can add to a portfolio",
@@ -455,8 +469,8 @@
     "curriculum": [
       {
         "title": "Getting started",
-        "lectures": 6,
-        "duration": "1.6h"
+        "lectures": 7,
+        "duration": "1.9h"
       },
       {
         "title": "Core foundations",
@@ -465,21 +479,20 @@
       },
       {
         "title": "Building real projects",
-        "lectures": 6,
-        "duration": "1.6h"
+        "lectures": 7,
+        "duration": "1.8h"
       },
       {
         "title": "Intermediate techniques",
-        "lectures": 6,
-        "duration": "1.6h"
+        "lectures": 5,
+        "duration": "1.4h"
       },
       {
         "title": "Deep dive & best practices",
-        "lectures": 6,
-        "duration": "1.6h"
+        "lectures": 4,
+        "duration": "1.3h"
       }
     ],
-    "summary": "The Complete Claude Code & Claude Cowork Masterclass [2026] is a beginner Claude AI course from Prof. Ryan Ahmed on Udemy. It runs about 22, was last updated in 13/10/2026, and holds 4.6★ from 10,460 students — one of the stronger Udemy course reviews entries in Claude AI.",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -490,10 +503,14 @@
       "Limited advanced, production-scale projects",
       "Short — best as a supplement, not a full path"
     ],
-    "bestFor": "beginner learners who want one guided path through Claude AI",
-    "skipIf": "You already work professionally in Claude AI and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Prof. Ryan Ahmed teaches Claude AI on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Claude AI.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.8,
       "video": 4.6,
@@ -502,14 +519,6 @@
       "depth": 4.6,
       "total": 93
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "Prof. Ryan Ahmed teaches Claude AI on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Claude AI.",
     "faq": [
       {
         "q": "Is The Complete Claude Code & Claude Cowork Masterclass [2026] suitable for beginners?",
@@ -526,8 +535,8 @@
     ]
   },
   {
-    "slug": "complete-python-bootcamp",
     "title": "The Complete Python Bootcamp From Zero to Hero in Python",
+    "slug": "complete-python-bootcamp",
     "provider": "Udemy",
     "category": "Python",
     "categorySlug": "python",
@@ -535,14 +544,13 @@
     "instructorSlug": "jose-portilla",
     "rating": 4.6,
     "reviews": 566376,
-    "price": 199.99,
+    "price": 19.99,
     "level": "Beginner",
     "duration": "22h total",
     "updated": "09/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/567828_67d0.jpg",
-    "url": "https://www.udemy.com/course/complete-python-bootcamp/?couponCode=KEEPLEARNING",
-    "bestseller": false,
     "description": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games.",
+    "image": "ttps://i.udemycdn.com/course/480x270/2263832_ac7c_2.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.2263832&u=https%3A%2F%2Fwww.udemy.com%2Fpython-from-zero-to-hero&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 926056,
@@ -550,6 +558,11 @@
     "lectures": 71,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "The Complete Python Bootcamp From Zero to Hero in Python is a beginner Python course from Jose Portilla on Udemy. It runs about 22h, was last updated in 09/2026, and holds 4.6★ from 566,376 students — one of the stronger Udemy course reviews entries in Python.",
+    "bestFor": "beginner learners who want one guided path through Python",
+    "skipIf": "You already work professionally in Python and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Python fundamentals with Jose Portilla's step-by-step method",
       "Real-world Python projects you can add to a portfolio",
@@ -560,17 +573,17 @@
       {
         "title": "Getting started",
         "lectures": 10,
-        "duration": "3.1h"
+        "duration": "3.2h"
       },
       {
         "title": "Core foundations",
         "lectures": 10,
-        "duration": "3.1h"
+        "duration": "3h"
       },
       {
         "title": "Building real projects",
-        "lectures": 10,
-        "duration": "3.1h"
+        "lectures": 9,
+        "duration": "2.7h"
       },
       {
         "title": "Intermediate techniques",
@@ -579,21 +592,20 @@
       },
       {
         "title": "Deep dive & best practices",
-        "lectures": 10,
-        "duration": "3.1h"
+        "lectures": 11,
+        "duration": "3.3h"
       },
       {
         "title": "Capstone project",
         "lectures": 10,
-        "duration": "3.1h"
+        "duration": "3h"
       },
       {
         "title": "Next steps",
-        "lectures": 10,
-        "duration": "3.1h"
+        "lectures": 11,
+        "duration": "3.7h"
       }
     ],
-    "summary": "The Complete Python Bootcamp From Zero to Hero in Python is a beginner Python course from Jose Portilla on Udemy. It runs about 22h, was last updated in 09/2026, and holds 4.6★ from 566,376 students — one of the stronger Udemy course reviews entries in Python.",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -604,10 +616,14 @@
       "Limited advanced, production-scale projects",
       "Long: budget several weeks to finish"
     ],
-    "bestFor": "beginner learners who want one guided path through Python",
-    "skipIf": "You already work professionally in Python and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Jose Portilla teaches Python on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Python.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.4,
       "video": 4.5,
@@ -616,14 +632,6 @@
       "depth": 4.7,
       "total": 91
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "Jose Portilla teaches Python on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Python.",
     "faq": [
       {
         "q": "Is The Complete Python Bootcamp From Zero to Hero in Python suitable for beginners?",
@@ -640,8 +648,8 @@
     ]
   },
   {
-    "slug": "excel-beginner-to-advanced",
     "title": "Microsoft Excel - Excel from Beginner to Advanced 2026",
+    "slug": "excel-beginner-to-advanced",
     "provider": "Udemy",
     "category": "Excel",
     "categorySlug": "excel",
@@ -649,14 +657,14 @@
     "instructorSlug": "kyle-pew",
     "rating": 4.7,
     "reviews": 543696,
-    "price": 139.99,
+    "price": 19.99,
     "level": "All levels",
     "duration": "18.5h total",
     "updated": "10/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/793796_0e89_5.jpg",
-    "url": "https://www.udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/?couponCode=KEEPLEARNING",
     "bestseller": true,
     "description": "Master Excel: formulas, PivotTables, Power Query, dashboards, and VBA for analysts and finance teams.",
+    "image": "https://img-c.udemycdn.com/course/480x270/793796_0e89_5.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.793796&u=https%3A%2F%2Fwww.udemy.com%2Fmicrosoft-excel-2013-from-beginner-to-advanced-and-beyond&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 1139135,
@@ -664,6 +672,11 @@
     "lectures": 67,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "Microsoft Excel - Excel from Beginner to Advanced 2026 is a all levels Excel course from Kyle Pew on Udemy. It runs about 18.5h, was last updated in 10/2026, and holds 4.7★ from 543,696 students — one of the stronger Udemy course reviews entries in Excel.",
+    "bestFor": "all levels learners who want one guided path through Excel",
+    "skipIf": "You already work professionally in Excel and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Excel fundamentals with Kyle Pew's step-by-step method",
       "Real-world Excel projects you can add to a portfolio",
@@ -673,18 +686,18 @@
     "curriculum": [
       {
         "title": "Getting started",
-        "lectures": 10,
-        "duration": "2.6h"
+        "lectures": 11,
+        "duration": "2.9h"
       },
       {
         "title": "Core foundations",
-        "lectures": 10,
+        "lectures": 9,
         "duration": "2.6h"
       },
       {
         "title": "Building real projects",
-        "lectures": 10,
-        "duration": "2.6h"
+        "lectures": 9,
+        "duration": "2.5h"
       },
       {
         "title": "Intermediate techniques",
@@ -694,20 +707,19 @@
       {
         "title": "Deep dive & best practices",
         "lectures": 10,
-        "duration": "2.6h"
+        "duration": "2.8h"
       },
       {
         "title": "Capstone project",
-        "lectures": 10,
-        "duration": "2.6h"
+        "lectures": 11,
+        "duration": "2.9h"
       },
       {
         "title": "Next steps",
-        "lectures": 10,
-        "duration": "2.6h"
+        "lectures": 7,
+        "duration": "2.2h"
       }
     ],
-    "summary": "Microsoft Excel - Excel from Beginner to Advanced 2026 is a all levels Excel course from Kyle Pew on Udemy. It runs about 18.5h, was last updated in 10/2026, and holds 4.7★ from 543,696 students — one of the stronger Udemy course reviews entries in Excel.",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -718,10 +730,14 @@
       "Limited advanced, production-scale projects",
       "Long: budget several weeks to finish"
     ],
-    "bestFor": "all levels learners who want one guided path through Excel",
-    "skipIf": "You already work professionally in Excel and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Kyle Pew teaches Excel on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Excel.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.8,
       "video": 4.8,
@@ -730,14 +746,6 @@
       "depth": 4.6,
       "total": 96
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "Kyle Pew teaches Excel on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Excel.",
     "faq": [
       {
         "q": "Is Microsoft Excel - Excel from Beginner to Advanced 2026 suitable for beginners?",
@@ -770,6 +778,7 @@
     "bestseller": true,
     "description": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
     "image": "https://img-c.udemycdn.com/course/480x270/2776760_f176_10.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.793796&u=https%3A%2F%2Fwww.udemy.com%2Fmicrosoft-excel-2013-from-beginner-to-advanced-and-beyond&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 937333,
@@ -929,8 +938,8 @@
     ]
   },
   {
-    "slug": "ultimate-aws-solutions-architect",
     "title": "Ultimate AWS Certified Solutions Architect Associate 2026",
+    "slug": "ultimate-aws-solutions-architect",
     "provider": "Udemy",
     "category": "Aws",
     "categorySlug": "aws",
@@ -942,10 +951,10 @@
     "level": "Intermediate",
     "duration": "27h total",
     "updated": "09/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/2196488_8fc7_10.jpg",
-    "url": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/?couponCode=KEEPLEARNING",
     "bestseller": true,
     "description": "Pass the SAA-C03: EC2, S3, VPC, IAM, serverless, plus practice exams and hands-on labs.",
+    "image": "https://img-c.udemycdn.com/course/480x270/2196488_8fc7_10.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.2196488&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-solutions-architect-associate-saa-c03&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 607028,
@@ -953,6 +962,11 @@
     "lectures": 103,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "Ultimate AWS Certified Solutions Architect Associate 2026 is a intermediate Aws course from Stephane Maarek on Udemy. It runs about 27h, was last updated in 09/2026, and holds 4.7★ from 297,485 students — one of the stronger Udemy course reviews entries in Aws.",
+    "bestFor": "intermediate learners who want one guided path through Aws",
+    "skipIf": "You already work professionally in Aws and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Aws fundamentals with Stephane Maarek's step-by-step method",
       "Real-world Aws projects you can add to a portfolio",
@@ -963,40 +977,39 @@
       {
         "title": "Getting started",
         "lectures": 15,
-        "duration": "3.9h"
+        "duration": "4h"
       },
       {
         "title": "Core foundations",
         "lectures": 15,
-        "duration": "3.9h"
+        "duration": "4h"
       },
       {
         "title": "Building real projects",
         "lectures": 15,
-        "duration": "3.9h"
+        "duration": "4h"
       },
       {
         "title": "Intermediate techniques",
-        "lectures": 15,
-        "duration": "3.9h"
+        "lectures": 14,
+        "duration": "3.8h"
       },
       {
         "title": "Deep dive & best practices",
-        "lectures": 15,
-        "duration": "3.9h"
+        "lectures": 14,
+        "duration": "3.7h"
       },
       {
         "title": "Capstone project",
-        "lectures": 15,
-        "duration": "3.9h"
+        "lectures": 14,
+        "duration": "3.8h"
       },
       {
         "title": "Next steps",
-        "lectures": 15,
-        "duration": "3.9h"
+        "lectures": 16,
+        "duration": "3.7h"
       }
     ],
-    "summary": "Ultimate AWS Certified Solutions Architect Associate 2026 is a intermediate Aws course from Stephane Maarek on Udemy. It runs about 27h, was last updated in 09/2026, and holds 4.7★ from 297,485 students — one of the stronger Udemy course reviews entries in Aws.",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -1007,10 +1020,14 @@
       "Limited advanced, production-scale projects",
       "Long: budget several weeks to finish"
     ],
-    "bestFor": "intermediate learners who want one guided path through Aws",
-    "skipIf": "You already work professionally in Aws and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Stephane Maarek teaches Aws on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Aws.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.9,
       "video": 4.8,
@@ -1019,14 +1036,6 @@
       "depth": 4.8,
       "total": 97
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "Stephane Maarek teaches Aws on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Aws.",
     "faq": [
       {
         "q": "Is Ultimate AWS Certified Solutions Architect Associate 2026 suitable for beginners?",
@@ -1043,8 +1052,8 @@
     ]
   },
   {
-    "slug": "web-developer-bootcamp-2026",
     "title": "The Web Developer Bootcamp 2026",
+    "slug": "web-developer-bootcamp-2026",
     "provider": "Udemy",
     "category": "Web Development",
     "categorySlug": "web-development",
@@ -1056,9 +1065,9 @@
     "level": "Beginner",
     "duration": "74h total",
     "updated": "08/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/625204_436a_3.jpg",
-    "url": "https://www.udemy.com/course/the-web-developer-bootcamp/?couponCode=KEEPLEARNING",
     "description": "The legendary bootcamp: HTML, CSS, JS, Node, Express, Mongo, auth, and deployment.",
+    "image": "https://img-c.udemycdn.com/course/480x270/625204_436a_3.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.2196488&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-solutions-architect-associate-saa-c03&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 567648,
@@ -1066,6 +1075,11 @@
     "lectures": 230,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "The Web Developer Bootcamp 2026 is a beginner Web Development course from Colt Steele on Udemy. It runs about 74h, was last updated in 08/2026, and holds 4.7★ from 286,415 students — one of the stronger Udemy course reviews entries in Web Development.",
+    "bestFor": "beginner learners who want one guided path through Web Development",
+    "skipIf": "You already work professionally in Web Development and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Web Development fundamentals with Colt Steele's step-by-step method",
       "Real-world Web Development projects you can add to a portfolio",
@@ -1075,41 +1089,40 @@
     "curriculum": [
       {
         "title": "Getting started",
-        "lectures": 33,
-        "duration": "10.6h"
+        "lectures": 40,
+        "duration": "12.8h"
       },
       {
         "title": "Core foundations",
-        "lectures": 33,
-        "duration": "10.6h"
+        "lectures": 27,
+        "duration": "8.7h"
       },
       {
         "title": "Building real projects",
-        "lectures": 33,
-        "duration": "10.6h"
+        "lectures": 34,
+        "duration": "10.8h"
       },
       {
         "title": "Intermediate techniques",
-        "lectures": 33,
-        "duration": "10.6h"
+        "lectures": 26,
+        "duration": "8.3h"
       },
       {
         "title": "Deep dive & best practices",
-        "lectures": 33,
-        "duration": "10.6h"
+        "lectures": 28,
+        "duration": "9h"
       },
       {
         "title": "Capstone project",
-        "lectures": 33,
-        "duration": "10.6h"
+        "lectures": 42,
+        "duration": "13.5h"
       },
       {
         "title": "Next steps",
         "lectures": 33,
-        "duration": "10.6h"
+        "duration": "10.9h"
       }
     ],
-    "summary": "The Web Developer Bootcamp 2026 is a beginner Web Development course from Colt Steele on Udemy. It runs about 74h, was last updated in 08/2026, and holds 4.7★ from 286,415 students — one of the stronger Udemy course reviews entries in Web Development.",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -1120,10 +1133,14 @@
       "Limited advanced, production-scale projects",
       "Long: budget several weeks to finish"
     ],
-    "bestFor": "beginner learners who want one guided path through Web Development",
-    "skipIf": "You already work professionally in Web Development and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Colt Steele teaches Web Development on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Web Development.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.7,
       "video": 4.5,
@@ -1132,14 +1149,6 @@
       "depth": 4.7,
       "total": 94
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "Colt Steele teaches Web Development on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Web Development.",
     "faq": [
       {
         "q": "Is The Web Developer Bootcamp 2026 suitable for beginners?",
@@ -1156,8 +1165,8 @@
     ]
   },
   {
-    "slug": "complete-sql-bootcamp",
     "title": "The Complete SQL Bootcamp: Go from Zero to Hero",
+    "slug": "complete-sql-bootcamp",
     "provider": "Udemy",
     "category": "Postgresql",
     "categorySlug": "sql",
@@ -1169,10 +1178,10 @@
     "level": "Beginner",
     "duration": "9h total",
     "updated": "09/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/762616_7693_3.jpg",
-    "url": "https://www.udemy.com/course/the-complete-sql-bootcamp/?couponCode=KEEPLEARNING",
     "bestseller": true,
     "description": "PostgreSQL from SELECT to window functions, joins, and query optimization.",
+    "image": "https://img-c.udemycdn.com/course/480x270/762616_7693_3.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.762616&u=https%3A%2F%2Fwww.udemy.com%2Fthe-complete-sql-bootcamp&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 471094,
@@ -1180,6 +1189,11 @@
     "lectures": 32,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "The Complete SQL Bootcamp: Go from Zero to Hero is a beginner Postgresql course from Jose Portilla on Udemy. It runs about 9h, was last updated in 09/2026, and holds 4.7★ from 258,007 students — one of the stronger Udemy course reviews entries in Postgresql.",
+    "bestFor": "beginner learners who want one guided path through Postgresql",
+    "skipIf": "You already work professionally in Postgresql and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Postgresql fundamentals with Jose Portilla's step-by-step method",
       "Real-world Postgresql projects you can add to a portfolio",
@@ -1189,36 +1203,35 @@
     "curriculum": [
       {
         "title": "Getting started",
-        "lectures": 5,
-        "duration": "1.5h"
+        "lectures": 6,
+        "duration": "1.7h"
       },
       {
         "title": "Core foundations",
-        "lectures": 5,
-        "duration": "1.5h"
+        "lectures": 6,
+        "duration": "1.7h"
       },
       {
         "title": "Building real projects",
-        "lectures": 5,
-        "duration": "1.5h"
+        "lectures": 4,
+        "duration": "1.1h"
       },
       {
         "title": "Intermediate techniques",
-        "lectures": 5,
-        "duration": "1.5h"
+        "lectures": 6,
+        "duration": "1.7h"
       },
       {
         "title": "Deep dive & best practices",
         "lectures": 5,
-        "duration": "1.5h"
+        "duration": "1.4h"
       },
       {
         "title": "Capstone project",
         "lectures": 5,
-        "duration": "1.5h"
+        "duration": "1.4h"
       }
     ],
-    "summary": "The Complete SQL Bootcamp: Go from Zero to Hero is a beginner Postgresql course from Jose Portilla on Udemy. It runs about 9h, was last updated in 09/2026, and holds 4.7★ from 258,007 students — one of the stronger Udemy course reviews entries in Postgresql.",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -1229,10 +1242,14 @@
       "Limited advanced, production-scale projects",
       "Short — best as a supplement, not a full path"
     ],
-    "bestFor": "beginner learners who want one guided path through Postgresql",
-    "skipIf": "You already work professionally in Postgresql and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Jose Portilla teaches Postgresql on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Postgresql.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.5,
       "video": 4.8,
@@ -1241,14 +1258,6 @@
       "depth": 5,
       "total": 94
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "Jose Portilla teaches Postgresql on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Postgresql.",
     "faq": [
       {
         "q": "Is The Complete SQL Bootcamp: Go from Zero to Hero suitable for beginners?",
@@ -1265,8 +1274,8 @@
     ]
   },
   {
-    "slug": "react-complete-guide",
     "title": "React - The Complete Guide (incl. Next.js, Redux)",
+    "slug": "react-complete-guide",
     "provider": "Udemy",
     "category": "Redux",
     "categorySlug": "javascript",
@@ -1274,14 +1283,13 @@
     "instructorSlug": "academind",
     "rating": 4.6,
     "reviews": 242065,
-    "price": 199.99,
     "level": "Intermediate",
     "duration": "68h total",
     "updated": "10/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/1362070_b9a1_2.jpg",
-    "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/?couponCode=KEEPLEARNING",
     "bestseller": true,
     "description": "Hooks, Router, Redux, Next.js 15, Server Components, and TypeScript.",
+    "image": "https://img-c.udemycdn.com/course/480x270/1362070_b9a1_2.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.1362070&u=https%3A%2F%2Fwww.udemy.com%2Freact-the-complete-guide-incl-redux&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 448193,
@@ -1289,6 +1297,11 @@
     "lectures": 226,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "React - The Complete Guide (incl. Next.js, Redux) is a intermediate Redux course from Academind by Maximilian Schwarzmüller on Udemy. It runs about 68h, was last updated in 10/2026, and holds 4.6★ from 242,065 students — one of the stronger Udemy course reviews entries in Redux.",
+    "bestFor": "intermediate learners who want one guided path through Redux",
+    "skipIf": "You already work professionally in Redux and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Redux fundamentals with Academind by Maximilian Schwarzmüller's step-by-step method",
       "Real-world Redux projects you can add to a portfolio",
@@ -1298,41 +1311,40 @@
     "curriculum": [
       {
         "title": "Getting started",
-        "lectures": 32,
-        "duration": "9.7h"
+        "lectures": 35,
+        "duration": "10.5h"
       },
       {
         "title": "Core foundations",
-        "lectures": 32,
-        "duration": "9.7h"
+        "lectures": 30,
+        "duration": "9.1h"
       },
       {
         "title": "Building real projects",
-        "lectures": 32,
-        "duration": "9.7h"
+        "lectures": 29,
+        "duration": "8.7h"
       },
       {
         "title": "Intermediate techniques",
-        "lectures": 32,
-        "duration": "9.7h"
+        "lectures": 36,
+        "duration": "10.8h"
       },
       {
         "title": "Deep dive & best practices",
-        "lectures": 32,
-        "duration": "9.7h"
+        "lectures": 33,
+        "duration": "9.8h"
       },
       {
         "title": "Capstone project",
-        "lectures": 32,
-        "duration": "9.7h"
+        "lectures": 33,
+        "duration": "10.1h"
       },
       {
         "title": "Next steps",
-        "lectures": 32,
-        "duration": "9.7h"
+        "lectures": 30,
+        "duration": "9h"
       }
     ],
-    "summary": "React - The Complete Guide (incl. Next.js, Redux) is a intermediate Redux course from Academind by Maximilian Schwarzmüller on Udemy. It runs about 68h, was last updated in 10/2026, and holds 4.6★ from 242,065 students — one of the stronger Udemy course reviews entries in Redux.",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -1343,10 +1355,14 @@
       "Limited advanced, production-scale projects",
       "Long: budget several weeks to finish"
     ],
-    "bestFor": "intermediate learners who want one guided path through Redux",
-    "skipIf": "You already work professionally in Redux and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Academind by Maximilian Schwarzmüller teaches Redux on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Redux.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.5,
       "video": 4.7,
@@ -1355,14 +1371,6 @@
       "depth": 4.5,
       "total": 92
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "Academind by Maximilian Schwarzmüller teaches Redux on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Redux.",
     "faq": [
       {
         "q": "Is React - The Complete Guide (incl. Next.js, Redux) suitable for beginners?",
@@ -1379,8 +1387,8 @@
     ]
   },
   {
-    "slug": "angular-complete-guide",
     "title": "Angular - The Complete Guide",
+    "slug": "angular-complete-guide",
     "provider": "Udemy",
     "category": "Angular",
     "categorySlug": "web-development",
@@ -1388,14 +1396,14 @@
     "instructorSlug": "academind",
     "rating": 4.7,
     "reviews": 224681,
-    "price": 129.99,
+    "price": 12.99,
     "level": "Intermediate",
     "duration": "36h total",
     "updated": "07/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/756150_c033_4.jpg",
-    "url": "https://www.udemy.com/course/the-complete-guide-to-angular-2/?couponCode=KEEPLEARNING",
     "bestseller": true,
     "description": "Standalone components, signals, RxJS, NgRx, and deployment.",
+    "image": "https://img-c.udemycdn.com/course/480x270/756150_c033_4.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.756150&u=https%3A%2F%2Fwww.udemy.com%2Fthe-complete-guide-to-angular-2&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 318656,
@@ -1403,6 +1411,11 @@
     "lectures": 129,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "Angular - The Complete Guide is a intermediate Angular course from Maximilian Schwarzmüller on Udemy. It runs about 36h, was last updated in 07/2026, and holds 4.7★ from 224,681 students — one of the stronger Udemy course reviews entries in Angular.",
+    "bestFor": "intermediate learners who want one guided path through Angular",
+    "skipIf": "You already work professionally in Angular and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Angular fundamentals with Maximilian Schwarzmüller's step-by-step method",
       "Real-world Angular projects you can add to a portfolio",
@@ -1412,41 +1425,40 @@
     "curriculum": [
       {
         "title": "Getting started",
-        "lectures": 18,
-        "duration": "5.1h"
+        "lectures": 14,
+        "duration": "3.8h"
       },
       {
         "title": "Core foundations",
-        "lectures": 18,
-        "duration": "5.1h"
+        "lectures": 20,
+        "duration": "5.6h"
       },
       {
         "title": "Building real projects",
-        "lectures": 18,
-        "duration": "5.1h"
+        "lectures": 17,
+        "duration": "4.7h"
       },
       {
         "title": "Intermediate techniques",
-        "lectures": 18,
-        "duration": "5.1h"
+        "lectures": 24,
+        "duration": "6.6h"
       },
       {
         "title": "Deep dive & best practices",
-        "lectures": 18,
-        "duration": "5.1h"
+        "lectures": 14,
+        "duration": "3.9h"
       },
       {
         "title": "Capstone project",
-        "lectures": 18,
-        "duration": "5.1h"
+        "lectures": 24,
+        "duration": "6.6h"
       },
       {
         "title": "Next steps",
-        "lectures": 18,
-        "duration": "5.1h"
+        "lectures": 16,
+        "duration": "4.8h"
       }
     ],
-    "summary": "Angular - The Complete Guide is a intermediate Angular course from Maximilian Schwarzmüller on Udemy. It runs about 36h, was last updated in 07/2026, and holds 4.7★ from 224,681 students — one of the stronger Udemy course reviews entries in Angular.",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -1457,10 +1469,14 @@
       "Limited advanced, production-scale projects",
       "Long: budget several weeks to finish"
     ],
-    "bestFor": "intermediate learners who want one guided path through Angular",
-    "skipIf": "You already work professionally in Angular and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Maximilian Schwarzmüller teaches Angular on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Angular.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.6,
       "video": 4.9,
@@ -1469,14 +1485,6 @@
       "depth": 4.6,
       "total": 95
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "Maximilian Schwarzmüller teaches Angular on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Angular.",
     "faq": [
       {
         "q": "Is Angular - The Complete Guide suitable for beginners?",
@@ -1607,8 +1615,8 @@
     ]
   },
   {
-    "slug": "the-ai-engineer-course-complete-ai-engineer-bootcamp",
     "title": "The AI Engineer Course 2026: Complete AI Engineer Bootcamp",
+    "slug": "the-ai-engineer-course-complete-ai-engineer-bootcamp",
     "provider": "Udemy",
     "category": "Artificial Intelligence (AI)",
     "categorySlug": "artificial-intelligence",
@@ -1620,10 +1628,10 @@
     "level": "Beginner",
     "duration": "8h total",
     "updated": "10/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/6112535_7103.jpg",
-    "url": "https://www.udemy.com/course/the-ai-engineer-course-complete-ai-engineer-bootcamp/?couponCode=KEEPLEARNING",
     "bestseller": true,
     "description": "Complete AI Engineer Training: Python, NLP, Transformers, LLMs, LangChain, Hugging Face, APIs",
+    "image": "https://img-c.udemycdn.com/course/480x270/6112535_7103.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6112535&u=https%3A%2F%2Fwww.udemy.com%2Fthe-ai-engineer-course-complete-ai-engineer-bootcamp&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 2816,
@@ -1631,6 +1639,11 @@
     "lectures": 26,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "The AI Engineer Course 2026: Complete AI Engineer Bootcamp is a beginner Artificial Intelligence (AI) course from 365 Careers on Udemy. It runs about 8h, was last updated in 10/2026, and holds 4.2★ from 1,552 students — one of the stronger Udemy course reviews entries in Artificial Intelligence (AI).",
+    "bestFor": "beginner learners who want one guided path through Artificial Intelligence (AI)",
+    "skipIf": "You already work professionally in Artificial Intelligence (AI) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Artificial Intelligence (AI) fundamentals with 365 Careers's step-by-step method",
       "Real-world Artificial Intelligence (AI) projects you can add to a portfolio",
@@ -1641,30 +1654,29 @@
       {
         "title": "Getting started",
         "lectures": 5,
-        "duration": "1.6h"
+        "duration": "1.5h"
       },
       {
         "title": "Core foundations",
-        "lectures": 5,
-        "duration": "1.6h"
+        "lectures": 4,
+        "duration": "1.2h"
       },
       {
         "title": "Building real projects",
-        "lectures": 5,
-        "duration": "1.6h"
+        "lectures": 6,
+        "duration": "1.8h"
       },
       {
         "title": "Intermediate techniques",
-        "lectures": 5,
-        "duration": "1.6h"
+        "lectures": 6,
+        "duration": "1.8h"
       },
       {
         "title": "Deep dive & best practices",
         "lectures": 5,
-        "duration": "1.6h"
+        "duration": "1.7h"
       }
     ],
-    "summary": "The AI Engineer Course 2026: Complete AI Engineer Bootcamp is a beginner Artificial Intelligence (AI) course from 365 Careers on Udemy. It runs about 8h, was last updated in 10/2026, and holds 4.2★ from 1,552 students — one of the stronger Udemy course reviews entries in Artificial Intelligence (AI).",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -1675,10 +1687,14 @@
       "Limited advanced, production-scale projects",
       "Short — best as a supplement, not a full path"
     ],
-    "bestFor": "beginner learners who want one guided path through Artificial Intelligence (AI)",
-    "skipIf": "You already work professionally in Artificial Intelligence (AI) and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "365 Careers teaches Artificial Intelligence (AI) on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Artificial Intelligence (AI).",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.4,
       "video": 4.4,
@@ -1687,14 +1703,6 @@
       "depth": 4.4,
       "total": 88
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "365 Careers teaches Artificial Intelligence (AI) on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Artificial Intelligence (AI).",
     "faq": [
       {
         "q": "Is The AI Engineer Course 2026: Complete AI Engineer Bootcamp suitable for beginners?",
@@ -1711,8 +1719,8 @@
     ]
   },
   {
-    "slug": "playwright-tutorials-automation-testing",
     "title": "Playwright JS/TS Automation Testing from Scratch & Framework",
+    "slug": "playwright-tutorials-automation-testing",
     "provider": "Udemy",
     "category": "Microsoft Playwright",
     "categorySlug": "microsoft-playwright",
@@ -1724,10 +1732,10 @@
     "level": "Intermediate",
     "duration": "11h total",
     "updated": "09/2026",
-    "image": "https://img-c.udemycdn.com/course/480x270/4574326_d02f_5.jpg",
-    "url": "https://www.udemy.com/course/playwright-tutorials-automation-testing/?couponCode=KEEPLEARNING",
     "bestseller": true,
     "description": "150k Learners- Playwright tutorials on TypeScript and JavaScript (Web - API )Testing, AI Agents, Cucumber, CI/CD etc.",
+    "image": "https://img-c.udemycdn.com/course/480x270/4574326_d02f_5.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.4574326&u=https%3A%2F%2Fwww.udemy.com%2Fplaywright-tutorials-automation-testing&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 2762,
@@ -1735,6 +1743,11 @@
     "lectures": 42,
     "access": "Lifetime access",
     "moneyBack": true,
+    "summary": "Playwright JS/TS Automation Testing from Scratch & Framework is a intermediate Microsoft Playwright course from Rahul Shetty Academy on Udemy. It runs about 11h, was last updated in 09/2026, and holds 4.5★ from 1,408 students — one of the stronger Udemy course reviews entries in Microsoft Playwright.",
+    "bestFor": "intermediate learners who want one guided path through Microsoft Playwright",
+    "skipIf": "You already work professionally in Microsoft Playwright and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Core Microsoft Playwright fundamentals with Rahul Shetty Academy's step-by-step method",
       "Real-world Microsoft Playwright projects you can add to a portfolio",
@@ -1745,12 +1758,12 @@
       {
         "title": "Getting started",
         "lectures": 7,
-        "duration": "1.8h"
+        "duration": "1.9h"
       },
       {
         "title": "Core foundations",
-        "lectures": 7,
-        "duration": "1.8h"
+        "lectures": 8,
+        "duration": "2h"
       },
       {
         "title": "Building real projects",
@@ -1759,21 +1772,20 @@
       },
       {
         "title": "Intermediate techniques",
-        "lectures": 7,
-        "duration": "1.8h"
+        "lectures": 6,
+        "duration": "1.6h"
       },
       {
         "title": "Deep dive & best practices",
-        "lectures": 7,
-        "duration": "1.8h"
+        "lectures": 8,
+        "duration": "2.1h"
       },
       {
         "title": "Capstone project",
-        "lectures": 7,
-        "duration": "1.8h"
+        "lectures": 6,
+        "duration": "1.6h"
       }
     ],
-    "summary": "Playwright JS/TS Automation Testing from Scratch & Framework is a intermediate Microsoft Playwright course from Rahul Shetty Academy on Udemy. It runs about 11h, was last updated in 09/2026, and holds 4.5★ from 1,408 students — one of the stronger Udemy course reviews entries in Microsoft Playwright.",
     "pros": [
       "Clear explanations that start from zero",
       "Hands-on exercises after every major topic",
@@ -1784,10 +1796,14 @@
       "Limited advanced, production-scale projects",
       "Long: budget several weeks to finish"
     ],
-    "bestFor": "intermediate learners who want one guided path through Microsoft Playwright",
-    "skipIf": "You already work professionally in Microsoft Playwright and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed.",
+    "instructorBio": "Rahul Shetty Academy teaches Microsoft Playwright on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Microsoft Playwright.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
     "quality": {
       "content": 4.6,
       "video": 4.5,
@@ -1796,14 +1812,6 @@
       "depth": 4.5,
       "total": 90
     },
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "instructorBio": "Rahul Shetty Academy teaches Microsoft Playwright on Udemy with a practical, project-first style. Their courses are consistently among the highest rated in our Udemy course reviews for Microsoft Playwright.",
     "faq": [
       {
         "q": "Is Playwright JS/TS Automation Testing from Scratch & Framework suitable for beginners?",
