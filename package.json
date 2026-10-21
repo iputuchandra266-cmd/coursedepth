@@ -8,9 +8,9 @@
   "scripts": {
     "dev": "astro dev",
     "admin": "astro dev --port 4325",
-    "build": "astro build",
+    "build": "astro build && npm run deploy",
     "preview": "astro preview",
-    "prod": "npm run build && npm run deploy",
+    "prod": "npm run build",
     "deploy": "git add -A && (git diff --cached --quiet || git commit -m \"Deploy CourseDepth\") && git push origin main",
     "dev:stop": "astro dev stop",
     "dev:status": "astro dev status",
