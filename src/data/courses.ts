@@ -48,7 +48,7 @@ export interface Course {
 
 /**
  * Single source of truth, editable through the local admin dashboard
- * (`astro dev` → http://localhost:4321/admin) which writes this JSON file.
+ * (`npm run admin` → http://localhost:4325/admin) which writes this JSON file.
  * Featured/unranked order matters: the homepage slices the first entries.
  */
 export const courses: Course[] = (coursesData as Course[]).map((c) => autofill(c) as Course);
