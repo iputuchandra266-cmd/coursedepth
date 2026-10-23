@@ -15,6 +15,7 @@
     "duration": "9.5 hours",
     "updated": "10/2026",
     "bestseller": true,
+    "description": "Use Excel for HR Analytics, calculate HR metrics, build HR dashboards & ML models for Human Resource & People Analytics",
     "image": "https://i.udemycdn.com/course/480x270/3361270_1ebe_3.jpg",
     "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.3361270&u=https%3A%2F%2Fwww.udemy.com%2Fhr-analytics-using-excel&intsrc=APIG_26324",
     "language": "English",
@@ -22,6 +23,12 @@
     "students": 140602,
     "sections": 19,
     "lectures": 88,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "HR Analytics using MS Excel for Human Resource Management is a all level HR Analytics course from Abhishek Bansal on Udemy. It runs about 9.5 hours, and holds 4.4★ from 192,952 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through HR Analytics",
+    "skipIf": "You already work professionally in HR Analytics and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "You will need a PC with any version of Excel installed in it",
     "learn": [
       "Use MS excel to create and automate the calculation of HR metrics",
@@ -88,7 +95,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -103,13 +115,7 @@
         "q": "Is it worth the price?",
         "a": "At $29.99 with a 4.4★ average from 192,952 students, our Udemy course reviews put it above most HR Analytics alternatives."
       }
-    ],
-    "access": "Lifetime access",
-    "moneyBack": true,
-    "summary": "HR Analytics using MS Excel for Human Resource Management is a all level HR Analytics course from Abhishek Bansal on Udemy. It runs about 9.5 hours, and holds 4.4★ from 192,952 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through HR Analytics",
-    "skipIf": "You already work professionally in HR Analytics and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Cannot read properties of undefined (reading 'replace')",
