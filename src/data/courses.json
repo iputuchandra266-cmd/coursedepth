@@ -1,5 +1,489 @@
 [
   {
+    "title": "HR Analytics using MS Excel for Human Resource Management",
+    "slug": "hr-analytics-using-ms-excel-for-human-resource-management",
+    "provider": "Udemy",
+    "category": "HR Analytics",
+    "categorySlug": "hr-analytics",
+    "instructor": "Abhishek Bansal",
+    "instructorSlug": "abhishek-bansal",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/71442512_120f_2.jpg",
+    "rating": 4.4,
+    "reviews": 192952,
+    "price": 29.99,
+    "level": "all level",
+    "duration": "9.5 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "image": "https://i.udemycdn.com/course/480x270/3361270_1ebe_3.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.3361270&u=https%3A%2F%2Fwww.udemy.com%2Fhr-analytics-using-excel&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 140602,
+    "sections": 19,
+    "lectures": 88,
+    "requirements": "You will need a PC with any version of Excel installed in it",
+    "learn": [
+      "Use MS excel to create and automate the calculation of HR metrics",
+      "Make HR Dashboards and understand all the charts that you can draw in Excel",
+      "Become proficient in Excel data tools like Sorting, Filtering, Data validations and Data importing",
+      "Use pivot tables filtering and sorting options in Excel to summarize and derive information out of the HR data",
+      "Implement predictive ML models such as simple and multiple linear regression to predict outcomes to real world HR problems",
+      "Knowledge of all the essential Excel formulas required for HR Analytics",
+      "Master Excel's most popular lookup functions such as Vlookup, Hlookup, Index and Match"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 13,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 12,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 11,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 12,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 14,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 16,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 10,
+        "duration": "1.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Ex-Airtel, FMS Delhi, IIT Roorkee\n\nI worked as an Acquisition Process owner in a leading telecom company before moving on to teaching technologies like Machine Learning and Artificial Intelligence.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is HR Analytics using MS Excel for Human Resource Management suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $29.99 with a 4.4★ average from 192,952 students, our Udemy course reviews put it above most HR Analytics alternatives."
+      }
+    ],
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "HR Analytics using MS Excel for Human Resource Management is a all level HR Analytics course from Abhishek Bansal on Udemy. It runs about 9.5 hours, and holds 4.4★ from 192,952 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through HR Analytics",
+    "skipIf": "You already work professionally in HR Analytics and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Cannot read properties of undefined (reading 'replace')",
+    "slug": "cannot-read-properties-of-undefined-reading-replace",
+    "provider": "Udemy",
+    "category": "Google Cloud Professional Cloud Network Engineer",
+    "categorySlug": "google-cloud-professional-cloud-network-engineer",
+    "instructor": "Mana Dowlatshahi Yeganeh",
+    "instructorSlug": "mana-dowlatshahi-yeganeh",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/287625775_0c28_3.jpg",
+    "rating": 4.4,
+    "reviews": 4700,
+    "price": 13.99,
+    "level": "all level",
+    "duration": "261.5 hours",
+    "description": "Exam MCQs + A beginner-friendly overview of network and cloud engineering concepts—no setup, labs, or configs required..",
+    "image": "https://i.udemycdn.com/course/480x270/5546712_b3cc.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3939309/39854?prodsku=course.5546712&u=https%3A%2F%2Fwww.udemy.com%2Fisc2-certified-in-cybersecurity-cc-tests1&intsrc=APIG_34565",
+    "language": "English",
+    "certificate": true,
+    "students": 1488,
+    "sections": 70,
+    "lectures": 369,
+    "requirements": "Requirements      This course is designed to be completely beginner-friendly, meaning there are no strict prerequisites or technical background required. You do not need prior experience with networking, cloud platforms, or IT tools, since the content is focused on concepts and big-picture understanding rather than configuration, coding, or labs. However, to get the most value from the course, learners should have a basic comfort with using computers and the internet, such as browsing, managing files, or using productivity tools, as this helps in relating concepts to real-world scenarios. A curiosity about technology, problem-solving, and how digital systems connect will also make the learning experience more engaging. Good communication skills and a willingness to think logically are useful, since networking and cloud concepts often rely on understanding relationships and structures. While not required, having some awareness of everyday technologies—like Wi-Fi, email, or cloud storage services—can help you connect theoretical knowledge with practical examples. Because this is an overview course without labs or hands-on technical exercises, the main requirement is an open mindset and eagerness to learn. Whether you’re a student exploring IT for the first time, a career-changer looking for direction, or a professional from another field who wants to understand networking and cloud basics, you’ll be able to follow along without difficulty.",
+    "learn": [
+      "Network Administration",
+      "Cloud Network Engineer Fundamentals",
+      "Basics & Overview + MCQs",
+      "A beginner-friendly overview of network and cloud engineering concepts—no setup, labs, or configs required..",
+      "Exam Prep Resources & Practice",
+      "Exam Tips, Q&As & MCQs",
+      "Downloadable Exam Practice Material"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 59,
+        "duration": "41.7h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 51,
+        "duration": "36.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 45,
+        "duration": "31.9h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 57,
+        "duration": "40.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 61,
+        "duration": "43.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 46,
+        "duration": "32.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 50,
+        "duration": "35.7h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Cannot read properties of undefined (reading 'replace') suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated recently. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $13.99 with a 4.4★ average from 4,700 students, our Udemy course reviews put it above most Google Cloud Professional Cloud Network Engineer alternatives."
+      }
+    ],
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "Cannot read properties of undefined (reading 'replace') is a all level Google Cloud Professional Cloud Network Engineer course from Mana Dowlatshahi Yeganeh on Udemy. It runs about 261.5 hours, and holds 4.4★ from 4,700 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Google Cloud Professional Cloud Network Engineer",
+    "skipIf": "You already work professionally in Google Cloud Professional Cloud Network Engineer and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "instructorBio": "Mana Dowlatshahi Yeganeh teaches Google Cloud Professional Cloud Network Engineer on Udemy with a practical, project-first style."
+  },
+  {
+    "title": "[NEW] AWS Certified AI Business Strategist AIB-C01 Training",
+    "slug": "new-aws-certified-ai-business-strategist-aib-c01-training",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Vladimir Raykov",
+    "instructorSlug": "vladimir-raykov",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/4409760_ce1d_4.jpg",
+    "rating": 4.8,
+    "reviews": 88,
+    "price": 44.99,
+    "oldPrice": 149,
+    "level": "all level",
+    "duration": "5 hours",
+    "updated": "10/2026",
+    "description": "[Latest Syllabus] Pass The AIB-C01 Exam On Your First Attempt | Full Practice Exam, Section Quizzes And Demos",
+    "image": "https://i.udemycdn.com/course/480x270/7330001_70f8.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7330001&u=https%3A%2F%2Fwww.udemy.com%2Faib-c01-aws-certified-ai-business-strategist&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 1025,
+    "sections": 8,
+    "lectures": 66,
+    "requirements": "No specific prerequisites required to take this course. You do not need coding skills or hands-on AWS experience. This is an independent, self-paced course of video lessons, practice questions, and study resources. You register for the official exam separately, through your AWS Certification Account. Pearson VUE delivers the exam online or at a test center.",
+    "learn": [
+      "Pass the AWS Certified AI Business Strategist (AIB-C01) exam: 8 sections, a full practice exam, section quizzes, and a 43-page study guide.",
+      "Explain AI, machine learning and generative AI in business terms: training and inference, data quality, drift, bias, and why a model gets things wrong.",
+      "Decide when AI fits a problem, and how prompting, retrieval and fine tuning adapt a model to your business, starting with the cheapest option.",
+      "Find and prioritize AI opportunities, choose between build, buy and partner, and define KPIs and baselines before any work starts.",
+      "Build both sides of an AI business case, and estimate and track AI spend with AWS Pricing Calculator and AWS Cost Explorer.",
+      "Govern AI responsibly: responsible AI dimensions, risk classification, accountability, access control, and safeguards like Amazon Bedrock Guardrails.",
+      "Lead an AI transformation with the AWS Cloud Adoption Framework: assess readiness, prepare your data and people, and scale a pilot across the business."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 8,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 10,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 10,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 11,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 9,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 8,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 10,
+        "duration": "0.8h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Hello! I'm Vladimir Raykov, your instructor.\n\nWith over 10 years of experience teaching online, I've helped over 200,000 students earn valuable cloud and AI certifications. As a Udemy Instructor Partner, I specialize in creating comprehensive courses for the latest Google Cloud Platform and AWS certifications.\n\nMy certifications include:\n\nGoogle Cloud Platform:\n\n- Professional Cloud Architect\n\n- Professional Cloud Security Engineer\n\n- Associate Cloud Engineer\n\n- Associate Data Practitioner\n\n- Generative AI Leader\n\n- Digital Leader\n\nAWS:\n\n- Certified Generative AI Developer Professional (Early Adopter)\n\n- Certified AI Practitioner (Early Adopter)\n\nProject Management:\n\n- Project Management Professional (PMP®)\n\n- Multiple Scrum Certificates.\n\nMy background as a Product Manager in software development, combined with these industry-recognized certifications, ensures the knowledge I share is both current and practical. I focus on breaking down complex cloud and AI concepts into clear, actionable steps that help you pass your certification exam on the first attempt.\n\nI believe online learning is a powerful tool for career advancement, and I'm committed to creating courses that are not only comprehensive but also engaging and exam-focused.\n\nWhen I'm not teaching, I enjoy spending time with my two sons, who constantly remind me of the joy in learning and discovery.\n\nI look forward to helping you achieve your certification goals!",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is [NEW] AWS Certified AI Business Strategist AIB-C01 Training suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $44.99 with a 4.8★ average from 88 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ],
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "[NEW] AWS Certified AI Business Strategist AIB-C01 Training is a all level IT Certifications course from Vladimir Raykov on Udemy. It runs about 5 hours, and holds 4.8★ from 88 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "New Manager: The Basics and More of Being a Great Leader",
+    "slug": "new-manager-the-basics-and-more-of-being-a-great-leader",
+    "provider": "Udemy",
+    "category": "Manager Training",
+    "categorySlug": "manager-training",
+    "instructor": "Markus Amanto",
+    "instructorSlug": "markus-amanto",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/7241776_69bb_14.jpg",
+    "rating": 4.6,
+    "reviews": 19660,
+    "price": 18.99,
+    "level": "all level",
+    "duration": "7.5 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Go from a slightly uncertain, confused newbie to a confident, skilled manager who builds and leads effective teams.",
+    "image": "https://i.udemycdn.com/course/480x270/429062_6e2a_7.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.429062&u=https%3A%2F%2Fwww.udemy.com%2Fnew-manager&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 31578,
+    "sections": 20,
+    "lectures": 162,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "New Manager: The Basics and More of Being a Great Leader is a all level Manager Training course from Markus Amanto on Udemy. It runs about 7.5 hours, and holds 4.6★ from 19,660 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Manager Training",
+    "skipIf": "You already work professionally in Manager Training and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "To get the greatest benefit from the course make sure you have notebook or personal journal to accompany you during the course. This is completely optional, but highly recommended. It can be in a digital format or on good old paper. This will allow you to make notes of your lessons learned and experiences you have with applying the course in your everyday work, making sure you get the greatest possible benefit from the course.",
+    "learn": [
+      "A step by step guide to your first 94 days as a manager",
+      "Communicate directly and clearly",
+      "Give and receive constructive feedback",
+      "Recognize different stages in a group's development",
+      "Adjust own behavior related to the development stage of the group",
+      "Understand the need for and use of different leadership styles",
+      "Set clear and effective guidelines for team behavior",
+      "Distinguish between management and leadership",
+      "Understand and manage conflicts",
+      "Clarify expectations and focus efforts of the team",
+      "Acknowledge colleagues in a way that supports healthy work relationships",
+      "Understand how values influence relationships and leadership",
+      "Motivate individuals and teams in a productive way",
+      "Build trust and successful work relationships",
+      "Excel in the management role with its unique demands and expectations",
+      "Planning the operations of your team",
+      "Coaching your coworkers to better performance, well-being and results",
+      "Effective delegation of tasks",
+      "Make great decisions by yourself or with a group",
+      "Manage time effectively",
+      "Work with reflection and learning, individually and in a team"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 27,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 29,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 19,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 20,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 19,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 29,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 19,
+        "duration": "0.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Markus Amanto is a well renowned author, speaker and trainer from Sweden. He has worked with improving leaders, teams and organizations in Asia, Europe and North America for over 30 years. \n\nHis books include \"The Leadership School - Who's Really in the Driver's Seat\" and \"The Basics of Group Dynamics\" (currently available in Swedish only). \n\nHe has held multiple positions as a manager. When he worked as a sales representative he built a sales team of over 400 people spanning the Nordic countries. \n\nHe started his own consulting business in 1998 and has worked as a certified trainer for UGL-trainings for several years. He is also a certified user of SDI® (Strength Deployment Inventory). He is also trained in emotional debriefing, psychosynthesis and has also participated in Anthony Robbins Mastery University. \n\nClients have included The University of Stockholm, Nasdaq, Kongsberg Automotive, Pitney Bowes, Tetra Pak, AstraZeneca, KPMG, ALMI and International Council of Swedish Industry (NIR).\n\nMarkus is fluent in Swedish, English, Finnish and Spanish. He is also able to communicate well in Danish and Norwegian.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
+    },
+    "faq": [
+      {
+        "q": "Core Pillars of New Managemen",
+        "a": "Core Pillars of New Management"
+      },
+      {
+        "q": "• The First 94 Days: Focus heavily on onboarding checklists, listening sessions, and understanding team dynamics rather than making sweeping changes immediately",
+        "a": "• The First 94 Days: Focus heavily on onboarding checklists, listening sessions, and understanding team dynamics rather than making sweeping changes immediately."
+      },
+      {
+        "q": "• Management vs. Leadership: Understand that management deals with processes, organization, and things, while leadership focuses on vision, inspiration, and relationships",
+        "a": "• Management vs. Leadership: Understand that management deals with processes, organization, and things, while leadership focuses on vision, inspiration, and relationships."
+      },
+      {
+        "q": "• Feedback Culture: Master giving and receiving constructive feedback transparently to build trust and accountability",
+        "a": "• Feedback Culture: Master giving and receiving constructive feedback transparently to build trust and accountability."
+      },
+      {
+        "q": "• Active Communication: Adapt your communication style to your team members, practice active listening, and handle small talk to strengthen credibility",
+        "a": "• Active Communication: Adapt your communication style to your team members, practice active listening, and handle small talk to strengthen credibility."
+      },
+      {
+        "q": "• Conflict Management: Recognize the five primary conflict styles and resolve disagreements in an energy-efficient, productive manner",
+        "a": "• Conflict Management: Recognize the five primary conflict styles and resolve disagreements in an energy-efficient, productive manner."
+      },
+      {
+        "q": "• Delegation and Coaching: Shift from doing the work yourself to coaching your team and delegating operational tasks to foster self-learning",
+        "a": "• Delegation and Coaching: Shift from doing the work yourself to coaching your team and delegating operational tasks to foster self-learning."
+      }
+    ]
+  },
+  {
     "title": "AI A-Z [2026]: Agentic AI, Gen AI, Prompt Engineering and RL",
     "slug": "agentic-ai-gen-ai-prompt-engineering-and-rl",
     "provider": "Udemy",
