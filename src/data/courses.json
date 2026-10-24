@@ -1,358 +1,5 @@
 [
   {
-    "title": "[NEW] AWS AI Business Strategist AIB-C01: Practice Exams",
-    "slug": "new-aws-ai-business-strategist-aib-c01-practice-exams",
-    "provider": "Udemy",
-    "category": "IT Certifications",
-    "categorySlug": "it-certifications",
-    "instructor": "Vladimir Raykov",
-    "instructorSlug": "vladimir-raykov",
-    "instructorImage": "https://img-c.udemycdn.com/user/200_H/4409760_ce1d_4.jpg",
-    "rating": 4.7,
-    "reviews": 41065,
-    "price": 24.99,
-    "level": "all level",
-    "updated": "10/2026",
-    "description": "Prepare for the AWS AI Business Strategist AIB-C01 exam: AI strategy, governance and adoption, fully explained",
-    "image": "https://i.udemycdn.com/course/480x270/7325151_3799.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7325151&u=https%3A%2F%2Fwww.udemy.com%2Faib-c01-aws-certified-ai-business-strategist-practice-exams&intsrc=APIG_26324",
-    "language": "English",
-    "certificate": true,
-    "students": 234,
-    "access": "Access",
-    "learn": [
-      "Complete three mock exams, 249 questions, mapped to all four content domains of the official AWS Certified AI Business Strategist exam guide",
-      "Explain AI, machine learning and generative AI to a business audience, and judge when a problem needs AI at all rather than rule-based automation",
-      "Identify high-impact AI use cases across the business, and evaluate build, buy and partner options against budget, timelines, capabilities and compliance",
-      "Measure AI value with KPIs, baselines, ROI frameworks and leading indicators, and control cost across consumption, instance and seat-based pricing",
-      "Apply responsible AI principles to real decisions and balance business goals against fairness, explainability, privacy and transparency",
-      "Establish governance structures with clear accountability, and decide where human oversight belongs and what triggers an escalation",
-      "Assess organizational readiness and maturity across people, process, technology and governance, and name the capability gaps that block a transformation",
-      "Lead the change: align leadership, empower AI champions, address workforce concerns, and scale from pilot to enterprise-wide deployment"
-    ],
-    "curriculum": [
-      {
-        "title": "Getting started",
-        "lectures": 5,
-        "duration": "1.7h"
-      },
-      {
-        "title": "Core foundations",
-        "lectures": 4,
-        "duration": "1.2h"
-      },
-      {
-        "title": "Building real projects",
-        "lectures": 5,
-        "duration": "1.6h"
-      },
-      {
-        "title": "Intermediate techniques",
-        "lectures": 5,
-        "duration": "1.6h"
-      },
-      {
-        "title": "Deep dive & best practices",
-        "lectures": 7,
-        "duration": "1.9h"
-      }
-    ],
-    "pros": [
-      "Clear explanations that start from zero",
-      "Hands-on exercises after every major topic",
-      "Fresh 10/2026 content and lifetime access"
-    ],
-    "cons": [
-      "Pace accelerates in the middle sections",
-      "Limited advanced, production-scale projects",
-      "Short — best as a supplement, not a full path"
-    ],
-    "instructorBio": "Hello! I'm Vladimir Raykov, your instructor.\n\nWith over 10 years of experience teaching online, I've helped over 200,000 students earn valuable cloud and AI certifications. As a Udemy Instructor Partner, I specialize in creating comprehensive courses for the latest Google Cloud Platform and AWS certifications.\n\nMy certifications include:\n\nGoogle Cloud Platform:\n\n- Professional Cloud Architect\n\n- Professional Cloud Security Engineer\n\n- Associate Cloud Engineer\n\n- Associate Data Practitioner\n\n- Generative AI Leader\n\n- Digital Leader\n\nAWS:\n\n- Certified Generative AI Developer Professional (Early Adopter)\n\n- Certified AI Practitioner (Early Adopter)\n\nProject Management:\n\n- Project Management Professional (PMP®)\n\n- Multiple Scrum Certificates.\n\nMy background as a Product Manager in software development, combined with these industry-recognized certifications, ensures the knowledge I share is both current and practical. I focus on breaking down complex cloud and AI concepts into clear, actionable steps that help you pass your certification exam on the first attempt.\n\nI believe online learning is a powerful tool for career advancement, and I'm committed to creating courses that are not only comprehensive but also engaging and exam-focused.\n\nWhen I'm not teaching, I enjoy spending time with my two sons, who constantly remind me of the joy in learning and discovery.\n\nI look forward to helping you achieve your certification goals!",
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "quality": {
-      "content": 0
-    },
-    "faq": [
-      {
-        "q": "Is [NEW] AWS AI Business Strategist AIB-C01: Practice Exams suitable for beginners?",
-        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
-      },
-      {
-        "q": "How often is the course updated?",
-        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
-      },
-      {
-        "q": "Is it worth the price?",
-        "a": "At $24.99 with a 4.7★ average from 41,065 students, our Udemy course reviews put it above most IT Certifications alternatives."
-      }
-    ],
-    "sections": 5,
-    "lectures": 26,
-    "moneyBack": true,
-    "summary": "[NEW] AWS AI Business Strategist AIB-C01: Practice Exams is a all level IT Certifications course from Vladimir Raykov on Udemy. It runs about 8h, and holds 4.7★ from 41,065 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through IT Certifications",
-    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed."
-  },
-  {
-    "title": "50 Productivity, Personal Development & Time Management Tips",
-    "slug": "50-productivity-personal-development-time-management-tips",
-    "provider": "Udemy",
-    "category": "Personal Productivity",
-    "categorySlug": "personal-productivity",
-    "instructor": "Alex Genadinik",
-    "instructorSlug": "alex-genadinik",
-    "instructorImage": "https://img-c.udemycdn.com/user/200_H/4116740_b790_2.jpg",
-    "rating": 4.7,
-    "reviews": 3485,
-    "price": 199,
-    "level": "all level",
-    "duration": "27 hours",
-    "updated": "10/2026",
-    "bestseller": true,
-    "description": "Personal transformation to be a top-1% performer! Personal development, business productivity skills, time management",
-    "image": "https://i.udemycdn.com/course/480x270/924746_eb17_18.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.924746&u=https%3A%2F%2Fwww.udemy.com%2Fproductivity-for-entrepreneurs-and-professionals&intsrc=APIG_26324",
-    "language": "English",
-    "certificate": true,
-    "students": 3485,
-    "sections": 56,
-    "lectures": 448,
-    "moneyBack": true,
-    "summary": "50 Productivity, Personal Development & Time Management Tips is a all level Personal Productivity course from Alex Genadinik on Udemy. It runs about 27 hours, and holds 4.7★ from 3,485 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Personal Productivity",
-    "skipIf": "You already work professionally in Personal Productivity and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "Be excited about trying the productivity strategies in this course Try the productivity tips as you make your way through the course - that's how you will get the benefits and become more productive",
-    "learn": [
-      "#1 BEST and MOST COMPREHENSIVE productivity and personal development course on Udemy",
-      "SIMPLE METHODS --> LIFE-CHANGING RESULTS to turn you into a top-1% performer!",
-      "Work much smarter by using science-based and industry-proven methods that are easy to apply",
-      "Improve focus, time management, motivation, discipline, and prioritization",
-      "The information in this course is either science-based or based on my 20 years of industry experience - not theoretical",
-      "Improve your long-term and short-term motivation",
-      "Select the most effective tasks to work on and get rid of things that don't move you forward",
-      "Eliminate interruptions, improve focus, and get closer to your professional development goals",
-      "Change your work area for an immediate productivity boost",
-      "The benefits of this course will be lasting for the rest of your life!",
-      "Complete personal transformation to become a top-1% performer!",
-      "Use productivity tools, software, and apps to be more productive",
-      "WORLD-CLASS student support: I answer 99% of student questions within 24 hours",
-      "PERSONALIZED HELP from the instructor: Join OFFICE HOURS Zoom call with the instructor and students to ask questions directly",
-      "Improve important professional soft skills for business like your attention to detail",
-      "Goal setting for your professional development goals and personal development goals and personal growth goals",
-      "Learn discipline to avoid self sabotage like self sabotaging behavior and even self sabotaging relationships at work or personal life",
-      "Reverse procrastination and overcome fear of failure and perfectionism"
-    ],
-    "curriculum": [
-      {
-        "title": "Getting started",
-        "lectures": 76,
-        "duration": "4.6h"
-      },
-      {
-        "title": "Core foundations",
-        "lectures": 48,
-        "duration": "2.9h"
-      },
-      {
-        "title": "Building real projects",
-        "lectures": 76,
-        "duration": "4.6h"
-      },
-      {
-        "title": "Intermediate techniques",
-        "lectures": 76,
-        "duration": "4.6h"
-      },
-      {
-        "title": "Deep dive & best practices",
-        "lectures": 49,
-        "duration": "2.9h"
-      },
-      {
-        "title": "Capstone project",
-        "lectures": 62,
-        "duration": "3.8h"
-      },
-      {
-        "title": "Next steps",
-        "lectures": 61,
-        "duration": "3.6h"
-      }
-    ],
-    "pros": [
-      "Clear explanations that start from zero",
-      "Hands-on exercises after every major topic",
-      "Fresh 10/2026 content and lifetime access"
-    ],
-    "cons": [
-      "Pace accelerates in the middle sections",
-      "Limited advanced, production-scale projects",
-      "Long: budget several weeks to finish"
-    ],
-    "instructorBio": "Business, Entrepreneurship, SEO, Marketing, Amazon, YouTube",
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "quality": {
-      "content": 0,
-      "video": 0,
-      "instructor": 0,
-      "pace": 0,
-      "depth": 0,
-      "total": 0
-    },
-    "faq": [
-      {
-        "q": "Is 50 Productivity, Personal Development & Time Management Tips suitable for beginners?",
-        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
-      },
-      {
-        "q": "How often is the course updated?",
-        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
-      },
-      {
-        "q": "Is it worth the price?",
-        "a": "At $199 with a 4.7★ average from 3,485 students, our Udemy course reviews put it above most Personal Productivity alternatives."
-      }
-    ],
-    "access": "Lifetime access"
-  },
-  {
-    "title": "2026 AI Prompt Certification From ChatGPT & Gemini & Beyond",
-    "slug": "2026-ai-prompt-certification-from-chatgpt-gemini-beyond",
-    "provider": "Udemy",
-    "category": "Artificial Intelligence (AI)",
-    "categorySlug": "artificial-intelligence-ai",
-    "instructor": "Ed Rubuliak",
-    "instructorSlug": "ed-rubuliak",
-    "instructorImage": "https://img-c.udemycdn.com/user/200_H/100460404_edd6_3.jpg",
-    "rating": 4.6,
-    "reviews": 1321,
-    "price": 199,
-    "level": "all level",
-    "duration": "108 hours",
-    "updated": "10/2026",
-    "description": "With 1100+ Downloadable Prompts/10 Niches: Transform from fumbling with AI to creating expert-level prompts fast!",
-    "image": "https://i.udemycdn.com/course/480x270/5383520_fc64_3.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.5383520&u=https%3A%2F%2Fwww.udemy.com%2Fthe-chatgpt-prompt-engineering-playbook-maximize-prompting&intsrc=APIG_26324",
-    "language": "English",
-    "certificate": true,
-    "students": 8110,
-    "sections": 31,
-    "lectures": 398,
-    "access": "Access",
-    "requirements": "Your own computer and internet access. You must understand English. (Grade 12 level). You must have a Udemy Student Account.",
-    "learn": [
-      "Students Will Be Able To Define and Understand Role Prompting",
-      "Students Will Learn Successful Combination Prompting",
-      "Students Will Learn and Understand How To Prime the AI With Your Prompts",
-      "Students Will Learn How To Use Chain of Thought Prompting And Achieve Success",
-      "Students Will To Use Zero Shots To Your Success When Prompting An A.I. Platform",
-      "Students Will Learn How To Give the AI Shots When Prompting Your A.I. Platform",
-      "Students Will Learn How To Successfully Use Priming an AI with a Question and Context Format",
-      "Students Will Learn How To Output To Tables With Your Prompts",
-      "Students Will Learn How To Summarize with a Purpose",
-      "Students Will Learn How To Expand A Summary To Prose",
-      "Students Will Learn How To Understand Tokens and Limits with ChatGPT",
-      "Students Will Learn How To Iterate Based on What You Like and Didn't Like",
-      "Students Will Learn Self Consistency Prompting",
-      "Students Will Learn Chain of Th ought Prompting",
-      "Students Will LearnGenerated Knowledge - Multiple Prompts",
-      "Students Will Learn AutoGPT Prompting",
-      "And So Much More ......"
-    ],
-    "curriculum": [
-      {
-        "title": "Getting started",
-        "lectures": 64,
-        "duration": "17.3h"
-      },
-      {
-        "title": "Core foundations",
-        "lectures": 55,
-        "duration": "15.1h"
-      },
-      {
-        "title": "Building real projects",
-        "lectures": 72,
-        "duration": "19.4h"
-      },
-      {
-        "title": "Intermediate techniques",
-        "lectures": 43,
-        "duration": "11.6h"
-      },
-      {
-        "title": "Deep dive & best practices",
-        "lectures": 61,
-        "duration": "16.6h"
-      },
-      {
-        "title": "Capstone project",
-        "lectures": 58,
-        "duration": "15.8h"
-      },
-      {
-        "title": "Next steps",
-        "lectures": 45,
-        "duration": "12.2h"
-      }
-    ],
-    "pros": [
-      "Clear explanations that start from zero",
-      "Hands-on exercises after every major topic",
-      "Fresh 10/2026 content and lifetime access"
-    ],
-    "cons": [
-      "Pace accelerates in the middle sections",
-      "Limited advanced, production-scale projects",
-      "Long: budget several weeks to finish"
-    ],
-    "instructorBio": "Professor Ed Rubuliak,\nAgile Transformation Leader | Academic Innovator | AI Integration Specialist\n\nProfessional Overview\n\nWith over two decades of distinguished experience in Agile methodology and organizational transformation, Professor Ed Rubuliak stands at the forefront of bridging traditional software development practices with cutting-edge Agile frameworks and AI-augmented workflows. Since 2000, he has equipped thousands of professionals across corporate and post-secondary environments with the strategic thinking and practical expertise needed to drive sustainable organizational change.\n\nAcademic Excellence\n\nAs a lead faculty member at one of Canada's premier Institutes of Technology for more than 25 years, Professor Rubuliak has shaped the careers of countless IT professionals seeking to elevate their product development and leadership capabilities. His evening program serves working practitioners who are committed to advancing their expertise while actively contributing to their organizations. His pedagogical approach combines rigorous academic frameworks with real-world application, ensuring students graduate with both theoretical understanding and practical implementation skills.\n\nCore Competencies\n\nProfessor Rubuliak's expertise spans multiple critical domains:\n\nAgile Transformation Strategy: Specializes in organizational culture assessment and tailored implementation roadmaps that respect existing structures while driving meaningful change\n\nMulti-Generational Leadership: Demonstrated ability to engage and inspire diverse audiences spanning Baby Boomers, Generation X, and Millennials through adaptable communication and mentoring approaches\n\nProcess Optimization: Expert evaluation and refinement of software development lifecycles to measurably increase success rates and team effectiveness\n\nAgentic AI Integration: Pioneer in deploying AI technologies to augment human capability, eliminating repetitive tasks and enabling creative innovation across business functions\n\nConsulting Practice\n\nBeyond academia, Professor Rubuliak maintains an active management consulting practice, partnering with organizations to diagnose inefficiencies and implement sustainable Agile transformations. He specializes in developing customized transition strategies for organizations requiring measured, culturally-sensitive approaches to change management. His methodology acknowledges that transformation timelines must align with organizational readiness while maintaining forward momentum.\n\nThought Leadership\n\nProfessor Rubuliak champions a philosophy of \"Agile Thinking\" that transcends specific frameworks or methodologies. His vision centers on restoring excellence and accountability to organizational cultures while embracing technological advancement as an enabler rather than a replacement for human ingenuity. He is particularly focused on the strategic deployment of Agentic AI—both in its development and business application—to liberate professionals from routine work and unleash their creative potential.\n\nTeaching Philosophy & Impact\n\nKnown for his dynamic, interactive teaching style, Professor Rubuliak prioritizes experiential learning over purely theoretical instruction. His students consistently praise his ability to translate complex Agile concepts into actionable strategies backed by extensive field experience. Alumni of his programs currently hold leadership positions across global organizations, crediting his training with providing the foundational understanding necessary to advance their careers and drive organizational success.\n\nProfessional Mission\n\nProfessor Rubuliak remains committed to elevating software development practices and organizational culture through evidence-based Agile principles, innovative AI integration, and transformative education. His work continues to shape the next generation of IT leaders equipped to navigate complexity and drive meaningful business outcomes in an increasingly dynamic technological landscape.",
-    "ratingBreakdown": {
-      "1": 1,
-      "2": 1,
-      "3": 3,
-      "4": 7,
-      "5": 88
-    },
-    "quality": {
-      "content": 0
-    },
-    "faq": [
-      {
-        "q": "Is 2026 AI Prompt Certification From ChatGPT & Gemini & Beyond suitable for beginners?",
-        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
-      },
-      {
-        "q": "How often is the course updated?",
-        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
-      },
-      {
-        "q": "Is it worth the price?",
-        "a": "At $199 with a 4.6★ average from 1,321 students, our Udemy course reviews put it above most Artificial Intelligence (AI) alternatives."
-      }
-    ],
-    "moneyBack": true,
-    "summary": "2026 AI Prompt Certification From ChatGPT & Gemini & Beyond is a all level Artificial Intelligence (AI) course from Ed Rubuliak on Udemy. It runs about 108 hours, and holds 4.6★ from 1,321 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Artificial Intelligence (AI)",
-    "skipIf": "You already work professionally in Artificial Intelligence (AI) and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
-  },
-  {
     "title": "Claude Certified Architect Foundations - 6 Practice Exams",
     "slug": "claude-certified-architect-foundations-6-practice-exams",
     "provider": "Udemy",
@@ -365,13 +12,23 @@
     "reviews": 5171,
     "price": 19.99,
     "level": "all level",
+    "duration": "74h",
     "updated": "10/2026",
     "description": "Master all 5 CCAR-F domains with 360 scenario-based questions, detailed explanations, and links to official docs",
     "image": "https://img-c.udemycdn.com/course/480x270/7108671_934d.jpg?w=640&q=75",
     "url": "https://trk.udemy.com/c/6591367/3939309/39854?prodsku=course.7108671&u=https%3A%2F%2Fwww.udemy.com%2Fanthropic-claude-certified-architect-3-full-practice-exams&intsrc=APIG_34565",
     "language": "English",
+    "certificate": true,
     "students": 45534,
+    "sections": 5,
+    "lectures": 31,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "Claude Certified Architect Foundations - 6 Practice Exams is a all level Claude Certified Architect Foundations (CCAF) course from Frank Kane on Udemy. It runs about 8h, and holds 4.4★ from 5,171 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Claude Certified Architect Foundations (CCAF)",
+    "skipIf": "You already work professionally in Claude Certified Architect Foundations (CCAF) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Choose the right agentic architecture patterns, including coordinator-subagent designs, loop control flow, and escalation strategies",
       "Evaluate MCP tool and resource designs, distinguishing effective patterns from common anti-patterns tested on the exam",
@@ -426,7 +83,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -441,16 +103,7 @@
         "q": "Is it worth the price?",
         "a": "At $19.99 with a 4.4★ average from 5,171 students, our Udemy course reviews put it above most Claude Certified Architect Foundations (CCAF) alternatives."
       }
-    ],
-    "certificate": true,
-    "sections": 5,
-    "lectures": 31,
-    "moneyBack": true,
-    "summary": "Claude Certified Architect Foundations - 6 Practice Exams is a all level Claude Certified Architect Foundations (CCAF) course from Frank Kane on Udemy. It runs about 8h, and holds 4.4★ from 5,171 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Claude Certified Architect Foundations (CCAF)",
-    "skipIf": "You already work professionally in Claude Certified Architect Foundations (CCAF) and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed."
+    ]
   },
   {
     "title": "AWS Certified AI Business Strategist (AIB-C01) Course",
@@ -476,6 +129,11 @@
     "sections": 12,
     "lectures": 63,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "AWS Certified AI Business Strategist (AIB-C01) Course is a all level Artificial Intelligence (AI) course from Wiseman AI on Udemy. It runs about 8 hours, and holds 4.8★ from 15 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Artificial Intelligence (AI)",
+    "skipIf": "You already work professionally in Artificial Intelligence (AI) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "No coding, no hands-on AWS experience, and no prior AWS certification are required — exactly as the exam guide states Basic familiarity with AI concepts and a general awareness of what AI can do in business; about six months working with or alongside AI initiatives is helpful but not mandatory No AWS account is needed. There are no labs; the course teaches what Amazon Bedrock, SageMaker AI, and Amazon Quick are for, not how to configure them",
     "learn": [
       "Classify any use case as rules, classical ML, generative AI, or an AI agent — and defend the choice",
@@ -542,7 +200,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -557,12 +220,7 @@
         "q": "Is it worth the price?",
         "a": "At $19.99 with a 4.8★ average from 15 students, our Udemy course reviews put it above most Artificial Intelligence (AI) alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "AWS Certified AI Business Strategist (AIB-C01) Course is a all level Artificial Intelligence (AI) course from Wiseman AI on Udemy. It runs about 8 hours, and holds 4.8★ from 15 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Artificial Intelligence (AI)",
-    "skipIf": "You already work professionally in Artificial Intelligence (AI) and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Management Skills: Mastering the Art of Effective Management",
@@ -588,6 +246,11 @@
     "sections": 14,
     "lectures": 62,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "Management Skills: Mastering the Art of Effective Management is a all level Management Skills course from Levent Ertunalılar on Udemy. It runs about 5 hours, and holds 4.3★ from 799 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Management Skills",
+    "skipIf": "You already work professionally in Management Skills and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "No prior management experience is required. This course is designed for beginners as well as professionals looking to enhance their skills. A basic understanding of workplace dynamics will be helpful but not necessary. A willingness to learn, reflect, and apply new management techniques in real situations. An open mindset ready to embrace leadership, teamwork, and communication challenges.",
     "learn": [
       "Understand the core principles of effective management - planning, organizing, leading, and controlling.",
@@ -659,7 +322,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -674,12 +342,7 @@
         "q": "Is it worth the price?",
         "a": "At $199 with a 4.3★ average from 799 students, our Udemy course reviews put it above most Management Skills alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "Management Skills: Mastering the Art of Effective Management is a all level Management Skills course from Levent Ertunalılar on Udemy. It runs about 5 hours, and holds 4.3★ from 799 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Management Skills",
-    "skipIf": "You already work professionally in Management Skills and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Claude Certified Architect Foundations: Complete Course",
@@ -705,6 +368,12 @@
     "students": 10829,
     "sections": 11,
     "lectures": 106,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "Claude Certified Architect Foundations: Complete Course is a all level Claude Certified Architect Foundations (CCAF) course from Anton Voroniuk• 1.250.000+ Students on Udemy. It runs about 9 hours on, and holds 4.6★ from 1,046 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Claude Certified Architect Foundations (CCAF)",
+    "skipIf": "You already work professionally in Claude Certified Architect Foundations (CCAF) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "No prior Claude API experience is required. The course starts with the first API request and builds toward production patterns. Basic Python knowledge is recommended. You should be comfortable reading simple functions, dictionaries, lists, and API calls.",
     "learn": [
       "Build Claude-powered applications using the API, system prompts, multi-turn context, tools, and structured outputs.",
@@ -771,7 +440,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -786,13 +460,7 @@
         "q": "Is it worth the price?",
         "a": "At $16 with a 4.6★ average from 1,046 students, our Udemy course reviews put it above most Claude Certified Architect Foundations (CCAF) alternatives."
       }
-    ],
-    "access": "Lifetime access",
-    "moneyBack": true,
-    "summary": "Claude Certified Architect Foundations: Complete Course is a all level Claude Certified Architect Foundations (CCAF) course from Anton Voroniuk• 1.250.000+ Students on Udemy. It runs about 9 hours on, and holds 4.6★ from 1,046 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Claude Certified Architect Foundations (CCAF)",
-    "skipIf": "You already work professionally in Claude Certified Architect Foundations (CCAF) and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "AWS Certified AI Business Strategist Practice Exams AIB-C01",
@@ -807,13 +475,23 @@
     "reviews": 17,
     "price": 19.99,
     "level": "all level",
+    "duration": "74h",
     "updated": "10/2026",
     "description": "Pass the AWS Certified AI Business Strategist (AIB-C01) exam with 6 realistic practice tests and detailed explanations.",
     "image": "https://i.udemycdn.com/course/480x270/7322089_8aa8.jpg",
     "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7322089&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-ai-business-strategist-practice-exams-aib-c01&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
+    "students": 37,
     "sections": 824,
+    "lectures": 31,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "AWS Certified AI Business Strategist Practice Exams AIB-C01 is a all level IT Certifications course from Frank Kane on Udemy. It runs about 8h, and holds 4.7★ from 17 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Assess your readiness for the AWS Certified AI Business Strategist (AIB-C01) exam",
       "Apply AI strategy concepts to realistic business scenarios and decision-making",
@@ -878,7 +556,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -893,16 +576,7 @@
         "q": "Is it worth the price?",
         "a": "At $19.99 with a 4.7★ average from 17 students, our Udemy course reviews put it above most IT Certifications alternatives."
       }
-    ],
-    "students": 37,
-    "lectures": 31,
-    "access": "Lifetime access",
-    "moneyBack": true,
-    "summary": "AWS Certified AI Business Strategist Practice Exams AIB-C01 is a all level IT Certifications course from Frank Kane on Udemy. It runs about 8h, and holds 4.7★ from 17 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through IT Certifications",
-    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed."
+    ]
   },
   {
     "title": "Leadership & Management Skills: 23 Leadership Courses In 1",
@@ -927,6 +601,12 @@
     "students": 33970,
     "sections": 77,
     "lectures": 299,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "Leadership & Management Skills: 23 Leadership Courses In 1 is a all level Leadership course from Expert Academy on Udemy. It runs about 24 hours, and holds 4.5★ from 5,599 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Leadership",
+    "skipIf": "You already work professionally in Leadership and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "No specific requirements.",
     "learn": [
       "Master advanced leadership and management skills to excel in any role, regardless of the industry.",
@@ -1017,7 +697,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -1032,13 +717,7 @@
         "q": "Is it worth the price?",
         "a": "At $19 with a 4.5★ average from 5,599 students, our Udemy course reviews put it above most Leadership alternatives."
       }
-    ],
-    "access": "Lifetime access",
-    "moneyBack": true,
-    "summary": "Leadership & Management Skills: 23 Leadership Courses In 1 is a all level Leadership course from Expert Academy on Udemy. It runs about 24 hours, and holds 4.5★ from 5,599 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Leadership",
-    "skipIf": "You already work professionally in Leadership and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Agriculture Science Mastery: Soil, Plants & Farming",
@@ -1049,8 +728,12 @@
     "instructor": "Medhat Gadallah",
     "instructorSlug": "medhat-gadallah",
     "instructorImage": "https://img-c.udemycdn.com/user/200_H/308675971_a97c_5.jpg",
+    "rating": 4.7,
+    "reviews": 116,
     "price": 19.99,
     "level": "all level",
+    "duration": "74h",
+    "updated": "10/2026",
     "description": "Learn Soil Science, Plant Biology, Crop Production, Irrigation, and Sustainable Farming Practices",
     "image": "https://i.udemycdn.com/course/480x270/7359639_e007.jpg",
     "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7359639&u=https%3A%2F%2Fwww.udemy.com%2Fagriculture-science-mastery-soil-plants-farming&intsrc=APIG_26324",
@@ -1059,6 +742,12 @@
     "students": 15,
     "sections": 2,
     "lectures": 14,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "Agriculture Science Mastery: Soil, Plants & Farming is a all level Science course from Medhat Gadallah on Udemy. It runs about 8h, and holds 4.5★ from 500 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Science",
+    "skipIf": "You already work professionally in Science and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "No previous agriculture background is required. This course is designed for complete beginners who want to understand how agriculture works. Basic interest in plants, food production, nature, or farming is enough to start. Students only need curiosity and willingness to learn scientific concepts step by step.",
     "learn": [
       "No previous agriculture background is required.",
@@ -1070,12 +759,12 @@
       {
         "title": "Getting started",
         "lectures": 7,
-        "duration": "4h"
+        "duration": "37.4h"
       },
       {
         "title": "Core foundations",
         "lectures": 7,
-        "duration": "4h"
+        "duration": "36.6h"
       }
     ],
     "pros": [
@@ -1097,7 +786,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -1112,13 +806,7 @@
         "q": "Is it worth the price?",
         "a": "At $19.99 with a 4.5★ average from 500 students, our Udemy course reviews put it above most Science alternatives."
       }
-    ],
-    "access": "Lifetime access",
-    "moneyBack": true,
-    "summary": "Agriculture Science Mastery: Soil, Plants & Farming is a all level Science course from Medhat Gadallah on Udemy. It runs about 8h, and holds 4.5★ from 500 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Science",
-    "skipIf": "You already work professionally in Science and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "AI FDE: The Forward Deployed Engineer & Agentic AI Architect",
@@ -1144,6 +832,12 @@
     "students": 6130,
     "sections": 3,
     "lectures": 124,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "AI FDE: The Forward Deployed Engineer & Agentic AI Architect is a all level AI Agents & Agentic AI course from Ed Donner on Udemy. It runs about 21.5 hours, and holds 4.9★ from 447 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through AI Agents & Agentic AI",
+    "skipIf": "You already work professionally in AI Agents & Agentic AI and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Some experience with Python and LLMs is ideal but not required",
     "learn": [
       "Identify the skills of an AI Architect and Forward Deployed Engineer (FDE) with the roadmap to get there",
@@ -1195,7 +889,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -1210,13 +909,7 @@
         "q": "Is it worth the price?",
         "a": "At $29.99 with a 4.9★ average from 447 students, our Udemy course reviews put it above most AI Agents & Agentic AI alternatives."
       }
-    ],
-    "access": "Lifetime access",
-    "moneyBack": true,
-    "summary": "AI FDE: The Forward Deployed Engineer & Agentic AI Architect is a all level AI Agents & Agentic AI course from Ed Donner on Udemy. It runs about 21.5 hours, and holds 4.9★ from 447 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through AI Agents & Agentic AI",
-    "skipIf": "You already work professionally in AI Agents & Agentic AI and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "HR Analytics using MS Excel for Human Resource Management",
@@ -1350,6 +1043,7 @@
     "price": 13.99,
     "level": "all level",
     "duration": "261.5 hours",
+    "updated": "10/2026",
     "description": "Exam MCQs + A beginner-friendly overview of network and cloud engineering concepts—no setup, labs, or configs required..",
     "image": "https://i.udemycdn.com/course/480x270/5546712_b3cc.jpg",
     "url": "https://trk.udemy.com/c/6591367/3939309/39854?prodsku=course.5546712&u=https%3A%2F%2Fwww.udemy.com%2Fisc2-certified-in-cybersecurity-cc-tests1&intsrc=APIG_34565",
@@ -1358,6 +1052,12 @@
     "students": 1488,
     "sections": 70,
     "lectures": 369,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "Cannot read properties of undefined (reading 'replace') is a all level Google Cloud Professional Cloud Network Engineer course from Mana Dowlatshahi Yeganeh on Udemy. It runs about 261.5 hours, and holds 4.4★ from 4,700 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Google Cloud Professional Cloud Network Engineer",
+    "skipIf": "You already work professionally in Google Cloud Professional Cloud Network Engineer and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Requirements      This course is designed to be completely beginner-friendly, meaning there are no strict prerequisites or technical background required. You do not need prior experience with networking, cloud platforms, or IT tools, since the content is focused on concepts and big-picture understanding rather than configuration, coding, or labs. However, to get the most value from the course, learners should have a basic comfort with using computers and the internet, such as browsing, managing files, or using productivity tools, as this helps in relating concepts to real-world scenarios. A curiosity about technology, problem-solving, and how digital systems connect will also make the learning experience more engaging. Good communication skills and a willingness to think logically are useful, since networking and cloud concepts often rely on understanding relationships and structures. While not required, having some awareness of everyday technologies—like Wi-Fi, email, or cloud storage services—can help you connect theoretical knowledge with practical examples. Because this is an overview course without labs or hands-on technical exercises, the main requirement is an open mindset and eagerness to learn. Whether you’re a student exploring IT for the first time, a career-changer looking for direction, or a professional from another field who wants to understand networking and cloud basics, you’ll be able to follow along without difficulty.",
     "learn": [
       "Network Administration",
@@ -1415,6 +1115,7 @@
       "Limited advanced, production-scale projects",
       "Long: budget several weeks to finish"
     ],
+    "instructorBio": "Mana Dowlatshahi Yeganeh teaches Google Cloud Professional Cloud Network Engineer on Udemy with a practical, project-first style.",
     "ratingBreakdown": {
       "1": 1,
       "2": 1,
@@ -1423,7 +1124,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -1438,14 +1144,7 @@
         "q": "Is it worth the price?",
         "a": "At $13.99 with a 4.4★ average from 4,700 students, our Udemy course reviews put it above most Google Cloud Professional Cloud Network Engineer alternatives."
       }
-    ],
-    "access": "Lifetime access",
-    "moneyBack": true,
-    "summary": "Cannot read properties of undefined (reading 'replace') is a all level Google Cloud Professional Cloud Network Engineer course from Mana Dowlatshahi Yeganeh on Udemy. It runs about 261.5 hours, and holds 4.4★ from 4,700 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Google Cloud Professional Cloud Network Engineer",
-    "skipIf": "You already work professionally in Google Cloud Professional Cloud Network Engineer and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "instructorBio": "Mana Dowlatshahi Yeganeh teaches Google Cloud Professional Cloud Network Engineer on Udemy with a practical, project-first style."
+    ]
   },
   {
     "title": "[NEW] AWS Certified AI Business Strategist AIB-C01 Training",
