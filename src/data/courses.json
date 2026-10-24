@@ -14,6 +14,7 @@
     "level": "all level",
     "duration": "27 hours",
     "updated": "10/2026",
+    "bestseller": true,
     "description": "Personal transformation to be a top-1% performer! Personal development, business productivity skills, time management",
     "image": "https://i.udemycdn.com/course/480x270/924746_eb17_18.jpg",
     "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.924746&u=https%3A%2F%2Fwww.udemy.com%2Fproductivity-for-entrepreneurs-and-professionals&intsrc=APIG_26324",
@@ -22,7 +23,11 @@
     "students": 3485,
     "sections": 56,
     "lectures": 448,
-    "access": "Access",
+    "moneyBack": true,
+    "summary": "50 Productivity, Personal Development & Time Management Tips is a all level Personal Productivity course from Alex Genadinik on Udemy. It runs about 27 hours, and holds 4.7★ from 3,485 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Personal Productivity",
+    "skipIf": "You already work professionally in Personal Productivity and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Be excited about trying the productivity strategies in this course Try the productivity tips as you make your way through the course - that's how you will get the benefits and become more productive",
     "learn": [
       "#1 BEST and MOST COMPREHENSIVE productivity and personal development course on Udemy",
@@ -100,7 +105,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -116,11 +126,7 @@
         "a": "At $199 with a 4.7★ average from 3,485 students, our Udemy course reviews put it above most Personal Productivity alternatives."
       }
     ],
-    "moneyBack": true,
-    "summary": "50 Productivity, Personal Development & Time Management Tips is a all level Personal Productivity course from Alex Genadinik on Udemy. It runs about 27 hours, and holds 4.7★ from 3,485 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Personal Productivity",
-    "skipIf": "You already work professionally in Personal Productivity and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    "access": "Lifetime access"
   },
   {
     "title": "2026 AI Prompt Certification From ChatGPT & Gemini & Beyond",
