@@ -1,5 +1,225 @@
 [
   {
+    "title": "Patrones de Diseño: Soluciones prácticas y eficientes",
+    "slug": "patrones-de-diseo-soluciones-prcticas-y-eficientes",
+    "provider": "Udemy",
+    "category": "Design Patterns",
+    "categorySlug": "design-patterns",
+    "instructor": "Fernando Herrera",
+    "instructorSlug": "fernando-herrera",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/11767934_4361_2.jpg",
+    "rating": 4.9,
+    "reviews": 330340,
+    "duration": "10 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Descubre cómo aplicar patrones de diseño de software para resolver problemas comunes de programación de forma práctica, eficiente y escalable. En este curso, aprenderás los principios fundamentales del diseño orientado a objetos y cómo utilizar patrones de diseño populares para crear código limpio, reutilizable y fácil de mantener. Ideal para desarrolladores que desean mejorar sus habilidades de programación, optimizar sus proyectos y aplicar las mejores prácticas de desarrollo de software.",
+    "image": "https://i.udemycdn.com/course/480x270/6295879_fa69.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6295879&u=https%3A%2F%2Fwww.udemy.com%2Fpatrones-diseno&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 7407,
+    "sections": 33,
+    "lectures": 114,
+    "access": "Access",
+    "requirements": "Conocimientos básicos de programación y desarrollo de software.    Comprensión fundamental de variables, funciones, clases y objetos.    Se recomienda tener conocimientos de programación orientada a objetos (OOP).    Interés en mejorar la calidad del código y aprender buenas prácticas de diseño de software.",
+    "learn": [
+      "Comprender los fundamentos de los patrones de diseño de software y sus beneficios.",
+      "Aplicar patrones de diseño para resolver problemas comunes de programación.",
+      "Conocer patrones populares como Singleton, Factory, Observer, Strategy y Decorator.",
+      "Mejorar la reutilización, flexibilidad y mantenibilidad del código.",
+      "Implementar soluciones prácticas siguiendo los principios de programación orientada a objetos.",
+      "Desarrollar aplicaciones más eficientes, escalables y fáciles de mantener.",
+      "Aplicar buenas prácticas de desarrollo para escribir código limpio y profesional."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 20,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 15,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 13,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 15,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 18,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 16,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 17,
+        "duration": "1.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Soy un analista programador de sistemas de computo, con poco más de 20 años en el mundo del desarrollo de aplicaciones frontend y backend.\n\nDurante mis últimos años me he dedicado a la enseñanza en línea,  mientras trabajo en una empresa en Canadá.\n\nMe encanta enseñar y programar, son mis dos pasatiempos favoritos que a su vez, es mi trabajo.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Patrones de Diseño: Soluciones prácticas y eficientes suitable for beginners?",
+        "a": "Yes — it is rated \"Beginner\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.9★ average from 330,340 students, our Udemy course reviews put it above most Design Patterns alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Patrones de Diseño: Soluciones prácticas y eficientes is a beginner Design Patterns course from Fernando Herrera on Udemy. It runs about 10 hours, and holds 4.9★ from 330,340 students in our Udemy course reviews.",
+    "bestFor": "beginner learners who want one guided path through Design Patterns",
+    "skipIf": "You already work professionally in Design Patterns and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Fortinet: De principiante a experto",
+    "slug": "fortinet-de-principiante-a-experto",
+    "provider": "Udemy",
+    "category": "FortiGate",
+    "categorySlug": "fortigate",
+    "instructor": "Eduardo Nazareno Anselmi",
+    "instructorSlug": "eduardo-nazareno-anselmi",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/37465748_0153_6.jpg",
+    "rating": 4.6,
+    "reviews": 24823,
+    "price": 9.99,
+    "level": "all level",
+    "duration": "25 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Aprenda en un solo curso como dominar los firewalls Fortigate",
+    "image": "https://i.udemycdn.com/course/480x270/2450016_6454_6.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.2450016&u=https%3A%2F%2Fwww.udemy.com%2Ffortinet&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 25965,
+    "sections": 5,
+    "lectures": 99,
+    "access": "Access",
+    "requirements": "Requirements  No prior experience with Fortinet or network security is required. Beginners are welcome.  Basic knowledge of computer networks, IP addresses, and TCP/IP is helpful but not mandatory.  A computer with internet access to follow the lessons and complete practical exercises.  An interest in cybersecurity, network administration, and firewall configuration.  Willingness to practice network security concepts and explore Fortinet security solutions.  Access to a FortiGate firewall or a suitable virtual lab environment is recommended for hands-on practice.",
+    "learn": [
+      "Understand the fundamentals of Fortinet cybersecurity solutions and network security.",
+      "Learn how firewalls work and explore the core features of FortiGate firewalls.",
+      "Configure basic FortiGate settings, network interfaces, and IP addressing.",
+      "Create and manage firewall policies to control network traffic securely.",
+      "Understand Network Address Translation (NAT) and its role in network communication.",
+      "Configure routing and learn how to manage network connectivity using FortiGate.",
+      "Explore Virtual Private Networks (VPNs), including the fundamentals of IPsec and SSL VPN technologies.",
+      "Understand security profiles, including antivirus, web filtering, application control, and intrusion prevention concepts.",
+      "Learn the basics of user authentication, access management, and secure remote access.",
+      "Monitor network traffic, analyze logs, and troubleshoot common FortiGate connectivity issues.",
+      "Apply fundamental network security best practices to improve firewall protection.",
+      "Develop practical skills to support network security administration and Fortinet firewall management.",
+      "Build a foundation for further learning in Fortinet technologies and relevant Fortinet certification pathways."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 22,
+        "duration": "5.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 23,
+        "duration": "5.8h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 20,
+        "duration": "5.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 18,
+        "duration": "4.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 16,
+        "duration": "4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Soy un apasionado de la tecnología y desde hace 20 años trabajo como administrador de sistemas y en los últimos años me he sumado al team de Cloud Engineer and DevOps, siempre al día con la tecnología y sus tendencias, pero sin descuidar las viejas buenas prácticas que nunca pasaran de moda.\n\nIngeniero en sistemas de información egresado de la Universidad Tecnológica Nacional y certificado en AWS, Terraform, Kubernetes, Red Hat, Microsoft, Fortinet y Mikrotik. Siempre actualizándome y aprendiendo de esta hermosa carrera que no tiene fin y he logrado con esto juntar mi pasión con mi profesión.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Fortinet: De principiante a experto suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $9.99 with a 4.6★ average from 24,823 students, our Udemy course reviews put it above most FortiGate alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Fortinet: De principiante a experto is a all level FortiGate course from Eduardo Nazareno Anselmi on Udemy. It runs about 25 hours, and holds 4.6★ from 24,823 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through FortiGate",
+    "skipIf": "You already work professionally in FortiGate and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "Claude Certified Architect Foundations - 6 Practice Exams",
     "slug": "claude-certified-architect-foundations-6-practice-exams",
     "provider": "Udemy",
