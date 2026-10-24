@@ -1,5 +1,107 @@
 [
   {
+    "title": "[NEW] AWS AI Business Strategist AIB-C01: Practice Exams",
+    "slug": "new-aws-ai-business-strategist-aib-c01-practice-exams",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Vladimir Raykov",
+    "instructorSlug": "vladimir-raykov",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/4409760_ce1d_4.jpg",
+    "rating": 4.7,
+    "reviews": 41065,
+    "price": 24.99,
+    "level": "all level",
+    "updated": "10/2026",
+    "description": "Prepare for the AWS AI Business Strategist AIB-C01 exam: AI strategy, governance and adoption, fully explained",
+    "image": "https://i.udemycdn.com/course/480x270/7325151_3799.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7325151&u=https%3A%2F%2Fwww.udemy.com%2Faib-c01-aws-certified-ai-business-strategist-practice-exams&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 234,
+    "access": "Access",
+    "learn": [
+      "Complete three mock exams, 249 questions, mapped to all four content domains of the official AWS Certified AI Business Strategist exam guide",
+      "Explain AI, machine learning and generative AI to a business audience, and judge when a problem needs AI at all rather than rule-based automation",
+      "Identify high-impact AI use cases across the business, and evaluate build, buy and partner options against budget, timelines, capabilities and compliance",
+      "Measure AI value with KPIs, baselines, ROI frameworks and leading indicators, and control cost across consumption, instance and seat-based pricing",
+      "Apply responsible AI principles to real decisions and balance business goals against fairness, explainability, privacy and transparency",
+      "Establish governance structures with clear accountability, and decide where human oversight belongs and what triggers an escalation",
+      "Assess organizational readiness and maturity across people, process, technology and governance, and name the capability gaps that block a transformation",
+      "Lead the change: align leadership, empower AI champions, address workforce concerns, and scale from pilot to enterprise-wide deployment"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 5,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 4,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 5,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 5,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 7,
+        "duration": "1.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Hello! I'm Vladimir Raykov, your instructor.\n\nWith over 10 years of experience teaching online, I've helped over 200,000 students earn valuable cloud and AI certifications. As a Udemy Instructor Partner, I specialize in creating comprehensive courses for the latest Google Cloud Platform and AWS certifications.\n\nMy certifications include:\n\nGoogle Cloud Platform:\n\n- Professional Cloud Architect\n\n- Professional Cloud Security Engineer\n\n- Associate Cloud Engineer\n\n- Associate Data Practitioner\n\n- Generative AI Leader\n\n- Digital Leader\n\nAWS:\n\n- Certified Generative AI Developer Professional (Early Adopter)\n\n- Certified AI Practitioner (Early Adopter)\n\nProject Management:\n\n- Project Management Professional (PMP®)\n\n- Multiple Scrum Certificates.\n\nMy background as a Product Manager in software development, combined with these industry-recognized certifications, ensures the knowledge I share is both current and practical. I focus on breaking down complex cloud and AI concepts into clear, actionable steps that help you pass your certification exam on the first attempt.\n\nI believe online learning is a powerful tool for career advancement, and I'm committed to creating courses that are not only comprehensive but also engaging and exam-focused.\n\nWhen I'm not teaching, I enjoy spending time with my two sons, who constantly remind me of the joy in learning and discovery.\n\nI look forward to helping you achieve your certification goals!",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is [NEW] AWS AI Business Strategist AIB-C01: Practice Exams suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $24.99 with a 4.7★ average from 41,065 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ],
+    "sections": 5,
+    "lectures": 26,
+    "moneyBack": true,
+    "summary": "[NEW] AWS AI Business Strategist AIB-C01: Practice Exams is a all level IT Certifications course from Vladimir Raykov on Udemy. It runs about 8h, and holds 4.7★ from 41,065 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed."
+  },
+  {
     "title": "50 Productivity, Personal Development & Time Management Tips",
     "slug": "50-productivity-personal-development-time-management-tips",
     "provider": "Udemy",
