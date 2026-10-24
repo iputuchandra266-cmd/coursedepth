@@ -121,7 +121,7 @@
     "instructorImage": "https://img-c.udemycdn.com/user/200_H/37465748_0153_6.jpg",
     "rating": 4.6,
     "reviews": 24823,
-    "price": 9.99,
+    "price": 9,
     "level": "all level",
     "duration": "25 hours",
     "updated": "10/2026",
@@ -131,10 +131,15 @@
     "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.2450016&u=https%3A%2F%2Fwww.udemy.com%2Ffortinet&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
-    "students": 25965,
+    "students": 25964,
     "sections": 5,
     "lectures": 99,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "Fortinet: De principiante a experto is a all level FortiGate course from Eduardo Nazareno Anselmi on Udemy. It runs about 25 hours, and holds 4.6★ from 24,823 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through FortiGate",
+    "skipIf": "You already work professionally in FortiGate and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Requirements  No prior experience with Fortinet or network security is required. Beginners are welcome.  Basic knowledge of computer networks, IP addresses, and TCP/IP is helpful but not mandatory.  A computer with internet access to follow the lessons and complete practical exercises.  An interest in cybersecurity, network administration, and firewall configuration.  Willingness to practice network security concepts and explore Fortinet security solutions.  Access to a FortiGate firewall or a suitable virtual lab environment is recommended for hands-on practice.",
     "learn": [
       "Understand the fundamentals of Fortinet cybersecurity solutions and network security.",
@@ -197,7 +202,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -212,12 +222,7 @@
         "q": "Is it worth the price?",
         "a": "At $9.99 with a 4.6★ average from 24,823 students, our Udemy course reviews put it above most FortiGate alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "Fortinet: De principiante a experto is a all level FortiGate course from Eduardo Nazareno Anselmi on Udemy. It runs about 25 hours, and holds 4.6★ from 24,823 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through FortiGate",
-    "skipIf": "You already work professionally in FortiGate and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Claude Certified Architect Foundations - 6 Practice Exams",
