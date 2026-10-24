@@ -20,7 +20,15 @@
     "language": "English",
     "certificate": true,
     "students": 234,
+    "sections": 5,
+    "lectures": 26,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "[NEW] AWS AI Business Strategist AIB-C01: Practice Exams is a all level IT Certifications course from Vladimir Raykov on Udemy. It runs about 8h, and holds 4.7★ from 41,065 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Complete three mock exams, 249 questions, mapped to all four content domains of the official AWS Certified AI Business Strategist exam guide",
       "Explain AI, machine learning and generative AI to a business audience, and judge when a problem needs AI at all rather than rule-based automation",
@@ -77,7 +85,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -92,15 +105,7 @@
         "q": "Is it worth the price?",
         "a": "At $24.99 with a 4.7★ average from 41,065 students, our Udemy course reviews put it above most IT Certifications alternatives."
       }
-    ],
-    "sections": 5,
-    "lectures": 26,
-    "moneyBack": true,
-    "summary": "[NEW] AWS AI Business Strategist AIB-C01: Practice Exams is a all level IT Certifications course from Vladimir Raykov on Udemy. It runs about 8h, and holds 4.7★ from 41,065 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through IT Certifications",
-    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed."
+    ]
   },
   {
     "title": "50 Productivity, Personal Development & Time Management Tips",
@@ -2265,7 +2270,7 @@
     "duration": "22h total",
     "updated": "09/2026",
     "description": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games.",
-    "image": "ttps://i.udemycdn.com/course/480x270/2263832_ac7c_2.jpg",
+    "image": "https://i.udemycdn.com/course/480x270/2263832_ac7c_2.jpg",
     "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.2263832&u=https%3A%2F%2Fwww.udemy.com%2Fpython-from-zero-to-hero&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
