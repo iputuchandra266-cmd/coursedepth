@@ -1,5 +1,123 @@
 [
   {
+    "title": "Spring Framework In Easy Steps",
+    "slug": "spring-framework-in-easy-steps",
+    "provider": "Udemy",
+    "category": "Spring Framework",
+    "categorySlug": "spring-framework",
+    "instructor": "Bharath Thippireddy",
+    "instructorSlug": "bharath-thippireddy",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/8735380_e11b_5.jpg",
+    "rating": 4.6,
+    "reviews": 10889,
+    "price": 39,
+    "level": "all level",
+    "duration": "12.5 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Create an End to End Java EE Web Application using Spring",
+    "image": "https://i.udemycdn.com/course/480x270/964914_a456_4.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.964914&u=https%3A%2F%2Fwww.udemy.com%2Fspringframeworkineasysteps&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 54924,
+    "sections": 31,
+    "lectures": 292,
+    "access": "Access",
+    "requirements": "Basic knowledge of Java programming is recommended.    Familiarity with object-oriented programming concepts is helpful.    Basic understanding of classes, objects, methods, and interfaces is beneficial.    A computer with a Java Development Kit (JDK) installed.    An IDE such as IntelliJ IDEA, Eclipse, or Spring Tool Suite is recommended.    No previous experience with the Spring Framework is required.    A willingness to learn Java application development through practical examples.",
+    "learn": [
+      "nderstand the fundamentals of the Spring Framework and its role in Java development.",
+      "Learn the core principles of Inversion of Control (IoC) and Dependency Injection (DI).",
+      "Understand Spring Beans and how the Spring container manages application components.",
+      "Configure Spring applications using common configuration techniques.",
+      "Work with Spring components to create modular and maintainable Java applications.",
+      "Explore the benefits of loose coupling and improved code reusability.",
+      "Understand how Spring simplifies application development and component management.",
+      "Apply fundamental Spring concepts to practical Java programming scenarios.",
+      "Learn the basics needed to progress toward Spring Boot and modern Java development.",
+      "Build a solid foundation for developing scalable enterprise Java applications.",
+      "Improve your understanding of software architecture and dependency management in Java.",
+      "Prepare for further learning in Spring MVC, REST APIs, database integration, and backend development."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 51,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 29,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 47,
+        "duration": "2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 52,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 36,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 37,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 40,
+        "duration": "1.8h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Spring Framework In Easy Steps suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $39 with a 4.6★ average from 10,889 students, our Udemy course reviews put it above most Spring Framework alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Spring Framework In Easy Steps is a all level Spring Framework course from Bharath Thippireddy on Udemy. It runs about 12.5 hours, and holds 4.6★ from 10,889 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Spring Framework",
+    "skipIf": "You already work professionally in Spring Framework and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "instructorBio": "Bharath Thippireddy teaches Spring Framework on Udemy with a practical, project-first style."
+  },
+  {
     "title": "Complete Claude AI Masterclass: Beginner to Advanced",
     "slug": "complete-claude-ai-masterclass-beginner-to-advanced",
     "provider": "Udemy",
