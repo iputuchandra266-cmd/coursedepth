@@ -1,5 +1,355 @@
 [
   {
+    "title": "Complete Claude AI Masterclass: Beginner to Advanced",
+    "slug": "complete-claude-ai-masterclass-beginner-to-advanced",
+    "provider": "Udemy",
+    "category": "Office Productivity",
+    "categorySlug": "office-productivity",
+    "instructor": "Skillademia Academy",
+    "instructorSlug": "skillademia-academy",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/136721907_6b14_2.jpg",
+    "rating": 4.8,
+    "reviews": 62,
+    "price": 49,
+    "level": "all level",
+    "duration": "7.5 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Master Claude AI with prompting, Projects, Skills, Connectors, agents, workflows, Claude Design, and practical projects!",
+    "image": "https://i.udemycdn.com/course/480x270/7306101_37f6_4.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7306101&u=https%3A%2F%2Fwww.udemy.com%2Fclaude-ai-beginner-course-prompting-everyday-productivity&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 62,
+    "sections": 13,
+    "lectures": 58,
+    "access": "Access",
+    "requirements": "- No prior experience with Claude AI is required; beginners are welcome. - Basic computer skills and familiarity with web browsers are recommended. - An internet connection is required to access Claude AI and follow the practical exercises. - A Claude account is recommended to practice the techniques demonstrated in the course. - An interest in artificial intelligence, prompt engineering, productivity, and AI-powered workflows will be beneficial. - Basic knowledge of business, content creation, coding, or data analysis is helpful but not mandatory.",
+    "learn": [
+      "Understand Claude AI, its core capabilities, key features, and practical applications.",
+      "Navigate Claude AI and use its tools effectively for everyday tasks and professional projects.",
+      "Master prompt engineering techniques to generate accurate, relevant, and high-quality AI responses.",
+      "Use Claude AI to write articles, create marketing content, brainstorm ideas, and improve communication.",
+      "Leverage Claude AI for research, summarization, document analysis, and information extraction.",
+      "Improve productivity by automating repetitive tasks and streamlining everyday workflows.",
+      "Use Claude AI to assist with coding, debugging, explaining code, and developing software projects.",
+      "Analyze data, organize information, and generate actionable insights with AI assistance.",
+      "Explore advanced Claude AI capabilities for complex problem-solving and multi-step tasks.",
+      "Build practical AI-powered workflows for business, education, content creation, and professional development.",
+      "Apply best practices for responsible AI usage, fact-checking, privacy, and output quality.",
+      "Develop the skills needed to integrate Claude AI into personal and professional workflows."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 7,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 10,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 11,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 7,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 8,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 8,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 7,
+        "duration": "0.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "At Skillademia, we deliver hands-on, practical learning for passionate and driven learners. Our step-by-step courses cover essential creative disciplines and cutting-edge AI skills - taking you from solid foundations to advanced expertise.\n\nWhether you’re starting your journey or aiming to take your skills to the next level, you’ll find learning experiences designed to ignite inspiration and deliver real, measurable progress. Every lesson empowers you to create, innovate, and thrive in today’s fast-paced, tech-driven world.\n\nLearn anytime, anywhere - our courses are available 24/7, and every enrollment comes with a 30-day money-back guarantee for complete peace of mind.\n\nJoin us and master future-ready skills that open doors to new opportunities!",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Complete Claude AI Masterclass: Beginner to Advanced suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $49 with a 4.8★ average from 62 students, our Udemy course reviews put it above most Office Productivity alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Complete Claude AI Masterclass: Beginner to Advanced is a all level Office Productivity course from Skillademia Academy on Udemy. It runs about 7.5 hours, and holds 4.8★ from 62 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Office Productivity",
+    "skipIf": "You already work professionally in Office Productivity and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Laravel 13 + IA Desde Cero: Guía Fullstack Moderna",
+    "slug": "laravel-13-ia-desde-cero-gua-fullstack-moderna",
+    "provider": "Udemy",
+    "category": "Development",
+    "categorySlug": "development",
+    "instructor": "Andrés Cruz Yoris",
+    "instructorSlug": "andrs-cruz-yoris",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/10530220_3c52_2.jpg",
+    "rating": 4,
+    "reviews": 11,
+    "price": 19,
+    "level": "all level",
+    "duration": "43.5 hours",
+    "updated": "10/2026",
+    "description": "Desarrollo web Full Stack Reales con Vue 3, Tailwind CSS, API REST, Gestión de Roles con Spatie y Pruebas con Pest",
+    "image": "https://i.udemycdn.com/course/480x270/7098273_bd4c.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7098273&u=https%3A%2F%2Fwww.udemy.com%2Flaravel-ia-desde-cero-guia-fullstack-moderna&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 123,
+    "sections": 26,
+    "lectures": 357,
+    "access": "Access",
+    "requirements": "No se requieren conocimientos avanzados de programación para comenzar.    Es recomendable tener conocimientos básicos de HTML, CSS y JavaScript.    Contar con una computadora y conexión a internet.    Tener disposición para aprender PHP y el framework Laravel desde cero.    Instalar las herramientas necesarias para el desarrollo web, como PHP, Composer, Laravel y un editor de código.    Tener interés en el desarrollo fullstack, las bases de datos y la integración de herramientas de inteligencia artificial (IA).",
+    "learn": [
+      "Understand the fundamentals of Laravel 13 and modern fullstack web development.",
+      "Learn PHP basics and how to build dynamic web applications with Laravel.",
+      "Create routes, controllers, models, and views using the MVC architecture.",
+      "Design responsive and modern user interfaces with HTML, CSS, and JavaScript.",
+      "Connect applications to databases and perform CRUD operations.",
+      "Implement authentication, authorization, validation, and secure application practices.",
+      "Build RESTful APIs and integrate frontend and backend functionality.",
+      "Explore how to integrate AI-powered features into web applications.",
+      "Use AI tools to improve coding productivity, debugging, and application development workflows.",
+      "Apply modern development practices to build scalable, maintainable, and production-ready web applications.",
+      "Develop practical fullstack projects that combine Laravel, databases, frontend technologies, and AI."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 44,
+        "duration": "5.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 51,
+        "duration": "6.2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 57,
+        "duration": "7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 61,
+        "duration": "7.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 46,
+        "duration": "5.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 56,
+        "duration": "6.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 42,
+        "duration": "5.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Licenciado en Computación por la Universidad Centrar de Venezuela, desarrollo de software por más de 10 años.\n\nMe fascina programar y aprender nuevas tecnologías sobre todo las relacionadas con Internet, crear servicios y aplicaciones que ayuden a los usuarios en su día a día.\n\nSoy autodidacta, y ahora tengo la oportunidad de ofrecer muchos de mis conocimientos para que puedas aprender rápidamente y cómodamente.\n\n\n* Desarrollo de aplicaciones web del lado del frontend y backend: HTML5, CSS 3, JavaScript y Laravel, CodeIgniter, Django, Flask, FastAPI\n\n* Desarrollo de aplicaciones Android con Android Studio y Flutter\n\n* Modelado y esculpido con Blender en Tiempos libres.\n\n* Aprendiz en la creación de juegos con Unity y Unreal\n\n* Dueño y escritor en mi blog",
+    "ratingBreakdown": {
+      "1": 2,
+      "2": 2,
+      "3": 6,
+      "4": 13,
+      "5": 77
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Laravel 13 + IA Desde Cero: Guía Fullstack Moderna suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $19 with a 4★ average from 11 students, our Udemy course reviews put it above most Development alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Laravel 13 + IA Desde Cero: Guía Fullstack Moderna is a all level Development course from Andrés Cruz Yoris on Udemy. It runs about 43.5 hours, and holds 4★ from 11 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Development",
+    "skipIf": "You already work professionally in Development and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Curso Completo de Vibe Coding Avanzado: Crea apps con IA",
+    "slug": "curso-completo-de-vibe-coding-avanzado-crea-apps-con-ia",
+    "provider": "Udemy",
+    "category": "Vibe Coding",
+    "categorySlug": "vibe-coding",
+    "instructor": "Víctor Robles",
+    "instructorSlug": "vctor-robles",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/16661812_b24c.jpg",
+    "rating": 4.7,
+    "reviews": 8,
+    "price": 19,
+    "level": "all level",
+    "duration": "8.5 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Aprende Vibe Coding Profesional con IA, el sistema más efectivo para Crear Apps Completas sin bugs usando Agentes de IA",
+    "image": "https://i.udemycdn.com/course/480x270/6772525_2672_8.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6772525&u=https%3A%2F%2Fwww.udemy.com%2Fmaster-vibe-coding-avanzado-crea-apps-con-ia-sin-errores&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 98,
+    "sections": 12,
+    "lectures": 69,
+    "access": "Access",
+    "requirements": "Tener conocimientos básicos de informática y navegación por Internet.    No se requiere experiencia avanzada en programación, aunque conocer los fundamentos de desarrollo web será una ventaja.    Disponer de un ordenador con conexión a Internet.    Tener interés en la inteligencia artificial (IA), el desarrollo de aplicaciones y la automatización.    Estar dispuesto a experimentar con herramientas de IA y técnicas de Vibe Coding para crear aplicaciones.    Contar con acceso a las herramientas de IA y plataformas de desarrollo utilizadas durante el curso, según corresponda.",
+    "learn": [
+      "Comprender los fundamentos del Vibe Coding y su aplicación en el desarrollo moderno de software con inteligencia artificial.",
+      "Crear aplicaciones funcionales utilizando herramientas de IA sin necesidad de escribir todo el código manualmente.",
+      "Diseñar y mejorar prompts para obtener resultados más precisos y eficientes al desarrollar aplicaciones.",
+      "Utilizar asistentes de programación con IA para generar, revisar, depurar y optimizar código.",
+      "Desarrollar interfaces de usuario modernas, intuitivas y adaptables a diferentes dispositivos.",
+      "Construir aplicaciones web integrando funcionalidades, componentes y lógica de negocio.",
+      "Identificar y solucionar errores generados durante el desarrollo asistido por IA.",
+      "Aplicar buenas prácticas de desarrollo, seguridad y mantenimiento en proyectos creados con IA.",
+      "Optimizar el flujo de trabajo para desarrollar prototipos y convertir ideas en aplicaciones funcionales.",
+      "Aplicar técnicas avanzadas de Vibe Coding para aumentar la productividad y acelerar el desarrollo de productos digitales."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 9,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 9,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 10,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 9,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 12,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 11,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 9,
+        "duration": "1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Soy desarrollador web en una empresa y llevo inmerso en el mundo de la programación y la informática desde los 15 años.\n\nMe encanta programar y todo lo relacionado con Internet y las nuevas tecnologías, crear cosas y enseñar a los demás.\n\nSoy casi completamente autodidacta, por eso voy a ofrecerte muchos de mis conocimientos para que tú puedas aprender más fácilmente y más rápido de lo yo lo hice y hago cada día.\n\nPuedes saber más de mi trabajo en el blog victorroblesweb y en mis perfiles en las diferentes redes sociales ;) .",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Curso Completo de Vibe Coding Avanzado: Crea apps con IA suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $19 with a 4.7★ average from 8 students, our Udemy course reviews put it above most Vibe Coding alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Curso Completo de Vibe Coding Avanzado: Crea apps con IA is a all level Vibe Coding course from Víctor Robles on Udemy. It runs about 8.5 hours, and holds 4.7★ from 8 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Vibe Coding",
+    "skipIf": "You already work professionally in Vibe Coding and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "Patrones de Diseño: Soluciones prácticas y eficientes",
     "slug": "patrones-de-diseo-soluciones-prcticas-y-eficientes",
     "provider": "Udemy",
