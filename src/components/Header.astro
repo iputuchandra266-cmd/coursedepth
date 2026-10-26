@@ -1,8 +1,5 @@
 ---
-import { categories } from "../data/categories";
 import { u } from "../lib/u";
-const popular = ["it-and-software","personal-development","business","web-development","health-and-fitness","it-certifications","finance-and-accounting","python"];
-const popularCats = popular.map(s => categories.find(c=>c.slug===s)!).filter(Boolean);
 ---
 <header class="site-header">
   <div class="container header-main">
@@ -11,7 +8,7 @@ const popularCats = popular.map(s => categories.find(c=>c.slug===s)!).filter(Boo
       <span>Course<em>Depth</em></span>
     </a>
 
-    <button class="btn-cats" id="catsBtn" aria-expanded="false" aria-haspopup="true">▦ Categories ▾</button>
+    <a class="btn-cats" href={u("/programming")} aria-label="Categories">▦ Categories ▾</a>
 
     <form class="searchbar" action={u("/search")} method="get" role="search" autocomplete="off">
       <input type="search" name="q" placeholder="Search courses, instructors, topics..." aria-label="Search courses" />
@@ -28,11 +25,6 @@ const popularCats = popular.map(s => categories.find(c=>c.slug===s)!).filter(Boo
 
 <nav class="subnav" aria-label="Browse">
   <div class="container subnav-inner">
-    <div class="subnav-topics">
-      <span class="subnav-label">🔥 Popular</span>
-      {popularCats.map(c => <a href={u(`/programming/${c.slug}`)}>{c.name}</a>)}
-      <a href={u("/programming")} style="color:var(--navy);font-weight:600">All categories →</a>
-    </div>
     <div class="subnav-links">
       <a href={u("/about-us")}>About</a>
       <a href={u("/contact")}>Contact</a>
