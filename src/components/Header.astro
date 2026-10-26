@@ -1,5 +1,5 @@
 ---
-import { categories, groups } from "../data/categories";
+import { categories } from "../data/categories";
 import { u } from "../lib/u";
 const popular = ["it-and-software","personal-development","business","web-development","health-and-fitness","it-certifications","finance-and-accounting","python"];
 const popularCats = popular.map(s => categories.find(c=>c.slug===s)!).filter(Boolean);
@@ -11,24 +11,7 @@ const popularCats = popular.map(s => categories.find(c=>c.slug===s)!).filter(Boo
       <span>Course<em>Depth</em></span>
     </a>
 
-    <div class="nav-cats" id="navCats">
-      <button class="btn-cats" id="catsBtn" aria-expanded="false" aria-haspopup="true">▦ Categories ▾</button>
-      <div class="mega" id="megaMenu">
-        {groups.map((g) => (
-          <div>
-            <h4>{g}</h4>
-            {categories.filter(c => c.group===g).slice(0,6).map((c) => (
-              <a class="item" href={u(`/programming/${c.slug}`)}><img src={u(`/images/categories/${c.slug}.svg`)} alt="" width="36" height="36" loading="lazy" /> {c.name}</a>
-            ))}
-          </div>
-        ))}
-        <div class="mega-foot">
-          <a href={u("/programming")}>Browse every category</a>
-          <a href={u("/courses")}>All courses A-Z</a>
-          <a href={u("/instructors")}>All instructors A-Z</a>
-        </div>
-      </div>
-    </div>
+    <button class="btn-cats" id="catsBtn" aria-expanded="false" aria-haspopup="true">▦ Categories ▾</button>
 
     <form class="searchbar" action={u("/search")} method="get" role="search" autocomplete="off">
       <input type="search" name="q" placeholder="Search courses, instructors, topics..." aria-label="Search courses" />
@@ -56,21 +39,3 @@ const popularCats = popular.map(s => categories.find(c=>c.slug===s)!).filter(Boo
     </div>
   </div>
 </nav>
-
-<script>
-  const btn = document.getElementById('catsBtn');
-  const nav = document.getElementById('navCats');
-  const mobile = document.getElementById('mobileBtn');
-  btn?.addEventListener('click', (e) => {
-    e.stopPropagation();
-    const open = nav?.classList.toggle('open');
-    btn?.setAttribute('aria-expanded', open ? 'true' : 'false');
-  });
-  document.addEventListener('click', (e) => {
-    if (!(e.target as HTMLElement).closest('#navCats')) {
-      nav?.classList.remove('open');
-      btn?.setAttribute('aria-expanded', 'false');
-    }
-  });
-  mobile?.addEventListener('click', () => nav?.classList.toggle('open'));
-</script>
