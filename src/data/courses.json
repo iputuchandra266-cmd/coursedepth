@@ -1,5 +1,712 @@
 [
   {
+    "title": "AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents",
+    "slug": "ai-engineer-core-track-llm-engineering-rag-qlora-agents",
+    "provider": "Udemy",
+    "category": "Data Science",
+    "categorySlug": "data-science",
+    "instructor": "Ligency ​",
+    "instructorSlug": "ligency",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/150405524_94b0_9.jpg",
+    "rating": 4.6,
+    "reviews": 44145,
+    "price": 19,
+    "level": "all level",
+    "duration": "33.5 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Become an LLM Engineer in 8 weeks: Build and deploy 8 LLM apps, mastering Generative AI, RAG, LoRA and AI Agents.",
+    "image": "https://i.udemycdn.com/course/480x270/6100015_1979_5.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6100015&u=https%3A%2F%2Fwww.udemy.com%2Fllm-engineering-master-ai-and-large-language-models&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 363796,
+    "sections": 8,
+    "lectures": 210,
+    "access": "Access",
+    "requirements": "Familiarity with Python. This course will not cover Python basics and is completed in Python. A PC with an internet connection is required. Either Mac (Linux) or Windows. We recommend that you allocate around $5 for API costs to work with frontier models. However, you can complete the course using open-source models if you prefer.",
+    "learn": [
+      "Familiarity with Python. This course will not cover Python basics and is completed in Python.",
+      "A PC with an internet connection is required. Either Mac (Linux) or Windows.",
+      "We recommend that you allocate around $5 for API costs to work with frontier models. However, you can complete the course using open-source models if you prefer."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 30,
+        "duration": "4.8h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 35,
+        "duration": "5.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 22,
+        "duration": "3.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 26,
+        "duration": "4.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 32,
+        "duration": "5.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 34,
+        "duration": "5.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 31,
+        "duration": "5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Join 4M+ learners who study with Ligency.\n\nWith a 4.6 instructor rating, >1M reviews, and 127 courses in 12 languages, we help engineers, leaders, and teams master the skills that power today’s AI revolution - then ship real results.\n\nWe start where the real world starts: with large language models and the products they power. You’ll learn the foundations of AI and Generative AI (gen AI), then ship production-grade systems - chatbots, copilots, automations, and AI agents. We go deep on LLM engineering: retrieval (RAG), evaluation, observability, safety, and the patterns teams use to run agentic systems at scale.\n\nOur stack is practical and current. You’ll prototype fast with Python, LangChain, and LangGraph; explore models from OpenAI, Gemini, and Claude (including Claude Code); fine-tune and serve with Hugging Face and Ollama; and take it to production on AWS - from Bedrock to event-driven services. Need automation? We wire it together with n8n, clean interfaces, and CI/CD. Along the way you’ll master prompt engineering that holds up under load.\n\nWhere this leads: roles that ship. AI Engineer and LLM Engineer for those who love building; platform and MLOps paths for those drawn to reliability at scale; product and leadership tracks for the people moving Agentic AI from slide decks to business outcomes. The through-line is the same: learn fast, build faster, measure everything, iterate.\n\nStart with our best selling course:\n\nAI Coder: Complete Claude Code & Coding Agents Course - build complete products at speed with AI coding agents like Claude Code, Cursor, Copilot and Codex, no coding background required.\n\nAI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents - a hands-on path from your first prompt to production patterns: 20+ models, RAG, QLoRA fine-tuning, and agents with LangChain/LangGraph.\n\nAI Engineer Agentic Track: The Complete Agent & MCP Course - design, orchestrate, and deploy robust AI agents across OpenAI Agents SDK, CrewAI, LangGraph and MCP.\n\nAI Engineer Production Track: Deploy LLMs & Agents at Scale - scaling patterns for pipelines, monitoring, and enterprise rollout on AWS with Bedrock, Google Cloud Platform, Azure and MLOps.\n\nAI Builder: Create Agents, Voice Agents & Automations in n8n - wire up low-code AI agents, voice agents and business automations in n8n with ElevenLabs, RAG and MCP.\n\nPractical Guide to AI Agents & Agentic AI with Claude Cowork - build six working no-code AI agents on your real tools (Gmail, Slack, Notion, Calendar) with Claude Cowork and MCP.\n\nAI Leader: Generative AI & Agentic AI for Leaders & Founders - a concise playbook for strategy, governance, and ROI with Generative AI and agents.\n\nIf your goal is to level up quickly and ship something real, join us. Learn the concepts, touch the tools, build the thing - then take it to users. That’s the Ligency way.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $19 with a 4.6★ average from 44,145 students, our Udemy course reviews put it above most Data Science alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents is a all level Data Science course from Ligency ​ on Udemy. It runs about 33.5 hours, and holds 4.6★ from 44,145 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Data Science",
+    "skipIf": "You already work professionally in Data Science and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Complete Java & Spring Boot with Spring AI, RAG & AI Agents",
+    "slug": "complete-java-spring-boot-with-spring-ai-rag-ai-agents",
+    "provider": "Udemy",
+    "category": "Spring Boot",
+    "categorySlug": "spring-boot",
+    "instructor": "Hitesh Choudhary",
+    "instructorSlug": "hitesh-choudhary",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/272686492_6b9b.jpg",
+    "rating": 4.7,
+    "reviews": 88,
+    "price": 19,
+    "level": "all level",
+    "duration": "38 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Go from Java basics to Spring Boot microservices, Spring AI, RAG, AI agents and MCP, then deploy with Docker and AWS",
+    "image": "ttps://i.udemycdn.com/course/480x270/7277965_3033.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7277965&u=https%3A%2F%2Fwww.udemy.com%2Fcomplete-java-spring-boot-with-spring-ai-rag-ai-agents&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 630,
+    "sections": 26,
+    "lectures": 166,
+    "access": "Access",
+    "requirements": "A computer (Windows, macOS or Linux) that can run Java, IntelliJ IDEA and Docker No prior Java experience needed. Basic programming familiarity helps, but we start from the fundamentals For the GenAI sections, an OpenAI or Anthropic API key with a small amount of credit For the deployment section, an AWS account (free tier works for learning) and a GitHub account",
+    "learn": [
+      "Write modern Java with OOP, collections, exceptions, lambdas, the Stream API and Optional",
+      "Use Git and GitHub, write SQL with PostgreSQL, and build Java projects with Maven and JDBC",
+      "Build REST APIs with Spring Boot and Spring MVC using DTOs, validation and global exception handling",
+      "Model and query data with Spring Data JPA and Hibernate: relationships, pagination, projections and N+1 fixes",
+      "Secure APIs with Spring Security, JWT access and refresh tokens, Google OAuth2 login and role-based access",
+      "Build microservices with Eureka service discovery, Spring Cloud Gateway, OpenFeign and Resilience4j",
+      "Build GenAI features in Java with the OpenAI SDK and Spring AI: ChatClient, structured output and streaming",
+      "Build RAG apps with embeddings and Qdrant, and add conversation memory and custom Spring AI advisors",
+      "Build safe AI agents with tool calling and human approval, and create and consume MCP servers with Spring AI",
+      "Containerize Spring Boot apps with Docker and Docker Compose, and run a microservice stack locally",
+      "Deploy to AWS Elastic Beanstalk with managed PostgreSQL, Spring profiles, GitHub Actions CI/CD and Flyway"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 25,
+        "duration": "5.8h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 27,
+        "duration": "6.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 20,
+        "duration": "4.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 19,
+        "duration": "4.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 25,
+        "duration": "5.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 23,
+        "duration": "5.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 27,
+        "duration": "6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "My name is Hitesh Choudhary, a retired corporate professional who has seamlessly transitioned into a full-time YouTuber. With a rich history as the founder of LCO (acquired) and a former CTO at iNeuron and Senior Director at PW, I bring a wealth of experience in building software and companies. My journey in the tech world has endowed me with unique insights and expertise, which I am passionate about sharing.\n\nOn YouTube, I manage two thriving channels—one boasting 1 million subscribers and the other with 300,000—demonstrating my ability to connect with and educate a vast audience. My travels to 39 countries have enriched my understanding and provided a global perspective that I incorporate into my content.\n\nMy hallmark is making the toughest topics easy to understand, a skill that has earned me a dedicated following. I am committed to educating and inspiring a diverse audience worldwide, making complex subjects accessible and engaging. Join me on Udemy, where I bring my extensive knowledge, practical experience, and unique teaching style to help you master new skills and advance your career.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Complete Java & Spring Boot with Spring AI, RAG & AI Agents suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $19 with a 4.7★ average from 88 students, our Udemy course reviews put it above most Spring Boot alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Complete Java & Spring Boot with Spring AI, RAG & AI Agents is a all level Spring Boot course from Hitesh Choudhary on Udemy. It runs about 38 hours, and holds 4.7★ from 88 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Spring Boot",
+    "skipIf": "You already work professionally in Spring Boot and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "AB-620 Microsoft AI Agent Builder Associate Exam Prep",
+    "slug": "ab-620-microsoft-ai-agent-builder-associate-exam-prep",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Xpert Academy",
+    "instructorSlug": "xpert-academy",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/156459662_9f26_4.jpg",
+    "rating": 4.5,
+    "reviews": 45,
+    "price": 19,
+    "level": "all level",
+    "duration": "25 hours",
+    "updated": "10/2026",
+    "description": "19 Cheat Sheets + 3 Full-Length Practice Tests for AB-620, Microsoft Copilot Studio, AI Agents, MCP, A2A, RAG &amp; Foundry",
+    "image": "https://img-c.udemycdn.com/course/480x270/7387893_98f9_2.jpg?w=384&q=75",
+    "url": "https://trk.udemy.com/ZV5QLK",
+    "language": "English",
+    "certificate": true,
+    "students": 721,
+    "sections": 5,
+    "lectures": 31,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "AB-620 Microsoft AI Agent Builder Associate Exam Prep is a all level IT Certifications course from Xpert Academy on Udemy. It runs about 8h, and holds 4.5★ from 500 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "learn": [
+      "What you'll learn",
+      "Prepare effectively for the Microsoft AB-620 AI Agent Builder Associate certification exam.",
+      "Plan and configure AI agent solutions using Microsoft Copilot Studio.",
+      "Integrate and extend agents with connectors, REST APIs, MCP, A2A, RAG, Dataverse, and Microsoft Foundry.",
+      "Apply security, governance, authentication, Responsible AI, and enterprise integration best practices.",
+      "Test, evaluate, monitor, and manage AI agents throughout their lifecycle.",
+      "Reinforce your knowledge with 19 exam-focused cheat sheets and 3 full-length practice tests."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 6,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 6,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 7,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 6,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 6,
+        "duration": "1.7h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Xpert Academy — Learn. Practice. Get Certified.\n\nXpert Academy provides practical, career-focused training designed to help professionals build valuable skills and prepare with confidence for recognized industry certifications.\n\nOur expertise covers Agile and Scrum, Project Management, IT Service Management, Cloud Computing, and professional certification preparation, with courses dedicated to certifications.\n\nOur learning approach is built on more than 25 years of professional experience working with complex projects, demanding customers, international organizations, and real-world business environments.\n\nAt Xpert Academy, we believe that certification preparation should go beyond memorizing definitions. Our courses focus on understanding concepts, applying knowledge to realistic situations, and developing the decision-making skills required in professional environments and certification exams.\n\nOur practice-test courses feature realistic questions, scenario-based challenges, detailed explanations, and exam-style simulations designed to help learners identify knowledge gaps and strengthen their readiness.\n\nWe continuously review and update our courses to reflect the latest available exam objectives, frameworks, standards, and industry practices.\n\nWhether your goal is to earn your next certification, advance your career, or strengthen your professional expertise, Xpert Academy is here to help you move confidently to the next level.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
+    },
+    "faq": [
+      {
+        "q": "Is AB-620 Microsoft AI Agent Builder Associate Exam Prep suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $19 with a 4.5★ average from 500 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ]
+  },
+  {
+    "title": "AI Agent Engineering: Build Production-Ready AI Agents",
+    "slug": "ai-agent-engineering-build-production-ready-ai-agents",
+    "provider": "Udemy",
+    "category": "AI Agents & Agentic AI",
+    "categorySlug": "ai-agents-agentic-ai",
+    "instructor": "Pankaj Shukla",
+    "instructorSlug": "pankaj-shukla",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/9293_89f9_2.jpg",
+    "rating": 4.7,
+    "reviews": 1231,
+    "price": 54,
+    "level": "all level",
+    "duration": "37 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Master AI Agents, RAG, MCP, Memory, Planning, Multi-Agent Systems, LangGraph, CrewAI and LangChain in 21 Days",
+    "image": "https://i.udemycdn.com/course/480x270/7325191_69f3_2.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7325191&u=https%3A%2F%2Fwww.udemy.com%2Fai-agent-engineering&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 8991,
+    "sections": 22,
+    "lectures": 292,
+    "access": "Access",
+    "requirements": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7325191&u=https%3A%2F%2Fwww.udemy.com%2Fai-agent-engineering&intsrc=APIG_26324",
+    "learn": [
+      "Build AI agents from scratch using Python and understand the core architecture behind modern AI agents.",
+      "Build AI assistants with conversation memory, tool usage, document processing, and Retrieval-Augmented Generation (RAG).",
+      "Design autonomous AI agents with planning, reasoning, memory, and advanced RAG capabilities.",
+      "Build and integrate AI agents using the Model Context Protocol (MCP) and connect them to external tools and data sources.",
+      "Design and orchestrate multi-agent systems where multiple specialized AI agents work together to solve complex problems.",
+      "Build production-ready AI agents using LangGraph, CrewAI, and LangChain.",
+      "Build a complete AI Research Agent capable of researching information, verifying findings, maintaining research notes, and generating structured reports.",
+      "Deploy AI agent applications and build a complete Research AI Agent Platform as a capstone project."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 49,
+        "duration": "6.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 41,
+        "duration": "5.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 46,
+        "duration": "5.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 46,
+        "duration": "5.9h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 52,
+        "duration": "6.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 29,
+        "duration": "3.7h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 29,
+        "duration": "3.7h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I am Pankaj Shukla, an IIT Delhi Master of Techology in Computer Science and Engineering with more than 25 years of experience in Information Technology, Artificial Intelligence, Data Science, digital learning, emerging technologies, and technology-enabled education.\n\nI spent over two decades with NIELIT under the Ministry of Electronics and Information Technology, Government of India, progressing from Scientist B to Additional Director. I chose to leave government service early to begin a new chapter dedicated to what I genuinely enjoy — teaching, learning, and making technology easier to understand.\n\nMy teaching philosophy can be expressed in four words:\n\n“Don’t Memorize. Understand.”\n\nI believe that a good teacher should make a difficult concept feel simple without compromising its technical depth. My focus is not just on showing learners what to do, but on helping them understand why something works, why it is needed, and how different concepts connect with each other.\n\nMy courses combine clear conceptual explanations with extensive hands-on practice. Learners move progressively from fundamentals to implementation, experimentation, problem-solving, and building complete applications.\n\nMy current areas of teaching include Artificial Intelligence, Generative AI, AI Agents, Agentic AI, RAG, MCP, LangGraph, LangChain, Multi-Agent Systems, Python, Data Science, and other technologies shaping modern AI development.\n\nMy first Udemy course, “AI Agent Engineering: Build Production-Ready AI Agents,” has reached learners across more than 74 countries and has also been included in Udemy Business. The response has strengthened my belief that learners everywhere appreciate explanations that are clear, practical, and free from unnecessary jargon.\n\nTechnology will keep changing. Today’s popular framework may eventually be replaced by something better. That is why I place greater emphasis on concepts, fundamentals, problem-solving, and the ability to learn independently rather than simply memorizing tools or syntax.\n\nAbove everything else, I believe teaching carries a responsibility. Learner value, honesty, quality, and trust should always come before numbers or trends.\n\nMy goal is simple: if a learner finishes one of my courses understanding something that previously seemed difficult, the course has served its purpose.\n\nLet’s learn by understanding.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AI Agent Engineering: Build Production-Ready AI Agents suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $54 with a 4.7★ average from 1,231 students, our Udemy course reviews put it above most AI Agents & Agentic AI alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "AI Agent Engineering: Build Production-Ready AI Agents is a all level AI Agents & Agentic AI course from Pankaj Shukla on Udemy. It runs about 37 hours, and holds 4.7★ from 1,231 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through AI Agents & Agentic AI",
+    "skipIf": "You already work professionally in AI Agents & Agentic AI and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "n8n - AI Agents, AI Automations & AI Voice Agents (No-code!)",
+    "slug": "n8n-ai-agents-ai-automations-ai-voice-agents-no-code",
+    "provider": "Udemy",
+    "category": "IT & Software",
+    "categorySlug": "it-software",
+    "instructor": "Damian Danelczyk AdaptifyAI OU",
+    "instructorSlug": "damian-danelczyk-adaptifyai-ou",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/100635336_1d96_4.jpg",
+    "rating": 4.5,
+    "reviews": 5734,
+    "price": 49,
+    "level": "all level",
+    "duration": "58.5 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "image": "https://i.udemycdn.com/course/480x270/6563609_8f41_2.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6563609&u=https%3A%2F%2Fwww.udemy.com%2Fn8n-course&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 50967,
+    "sections": 22,
+    "lectures": 207,
+    "access": "Access",
+    "requirements": "No prior programming skills, technical experience, or knowledge is required. You’ll learn everything you need from scratch. Just bring your enthusiasm to learn!",
+    "learn": [
+      "Build no-code AI Agents, AI Automations, AI Voice Agents and Teams of AI Agents with n8n & Retell AI",
+      "EXTRA - Get 90+ PREMIUM AI agent templates to fast-track your projects to the next level once you’ve learned the basics",
+      "Use the same 90+ PREMIUM pre-made AI solutions to reuse, customize, build on top of - and SELL as part of your services",
+      "Get a 30-day roadmap to start your AI Automation Agency (PDF) – set up tools, learn the basics, build your portfolio, and launch your first service",
+      "Create business-ready AI automation, AI Agents and AI Voice Agents for real-world use cases",
+      "MCP (Model Context Protocol): How to Set Up and Use It for AI Agents in n8n + Cloud Desktop App",
+      "Learn how to self-host n8n to unlock unlimited workflows, community nodes & full data control – includes EXCLUSIVE STUDENT DISCOUNT",
+      "Explore the core foundations of n8n: nodes, triggers, APIs, webhooks, data handling, workflow testing & more - perfect for beginners",
+      "Build a business-ready Receptionist AI Voice Agent with n8n & Retell AI (adaptable to any industry)",
+      "Learn how to build AI Agents and AI automations to start your own AI Automation Agency (AAA)",
+      "Connect OpenAI, Retell AI, Eleven Labs, WhatsApp, Telegram, Google, and more to n8n",
+      "Understand how large language models (LLMs) work - ChatGPT, Deepseek, Claude, Gemini, Mistral & more",
+      "Build a DeepSeek R1 WhatsApp AI Agent to Plan and Research Anything for You",
+      "Build your first Team of AI agents that collaborate and share memory across tasks and tools.",
+      "Build fully automated voice agents that make and answer calls",
+      "Get your personal assistant AI agent that Makes real Phone Calls and handles tasks for you.",
+      "Build your own smart Gmail manager and classifier from scratch - automate your Gmail with AI Automation",
+      "Get pre-built AI Voice Agents using VAPI, Eleven Labs, and Retell AI - ready to deploy",
+      "Understand the fundamentals of automation, AI automations and AI agents",
+      "Learn how to use n8n to build no-code AI workflows from scratch",
+      "Built Your Own Image Generator App with Lovable & GPT Image 1",
+      "Understand what APIs are and how to integrate them into automations",
+      "Build AI agents that can talk, reply to emails, and perform automated actions",
+      "Automate appointment booking using AI Voice Agents",
+      "Set up Retrieval-Augmented Generation (RAG) agents using vector databases in n8n",
+      "Use Pinecone and Supabase to create dynamic, searchable knowledge bases",
+      "Connect any LLM to n8n, including Deepseek, OpenRouter, Grok, and more",
+      "Make Your AI Agent 3x Better with the \"Think\" Node",
+      "Automate business processes using agentic workflows",
+      "Master the AI agent node in n8n - from basic chat to multi-agent orchestration",
+      "Build AI assistants with long-term memory using Supabase",
+      "Understand the differences between automation, AI automation, AI agents, AI assistants, RAG, and multi-agent systems — and when to use each",
+      "Learn prompt engineering basics to guide your AI agents",
+      "Create a Fully Automated Onboarding System for New Clients",
+      "Set up metadata, chunking, and embedding models in vector databases",
+      "Get: Multichannel RAG Agent with Pinecone, 10+ AI Agent Army, Team of Email AI Agents, Invoice Extractor AI Agent, Lead Generation using Apollo , and More!",
+      ".... so access a growing vault of pre-made solutions."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 32,
+        "duration": "9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 31,
+        "duration": "8.8h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 32,
+        "duration": "9.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 32,
+        "duration": "9h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 22,
+        "duration": "6.2h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 23,
+        "duration": "6.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 35,
+        "duration": "10h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I'm an AI Agents & Automation expert with 15+ years of programming experience, and I've taught 100,000+ students how to build real-world AI solutions.\n\nI run an AI Automation & Agency Software House and work as an AI Trainer, Engineer, and Consultant. Somewhere along the way I fell in love with no-code and low-code tools, and they completely changed how I build. Today I can design, build, and deploy AI agents, automations, and full apps faster than ever, and I teach you to do exactly the same.\n\nMy mission is simple: make advanced AI genuinely accessible. In my courses you'll learn to combine AI with platforms like n8n, Claude Code, Claude Cowork, Retell AI, and more to create solutions that actually work - not just theory, but tools you can use in your business or job right away.\n\nWhether you're a complete beginner or an experienced developer, my goal is to get you building fast and building things that matter.\n\nReady to start? Jump into one of my courses below.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is n8n - AI Agents, AI Automations & AI Voice Agents (No-code!) suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $49 with a 4.5★ average from 5,734 students, our Udemy course reviews put it above most IT & Software alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "n8n - AI Agents, AI Automations & AI Voice Agents (No-code!) is a all level IT & Software course from Damian Danelczyk AdaptifyAI OU on Udemy. It runs about 58.5 hours, and holds 4.5★ from 5,734 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT & Software",
+    "skipIf": "You already work professionally in IT & Software and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "GitHub Copilot Beginner to Pro - AI for Coding & Development",
+    "slug": "github-copilot-beginner-to-pro-ai-for-coding-development",
+    "provider": "Udemy",
+    "category": "GitHub Copilot",
+    "categorySlug": "github-copilot",
+    "instructor": "Tom Phillips",
+    "instructorSlug": "tom-phillips",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/29737006_7125_2.jpg",
+    "rating": 4.5,
+    "reviews": 84875,
+    "price": 19,
+    "level": "all level",
+    "duration": "7 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "GitHub Copilot for Agentic AI Coding. Learn Agentic Engineering with GitHub Copilot to generate code, build apps, + more",
+    "image": "https://i.udemycdn.com/course/480x270/4967038_3521_9.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.4967038&u=https%3A%2F%2Fwww.udemy.com%2Fgithub-copilot&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 259624,
+    "sections": 7,
+    "lectures": 49,
+    "access": "Access",
+    "requirements": "Basic knowledge of programming is helpful but not mandatory.    No advanced coding experience is required; beginners are welcome.    A computer with internet access.    A GitHub account to explore GitHub Copilot features.    Visual Studio Code or another supported code editor.    Willingness to learn AI-powered coding techniques and improve software development skills.    An interest in using artificial intelligence to write, understand, debug, and optimize code.",
+    "learn": [
+      "Understand the fundamentals of GitHub Copilot and AI-powered software development.",
+      "Set up and configure GitHub Copilot in supported development environments.",
+      "Generate code efficiently using AI-powered code suggestions and prompts.",
+      "Write better prompts to improve code generation accuracy and productivity.",
+      "Use GitHub Copilot to write, explain, and refactor code across different programming languages.",
+      "Identify and fix coding errors with AI-assisted debugging techniques.",
+      "Generate unit tests and improve code quality with GitHub Copilot.",
+      "Use AI tools to understand unfamiliar codebases and accelerate development workflows.",
+      "Apply GitHub Copilot to everyday programming tasks and real-world development projects.",
+      "Follow best practices for reviewing AI-generated code, security, and code reliability.",
+      "Improve developer productivity by automating repetitive coding tasks.",
+      "Develop practical skills to integrate AI-assisted coding into professional software development workflows."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 8,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 6,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 5,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 6,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 7,
+        "duration": "1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 8,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 9,
+        "duration": "1.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Tom is a web developer and instructor with nearly two decades of experience building software and teaching modern development skills.\n\nToday, his focus is on agentic engineering, coding with AI, AI-assisted software development, and modern developer workflows. His courses show developers and technical professionals how to use tools like GitHub Copilot and AI coding agents to plan, build, test, debug, and improve software more effectively.\n\nRather than treating AI as a simple autocomplete tool, Tom teaches practical agentic coding workflows that reflect how software development is evolving. From working with AI agents and context to using instructions, skills, tools, automation, testing, and modern full-stack development practices.\n\nHis courses are fast-paced, practical, and project-based, with a strong focus on real-world skills you can apply immediately. Topics include AI coding, GitHub Copilot, agentic engineering, web development, Next.js, TypeScript, React, and modern software engineering.\n\nTom regularly updates his courses to keep pace with the rapidly changing AI development landscape, helping learners spend less time sorting through outdated information and more time learning how to build faster and work more effectively with AI.\n\nWhether you're an experienced developer, learning modern development, or exploring how AI agents and agentic engineering are changing software development, the goal is simple: give you practical, current skills without wasting your time.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is GitHub Copilot Beginner to Pro - AI for Coding & Development suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $19 with a 4.5★ average from 84,875 students, our Udemy course reviews put it above most GitHub Copilot alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "GitHub Copilot Beginner to Pro - AI for Coding & Development is a all level GitHub Copilot course from Tom Phillips on Udemy. It runs about 7 hours, and holds 4.5★ from 84,875 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through GitHub Copilot",
+    "skipIf": "You already work professionally in GitHub Copilot and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "Spring Framework In Easy Steps",
     "slug": "spring-framework-in-easy-steps",
     "provider": "Udemy",
