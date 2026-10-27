@@ -1,5 +1,675 @@
 [
   {
+    "title": "Claude Certified Architect Foundations Practice Exams 2026",
+    "slug": "claude-certified-architect-foundations-practice-exams-2026",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Amandeep Sawhney | HawkEye Data",
+    "instructorSlug": "amandeep-sawhney-hawkeye-data",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/21150568_67dd.jpg",
+    "rating": 4.9,
+    "reviews": 19,
+    "price": 19,
+    "level": "all level",
+    "duration": "8.5 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "360 CCAR-F scenario questions, 6 timed practice exams, detailed explanations and official references to Anthropic docs!",
+    "image": "https://i.udemycdn.com/course/480x270/7321703_44d6_3.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3939309/39854?prodsku=course.7321703&u=https%3A%2F%2Fwww.udemy.com%2Fclaude-certified-architect-ccaf-tests&intsrc=APIG_34565",
+    "language": "English",
+    "certificate": true,
+    "students": 459,
+    "sections": 5,
+    "lectures": 30,
+    "access": "Access",
+    "moneyBack": true,
+    "summary": "Claude Certified Architect Foundations Practice Exams 2026 is a all level IT Certifications course from Amandeep Sawhney | HawkEye Data on Udemy. It runs about 8h, and holds 4.9★ from 19 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "learn": [
+      "Evaluate agentic architecture patterns, including loops, workflows, subagents, escalation, and stop conditions",
+      "Design reliable tool and MCP integrations using schemas, permissions, resources, prompts, and structured error handling",
+      "Configure Claude Code workflows involving [CLAUDE md], hooks, skills, slash commands, plan mode, CI, and review isolation",
+      "Apply prompt engineering patterns such as few-shot examples, rubrics, prompt chaining, validation, and structured outputs",
+      "Diagnose context-management failures involving compaction, long-context risk, provenance, handoffs, and lost-in-the-middle behavior",
+      "Distinguish plausible but weak answers from the strongest production-ready architecture",
+      "Identify weak areas before sitting for the Claude Certified Architect - Foundations exam"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 4,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 6,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 5,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 7,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 8,
+        "duration": "1.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Amandeep is a data scientist with a keen desire to share his knowledge with others. He is famous amongst his students for making complex topics simple to understand. Having cleared many certifications, he has made it his goal to help all others trying to clear them. Apart from teaching and learning new skills, he loves to play chess and travel.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
+    },
+    "faq": [
+      {
+        "q": "Is Claude Certified Architect Foundations Practice Exams 2026 suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $19 with a 4.9★ average from 19 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ]
+  },
+  {
+    "title": "Forward Deployed AI Engineer",
+    "slug": "forward-deployed-ai-engineer",
+    "provider": "Udemy",
+    "category": "Forward Deployed AI Engineer",
+    "categorySlug": "forward-deployed-ai-engineer",
+    "instructor": "Amit Prabhu",
+    "instructorSlug": "amit-prabhu",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/54797960_8c4f.jpg",
+    "rating": 4.4,
+    "reviews": 52,
+    "price": 49,
+    "level": "all level",
+    "duration": "24 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Start Your Journey: Core Concepts to Deploy AI in Enterprise Environments",
+    "image": "https://i.udemycdn.com/course/480x270/7271911_9967_8.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7271911&u=https%3A%2F%2Fwww.udemy.com%2Fforward-deployment-ai-engineer&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 1767,
+    "sections": 17,
+    "lectures": 135,
+    "access": "Access",
+    "requirements": "Fundamental difference between Generative AI, Agentic AI, Machine Learning, and Deep Learning. Prompt Engineering in detail. How bias and hallucinations are introduced in the AI systems and step to detect, measure, and mitigate them. Key technical concepts and core capabilities of Traditional AI, Generative AI, and Agentic AI. LLM Model selection, Fine-tuning techniques and Retrieval-Augmented Generation (RAG). Data and AI Fundamentals and Data Annotation. Reference-based and Reference-free Inference Evaluation methods Natural Language Processing (NLP) Architectures such as RNN, LSTM, Encoder-only Transformers, Encoder-Decoder Transformers, Decoder-only Transformers. Agentic AI Architectures such as ReAct++, LLM-based Cognitive, Neuro-Symbolic, Swarm Agent, Embodied, and Reflexion. AI-enabled Security and LLM Adversarial attacks",
+    "learn": [
+      "Fundamental difference between Generative AI, Agentic AI, Machine Learning, and Deep Learning.",
+      "Prompt Engineering in detail.",
+      "How bias and hallucinations are introduced in the AI systems and step to detect, measure, and mitigate them.",
+      "Key technical concepts and core capabilities of Traditional AI, Generative AI, and Agentic AI.",
+      "LLM Model selection, Fine-tuning techniques and Retrieval-Augmented Generation (RAG).",
+      "Data and AI Fundamentals and Data Annotation.",
+      "Reference-based and Reference-free Inference Evaluation methods",
+      "Natural Language Processing (NLP) Architectures such as RNN, LSTM, Encoder-only Transformers, Encoder-Decoder Transformers, Decoder-only Transformers.",
+      "Agentic AI Architectures such as ReAct++, LLM-based Cognitive, Neuro-Symbolic, Swarm Agent, Embodied, and Reflexion.",
+      "AI-enabled Security and LLM Adversarial attacks"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 17,
+        "duration": "3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 19,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 19,
+        "duration": "3.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 19,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 20,
+        "duration": "3.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 17,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 24,
+        "duration": "4.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Amit Prabhu has over a decade of experience in global business management, strategy, and consulting. He holds a master’s degree in telecommunications and networking from the University of Pennsylvania. He is an author of business non-fiction: Digital Strategy Framework. He is also a business trainer, speaker, faculty, entrepreneur, and a swimming coach. Explorer and Teacher are the two words that describe him vividly. He lives in Stockholm, Sweden, with his wife and a son.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Forward Deployed AI Engineer suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $49 with a 4.4★ average from 52 students, our Udemy course reviews put it above most Forward Deployed AI Engineer alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Forward Deployed AI Engineer is a all level Forward Deployed AI Engineer course from Amit Prabhu on Udemy. It runs about 24 hours, and holds 4.4★ from 52 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Forward Deployed AI Engineer",
+    "skipIf": "You already work professionally in Forward Deployed AI Engineer and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Practice Exams: AWS Certified AI Business Strategist AIB-C01",
+    "slug": "practice-exams-aws-certified-ai-business-strategist-aib-c01",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Abhishek Singh",
+    "instructorSlug": "abhishek-singh",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/94372896_f90c_3.jpg",
+    "rating": 4.6,
+    "reviews": 103,
+    "price": 34,
+    "level": "all level",
+    "duration": "7 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Pass the AWS Certified AI Business Strategist (AIB-C01) exam. 340 unique high-quality test questions.",
+    "image": "https://i.udemycdn.com/course/480x270/7331909_58bf.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7331909&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-ai-business-strategist-practice-exams&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 3000,
+    "sections": 5,
+    "lectures": 22,
+    "access": "Access",
+    "moneyBack": true,
+    "summary": "Practice Exams: AWS Certified AI Business Strategist AIB-C01 is a all level IT Certifications course from Abhishek Singh on Udemy. It runs about 7 hours, and holds 4.6★ from 103 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "learn": [
+      "Apply AI, machine learning, and generative AI concepts to realistic business scenarios aligned with the AWS Certified AI Business Strategist (AIB-C01) exam",
+      "Evaluate AI opportunities, prioritize use cases, and measure business value through costs, benefits, risks, and success metrics",
+      "Make informed decisions about responsible AI, governance, privacy, security, transparency, and human oversight",
+      "Plan organizational readiness, workforce development, and change management to support successful AI adoption and transformation",
+      "Strengthen exam readiness with four practice tests containing 340 scenario-based questions and detailed explanations for every answer option",
+      "Analyze competing priorities, and select the best response using business requirements and AI strategy principles"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 4,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 3,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 5,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 4,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 6,
+        "duration": "1.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Abhishek is a Cloud veteran and has built successful SaaS and consumer solutions using Cloud services since 2012. Over the course of his professional career, Abhishek has interviewed and mentored hundreds of candidates for entry-level and lateral positions for Cloud based IT solutions development. Abhishek is passionate about sharing his knowledge on AWS and Azure Cloud, Machine Learning and Big Data. He wants to help his fellow IT Professionals level-up their skills to ace the AWS and Azure Certifications and above all, get ready for the real world Cloud ecosystem.\n\nHe has passed 16 AWS and Azure Certifications, such as, AWS Certified Solutions Architect Professional, AWS Certified DevOps Engineer Professional, AWS Certified Machine Learning Specialist, AWS Certified Big Data Specialist and AWS Certified Database Specialist, Azure AI Fundamentals.\n\nOverall, Abhishek has 19 years of experience working on a diverse range of Enterprise Technologies based on AI/ML, Big Data and Analytics. He runs a successful AI/ML and Big Data Consultancy advocating solutions on Cloud and has advised multiple clients in the US to architect and implement their AI/ML and Big Data solutions using Cloud services.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
+    },
+    "faq": [
+      {
+        "q": "Is Practice Exams: AWS Certified AI Business Strategist AIB-C01 suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $34 with a 4.6★ average from 103 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ]
+  },
+  {
+    "title": "Growing Microgreens for Business and Pleasure",
+    "slug": "growing-microgreens-for-business-and-pleasure",
+    "provider": "Udemy",
+    "category": "Business",
+    "categorySlug": "business",
+    "instructor": "Alex Field",
+    "instructorSlug": "alex-field",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/44799334_bdb3_6.jpg",
+    "rating": 4.7,
+    "reviews": 3465,
+    "price": 49,
+    "level": "all level",
+    "duration": "1.5 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Get a healthy body and wallet - Vertical Farming techniques for Gardeners and Entrepreneurs (Hydroponics and Soil)",
+    "image": "https://i.udemycdn.com/course/480x270/1572784_1992.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.1572784&u=https%3A%2F%2Fwww.udemy.com%2Fgrowing-microgreens-for-business-and-pleasure&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 14864,
+    "sections": 11,
+    "lectures": 48,
+    "access": "Access",
+    "requirements": "Have a passion for healthy food Have access to some space - indoors or on a windowsill Have an interest in the future of food!",
+    "learn": [
+      "Grow one of the world's most profitable legal cash crops - using shelves and simple equipment",
+      "Apply marketing and selling techniques to get your products on the shelves",
+      "Use basic hydroponic and soil growing techniques",
+      "Start growing superfoods on a budget - for profit or pleasure",
+      "Avoid common pitfalls - learn from my mistakes!"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 6,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 8,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 9,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 9,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 6,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 5,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 5,
+        "duration": "0.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Hey there! I'm Alex - entrepreneur, urban farmer and proud founder of the vibrant \"Fungi Tribe\" online mushroom community.\n\nWhile owning a successful vertical farm growing Microgreens in the UK, I fell in love with the Power of Fungi and spent years learning the best techniques for growing Edible, Medicinal and Ceremonial mushrooms for business and pleasure.\n\nI am here to teach the world to grow, one spore at a time. Welcome to the Tribe!",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Growing Microgreens for Business and Pleasure suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $49 with a 4.7★ average from 3,465 students, our Udemy course reviews put it above most Business alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Growing Microgreens for Business and Pleasure is a all level Business course from Alex Field on Udemy. It runs about 1.5 hours, and holds 4.7★ from 3,465 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Business",
+    "skipIf": "You already work professionally in Business and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Farming Business Finances",
+    "slug": "farming-business-finances",
+    "provider": "Udemy",
+    "category": "Lifestyle",
+    "categorySlug": "lifestyle",
+    "instructor": "Eric Yeboah",
+    "instructorSlug": "eric-yeboah",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/45402040_9a2b.jpg",
+    "rating": 4.6,
+    "reviews": 1776,
+    "price": 84,
+    "level": "all level",
+    "duration": "2.5 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "farm working capital, farm financial ratios, How to reduce farm production cost, Financing for agriculture etc.",
+    "image": "https://i.udemycdn.com/course/480x270/4678766_7720.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.4678766&u=https%3A%2F%2Fwww.udemy.com%2Ffarming-business-finances&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 4270,
+    "sections": 13,
+    "lectures": 51,
+    "access": "Access",
+    "requirements": "Desire to learn more about farming finances No special requirement",
+    "learn": [
+      "Farming working capital",
+      "How to calculate unit cost of production on arable farm",
+      "Understanding the ups and downs of farm finances",
+      "How to achieve positive cash flow on the farm",
+      "Strategies to reduce farm production cost",
+      "Three steps to track, analyze and fine tune your farm budget",
+      "Five financial ratios to consider on your farm",
+      "Develop a farm financial model",
+      "Farm wholesale system banks",
+      "Farm retail lending associations",
+      "Financing for agriculture",
+      "How to budget for your commercial farming business"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 8,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 8,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 9,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 7,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 5,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 6,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 8,
+        "duration": "0.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "My education is centered on business and marketing, I have studied with Chartered Institute of Marketing ( C.I.M-UK) from certificate in marketing, advance certificate in marketing to post graduate diploma in marketing. I proceeded to do Master of Business Administration from Central University Graduate Business School.\n\n\nI have twenty three years of practical working experience with reputable organisations. The names of these previous organisations I have worked with are Central university Lecturer, Platinum Impex limited, Regional sales/marketing officer, sales/marketing executive, Laine Services Limited. Strict Marketing Research Services director/consultant,etc. Iam currently working with Udemy as  instructor.\n\nI believe in ardent entrepreneurship and always prepare to help business start-up voluntary. In this twenty first century, the customer is king, and every business or student need to understand the customer centric regime. you need the right education and training to understand the customer and deliver to his satisfaction. If you satisfy the customer consistently he will pay your organisation with his loyalty.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Farming Business Finances suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $84 with a 4.6★ average from 1,776 students, our Udemy course reviews put it above most Lifestyle alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Farming Business Finances is a all level Lifestyle course from Eric Yeboah on Udemy. It runs about 2.5 hours, and holds 4.6★ from 1,776 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Lifestyle",
+    "skipIf": "You already work professionally in Lifestyle and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Management Skills Masterclass: Lead Teams with Confidence",
+    "slug": "management-skills-masterclass-lead-teams-with-confidence",
+    "provider": "Udemy",
+    "category": "Management Skills",
+    "categorySlug": "management-skills",
+    "instructor": "Mind Stack",
+    "instructorSlug": "mind-stack",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/319434557_f9ff_4.jpg",
+    "rating": 4.8,
+    "reviews": 97,
+    "price": 19,
+    "level": "all level",
+    "duration": "12.5 hours",
+    "updated": "10/2026",
+    "description": "Learn management skills, leadership essentials, communication, motivation, delegation, and manager training.",
+    "image": "https://i.udemycdn.com/course/480x270/6932663_be54_3.jpg",
+    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6932663&u=https%3A%2F%2Fwww.udemy.com%2Fmanagement-skills-masterclass&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 3315,
+    "sections": 10,
+    "lectures": 55,
+    "access": "Access",
+    "requirements": "No prior management experience is required. You will learn everything step by step.",
+    "learn": [
+      "Build self awareness, emotional intelligence, and resilience to lead with clarity and confidence.",
+      "Learn communication, feedback, and listening skills that strengthen relationships and team performance.",
+      "Master delegation, prioritization, decision making, and daily management tools used by effective managers.",
+      "Create high performing, inclusive teams using trust, psychological safety, and clear expectations.",
+      "Develop strategic thinking, problem solving, and influence skills to drive meaningful results."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 6,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 8,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 7,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 6,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 9,
+        "duration": "2h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 9,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 10,
+        "duration": "2h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "MindStack creates learning experiences for curious and ambitious minds. We believe that real growth happens when you build knowledge one layer at a time. Each course is crafted to help you think deeper, build stronger, and create with purpose.\n\nOur goal is to make learning feel alive - practical, inspiring, and connected to the real world. Whether you’re here to grow personally, explore your creativity, or develop professional skills, MindStack helps you keep moving forward with clarity and confidence.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Management Skills Masterclass: Lead Teams with Confidence suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $19 with a 4.8★ average from 97 students, our Udemy course reviews put it above most Management Skills alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Management Skills Masterclass: Lead Teams with Confidence is a all level Management Skills course from Mind Stack on Udemy. It runs about 12.5 hours, and holds 4.8★ from 97 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Management Skills",
+    "skipIf": "You already work professionally in Management Skills and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents",
     "slug": "ai-engineer-core-track-llm-engineering-rag-qlora-agents",
     "provider": "Udemy",
