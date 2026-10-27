@@ -1,0 +1,57 @@
+---
+// Tombol Categories yang terpisah (standalone) dari tombol bawaan Courseduck-styled (.btn-cats).
+// Reusable: atur href dan label via props.
+export interface Props {
+  href?: string;
+  label?: string;
+}
+
+const { href = "/programming", label = "Categories" } = Astro.props;
+---
+
+<a
+  class="categories-button"
+  href={href}
+  aria-label={label}
+  title={label}
+>
+  📂 {label}
+</a>
+
+<style>
+  .categories-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 0 22px;
+    border-radius: 12px;
+    border: 0;
+    background: var(--yellow);
+    color: var(--ink);
+    font-weight: 800;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: -0.01em;
+  }
+
+  .categories-button:hover {
+    background: var(--yellow-600);
+    color: var(--ink);
+  }
+
+  .categories-button:focus-visible {
+    outline: 3px solid var(--yellow);
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 899px) {
+    .categories-button {
+      font-size: 0.9rem;
+      padding: 0 16px;
+      min-height: 42px;
+    }
+  }
+</style>
