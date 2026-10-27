@@ -1,6 +1,5 @@
 ---
 import { u } from "../lib/u";
-import CategoriesButton from "./CategoriesButton.astro";
 ---
 <header class="site-header">
   <div class="container header-main">
@@ -9,7 +8,7 @@ import CategoriesButton from "./CategoriesButton.astro";
       <span>Course<em>Depth</em></span>
     </a>
 
-    <a class="btn-cats" href={u("/programming")} aria-label="Categories">▦ Categories ▾</a>
+    <a class="btn-cats" href={u("/programming")} aria-label="Categories">Categories ▾</a>
 
     <form class="searchbar" action={u("/search")} method="get" role="search" autocomplete="off">
       <input type="search" name="q" placeholder="Search courses, instructors, topics..." aria-label="Search courses" />
@@ -17,19 +16,18 @@ import CategoriesButton from "./CategoriesButton.astro";
     </form>
 
     <div class="header-actions">
-      <CategoriesButton href={u("/programming")} label="All Categories" />
       <a class="btn-review" href={u("/review-course")} title="Write a review">✎ Write a review</a>
       <a class="btn-sign" href={u("/login")} title="Sign in">👤 Sign in</a>
     </div>
     <button class="mobile-toggle" id="mobileBtn" aria-label="Menu">☰</button>
   </div>
-</header>
 
-<nav class="subnav" aria-label="Browse">
-  <div class="container subnav-inner">
-    <div class="subnav-links">
-      <a href={u("/about-us")}>About</a>
-      <a href={u("/contact")}>Contact</a>
+  <nav class="subnav" aria-label="Browse">
+    <div class="container subnav-inner">
+      <div class="subnav-links">
+        <a href={u("/about-us")}>About</a>
+        <a href={u("/contact")}>Contact</a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</header>
