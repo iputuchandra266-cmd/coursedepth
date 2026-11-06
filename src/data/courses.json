@@ -108,7 +108,7 @@
     ]
   },
   {
-    "title": "Forward Deployed AI Engineer",
+    "title": "Forward Deployed AI Engineer 2026",
     "slug": "forward-deployed-ai-engineer",
     "provider": "Udemy",
     "category": "Forward Deployed AI Engineer",
@@ -132,6 +132,11 @@
     "sections": 17,
     "lectures": 135,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "Forward Deployed AI Engineer is a all level Forward Deployed AI Engineer course from Amit Prabhu on Udemy. It runs about 24 hours, and holds 4.4★ from 52 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Forward Deployed AI Engineer",
+    "skipIf": "You already work professionally in Forward Deployed AI Engineer and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Fundamental difference between Generative AI, Agentic AI, Machine Learning, and Deep Learning. Prompt Engineering in detail. How bias and hallucinations are introduced in the AI systems and step to detect, measure, and mitigate them. Key technical concepts and core capabilities of Traditional AI, Generative AI, and Agentic AI. LLM Model selection, Fine-tuning techniques and Retrieval-Augmented Generation (RAG). Data and AI Fundamentals and Data Annotation. Reference-based and Reference-free Inference Evaluation methods Natural Language Processing (NLP) Architectures such as RNN, LSTM, Encoder-only Transformers, Encoder-Decoder Transformers, Decoder-only Transformers. Agentic AI Architectures such as ReAct++, LLM-based Cognitive, Neuro-Symbolic, Swarm Agent, Embodied, and Reflexion. AI-enabled Security and LLM Adversarial attacks",
     "learn": [
       "Fundamental difference between Generative AI, Agentic AI, Machine Learning, and Deep Learning.",
@@ -201,7 +206,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -216,12 +226,7 @@
         "q": "Is it worth the price?",
         "a": "At $49 with a 4.4★ average from 52 students, our Udemy course reviews put it above most Forward Deployed AI Engineer alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "Forward Deployed AI Engineer is a all level Forward Deployed AI Engineer course from Amit Prabhu on Udemy. It runs about 24 hours, and holds 4.4★ from 52 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Forward Deployed AI Engineer",
-    "skipIf": "You already work professionally in Forward Deployed AI Engineer and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Practice Exams: AWS Certified AI Business Strategist AIB-C01",

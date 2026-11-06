@@ -6,8 +6,8 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "dev": "astro dev",
-    "admin": "astro dev --port 4325",
+    "dev": "astro dev --port 4325",
+    "admin": "astro dev --port 4326",
     "build": "astro build && npm run deploy",
     "preview": "astro preview",
     "prod": "npm run build",
