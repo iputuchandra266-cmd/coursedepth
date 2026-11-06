@@ -11,13 +11,12 @@ const { course } = Astro.props;
     {course.bestseller && <span class="badge-best">Bestseller</span>}
   </a>
   <div class="course-body">
-    <div class="course-meta"><i class="badge-outline">{course.provider}</i><a href={u(`/programming/${course.categorySlug}`)}>{course.category}</a></div>
+    <div class="course-meta"><a href={u(`/programming/${course.categorySlug}`)}>{course.category}</a></div>
     <h3 class="course-title"><a href={u(`/course/${course.slug}`)}>{course.title}</a></h3>
     <p class="course-desc">{course.description}</p>
     <div class="course-meta course-by">by <a href={u(`/instructors`)}>{course.instructor}</a></div>
     <div class="price-row">
       <span class="cd-rating"><Stars rating={course.rating} reviews={course.reviews} /></span>
-      <span class="price">${course.price}</span>
     </div>
   </div>
 </article>

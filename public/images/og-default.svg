@@ -11,7 +11,7 @@
   <rect x="80" y="240" width="72" height="72" rx="16" fill="#ffc900"/>
   <text x="97" y="292" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" fill="#0f1740">C</text>
   <text x="172" y="292" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">Course<tspan fill="#ffc900">Depth</tspan></text>
-  <text x="80" y="400" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="800" fill="#ffffff">Udemy Course Reviews</text>
-  <text x="80" y="462" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="500" fill="#dfe4f7">Honest ratings, prices &amp; details for online courses</text>
+  <text x="80" y="400" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="800" fill="#ffffff">Course Reviews</text>
+  <text x="80" y="462" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="500" fill="#dfe4f7">Honest ratings &amp; details for online courses</text>
   <text x="80" y="540" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffc900">coursedepth.com</text>
 </svg>

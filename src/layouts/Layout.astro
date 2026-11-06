@@ -5,8 +5,8 @@ interface Props {
   robots?: string;
 }
 const {
-  title = "Udemy Course Reviews — Ratings & Best Picks | CourseDepth",
-  description = "Honest Udemy course reviews: ratings, prices, update history and instructor details for the best Python, Web Dev, Data Science and AI courses.",
+  title = "Course Reviews — Ratings & Best Picks | CourseDepth",
+  description = "Honest course reviews: ratings, update history and instructor details for the best Python, Web Dev, Data Science and AI courses.",
   robots = "index, follow",
 } = Astro.props;
 import "../styles/global.css";
@@ -15,7 +15,7 @@ import { u } from "../lib/u";
 const site = Astro.site ?? new URL("https://coursedepth.com");
 const canonical = new URL(Astro.url.pathname, site).href;
 const siteName = "CourseDepth";
-const keyword = "Udemy Course Reviews";
+const keyword = "Course Reviews";
 const ld = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -38,6 +38,7 @@ const ld = {
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
     <meta name="google-site-verification" content="10yuLeZ2qhvag_zD9PkjLG49rg10la3f57_12DpOSDA" />
+    <meta name="impact-site-verification" value="a3c4b02b-2856-448c-8029-c3576b09819a" />
     <meta name="theme-color" content="#243693" />
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href={u("/favicon.svg")} />

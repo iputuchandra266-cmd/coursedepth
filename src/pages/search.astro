@@ -44,11 +44,11 @@ const base = import.meta.env.BASE_URL;
       <a class="course-card" href="${base}course/${c.slug}">
         <div class="course-thumb"><img src="${(c.image && /^(https?:)?\/\//.test(c.image)) ? c.image : base + (c.image || `images/courses/${c.slug}.svg`).replace(/^\//, '')}" alt="${c.title}" loading="lazy" /></div>
         <div class="course-body">
-          <div class="course-meta"><i>${c.provider}</i>${c.category}</div>
+          <div class="course-meta">${c.category}</div>
           <h3 class="course-title">${c.title}</h3>
           <div class="course-by">by ${c.instructor}</div>
           <div class="stars">⭐ ${c.rating} <span class="n">(${c.reviews.toLocaleString()})</span></div>
-          <div class="price-row"><span class="price">$${c.price}</span><span style="font-size:12px;color:var(--muted);font-weight:700">${c.duration}</span></div>
+          <div style="font-size:12px;color:var(--muted);font-weight:700">${c.duration}</div>
         </div>
       </a>`).join('') || '<p>No results. Try another keyword.</p>';
   }

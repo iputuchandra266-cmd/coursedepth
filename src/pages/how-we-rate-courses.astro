@@ -11,9 +11,9 @@ const site = "https://coursedepth.com";
 const url = `${site}/how-we-rate-courses/`;
 
 const faqs = [
-  { q: "How does CourseDepth rank courses?", a: "Four weighted factors: student rating × review volume (50%), content freshness — last update date (25%), curriculum completeness (15%) and price value (10%). Providers cannot pay to change any score." },
+  { q: "How does CourseDepth rank courses?", a: "Three weighted factors: student rating × review volume (55%), content freshness — last update date (25%) and curriculum completeness (20%). Providers cannot pay to change any score." },
   { q: "Do providers pay for placement?", a: "No. Some links earn us a commission, at no cost to you, but commission never affects ratings, order or inclusion. Removing a listing is only possible for factual errors, and only after evidence." },
-  { q: "How often is the data updated?", a: "Ratings, prices and update dates are re-checked continuously, and every page shows the date of its last editorial review." },
+  { q: "How often is the data updated?", a: "Ratings, review counts and update dates are re-checked continuously, and every page shows the date of its last editorial review." },
   { q: "What if a rating looks wrong?", a: "Send it through the contact page with the course link. We re-verify against the provider's published score and correct the page plus its dateModified stamp." },
 ];
 
@@ -27,7 +27,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "How We Rate Courses: CourseDepth's Review Methodology",
-      description: "How CourseDepth rates and ranks online courses: the four weighted factors, our data sources, editorial checks, and our no-paid-placement policy.",
+      description: "How CourseDepth rates and ranks online courses: the weighted factors, our data sources, editorial checks, and our no-paid-placement policy.",
       datePublished: "2026-10-21", dateModified: "2026-10-21", inLanguage: "en",
       author: { "@type": "Organization", name: "CourseDepth", url: site + "/" },
       publisher: { "@type": "Organization", name: "CourseDepth", url: site + "/", logo: { "@type": "ImageObject", url: site + "/images/logo-mark.svg" } },
@@ -38,7 +38,7 @@ const jsonLd = {
   ],
 };
 ---
-<Layout title="How We Rate Courses — CourseDepth Review Methodology" description="How CourseDepth rates online courses: four weighted factors (rating, freshness, curriculum, price), data sources, editorial checks and our no-paid-placement policy.">
+<Layout title="How We Rate Courses — CourseDepth Review Methodology" description="How CourseDepth rates online courses: weighted factors (rating, freshness, curriculum), data sources, editorial checks and our no-paid-placement policy.">
 <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 <Header />
 
@@ -56,14 +56,14 @@ const jsonLd = {
   </div>
 
   <div class="article-intro">
-    <p><strong>Short answer:</strong> Every CourseDepth score combines <b>rating × review volume (50%)</b>, <b>content freshness (25%)</b>, <b>curriculum completeness (15%)</b> and <b>price value (10%)</b>, re-checked against the provider's published data. Commissions never change a score — <b>no placement can be bought</b>.</p>
-    <p>This page explains the four ranking factors, where the data comes from, and what never influences a ranking.</p>
+    <p><strong>Short answer:</strong> Every CourseDepth score combines <b>rating × review volume (55%)</b>, <b>content freshness (25%)</b> and <b>curriculum completeness (20%)</b>, re-checked against the provider's published data. Commissions never change a score — <b>no placement can be bought</b>.</p>
+    <p>This page explains the ranking factors, where the data comes from, and what never influences a ranking.</p>
   </div>
 
   <div class="takeaways">
     <b>Key takeaways</b>
     <ul>
-      <li>Four weighted factors: rating × volume 50%, freshness 25%, curriculum 15%, price 10%.</li>
+      <li>Three weighted factors: rating × volume 55%, freshness 25%, curriculum 20%.</li>
       <li>Ratings come from the provider's own aggregate — we never invent stars.</li>
       <li>Editorial layer adds what providers don't show: update history, pros/cons, quality sub-scores.</li>
       <li>Affiliate commissions are decoupled from rankings, entirely.</li>
@@ -71,19 +71,18 @@ const jsonLd = {
     </ul>
   </div>
 
-  <h2>The four ranking factors</h2>
+  <h2>The ranking factors</h2>
   <table class="cmp">
     <thead><tr><th>Factor</th><th>Weight</th><th>What we measure</th></tr></thead>
     <tbody>
-      <tr><td><b>Rating × review volume</b></td><td>50%</td><td>Provider aggregate score weighted by how many students left it</td></tr>
+      <tr><td><b>Rating × review volume</b></td><td>55%</td><td>Provider aggregate score weighted by how many students left it</td></tr>
       <tr><td><b>Content freshness</b></td><td>25%</td><td>Last update date vs today; fast-moving topics get a stricter clock</td></tr>
-      <tr><td><b>Curriculum completeness</b></td><td>15%</td><td>Sections, hours, projects, coverage of the promised outcome</td></tr>
-      <tr><td><b>Price value</b></td><td>10%</td><td>Typical sale price against hours and depth, not list price</td></tr>
+      <tr><td><b>Curriculum completeness</b></td><td>20%</td><td>Sections, hours, projects, coverage of the promised outcome</td></tr>
     </tbody>
   </table>
 
   <h2>Where the data comes from</h2>
-  <p>Ratings, review counts, prices, durations and update dates are taken from each provider's published course page and re-checked regularly. Anything editorial — pros, cons, "our take", quality sub-scores — is written by our team and labelled as such. See <a href={u("/are-udemy-reviews-fake")}>how we read reviews</a> for why the star average is only step one.</p>
+  <p>Ratings, review counts, durations and update dates are taken from each provider's published course page and re-checked regularly. Anything editorial — pros, cons, "our take", quality sub-scores — is written by our team and labelled as such. See <a href={u("/are-udemy-reviews-fake")}>how we read reviews</a> for why the star average is only step one.</p>
 
   <h2>What never influences a ranking</h2>
   <ul>
@@ -104,7 +103,7 @@ const jsonLd = {
     <b>Related guides</b>
     <a href={u("/about-us")}>About us</a> ·
     <a href={u("/how-to-choose-an-online-course")}>How to choose an online course</a> ·
-    <a href={u("/are-udemy-courses-worth-it")}>Are Udemy courses worth it?</a> ·
+    <a href={u("/are-udemy-courses-worth-it")}>Are online courses worth it?</a> ·
     <a href={u("/review-course")}>Write a review</a>
   </div>
 </div></section>

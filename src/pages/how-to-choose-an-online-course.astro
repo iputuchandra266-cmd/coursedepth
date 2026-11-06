@@ -14,7 +14,7 @@ const steps = [
   { t: "Read reviews by recency and specificity", d: "Sort newest first, then skim the 3★ reviews — they name weak modules far better than 1★ rants or 5★ praise." },
   { t: "Inspect the curriculum and the preview", d: "Section titles should tell the story of the course. Watch two preview videos: teaching style decides whether you finish." },
   { t: "Judge the instructor's track record", d: "Look at total review count across courses, instructor bio, and how they answer tough questions in the Q&A." },
-  { t: "Compare price to the sale price", d: "On marketplaces like Udemy, list prices are anchors — most courses sell for $10–19 several times a month." },
+  { t: "Check access and updates", d: "Lifetime access, free updates, offline/mobile support and subtitles decide how much you get from the course over time." },
   { t: "Confirm the safety net", d: "Money-back window, subtitles in your language, offline/mobile access, and a certificate if you need one." },
 ];
 
@@ -30,7 +30,7 @@ const checklist = [
 const faqs = [
   {
     q: "What should I check before buying an online course?",
-    a: "Seven things, in order: your concrete outcome, the last update date, recent and specific reviews, the curriculum and preview videos, the instructor's track record, the real (sale) price, and the refund policy. If a course fails on freshness or refund, skip it regardless of its star rating.",
+    a: "Seven things, in order: your concrete outcome, the last update date, recent and specific reviews, the curriculum and preview videos, the instructor's track record, the access and update terms, and the refund policy. If a course fails on freshness or refund, skip it regardless of its star rating.",
   },
   {
     q: "How many reviews should a course have before I trust it?",
@@ -81,14 +81,14 @@ const jsonLd = {
   ],
 };
 ---
-<Layout title="How to Choose an Online Course: 7-Step Checklist (2026)" description="How to choose an online course you will finish: 7 checks (freshness, reviews, curriculum, instructor, price, refund) plus a buy/no-buy checklist.">
+<Layout title="How to Choose an Online Course: 7-Step Checklist (2026)" description="How to choose an online course you will finish: 7 checks (freshness, reviews, curriculum, instructor, access, refund) plus a buy/no-buy checklist.">
 <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 <Header />
 
 <section class="page-hero"><div class="container">
   <nav class="crumbs" aria-label="Breadcrumb"><a href={u("/")}>Home</a> <span aria-hidden="true">›</span> <span>How to choose an online course</span></nav>
   <h1>How to Choose an Online Course</h1>
-  <p>A 7-step checklist to judge quality, reviews and value before you spend a cent.</p>
+  <p>A 7-step checklist to judge quality, reviews and value before you commit your time.</p>
 </div></section>
 
 <section class="section"><div class="container" style="max-width:760px">
@@ -99,8 +99,8 @@ const jsonLd = {
   </div>
 
   <div class="article-intro">
-    <p><strong>Short answer:</strong> Choose a course by checking, in order: the <b>concrete outcome</b> it promises, the <b>last update date</b>, <b>recent and specific reviews</b>, the <b>curriculum and preview</b>, the <b>instructor's track record</b>, the <b>real sale price</b>, and the <b>refund policy</b>. A course that fails on freshness or refund is not worth buying at any price.</p>
-    <p>This checklist helps you avoid stale or overhyped courses and spend money only on training with a clear, verifiable outcome.</p>
+    <p><strong>Short answer:</strong> Choose a course by checking, in order: the <b>concrete outcome</b> it promises, the <b>last update date</b>, <b>recent and specific reviews</b>, the <b>curriculum and preview</b>, the <b>instructor's track record</b>, the <b>access and update terms</b>, and the <b>refund policy</b>. A course that fails on freshness or refund is not worth your time.</p>
+    <p>This checklist helps you avoid stale or overhyped courses and commit only to training with a clear, verifiable outcome.</p>
   </div>
 
   <div class="takeaways">
@@ -110,7 +110,7 @@ const jsonLd = {
       <li>Trust <b>4.3–4.7★ with 1,000+ reviews</b> more than 5.0★ from a tiny pool.</li>
       <li>Read the newest 3★ reviews — they map the weak modules precisely.</li>
       <li>Update date beats star rating in fast-moving fields (AI, web, cloud).</li>
-      <li>Never pay list price on marketplaces that run sales every 2–3 weeks.</li>
+      <li>Check access and update terms — lifetime access and free updates matter.</li>
     </ul>
   </div>
 
@@ -132,10 +132,10 @@ const jsonLd = {
   </table>
 
   <h2>How to read a course page in 60 seconds</h2>
-  <p>Open the course page and scan top to bottom: <b>rating and review count</b> next to the title → <b>last updated</b> date in the sidebar → <b>curriculum</b> section titles → one <b>preview video</b> → the <b>reviews sorted by newest</b>. Anything missing in that sequence (no preview, no dates, no syllabus) is a warning. For a live example, compare two picks in our <a href={u("/udemy-python-course-reviews")}>Udemy Python course reviews</a>.</p>
+  <p>Open the course page and scan top to bottom: <b>rating and review count</b> next to the title → <b>last updated</b> date in the sidebar → <b>curriculum</b> section titles → one <b>preview video</b> → the <b>reviews sorted by newest</b>. Anything missing in that sequence (no preview, no dates, no syllabus) is a warning. For a live example, compare two picks in our <a href={u("/udemy-python-course-reviews")}>Python course reviews</a>.</p>
 
   <h2>Match the platform to your goal</h2>
-  <p>Marketplace courses (Udemy-style) suit targeted skills at low one-time cost; subscription platforms suit continuous learning; university platforms suit credentials. Our breakdown of <a href={u("/are-udemy-courses-worth-it")}>whether Udemy courses are worth it</a> compares the models side by side — including when paying more is actually the smarter move.</p>
+  <p>Marketplace courses suit targeted skills and self-paced learning; subscription platforms suit continuous learning; university platforms suit credentials. Our breakdown of <a href={u("/are-udemy-courses-worth-it")}>whether online courses are worth it</a> compares the models side by side.</p>
 
   <h2 id="faq">Choosing an online course — common questions</h2>
   {faqs.map((f) => (
@@ -148,8 +148,8 @@ const jsonLd = {
   <div class="related">
     <b>Related guides</b>
     <a href={u("/courses")}>Browse all {courses.length}+ courses</a> ·
-    <a href={u("/are-udemy-reviews-fake")}>Are Udemy reviews fake?</a> ·
-    <a href={u("/udemy-certificate-worth-it")}>Are Udemy certificates worth it?</a> ·
+    <a href={u("/are-udemy-reviews-fake")}>Are course reviews fake?</a> ·
+    <a href={u("/udemy-certificate-worth-it")}>Are course certificates worth it?</a> ·
     <a href={u("/how-we-rate-courses")}>How we rate courses</a>
   </div>
 </div></section>

@@ -18,15 +18,15 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
   {"@type":"Organization","@id":"https://coursedepth.com/#org","name":"CourseDepth","url":"https://coursedepth.com/","logo":"https://coursedepth.com/images/og-default.png","sameAs":[]},
   {"@type":"WebSite","@id":"https://coursedepth.com/#site","url":"https://coursedepth.com/","name":"CourseDepth","publisher":{"@id":"https://coursedepth.com/#org"},"potentialAction":{"@type":"SearchAction","target":"https://coursedepth.com/search?q={search_term_string}","query-input":"required name=search_term_string"}},
   {"@type":"FAQPage","mainEntity":[
-    {"@type":"Question","name":"Are Udemy course reviews reliable?","acceptedAnswer":{"@type":"Answer","text":"CourseDepth aggregates real Udemy course reviews from verified students. Our ratings match Udemy's own aggregate scores, but we add editorial analysis (our take, pros/cons, update history) that Udemy does not show."}},
-    {"@type":"Question","name":"How do I find the best Udemy courses?","acceptedAnswer":{"@type":"Answer","text":"Sort by student rating (4.5+ is excellent), check the last update date (within 12 months is ideal), read the curriculum breakdown, and look at instructor review counts. CourseDepth lists all of this on every course page."}},
-    {"@type":"Question","name":"Are Udemy courses worth it in 2026?","acceptedAnswer":{"@type":"Answer","text":"Most Udemy courses drop to $10-15 during sales. At that price, even average courses offer good value. Premium courses ($50-100) are worth it if they have 4.5+ rating, 1000+ students, and were updated within the last year."}}
+    {"@type":"Question","name":"Are course reviews reliable?","acceptedAnswer":{"@type":"Answer","text":"CourseDepth aggregates real course reviews from verified students. Our ratings match each provider's own aggregate scores, but we add editorial analysis (our take, pros/cons, update history) that the provider does not show."}},
+    {"@type":"Question","name":"How do I find the best courses?","acceptedAnswer":{"@type":"Answer","text":"Sort by student rating (4.5+ is excellent), check the last update date (within 12 months is ideal), read the curriculum breakdown, and look at instructor review counts. CourseDepth lists all of this on every course page."}},
+    {"@type":"Question","name":"Are online courses worth it in 2026?","acceptedAnswer":{"@type":"Answer","text":"Yes, when you choose by outcome, rating and freshness. A course rated 4.5+ with 1,000+ reviews and an update within the last year is usually worth the time. The real risk is choosing a course you will never finish."}}
   ]},
-  {"@type":"ItemList","name":"Highest Rated Udemy Courses","itemListElement":topRated.map((c,i)=>({"@type":"ListItem","position":i+1,"item":{"@type":"Course","name":c.title,"url":"https://coursedepth.com/course/"+c.slug+"/","provider":{"@type":"Organization","name":c.provider},"aggregateRating":{"@type":"AggregateRating","ratingValue":c.rating,"reviewCount":c.reviews}}}))}
+  {"@type":"ItemList","name":"Highest Rated Courses","itemListElement":topRated.map((c,i)=>({"@type":"ListItem","position":i+1,"item":{"@type":"Course","name":c.title,"url":"https://coursedepth.com/course/"+c.slug+"/","provider":{"@type":"Organization","name":c.provider},"aggregateRating":{"@type":"AggregateRating","ratingValue":c.rating,"reviewCount":c.reviews}}}))}
 ]};
 ---
 
-<Layout title="Udemy Course Reviews 2026 — Ratings & Best Picks | CourseDepth" description="Honest Udemy course reviews with real student ratings, current prices, update dates and instructor details. Compare the best Python, Web Dev, Data Science and AI courses before you buy.">
+<Layout title="Course Reviews 2026 — Ratings & Best Picks | CourseDepth" description="Honest course reviews with real student ratings, update dates and instructor details. Compare the best Python, Web Dev, Data Science and AI courses before you buy.">
 
 
 <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
@@ -36,8 +36,8 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <h1>Udemy Course Reviews <br /><span style="font-weight:400;font-size:.7em">Real Ratings & Best Picks 2026</span></h1>
-      <p class="hero-sub">Honest reviews of Udemy courses — ratings, prices, update history & what students really think.</p>
+      <h1>Course Reviews <br /><span style="font-weight:400;font-size:.7em">Real Ratings & Best Picks 2026</span></h1>
+      <p class="hero-sub">Honest reviews of online courses — ratings, update history & what students really think.</p>
       <form class="hero-search" action={u("/search")} method="get" role="search">
         <input type="search" name="q" placeholder="Search courses ..." aria-label="Search courses" />
         <button type="submit">Search</button>
@@ -56,14 +56,12 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
   <div class="container marquee">
     <span class="label">COURSES FROM</span>
     <div class="marquee-track">
-      <span class="provider-word">Udemy</span>
       <span class="provider-word">Coursera</span>
       <span class="provider-word">edX</span>
       <span class="provider-word">UDACITY</span>
       <span class="provider-word">Pluralsight</span>
       <span class="provider-word">YouTube</span>
       <span class="provider-word">LinkedIn Learning</span>
-      <span class="provider-word">Udemy</span>
       <span class="provider-word">Coursera</span>
       <span class="provider-word">edX</span>
       <span class="provider-word">UDACITY</span>
@@ -110,9 +108,9 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
   <div class="container">
     <div class="sec-head"><div><span class="eyebrow">Why CourseDepth</span><h2>Choose with confidence</h2></div></div>
     <div class="why-grid">
-      <div class="why-card"><div class="why-ico">🌍</div><div><h3>Every provider in one place</h3><p>Udemy, Coursera, edX, YouTube, Udacity, Pluralsight and dozens more, compared side by side instead of tab by tab.</p></div></div>
+      <div class="why-card"><div class="why-ico">🌍</div><div><h3>Every provider in one place</h3><p>Coursera, edX, YouTube, Udacity, Pluralsight and dozens more, compared side by side instead of tab by tab.</p></div></div>
       <div class="why-card"><div class="why-ico">⭐</div><div><h3>{(totalReviews / 1e6).toFixed(1)}M student ratings</h3><p>Aggregated from real students who took the course. Providers cannot pay to bury or remove a rating.</p></div></div>
-      <div class="why-card"><div class="why-ico">🔎</div><div><h3>Details you will not find elsewhere</h3><p>Video length, difficulty, certificates, language and the current price, checked for each course.</p></div></div>
+      <div class="why-card"><div class="why-ico">🔎</div><div><h3>Details you will not find elsewhere</h3><p>Video length, difficulty, certificates and language, checked for each course.</p></div></div>
     </div>
   </div>
 </section>
@@ -149,13 +147,13 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
 
 
 <!-- FAQ (GEO/AI) -->
-<section class="section" style="padding-top:0" aria-label="Frequently asked questions about Udemy course reviews">
+<section class="section" style="padding-top:0" aria-label="Frequently asked questions about course reviews">
   <div class="container">
-    <div class="sec-head"><div><span class="eyebrow">FAQ</span><h2>Udemy course reviews — common questions</h2></div></div>
+    <div class="sec-head"><div><span class="eyebrow">FAQ</span><h2>Course reviews — common questions</h2></div></div>
     <div class="why-grid">
-      <div class="why-card"><div><h3>Are Udemy course reviews reliable?</h3><p>Yes. CourseDepth aggregates real student reviews from Udemy and adds editorial analysis (our take, pros/cons, update history) that Udemy itself does not show. Our ratings match Udemy's own aggregate scores.</p></div></div>
-      <div class="why-card"><div><h3>How do I find the best Udemy courses?</h3><p>Sort by student rating (4.5+ is excellent), check the last update date (within 12 months is ideal), read the curriculum breakdown, and look at instructor review counts. CourseDepth lists all of this on every course page.</p></div></div>
-      <div class="why-card"><div><h3>Are Udemy courses worth it in 2026?</h3><p>Most Udemy courses drop to $10–15 during sales. At that price, even average courses offer good value. Premium courses ($50–100) are worth it if they have 4.5+ rating, 1000+ students, and were updated within the last year.</p></div></div>
+      <div class="why-card"><div><h3>Are course reviews reliable?</h3><p>Yes. CourseDepth aggregates real student reviews from providers and adds editorial analysis (our take, pros/cons, update history) that the provider itself does not show. Our ratings match each provider's own aggregate scores.</p></div></div>
+      <div class="why-card"><div><h3>How do I find the best courses?</h3><p>Sort by student rating (4.5+ is excellent), check the last update date (within 12 months is ideal), read the curriculum breakdown, and look at instructor review counts. CourseDepth lists all of this on every course page.</p></div></div>
+      <div class="why-card"><div><h3>Are online courses worth it in 2026?</h3><p>Yes, when you choose by outcome, rating and freshness. A course rated 4.5+ with 1,000+ reviews and an update within the last year is usually worth the time. The real risk is choosing a course you will never finish.</p></div></div>
     </div>
   </div>
 </section>
@@ -166,7 +164,7 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
     <div class="sec-head"><div><span class="eyebrow">How it works</span><h2>Three steps to the right course</h2></div></div>
     <div class="steps">
       <div class="step"><h3>Search or browse</h3><p>Type a course or instructor name, or start from one of {categories.length} topics ranked by student rating.</p></div>
-      <div class="step"><h3>Compare the details</h3><p>Ratings, review counts, length, level, price and what other students say, on one page per course.</p></div>
+      <div class="step"><h3>Compare the details</h3><p>Ratings, review counts, length, level and what other students say, on one page per course.</p></div>
       <div class="step"><h3>Enrol on the provider's site</h3><p>Every course links straight to where it is sold. Some links earn us a commission, at no cost to you.</p></div>
     </div>
   </div>
@@ -176,7 +174,7 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
 <section class="cta">
   <div class="container">
     <div class="cta-inner">
-      <div><h2>Write a Udemy course review</h2><p>Share your experience to help thousands of students pick the right course. Providers cannot edit or remove what you write — your review stays forever.</p></div>
+      <div><h2>Write a course review</h2><p>Share your experience to help thousands of students pick the right course. Providers cannot edit or remove what you write — your review stays forever.</p></div>
       <a class="btn-dark" href={u("/review-course")}>✎ Write a review</a>
     </div>
   </div>
