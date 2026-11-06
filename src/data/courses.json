@@ -1,5 +1,551 @@
 [
   {
+    "title": "AI Engineer Production Track: Deploy LLMs & Agents at Scale",
+    "slug": "ai-engineer-production-track-deploy-llms-agents-at-scale",
+    "provider": "Udemy",
+    "category": "Data Science",
+    "categorySlug": "data-science",
+    "instructor": "Ligency",
+    "instructorSlug": "ligency",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/150405524_94b0_9.jpg",
+    "rating": 4.7,
+    "reviews": 1165643,
+    "level": "All Level",
+    "duration": "18.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Deploy AI to AWS, GCP, Azure, Vercel with MLOps, Bedrock, SageMaker, RAG, Agents, MCP: scalable, secure and observable.",
+    "image": "https://i.udemycdn.com/course/480x270/6819669_be93_4.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.6819669&u=https%3A%2F%2Fwww.udemy.com%2Fgenerative-and-agentic-ai-in-production&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 62437,
+    "sections": 4,
+    "lectures": 124,
+    "access": "Access",
+    "summary": "This is the course that more of my students have asked for than any other course — put together.One student called it:“The missing course in AI.”This course is for:EntrepreneursEnterprise engineers…and everyone in between.It’s not just about RAG — although we’ll work with RAG.It’s not just about Agents — but there will be many Agents.It’s not just about MCP — but yes, there will be plenty of MCP too.This course is about:RAG, Agents, MCP, and so much more… deployed to production.Live.Enterprise-grade.Scalable, resilient, secure, monitored — and explained.You’ll ship real-world, production-grade AI with LLMs and agents across Vercel, AWS, GCP, and Azure, going deepest on AWS.Across four weeks you’ll take four products to production:Week 1You’ll launch a Next.js SaaS product on Vercel and AWS,with AWS App Runner and Clerk for user management and subscriptions. Week 2You’ll become an AI platform engineer on AWS,deploying serverless infrastructure using:Lambda, Bedrock, API Gateway, S3, CloudFront, Route 53Write Infrastructure as Code with TerraformSet up CI/CD pipelines with GitHub Actions— for hands-free deployments and one-click promotions.Week 3You’ll gain broad industry skills for GenAI in production:Deploy a Cyber Security Analyst agent with MCP to Azure & GCPStand up SageMaker inferenceBuild data ingest to S3 vectorsDeploy a Researcher Agent using OpenAI OSS models on Bedrock + MCPWeek 4You’ll go",
+    "requirements": "While it’s ideal if you can code in Python and have some experience working with LLMs, this course is designed for a very wide audience, regardless of background. I’ve included a whole folder of self-study labs that cover foundational technical and programming skills. If you’re new to coding, there’s only one requirement: plenty of patience! The course runs best if you have a small budget for APIs and Cloud Providers of a few dollars. But we monitor expenses at every point, and it's always a personal choice.",
+    "learn": [
+      "Deploy SaaS LLM apps to production on Vercel, AWS, Azure, and GCP, using Clerk",
+      "Design cloud architectures with Lambda, S3, CloudFront, SQS, Route 53, App Runner and API Gateway",
+      "Integrate with Amazon Bedrock and SageMaker, and build with GPT-5, Claude 4, OSS, AWS Nova and HuggingFace",
+      "Rollout to Dev, Test and Prod automatically with Terraform and ship continuously via GitHub Actions",
+      "Deliver enterprise-grade AI solutions that are scalable, secure, monitored, explainable, observable, and controlled with guardrails.",
+      "Create Multi-Agent systems and Agentic Loops with Amazon Bedrock AgentCore and Stands AgentsDeploy SaaS LLM apps to production on Vercel, AWS, Azure, and GCP, using Clerk",
+      "Design cloud architectures with Lambda, S3, CloudFront, SQS, Route 53, App Runner and API Gateway",
+      "Integrate with Amazon Bedrock and SageMaker, and build with GPT-5, Claude 4, OSS, AWS Nova and HuggingFace",
+      "Rollout to Dev, Test and Prod automatically with Terraform and ship continuously via GitHub Actions",
+      "Deliver enterprise-grade AI solutions that are scalable, secure, monitored, explainable, observable, and controlled with guardrails.",
+      "Create Multi-Agent systems and Agentic Loops with Amazon Bedrock AgentCore and Stands Agents"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 30,
+        "duration": "4.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 34,
+        "duration": "5.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 34,
+        "duration": "5.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 26,
+        "duration": "3.8h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Join 4M+ learners who study with Ligency.\n\nWith a 4.6 instructor rating, >1M reviews, and 127 courses in 12 languages, we help engineers, leaders, and teams master the skills that power today’s AI revolution - then ship real results.\n\nWe start where the real world starts: with large language models and the products they power. You’ll learn the foundations of AI and Generative AI (gen AI), then ship production-grade systems - chatbots, copilots, automations, and AI agents. We go deep on LLM engineering: retrieval (RAG), evaluation, observability, safety, and the patterns teams use to run agentic systems at scale.\n\nOur stack is practical and current. You’ll prototype fast with Python, LangChain, and LangGraph; explore models from OpenAI, Gemini, and Claude (including Claude Code); fine-tune and serve with Hugging Face and Ollama; and take it to production on AWS - from Bedrock to event-driven services. Need automation? We wire it together with n8n, clean interfaces, and CI/CD. Along the way you’ll master prompt engineering that holds up under load.\n\nWhere this leads: roles that ship. AI Engineer and LLM Engineer for those who love building; platform and MLOps paths for those drawn to reliability at scale; product and leadership tracks for the people moving Agentic AI from slide decks to business outcomes. The through-line is the same: learn fast, build faster, measure everything, iterate.\n\nStart with our best selling course:\n\nAI Coder: Complete Claude Code & Coding Agents Course - build complete products at speed with AI coding agents like Claude Code, Cursor, Copilot and Codex, no coding background required.\n\nAI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents - a hands-on path from your first prompt to production patterns: 20+ models, RAG, QLoRA fine-tuning, and agents with LangChain/LangGraph.\n\nAI Engineer Agentic Track: The Complete Agent & MCP Course - design, orchestrate, and deploy robust AI agents across OpenAI Agents SDK, CrewAI, LangGraph and MCP.\n\nAI Engineer Production Track: Deploy LLMs & Agents at Scale - scaling patterns for pipelines, monitoring, and enterprise rollout on AWS with Bedrock, Google Cloud Platform, Azure and MLOps.\n\nAI Builder: Create Agents, Voice Agents & Automations in n8n - wire up low-code AI agents, voice agents and business automations in n8n with ElevenLabs, RAG and MCP.\n\nPractical Guide to AI Agents & Agentic AI with Claude Cowork - build six working no-code AI agents on your real tools (Gmail, Slack, Notion, Calendar) with Claude Cowork and MCP.\n\nAI Leader: Generative AI & Agentic AI for Leaders & Founders - a concise playbook for strategy, governance, and ROI with Generative AI and agents.\n\nIf your goal is to level up quickly and ship something real, join us. Learn the concepts, touch the tools, build the thing - then take it to users. That’s the Ligency way.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AI Engineer Production Track: Deploy LLMs & Agents at Scale suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 1,165,643 students, our Udemy course reviews put it above most Data Science alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through Data Science",
+    "skipIf": "You already work professionally in Data Science and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "[Practice Exams] AWS AI Business Strategist AIB-C01",
+    "slug": "practice-exams-aws-ai-business-strategist-aib-c01",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Marlon Anesi, CloudForAll",
+    "instructorSlug": "marlon-anesi-cloudforall",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/30991940_9b49_5.jpg",
+    "rating": 4.7,
+    "reviews": 3501,
+    "level": "All Level",
+    "duration": "24 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "4 Full Practice Exams, 340 Original Questions, Detailed Explanations, Key Tips and Visual Decision Tables",
+    "image": "https://i.udemycdn.com/course/480x270/7324543_2ca9.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7324543&u=https%3A%2F%2Fwww.udemy.com%2Fpractice-exams-aws-certified-ai-business-strategist-aib-c01-eng-us&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 365,
+    "sections": 5,
+    "lectures": 27,
+    "access": "Access",
+    "moneyBack": true,
+    "summary": "Know exactly where you stand before exam day. This course gives you 4 full-length practice exams for the AWS Certified AI Business Strategist (AIB-C01), with 85 questions each and 340 original questions in total, built around the domains and weights of the official exam guide.Why these practice exams are differentOriginal scenarios, written for this course. No question repeats across the four exams, and none is copied from the real exam or from dumps. Each one tests a specific skill from the exam guide.Written like the real thing. Question length, tone and answer format are calibrated against AWS's own official sample questions. Every wrong option is a plausible business approach that fails for one clear, specific reason.Every option explained, right and wrong. You get the business reasoning behind each choice, then an overall explanation with the core concept, an applied example and a Key tip that shows the pattern to recognize on exam day.A visual for most questions. A side-by-side decision table compares the approaches by the criteria that actually decide them: governance impact, speed to value, risk and cost. Multi-step frameworks, like a maturity path or a governance escalation chain, get a process diagram instead.Official AWS references. Questions cite the AWS documentation behind the answer, so you can go deeper exactly where you missed.Free flashcards by domain. A companion set, no sign-up required.Weighted exactly like the official exam guideAI Fundamentals and Literacy: 24%AI Strategy and Business Value Creation: 28%AI Governance and Responsible AI Leadership: 24%Business Readiness, Leadership, and AI Transformation: 24%What you will walk away with",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
+    "learn": [
+      "Assess your readiness for the AWS Certified AI Business Strategist (AIB-C01) exam across all four exam domains",
+      "Compare AI adoption approaches using business criteria like value, risk, cost and governance impact",
+      "Apply AWS frameworks, such as the Cloud Adoption Framework and the Responsible AI Lens, to realistic business scenarios",
+      "Match AWS AI services like Amazon Bedrock, SageMaker AI and Amazon Quick to business needs at a strategic level",
+      "Eliminate distractors with confidence by recognizing the keyword patterns behind correct business reasoning"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 5,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 6,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 6,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 5,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 5,
+        "duration": "1.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Solutions Architect with over 12 years of experience in software development and system architecture, working on large scale projects with a focus on AWS, Generative AI and cloud native architecture.\n\nOn Udemy, I've already reached over 20,000 students, with an average rating of 4.7 stars and thousands of AWS certification passes, the result of a methodology built by someone who lives the technology in day to day corporate practice, not just in theory.\n\nMy approach is practical and direct, every course is structured to turn complex AWS, Generative AI, Python and Software Architecture concepts into knowledge you can apply right away.\n\nMy courses come with a well structured curriculum, complete support material for every lesson and detailed guides for every hands on lab.\n\nMy practice exams are the most realistic on the market, intentionally built one notch harder than the real exam so you arrive on test day more than ready. Every question includes a glossary, use cases and review context to make the content truly stick.\n\nIf you want to learn from someone who uses what they teach, join me on this journey.\n\nPT-BR\n\nArquiteto de Soluções com mais de 12 anos de experiência em desenvolvimento e arquitetura de sistemas, atuando em projetos de larga escala com foco em AWS, Generative AI e arquitetura cloud native.\n\nNa Udemy, já impactei mais de 20.000 alunos, com avaliação média de 4.7 estrelas e milhares de aprovações em certificações AWS, resultado de uma metodologia construída por quem vive a tecnologia no dia a dia corporativo, não apenas na teoria.\n\nMinha abordagem é prática e direta, cada curso é estruturado para transformar conceitos complexos de AWS, Generative AI, Python e Arquitetura de Software em conhecimento aplicável imediatamente.\n\nOs cursos contam com grade bem estruturada, material de apoio completo em todas as aulas e roteiros detalhados para cada laboratório prático.\n\nOs simulados são os mais realistas do mercado, desenvolvidos intencionalmente um degrau acima da prova real para garantir que você chegue no dia do exame mais do que preparado. Cada questão inclui glossário, casos de uso e contexto de revisão para fixar o conteúdo de verdade.\n\nSe você quer aprender com quem usa o que ensina, conte comigo nessa jornada.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
+    },
+    "faq": [
+      {
+        "q": "Is [Practice Exams] AWS AI Business Strategist AIB-C01 suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 3,501 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ]
+  },
+  {
+    "title": "Forward Deployed Engineer: GenAI, Agentic AI, RAG & MCP",
+    "slug": "forward-deployed-engineer-genai-agentic-ai-rag-mcp",
+    "provider": "Udemy",
+    "category": "IT & Software",
+    "categorySlug": "it-software",
+    "instructor": "Skill Surger",
+    "instructorSlug": "skill-surger",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/345229671_b699.jpg",
+    "rating": 4.9,
+    "reviews": 7,
+    "level": "All level",
+    "duration": "24 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Build production GenAI apps: Python, RAG, AI agents, MCP, security, evals and 2 portfolio capstone projects.",
+    "image": "https://i.udemycdn.com/course/480x270/7361879_af4f_2.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7361879&u=https%3A%2F%2Fwww.udemy.com%2Fai-forward-deployed-engineer-extensive-program&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 150,
+    "sections": 18,
+    "lectures": 164,
+    "access": "Access",
+    "summary": "This course contains the use of artificial intelligence.Become a Forward Deployed AI Engineer. Build production Generative AI apps with Python, RAG, AI agents, MCP and A2A, then secure, evaluate and deploy them for the enterprise. This 22.5-hour program takes you from GenAI foundations to two portfolio-ready FDE capstone projects - no prior AI experience needed.Starting with essential foundations in Python, APIs, cloud computing, machine learning, and deep learning, you will progressively explore Large Language Model (LLM) architectures, transformer fundamentals, tokenization, embeddings, context engineering, and prompt optimization.You will learn to build sophisticated Retrieval-Augmented Generation (RAG) applications, implement hybrid search and reranking strategies, work with vector databases, develop multimodal AI solutions, and customize models using techniques such as LoRA, QLoRA, and supervised fine-tuning.The course then advances into Agentic AI and autonomous systems, where you will design intelligent agents capable of reasoning, planning, using tools, maintaining memory, and executing complex workflows. You will explore modern interoperability approaches, including Model Context Protocol (MCP) and Agent-to-Agent (A2A) communication, to integrate AI agents with enterprise applications and services.Beyond development, you will gain practical experience with enterprise AI security, authentication, authorization, guardrails, evaluation frameworks, observability, LLMOps, inference optimization, scalability, latency reduction, and cost management.What makes this program distinctive is its emphasis on the complete Forward Deployed Engineering lifecycle.You will learn how to translate customer requirements into technical architectures, build proofs of concept, integrate solutions with enterprise infrastructure, evaluate production readiness, manage deployments, and demonstrate measurable business value.Throughout the course, you will apply your knowledg",
+    "requirements": "Basic programming knowledge in Python and familiarity with SQL, APIs and Git. A laptop or development environment capable of running Python and Docker. Willingness to debug real systems and work through hands-on engineering exercises.",
+    "learn": [
+      "Understand AI, especially Gen AI from beginner to advanced, in both conceptual and hands on way",
+      "Build production-ready Python services and REST/GraphQL APIs for AI applications.",
+      "Explain transformer and LLM internals well enough to make model, context and serving decisions.",
+      "In depth topics deep dive on Gen AI like RAG, Fine tuning, Agentic AI, long running agents, MCP/ A2A",
+      "Lead the FDE consulting lifecycle from technical discovery and architecture through UAT, ROI and executive handoff.",
+      "Secure GenAI applications with SSO, RBAC, PII controls, sandboxing, guardrails and prompt-injection defenses.",
+      "Optimize inference for latency, throughput and cost using caching, batching, quantization and parallelism.",
+      "Complete two portfolio-ready FDE capstone projects to showcase in job interviews and client pitches."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 21,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 24,
+        "duration": "3.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 27,
+        "duration": "4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 22,
+        "duration": "3.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 27,
+        "duration": "4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 20,
+        "duration": "2.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 23,
+        "duration": "3.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I am from the founding team of SkillSurger with 15 years of experience in IT field and focused in AI. I have 7 years experience in teaching 50k + learners. I have consulted large MNCs and Product companies in the field of Generative AI as a Head of Forward Deployed Engineers",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Forward Deployed Engineer: GenAI, Agentic AI, RAG & MCP suitable for beginners?",
+        "a": "Yes — it is rated \"All level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.9★ average from 7 students, our Udemy course reviews put it above most IT & Software alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through IT & Software",
+    "skipIf": "You already work professionally in IT & Software and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Beginning in Beekeeping: Start Your Very First Beehive!",
+    "slug": "beginning-in-beekeeping-start-your-very-first-beehive",
+    "provider": "Udemy",
+    "category": "Lifestyle",
+    "categorySlug": "lifestyle",
+    "instructor": "Thomas Carroll, PhD",
+    "instructorSlug": "thomas-carroll-phd",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/13156632_b61e.jpg",
+    "rating": 4.8,
+    "reviews": 906,
+    "level": "All level",
+    "duration": "12 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Step by step instruction on getting started in beekeeping for beginners",
+    "image": "https://i.udemycdn.com/course/480x270/2753442_54b2_3.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.2753442&u=https%3A%2F%2Fwww.udemy.com%2Fbeginning-in-beekeeping&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 4446,
+    "sections": 9,
+    "lectures": 95,
+    "access": "Akses",
+    "summary": "“Start before you’re ready.” — Steven PressfieldStart beekeeping today!  This course will introduce you to the wonderful topic of keeping bees. The aim is to keep bees in a simple, low cost, natural and enjoyable way.  You will learn about conventional frame hive beekeeping.  You will also learn about top bar beekeeping and why you should consider keeping your bees in a top bar hive.  You will learn about bees.  You will learn how to make your own hive, where to source bees and how to manage the bees in the hive.  You will learn how to harvest and extract the delicious honey and package and label your honey for sale.You will learn about beeswax.  You will learn how to render wax combs into wax blocks.  You will learn how to filter your wax and use it to make simple candles and beeswax polish.  The course will take you right through the whole process from the timber in your shed to building the hive.  Then on to getting bees, managing then bees to harvesting and packing the honey and using the beeswax.  By the end of this course and associated assignments you will be a beekeeper!    The course contains over 11.5 hours of video lectures and practical demonstrations and is organised into the following sections:In Section One we introduce this course and beekeeping. We considered issues such as how to get the most from the course, who can become a beekeeper, the benefits of bees and beekeeping and the challenges in starting any new project.In Section Two we look at the broad approaches to beekeeping and help you identify which approach might interest you.Section Three look at the bee colony and the occupants of the hive. We also looked at the life cycle of the honeybee and the beekeeping year.Section Four looks at types of bee hives and other beekeeping equipment. There were a number of activ",
+    "requirements": "The course is designed to be understandable by the complete beginner An interest in learning different ways to keep bees An interest in simple, low cost beekeeping An interest in producing your own wonderful, high quality bee products for sale or home consumption An interest in bees and the natural environment An interest in doing your bit to protect bees, enhance biodiversity and the natural environment",
+    "learn": [
+      "Where to set up your apiary",
+      "How to get your hive occupied with bees",
+      "How to manage bees in your hive",
+      "How to harvest, extract and pack you own delicious honey",
+      "How to extract beeswax and make simple candles and beeswax polish",
+      "What beekeeping is all about",
+      "The benefits of keeping bees in a top bar hive and frame hives",
+      "How to make your own top bar hive"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 12,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 18,
+        "duration": "2.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 11,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 14,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 17,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 11,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 12,
+        "duration": "1.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hi, I’m Dr. Thomas Carroll, author of Future Skills 2030, and I help learners understand how technology, work, and society are changing — and develop the skills needed to adapt and thrive.\n\nMuch of my work centres on two connected questions:\n\nWhat is changing?\nAI, automation, emerging technologies, new ways of working, and wider economic and social change.\n\nWhat skills will we need in response?\nCritical thinking, creativity, adaptability, problem-solving, futures thinking, resilience, and lifelong learning.\n\nMy aim is not simply to describe the future, but to help learners understand what change means for them and what they can practically do about it.\n\nWhy Learn with Me?\n\nI bring a broad, cross-disciplinary perspective spanning future skills, emerging technology, entrepreneurship, sustainability, agriculture, career development, and futures thinking.\n\nMy academic background includes:\n\nBSc Agricultural Science — University College Dublin\n\nMSc Entrepreneurship — University of Stirling\n\nMSc Environmental Science — University College Dublin\n\nPhD Rural Development — University College Dublin\n\nI also hold professional certifications in Career Navigation, Futures Thinking, and Climate Change Education.\n\nThis combination allows me to look beyond individual technologies or trends and explore how technological, economic, environmental, and social changes connect.\n\nFuture Skills & the Changing World of Work\n\nMy flagship course, Future Skills: Emerging Technologies & Career Strategy, explores how learners can prepare for a rapidly changing world.\n\nTopics include:\n\n✅ AI, automation, and emerging technologies\n✅ The changing future of work\n✅ Critical, creative, and strategic thinking\n✅ Adaptability and problem-solving\n✅ Career resilience and self-directed development\n✅ Futures thinking and lifelong learning\n\nThe goal is simple: to help you understand what is changing, what it means for you, and how you can respond.\n\nBeekeeping, Sustainability & Practical Skills\n\nI also teach courses in beekeeping and sustainability, drawing on my background in agricultural and environmental science.\n\nThese courses reflect another important part of my teaching philosophy: learning by doing.\n\nBeekeeping develops observation, problem-solving, adaptability, patience, environmental awareness, and an understanding of complex natural systems. So although it may seem very different from studying AI or the future of work, it shares an important theme with my other courses:\n\nlearning how to understand change, work with complexity, and become more capable and resilient.\n\nMy Approach to Learning\n\nI believe learning should be:\n\nPractical — useful beyond the classroom\nRelevant — connected to the world we live in\nReflective — encouraging you to think for yourself\nAdaptable — helping you continue learning as circumstances change\n\nWhether you’re here to understand emerging technology, future-proof your career, develop future skills, or learn the practical craft of beekeeping, I hope my courses help you become a more confident and capable lifelong learner.\n\nSee you in class,\nDr. Thomas Carroll",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Beginning in Beekeeping: Start Your Very First Beehive! suitable for beginners?",
+        "a": "Yes — it is rated \"All level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.8★ average from 906 students, our Udemy course reviews put it above most Lifestyle alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through Lifestyle",
+    "skipIf": "You already work professionally in Lifestyle and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Management Skills - Team Leadership Skills Masterclass",
+    "slug": "management-skills-team-leadership-skills-masterclass",
+    "provider": "Udemy",
+    "category": "Management",
+    "categorySlug": "management",
+    "instructor": "Mark Timberlake",
+    "instructorSlug": "mark-timberlake",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/8358994_1ec5.jpg",
+    "rating": 4.6,
+    "reviews": 31303,
+    "level": "all level",
+    "duration": "22.5 hours",
+    "updated": "10/2026",
+    "bestseller": true,
+    "description": "Leadership & Management Skills - Change Management- Lean BPM Management Skills - Team Management - Team Building",
+    "image": "https://i.udemycdn.com/course/480x270/1415934_7a83.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.1415934&u=https%3A%2F%2Fwww.udemy.com%2Fleadership-and-lean-management-masterclass&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 99687,
+    "sections": 17,
+    "lectures": 310,
+    "access": "Access",
+    "summary": "Leadership Skills Training - Lean Management - Culture Change - People ManagementDo you want to become a better manager?Do you want to improve your leadership skills?This course will help you master core management skills, it is designed for complete beginners, it will you help you overcome challenges that hold you back and help you climb the ladder of success.You will learn core leadership and people skills and you will learn how to master LEAN Business Process Management.Everything you need to further your Managerial Career!This course had been developed and delivered by Stephen Mather - A leading UK management change consultant, trainer, coach and psychologist. He will guide you through the tools and techniques that you need to become a successful manager.So don't delay - start your journey today!Topics Covered In The Course:Module 1 - Management And Leadership:An Introduction To Management And LeadershipYour Management PhilosophyBeing A LEAN ManagerThe Forever Learning ManagerModule 2 - Navigating The CourseOverview Of The CourseWho Am I?Features Of The CourseApplying What You LearnThe Learning CycleModule 3 - Becoming An Influential ManagerWhat It Means To Be InfluentialThe Behaviour Of Influential PeopleADISCOWhy You Need A VisionWorking With SMART GoalsBetter Than Buy InInfluencing AttitudesCommunicating To InfluenceHow Do Influential People Talk?Body LanguageInfluence Through ListeningInfluencing Your Peers And BossDealing With Difficult PeopleOpposing Goals Or Narrative",
+    "requirements": "You should have a basic experience as a manager. You need access to the internet. You must be willing to put some time and effort into the course and apply yourself.",
+    "learn": [
+      "This course will help you become a successful team manager.",
+      "This course will help you understand how to manage people and get what you want from your team.",
+      "This course will help you gain good management skills so you can progress in your career.",
+      "You will learn the core skills of management.",
+      "Learn how to influence the people around you.",
+      "Understand what a data guided manager is.",
+      "Understand how to build a team.",
+      "You will understand how to use LEAN tools and techniques to deliver results.",
+      "You will learn how to manage culture change."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 34,
+        "duration": "2.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 48,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 43,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 42,
+        "duration": "3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 53,
+        "duration": "3.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 40,
+        "duration": "2.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 50,
+        "duration": "3.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 10/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "A graduate member of the British Psychological Society, with a Degree in Psychology and a Masters in Organizational Psychology, a qualified Executive Coach and Trainer as well as an experienced lean practitioner with Lean Six Sigma Black Belt certification through an IASSC approved programme, Stephen works with businesses to help them improve  what they do and how they do it.\n\nHe has spent 16 years within manufacturing, first as the Group Training and Development Manager for a major UK food manufacturer and over the last 9 years as business owner and Director of ProPeC® a consultancy that specialises in helping businesses improve their processes, develop their people and generate a culture that supports the right behaviour.\n\nHe contributes to operational excellence programmes through managing projects, carrying out current state analyses, delivering training and educational programmes and coaching of different types.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Management Skills - Team Leadership Skills Masterclass suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 10/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 31,303 students, our Udemy course reviews put it above most Management alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through Management",
+    "skipIf": "You already work professionally in Management and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "Claude Certified Architect Foundations Practice Exams 2026",
     "slug": "claude-certified-architect-foundations-practice-exams-2026",
     "provider": "Udemy",
@@ -17,7 +563,7 @@
     "bestseller": true,
     "description": "360 CCAR-F scenario questions, 6 timed practice exams, detailed explanations and official references to Anthropic docs!",
     "image": "https://i.udemycdn.com/course/480x270/7321703_44d6_3.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3939309/39854?prodsku=course.7321703&u=https%3A%2F%2Fwww.udemy.com%2Fclaude-certified-architect-ccaf-tests&intsrc=APIG_34565",
+    "url": "https://trk.udemy.com/c/8130614/3939309/39854?prodsku=course.7321703&u=https%3A%2F%2Fwww.udemy.com%2Fclaude-certified-architect-ccaf-tests&intsrc=APIG_34565",
     "language": "English",
     "certificate": true,
     "students": 459,
@@ -125,7 +671,7 @@
     "bestseller": true,
     "description": "Start Your Journey: Core Concepts to Deploy AI in Enterprise Environments",
     "image": "https://i.udemycdn.com/course/480x270/7271911_9967_8.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7271911&u=https%3A%2F%2Fwww.udemy.com%2Fforward-deployment-ai-engineer&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7271911&u=https%3A%2F%2Fwww.udemy.com%2Fforward-deployment-ai-engineer&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 1767,
@@ -246,7 +792,7 @@
     "bestseller": true,
     "description": "Pass the AWS Certified AI Business Strategist (AIB-C01) exam. 340 unique high-quality test questions.",
     "image": "https://i.udemycdn.com/course/480x270/7331909_58bf.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7331909&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-ai-business-strategist-practice-exams&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7331909&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-ai-business-strategist-practice-exams&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 3000,
@@ -353,13 +899,18 @@
     "bestseller": true,
     "description": "Get a healthy body and wallet - Vertical Farming techniques for Gardeners and Entrepreneurs (Hydroponics and Soil)",
     "image": "https://i.udemycdn.com/course/480x270/1572784_1992.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.1572784&u=https%3A%2F%2Fwww.udemy.com%2Fgrowing-microgreens-for-business-and-pleasure&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.1572784&u=https%3A%2F%2Fwww.udemy.com%2Fgrowing-microgreens-for-business-and-pleasure&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 14864,
     "sections": 11,
     "lectures": 48,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "Growing Microgreens for Business and Pleasure is a all level Business course from Alex Field on Udemy. It runs about 1.5 hours, and holds 4.7★ from 3,465 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Business",
+    "skipIf": "You already work professionally in Business and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Have a passion for healthy food Have access to some space - indoors or on a windowsill Have an interest in the future of food!",
     "learn": [
       "Grow one of the world's most profitable legal cash crops - using shelves and simple equipment",
@@ -424,7 +975,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -439,12 +995,7 @@
         "q": "Is it worth the price?",
         "a": "At $49 with a 4.7★ average from 3,465 students, our Udemy course reviews put it above most Business alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "Growing Microgreens for Business and Pleasure is a all level Business course from Alex Field on Udemy. It runs about 1.5 hours, and holds 4.7★ from 3,465 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Business",
-    "skipIf": "You already work professionally in Business and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Farming Business Finances",
@@ -464,13 +1015,18 @@
     "bestseller": true,
     "description": "farm working capital, farm financial ratios, How to reduce farm production cost, Financing for agriculture etc.",
     "image": "https://i.udemycdn.com/course/480x270/4678766_7720.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.4678766&u=https%3A%2F%2Fwww.udemy.com%2Ffarming-business-finances&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.4678766&u=https%3A%2F%2Fwww.udemy.com%2Ffarming-business-finances&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 4270,
     "sections": 13,
     "lectures": 51,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "Farming Business Finances is a all level Lifestyle course from Eric Yeboah on Udemy. It runs about 2.5 hours, and holds 4.6★ from 1,776 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Lifestyle",
+    "skipIf": "You already work professionally in Lifestyle and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Desire to learn more about farming finances No special requirement",
     "learn": [
       "Farming working capital",
@@ -542,7 +1098,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -557,12 +1118,7 @@
         "q": "Is it worth the price?",
         "a": "At $84 with a 4.6★ average from 1,776 students, our Udemy course reviews put it above most Lifestyle alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "Farming Business Finances is a all level Lifestyle course from Eric Yeboah on Udemy. It runs about 2.5 hours, and holds 4.6★ from 1,776 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Lifestyle",
-    "skipIf": "You already work professionally in Lifestyle and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Management Skills Masterclass: Lead Teams with Confidence",
@@ -581,13 +1137,18 @@
     "updated": "10/2026",
     "description": "Learn management skills, leadership essentials, communication, motivation, delegation, and manager training.",
     "image": "https://i.udemycdn.com/course/480x270/6932663_be54_3.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6932663&u=https%3A%2F%2Fwww.udemy.com%2Fmanagement-skills-masterclass&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.6932663&u=https%3A%2F%2Fwww.udemy.com%2Fmanagement-skills-masterclass&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 3315,
     "sections": 10,
     "lectures": 55,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "Management Skills Masterclass: Lead Teams with Confidence is a all level Management Skills course from Mind Stack on Udemy. It runs about 12.5 hours, and holds 4.8★ from 97 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Management Skills",
+    "skipIf": "You already work professionally in Management Skills and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "No prior management experience is required. You will learn everything step by step.",
     "learn": [
       "Build self awareness, emotional intelligence, and resilience to lead with clarity and confidence.",
@@ -652,7 +1213,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -667,12 +1233,7 @@
         "q": "Is it worth the price?",
         "a": "At $19 with a 4.8★ average from 97 students, our Udemy course reviews put it above most Management Skills alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "Management Skills Masterclass: Lead Teams with Confidence is a all level Management Skills course from Mind Stack on Udemy. It runs about 12.5 hours, and holds 4.8★ from 97 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Management Skills",
-    "skipIf": "You already work professionally in Management Skills and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents",
@@ -692,13 +1253,18 @@
     "bestseller": true,
     "description": "Become an LLM Engineer in 8 weeks: Build and deploy 8 LLM apps, mastering Generative AI, RAG, LoRA and AI Agents.",
     "image": "https://i.udemycdn.com/course/480x270/6100015_1979_5.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6100015&u=https%3A%2F%2Fwww.udemy.com%2Fllm-engineering-master-ai-and-large-language-models&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.6100015&u=https%3A%2F%2Fwww.udemy.com%2Fllm-engineering-master-ai-and-large-language-models&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 363796,
     "sections": 8,
     "lectures": 210,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents is a all level Data Science course from Ligency ​ on Udemy. It runs about 33.5 hours, and holds 4.6★ from 44,145 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Data Science",
+    "skipIf": "You already work professionally in Data Science and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Familiarity with Python. This course will not cover Python basics and is completed in Python. A PC with an internet connection is required. Either Mac (Linux) or Windows. We recommend that you allocate around $5 for API costs to work with frontier models. However, you can complete the course using open-source models if you prefer.",
     "learn": [
       "Familiarity with Python. This course will not cover Python basics and is completed in Python.",
@@ -761,7 +1327,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -776,12 +1347,7 @@
         "q": "Is it worth the price?",
         "a": "At $19 with a 4.6★ average from 44,145 students, our Udemy course reviews put it above most Data Science alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents is a all level Data Science course from Ligency ​ on Udemy. It runs about 33.5 hours, and holds 4.6★ from 44,145 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Data Science",
-    "skipIf": "You already work professionally in Data Science and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Complete Java & Spring Boot with Spring AI, RAG & AI Agents",
@@ -801,7 +1367,7 @@
     "bestseller": true,
     "description": "Go from Java basics to Spring Boot microservices, Spring AI, RAG, AI agents and MCP, then deploy with Docker and AWS",
     "image": "https://i.udemycdn.com/course/480x270/7277965_3033.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7277965&u=https%3A%2F%2Fwww.udemy.com%2Fcomplete-java-spring-boot-with-spring-ai-rag-ai-agents&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7277965&u=https%3A%2F%2Fwww.udemy.com%2Fcomplete-java-spring-boot-with-spring-ai-rag-ai-agents&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 630,
