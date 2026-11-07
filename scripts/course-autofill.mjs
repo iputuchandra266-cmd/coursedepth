@@ -8,6 +8,7 @@ export function autofill(c) {
   if (!c || !c.slug) return c;
   const r = rnd(Math.abs(hash(c.slug)));
   const H = hoursOf(c.duration);
+  if (empty(c.duration)) c.duration = `${H}h total`;
   const rating = Number(c.rating) || 4.5;
   const reviews = Number(c.reviews) || 500;
   const cat = c.category || "online courses";

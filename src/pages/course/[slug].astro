@@ -16,6 +16,7 @@ const fallback = courses.filter(c => c.slug !== course.slug).slice(0,3);
 const rel = (others.length ? others : fallback);
 const revs = reviewsFor(course.slug!);
 const c = course;
+const duration = String(c.duration ?? "").replace(" total", "") || "Self-paced";
 const pct = c.ratingBreakdown ?? {};
 const q = c.quality ?? {};
 const cleanFaq = c.faq?.map((f) => ({
@@ -24,7 +25,7 @@ const cleanFaq = c.faq?.map((f) => ({
 }));
 const t = (c.title.length > 38 ? c.title.slice(0, 38).trim() + "…" : c.title);
 const title = `${t} Review | CourseDepth`;
-const desc = `${c.title}: ${c.rating}★ from ${c.reviews.toLocaleString()} students, ${c.duration.replace(" total", "")}. Curriculum, pros, cons & verdict.`.slice(0, 158);
+const desc = `${c.title}: ${c.rating}★ from ${c.reviews.toLocaleString()} students, ${duration}. Curriculum, pros, cons & verdict.`.slice(0, 158);
 const ld: Record<string, unknown> = {
   "@context": "https://schema.org",
   "@type": "Course",
@@ -83,7 +84,7 @@ const faqLd = cleanFaq?.length ? { "@context": "https://schema.org", "@type": "F
     </div>
     <div class="review"><h3>📘 What you will learn</h3><ul>{c.learn?.map(l => <li>{l}</li>)}</ul></div>
     <div class="review"><h3>📑 Course content</h3>
-      <p>{c.sections} sections · {c.lectures} lectures · {c.duration.replace(" total","")} of video · updated {c.updated}</p>
+      <p>{c.sections} sections · {c.lectures} lectures · {duration} of video · updated {c.updated}</p>
       <ol>{c.curriculum?.map(s => <li><b>{s.title}</b> — {s.lectures} lectures · {s.duration}</li>)}</ol>
     </div>
     <div class="review"><h3>🎯 Who it is for</h3><p><b>Suits:</b> {c.suits}.</p><p><b>Needs:</b> {c.requirements}</p></div>
@@ -122,7 +123,7 @@ const faqLd = cleanFaq?.length ? { "@context": "https://schema.org", "@type": "F
     <a href={u(`/review-course?course=${c.slug}`)} class="btn-review" style="display:flex;justify-content:center;margin-top:10px">Write a review</a>
     <hr />
     <div style="font-size:14px;display:grid;gap:6px">
-      <div>⏱ Video Duration: <b>{c.duration.replace(" total","")}</b></div>
+      <div>⏱ Video Duration: <b>{duration}</b></div>
       <div>🏢 Provider: <b>{c.provider}</b></div>
       <div>🔄 Updated: <b>{c.updated}</b></div>
       <div>📶 Level: <b>{c.level}</b></div>

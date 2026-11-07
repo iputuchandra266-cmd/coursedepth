@@ -1,0 +1,1376 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Stars from "../components/Stars.astro";
+import {
+  vouchers,
+  featuredVoucher,
+  voucherStats,
+  certificationVoucherUrl,
+  certificationVoucherUrlAlt,
+} from "../data/vouchers";
+import { u } from "../lib/u";
+
+const featured = featuredVoucher;
+const deals = vouchers.filter((v) => v.id !== featured?.id);
+
+const money = (n: number) => (Number.isInteger(n) ? `$${n}` : `$${n.toFixed(2)}`);
+const updatedLabel = new Date().toLocaleDateString("en-US", {
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+});
+
+const filters = [
+  { k: "all", label: "All deals" },
+  { k: "saving", label: "Biggest savings" },
+  { k: "under20", label: "Under $20" },
+  { k: "rated", label: "4.5★ & up" },
+  { k: "cert", label: "Certificate" },
+  { k: "beginner", label: "Beginner friendly" },
+  { k: "fresh", label: "Updated 2026" },
+];
+
+const faqs = [
+  {
+    q: "Are these course vouchers free?",
+    a: "Yes. CourseDepth does not charge for vouchers or deal links. When you claim a deal you go straight to the provider, and the price shown there is the price you pay.",
+  },
+  {
+    q: "Do I need a coupon code?",
+    a: "Usually not. Most provider discounts are applied automatically through the link, so there is no code to type. If a real code is available for a course, it appears in the voucher card with a copy button.",
+  },
+  {
+    q: "Why do course prices change so often?",
+    a: "Online course providers run frequent promotions, regional pricing and limited-time launches. We check the prices shown here regularly, but the final price at checkout is always the one that counts.",
+  },
+  {
+    q: "How does CourseDepth choose which deals to list?",
+    a: "We start with the courses we already review and only list deals with a clear price. Deals are ordered by real saving first, then student rating and review volume — providers cannot pay for a better position.",
+  },
+  {
+    q: "Are these courses actually worth buying?",
+    a: "A discount is not a reason to buy on its own. Read the course review, check the rating, review count, last update date and curriculum, then decide whether it matches your goal. Our how-we-rate guide explains the checks we use.",
+  },
+  {
+    q: "Do you sell certification exam vouchers?",
+    a: "We do not sell vouchers ourselves. We link to Udemy's certification voucher page, where you can compare official exam vouchers for AWS, Azure, CompTIA and other certifications. Always confirm the exam, region and validity period before buying.",
+  },
+  {
+    q: "How often is this page updated?",
+    a: `Prices and links are checked regularly, with the latest review on ${updatedLabel}. If a deal has expired, the provider page will show the current price instead.`,
+  },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    },
+    {
+      "@type": "ItemList",
+      name: "Course vouchers and deals",
+      numberOfItems: vouchers.length,
+      itemListElement: vouchers.slice(0, 20).map((v, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": "Course",
+          name: v.course.title,
+          url: `https://coursedepth.com/course/${v.course.slug}/`,
+          provider: { "@type": "Organization", name: v.course.provider },
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: v.course.rating,
+            reviewCount: v.course.reviews,
+          },
+          offers: {
+            "@type": "Offer",
+            price: v.price,
+            priceCurrency: "USD",
+            availability: "https://schema.org/InStock",
+            url: v.course.url ?? `https://coursedepth.com/course/${v.course.slug}/`,
+          },
+        },
+      })),
+    },
+  ],
+};
+---
+
+<Layout
+  title={`Course Vouchers & Deals 2026 — Up to ${voucherStats.maxDiscount}% Off | CourseDepth`}
+  description={`${voucherStats.total} verified course vouchers and discounts, including ${voucherStats.under20} deals under $20. No fake codes — claim the deal and the price is applied at the provider.`}
+>
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+<Header />
+
+<!-- HERO -->
+<section class="vouchers-hero">
+  <div class="container">
+    <div class="vouchers-hero-grid">
+      <div class="hero-copy">
+        <span class="hero-eyebrow">🎟 CourseDepth vouchers</span>
+        <h1>The best course deals, <mark>already unlocked.</mark></h1>
+        <p class="lede">
+          Curated discounts on the online courses we review. No coupon hunting,
+          no expired codes — just a clear price and a direct link to the course.
+        </p>
+        <div class="hero-search-voucher">
+          <input
+            type="search"
+            id="voucherSearch"
+            placeholder="Search deals by course, topic or instructor…"
+            aria-label="Search vouchers"
+            autocomplete="off"
+          />
+        </div>
+        <a
+          class="hero-exam-link"
+          href={certificationVoucherUrl}
+          target="_blank"
+          rel="sponsored nofollow noopener"
+        >🎓 Looking for exam vouchers? AWS, Azure &amp; CompTIA →</a>
+        <div class="hero-stats">
+          <div class="hero-stat"><b>{voucherStats.total}</b><span>deals tracked</span></div>
+          <div class="hero-stat"><b>Up to {voucherStats.maxDiscount}%</b><span>off</span></div>
+          <div class="hero-stat"><b>{voucherStats.under20}</b><span>under $20</span></div>
+          <div class="hero-stat"><b>{voucherStats.rated45}</b><span>rated 4.5★+</span></div>
+        </div>
+      </div>
+
+      <div class="hero-ticket-wrap" aria-hidden="true">
+        <div class="hero-ticket">
+          <div class="ticket-top">
+            <span>COURSEDEPTH</span>
+            <span class="ticket-live"><i></i> LIVE DEAL</span>
+          </div>
+          <div class="ticket-discount">UP TO <b>{voucherStats.maxDiscount}%</b> OFF</div>
+          <p>Curated course vouchers, all in one place.</p>
+          <div class="ticket-perf"><span>✂</span></div>
+          <div class="ticket-bottom">
+            <div><small>NO CODE NEEDED</small><b>Tap. Claim. Learn.</b></div>
+            <div class="ticket-barcode"></div>
+          </div>
+        </div>
+        <span class="ticket-float ticket-float-a">✓ Prices checked</span>
+        <span class="ticket-float ticket-float-b">🔥 {voucherStats.total} deals</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="voucher-trust">
+  <div class="container voucher-trust-inner">
+    <span>✓ No fake coupon codes</span>
+    <span>✓ Prices last reviewed {updatedLabel}</span>
+    <span>✓ Direct links to the provider</span>
+    <span>✓ Some links earn us a commission</span>
+  </div>
+</div>
+
+<!-- FEATURED DEAL -->
+{featured && (
+  <section class="section spotlight-section">
+    <div class="container">
+      <div class="spotlight">
+        <div class="spotlight-media">
+          <img
+            src={u(featured.course.image ?? `/images/courses/${featured.course.slug}.svg`)}
+            alt={featured.course.title}
+            width="720"
+            height="405"
+            loading="eager"
+          />
+          <span class="spotlight-ribbon">Biggest saving</span>
+          <span class="spotlight-save">{featured.discount ? `−${featured.discount}%` : "TODAY"}</span>
+        </div>
+        <div class="spotlight-body">
+          <span class="eyebrow">Featured voucher</span>
+          <h2>{featured.course.title}</h2>
+          <p>{featured.course.description}</p>
+          <div class="spotlight-meta">
+            <Stars rating={featured.course.rating} reviews={featured.course.reviews} />
+            <span>{featured.course.provider}</span>
+            <span>{featured.course.level}</span>
+            <span>{featured.course.duration}</span>
+          </div>
+          <div class="spotlight-price">
+            <b>{money(featured.price)}</b>
+            {featured.oldPrice && <s>{money(featured.oldPrice)}</s>}
+            {featured.discount > 0 && <span>Save {money(featured.saving)} ({featured.discount}%)</span>}
+          </div>
+          <div class="spotlight-actions">
+            <a
+              class="btn-dark"
+              href={featured.course.url ?? u(`/course/${featured.course.slug}`)}
+              target={featured.course.url ? "_blank" : undefined}
+              rel={featured.course.url ? "sponsored nofollow noopener" : undefined}
+            >Claim this deal →</a>
+            <a class="btn-ghost" href={u(`/course/${featured.course.slug}`)}>Read the review</a>
+          </div>
+          <div class="spotlight-note">
+            <span class="note-dot"></span>
+            <span>
+              No code needed — the discount is applied through our link.
+              Price checked {updatedLabel}.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+)}
+
+<!-- CERTIFICATION VOUCHERS -->
+<section class="section cert-section">
+  <div class="container">
+    <div class="cert-banner">
+      <div class="cert-copy">
+        <span class="eyebrow" style="color:var(--yellow)">Official exam vouchers</span>
+        <h2>Certification exam vouchers, in one place</h2>
+        <p>
+          Looking for an exam voucher instead of a course deal? Udemy lists official
+          certification vouchers for AWS, Azure, CompTIA, Cisco and more — with the
+          current price and availability shown on their site.
+        </p>
+        <ul class="cert-points">
+          <li>AWS, Azure, CompTIA, Cisco and other IT exams</li>
+          <li>Official certification vouchers sold by Udemy</li>
+          <li>Compare the current price before you buy</li>
+        </ul>
+        <a
+          class="btn-dark"
+          href={certificationVoucherUrlAlt}
+          target="_blank"
+          rel="sponsored nofollow noopener"
+        >Browse certification vouchers →</a>
+      </div>
+
+      <div class="cert-art" aria-hidden="true">
+        <div class="cert-card">
+          <span class="cert-card-top">OFFICIAL VOUCHER</span>
+          <b>AWS</b>
+          <span>Certification exam</span>
+          <div class="cert-seal">✓</div>
+          <div class="cert-lines"><i></i><i></i><i></i></div>
+          <div class="cert-card-foot"><span>EXAM</span><span>VERIFIED</span></div>
+        </div>
+        <span class="cert-float">Save on your exam</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALL DEALS -->
+<section class="section" id="deals">
+  <div class="container">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">All vouchers</span>
+        <h2>{deals.length} more course deals</h2>
+        <p>Filter by what matters, then claim the price at the provider.</p>
+      </div>
+    </div>
+
+    <div class="deals-toolbar">
+      <div class="deal-filters" role="group" aria-label="Filter vouchers">
+        {filters.map((f, i) => (
+          <button
+            type="button"
+            class:list={["deal-filter", { active: i === 0 }]}
+            data-filter={f.k}
+          >{f.label}</button>
+        ))}
+      </div>
+      <label class="deal-sort">
+        Sort
+        <select id="dealSort">
+          <option value="featured">Best matches</option>
+          <option value="saving">Biggest saving</option>
+          <option value="price">Lowest price</option>
+          <option value="rating">Highest rated</option>
+          <option value="reviews">Most reviewed</option>
+        </select>
+      </label>
+    </div>
+
+    <p class="deals-count" id="dealsCount"><b>{deals.length}</b> deals available</p>
+
+    <div class="voucher-grid" id="voucherGrid">
+      {deals.map((v, i) => (
+        <article
+          class="voucher-card"
+          data-index={i}
+          data-title={(v.course.title + " " + v.course.instructor + " " + v.course.category + " " + v.course.provider).toLowerCase()}
+          data-discount={v.discount}
+          data-price={v.price}
+          data-rating={v.course.rating}
+          data-reviews={v.course.reviews}
+          data-cert={v.course.certificate ? "1" : "0"}
+          data-beginner={/beginner/i.test(v.course.level ?? "") ? "1" : "0"}
+          data-fresh={/2026/.test(v.course.updated ?? "") ? "1" : "0"}
+        >
+          <div class="voucher-media">
+            <a href={u(`/course/${v.course.slug}`)} aria-label={v.course.title}>
+              <img
+                src={u(v.course.image ?? `/images/courses/${v.course.slug}.svg`)}
+                alt={v.course.title}
+                width="640"
+                height="360"
+                loading="lazy"
+              />
+            </a>
+            <span class:list={["voucher-discount", { muted: !v.discount }]}>
+              {v.discount ? `−${v.discount}%` : "DEAL"}
+            </span>
+            <span class="voucher-provider">{v.course.provider}</span>
+          </div>
+
+          <div class="voucher-body">
+            <div class="voucher-cat">{v.course.category}</div>
+            <h3 class="voucher-title">
+              <a href={u(`/course/${v.course.slug}`)}>{v.course.title}</a>
+            </h3>
+            <div class="voucher-meta">
+              <Stars rating={v.course.rating} reviews={v.course.reviews} />
+              <span>{v.course.level}</span>
+            </div>
+          </div>
+
+          <div class="voucher-foot">
+            <div class="voucher-price-row">
+              <div class="voucher-price">
+                {money(v.price)}
+                {v.oldPrice && <s class="voucher-old">{money(v.oldPrice)}</s>}
+              </div>
+              <span class="voucher-saving">
+                {v.discount ? `Save ${money(v.saving)}` : "Best price"}
+              </span>
+            </div>
+            <div class="voucher-redeem">
+              {v.code ? (
+                <button
+                  class="voucher-code code-button"
+                  type="button"
+                  data-copy={v.code}
+                  title={`Copy code ${v.code}`}
+                >{v.code} <span>Copy</span></button>
+              ) : (
+                <span class="voucher-code auto">No code needed</span>
+              )}
+              <a
+                class="voucher-btn"
+                href={v.course.url ?? u(`/course/${v.course.slug}`)}
+                target={v.course.url ? "_blank" : undefined}
+                rel={v.course.url ? "sponsored nofollow noopener" : undefined}
+              >Claim →</a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <div class="deals-empty" id="dealsEmpty">
+      <span>🔍</span>
+      <h3>No deals match that search</h3>
+      <p>Try a different keyword or clear the filters to see every voucher.</p>
+    </div>
+
+    <div class="deals-more-wrap">
+      <button class="btn-outline" id="showMore" type="button">Show more deals</button>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO REDEEM -->
+<section class="section soft">
+  <div class="container">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">How it works</span>
+        <h2>Redeem a voucher in three steps</h2>
+        <p>No account with CourseDepth needed. No coupon code to hunt for.</p>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <h3>Pick your deal</h3>
+        <p>Filter by saving, price or rating, then open the course review if you want the full breakdown before buying.</p>
+      </div>
+      <div class="step">
+        <h3>Claim the voucher</h3>
+        <p>Tap “Claim” and we send you to the provider with the current offer attached. If a real code is listed, copy it first.</p>
+      </div>
+      <div class="step">
+        <h3>Check the checkout price</h3>
+        <p>The provider’s checkout is always the final word. Confirm the price, currency and what is included before you enrol.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" aria-label="Voucher questions">
+  <div class="container">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">FAQ</span>
+        <h2>Course voucher questions</h2>
+        <p>What the deals are, how they work and what to check before you buy.</p>
+      </div>
+    </div>
+    <div class="voucher-faq">
+      {faqs.map((f) => (
+        <details class="faq-d">
+          <summary>{f.q}</summary>
+          <p class="faq-a">{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="container">
+    <div class="cta-inner">
+      <div>
+        <h2>A deal is only good if the course is right</h2>
+        <p>
+          Read the student rating, review count, update date and curriculum before you
+          spend anything. Our reviews show all four on one page — no provider can pay
+          to change the score.
+        </p>
+      </div>
+      <a class="btn-dark" href={u("/courses")}>Browse all courses →</a>
+    </div>
+  </div>
+</section>
+
+<Footer />
+</Layout>
+
+<style>
+  /* ===== Hero ===== */
+  .vouchers-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 54px 0 46px;
+    color: #fff;
+    background:
+      radial-gradient(900px 480px at 82% 8%, rgba(255, 201, 0, 0.18), transparent 60%),
+      radial-gradient(700px 420px at 2% 100%, rgba(106, 52, 211, 0.65), transparent 65%),
+      linear-gradient(135deg, var(--purple-deep) 0%, #2a1a6b 52%, var(--purple) 100%);
+  }
+  .vouchers-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.32;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.16) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .vouchers-hero .container { position: relative; z-index: 1; }
+  .vouchers-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 34px;
+    align-items: center;
+  }
+  @media (min-width: 900px) {
+    .vouchers-hero-grid { grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: 44px; }
+  }
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px 14px;
+    border: 1px solid rgba(255, 201, 0, 0.38);
+    border-radius: 999px;
+    background: rgba(255, 201, 0, 0.13);
+    color: #ffe27a;
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .vouchers-hero h1 {
+    margin: 16px 0 14px;
+    color: #fff;
+    font-size: clamp(2.2rem, 1.5rem + 3vw, 3.5rem);
+    line-height: 1.04;
+    letter-spacing: -0.025em;
+  }
+  .vouchers-hero h1 mark {
+    padding: 0 0.08em;
+    color: #fff;
+    background: linear-gradient(transparent 58%, rgba(255, 201, 0, 0.5) 58%);
+  }
+  .vouchers-hero .lede {
+    max-width: 58ch;
+    margin: 0 0 22px;
+    color: #d8d2f3;
+    font-size: clamp(1rem, 0.95rem + 0.35vw, 1.16rem);
+    line-height: 1.65;
+  }
+  .hero-search-voucher {
+    position: relative;
+    max-width: 560px;
+    padding: 6px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 20px 44px -20px rgba(0, 0, 0, 0.65);
+  }
+  .hero-search-voucher::before {
+    content: "⌕";
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    z-index: 1;
+    color: var(--faint);
+    font-size: 21px;
+    line-height: 1;
+    transform: translateY(-50%);
+  }
+  .hero-search-voucher input {
+    width: 100%;
+    height: 48px;
+    padding: 0 16px 0 44px;
+    border: 0;
+    border-radius: 11px;
+    background: transparent;
+    color: var(--ink);
+    font: inherit;
+    font-size: 15px;
+    outline: none;
+  }
+  .hero-search-voucher:focus-within { box-shadow: 0 0 0 4px rgba(255, 201, 0, 0.32), 0 20px 44px -20px rgba(0, 0, 0, 0.65); }
+  .hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 0;
+    margin-top: 24px;
+  }
+  .hero-stat { display: flex; flex-direction: column; padding-right: 22px; }
+  .hero-stat + .hero-stat { padding-left: 22px; border-left: 1px solid rgba(255, 255, 255, 0.18); }
+  .hero-stat b {
+    color: #fff;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .hero-stat span {
+    margin-top: 5px;
+    color: #bfb6e8;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+  @media (max-width: 520px) {
+    .hero-stat { padding-right: 14px; }
+    .hero-stat + .hero-stat { padding-left: 14px; }
+    .hero-stat b { font-size: 1.25rem; }
+  }
+  .hero-exam-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    padding-bottom: 2px;
+    border-bottom: 1px dashed rgba(255, 226, 122, 0.55);
+    color: #ffe27a;
+    font-size: 0.86rem;
+    font-weight: 700;
+  }
+  .hero-exam-link:hover { color: #fff; border-color: #fff; }
+
+  /* Decorative ticket */
+  .hero-ticket-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 18px 0;
+  }
+  .hero-ticket {
+    position: relative;
+    width: min(100%, 420px);
+    padding: 24px 26px 20px;
+    border-radius: 20px;
+    background: #fff;
+    color: var(--ink);
+    box-shadow: 0 34px 80px -24px rgba(0, 0, 0, 0.72);
+    transform: rotate(-4.5deg);
+  }
+  .hero-ticket::after {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border: 1px dashed rgba(19, 26, 58, 0.12);
+    border-radius: 14px;
+    pointer-events: none;
+  }
+  .ticket-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    color: var(--faint);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+  }
+  .ticket-live {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--green);
+    letter-spacing: 0.06em;
+  }
+  .ticket-live i {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 0 4px rgba(21, 128, 61, 0.12);
+  }
+  .ticket-discount {
+    margin-top: 18px;
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+  }
+  .ticket-discount b {
+    display: inline-block;
+    margin: 0 2px;
+    color: var(--purple);
+    font-size: clamp(2.6rem, 2rem + 3vw, 4rem);
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+  }
+  .hero-ticket p { margin: 8px 0 0; color: var(--muted); font-size: 0.9rem; }
+  .ticket-perf {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0 16px;
+    color: var(--line-strong);
+    font-size: 1rem;
+  }
+  .ticket-perf::before,
+  .ticket-perf::after {
+    content: "";
+    flex: 1;
+    border-top: 1px dashed var(--line-strong);
+  }
+  .ticket-bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .ticket-bottom small {
+    display: block;
+    color: var(--faint);
+    font-size: 0.64rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+  }
+  .ticket-bottom b { display: block; margin-top: 2px; font-family: var(--font-display); font-size: 1.02rem; }
+  .ticket-barcode {
+    width: 108px;
+    height: 38px;
+    flex: none;
+    border-radius: 3px;
+    opacity: 0.82;
+    background: repeating-linear-gradient(
+      90deg,
+      var(--ink) 0 2px,
+      transparent 2px 5px,
+      var(--ink) 5px 6px,
+      transparent 6px 9px
+    );
+  }
+  .ticket-float {
+    position: absolute;
+    z-index: 2;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: var(--yellow);
+    color: var(--ink);
+    font-size: 0.74rem;
+    font-weight: 800;
+    white-space: nowrap;
+    box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.6);
+  }
+  .ticket-float-a { top: 4px; left: 0; transform: rotate(-5deg); }
+  .ticket-float-b { right: 0; bottom: 8px; transform: rotate(4deg); }
+  @media (max-width: 420px) {
+    .ticket-float { font-size: 0.66rem; padding: 6px 9px; }
+    .ticket-barcode { width: 76px; }
+  }
+
+  /* Trust strip */
+  .voucher-trust {
+    border-bottom: 1px solid var(--line);
+    background: #fff;
+  }
+  .voucher-trust-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 26px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 600;
+  }
+  .voucher-trust-inner span { white-space: nowrap; }
+
+  /* ===== Featured deal ===== */
+  .spotlight-section { padding-bottom: 0; }
+  .spotlight {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: var(--shadow);
+  }
+  @media (min-width: 820px) { .spotlight { grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr); } }
+  .spotlight-media { position: relative; min-height: 250px; background: var(--bg-2); }
+  .spotlight-media img { width: 100%; height: 100%; min-height: 250px; object-fit: cover; display: block; }
+  .spotlight-ribbon {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #fff;
+    color: var(--purple);
+    font-size: 0.72rem;
+    font-weight: 900;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    box-shadow: var(--shadow-sm);
+  }
+  .spotlight-save {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    display: inline-grid;
+    place-items: center;
+    min-width: 74px;
+    height: 74px;
+    padding: 0 10px;
+    border-radius: 50%;
+    background: var(--yellow);
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 1;
+    transform: rotate(7deg);
+    box-shadow: 0 12px 26px -12px rgba(0, 0, 0, 0.5);
+  }
+  .spotlight-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 28px;
+  }
+  .spotlight-body .eyebrow { margin-bottom: 0; }
+  .spotlight-body h2 { margin: 0; font-size: clamp(1.35rem, 1.1rem + 1vw, 1.85rem); line-height: 1.2; }
+  .spotlight-body > p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+  .spotlight-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    align-items: center;
+    color: var(--muted);
+    font-size: 0.84rem;
+  }
+  .spotlight-price {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 8px 12px;
+    margin-top: 2px;
+  }
+  .spotlight-price b {
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: 2.1rem;
+    font-weight: 900;
+    line-height: 1;
+  }
+  .spotlight-price s { color: var(--muted); font-size: 1.02rem; }
+  .spotlight-price span {
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #e8f7ee;
+    color: var(--green);
+    font-size: 0.76rem;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+  .spotlight-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+  .spotlight-actions .btn-dark { min-height: 46px; padding: 10px 20px; }
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 10px 18px;
+    border: 1px solid var(--line-strong);
+    border-radius: 12px;
+    background: #fff;
+    color: var(--ink);
+    font-weight: 700;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  .btn-ghost:hover { border-color: var(--purple); background: var(--navy-50); color: var(--purple); }
+  .spotlight-note {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    margin-top: 4px;
+    color: var(--faint);
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+  .note-dot {
+    flex: none;
+    width: 8px;
+    height: 8px;
+    margin-top: 4px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 0 4px rgba(21, 128, 61, 0.1);
+  }
+  @media (max-width: 560px) {
+    .spotlight-body { padding: 20px; }
+    .spotlight-save { min-width: 62px; height: 62px; font-size: 1rem; }
+  }
+
+  /* ===== Certification vouchers ===== */
+  .cert-section { padding-top: 0; }
+  .cert-banner {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 26px;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 20px;
+    background:
+      radial-gradient(520px 300px at 92% 10%, rgba(255, 201, 0, 0.2), transparent 62%),
+      linear-gradient(135deg, var(--purple-deep) 0%, #2a1a6b 55%, var(--purple) 100%);
+    color: #fff;
+    box-shadow: var(--shadow);
+  }
+  @media (min-width: 820px) {
+    .cert-banner { grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr); align-items: center; padding: 36px 38px; }
+  }
+  .cert-copy h2 { margin: 0 0 8px; color: #fff; font-size: clamp(1.35rem, 1.1rem + 1vw, 1.9rem); }
+  .cert-copy > p { margin: 0 0 14px; max-width: 60ch; color: #d8d2f3; font-size: 0.95rem; }
+  .cert-points {
+    display: grid;
+    gap: 6px;
+    margin: 0 0 18px;
+    padding: 0;
+    list-style: none;
+    color: #eeeaff;
+    font-size: 0.9rem;
+  }
+  .cert-points li { display: flex; gap: 8px; align-items: flex-start; }
+  .cert-points li::before { content: "✓"; flex: none; color: var(--yellow); font-weight: 900; }
+  .cert-copy .btn-dark { position: relative; z-index: 1; min-height: 46px; padding: 10px 20px; }
+  .cert-art {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 230px;
+  }
+  .cert-card {
+    position: relative;
+    width: min(100%, 300px);
+    padding: 20px 22px 18px;
+    border-radius: 16px;
+    background: #fff;
+    color: var(--ink);
+    box-shadow: 0 28px 60px -22px rgba(0, 0, 0, 0.65);
+    transform: rotate(-4deg);
+  }
+  .cert-card::before {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border: 1px dashed rgba(19, 26, 58, 0.13);
+    border-radius: 11px;
+    pointer-events: none;
+  }
+  .cert-card-top {
+    display: block;
+    color: var(--faint);
+    font-size: 0.62rem;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+  }
+  .cert-card b {
+    display: block;
+    margin-top: 12px;
+    color: var(--purple);
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+  .cert-card > span:not(.cert-card-top) { display: block; margin-top: 3px; color: var(--muted); font-size: 0.82rem; font-weight: 600; }
+  .cert-seal {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: var(--yellow);
+    color: var(--ink);
+    font-size: 1.15rem;
+    font-weight: 900;
+    box-shadow: 0 8px 18px -8px rgba(0, 0, 0, 0.4);
+  }
+  .cert-lines { display: grid; gap: 7px; margin: 18px 0 16px; }
+  .cert-lines i { display: block; height: 7px; border-radius: 999px; background: var(--bg-2); }
+  .cert-lines i:nth-child(2) { width: 72%; }
+  .cert-lines i:nth-child(3) { width: 46%; }
+  .cert-card-foot {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--line-strong);
+    color: var(--faint);
+    font-size: 0.6rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+  }
+  .cert-float {
+    position: absolute;
+    right: 4px;
+    bottom: 12px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: var(--yellow);
+    color: var(--ink);
+    font-size: 0.74rem;
+    font-weight: 800;
+    white-space: nowrap;
+    transform: rotate(4deg);
+    box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.6);
+  }
+  @media (max-width: 560px) {
+    .cert-banner { padding: 24px 20px; }
+    .cert-art { min-height: 210px; }
+    .cert-copy .btn-dark { width: 100%; }
+  }
+
+  /* ===== Deals toolbar ===== */
+  .sec-head h2 { margin: 0; }
+  .deals-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .deal-filters { display: flex; flex-wrap: wrap; gap: 8px; }
+  .deal-filter {
+    padding: 8px 14px;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--text);
+    font: inherit;
+    font-size: 0.84rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+  }
+  .deal-filter:hover { border-color: var(--purple); color: var(--purple); }
+  .deal-filter.active { border-color: var(--purple); background: var(--purple); color: #fff; }
+  .deal-sort {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--muted);
+    font-size: 0.84rem;
+    white-space: nowrap;
+  }
+  .deal-sort select {
+    padding: 8px 12px;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.84rem;
+    cursor: pointer;
+  }
+  .deals-count { margin: 0 0 16px; color: var(--muted); font-size: 0.9rem; }
+  .deals-count b { color: var(--ink); }
+
+  /* ===== Voucher cards ===== */
+  .voucher-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 18px;
+  }
+  @media (max-width: 640px) { .voucher-grid { grid-template-columns: minmax(0, 1fr); } }
+  .voucher-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: var(--shadow-xs);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .voucher-card[hidden] { display: none; }
+  .voucher-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+  .voucher-media { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: var(--bg-2); }
+  .voucher-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease; }
+  .voucher-card:hover .voucher-media img { transform: scale(1.04); }
+  .voucher-discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: var(--yellow);
+    color: var(--ink);
+    font-size: 0.74rem;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    box-shadow: var(--shadow-sm);
+  }
+  .voucher-discount.muted { background: rgba(15, 23, 64, 0.84); color: #fff; }
+  .voucher-provider {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: rgba(15, 23, 64, 0.84);
+    color: #fff;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+  .voucher-body { display: flex; flex-direction: column; gap: 7px; padding: 15px 16px 0; }
+  .voucher-cat {
+    color: var(--purple);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+  .voucher-title {
+    display: -webkit-box;
+    overflow: hidden;
+    margin: 0;
+    font-family: var(--font);
+    font-size: 0.96rem;
+    font-weight: 700;
+    line-height: 1.36;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+  .voucher-title a { color: var(--ink); }
+  .voucher-title a:hover { color: var(--purple); }
+  .voucher-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 12px;
+    align-items: center;
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+  .voucher-foot {
+    position: relative;
+    margin-top: auto;
+    padding: 14px 16px 16px;
+    border-top: 1px dashed var(--line-strong);
+  }
+  .voucher-foot::before,
+  .voucher-foot::after {
+    content: "";
+    position: absolute;
+    top: -9px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    background: var(--bg);
+  }
+  .voucher-foot::before { left: -9px; }
+  .voucher-foot::after { right: -9px; }
+  .voucher-price-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .voucher-price {
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: 1.42rem;
+    font-weight: 900;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .voucher-old { margin-left: 5px; color: var(--muted); font-family: var(--font); font-size: 0.84rem; font-weight: 400; }
+  .voucher-saving {
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: #e8f7ee;
+    color: var(--green);
+    font-size: 0.68rem;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+  .voucher-redeem { display: flex; align-items: center; gap: 8px; }
+  .voucher-code {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    padding: 8px 9px;
+    border: 1px dashed var(--line-strong);
+    border-radius: 8px;
+    color: var(--muted);
+    font-size: 0.66rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .voucher-code.auto { border-color: #b7e4c7; background: #f5fbf7; color: var(--green); }
+  .voucher-code.code-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: #fff;
+    font-family: var(--font);
+    cursor: pointer;
+  }
+  .voucher-code.code-button span { flex: none; color: var(--purple); font-size: 0.6rem; }
+  .voucher-code.code-button:hover { border-color: var(--purple); color: var(--purple); }
+  .voucher-code.code-button[data-copied="true"] { border-color: #b7e4c7; background: #f5fbf7; color: var(--green); }
+  .voucher-code.code-button[data-copied="true"] span { color: var(--green); }
+  .voucher-btn {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    padding: 0 14px;
+    border-radius: 9px;
+    background: var(--purple);
+    color: #fff;
+    font-size: 0.82rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .voucher-btn:hover { background: var(--purple-deep); color: #fff; }
+
+  /* Empty / show more */
+  .deals-empty {
+    display: none;
+    padding: 40px 20px;
+    border: 1px dashed var(--line-strong);
+    border-radius: 16px;
+    background: #fff;
+    text-align: center;
+  }
+  .deals-empty.show { display: block; }
+  .deals-empty span { font-size: 2rem; }
+  .deals-empty h3 { margin: 8px 0 4px; font-size: 1.1rem; }
+  .deals-empty p { margin: 0; color: var(--muted); font-size: 0.92rem; }
+  .deals-more-wrap { margin-top: 26px; text-align: center; }
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 10px 24px;
+    border: 1px solid var(--purple);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--purple);
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .btn-outline:hover { background: var(--purple); color: #fff; }
+  .btn-outline[hidden] { display: none; }
+
+  /* FAQ */
+  .voucher-faq { max-width: 860px; }
+  .voucher-faq .faq-d { border-color: var(--line); }
+
+  @media (max-width: 560px) {
+    .vouchers-hero { padding: 38px 0 34px; }
+    .voucher-trust-inner { font-size: 0.76rem; }
+    .spotlight-actions .btn-dark,
+    .spotlight-actions .btn-ghost { width: 100%; }
+  }
+</style>
+
+<script>
+  const grid = document.getElementById("voucherGrid");
+  const search = document.getElementById("voucherSearch") as HTMLInputElement | null;
+  const sort = document.getElementById("dealSort") as HTMLSelectElement | null;
+  const count = document.getElementById("dealsCount");
+  const empty = document.getElementById("dealsEmpty");
+  const more = document.getElementById("showMore") as HTMLButtonElement | null;
+  const filterButtons = [...document.querySelectorAll<HTMLButtonElement>(".deal-filter")];
+
+  const PAGE_SIZE = 12;
+  let activeFilter = "all";
+  let visible = PAGE_SIZE;
+
+  const allCards = () => [...(grid?.querySelectorAll<HTMLElement>(".voucher-card") ?? [])];
+
+  const matchesFilter = (card: HTMLElement) => {
+    switch (activeFilter) {
+      case "saving": return Number(card.dataset.discount) > 0;
+      case "under20": return Number(card.dataset.price) < 20;
+      case "rated": return Number(card.dataset.rating) >= 4.5;
+      case "cert": return card.dataset.cert === "1";
+      case "beginner": return card.dataset.beginner === "1";
+      case "fresh": return card.dataset.fresh === "1";
+      default: return true;
+    }
+  };
+
+  const matchesSearch = (card: HTMLElement) => {
+    const q = (search?.value ?? "").trim().toLowerCase();
+    return !q || (card.dataset.title ?? "").includes(q);
+  };
+
+  const sortCards = () => {
+    if (!grid || !sort) return;
+    const mode = sort.value;
+    const sorted = allCards().sort((a, b) => {
+      const index = Number(a.dataset.index) - Number(b.dataset.index);
+      if (mode === "saving") {
+        return Number(b.dataset.discount) - Number(a.dataset.discount) || index;
+      }
+      if (mode === "price") {
+        return Number(a.dataset.price) - Number(b.dataset.price) || Number(b.dataset.rating) - Number(a.dataset.rating);
+      }
+      if (mode === "rating") {
+        return Number(b.dataset.rating) - Number(a.dataset.rating) || Number(b.dataset.reviews) - Number(a.dataset.reviews);
+      }
+      if (mode === "reviews") {
+        return Number(b.dataset.reviews) - Number(a.dataset.reviews);
+      }
+      return index;
+    });
+    sorted.forEach((card) => grid.appendChild(card));
+  };
+
+  const render = (reset = false) => {
+    if (reset) visible = PAGE_SIZE;
+    const cards = allCards();
+    const matching = cards.filter((card) => matchesFilter(card) && matchesSearch(card));
+
+    cards.forEach((card) => { card.hidden = true; });
+    matching.slice(0, visible).forEach((card) => { card.hidden = false; });
+
+    if (count) {
+      const shown = Math.min(visible, matching.length);
+      const label = `deal${matching.length === 1 ? "" : "s"}`;
+      count.innerHTML = `<b>${matching.length}</b> ${label} found${matching.length > shown ? ` · showing ${shown}` : ""}`;
+    }
+    empty?.classList.toggle("show", matching.length === 0);
+
+    if (more) {
+      const remaining = Math.max(0, matching.length - visible);
+      more.hidden = remaining === 0;
+      more.textContent = remaining ? `Show more deals (${remaining})` : "Show more deals";
+    }
+  };
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeFilter = button.dataset.filter ?? "all";
+      filterButtons.forEach((b) => b.classList.toggle("active", b === button));
+      render(true);
+    });
+  });
+
+  search?.addEventListener("input", () => render(true));
+  sort?.addEventListener("change", () => {
+    sortCards();
+    render(true);
+  });
+  more?.addEventListener("click", () => {
+    visible += PAGE_SIZE;
+    render(false);
+  });
+
+  grid?.addEventListener("click", async (event) => {
+    const button = (event.target as HTMLElement).closest<HTMLButtonElement>("[data-copy]");
+    if (!button) return;
+    const code = button.dataset.copy ?? "";
+    let copied = false;
+    try {
+      await navigator.clipboard.writeText(code);
+      copied = true;
+    } catch {
+      /* Clipboard can be blocked; the code is still visible to select manually. */
+    }
+    const label = (text: string) => {
+      const span = document.createElement("span");
+      span.textContent = text;
+      button.replaceChildren(document.createTextNode(`${code} `), span);
+    };
+    button.dataset.copied = copied ? "true" : "false";
+    label(copied ? "Copied!" : "Copy failed");
+    window.setTimeout(() => {
+      button.dataset.copied = "false";
+      label("Copy");
+    }, 1600);
+  });
+
+  sortCards();
+  render(true);
+</script>
