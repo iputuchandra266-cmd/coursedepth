@@ -1,5 +1,545 @@
 [
   {
+    "title": "Python Data Structures & Algorithms + LEETCODE Exercises",
+    "slug": "python-data-structures-algorithms-leetcode-exercises",
+    "provider": "Udemy",
+    "category": "Data Structures",
+    "categorySlug": "data-structures",
+    "instructor": "Scott Barrett",
+    "instructorSlug": "scott-barrett",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/84263376_7b7d_36.jpg",
+    "rating": 4.6,
+    "reviews": 17714,
+    "level": "All Level",
+    "duration": "10.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "DSA + LEETCODE for Coding Interviews — Clear, Step-by-Step Animated Walkthroughs!",
+    "image": "https://i.udemycdn.com/course/480x270/4094340_0609_17.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.4094340&u=https%3A%2F%2Fwww.udemy.com%2Fdata-structures-algorithms-python&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 127332,
+    "sections": 41,
+    "lectures": 139,
+    "access": "Akses",
+    "summary": "Welcome to Data Structures & Algorithms in Python This course makes learning to code fun and makes hard concepts easy to understand. How did I do this?  By using animations!Animating the Data Structures & Algorithms makes everything more visually engaging and allows students to learn more material - in less time - with higher retention (a pretty good combination).I will use these visuals to guide you, step-by-step, through the entire course.The course also includes dozens-and-dozens of Coding Exercises. So you can immediately put everything into practice as soon as you learn it (a very important step).All of this will help you to feel more confident and prepared when you walk into a coding interview.I have made several Free Sample Videos available for the course so you can see the difference the animations make.Also, I am very active on the Q&A, so I will be with you every_step_of _the_way._____________________________What you will get in this course…Over 100 hand-crafted animated HD videos to illustrate the Data Structures & Algorithms.Here are the topics we will cover:TechnicalBig O notationData StructuresListsLinked ListsDoubly Linked ListsStacks & QueuesBinary TreesHash TablesHeapsGraphsHeapsAlgorithmsDynamic ProgrammingSorting Bubble SortSelection SortIns",
+    "requirements": "Basic Python programming knowledge (e.g., variables, loops, functions) No prior experience with data structures or algorithms needed An eager attitude to learn DSA and tackle coding challenges",
+    "learn": [
+      "Solve 100+ coding exercises to ace DSA interviews with confidence.",
+      "Think like a pro coder to tackle complex problems efficiently.",
+      "Master data structures—linked lists, trees, heaps, graphs—for practical use.",
+      "Learn algorithms—sorting, recursion, dynamic programming—with clarity.",
+      "Analyze time and space complexity to optimize your coding solutions.",
+      "Grasp DSA concepts faster with animated examples for deeper insight.",
+      "Apply DSA to solve LeetCode challenges and practical coding problems.",
+      "Boost your developer skills to excel in technical interviews confidently."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 18,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 24,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 25,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 19,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 19,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 20,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 14,
+        "duration": "1.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hello, I'm Scott, a developer with a passion for teaching. \n\nI've helped Hundreds of Thousands of students learn to code and change their lives by becoming developers.\n\nMy courses make learning to code fun and make hard concepts easy to understand. \n\nHow do I do this?  By using animations!\n\nAnimating the code and the concepts makes everything more visually engaging which allows students to learn more material - in less time - with higher retention (a pretty good combination).\n\nI will use these visuals to guide you, step-by-step, through the entire course.\n\nMy courses also include dozens-and-dozens of Coding Exercises.  So you can immediately put everything into practice as soon as you learn it (a very important step).\n\nI have made several Free Sample Videos available for each course so you can see the difference the animations make. \n\nAlso, I am very active on the Q&A, so I will be with you every_step_of _the_way.\n\nI look forward to seeing you in the course.\n\nLet's get started!  :-)",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Python Data Structures & Algorithms + LEETCODE Exercises suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 17,714 students, our Udemy course reviews put it above most Data Structures alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through Data Structures",
+    "skipIf": "You already work professionally in Data Structures and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "HashiCorp Certified Terraform Associate 004 - Practice Exams",
+    "slug": "hashicorp-certified-terraform-associate-004-practice-exams",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Bryan Krausen",
+    "instructorSlug": "bryan-krausen",
+    "instructorImage": "https://img-c.udemycdn.com/cover_photo/1440x487/6618856_2480_2.jpg",
+    "rating": 4.7,
+    "reviews": 968,
+    "level": "All Level",
+    "duration": "7 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Terraform Associate 004 Certification Practice Exams - Almost 350 Realistic Questions with Detailed Explanations + Links",
+    "image": "https://i.udemycdn.com/course/480x270/6857907_23c2_14.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3939309/39854?prodsku=course.6857907&u=https%3A%2F%2Fwww.udemy.com%2Fterraform-associate-004-practice-exams&intsrc=APIG_34565",
+    "language": "English",
+    "students": 10581,
+    "access": "Akses",
+    "summary": "Looking for Terraform Associate 004 practice exams that feel like the real test? This course delivers almost 350 expertly crafted questions, mapped one-to-one to the Terraform Associate (TA-004) objectives, including Terraform 1.12 and HCP Terraform topics. You’ll identify gaps fast, learn the “why” behind each answer, and build the confidence to pass.What makes my practice tests different?Objective-aligned: Every item is tied to TA-004 domains (IaC, fundamentals, workflow, configuration, modules, state, maintenance/import, and HCP Terraform).Real-exam feel: Scenario-based stems, multi-select, and tricky distractors that mirror the latest style and difficulty.Deep explanations: Clear rationales for correct and incorrect options, plus pointers to official docs, so you study smarter.Continuously refined: Updated as Terraform and the TA-004 guidance evolve.Ethical & Compliant: No exam dumps. Questions are 100% original, and I always create content thinking from the student's perspective.What’s Inside the Course:Almost 350 practice questions across six full-length testsCoverage of Terraform 1.12 features and HCP Terraform (workspaces, projects, variable sets, policy enforcement, drift detection, and more)Objective review mode to target weak areas (providers & lockfiles, state backends/locking, import & moved/removed blocks, variables/outputs/functions, modules & versioning, plan/apply/destroy, fmt/validate/checks)About Your Instructor:I’m Bryan - a HashiCorp Ambassador, Authorized Terra\n\nView Less",
+    "learn": [
+      "The most UP-TO-DATE course available - constantly updating questions based on student feedback from real exam results",
+      "Brand new and updated practice exams questions for Terraform Associate 004",
+      "Almost 350 questions across SIX UNIQUE practice questions with detailed explanations and links for the HashiCorp Certified: Terraform Associate",
+      "Learn how to pass the HashiCorp Certified: Terraform Associate 004 certification exam on your first try",
+      "Understanding of Terraform, its components, and how to identify what areas you need to focus on before taking the exam",
+      "How to be comfortable answering complex questions to prepare you for the exam",
+      "Built by an AUTHORIZED HASHICORP INSTRUCTOR for Consul, Vault, and Terraform"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 5,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 4,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 4,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 4,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 4,
+        "duration": "1.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Bryan Krausen is a Udemy Instructor Partner, Udemy Community Champion, and top-rated Udemy Instructor. He is also a HashiCorp Ambassador and AWS Community Builder and has been involved with the IT community for 20+ years.\n\nBryan Krausen's career spans over 25 years in enterprise IT and includes data centers, networking, security, cloud, and consulting. Bryan was the principal architect at two leading consultancies, a testament to his deep understanding of the field. His expertise lies in cloud technologies, where he excels in designing, implementing, and optimizing client solutions. He leverages platforms like Amazon Web Services (AWS) and a suite of industry-leading tools, including HashiCorp Vault, Terraform, Consul, Nomad, and Packer, to deliver top-notch results. Additional skills include deployment and integrations with GitHub, Kubernetes, Nomad, and much more.\n\nBeyond consulting, he shares his knowledge through publications and speaking engagements, having authored three (3) books and delivered training to over 250,000 students. Bryan often shares insights at community events, including HashiConf, HashiTalks, HashiCorp User Groups, and other major tech conferences.\n\nAll course material can be found on GitHub.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is HashiCorp Certified Terraform Associate 004 - Practice Exams suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 968 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ],
+    "certificate": true,
+    "sections": 5,
+    "lectures": 21,
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed."
+  },
+  {
+    "title": "CompTIA Security+ (SY0-701) Complete Course & Practice Exam",
+    "slug": "comptia-security-sy0-701-complete-course-practice-exam",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Jason Dion • 3 Million+ Enrollments Worldwide",
+    "instructorSlug": "jason-dion-3-million-enrollments-worldwide",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/27592028_e3fb_6.jpg",
+    "rating": 4.7,
+    "reviews": 615460,
+    "level": "All level",
+    "duration": "615,460",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "CompTIA Security+ (SY0-701) Bootcamp - Your preparation for the world's best cybersecurity certification!",
+    "image": "https://i.udemycdn.com/course/480x270/2015076_2944_8.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.2015076&u=https%3A%2F%2Fwww.udemy.com%2Fsecurityplus&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 535815,
+    "sections": 30,
+    "lectures": 265,
+    "access": "Akses",
+    "summary": "** Taught by a Best Selling IT Certification Instructor **Taught by an expert in information technology and cybersecurity with over 20 years of experience, this course is a fun way to master the fundamentals of computer security. You will learn the fundamentals of cybersecurity and gain experience in the configuration, management, and troubleshooting of common wired and wireless networks with lessons, lectures, and video demonstrations to teach you everything you need to know to pass the CompTIA Security+ exam. CompTIA Security+ (SY0-701) is the world's most popular cybersecurity certification today!This course is designed to help prepare you for the CompTIA Security (SY0-701) certification exam and covers all the domains the Security+ (SY0-701) certification exam:CompTIA Security+ (SY0-701):General Security ConceptsThreats, Vulnerabilities, and MitigationsSecurity ArchitectureSecurity OperationsSecurity Program Management and OversightWhat You Will Receive In The Course:Video lectures with the essential information needed to pass the Security+ (SY0-701) examA complete downloadable study guide in PDF format based on the lessonsPractice quizzes to ensure mastery of each section of the courseA full-length practice exam with multiple choice and mock simulationsThis course stays current and up-to-date with the latest release of the CompTIA Security+ exam (SY0-701), and also provides a 30-day money-back guarantee if you are not satisfied with the quality of this course for any reason!What",
+    "requirements": "Basic familiarity with computer networks, administration, and security is helpful (But, all required information will be covered during the course) (Helpful, but not required) Completion of the CompTIA A+ and Network+ certifications This course aligns directly to the CompTIA Security+ (SY0-701) Certification Study Guide",
+    "learn": [
+      "Fundamental Security Concepts",
+      "Navigating Threats, Vulnerabilities, & Remedies",
+      "Decoding Security Architecture",
+      "Mastering Security Operations",
+      "Guiding Security Program Management & Oversight"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 31,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 43,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 40,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 40,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 37,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 40,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 34,
+        "duration": "1.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Jason Dion, CISSP No. 349867, is a former college professor and the lead instructor at Dion Training Solutions. He has multiple information technology professional certifications, including Certified Information Systems Security Professional (CISSP), Certified Ethical Hacker (CEH), Certified Network Defense Architect (CNDA), Digital Forensic Examiner (DFE), Digital Media Collector (DMC), CySA+, Security+, Network+, A+, PRINCE2 Practitioner, and ITIL. With networking experience dating back to 1992, Jason has been a network engineer, Director of a Network Operations and Security Center, and an Information Systems Officer for large organizations around the globe. \n\nHe holds a Master’s of Science degree in Information Technology with a specialization in Information Assurance.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is CompTIA Security+ (SY0-701) Complete Course & Practice Exam suitable for beginners?",
+        "a": "Yes — it is rated \"All level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 615,460 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "AWS Certified Solutions Architect Associate 2026 – SAA-C03",
+    "slug": "aws-certified-solutions-architect-associate-2026-saa-c03",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Jon Bonso AWS Generative AI Developer, AWS Certified Solutions Architect",
+    "instructorSlug": "jon-bonso-aws-generative-ai-developer-aws-certified-solutions-architect",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/116422_52b8_5.jpg",
+    "rating": 4.5,
+    "reviews": 50701,
+    "level": "All Level",
+    "duration": "14 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Concise and Highly Visual AWS Certified Solutions Architect Associate video course covering the new SAA-C03 exam topics",
+    "image": "https://i.udemycdn.com/course/480x270/3503872_823a_3.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.3503872&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-solutions-architect-associate-certification-saa-c03&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "sections": 23,
+    "lectures": 98,
+    "access": "Akses",
+    "summary": "As more and more companies migrate their on-premises workloads to the cloud, the demand for highly skilled and certified AWS Professionals will continue to rise over the coming years ahead. The AWS Certified Solutions Architect - Associate SAA-C03 is consistently among the top-paying IT certifications and you can earn over $150,000 per year with an AWS Solutions Architect certification!This AWS Certified Solutions Architect - Associate SAA-C03 video training course is a concise collection of lectures on the most important AWS services that you need to know in order to pass the SAA-C03 exam. It contains the following lessons:EXAM OVERVIEW – discusses the exam scope and coverage, exam format, and other important information that you need to know before booking the exam.AWS BASICS – an overview of AWS and its global infrastructure.AWS SERVICES WALKTHROUGH – thorough discussion of the various AWS services under Compute, Storage, Database, Security, Networking, etc. Note: If you are already enrolled in our other AWS Associate-level video courses, then this Services Walkthrough section is the same across all our Associate training courses. You can opt to skip this part but we recommend that you still go through these at least once.AWS DEEP DIVES – provides more in-depth discussions on the most critical AWS services that you must thoroughly understand in order to pass the exam, such as Amazon EC2, Amazon S3, AWS IAM, Amazon VPC, Amazon RDS, etc. Each deep dive section also contains a mini-quiz at the end.COMPARISON OF AWS SERVICES – a versus section that compares two or more seemingly similar AWS services and discusses their use cases.EXAM TIPS AND TEST-TAKING STRATEGIES – a run-through of some critical exam-taking strategies that will help you\n\nView Less",
+    "requirements": "No prerequisites! We will discuss the basics of AWS and the cover the exam topics within the AWS Certified Solutions Architect Associate SAA-C03 exam If you have a computer or a smartphone, then you are ready to go take this SAA-C03 course!",
+    "learn": [
+      "HIGHLY VISUAL and CONCISE course to help you pass the AWS Certified Solutions Architect Associate SAA-C03 exam!",
+      "Implement Real-World cloud architectures using Amazon Web Services (AWS)",
+      "Design Resilient, High-Performing, Secure and Cost-Optimized AWS Architectures",
+      "Learn the different Compute, Container, Serverless, Security, Networking and other services in AWS",
+      "Know the key differences between seemingly similar AWS Services that are covered in the SAA-C03 exam",
+      "Discover the Core AWS Services, namely Amazon EC2, Amazon EBS, Elastic Load Balancer, Auto Scaling Group, Amazon S3, Amazon RDS, Route 53, IAM, and Amazon VPC",
+      "Design Serverless Solutions with AWS Lambda, Amazon API Gateway, AWS Fargate, Amazon ECS Anywhere, Amazon DynamoDB, and many more exam topics for SAA-C03 exam",
+      "Acquire the in-depth AWS knowledge necessary to ace your upcoming job interview"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 14,
+        "duration": "2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 13,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 14,
+        "duration": "2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 14,
+        "duration": "2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 15,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 12,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 16,
+        "duration": "2.2h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hello! I'm Jon, a Filipino Full Stack software developer based in Sydney, Australia, with over a decade of diversified experience in Banking, Financial Services, and Telecommunications industries. I've been recognized as an AWS Community Builder and hold 10 AWS Certifications.\n\nI have published various training materials for cloud computing such as AWS Certified Cloud Practitioner CLF-C02 Practice Tests, AWS Certified Solutions Architect - Associate SAA-C03, AWS Certified Generative AI Developer Professional AIP-C01 andAWS Certified Solutions Architect - Professional SAP-C02, DEA-C01, MLA-C01, AIF-C01 and many more.\n\nWhen I'm not in front of the screen, I like to play the piano and guitar but my greatest passion is teaching, as I believe that quality education is the greatest equalizer. Coming from my humble beginnings in the Philippines, I know how hard life can be if you don't have the technical knowledge and skill set needed to have a well-paying job. I am not ashamed to publicly tell you that I was born in the slums of Metro Manila and I didn't excel in my studies. Growing up, we were selling rice, canned goods, poultry supplies and other stuff in our small variety store (also called 'sari-sari' store in Filipino).\n\nBut with hard work, determination and unrelenting persistence, I was able to turn my life around and help my family in return. So aside from the technical knowledge that you may learn from my course, I also promote having these life values. Even though I failed so much before in life, I DID NOT QUIT and persisted to further improve my skills and myself too. I was able to work as an IT Professional for almost 4 years in Manila and 3 years in Singapore before migrating here in Australia on my own. The salary that I earned from my IT career is truly life-changing and this is what I want you to have as well!\n\nI am passionate at what I do and I dedicate a lot of my time creating educational courses while juggling a full-time job here in Sydney. I had given IT seminars to different universities and conferences in the Philippines for free and have launched various educational websites as well, using my own money - without any external funding. \n\nHaving said all of this, I invite you to check out my courses here in Udemy and kindly let me know how I can further improve my products. Your constructive feedback is a powerful tool not just to help me, but to also help other people who may have been struggling to learn the subject matter.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AWS Certified Solutions Architect Associate 2026 – SAA-C03 suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 50,701 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ],
+    "students": 74933,
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "AWS Solutions Architect Associate (SAA-C03) Practice Tests",
+    "slug": "aws-solutions-architect-associate-saa-c03-practice-tests",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Manas Jain",
+    "instructorSlug": "manas-jain",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/20209638_954c_5.jpg",
+    "rating": 5,
+    "reviews": 2385,
+    "level": "All Level",
+    "updated": "11/2026",
+    "description": "6 timed tests, 390 original questions, and clear explanations for secure, resilient, high-performing AWS designs.",
+    "image": "https://i.udemycdn.com/course/480x270/7381663_c77c.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3939309/39854?prodsku=course.7381663&u=https%3A%2F%2Fwww.udemy.com%2Faws-saa-c03-solutions-architect-associate-practice-tests&intsrc=APIG_34565",
+    "language": "English",
+    "certificate": true,
+    "students": 2,
+    "access": "Akses",
+    "summary": "Choosing an AWS service is only the beginning of an architecture question. The harder part is deciding which design meets every requirement: who may access the data, what happens when a component fails, how quickly the workload must respond, and which costs are justified.This independently created practice-test course helps you rehearse those decisions for AWS Certified Solutions Architect – Associate (SAA-C03). You get six timed tests with 65 original questions each: 390 questions in total. Each test covers the full four-domain blueprint, so you can assess your overall readiness while tracking specific gaps.What you will practiceDesign Secure Architectures: reason through role trust, identity and resource policies, organizational guardrails, private connectivity, secrets, encryption, and data protection. Learn to separate authentication, authorization, network reachability, and key-use permissions instead of treating them as one control.Design Resilient Architectures: compare durable messaging, independent consumers, orchestration, multi-AZ deployment, backups, failover, and regional recovery. Decide what a design protects against and what remains an application responsibility.Design High-Performing Architectures: select storage interfaces, compute capacity, database access patterns, caching, load balancing, and ingestion approaches. Look for the actual bottleneck rather than choosing a larger resource automatically.Design Cost-Optimized Architectures: evaluate storage lifecycles, resource utilization, purchasing commitments, database capacity, and network paths. Practice reducing waste while preserving security, correctness, availability, and recovery requirements.Why the explanations matterEvery populated answer option has its own explanation. You can see what an alternative actually do\n\nView Less",
+    "learn": [
+      "Assess your SAA-C03 readiness across all four official exam domains using six timed practice tests.",
+      "Distinguish IAM grants, role trust, organizational guardrails, and encryption-key permissions in access scenarios.",
+      "Choose resilient compute, messaging, storage, and database designs for stated availability and recovery needs.",
+      "Select storage, compute, network, and database options based on workload access patterns and performance limits.",
+      "Compare architectural costs while preserving required security, durability, latency, and business correctness.",
+      "Explain why plausible alternatives fail a scenario's constraints instead of memorizing service names.",
+      "Identify weak domains and guessed answers, then use option explanations to plan focused revision.",
+      "Practice pacing and multi-select reasoning across 65-question, 130-minute assessments."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 6,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 5,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 6,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 5,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 5,
+        "duration": "1.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Manas Jain is a Head of Data and experienced data, analytics, and engineering leader with 20 years of experience in designing, modernizing, and delivering enterprise-scale data solutions. He specializes in data strategy, data architecture, cloud data platforms, data governance, Data Mesh, data products, data contracts, business intelligence, and analytics transformation.\n\nThroughout his career, Manas has led data and technology programs across data management, platform modernization, product engineering, analytics delivery, and governance. His experience includes working with modern cloud platforms such as AWS and Azure, helping organizations improve data quality, build scalable data ecosystems, and turn data into trusted business value.\n\nAs a Head of Data, Manas brings a practical leadership perspective to his teaching. He understands not only the technical side of data platforms, but also the operating models, ownership structures, governance practices, and business alignment needed to make data initiatives successful.\n\nHis courses are designed to make complex data and architecture topics simple, structured, and practical. He uses clear explanations, real-world examples, and implementation-focused thinking to help learners understand how modern data concepts are applied in actual organizations.\n\nWhether you are a data engineer, architect, analyst, product owner, governance professional, or technology leader, Manas’s courses will help you build practical knowledge in modern data architecture, Data Mesh, cloud platforms, governance, data products, and the evolving role of data teams in AI-ready organizations.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AWS Solutions Architect Associate (SAA-C03) Practice Tests suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 5★ average from 2,385 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ],
+    "duration": "8h total",
+    "sections": 5,
+    "lectures": 27,
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed."
+  },
+  {
     "title": "[NEW] AWS Certified Solutions Architect Associate (SAA-C03)",
     "slug": "new-aws-certified-solutions-architect-associate-saa-c03",
     "provider": "Udemy",
