@@ -1,5 +1,6 @@
 ---
 import { u } from "../lib/u";
+import { courses, providers } from "../data/courses";
 ---
 <footer class="footer">
   <div class="container footer-grid">
@@ -8,12 +9,10 @@ import { u } from "../lib/u";
         <img class="logo-mark" src={u("/images/logo-mark.svg")} alt="" width="40" height="40" />
         <span>Course<em style="color:#ffc900">Depth</em></span>
       </a>
-      <p>Real student reviews and details for online courses from Coursera, edX, YouTube and dozens more, all in one place.</p>
+      <p>{courses.length} {providers.join(", ")} courses with independent ratings, price checks and update history — all in one place.</p>
       <div class="socials">
         <a href="https://www.facebook.com/dewi.s.bati/" aria-label="Facebook">f</a>
         <a href="https://x.com/CouponsFreeDis1" aria-label="X">𝕏</a>
-        <a href="#" aria-label="LinkedIn">in</a>
-        <a href="#" aria-label="Discord">💬</a>
       </div>
     </div>
     <div>
@@ -30,9 +29,8 @@ import { u } from "../lib/u";
     <div>
       <h4>Company</h4>
       <a href={u("/about-us")}>About us</a>
-      <a href={u("/review-course")}>Write a review</a>
       <a href={u("/contact")}>Contact</a>
-      <a href={u("/login")}>My account</a>
+      <a href={u("/how-we-rate-courses")}>How we rate</a>
     </div>
     <div>
       <h4>Course reviews</h4>
@@ -51,12 +49,13 @@ import { u } from "../lib/u";
       <a href={u("/code-of-conduct")}>Code of conduct</a>
     </div>
     <div>
-      <h4>Weekly newsletter</h4>
-      <p style="font-size:14px;margin:0">The best new courses, deals and reviews, once a week. No spam.</p>
-      <form class="newsletter" onsubmit="return false">
-        <input placeholder="Email address" aria-label="Email" />
-        <button>Subscribe</button>
-      </form>
+      <h4>Follow &amp; corrections</h4>
+      <p style="font-size:14px;margin:0">New reviews and deals are posted on X and Facebook. Spotted a wrong price? Tell us.</p>
+      <div class="socials">
+        <a href="https://x.com/CouponsFreeDis1" aria-label="X">𝕏</a>
+        <a href="https://www.facebook.com/dewi.s.bati/" aria-label="Facebook">f</a>
+      </div>
+      <a href={u("/contact")} style="margin-top:10px">Send a correction →</a>
     </div>
   </div>
   <div class="container footer-bottom">

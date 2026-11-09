@@ -27,22 +27,22 @@ const score = (c: Course) => c.rating * Math.log10((c.reviews || 0) + 10);
 const ranked = [...list].sort((a, b) => score(b) - score(a));
 
 const n = list.length;
-const providers = new Set(list.map(c => c.provider)).size;
+const providerNames = [...new Set(list.map(c => c.provider))];
+const providers = providerNames.length;
 const totalReviews = list.reduce((s, c) => s + (c.reviews || 0), 0);
 const reviewsLabel = totalReviews >= 1e6 ? `${+(totalReviews / 1e6).toFixed(1)}M` : totalReviews.toLocaleString("en-US");
 const reviewsLong = reviewsLabel.endsWith("M") ? `${reviewsLabel.replace("M", "")} million` : reviewsLabel;
 const over10 = list.filter(c => hours(c.duration) >= 10).length;
 const maxH = list.length ? Math.max(...list.map(c => hours(c.duration))) : 0;
 const certN = list.filter(c => c.certificate).length;
-const freeN = list.filter(c => !c.price).length;
 const updatedLabel = "Updated October 21, 2026";
 
 const courseW = n === 1 ? "course" : "courses";
-const h1 = empty ? `Best ${cat.name} Courses & Certificates [2026]` : n === 1 ? `Best ${cat.name} Course & Certificate [2026]` : `${n} Best + Free ${cat.name} Courses & Certificates [2026]`;
+const h1 = empty ? `Best ${cat.name} Courses & Certificates [2026]` : n === 1 ? `Best ${cat.name} Course & Certificate [2026]` : `${n} Best ${cat.name} Courses & Certificates [2026]`;
 const pageTitle = empty ? `${cat.name} Courses — Reviews & Ratings | CourseDepth` : `${h1} | CourseDepth`;
 const metaDesc = empty
   ? `${cat.name} courses with student ratings, reviews and update dates. ${cat.description}`
-  : `Compare ${n} ${cat.name} ${courseW} from ${providers} provider${providers === 1 ? "" : "s"}${freeN ? `, ${freeN} free` : ""}, ranked by ${reviewsLong} student reviews. Ratings, length and real reviews.`;
+  : `Compare ${n} ${cat.name} ${courseW} from ${providers} provider${providers === 1 ? "" : "s"}, ranked by ${reviewsLong} student reviews. Ratings, length, price and update dates.`;
 
 const filters: { k: string; label: string; test: (c: Course) => boolean }[] = [
   { k: "certificate", label: "Certificate", test: (c) => !!c.certificate },
@@ -76,7 +76,7 @@ const guide = cat.slug === "python"
 
 const about = empty
   ? `CourseDepth is building the ${cat.name} section: ratings, update dates and honest pros and cons for every course we track. Nothing here is paid placement — below are the closest topics while this list grows.`
-  : `CourseDepth compares the ${n} ${cat.name} ${courseW} listed here from ${providers} provider${providers === 1 ? "" : "s"}${freeN ? `, ${freeN} of them free` : certN ? `, ${certN} of them with a certificate` : ""}, and ranks them from the ${reviewsLong} ratings and reviews their students have left, with the length and level of each one side by side. No course pays to be listed or ranked. <a href="${u("/how-we-rate-courses")}">How we rank</a>`;
+  : `CourseDepth compares the ${n} ${cat.name} ${courseW} listed here from ${providers} provider${providers === 1 ? "" : "s"}${certN ? `, ${certN} of them with a certificate` : ""}, and ranks them from the ${reviewsLong} ratings and reviews their students have left, with the length and level of each one side by side. No course pays to be listed or ranked. <a href="${u("/how-we-rate-courses")}">How we rank</a>`;
 
 const breadcrumbGraph = {
   "@type": "BreadcrumbList",
@@ -148,7 +148,7 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [breadcrumbGraph, c
           </>
         )}
       </p>
-      <p class="cat-hero__by">Ranked by the CourseDepth editorial team from student reviews across every provider. <a href={u("/how-we-rate-courses")}>How we rank</a></p>
+      <p class="cat-hero__by">Ranked by the CourseDepth editorial team from public student reviews{providerNames.length ? ` on ${providerNames.join(", ")}` : ""}. <a href={u("/how-we-rate-courses")}>How we rank</a></p>
       <p class="cat-hero__guide"><b>Our guide:</b> <a href={u(guide.href)}>{guide.label}</a></p>
     </div>
   </div>
@@ -253,7 +253,9 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [breadcrumbGraph, c
             <p class="rank-desc">{c.description}</p>
             {c.bestFor && <p class="rank-best"><b>Best for:</b> {c.bestFor}</p>}
             <div class="rank-actions">
-              <a class="btn-rank" href={u(`/course/${c.slug}`)}>View course →</a>
+              <span class="rank-price">{c.price ? `$${c.price}` : "See price"}{c.oldPrice ? <s class="rank-old">${c.oldPrice}</s> : null}</span>
+              {c.url && <a class="btn-price" href={c.url} target="_blank" rel="sponsored nofollow noopener" data-course={c.slug} data-provider={c.provider} data-placement="category">Check price →</a>}
+              <a class="btn-rank" href={u(`/course/${c.slug}`)}>Review →</a>
             </div>
           </div>
         </article>

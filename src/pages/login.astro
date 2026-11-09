@@ -4,17 +4,18 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { u } from "../lib/u";
 ---
-<Layout title="Sign in — CourseDepth" robots="noindex, nofollow">
+<Layout title="Accounts — CourseDepth" robots="noindex, nofollow">
 <Header />
-<section class="section"><div class="container" style="max-width:440px">
-<form class="form-card" onsubmit="return false">
-<h2 style="margin:0">Welcome back</h2>
-<p style="color:var(--muted)">Sign in to manage your reviews.</p>
-<label>Email</label><input type="email" required placeholder="you@example.com" />
-<label>Password</label><input type="password" required placeholder="••••••••" />
-<button class="btn-dark" style="margin-top:14px;width:100%">Sign in</button>
-<p style="font-size:14px">No account? <a href={u("/review-course")} style="color:var(--blue);font-weight:800">Write a review first</a></p>
-</form>
+<section class="page-hero"><div class="container"><h1>Accounts are coming later</h1><p>CourseDepth does not have user accounts yet. Everything on the site is free to read without signing in.</p></div></section>
+<section class="section"><div class="container" style="max-width:620px">
+<div class="review">
+<h2 style="margin-top:0">What you can do now</h2>
+<ul>
+  <li><a href={u("/courses")}>Browse every course</a> and compare ratings, price and update dates.</li>
+  <li><a href={u("/vouchers")}>Check current deals</a> before you buy.</li>
+  <li><a href={u("/contact")}>Contact us</a> if a price or rating looks wrong.</li>
+</ul>
+</div>
 </div></section>
 <Footer />
 </Layout>

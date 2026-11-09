@@ -213,6 +213,9 @@ const jsonLd = {
               href={featured.course.url ?? u(`/course/${featured.course.slug}`)}
               target={featured.course.url ? "_blank" : undefined}
               rel={featured.course.url ? "sponsored nofollow noopener" : undefined}
+              data-course={featured.course.slug}
+              data-provider={featured.course.provider}
+              data-placement="voucher-featured"
             >Claim this deal →</a>
             <a class="btn-ghost" href={u(`/course/${featured.course.slug}`)}>Read the review</a>
           </div>
@@ -371,6 +374,9 @@ const jsonLd = {
                 href={v.course.url ?? u(`/course/${v.course.slug}`)}
                 target={v.course.url ? "_blank" : undefined}
                 rel={v.course.url ? "sponsored nofollow noopener" : undefined}
+                data-course={v.course.slug}
+                data-provider={v.course.provider}
+                data-placement="voucher-list"
               >Claim →</a>
             </div>
           </div>

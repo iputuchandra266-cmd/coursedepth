@@ -127,12 +127,19 @@
     "duration": "48.5 hours",
     "updated": "11/2026",
     "description": "Master Microsoft Office 365 with this 11-course Bundle",
+    "image": "https://i.udemycdn.com/course/480x270/6035304_b3c3_3.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.6035304&u=https%3A%2F%2Fwww.udemy.com%2Fultimate-microsoft-office-365-bundle&intsrc=APIG_26324",
     "language": "English",
     "certificate": true,
     "students": 4281,
     "sections": 91,
     "lectures": 555,
+    "access": "Lifetime access",
+    "moneyBack": true,
     "summary": "**This bundle includes practice exercises, downloadable files, and LIFETIME access**Welcome to the Ultimate Microsoft Office 365 Bundle, an extensive 11-course collection designed to elevate your mastery of essential Office 365 applications. This bundle covers many tools and functionalities, enabling you to enhance your productivity and efficiency across various professional contexts.Begin with Excel 365 for Beginners to build a strong foundation in spreadsheet creation and data analysis. As you advance, delve into Excel 365 Intermediate and Excel 365 Advanced, where you'll tackle more complex functions, data visualization, and advanced analytical techniques.Expand your document creation skills with Word 365 for Beginners, and learn to design impactful presentations in PowerPoint 365 for Beginners. Enhance your collaboration and communication with Teams 365, mastering the art of seamless teamwork and virtual meetings.Manage your emails and schedule efficiently with Outlook Online 365, discover the power of cloud storage and file sharing in OneDrive for Business 365, organize your notes and ideas effectively with OneNote 365, and explore how to create interactive surveys and quizzes in Forms 365.Finally, unlock the potential of AI within the Microsoft ecosystem with Copilot in Microsoft 365 for Beginners, learning to integrate and utilize AI features to boost your productivity and collaboration further.Completing this comprehensive bundle will equip you with versatile skills crucial for proficiently navigating Office 365. Whether you're a student, professional, or entrepreneur, investing in this bundle ensures you have the expertise to excel in your endeavors, making you a valuable asset in any workplace.What's included?Excel 365 for BeginnersAccess the Microsoft 365 online portal.</",
+    "bestFor": "all level learners who want one guided path through Microsoft",
+    "skipIf": "You already work professionally in Microsoft and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "No prior experience needed. This course is designed for absolute beginners. Microsoft Excel 365, Word 365, and PowerPoint 365 for Windows installed and ready to use on your computer. Access to Copilot and an active Microsoft 365 account and subscription to access the applications is useful.",
     "learn": [
       "Perform lookups with VLOOKUP, INDEX/MATCH, and XLOOKUP.",
@@ -237,7 +244,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -252,12 +264,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 4.5★ average from 793 students, our Udemy course reviews put it above most Microsoft alternatives."
       }
-    ],
-    "access": "Lifetime access",
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through Microsoft",
-    "skipIf": "You already work professionally in Microsoft and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "SY0-801 V8 Masterclass: Prepare for CompTIA Security+®",

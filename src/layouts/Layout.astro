@@ -3,14 +3,21 @@ interface Props {
   title?: string;
   description?: string;
   robots?: string;
+  bodyClass?: string;
 }
 const {
   title = "Course Reviews — Ratings & Best Picks | CourseDepth",
   description = "Honest course reviews: ratings, update history and instructor details for the best Python, Web Dev, Data Science and AI courses.",
   robots = "index, follow",
+  bodyClass = "",
 } = Astro.props;
 import "../styles/global.css";
 import { u } from "../lib/u";
+
+// Analytics is opt-in at build time. Set PUBLIC_GA_ID to enable GA4.
+// PUBLIC_ANALYTICS_ENDPOINT is optional and receives a JSON beacon for each event.
+const gaId = (import.meta.env.PUBLIC_GA_ID as string | undefined)?.trim();
+const analyticsEndpoint = (import.meta.env.PUBLIC_ANALYTICS_ENDPOINT as string | undefined)?.trim() ?? "";
 
 const site = Astro.site ?? new URL("https://coursedepth.com");
 const canonical = new URL(Astro.url.pathname, site).href;
@@ -59,11 +66,85 @@ const ld = {
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={new URL(u("/images/og-default.png"), site).href} />
 
+    {gaId && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}></script>
+        <script is:inline define:vars={{ gaId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          window.gtag = gtag;
+          gtag("js", new Date());
+          gtag("config", gaId, { anonymize_ip: true });
+        </script>
+      </>
+    )}
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3534671891943282" crossorigin="anonymous"></script>
     <script type="application/ld+json" set:html={JSON.stringify(ld)} />
     <title>{title}</title>
   </head>
-  <body>
+  <body class={bodyClass}>
     <slot />
+
+    <script is:inline define:vars={{ analyticsEndpoint }}>
+      (function () {
+        window.dataLayer = window.dataLayer || [];
+
+        function track(name, params) {
+          var payload = Object.assign(
+            { event: name, page_path: location.pathname },
+            params || {}
+          );
+          if (typeof window.gtag === "function") {
+            window.gtag("event", name, params || {});
+          } else {
+            window.dataLayer.push(payload);
+          }
+          if (analyticsEndpoint && navigator.sendBeacon) {
+            try {
+              navigator.sendBeacon(
+                analyticsEndpoint,
+                new Blob([JSON.stringify(payload)], { type: "application/json" })
+              );
+            } catch (e) {}
+          }
+          if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+            console.debug("[analytics]", name, payload);
+          }
+        }
+        window.cdTrack = track;
+
+        document.addEventListener(
+          "click",
+          function (e) {
+            var el = e.target;
+            if (!el || !el.closest) return;
+            var a = el.closest("a");
+            if (!a) return;
+
+            var href = a.getAttribute("href") || "";
+            var rel = a.getAttribute("rel") || "";
+            var isAffiliate =
+              rel.indexOf("sponsored") !== -1 ||
+              /trk\.udemy\.com|udemy\.com\/.*(aff|track)|clickbank|awin1\.com|partnerstack|impact\.com/i.test(href);
+            var isExternal =
+              /^https?:\/\//i.test(href) &&
+              href.indexOf(location.hostname) === -1;
+
+            if (!isAffiliate && !isExternal) return;
+
+            var holder = a.closest("[data-course]");
+            track(isAffiliate ? "affiliate_click" : "outbound_click", {
+              link_url: href,
+              link_text: (a.textContent || "").trim().slice(0, 80),
+              course_slug: a.getAttribute("data-course") || (holder ? holder.getAttribute("data-course") : "") || "",
+              provider: a.getAttribute("data-provider") || "",
+              placement: a.getAttribute("data-placement") || "",
+            });
+          },
+          true
+        );
+      })();
+    </script>
   </body>
 </html>

@@ -234,7 +234,7 @@ a:hover { color: var(--navy-700); }
 .stars-off { position: relative; white-space: nowrap; }
 .stars-num { color: var(--ink); font-variant-numeric: tabular-nums; }
 .stars-count { color: var(--muted); font-weight: 400; font-size: 13px; }
-.price-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: auto; padding-top: 8px; font-size: 0.85rem; }
+.price-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 10px; margin-top: auto; padding-top: 8px; font-size: 0.85rem; }
 .price { font-weight: 700; color: var(--ink); }
 
 /* Why / features */
@@ -500,3 +500,43 @@ a:hover { color: var(--navy-700); }
 .form-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow-sm); }
 .form-card label { display: block; font-weight: 600; font-size: 14px; margin: 12px 0 6px; color: var(--ink); }
 .form-card input, .form-card textarea, .form-card select { width: 100%; border: 1px solid var(--line-strong); border-radius: 8px; padding: 10px 12px; font-size: 15px; font-family: inherit; background: #fff; }
+
+/* ===== Price + affiliate CTA ===== */
+.card-price { font-weight: 800; color: var(--ink); font-size: 0.95rem; display: inline-flex; align-items: baseline; gap: 6px; white-space: nowrap; }
+.card-price s { color: var(--muted); font-weight: 500; font-size: 0.8rem; }
+.btn-price {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  min-height: 38px; padding: 8px 14px; border-radius: 999px;
+  background: var(--purple); color: #fff; font-weight: 700; font-size: 0.86rem;
+  text-decoration: none; white-space: nowrap;
+}
+.btn-price:hover { background: var(--purple-deep); color: #fff; }
+.btn-price--card { width: 100%; margin-top: 8px; min-height: 40px; }
+.course-cta {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
+  margin: 18px 0 0; padding: 12px 14px; border-radius: 14px;
+  background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.22);
+}
+.course-cta__price { display: flex; align-items: baseline; gap: 8px; color: #fff; }
+.course-cta__price b { font-family: var(--font-display); font-size: 1.6rem; font-weight: 900; line-height: 1; }
+.course-cta__price s { color: #cfc4f5; font-size: 0.95rem; }
+.course-cta__price small { color: #cfc4f5; font-size: 0.82rem; }
+.course-cta .btn-dark { margin-left: auto; }
+@media (max-width: 520px) { .course-cta .btn-dark { margin-left: 0; width: 100%; } }
+
+.mobile-cta { display: none; }
+@media (max-width: 899px) {
+  .has-mobile-cta { padding-bottom: 84px; }
+  .mobile-cta {
+    display: flex; align-items: center; gap: 12px;
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 1200;
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+    background: #fff; border-top: 1px solid var(--line);
+    box-shadow: 0 -8px 24px rgba(19, 26, 58, 0.14);
+  }
+  .mobile-cta__price { display: flex; flex-direction: column; line-height: 1.15; }
+  .mobile-cta__price b { font-family: var(--font-display); font-size: 1.25rem; color: var(--ink); }
+  .mobile-cta__price small { color: var(--muted); font-size: 0.75rem; }
+  .mobile-cta .btn-dark { margin-left: auto; min-height: 46px; padding: 10px 18px; }
+}
+.marquee-track.is-static { animation: none; }

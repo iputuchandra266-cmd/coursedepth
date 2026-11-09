@@ -3,11 +3,11 @@ import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import CourseCard from "../../components/CourseCard.astro";
-import { courses } from "../../data/courses";
+import { courses, providers } from "../../data/courses";
 ---
 <Layout title="Course Reviews — All Courses A-Z | CourseDepth">
 <Header />
-<section class="page-hero"><div class="container"><h1>All courses A-Z</h1><p>{courses.length} featured • 150+ providers • live search below (client-side).</p></div></section>
+<section class="page-hero"><div class="container"><h1>All courses A-Z</h1><p>{courses.length} courses • {providers.length} provider{providers.length === 1 ? "" : "s"} • live search below (client-side).</p></div></section>
 <section class="section"><div class="container">
   <input id="q" placeholder="Filter courses…" style="width:100%;border:2px solid var(--navy);border-radius:12px;padding:13px 15px;font-size:16px" />
   <div class="course-grid" id="grid" style="margin-top:16px">

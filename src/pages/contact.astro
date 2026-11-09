@@ -3,17 +3,18 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 ---
-<Layout title="Contact — CourseDepth">
+<Layout title="Contact — CourseDepth" description="Report a wrong price or rating, ask a question, or get in touch with CourseDepth.">
 <Header />
 <section class="page-hero"><div class="container"><h1>Contact</h1><p>Questions, corrections, or partnerships — we reply within 2 business days.</p></div></section>
-<section class="section"><div class="container" style="max-width:620px">
-<form class="form-card" onsubmit="event.preventDefault();document.getElementById('ok').style.display='block'">
-<label>Name</label><input required placeholder="Your name" />
-<label>Email</label><input type="email" required placeholder="you@example.com" />
-<label>Message</label><textarea rows="5" required placeholder="How can we help?"></textarea>
-<button class="btn-dark" style="margin-top:14px;width:100%">Send message</button>
-<p id="ok" style="display:none;background:#dcfce7;border:1px solid #16a34a;padding:10px;border-radius:10px;margin-top:12px">Message sent. Thank you!</p>
-</form>
+<section class="section"><div class="container" style="max-width:720px">
+<div class="review">
+<h2 style="margin-top:0">Report a wrong price or rating</h2>
+<p>Open an issue on GitHub with the course URL and what looks wrong. It is the fastest way to reach us and keeps a public record of the correction.</p>
+<p><a class="btn-dark" href="https://github.com/iputuchandra266-cmd/coursedepth/issues/new" target="_blank" rel="noopener">Open a correction request →</a></p>
+<h2>Partnerships &amp; other questions</h2>
+<p>Message us on <a href="https://x.com/CouponsFreeDis1" target="_blank" rel="noopener">X</a> or <a href="https://www.facebook.com/dewi.s.bati/" target="_blank" rel="noopener">Facebook</a>.</p>
+<p style="font-size:13px;color:var(--muted)">We reply within 2 business days. We do not sell courses or vouchers ourselves.</p>
+</div>
 </div></section>
 <Footer />
 </Layout>

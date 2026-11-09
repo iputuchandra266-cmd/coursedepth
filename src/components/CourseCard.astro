@@ -17,6 +17,10 @@ const { course } = Astro.props;
     <div class="course-meta course-by">by <a href={u(`/instructors`)}>{course.instructor}</a></div>
     <div class="price-row">
       <span class="cd-rating"><Stars rating={course.rating} reviews={course.reviews} /></span>
+      <span class="card-price">{course.price ? `$${course.price}` : "See price"}{course.oldPrice ? <s>${course.oldPrice}</s> : null}</span>
     </div>
+    {course.url && (
+      <a class="btn-price btn-price--card" href={course.url} target="_blank" rel="sponsored nofollow noopener" data-course={course.slug} data-provider={course.provider} data-placement="card">Check price →</a>
+    )}
   </div>
 </article>

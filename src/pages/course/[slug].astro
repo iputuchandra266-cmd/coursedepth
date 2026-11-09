@@ -5,7 +5,6 @@ import Footer from "../../components/Footer.astro";
 import Stars from "../../components/Stars.astro";
 import CourseCard from "../../components/CourseCard.astro";
 import { courses, getCourse } from "../../data/courses";
-import { reviewsFor } from "../../data/reviews";
 import { u } from "../../lib/u";
 export function getStaticPaths() { return courses.map(c => ({ params: { slug: c.slug } })); }
 const { slug } = Astro.params;
@@ -14,7 +13,6 @@ if (!course) throw new Error("not found");
 const others = courses.filter(c => c.slug !== course.slug && c.categorySlug === course.categorySlug).slice(0,3);
 const fallback = courses.filter(c => c.slug !== course.slug).slice(0,3);
 const rel = (others.length ? others : fallback);
-const revs = reviewsFor(course.slug!);
 const c = course;
 const duration = String(c.duration ?? "").replace(" total", "") || "Self-paced";
 const pct = c.ratingBreakdown ?? {};
@@ -37,14 +35,10 @@ const ld: Record<string, unknown> = {
   image: c.image,
   ...(c.instructor ? { instructor: { "@type": "Person", name: c.instructor } } : {}),
   aggregateRating: { "@type": "AggregateRating", ratingValue: c.rating, reviewCount: c.reviews, bestRating: 5, worstRating: 1 },
-  review: revs.slice(0, 5).map(r => ({
-    "@type": "Review", author: { "@type": "Person", name: r.author }, reviewBody: r.body,
-    datePublished: r.date, reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5, worstRating: 1 },
-  })),
 };
 const faqLd = cleanFaq?.length ? { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: cleanFaq.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) } : null;
 ---
-<Layout title={title} description={desc}>
+<Layout title={title} description={desc} bodyClass={c.url ? "has-mobile-cta" : ""}>
 <script type="application/ld+json" set:html={JSON.stringify(ld)} />
 {faqLd && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
 <Header />
@@ -69,6 +63,16 @@ const faqLd = cleanFaq?.length ? { "@context": "https://schema.org", "@type": "F
     <span>Created by: <b>{c.instructor}</b></span>
     <span style="color:#cfc4f5">Last updated {c.updated}</span>
   </div>
+  {c.url && (
+    <div class="course-cta">
+      <div class="course-cta__price">
+        <b>{c.price ? `$${c.price}` : "See price"}</b>
+        {c.oldPrice ? <s>${c.oldPrice}</s> : null}
+        <small>on {c.provider}</small>
+      </div>
+      <a class="btn-dark" href={c.url} target="_blank" rel="sponsored nofollow noopener" data-course={c.slug} data-provider={c.provider} data-placement="course-hero">Check price on {c.provider} →</a>
+    </div>
+  )}
 </div>
 </section>
 <section class="section" style="padding-top:26px"><div class="container detail-grid">
@@ -93,7 +97,7 @@ const faqLd = cleanFaq?.length ? { "@context": "https://schema.org", "@type": "F
       <p><b>Overall: {q.total} / 100</b> — based on student ratings and review depth.</p></div>}
     <div class="review"><h3>👤 Instructor</h3><p><b>{c.instructor}</b> — {c.instructorBio}</p><a href={u(`/instructors#${c.instructorSlug || ""}`)} style="font-weight:700">All courses by {c.instructor} →</a></div>
     {cleanFaq?.length && <div class="review"><h3>❓ FAQ</h3>{cleanFaq.map(f => <div style="margin-bottom:10px"><b>{f.q}</b><p style="margin:4px 0 0;color:var(--text)">{f.a}</p></div>)}</div>}
-    <h2 id="reviews" style="margin-top:24px">Reviews ({c.reviews.toLocaleString()})</h2>
+    <h2 id="reviews" style="margin-top:24px">Student ratings ({c.reviews.toLocaleString()})</h2>
     <div class="review">
       <b>{c.rating} · {c.reviews.toLocaleString()} ratings on {c.provider}</b>
       {[5,4,3,2,1].map(n => <div style="display:flex;gap:8px;align-items:center;margin:4px 0;font-size:14px">
@@ -101,28 +105,26 @@ const faqLd = cleanFaq?.length ? { "@context": "https://schema.org", "@type": "F
         <span style="flex:1;background:var(--star-off);border-radius:4px;height:8px;overflow:hidden"><span style="display:block;height:100%;width:{pct[n] ?? 0}%;background:var(--yellow)"></span></span>
         <span style="width:42px;text-align:right;color:var(--muted)">{pct[n] ?? 0}%</span>
       </div>)}
-      <a href={u(`/review-course?course=${c.slug}`)} style="font-weight:700;display:inline-block;margin-top:8px">Write a review →</a>
+      <p style="margin:10px 0 0;font-size:13px;color:var(--muted)">These are the provider's aggregate ratings. The analysis above is written by CourseDepth — we do not publish invented student quotes.</p>
+      {c.url && <a href={c.url} class="btn-price" style="margin-top:10px" target="_blank" rel="sponsored nofollow noopener" data-course={c.slug} data-provider={c.provider} data-placement="course-ratings">Read the original reviews on {c.provider} →</a>}
     </div>
-    {revs.length ? revs.map(r => <div class="review">
-      <b>{"⭐".repeat(Math.round(r.rating))} {r.author}</b>
-      <span style="color:var(--muted);font-size:13px"> · {r.date}{r.level ? ` · ${r.level}` : ""}{r.helpful ? ` · ${r.helpful} found this helpful` : ""}</span>
-      {r.title && <h3 style="font-size:1rem;margin:6px 0 4px">{r.title}</h3>}
-      <p>{r.body}</p>
-      {(r.pros?.length || r.cons?.length) && <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-        {r.pros?.length && <div><b>✅ Pros</b><ul style="margin:4px 0;padding-left:18px">{r.pros.map(p => <li>{p}</li>)}</ul></div>}
-        {r.cons?.length && <div><b>❌ Cons</b><ul style="margin:4px 0;padding-left:18px">{r.cons.map(p => <li>{p}</li>)}</ul></div>}
-      </div>}
-    </div>) : <div class="review"><p>No written reviews yet. <a href={u(`/review-course?course=${c.slug}`)} style="font-weight:700">Be the first to review this course →</a></p></div>}
     <h2 style="margin-top:24px">Related courses</h2>
     <div class="course-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">{rel.map(x => <CourseCard course={x} />)}</div>
   </div>
   <aside class="side-card">
     <div class="course-thumb" style="border-radius:10px;overflow:hidden"><img src={u(c.image ?? `/images/courses/${c.slug}.svg`)} alt={c.title} width="640" height="360" /></div>
     <div style="margin:6px 0"><Stars rating={c.rating} reviews={c.reviews} showCount={false} /></div>
-    <a href={c.url ?? u("/review-course")} class="btn-dark" style="display:flex;width:100%;margin-top:10px" target={c.url ? "_blank" : undefined} rel={c.url ? "sponsored nofollow noopener" : undefined}>Visit course on {c.provider} →</a>
-    <a href={u(`/review-course?course=${c.slug}`)} class="btn-review" style="display:flex;justify-content:center;margin-top:10px">Write a review</a>
+    {c.url ? (
+      <>
+        <a href={c.url} class="btn-dark" style="display:flex;width:100%;margin-top:10px" target="_blank" rel="sponsored nofollow noopener" data-course={c.slug} data-provider={c.provider} data-placement="course-sidebar">Check price on {c.provider} →</a>
+        <a href={c.url} class="btn-review" style="display:flex;justify-content:center;margin-top:10px" target="_blank" rel="sponsored nofollow noopener" data-course={c.slug} data-provider={c.provider} data-placement="course-sidebar-reviews">Read all reviews →</a>
+      </>
+    ) : (
+      <p style="margin-top:10px;font-size:13px;color:var(--muted)">Price and link unavailable for this course right now.</p>
+    )}
     <hr />
     <div style="font-size:14px;display:grid;gap:6px">
+      <div>💵 Price: <b>{c.price ? `$${c.price}` : "See price on provider"}</b></div>
       <div>⏱ Video Duration: <b>{duration}</b></div>
       <div>🏢 Provider: <b>{c.provider}</b></div>
       <div>🔄 Updated: <b>{c.updated}</b></div>
@@ -137,5 +139,14 @@ const faqLd = cleanFaq?.length ? { "@context": "https://schema.org", "@type": "F
     <p style="font-size:12px;color:var(--muted)">{c.moneyBack ? "30-day money-back on most paid courses. " : ""}Some links earn us commission at no cost to you.</p>
   </aside>
 </div></section>
+{c.url && (
+  <div class="mobile-cta">
+    <div class="mobile-cta__price">
+      <b>{c.price ? `$${c.price}` : "See price"}</b>
+      <small>on {c.provider}</small>
+    </div>
+    <a class="btn-dark" href={c.url} target="_blank" rel="sponsored nofollow noopener" data-course={c.slug} data-provider={c.provider} data-placement="course-mobile-sticky">Check price →</a>
+  </div>
+)}
 <Footer />
 </Layout>

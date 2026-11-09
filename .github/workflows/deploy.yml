@@ -29,6 +29,10 @@ jobs:
         run: npm ci
       - name: Build
         run: npx astro build
+        env:
+          # Set these as repository variables: Settings → Secrets and variables → Actions → Variables
+          PUBLIC_GA_ID: ${{ vars.PUBLIC_GA_ID }}
+          PUBLIC_ANALYTICS_ENDPOINT: ${{ vars.PUBLIC_ANALYTICS_ENDPOINT }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -63,4 +63,5 @@ export function formatReviews(n: number): string {
   return String(n);
 }
 
-export const providers = ["Udemy", "Coursera", "edX", "Udacity", "Pluralsight", "YouTube", "LinkedIn Learning"];
+/** Real providers present in the catalogue. Never hardcode providers we do not track. */
+export const providers = [...new Set(courses.map((c) => c.provider))].sort();
