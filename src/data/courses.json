@@ -1,5 +1,589 @@
 [
   {
+    "title": "CompTIA A+ Core 1 (220-1201) Full Course & Practice Exam",
+    "slug": "comptia-a-core-1-220-1201-full-course-practice-exam",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Dion Training Solutions • ATO for ITIL & PRINCE2",
+    "instructorSlug": "dion-training-solutions-ato-for-itil-prince2",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/53797544_9c5d_2.jpg",
+    "rating": 4.6,
+    "reviews": 616709,
+    "level": "All Level",
+    "duration": "26 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Pass the CompTIA A+ Core 1 (220-1201) exam with help from a top expert in the field!",
+    "image": "https://i.udemycdn.com/course/480x270/4802926_c68f_7.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.4802926&u=https%3A%2F%2Fwww.udemy.com%2Fcomptia-a-core-1&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 198758,
+    "sections": 29,
+    "lectures": 220,
+    "access": "Akses",
+    "summary": "The CompTIA A+ Core 1 (220-1201) certification course equips learners with the fundamental knowledge and practical skills needed to succeed in IT support roles. Covering essential IT concepts, this course provides hands-on experience in installing, configuring, and troubleshooting hardware and software across a variety of devices and platforms. Whether you're starting your IT career or looking to validate your skills, this course offers a comprehensive pathway to certification.Domain DiscussionThis course is structured around key domains that align with the CompTIA A+ Core 1 (220-1201) exam objectives. Each domain contributes to the overall exam content by percentage:Mobile Devices (13%)Learn how to install and configure mobile devices, including laptops, smartphones, and tablets. Understand connectivity options, accessories, and troubleshooting techniques to ensure optimal performance in a dynamic IT environment.Networking (23%)Develop a solid understanding of networking fundamentals, including protocols, network hardware, and connectivity solutions. Explore different network types and configurations, troubleshooting strategies, and security considerations to support business operations.Hardware (25%)Master the components and functions of computer hardware, from storage solutions to peripherals. Gain hands-on experience in assembling and maintaining systems to meet user and business requirements.Virtualization and Cloud Computing (11%)Explore the principles of virtualization and cloud-based environments. Learn how virtualization enhances IT operations, and understand cloud service models, deployment types, and security best practices.Hardware and Network Troubleshooting (28%)Acquire practical skills to diagnose and resolve common hardware and network issues. Learn",
+    "requirements": "Basic understanding of computer operations and terminology Access to a computer with internet connectivity 12 months of hands-on experience in an IT support role (recommended but not required)",
+    "learn": [
+      "Installing and configuring laptops, desktops, and mobile devices",
+      "Understanding and implementing fundamental networking concepts",
+      "Troubleshooting hardware and software issues effectively",
+      "Managing and maintaining various operating systems",
+      "Implementing basic cybersecurity measures",
+      "Configuring and supporting virtualization and cloud solutions",
+      "Providing excellent customer service and support in IT environments",
+      "Utilizing best practices for troubleshooting and problem resolution"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 37,
+        "duration": "4.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 34,
+        "duration": "4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 27,
+        "duration": "3.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 35,
+        "duration": "4.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 27,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 24,
+        "duration": "2.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 36,
+        "duration": "4.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Jason Dion, CISSP No. 349867, is a former college professor and the lead instructor at Dion Training Solutions. He has multiple information technology professional certifications, including Certified Information Systems Security Professional (CISSP), Certified Ethical Hacker (CEH), Certified Network Defense Architect (CNDA), Digital Forensic Examiner (DFE), Digital Media Collector (DMC), CySA+, Security+, Network+, A+, PRINCE2 Practitioner, and ITIL. With networking experience dating back to 1992, Jason has been a network engineer, Director of a Network Operations and Security Center, and an Information Systems Officer for large organizations around the globe. \n\nHe holds a Master’s of Science degree in Information Technology with a specialization in Information Assurance.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is CompTIA A+ Core 1 (220-1201) Full Course & Practice Exam suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 616,709 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Ultimate Microsoft Office 365 Bundle",
+    "slug": "ultimate-microsoft-office-365-bundle",
+    "provider": "Udemy",
+    "category": "Microsoft",
+    "categorySlug": "microsoft",
+    "instructor": "Simon Sez IT",
+    "instructorSlug": "simon-sez-it",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/254593_efe3_6.jpg",
+    "rating": 4.5,
+    "reviews": 793,
+    "level": "All Level",
+    "duration": "48.5 hours",
+    "updated": "11/2026",
+    "description": "Master Microsoft Office 365 with this 11-course Bundle",
+    "language": "English",
+    "certificate": true,
+    "students": 4281,
+    "sections": 91,
+    "lectures": 555,
+    "summary": "**This bundle includes practice exercises, downloadable files, and LIFETIME access**Welcome to the Ultimate Microsoft Office 365 Bundle, an extensive 11-course collection designed to elevate your mastery of essential Office 365 applications. This bundle covers many tools and functionalities, enabling you to enhance your productivity and efficiency across various professional contexts.Begin with Excel 365 for Beginners to build a strong foundation in spreadsheet creation and data analysis. As you advance, delve into Excel 365 Intermediate and Excel 365 Advanced, where you'll tackle more complex functions, data visualization, and advanced analytical techniques.Expand your document creation skills with Word 365 for Beginners, and learn to design impactful presentations in PowerPoint 365 for Beginners. Enhance your collaboration and communication with Teams 365, mastering the art of seamless teamwork and virtual meetings.Manage your emails and schedule efficiently with Outlook Online 365, discover the power of cloud storage and file sharing in OneDrive for Business 365, organize your notes and ideas effectively with OneNote 365, and explore how to create interactive surveys and quizzes in Forms 365.Finally, unlock the potential of AI within the Microsoft ecosystem with Copilot in Microsoft 365 for Beginners, learning to integrate and utilize AI features to boost your productivity and collaboration further.Completing this comprehensive bundle will equip you with versatile skills crucial for proficiently navigating Office 365. Whether you're a student, professional, or entrepreneur, investing in this bundle ensures you have the expertise to excel in your endeavors, making you a valuable asset in any workplace.What's included?Excel 365 for BeginnersAccess the Microsoft 365 online portal.</",
+    "requirements": "No prior experience needed. This course is designed for absolute beginners. Microsoft Excel 365, Word 365, and PowerPoint 365 for Windows installed and ready to use on your computer. Access to Copilot and an active Microsoft 365 account and subscription to access the applications is useful.",
+    "learn": [
+      "Perform lookups with VLOOKUP, INDEX/MATCH, and XLOOKUP.",
+      "Protect cells, worksheets, and workbooks from editing.",
+      "Add an Excel workbook to a Teams channel and share in a Teams meeting.",
+      "Design spreadsheets for improved readability using cell styles.",
+      "Implement data validation for accurate input control.",
+      "Utilize logical functions like AND, OR, and IF for decision-making.",
+      "Identify and handle duplicates in data using conditional formatting and formulas.",
+      "Perform what-if analysis using functions like PMT, Goal Seek, and Data Tables.",
+      "Extract and count unique entries using Dynamic Array Functions.",
+      "Differentiate between unique and distinct values in Excel spreadsheets.",
+      "Utilize SORT and SORTBY functions for data organization and analysis.",
+      "Employ FILTER functions with logical operators for precise data filtration.",
+      "Generate random arrays and values with RANDARRAY and RANDBETWEEN functions.",
+      "Develop custom formulas with LET and LAMBDA functions for tailored analysis.",
+      "Create and manage data models with Power Pivot, including table relationships.",
+      "Launch Word and customize the Quick Access Toolbar.",
+      "Create, save, and recover documents, and switch between document views.",
+      "Enter and format text efficiently, and format paragraphs.",
+      "Organize slides using modern layouts.",
+      "Incorporate multimedia elements like video, audio, and animations.",
+      "Utilize diagrams and charts effectively for data presentation.",
+      "Create accessible presentations for diverse audiences.",
+      "Prepare and deliver presentations confidently.",
+      "Identify Microsoft Teams' core features and their role in collaboration.",
+      "Create, join, and manage public and private teams for effective communication.",
+      "Master messaging skills, including posting, receiving, and managing messages.",
+      "Manage teams and channels adeptly, applying actions like leaving and hiding teams.",
+      "Construct folders and subfolders for efficient email categorization.",
+      "Employ advanced search and filters to streamline email retrieval effectively.",
+      "Utilize Focused Inbox, Sweep, and archiving techniques for inbox organization.",
+      "Share email folders, apply rules, and manage calendars seamlessly for teamwork efficiency.",
+      "Demonstrate efficient OneDrive integration with Office applications for seamless file handling.",
+      "Utilize OneDrive interface features to navigate and manage files effectively.",
+      "Implement file synchronization strategies for optimal OneDrive for Business functionality.",
+      "Master collaborative workflows, including sharing, co-authoring, and file recovery processes.",
+      "Create OneNote notebooks efficiently for various purposes.",
+      "Organize content using sections and pages.",
+      "Collaborate effectively by sharing and co-authoring notebooks.",
+      "Format columns, rows, and cells with Copilot in Excel.",
+      "Create and modify presentations from scratch with Copilot in PowerPoint.",
+      "Draft and refine documents efficiently with Copilot in Word.",
+      "Draft new messages and summarize replies in Outlook using Copilot.",
+      "Collaborate with Copilot in Microsoft Teams for enhanced productivity.",
+      "Brainstorm ideas effectively using Copilot in OneNote.",
+      "Generate images efficiently with Copilot in Bing."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 90,
+        "duration": "7.9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 68,
+        "duration": "6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 86,
+        "duration": "7.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 69,
+        "duration": "6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 78,
+        "duration": "6.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 76,
+        "duration": "6.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 88,
+        "duration": "7.7h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Since 2008, individuals, small businesses, and Fortune 500 companies with thousands of employees have benefited from the easy and hands-on software training offered by Simon Sez IT. With over 12,000 video tutorials on a range of software programs, Simon Sez IT ensures stress-free eLearning and enhanced employee productivity - no matter whether you are implementing new software or a technological upgrade for your workplace. With over 1 million Udemy students in over 190 countries, Simon Sez IT is the preferred online learning choice for individuals and businesses everywhere.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Ultimate Microsoft Office 365 Bundle suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 793 students, our Udemy course reviews put it above most Microsoft alternatives."
+      }
+    ],
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through Microsoft",
+    "skipIf": "You already work professionally in Microsoft and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "SY0-801 V8 Masterclass: Prepare for CompTIA Security+®",
+    "slug": "sy0-801-v8-masterclass-prepare-for-comptia-security",
+    "provider": "Udemy",
+    "category": "Network & Security",
+    "categorySlug": "network-security",
+    "instructor": "Jozef Baros",
+    "instructorSlug": "jozef-baros",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/307203071_5e87.jpg",
+    "rating": 4.3,
+    "reviews": 5,
+    "level": "All Level",
+    "duration": "11 hours",
+    "updated": "11/2026",
+    "description": "Prepare for the new CompTIA Security+ (Unofficial) [AR, EN, ES, FR, HI, PT, TR subs]",
+    "image": "https://i.udemycdn.com/course/480x270/7390465_1a06.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7390465&u=https%3A%2F%2Fwww.udemy.com%2Fsecurity-v8-masterclass&intsrc=APIG_26324",
+    "language": "English",
+    "students": 9,
+    "sections": 6,
+    "lectures": 72,
+    "access": "Akses",
+    "summary": "This course contains the use of artificial intelligence.Before enrolling, please watch free preview videos, to see what you are getting and if the course style suits you.Prepare for the new CompTIA Security+ SY0-801 (version 8) exam with a course built around the way the exam actually tests you: scenarios, performance-based questions and \"choose the best option\" decisions.The SY0-801 exam brings real changes. There is a dedicated objective on AI threats, with prompt injection, data poisoning, jailbreaking and hallucinations. New attack vectors such as RCS, quishing and deepfakes appear. Identity topics expand to identity providers, gMSA and passkeys. And terms like security service edge, BIMI and incident negotiation are now on the exam. Older study materials miss most of this. This course covers all of it, mapped to the official exam domains.What's inside60 video lessons in six sections: one section per exam domain, plus real-world case studies and exam strategyFive PBQ walkthrough lessons where you solve log analysis, firewall rules, DNS records, change requests and recovery design step by stepSection introductions with a learning map and questions to answer by the endSection wrap-ups with a new practice scenario and 12 self-check questions with explanationsFive one-page cheat sheets, one per domain, plus an exam-day checklist and an acronym glossary (PDF)Two knowledge checks with 30 questions each and detailed explanationsTen real incidents seen through the exam lens: SolarWinds, Colonial Pipeline, NotPetya, MOVEit, Log4Shell, Kaseya, 3CX, Equifax, Target and a deepfake fraud caseHow the course is organisedSection 1: General Security Concepts (16 %)<",
+    "requirements": "Basic familiarity with computers, operating systems and networking concepts (IP addresses, ports) About two years of IT or security experience is recommended by CompTIA, but not required No paid software needed: all you need is a browser and willingness to practise",
+    "learn": [
+      "Explain and apply every SY0-801 V8 objective across all five exam domains",
+      "Recognise attacks from logs, indicators and scenarios, including the new AI threats",
+      "Classify security controls and choose the right cryptography, PKI and data protection",
+      "Design secure architectures: zones, Zero Trust, SSE, segmentation and resilient recovery",
+      "Operate security: hardening, monitoring, IAM, vulnerability management and incident response",
+      "Calculate risk (SLE, ALE), availability and recovery targets with confidence",
+      "Solve performance-based questions step by step: logs, firewall rules, DNS records, sequencing",
+      "Use a proven exam-day strategy for timing, trigger words and PBQ tactics"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 12,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 11,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 13,
+        "duration": "2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 12,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 12,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 12,
+        "duration": "1.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I'm a network architect and teamlead with hands-on experience running Cisco data center environments, building network automation, and managing enterprise networks. I focus on Cisco technologies, Python and Ansible automation, ITIL, and certification-focused training — because I've lived both sides of it, the real production network and the exam room. My goal is simple: make complex topics practical, clear, and useful, whether you're implementing this on the job or prepping for the test. Along the way I've picked up a few certifications myself — 4x CCNP (Automation, Enterprise, Security, DataCenter) Azure, ITIL Foundation, Fortinet — and I keep them current so I'm never teaching from stale material.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is SY0-801 V8 Masterclass: Prepare for CompTIA Security+® suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.3★ average from 5 students, our Udemy course reviews put it above most Network & Security alternatives."
+      }
+    ],
+    "certificate": true,
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through Network & Security",
+    "skipIf": "You already work professionally in Network & Security and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Amazon Web Services (AWS) Certified - 5 Certifications!",
+    "slug": "amazon-web-services-aws-certified-5-certifications",
+    "provider": "Udemy",
+    "category": "Amazon AWS",
+    "categorySlug": "amazon-aws",
+    "instructor": "BackSpace Academy",
+    "instructorSlug": "backspace-academy",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/27829848_1d83.jpg",
+    "rating": 4.6,
+    "reviews": 25507,
+    "level": "All Level",
+    "duration": "54.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "AWS Certified (AI & Cloud Practitioner, Solutions Architect, Developer, SysOps Administrator Associate)",
+    "image": "https://i.udemycdn.com/course/480x270/1047846_83ef_30.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3939309/39854?prodsku=course.1047846&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-associate-architect-developer-sysops-admin&intsrc=APIG_34565",
+    "language": "English",
+    "certificate": true,
+    "students": 170091,
+    "sections": 6,
+    "lectures": 218,
+    "access": "Akses",
+    "summary": "New!! AWS Certified AI Practitioner section added.PLEASE NOTE THIS IS A VERY HANDS ON COURSE. IF YOU ARE LOOKING FOR COURSE THAT TALKS TO SLIDES, THIS IS NOT FOR YOU.This course is fully updated for the latest AWS exams and is regularly updated at least every month; always has and always will be.The most comprehensive AWS certification prep course on Udemy.real life labs with professionally produced detailed lab notes (1,000s of pages!)Python, NodeJS and Javascript code for developer labs (Lambda, Cognito, X-Ray, SQS, SNS and much more)practice tests / quizzes for each main section (600+ questions in pdf format!)4 full length certification practice exams (240 questions!)If want want to master advanced skills in architecture design, administration and software development this the course for you. This includes proficient use of both the AWS command line and the AWS Software Development Kit.Real review:\"Completed CSAA yesterday (94.4%). I want to thank Paul for the effort in putting together the content and creating the excitement around the diverse services of AWS and going deep on the core services\"Why pay for 8 courses, and still not be prepared for the exam? The BackSpace Academy approach provides individual learning paths for all 4 AWS Associate and Foundation certifications. This approach provides the fastest route to certification preparation.This course FULLY prepares you for ALL 4 AWS certifications - the AWS Certified Solutions Architect Associate, AWS Certified Developer Associate, AWS Certified SysOps Admini",
+    "requirements": "Basic understanding of computers and networking. The student will require an AWS account to complete hands on labs sessions. Windows, Linux or Mac PC to complete hands on labs sessions.",
+    "learn": [
+      "You will be fully prepared for the AWS Certified AI & Cloud Practitioner, Solutions Architect Associate, Developer Associate and SysOps Administrator Associate.",
+      "Design Architectures on AWS",
+      "Develop applications on AWS",
+      "Deploy and monitor applications at scale."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 29,
+        "duration": "7.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 32,
+        "duration": "8h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 40,
+        "duration": "10h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 40,
+        "duration": "10h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 39,
+        "duration": "9.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 38,
+        "duration": "9.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Providing accelerated learning programs taught by AWS professional level certified instructors since 2014. A unique approach that focusses on maximum results in the shortest possible time. Quality lecture videos reinforced with instructional and hands-on lab videos and, review tests.\n\nDon't waste hours of valuable time watching long boring videos only to find you are still not prepared for the exam.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Amazon Web Services (AWS) Certified - 5 Certifications! suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 25,507 students, our Udemy course reviews put it above most Amazon AWS alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through Amazon AWS",
+    "skipIf": "You already work professionally in Amazon AWS and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Python Data Structures And Algorithms: Visual DSA + LeetCode",
+    "slug": "python-data-structures-and-algorithms-visual-dsa-leetcode",
+    "provider": "Udemy",
+    "category": "Data Structures",
+    "categorySlug": "data-structures",
+    "instructor": "Javid Bodurov",
+    "instructorSlug": "javid-bodurov",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/345214085_68fd_2.jpg",
+    "rating": 5,
+    "reviews": 20,
+    "level": "All Level",
+    "duration": "18 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Master Python DSA with Step-by-Step Animations, Hands-On Coding, Big O Analysis and LeetCode Interview Practice",
+    "image": "https://i.udemycdn.com/course/480x270/7368727_0a41_6.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7368727&u=https%3A%2F%2Fwww.udemy.com%2Fpython-data-structures-algorithms-visual-dsa-leetcode&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 107,
+    "sections": 14,
+    "lectures": 180,
+    "summary": "Master Python Data Structures & Algorithms Through Visual LearningData Structures and Algorithms are fundamental to writing efficient code and solving programming problems, but understanding how they work can be difficult when you're only looking at lines of code.This course takes a different approach.You'll learn DSA through custom-built visual animations that show you exactly what's happening behind the scenes, followed by step-by-step Python implementations that bring each concept to life.From understanding how arrays, linked lists, and hash tables work to exploring trees, graphs, and algorithm efficiency, you'll build the knowledge and practical skills to solve programming problems with greater confidence.You'll also put your knowledge to the test through coding exercises, quizzes, and LeetCode challenges.Learn Data Structures & Algorithms By Seeing Them In ActionInstead of jumping straight into complicated code, you'll first see how each data structure and algorithm works.Custom animations break down complex operations into individual steps, making it easier to understand how data is organized, accessed, modified, and processed.You'll then connect those visual explanations to actual Python code, learning how to implement each concept and apply it to practical programming problems.The goal isn't simply to teach you how to reproduce an algorithm. It's to help you understand the logic behind it so you can apply that knowledge to problems you haven't encountered before.What You'll Learn:Big O Notation & Algorithm AnalysisUnderstand time and space complexity, evaluate algorithm performance, and compare different approaches to solving the same problem.Arrays & Linked ListsLearn how arrays and linked lists work, including nodes, pointers, traversal, insertion, deletion, and common ope",
+    "requirements": "Basic familiarity with Python programming, including variables, loops, functions, and lists, is recommended. No previous knowledge of data structures or algorithms is required. The course introduces DSA concepts step by step. A computer with Python installed is recommended for following coding examples and completing practice exercises.",
+    "learn": [
+      "Understand Python Data Structures and Algorithms (DSA) through visual animations, clear explanations, and practical examples.",
+      "Implement arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs using Python.",
+      "Analyze algorithm efficiency using Big O notation, including time complexity, space complexity, and common performance trade-offs.",
+      "Understand essential algorithms, including searching, sorting, recursion, tree traversal, BFS, and DFS.",
+      "Solve LeetCode problems using Python and develop systematic approaches to coding interview challenges.",
+      "Choose appropriate data structures, compare algorithmic solutions, and explain your reasoning during technical interviews.",
+      "Strengthen your Python programming skills through hands-on coding exercises, quizzes, and guided problem-solving.",
+      "Build confidence in algorithmic thinking by connecting visual concepts to real Python implementations."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 29,
+        "duration": "2.9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 19,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 28,
+        "duration": "2.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 30,
+        "duration": "3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 23,
+        "duration": "2.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 30,
+        "duration": "3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 21,
+        "duration": "2.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hi, I'm Javid Bodurov, a developer, educator, and the founder of VertexClass.\n\nI created VertexClass with one goal: to make Data Structures & Algorithms genuinely easy to understand.\n\nHow do I do this? By animating everything!\n\nEvery concept in my courses is brought to life with step-by-step animations. You'll watch arrays shift, linked lists rewire, trees grow, heaps reorganize, and graphs get explored, one line of code at a time.\n\nWhen you can see what's happening, hard topics stop feeling abstract. You learn faster, remember longer, and actually enjoy the process.\n\nAnd it's not just visuals. Every animation is paired with clean, tested Python code, so you always know how the idea turns into a working solution.\n\nEach section also includes LeetCode-style practice problems solved step by step, a printable cheat sheet, and a quiz, so you can put everything into practice right away and review it anytime (a very important step).\n\nBy the end, you'll be ready to tackle coding interviews with confidence.\n\nCheck out the free preview videos to see the difference the animations make.\n\nAnd if you ever get stuck, just ask in the Q&A. I'll be with you every step of the way.\n\nSee you inside the course!",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Python Data Structures And Algorithms: Visual DSA + LeetCode suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 5★ average from 20 students, our Udemy course reviews put it above most Data Structures alternatives."
+      }
+    ],
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through Data Structures",
+    "skipIf": "You already work professionally in Data Structures and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "Python Data Structures & Algorithms + LEETCODE Exercises",
     "slug": "python-data-structures-algorithms-leetcode-exercises",
     "provider": "Udemy",
