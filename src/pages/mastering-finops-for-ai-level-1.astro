@@ -1,0 +1,68 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { u } from "../lib/u";
+
+const site = "https://coursedepth.com";
+const affiliateLink = "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7389409&u=https%3A%2F%2Fwww.udemy.com%2Fmastering-finops-for-ai-level-1&intsrc=APIG_26324";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", position: 1, name: "Home", item: site + "/" },
+        { "@type": "ListItem", position: 2, name: "Mastering FinOps for AI (Level 1)", item: site + "/mastering-finops-for-ai-level-1/" },
+      ],
+    },
+    {
+      "@type": "Article",
+      headline: "Mastering FinOps for AI (Level 1): Take Control of AI Costs",
+      description: "Learn how to manage and optimize AI costs using FinOps principles",
+      datePublished: "2026-11-10",
+      dateModified: "2026-11-10",
+      inLanguage: "en",
+      author: { "@type": "Organization", name: "CourseDepth", url: site + "/" },
+      publisher: { "@type": "Organization", name: "CourseDepth", url: site + "/", logo: { "@type": "ImageObject", url: site + "/images/logo-mark.svg" } },
+      mainEntityOfPage: { "@type": "WebPage", "@id": site + "/mastering-finops-for-ai-level-1/" },
+    },
+  ],
+};
+---
+
+<Layout title="Mastering FinOps for AI (Level 1): Take Control of AI Costs — CourseDepth" description="Learn how to manage and optimize AI costs using FinOps principles" set:html={JSON.stringify(jsonLd)}>
+<Header />
+
+<section class="page-hero"><div class="container"><h1>Mastering FinOps for AI (Level 1): Take Control of AI Costs</h1><p>Discover how to manage and optimize your AI spending using FinOps best practices.</p></div></section>
+
+<section class="section"><div class="container" style="max-width:760px">
+  <div class="article-content">
+    <p>AI costs can spiral out of control quickly without proper oversight. This guide introduces FinOps fundamentals specifically for AI projects, helping you understand where your money goes and how to optimize it.</p>
+
+    <h2>Key Topics Covered</h2>
+    <ul>
+      <li>Understanding AI cost components (compute, storage, data transfer, model licensing)</li>
+      <li>FinOps framework for AI: Plan, Identify, Optimize, Operate</li>
+      <li>Budgeting and forecasting for AI projects</li>
+      <li>Monitoring and alerting for cost anomalies</li>
+      <li>Strategies for cost optimization (right-sizing, spot instances, reserved capacity)</li>
+      <li>Governance and policy enforcement</li>
+    </ul>
+
+    <div style="margin-top:24px; padding-top:24px; border-top:1px solid var(--border);">
+      <h3>Related course</h3>
+      <p>Check out the <strong>Mastering FinOps for AI (Level 1)</strong> course through our affiliate link:</p>
+      <a class="btn-dark" href={affiliateLink} target="_blank" rel="sponsored nofollow noopener">
+        🎓 Master FinOps for AI on Udemy →
+      </a>
+      <p style="margin-top:12px; font-size:13px; color:var(--muted)">
+        Some links earn us a commission at no extra cost to you. Commission never changes a rating, a ranking or whether a course is included.
+      </p>
+    </div>
+  </div>
+</div></section>
+
+<Footer />
+</Layout>

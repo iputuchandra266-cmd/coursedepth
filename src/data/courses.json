@@ -1,5 +1,231 @@
 [
   {
+    "title": "AI-103 Azure AI Apps & Agents Complete Course 2026 + 2 Exams",
+    "slug": "ai-103-azure-ai-apps-agents-complete-course-2026-2-exams",
+    "provider": "Udemy",
+    "category": "Microsoft",
+    "categorySlug": "microsoft",
+    "instructor": "Joel Palmer - Microsoft Solution Architect - Technical Expert - PMP",
+    "instructorSlug": "joel-palmer-microsoft-solution-architect-technical-expert-pmp",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/166136178_e1ef_2.jpg",
+    "rating": 4.5,
+    "reviews": 2408,
+    "level": "All Level",
+    "duration": "28.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "The ONLY AI-103 exam preparation course you need to pass in 2026! Updated to the latest AI-103 curriculum!",
+    "image": "https://i.udemycdn.com/course/480x270/7394899_d41a.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7394899&u=https%3A%2F%2Fwww.udemy.com%2Fai-103-azure-ai-apps-agents-complete-course-2026-2-exams&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 19366,
+    "sections": 19,
+    "lectures": 108,
+    "access": "Akses",
+    "moneyBack": true,
+    "summary": "PASS AI-103 WITH A CLEAR PLAN, PRACTICAL UNDERSTANDING AND EXAM CONFIDENCELooking for one focused course to get you prepared to pass Microsoft AI-103? Bring your preparation together with clear video teaching, guided examples, code walkthroughs and two practice exams covering 120 carefully selected questionsBy completing the lessons, working through the examples and using your practice exam results to close knowledge gaps, you’ll build the understanding and decision-making skills needed to approach AI-103 ready to passTHE X-FACTOR: You’ll see the decision-making unfoldFollow a realistic business problem as it becomes an AI application, an agent workflow or an Azure solution. See how the components work together, why an approach fits the requirements and which clues help you choose the best answerLearn how a change in security, cost, accuracy, latency or approval requirements can change the right solution. That reasoning is central to answering scenario-based questions with confidenceBuild your understanding across all five AI-103 exam domains:Plan, deploy, monitor and secure Azure AI solutions, including model selection, deployment choices, identity, networking, capacity and responsible AIDevelop generative AI applications and agents with Microsoft Foundry, RAG, tools, memory, function calling, multi-agent workflows and human approvalsWork with image and video generation, editing, visual understanding, accessibility and content safetyApply text and speech capabilities for translation, sentiment, structured outputs, voice interactions and domain-specific requirementsExtract useful information from documents and other content using OCR, layout analysis, field extraction and Azure AI Search retrieval pipelinesYou’ll connect these topics through practical examples and e",
+    "bestFor": "all level learners who want one guided path through Microsoft",
+    "skipIf": "You already work professionally in Microsoft and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "Basic Python skills and familiarity with Azure and AI concepts are recommended, plus a computer with internet access to watch lessons and take practice exams",
+    "learn": [
+      "Build the practical Azure AI skills and exam confidence to take on AI-103 with a clear understanding of all five exam domains",
+      "Choose, deploy and secure the right AI models and services for real-world business challenges",
+      "Develop grounded generative AI applications using RAG, Azure AI Search and effective prompting techniques",
+      "Design intelligent agents with tools, memory, multi-agent workflows and human approval safeguards",
+      "Create and analyze images and videos using multimodal AI while applying responsible AI controls",
+      "Implement text and speech solutions for translation, sentiment, structured outputs and natural voice interactions",
+      "Turn complex documents into useful knowledge with OCR, layout analysis, field extraction and retrieval pipelines",
+      "Test your readiness with two 60-question practice exams and use detailed explanations to close knowledge gaps before exam day"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 19,
+        "duration": "4.9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 13,
+        "duration": "3.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 14,
+        "duration": "3.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 12,
+        "duration": "3.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 20,
+        "duration": "5.2h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 15,
+        "duration": "4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 15,
+        "duration": "3.8h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "My mission is to provide affordable courses and practice tests for learners at all levels, helping students build confidence, strengthen their skills, and prepare effectively for certification exams and real-world career opportunities.\n\n\n\nI’m a Technical Project Manager with a strong focus on cloud transformation, Azure architecture, and digital infrastructure projects. I hold multiple Microsoft certifications, including Azure Solutions Architect Expert (AZ-305), Azure Administrator Associate (AZ-104), Azure Fundamentals (AZ-900), Microsoft 365 Fundamentals (MS-900), and Azure AI Fundamentals (AI-900).\n\n\n\nAlongside my technical expertise, I’m a Project Management Professional (PMP), PRINCE2 Practitioner certified, and a Certified Associate in Project Management (CAPM). These credentials reflect my commitment to bridging business strategy with technical execution in every project I lead.\n\n\n\nHaving delivered multimillion-dollar IT and defence projects across Australia and the Asia-Pacific region, I bring practical, real-world experience to every course I create. My goal is to make Azure, AI, cloud, and project management concepts clear, actionable, and career-boosting, helping learners confidently master key technologies and apply them effectively in real-world environments.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
+    },
+    "faq": [
+      {
+        "q": "Is AI-103 Azure AI Apps & Agents Complete Course 2026 + 2 Exams suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 2,408 students, our Udemy course reviews put it above most Microsoft alternatives."
+      }
+    ]
+  },
+  {
+    "title": "NCP-AAI - Prep Course - Learn and Pass NCP-Agentic AI Cert",
+    "slug": "ncp-aai-prep-course-learn-and-pass-ncp-agentic-ai-cert",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Ashish Prajapati",
+    "instructorSlug": "ashish-prajapati",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/221603814_af2c_2.jpg",
+    "rating": 4.8,
+    "reviews": 8542,
+    "level": "All Level",
+    "duration": "11 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "image": "https://i.udemycdn.com/course/480x270/7380331_bb8c_3.jpg",
+    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7380331&u=https%3A%2F%2Fwww.udemy.com%2Fncp-aai-bootcamp&intsrc=APIG_26324",
+    "language": "English",
+    "certificate": true,
+    "students": 54402,
+    "sections": 17,
+    "lectures": 195,
+    "access": "Akses",
+    "summary": "Agentic AI: Learn and Pass NCP-AAI Certification (NCP-Agentic AI)Agentic AI is transforming how AI applications are designed and deployed. Unlike traditional Generative AI, AI agents can reason, plan, use tools, maintain memory, and take actions to accomplish complex goals. As organizations move from AI prototypes to production-grade Agentic AI systems, understanding agent architectures, orchestration, reliability, security, and scalability is becoming an increasingly valuable skill.This is an intermediate-level, certification-focused course designed to help you build a solid foundation in Agentic AI while confidently preparing for the NCP-Agentic AI certification exam.The course follows the official certification exam objectives, focusing on What, Why, and When rather than step-by-step implementation. It equips you with the knowledge to understand architectural decisions, technology choices, and the nuances of designing, deploying, and operating production-grade Agentic AI systems.What You'll LearnCore Agentic AI concepts, including intelligent agents, autonomy, reasoning, planning, and decision-makingAgent architectures and multi-agent systems, including ReAct, Reflexion, orchestration patterns, and agent collaborationMemory and knowledge integration, including short-term and long-term memory, RAG, vector databases, and semantic retrievalPrompt engineering, tool integration, and agent reliability, including structured outputs, error handling, and external API interactionsAgent evaluation and optimization, including benchmarking, performance metrics, feedback loops, and continuous improvementProduction deployment and scaling, including Kubernetes, containerization, GPU op",
+    "requirements": "UndeA basic understanding of generative AI and large language modelsstand the fundamentals of Agentic AI, including agent architectures, reasoning, planning, memory, tool integration, and multi-agent systems. Prepare for the NCP-Agentic AI certification by understanding key concepts, architectural patterns, technology selection, and production design principles. Gain a solid understanding of the technologies, frameworks, and tools used to build, deploy, secure, and manage production-grade Agentic AI systems. Develop the knowledge to evaluate architectural trade-offs, agent performance, reliability, scalability, safety, and human oversight in real-world Agentic AI",
+    "learn": [
+      "Understand the fundamentals of Agentic AI, including agent architectures, reasoning, planning, memory, tool integration, and multi-agent systems.",
+      "Prepare for the NCP-Agentic AI certification by understanding key concepts, architectural patterns, technology selection, and production design principles.",
+      "Gain a solid understanding of the technologies, frameworks, and tools used to build, deploy, secure, and manage production-grade Agentic AI systems.",
+      "Develop the knowledge to evaluate architectural trade-offs, agent performance, reliability, scalability, safety, and human oversight in real-world Agentic AI"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 26,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 28,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 35,
+        "duration": "2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 33,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 21,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 23,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 29,
+        "duration": "1.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Ashish is a technical professional currently based in London, UK. He is passionate about helping individuals and enterprises in learning Cloud skills in an easy and fun way.\n\n\n\nHis deep background as a virtualization and cloud migration expert allows him to leverage his field knowledge into the classroom by bringing real world examples to learners.\n\n\n\nHis work has helped many cloud enthusiasts get started with the cloud, learn the fundamentals, and achieve cloud certifications.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is NCP-AAI - Prep Course - Learn and Pass NCP-Agentic AI Cert suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.8★ average from 8,542 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "CompTIA A+ Core 1 (220-1201) Full Course & Practice Exam",
     "slug": "comptia-a-core-1-220-1201-full-course-practice-exam",
     "provider": "Udemy",
