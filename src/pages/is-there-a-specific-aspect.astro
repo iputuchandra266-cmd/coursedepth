@@ -1,0 +1,72 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { courses, providers } from "../data/courses";
+import { u } from "../lib/u";
+
+const site = "https://coursedepth.com";
+const affiliateLink = "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7380331&u=https%3A%2F%2Fwww.udemy.com%2Fncp-aai-bootcamp&intsrc=APIG_26324";
+
+const aspectQs = [
+  "Admin form fields — how to add, edit, and validate course data through the dashboard",
+  "Article template — how CourseDepth pages are structured with LD+JSON and components",
+  "API endpoints — how the admin API and course data flow work",
+  "Course review methodology — how ratings, freshness and curriculum are weighted",
+  "Affiliate links — how links like the NCP AAI Bootcamp course are tracked",
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": aspectQs.map((q) => ({
+        "@type": "Question",
+        "name": q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "See the corresponding section below for a detailed explanation.",
+        },
+      })),
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", position: 1, name: "Home", item: site + "/" },
+        { "@type": "ListItem", position: 2, name: "Is There a Specific Aspect?", item: site + "/is-there-a-specific-aspect/" },
+      ],
+    },
+  ],
+};
+---
+
+<Layout title="Is There a Specific Aspect You'd Like to Know More About? — CourseDepth" description="FAQ about admin form fields, article templates, API endpoints and more" set:html={JSON.stringify(jsonLd)}>
+<Header />
+
+<section class="page-hero"><div class="container"><h1>Is There a Specific Aspect You'd Like to Know More About?</h1><p>Below are the most common questions about how CourseDepth works, from the admin form to the article template and API.</p></div></section>
+
+<section class="section"><div class="container" style="max-width:760px">
+  <div class="faq-grid">
+    {aspectQs.map((q, i) => (
+      <div class="faq-item" key={i}>
+        <h3>{q}</h3>
+        <p>Detailed explanation and context will be added as the site evolves. Stay tuned for more!</p>
+      </div>
+    ))}
+  </div>
+
+  <div style="margin-top:32px; padding-top:24px; border-top:1px solid var(--border);">
+    <h3>Related course</h3>
+    <p>If you're interested in the <strong>NCP AAI Bootcamp</strong> course mentioned in our affiliate program, you can check it out through our link:</p>
+    <a class="btn-dark" href={affiliateLink} target="_blank" rel="sponsored nofollow noopener">
+      🎓 View NCP AAI Bootcamp on Udemy →
+    </a>
+    <p style="margin-top:12px; font-size:13px; color:var(--muted)">
+      Some links earn us a commission at no extra cost to you. Commission never changes a rating, a ranking or whether a course is included.
+    </p>
+  </div>
+</div></section>
+
+<Footer />
+</Layout>
