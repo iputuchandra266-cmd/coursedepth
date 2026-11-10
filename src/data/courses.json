@@ -570,7 +570,7 @@
     "updated": "11/2026",
     "description": "Master Microsoft Office 365 with this 11-course Bundle",
     "image": "https://i.udemycdn.com/course/480x270/6035304_b3c3_3.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.6035304&u=https%3A%2F%2Fwww.udemy.com%2Fultimate-microsoft-office-365-bundle&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/5kN5AL",
     "language": "English",
     "certificate": true,
     "students": 4281,
@@ -724,13 +724,18 @@
     "updated": "11/2026",
     "description": "Prepare for the new CompTIA Security+ (Unofficial) [AR, EN, ES, FR, HI, PT, TR subs]",
     "image": "https://i.udemycdn.com/course/480x270/7390465_1a06.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7390465&u=https%3A%2F%2Fwww.udemy.com%2Fsecurity-v8-masterclass&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/qWjzEy",
     "language": "English",
+    "certificate": true,
     "students": 9,
     "sections": 6,
     "lectures": 72,
     "access": "Akses",
+    "moneyBack": true,
     "summary": "This course contains the use of artificial intelligence.Before enrolling, please watch free preview videos, to see what you are getting and if the course style suits you.Prepare for the new CompTIA Security+ SY0-801 (version 8) exam with a course built around the way the exam actually tests you: scenarios, performance-based questions and \"choose the best option\" decisions.The SY0-801 exam brings real changes. There is a dedicated objective on AI threats, with prompt injection, data poisoning, jailbreaking and hallucinations. New attack vectors such as RCS, quishing and deepfakes appear. Identity topics expand to identity providers, gMSA and passkeys. And terms like security service edge, BIMI and incident negotiation are now on the exam. Older study materials miss most of this. This course covers all of it, mapped to the official exam domains.What's inside60 video lessons in six sections: one section per exam domain, plus real-world case studies and exam strategyFive PBQ walkthrough lessons where you solve log analysis, firewall rules, DNS records, change requests and recovery design step by stepSection introductions with a learning map and questions to answer by the endSection wrap-ups with a new practice scenario and 12 self-check questions with explanationsFive one-page cheat sheets, one per domain, plus an exam-day checklist and an acronym glossary (PDF)Two knowledge checks with 30 questions each and detailed explanationsTen real incidents seen through the exam lens: SolarWinds, Colonial Pipeline, NotPetya, MOVEit, Log4Shell, Kaseya, 3CX, Equifax, Target and a deepfake fraud caseHow the course is organisedSection 1: General Security Concepts (16 %)<",
+    "bestFor": "all level learners who want one guided path through Network & Security",
+    "skipIf": "You already work professionally in Network & Security and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Basic familiarity with computers, operating systems and networking concepts (IP addresses, ports) About two years of IT or security experience is recommended by CompTIA, but not required No paid software needed: all you need is a browser and willingness to practise",
     "learn": [
       "Explain and apply every SY0-801 V8 objective across all five exam domains",
@@ -793,7 +798,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -808,12 +818,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 4.3★ average from 5 students, our Udemy course reviews put it above most Network & Security alternatives."
       }
-    ],
-    "certificate": true,
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through Network & Security",
-    "skipIf": "You already work professionally in Network & Security and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Amazon Web Services (AWS) Certified - 5 Certifications!",
@@ -832,14 +837,18 @@
     "bestseller": true,
     "description": "AWS Certified (AI & Cloud Practitioner, Solutions Architect, Developer, SysOps Administrator Associate)",
     "image": "https://i.udemycdn.com/course/480x270/1047846_83ef_30.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3939309/39854?prodsku=course.1047846&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-associate-architect-developer-sysops-admin&intsrc=APIG_34565",
+    "url": "https://trk.udemy.com/enW1rj",
     "language": "English",
     "certificate": true,
     "students": 170091,
     "sections": 6,
     "lectures": 218,
     "access": "Akses",
+    "moneyBack": true,
     "summary": "New!! AWS Certified AI Practitioner section added.PLEASE NOTE THIS IS A VERY HANDS ON COURSE. IF YOU ARE LOOKING FOR COURSE THAT TALKS TO SLIDES, THIS IS NOT FOR YOU.This course is fully updated for the latest AWS exams and is regularly updated at least every month; always has and always will be.The most comprehensive AWS certification prep course on Udemy.real life labs with professionally produced detailed lab notes (1,000s of pages!)Python, NodeJS and Javascript code for developer labs (Lambda, Cognito, X-Ray, SQS, SNS and much more)practice tests / quizzes for each main section (600+ questions in pdf format!)4 full length certification practice exams (240 questions!)If want want to master advanced skills in architecture design, administration and software development this the course for you. This includes proficient use of both the AWS command line and the AWS Software Development Kit.Real review:\"Completed CSAA yesterday (94.4%). I want to thank Paul for the effort in putting together the content and creating the excitement around the diverse services of AWS and going deep on the core services\"Why pay for 8 courses, and still not be prepared for the exam? The BackSpace Academy approach provides individual learning paths for all 4 AWS Associate and Foundation certifications. This approach provides the fastest route to certification preparation.This course FULLY prepares you for ALL 4 AWS certifications - the AWS Certified Solutions Architect Associate, AWS Certified Developer Associate, AWS Certified SysOps Admini",
+    "bestFor": "all level learners who want one guided path through Amazon AWS",
+    "skipIf": "You already work professionally in Amazon AWS and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Basic understanding of computers and networking. The student will require an AWS account to complete hands on labs sessions. Windows, Linux or Mac PC to complete hands on labs sessions.",
     "learn": [
       "You will be fully prepared for the AWS Certified AI & Cloud Practitioner, Solutions Architect Associate, Developer Associate and SysOps Administrator Associate.",
@@ -898,7 +907,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -913,11 +927,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 4.6★ average from 25,507 students, our Udemy course reviews put it above most Amazon AWS alternatives."
       }
-    ],
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through Amazon AWS",
-    "skipIf": "You already work professionally in Amazon AWS and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Python Data Structures And Algorithms: Visual DSA + LeetCode",
@@ -936,13 +946,18 @@
     "bestseller": true,
     "description": "Master Python DSA with Step-by-Step Animations, Hands-On Coding, Big O Analysis and LeetCode Interview Practice",
     "image": "https://i.udemycdn.com/course/480x270/7368727_0a41_6.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7368727&u=https%3A%2F%2Fwww.udemy.com%2Fpython-data-structures-algorithms-visual-dsa-leetcode&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/qWjz2y",
     "language": "English",
     "certificate": true,
     "students": 107,
     "sections": 14,
     "lectures": 180,
+    "access": "Lifetime access",
+    "moneyBack": true,
     "summary": "Master Python Data Structures & Algorithms Through Visual LearningData Structures and Algorithms are fundamental to writing efficient code and solving programming problems, but understanding how they work can be difficult when you're only looking at lines of code.This course takes a different approach.You'll learn DSA through custom-built visual animations that show you exactly what's happening behind the scenes, followed by step-by-step Python implementations that bring each concept to life.From understanding how arrays, linked lists, and hash tables work to exploring trees, graphs, and algorithm efficiency, you'll build the knowledge and practical skills to solve programming problems with greater confidence.You'll also put your knowledge to the test through coding exercises, quizzes, and LeetCode challenges.Learn Data Structures & Algorithms By Seeing Them In ActionInstead of jumping straight into complicated code, you'll first see how each data structure and algorithm works.Custom animations break down complex operations into individual steps, making it easier to understand how data is organized, accessed, modified, and processed.You'll then connect those visual explanations to actual Python code, learning how to implement each concept and apply it to practical programming problems.The goal isn't simply to teach you how to reproduce an algorithm. It's to help you understand the logic behind it so you can apply that knowledge to problems you haven't encountered before.What You'll Learn:Big O Notation & Algorithm AnalysisUnderstand time and space complexity, evaluate algorithm performance, and compare different approaches to solving the same problem.Arrays & Linked ListsLearn how arrays and linked lists work, including nodes, pointers, traversal, insertion, deletion, and common ope",
+    "bestFor": "all level learners who want one guided path through Data Structures",
+    "skipIf": "You already work professionally in Data Structures and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Basic familiarity with Python programming, including variables, loops, functions, and lists, is recommended. No previous knowledge of data structures or algorithms is required. The course introduces DSA concepts step by step. A computer with Python installed is recommended for following coding examples and completing practice exercises.",
     "learn": [
       "Understand Python Data Structures and Algorithms (DSA) through visual animations, clear explanations, and practical examples.",
@@ -1010,7 +1025,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -1025,12 +1045,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 5★ average from 20 students, our Udemy course reviews put it above most Data Structures alternatives."
       }
-    ],
-    "access": "Lifetime access",
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through Data Structures",
-    "skipIf": "You already work professionally in Data Structures and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Python Data Structures & Algorithms + LEETCODE Exercises",
@@ -1049,14 +1064,18 @@
     "bestseller": true,
     "description": "DSA + LEETCODE for Coding Interviews — Clear, Step-by-Step Animated Walkthroughs!",
     "image": "https://i.udemycdn.com/course/480x270/4094340_0609_17.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.4094340&u=https%3A%2F%2Fwww.udemy.com%2Fdata-structures-algorithms-python&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/xJGLNv",
     "language": "English",
     "certificate": true,
     "students": 127332,
     "sections": 41,
     "lectures": 139,
     "access": "Akses",
+    "moneyBack": true,
     "summary": "Welcome to Data Structures & Algorithms in Python This course makes learning to code fun and makes hard concepts easy to understand. How did I do this?  By using animations!Animating the Data Structures & Algorithms makes everything more visually engaging and allows students to learn more material - in less time - with higher retention (a pretty good combination).I will use these visuals to guide you, step-by-step, through the entire course.The course also includes dozens-and-dozens of Coding Exercises. So you can immediately put everything into practice as soon as you learn it (a very important step).All of this will help you to feel more confident and prepared when you walk into a coding interview.I have made several Free Sample Videos available for the course so you can see the difference the animations make.Also, I am very active on the Q&A, so I will be with you every_step_of _the_way._____________________________What you will get in this course…Over 100 hand-crafted animated HD videos to illustrate the Data Structures & Algorithms.Here are the topics we will cover:TechnicalBig O notationData StructuresListsLinked ListsDoubly Linked ListsStacks & QueuesBinary TreesHash TablesHeapsGraphsHeapsAlgorithmsDynamic ProgrammingSorting Bubble SortSelection SortIns",
+    "bestFor": "all level learners who want one guided path through Data Structures",
+    "skipIf": "You already work professionally in Data Structures and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Basic Python programming knowledge (e.g., variables, loops, functions) No prior experience with data structures or algorithms needed An eager attitude to learn DSA and tackle coding challenges",
     "learn": [
       "Solve 100+ coding exercises to ace DSA interviews with confidence.",
@@ -1124,7 +1143,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -1139,11 +1163,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 4.6★ average from 17,714 students, our Udemy course reviews put it above most Data Structures alternatives."
       }
-    ],
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through Data Structures",
-    "skipIf": "You already work professionally in Data Structures and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "HashiCorp Certified Terraform Associate 004 - Practice Exams",
@@ -1162,11 +1182,19 @@
     "bestseller": true,
     "description": "Terraform Associate 004 Certification Practice Exams - Almost 350 Realistic Questions with Detailed Explanations + Links",
     "image": "https://i.udemycdn.com/course/480x270/6857907_23c2_14.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3939309/39854?prodsku=course.6857907&u=https%3A%2F%2Fwww.udemy.com%2Fterraform-associate-004-practice-exams&intsrc=APIG_34565",
+    "url": "https://trk.udemy.com/0GN9PJ",
     "language": "English",
+    "certificate": true,
     "students": 10581,
+    "sections": 5,
+    "lectures": 21,
     "access": "Akses",
+    "moneyBack": true,
     "summary": "Looking for Terraform Associate 004 practice exams that feel like the real test? This course delivers almost 350 expertly crafted questions, mapped one-to-one to the Terraform Associate (TA-004) objectives, including Terraform 1.12 and HCP Terraform topics. You’ll identify gaps fast, learn the “why” behind each answer, and build the confidence to pass.What makes my practice tests different?Objective-aligned: Every item is tied to TA-004 domains (IaC, fundamentals, workflow, configuration, modules, state, maintenance/import, and HCP Terraform).Real-exam feel: Scenario-based stems, multi-select, and tricky distractors that mirror the latest style and difficulty.Deep explanations: Clear rationales for correct and incorrect options, plus pointers to official docs, so you study smarter.Continuously refined: Updated as Terraform and the TA-004 guidance evolve.Ethical & Compliant: No exam dumps. Questions are 100% original, and I always create content thinking from the student's perspective.What’s Inside the Course:Almost 350 practice questions across six full-length testsCoverage of Terraform 1.12 features and HCP Terraform (workspaces, projects, variable sets, policy enforcement, drift detection, and more)Objective review mode to target weak areas (providers & lockfiles, state backends/locking, import & moved/removed blocks, variables/outputs/functions, modules & versioning, plan/apply/destroy, fmt/validate/checks)About Your Instructor:I’m Bryan - a HashiCorp Ambassador, Authorized Terra\n\nView Less",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "The most UP-TO-DATE course available - constantly updating questions based on student feedback from real exam results",
       "Brand new and updated practice exams questions for Terraform Associate 004",
@@ -1222,7 +1250,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -1237,15 +1270,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 4.7★ average from 968 students, our Udemy course reviews put it above most IT Certifications alternatives."
       }
-    ],
-    "certificate": true,
-    "sections": 5,
-    "lectures": 21,
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through IT Certifications",
-    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed."
+    ]
   },
   {
     "title": "CompTIA Security+ (SY0-701) Complete Course & Practice Exam",
@@ -1264,14 +1289,18 @@
     "bestseller": true,
     "description": "CompTIA Security+ (SY0-701) Bootcamp - Your preparation for the world's best cybersecurity certification!",
     "image": "https://i.udemycdn.com/course/480x270/2015076_2944_8.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.2015076&u=https%3A%2F%2Fwww.udemy.com%2Fsecurityplus&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/3kNJEd",
     "language": "English",
     "certificate": true,
     "students": 535815,
     "sections": 30,
     "lectures": 265,
     "access": "Akses",
+    "moneyBack": true,
     "summary": "** Taught by a Best Selling IT Certification Instructor **Taught by an expert in information technology and cybersecurity with over 20 years of experience, this course is a fun way to master the fundamentals of computer security. You will learn the fundamentals of cybersecurity and gain experience in the configuration, management, and troubleshooting of common wired and wireless networks with lessons, lectures, and video demonstrations to teach you everything you need to know to pass the CompTIA Security+ exam. CompTIA Security+ (SY0-701) is the world's most popular cybersecurity certification today!This course is designed to help prepare you for the CompTIA Security (SY0-701) certification exam and covers all the domains the Security+ (SY0-701) certification exam:CompTIA Security+ (SY0-701):General Security ConceptsThreats, Vulnerabilities, and MitigationsSecurity ArchitectureSecurity OperationsSecurity Program Management and OversightWhat You Will Receive In The Course:Video lectures with the essential information needed to pass the Security+ (SY0-701) examA complete downloadable study guide in PDF format based on the lessonsPractice quizzes to ensure mastery of each section of the courseA full-length practice exam with multiple choice and mock simulationsThis course stays current and up-to-date with the latest release of the CompTIA Security+ exam (SY0-701), and also provides a 30-day money-back guarantee if you are not satisfied with the quality of this course for any reason!What",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Basic familiarity with computer networks, administration, and security is helpful (But, all required information will be covered during the course) (Helpful, but not required) Completion of the CompTIA A+ and Network+ certifications This course aligns directly to the CompTIA Security+ (SY0-701) Certification Study Guide",
     "learn": [
       "Fundamental Security Concepts",
@@ -1336,7 +1365,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -1351,11 +1385,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 4.7★ average from 615,460 students, our Udemy course reviews put it above most IT Certifications alternatives."
       }
-    ],
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through IT Certifications",
-    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "AWS Certified Solutions Architect Associate 2026 – SAA-C03",
@@ -1374,13 +1404,18 @@
     "bestseller": true,
     "description": "Concise and Highly Visual AWS Certified Solutions Architect Associate video course covering the new SAA-C03 exam topics",
     "image": "https://i.udemycdn.com/course/480x270/3503872_823a_3.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.3503872&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-solutions-architect-associate-certification-saa-c03&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/L0NK2Y",
     "language": "English",
     "certificate": true,
+    "students": 74933,
     "sections": 23,
     "lectures": 98,
     "access": "Akses",
+    "moneyBack": true,
     "summary": "As more and more companies migrate their on-premises workloads to the cloud, the demand for highly skilled and certified AWS Professionals will continue to rise over the coming years ahead. The AWS Certified Solutions Architect - Associate SAA-C03 is consistently among the top-paying IT certifications and you can earn over $150,000 per year with an AWS Solutions Architect certification!This AWS Certified Solutions Architect - Associate SAA-C03 video training course is a concise collection of lectures on the most important AWS services that you need to know in order to pass the SAA-C03 exam. It contains the following lessons:EXAM OVERVIEW – discusses the exam scope and coverage, exam format, and other important information that you need to know before booking the exam.AWS BASICS – an overview of AWS and its global infrastructure.AWS SERVICES WALKTHROUGH – thorough discussion of the various AWS services under Compute, Storage, Database, Security, Networking, etc. Note: If you are already enrolled in our other AWS Associate-level video courses, then this Services Walkthrough section is the same across all our Associate training courses. You can opt to skip this part but we recommend that you still go through these at least once.AWS DEEP DIVES – provides more in-depth discussions on the most critical AWS services that you must thoroughly understand in order to pass the exam, such as Amazon EC2, Amazon S3, AWS IAM, Amazon VPC, Amazon RDS, etc. Each deep dive section also contains a mini-quiz at the end.COMPARISON OF AWS SERVICES – a versus section that compares two or more seemingly similar AWS services and discusses their use cases.EXAM TIPS AND TEST-TAKING STRATEGIES – a run-through of some critical exam-taking strategies that will help you\n\nView Less",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "No prerequisites! We will discuss the basics of AWS and the cover the exam topics within the AWS Certified Solutions Architect Associate SAA-C03 exam If you have a computer or a smartphone, then you are ready to go take this SAA-C03 course!",
     "learn": [
       "HIGHLY VISUAL and CONCISE course to help you pass the AWS Certified Solutions Architect Associate SAA-C03 exam!",
@@ -1448,7 +1483,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -1463,12 +1503,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 4.5★ average from 50,701 students, our Udemy course reviews put it above most IT Certifications alternatives."
       }
-    ],
-    "students": 74933,
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through IT Certifications",
-    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "AWS Solutions Architect Associate (SAA-C03) Practice Tests",
@@ -1482,15 +1517,23 @@
     "rating": 5,
     "reviews": 2385,
     "level": "All Level",
+    "duration": "8h total",
     "updated": "11/2026",
     "description": "6 timed tests, 390 original questions, and clear explanations for secure, resilient, high-performing AWS designs.",
     "image": "https://i.udemycdn.com/course/480x270/7381663_c77c.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3939309/39854?prodsku=course.7381663&u=https%3A%2F%2Fwww.udemy.com%2Faws-saa-c03-solutions-architect-associate-practice-tests&intsrc=APIG_34565",
+    "url": "https://trk.udemy.com/enW1Nz",
     "language": "English",
     "certificate": true,
     "students": 2,
+    "sections": 5,
+    "lectures": 27,
     "access": "Akses",
+    "moneyBack": true,
     "summary": "Choosing an AWS service is only the beginning of an architecture question. The harder part is deciding which design meets every requirement: who may access the data, what happens when a component fails, how quickly the workload must respond, and which costs are justified.This independently created practice-test course helps you rehearse those decisions for AWS Certified Solutions Architect – Associate (SAA-C03). You get six timed tests with 65 original questions each: 390 questions in total. Each test covers the full four-domain blueprint, so you can assess your overall readiness while tracking specific gaps.What you will practiceDesign Secure Architectures: reason through role trust, identity and resource policies, organizational guardrails, private connectivity, secrets, encryption, and data protection. Learn to separate authentication, authorization, network reachability, and key-use permissions instead of treating them as one control.Design Resilient Architectures: compare durable messaging, independent consumers, orchestration, multi-AZ deployment, backups, failover, and regional recovery. Decide what a design protects against and what remains an application responsibility.Design High-Performing Architectures: select storage interfaces, compute capacity, database access patterns, caching, load balancing, and ingestion approaches. Look for the actual bottleneck rather than choosing a larger resource automatically.Design Cost-Optimized Architectures: evaluate storage lifecycles, resource utilization, purchasing commitments, database capacity, and network paths. Practice reducing waste while preserving security, correctness, availability, and recovery requirements.Why the explanations matterEvery populated answer option has its own explanation. You can see what an alternative actually do\n\nView Less",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Assess your SAA-C03 readiness across all four official exam domains using six timed practice tests.",
       "Distinguish IAM grants, role trust, organizational guardrails, and encryption-key permissions in access scenarios.",
@@ -1547,7 +1590,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -1562,15 +1610,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 5★ average from 2,385 students, our Udemy course reviews put it above most IT Certifications alternatives."
       }
-    ],
-    "duration": "8h total",
-    "sections": 5,
-    "lectures": 27,
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through IT Certifications",
-    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed."
+    ]
   },
   {
     "title": "[NEW] AWS Certified Solutions Architect Associate (SAA-C03)",
@@ -1696,7 +1736,7 @@
     "updated": "11/2026",
     "description": "4 domain-focused drills + 2 full mock exams · 1,500 questions with detailed explanations · Latest SAA-C03 blueprint",
     "image": "https://i.udemycdn.com/course/480x270/7360275_e6b6.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7360275&u=https%3A%2F%2Fwww.udemy.com%2F1500q-aws-solutions-architect-associate-saa-c03-exams&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/5kN5ZN",
     "language": "English",
     "certificate": true,
     "students": 2,
@@ -1798,7 +1838,7 @@
     "updated": "11/2026",
     "description": "AZ-900 Practice Test: Ace AZ-900 Certification With Real AZ900 Exam Standard Microsoft Azure Fundamentals AZ900 Practice",
     "image": "https://i.udemycdn.com/course/480x270/7310217_8689_2.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3939309/39854?prodsku=course.7310217&u=https%3A%2F%2Fwww.udemy.com%2Faz-900-ms-azure-fundamentals-practice-test&intsrc=APIG_34565",
+    "url": "https://trk.udemy.com/5kN5Y2",
     "language": "English",
     "certificate": true,
     "students": 22,
@@ -1899,7 +1939,8 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 5★ average from 26 students, our Udemy course reviews put it above most IT Certifications alternatives."
       }
-    ]
+    ],
+    "duration": "8h total"
   },
   {
     "title": "CompTIA Security+ SY0-701 Practice Tests 2026",
@@ -1917,7 +1958,7 @@
     "updated": "11/2026",
     "description": "Build SY0-701 exam readiness with 180 realistic questions, detailed explanations and complete domain coverage",
     "image": "https://i.udemycdn.com/course/480x270/7352325_3747_2.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3939309/39854?prodsku=course.7352325&u=https%3A%2F%2Fwww.udemy.com%2Fcomptia-security-practice-tests-updated&intsrc=APIG_34565",
+    "url": "https://trk.udemy.com/OYxeOW",
     "language": "English",
     "certificate": true,
     "students": 19,
@@ -2022,11 +2063,19 @@
     "updated": "11/2026",
     "description": "Practice Real-World AWS Architecture Questions and Build Confidence for the SAA-C03 Certification Exam",
     "image": "https://i.udemycdn.com/course/480x270/7358799_ec09_2.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3939309/39854?prodsku=course.7358799&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-solutions-architect-associate-saa-c03-exams-c&intsrc=APIG_34565",
+    "url": "https://trk.udemy.com/9VYLye",
     "language": "English",
     "certificate": true,
     "students": 200,
+    "sections": 5,
+    "lectures": 33,
     "access": "Akses",
+    "moneyBack": true,
+    "summary": "AWS Certified Solutions Architect Associate (SAA-C03)- EXAMS is a all level IT Certifications course from TECH MENTOR on Udemy. It runs about 8.5 hours, and holds 5★ from 176 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed.",
     "learn": [
       "Build confidence and exam-taking skills before attempting the AWS Certified Solutions Architect – Associate certification exam.",
       "Assess your knowledge of AWS services, core cloud concepts, and architectural principles covered by the AWS Certified Solutions Architect – Associate exam.",
@@ -2083,7 +2132,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -2162,15 +2216,7 @@
         "q": "If you are ready to test your AWS architecture knowledge, identify your weak areas, and build confidence through focused practice, start your preparation today",
         "a": "If you are ready to test your AWS architecture knowledge, identify your weak areas, and build confidence through focused practice, start your preparation today."
       }
-    ],
-    "sections": 5,
-    "lectures": 33,
-    "moneyBack": true,
-    "summary": "AWS Certified Solutions Architect Associate (SAA-C03)- EXAMS is a all level IT Certifications course from TECH MENTOR on Udemy. It runs about 8.5 hours, and holds 5★ from 176 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through IT Certifications",
-    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "requirements": "A computer with internet. No prior experience needed."
+    ]
   },
   {
     "title": "AI Engineer Production Track: Deploy LLMs & Agents at Scale",
@@ -2189,14 +2235,18 @@
     "bestseller": true,
     "description": "Deploy AI to AWS, GCP, Azure, Vercel with MLOps, Bedrock, SageMaker, RAG, Agents, MCP: scalable, secure and observable.",
     "image": "https://i.udemycdn.com/course/480x270/6819669_be93_4.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.6819669&u=https%3A%2F%2Fwww.udemy.com%2Fgenerative-and-agentic-ai-in-production&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/ZVA6YR",
     "language": "English",
     "certificate": true,
     "students": 62437,
     "sections": 4,
     "lectures": 124,
     "access": "Access",
+    "moneyBack": true,
     "summary": "This is the course that more of my students have asked for than any other course — put together.One student called it:“The missing course in AI.”This course is for:EntrepreneursEnterprise engineers…and everyone in between.It’s not just about RAG — although we’ll work with RAG.It’s not just about Agents — but there will be many Agents.It’s not just about MCP — but yes, there will be plenty of MCP too.This course is about:RAG, Agents, MCP, and so much more… deployed to production.Live.Enterprise-grade.Scalable, resilient, secure, monitored — and explained.You’ll ship real-world, production-grade AI with LLMs and agents across Vercel, AWS, GCP, and Azure, going deepest on AWS.Across four weeks you’ll take four products to production:Week 1You’ll launch a Next.js SaaS product on Vercel and AWS,with AWS App Runner and Clerk for user management and subscriptions. Week 2You’ll become an AI platform engineer on AWS,deploying serverless infrastructure using:Lambda, Bedrock, API Gateway, S3, CloudFront, Route 53Write Infrastructure as Code with TerraformSet up CI/CD pipelines with GitHub Actions— for hands-free deployments and one-click promotions.Week 3You’ll gain broad industry skills for GenAI in production:Deploy a Cyber Security Analyst agent with MCP to Azure & GCPStand up SageMaker inferenceBuild data ingest to S3 vectorsDeploy a Researcher Agent using OpenAI OSS models on Bedrock + MCPWeek 4You’ll go",
+    "bestFor": "all level learners who want one guided path through Data Science",
+    "skipIf": "You already work professionally in Data Science and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "While it’s ideal if you can code in Python and have some experience working with LLMs, this course is designed for a very wide audience, regardless of background. I’ve included a whole folder of self-study labs that cover foundational technical and programming skills. If you’re new to coding, there’s only one requirement: plenty of patience! The course runs best if you have a small budget for APIs and Cloud Providers of a few dollars. But we monitor expenses at every point, and it's always a personal choice.",
     "learn": [
       "Deploy SaaS LLM apps to production on Vercel, AWS, Azure, and GCP, using Clerk",
@@ -2252,7 +2302,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -2267,11 +2322,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 4.7★ average from 1,165,643 students, our Udemy course reviews put it above most Data Science alternatives."
       }
-    ],
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through Data Science",
-    "skipIf": "You already work professionally in Data Science and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "[Practice Exams] AWS AI Business Strategist AIB-C01",
@@ -2290,7 +2341,7 @@
     "bestseller": true,
     "description": "4 Full Practice Exams, 340 Original Questions, Detailed Explanations, Key Tips and Visual Decision Tables",
     "image": "https://i.udemycdn.com/course/480x270/7324543_2ca9.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7324543&u=https%3A%2F%2Fwww.udemy.com%2Fpractice-exams-aws-certified-ai-business-strategist-aib-c01-eng-us&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/xJGLOk",
     "language": "English",
     "certificate": true,
     "students": 365,
@@ -2395,14 +2446,18 @@
     "bestseller": true,
     "description": "Build production GenAI apps: Python, RAG, AI agents, MCP, security, evals and 2 portfolio capstone projects.",
     "image": "https://i.udemycdn.com/course/480x270/7361879_af4f_2.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7361879&u=https%3A%2F%2Fwww.udemy.com%2Fai-forward-deployed-engineer-extensive-program&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/GbNKEE",
     "language": "English",
     "certificate": true,
     "students": 150,
     "sections": 18,
     "lectures": 164,
     "access": "Access",
+    "moneyBack": true,
     "summary": "This course contains the use of artificial intelligence.Become a Forward Deployed AI Engineer. Build production Generative AI apps with Python, RAG, AI agents, MCP and A2A, then secure, evaluate and deploy them for the enterprise. This 22.5-hour program takes you from GenAI foundations to two portfolio-ready FDE capstone projects - no prior AI experience needed.Starting with essential foundations in Python, APIs, cloud computing, machine learning, and deep learning, you will progressively explore Large Language Model (LLM) architectures, transformer fundamentals, tokenization, embeddings, context engineering, and prompt optimization.You will learn to build sophisticated Retrieval-Augmented Generation (RAG) applications, implement hybrid search and reranking strategies, work with vector databases, develop multimodal AI solutions, and customize models using techniques such as LoRA, QLoRA, and supervised fine-tuning.The course then advances into Agentic AI and autonomous systems, where you will design intelligent agents capable of reasoning, planning, using tools, maintaining memory, and executing complex workflows. You will explore modern interoperability approaches, including Model Context Protocol (MCP) and Agent-to-Agent (A2A) communication, to integrate AI agents with enterprise applications and services.Beyond development, you will gain practical experience with enterprise AI security, authentication, authorization, guardrails, evaluation frameworks, observability, LLMOps, inference optimization, scalability, latency reduction, and cost management.What makes this program distinctive is its emphasis on the complete Forward Deployed Engineering lifecycle.You will learn how to translate customer requirements into technical architectures, build proofs of concept, integrate solutions with enterprise infrastructure, evaluate production readiness, manage deployments, and demonstrate measurable business value.Throughout the course, you will apply your knowledg",
+    "bestFor": "all level learners who want one guided path through IT & Software",
+    "skipIf": "You already work professionally in IT & Software and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Basic programming knowledge in Python and familiarity with SQL, APIs and Git. A laptop or development environment capable of running Python and Docker. Willingness to debug real systems and work through hands-on engineering exercises.",
     "learn": [
       "Understand AI, especially Gen AI from beginner to advanced, in both conceptual and hands on way",
@@ -2470,7 +2525,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -2485,11 +2545,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 4.9★ average from 7 students, our Udemy course reviews put it above most IT & Software alternatives."
       }
-    ],
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through IT & Software",
-    "skipIf": "You already work professionally in IT & Software and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Beginning in Beekeeping: Start Your Very First Beehive!",
@@ -2508,14 +2564,18 @@
     "bestseller": true,
     "description": "Step by step instruction on getting started in beekeeping for beginners",
     "image": "https://i.udemycdn.com/course/480x270/2753442_54b2_3.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.2753442&u=https%3A%2F%2Fwww.udemy.com%2Fbeginning-in-beekeeping&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/2RNa2D",
     "language": "English",
     "certificate": true,
     "students": 4446,
     "sections": 9,
     "lectures": 95,
     "access": "Akses",
+    "moneyBack": true,
     "summary": "“Start before you’re ready.” — Steven PressfieldStart beekeeping today!  This course will introduce you to the wonderful topic of keeping bees. The aim is to keep bees in a simple, low cost, natural and enjoyable way.  You will learn about conventional frame hive beekeeping.  You will also learn about top bar beekeeping and why you should consider keeping your bees in a top bar hive.  You will learn about bees.  You will learn how to make your own hive, where to source bees and how to manage the bees in the hive.  You will learn how to harvest and extract the delicious honey and package and label your honey for sale.You will learn about beeswax.  You will learn how to render wax combs into wax blocks.  You will learn how to filter your wax and use it to make simple candles and beeswax polish.  The course will take you right through the whole process from the timber in your shed to building the hive.  Then on to getting bees, managing then bees to harvesting and packing the honey and using the beeswax.  By the end of this course and associated assignments you will be a beekeeper!    The course contains over 11.5 hours of video lectures and practical demonstrations and is organised into the following sections:In Section One we introduce this course and beekeeping. We considered issues such as how to get the most from the course, who can become a beekeeper, the benefits of bees and beekeeping and the challenges in starting any new project.In Section Two we look at the broad approaches to beekeeping and help you identify which approach might interest you.Section Three look at the bee colony and the occupants of the hive. We also looked at the life cycle of the honeybee and the beekeeping year.Section Four looks at types of bee hives and other beekeeping equipment. There were a number of activ",
+    "bestFor": "all level learners who want one guided path through Lifestyle",
+    "skipIf": "You already work professionally in Lifestyle and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "The course is designed to be understandable by the complete beginner An interest in learning different ways to keep bees An interest in simple, low cost beekeeping An interest in producing your own wonderful, high quality bee products for sale or home consumption An interest in bees and the natural environment An interest in doing your bit to protect bees, enhance biodiversity and the natural environment",
     "learn": [
       "Where to set up your apiary",
@@ -2583,7 +2643,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -2598,11 +2663,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 4.8★ average from 906 students, our Udemy course reviews put it above most Lifestyle alternatives."
       }
-    ],
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through Lifestyle",
-    "skipIf": "You already work professionally in Lifestyle and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Management Skills - Team Leadership Skills Masterclass",
@@ -2621,14 +2682,18 @@
     "bestseller": true,
     "description": "Leadership & Management Skills - Change Management- Lean BPM Management Skills - Team Management - Team Building",
     "image": "https://i.udemycdn.com/course/480x270/1415934_7a83.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.1415934&u=https%3A%2F%2Fwww.udemy.com%2Fleadership-and-lean-management-masterclass&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/QYQjGY",
     "language": "English",
     "certificate": true,
     "students": 99687,
     "sections": 17,
     "lectures": 310,
     "access": "Access",
+    "moneyBack": true,
     "summary": "Leadership Skills Training - Lean Management - Culture Change - People ManagementDo you want to become a better manager?Do you want to improve your leadership skills?This course will help you master core management skills, it is designed for complete beginners, it will you help you overcome challenges that hold you back and help you climb the ladder of success.You will learn core leadership and people skills and you will learn how to master LEAN Business Process Management.Everything you need to further your Managerial Career!This course had been developed and delivered by Stephen Mather - A leading UK management change consultant, trainer, coach and psychologist. He will guide you through the tools and techniques that you need to become a successful manager.So don't delay - start your journey today!Topics Covered In The Course:Module 1 - Management And Leadership:An Introduction To Management And LeadershipYour Management PhilosophyBeing A LEAN ManagerThe Forever Learning ManagerModule 2 - Navigating The CourseOverview Of The CourseWho Am I?Features Of The CourseApplying What You LearnThe Learning CycleModule 3 - Becoming An Influential ManagerWhat It Means To Be InfluentialThe Behaviour Of Influential PeopleADISCOWhy You Need A VisionWorking With SMART GoalsBetter Than Buy InInfluencing AttitudesCommunicating To InfluenceHow Do Influential People Talk?Body LanguageInfluence Through ListeningInfluencing Your Peers And BossDealing With Difficult PeopleOpposing Goals Or Narrative",
+    "bestFor": "all level learners who want one guided path through Management",
+    "skipIf": "You already work professionally in Management and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "You should have a basic experience as a manager. You need access to the internet. You must be willing to put some time and effort into the course and apply yourself.",
     "learn": [
       "This course will help you become a successful team manager.",
@@ -2697,7 +2762,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -2712,11 +2782,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 4.6★ average from 31,303 students, our Udemy course reviews put it above most Management alternatives."
       }
-    ],
-    "moneyBack": true,
-    "bestFor": "all level learners who want one guided path through Management",
-    "skipIf": "You already work professionally in Management and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Claude Certified Architect Foundations Practice Exams 2026",
@@ -2736,7 +2802,7 @@
     "bestseller": true,
     "description": "360 CCAR-F scenario questions, 6 timed practice exams, detailed explanations and official references to Anthropic docs!",
     "image": "https://i.udemycdn.com/course/480x270/7321703_44d6_3.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3939309/39854?prodsku=course.7321703&u=https%3A%2F%2Fwww.udemy.com%2Fclaude-certified-architect-ccaf-tests&intsrc=APIG_34565",
+    "url": "https://www.udemy.com/course/claude-certified-architect-ccaf-tests/?couponCode=UDEAFFHP2026",
     "language": "English",
     "certificate": true,
     "students": 459,
@@ -2844,7 +2910,7 @@
     "bestseller": true,
     "description": "Start Your Journey: Core Concepts to Deploy AI in Enterprise Environments",
     "image": "https://i.udemycdn.com/course/480x270/7271911_9967_8.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7271911&u=https%3A%2F%2Fwww.udemy.com%2Fforward-deployment-ai-engineer&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/MKLAoN",
     "language": "English",
     "certificate": true,
     "students": 1767,
@@ -2965,7 +3031,7 @@
     "bestseller": true,
     "description": "Pass the AWS Certified AI Business Strategist (AIB-C01) exam. 340 unique high-quality test questions.",
     "image": "https://i.udemycdn.com/course/480x270/7331909_58bf.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7331909&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-ai-business-strategist-practice-exams&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/n4QXja",
     "language": "English",
     "certificate": true,
     "students": 3000,
@@ -3072,7 +3138,7 @@
     "bestseller": true,
     "description": "Get a healthy body and wallet - Vertical Farming techniques for Gardeners and Entrepreneurs (Hydroponics and Soil)",
     "image": "https://i.udemycdn.com/course/480x270/1572784_1992.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.1572784&u=https%3A%2F%2Fwww.udemy.com%2Fgrowing-microgreens-for-business-and-pleasure&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/jRLe2a",
     "language": "English",
     "certificate": true,
     "students": 14864,
@@ -3188,7 +3254,7 @@
     "bestseller": true,
     "description": "farm working capital, farm financial ratios, How to reduce farm production cost, Financing for agriculture etc.",
     "image": "https://i.udemycdn.com/course/480x270/4678766_7720.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.4678766&u=https%3A%2F%2Fwww.udemy.com%2Ffarming-business-finances&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/B5Mn10",
     "language": "English",
     "certificate": true,
     "students": 4270,
@@ -3310,7 +3376,7 @@
     "updated": "10/2026",
     "description": "Learn management skills, leadership essentials, communication, motivation, delegation, and manager training.",
     "image": "https://i.udemycdn.com/course/480x270/6932663_be54_3.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.6932663&u=https%3A%2F%2Fwww.udemy.com%2Fmanagement-skills-masterclass&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/jRLeBb",
     "language": "English",
     "certificate": true,
     "students": 3315,
@@ -3426,7 +3492,7 @@
     "bestseller": true,
     "description": "Become an LLM Engineer in 8 weeks: Build and deploy 8 LLM apps, mastering Generative AI, RAG, LoRA and AI Agents.",
     "image": "https://i.udemycdn.com/course/480x270/6100015_1979_5.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.6100015&u=https%3A%2F%2Fwww.udemy.com%2Fllm-engineering-master-ai-and-large-language-models&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/0GN9zY",
     "language": "English",
     "certificate": true,
     "students": 363796,
@@ -3540,7 +3606,7 @@
     "bestseller": true,
     "description": "Go from Java basics to Spring Boot microservices, Spring AI, RAG, AI agents and MCP, then deploy with Docker and AWS",
     "image": "https://i.udemycdn.com/course/480x270/7277965_3033.jpg",
-    "url": "https://trk.udemy.com/c/8130614/3227798/39854?prodsku=course.7277965&u=https%3A%2F%2Fwww.udemy.com%2Fcomplete-java-spring-boot-with-spring-ai-rag-ai-agents&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/ZVA6eK",
     "language": "English",
     "certificate": true,
     "students": 630,
@@ -3661,7 +3727,7 @@
     "updated": "10/2026",
     "description": "19 Cheat Sheets + 3 Full-Length Practice Tests for AB-620, Microsoft Copilot Studio, AI Agents, MCP, A2A, RAG &amp; Foundry",
     "image": "https://img-c.udemycdn.com/course/480x270/7387893_98f9_2.jpg?w=384&q=75",
-    "url": "https://trk.udemy.com/ZV5QLK",
+    "url": "https://trk.udemy.com/KBN0Y7",
     "language": "English",
     "certificate": true,
     "students": 721,
@@ -3769,13 +3835,18 @@
     "bestseller": true,
     "description": "Master AI Agents, RAG, MCP, Memory, Planning, Multi-Agent Systems, LangGraph, CrewAI and LangChain in 21 Days",
     "image": "https://i.udemycdn.com/course/480x270/7325191_69f3_2.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7325191&u=https%3A%2F%2Fwww.udemy.com%2Fai-agent-engineering&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/gREOeg",
     "language": "English",
     "certificate": true,
     "students": 8991,
     "sections": 22,
     "lectures": 292,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "AI Agent Engineering: Build Production-Ready AI Agents is a all level AI Agents & Agentic AI course from Pankaj Shukla on Udemy. It runs about 37 hours, and holds 4.7★ from 1,231 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through AI Agents & Agentic AI",
+    "skipIf": "You already work professionally in AI Agents & Agentic AI and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7325191&u=https%3A%2F%2Fwww.udemy.com%2Fai-agent-engineering&intsrc=APIG_26324",
     "learn": [
       "Build AI agents from scratch using Python and understand the core architecture behind modern AI agents.",
@@ -3843,7 +3914,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -3858,12 +3934,7 @@
         "q": "Is it worth the price?",
         "a": "At $54 with a 4.7★ average from 1,231 students, our Udemy course reviews put it above most AI Agents & Agentic AI alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "AI Agent Engineering: Build Production-Ready AI Agents is a all level AI Agents & Agentic AI course from Pankaj Shukla on Udemy. It runs about 37 hours, and holds 4.7★ from 1,231 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through AI Agents & Agentic AI",
-    "skipIf": "You already work professionally in AI Agents & Agentic AI and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "n8n - AI Agents, AI Automations & AI Voice Agents (No-code!)",
@@ -3882,13 +3953,18 @@
     "updated": "10/2026",
     "bestseller": true,
     "image": "https://i.udemycdn.com/course/480x270/6563609_8f41_2.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6563609&u=https%3A%2F%2Fwww.udemy.com%2Fn8n-course&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/PzDOgj",
     "language": "English",
     "certificate": true,
     "students": 50967,
     "sections": 22,
     "lectures": 207,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "n8n - AI Agents, AI Automations & AI Voice Agents (No-code!) is a all level IT & Software course from Damian Danelczyk AdaptifyAI OU on Udemy. It runs about 58.5 hours, and holds 4.5★ from 5,734 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT & Software",
+    "skipIf": "You already work professionally in IT & Software and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "No prior programming skills, technical experience, or knowledge is required. You’ll learn everything you need from scratch. Just bring your enthusiasm to learn!",
     "learn": [
       "Build no-code AI Agents, AI Automations, AI Voice Agents and Teams of AI Agents with n8n & Retell AI",
@@ -3985,7 +4061,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -4000,12 +4081,7 @@
         "q": "Is it worth the price?",
         "a": "At $49 with a 4.5★ average from 5,734 students, our Udemy course reviews put it above most IT & Software alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "n8n - AI Agents, AI Automations & AI Voice Agents (No-code!) is a all level IT & Software course from Damian Danelczyk AdaptifyAI OU on Udemy. It runs about 58.5 hours, and holds 4.5★ from 5,734 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through IT & Software",
-    "skipIf": "You already work professionally in IT & Software and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "GitHub Copilot Beginner to Pro - AI for Coding & Development",
@@ -4025,13 +4101,18 @@
     "bestseller": true,
     "description": "GitHub Copilot for Agentic AI Coding. Learn Agentic Engineering with GitHub Copilot to generate code, build apps, + more",
     "image": "https://i.udemycdn.com/course/480x270/4967038_3521_9.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.4967038&u=https%3A%2F%2Fwww.udemy.com%2Fgithub-copilot&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/KBN0de",
     "language": "English",
     "certificate": true,
     "students": 259624,
     "sections": 7,
     "lectures": 49,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "GitHub Copilot Beginner to Pro - AI for Coding & Development is a all level GitHub Copilot course from Tom Phillips on Udemy. It runs about 7 hours, and holds 4.5★ from 84,875 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through GitHub Copilot",
+    "skipIf": "You already work professionally in GitHub Copilot and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Basic knowledge of programming is helpful but not mandatory.    No advanced coding experience is required; beginners are welcome.    A computer with internet access.    A GitHub account to explore GitHub Copilot features.    Visual Studio Code or another supported code editor.    Willingness to learn AI-powered coding techniques and improve software development skills.    An interest in using artificial intelligence to write, understand, debug, and optimize code.",
     "learn": [
       "Understand the fundamentals of GitHub Copilot and AI-powered software development.",
@@ -4103,7 +4184,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -4118,12 +4204,7 @@
         "q": "Is it worth the price?",
         "a": "At $19 with a 4.5★ average from 84,875 students, our Udemy course reviews put it above most GitHub Copilot alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "GitHub Copilot Beginner to Pro - AI for Coding & Development is a all level GitHub Copilot course from Tom Phillips on Udemy. It runs about 7 hours, and holds 4.5★ from 84,875 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through GitHub Copilot",
-    "skipIf": "You already work professionally in GitHub Copilot and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Spring Framework In Easy Steps",
@@ -4143,13 +4224,18 @@
     "bestseller": true,
     "description": "Create an End to End Java EE Web Application using Spring",
     "image": "https://i.udemycdn.com/course/480x270/964914_a456_4.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.964914&u=https%3A%2F%2Fwww.udemy.com%2Fspringframeworkineasysteps&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/gREOXX",
     "language": "English",
     "certificate": true,
     "students": 54924,
     "sections": 31,
     "lectures": 292,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "Spring Framework In Easy Steps is a all level Spring Framework course from Bharath Thippireddy on Udemy. It runs about 12.5 hours, and holds 4.6★ from 10,889 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Spring Framework",
+    "skipIf": "You already work professionally in Spring Framework and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Basic knowledge of Java programming is recommended.    Familiarity with object-oriented programming concepts is helpful.    Basic understanding of classes, objects, methods, and interfaces is beneficial.    A computer with a Java Development Kit (JDK) installed.    An IDE such as IntelliJ IDEA, Eclipse, or Spring Tool Suite is recommended.    No previous experience with the Spring Framework is required.    A willingness to learn Java application development through practical examples.",
     "learn": [
       "nderstand the fundamentals of the Spring Framework and its role in Java development.",
@@ -4212,6 +4298,7 @@
       "Limited advanced, production-scale projects",
       "Long: budget several weeks to finish"
     ],
+    "instructorBio": "Bharath Thippireddy teaches Spring Framework on Udemy with a practical, project-first style.",
     "ratingBreakdown": {
       "1": 1,
       "2": 1,
@@ -4220,7 +4307,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -4235,13 +4327,7 @@
         "q": "Is it worth the price?",
         "a": "At $39 with a 4.6★ average from 10,889 students, our Udemy course reviews put it above most Spring Framework alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "Spring Framework In Easy Steps is a all level Spring Framework course from Bharath Thippireddy on Udemy. It runs about 12.5 hours, and holds 4.6★ from 10,889 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Spring Framework",
-    "skipIf": "You already work professionally in Spring Framework and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
-    "instructorBio": "Bharath Thippireddy teaches Spring Framework on Udemy with a practical, project-first style."
+    ]
   },
   {
     "title": "Complete Claude AI Masterclass: Beginner to Advanced",
@@ -4261,13 +4347,18 @@
     "bestseller": true,
     "description": "Master Claude AI with prompting, Projects, Skills, Connectors, agents, workflows, Claude Design, and practical projects!",
     "image": "https://i.udemycdn.com/course/480x270/7306101_37f6_4.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7306101&u=https%3A%2F%2Fwww.udemy.com%2Fclaude-ai-beginner-course-prompting-everyday-productivity&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/m4mOVO",
     "language": "English",
     "certificate": true,
     "students": 62,
     "sections": 13,
     "lectures": 58,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "Complete Claude AI Masterclass: Beginner to Advanced is a all level Office Productivity course from Skillademia Academy on Udemy. It runs about 7.5 hours, and holds 4.8★ from 62 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Office Productivity",
+    "skipIf": "You already work professionally in Office Productivity and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "- No prior experience with Claude AI is required; beginners are welcome. - Basic computer skills and familiarity with web browsers are recommended. - An internet connection is required to access Claude AI and follow the practical exercises. - A Claude account is recommended to practice the techniques demonstrated in the course. - An interest in artificial intelligence, prompt engineering, productivity, and AI-powered workflows will be beneficial. - Basic knowledge of business, content creation, coding, or data analysis is helpful but not mandatory.",
     "learn": [
       "Understand Claude AI, its core capabilities, key features, and practical applications.",
@@ -4339,7 +4430,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -4354,12 +4450,7 @@
         "q": "Is it worth the price?",
         "a": "At $49 with a 4.8★ average from 62 students, our Udemy course reviews put it above most Office Productivity alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "Complete Claude AI Masterclass: Beginner to Advanced is a all level Office Productivity course from Skillademia Academy on Udemy. It runs about 7.5 hours, and holds 4.8★ from 62 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Office Productivity",
-    "skipIf": "You already work professionally in Office Productivity and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Laravel 13 + IA Desde Cero: Guía Fullstack Moderna",
@@ -4378,13 +4469,18 @@
     "updated": "10/2026",
     "description": "Desarrollo web Full Stack Reales con Vue 3, Tailwind CSS, API REST, Gestión de Roles con Spatie y Pruebas con Pest",
     "image": "https://i.udemycdn.com/course/480x270/7098273_bd4c.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7098273&u=https%3A%2F%2Fwww.udemy.com%2Flaravel-ia-desde-cero-guia-fullstack-moderna&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/xJGLDR",
     "language": "English",
     "certificate": true,
     "students": 123,
     "sections": 26,
     "lectures": 357,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "Laravel 13 + IA Desde Cero: Guía Fullstack Moderna is a all level Development course from Andrés Cruz Yoris on Udemy. It runs about 43.5 hours, and holds 4★ from 11 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Development",
+    "skipIf": "You already work professionally in Development and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "No se requieren conocimientos avanzados de programación para comenzar.    Es recomendable tener conocimientos básicos de HTML, CSS y JavaScript.    Contar con una computadora y conexión a internet.    Tener disposición para aprender PHP y el framework Laravel desde cero.    Instalar las herramientas necesarias para el desarrollo web, como PHP, Composer, Laravel y un editor de código.    Tener interés en el desarrollo fullstack, las bases de datos y la integración de herramientas de inteligencia artificial (IA).",
     "learn": [
       "Understand the fundamentals of Laravel 13 and modern fullstack web development.",
@@ -4455,7 +4551,12 @@
       "5": 77
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -4470,12 +4571,7 @@
         "q": "Is it worth the price?",
         "a": "At $19 with a 4★ average from 11 students, our Udemy course reviews put it above most Development alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "Laravel 13 + IA Desde Cero: Guía Fullstack Moderna is a all level Development course from Andrés Cruz Yoris on Udemy. It runs about 43.5 hours, and holds 4★ from 11 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Development",
-    "skipIf": "You already work professionally in Development and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Curso Completo de Vibe Coding Avanzado: Crea apps con IA",
@@ -4495,13 +4591,18 @@
     "bestseller": true,
     "description": "Aprende Vibe Coding Profesional con IA, el sistema más efectivo para Crear Apps Completas sin bugs usando Agentes de IA",
     "image": "https://i.udemycdn.com/course/480x270/6772525_2672_8.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6772525&u=https%3A%2F%2Fwww.udemy.com%2Fmaster-vibe-coding-avanzado-crea-apps-con-ia-sin-errores&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/0GN9DE",
     "language": "English",
     "certificate": true,
     "students": 98,
     "sections": 12,
     "lectures": 69,
     "access": "Access",
+    "moneyBack": true,
+    "summary": "Curso Completo de Vibe Coding Avanzado: Crea apps con IA is a all level Vibe Coding course from Víctor Robles on Udemy. It runs about 8.5 hours, and holds 4.7★ from 8 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Vibe Coding",
+    "skipIf": "You already work professionally in Vibe Coding and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "Tener conocimientos básicos de informática y navegación por Internet.    No se requiere experiencia avanzada en programación, aunque conocer los fundamentos de desarrollo web será una ventaja.    Disponer de un ordenador con conexión a Internet.    Tener interés en la inteligencia artificial (IA), el desarrollo de aplicaciones y la automatización.    Estar dispuesto a experimentar con herramientas de IA y técnicas de Vibe Coding para crear aplicaciones.    Contar con acceso a las herramientas de IA y plataformas de desarrollo utilizadas durante el curso, según corresponda.",
     "learn": [
       "Comprender los fundamentos del Vibe Coding y su aplicación en el desarrollo moderno de software con inteligencia artificial.",
@@ -4571,7 +4672,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -4586,12 +4692,7 @@
         "q": "Is it worth the price?",
         "a": "At $19 with a 4.7★ average from 8 students, our Udemy course reviews put it above most Vibe Coding alternatives."
       }
-    ],
-    "moneyBack": true,
-    "summary": "Curso Completo de Vibe Coding Avanzado: Crea apps con IA is a all level Vibe Coding course from Víctor Robles on Udemy. It runs about 8.5 hours, and holds 4.7★ from 8 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through Vibe Coding",
-    "skipIf": "You already work professionally in Vibe Coding and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "Patrones de Diseño: Soluciones prácticas y eficientes",
@@ -4611,7 +4712,7 @@
     "bestseller": true,
     "description": "Descubre cómo aplicar patrones de diseño de software para resolver problemas comunes de programación de forma práctica, eficiente y escalable. En este curso, aprenderás los principios fundamentales del diseño orientado a objetos y cómo utilizar patrones de diseño populares para crear código limpio, reutilizable y fácil de mantener. Ideal para desarrolladores que desean mejorar sus habilidades de programación, optimizar sus proyectos y aplicar las mejores prácticas de desarrollo de software.",
     "image": "https://i.udemycdn.com/course/480x270/6295879_fa69.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6295879&u=https%3A%2F%2Fwww.udemy.com%2Fpatrones-diseno&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/2RNa3a",
     "language": "English",
     "certificate": true,
     "students": 74,
@@ -4729,7 +4830,7 @@
     "bestseller": true,
     "description": "Aprenda en un solo curso como dominar los firewalls Fortigate",
     "image": "https://i.udemycdn.com/course/480x270/2450016_6454_6.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.2450016&u=https%3A%2F%2Fwww.udemy.com%2Ffortinet&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/9VYL3j",
     "language": "English",
     "certificate": true,
     "students": 25,
@@ -4842,7 +4943,7 @@
     "updated": "10/2026",
     "description": "Master all 5 CCAR-F domains with 360 scenario-based questions, detailed explanations, and links to official docs",
     "image": "https://img-c.udemycdn.com/course/480x270/7108671_934d.jpg?w=640&q=75",
-    "url": "https://trk.udemy.com/c/6591367/3939309/39854?prodsku=course.7108671&u=https%3A%2F%2Fwww.udemy.com%2Fanthropic-claude-certified-architect-3-full-practice-exams&intsrc=APIG_34565",
+    "url": "https://trk.udemy.com/MKLAx2",
     "language": "English",
     "certificate": true,
     "students": 45534,
@@ -4948,7 +5049,7 @@
     "updated": "10/2026",
     "description": "Earn the Early Adopter badge by Feb 15, 2027, and lead AI decisions with confidence!",
     "image": "https://i.udemycdn.com/course/480x270/7322241_28c0.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7322241&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-ai-business-strategist-aib-c01&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/OYxeDz",
     "language": "English",
     "certificate": true,
     "students": 100,
@@ -5065,7 +5166,7 @@
     "updated": "10/2026",
     "description": "Management Skills, Communication Skills, Business Communication, Presentation Skills, Public Speaking, Leadership",
     "image": "https://i.udemycdn.com/course/480x270/6939555_b875.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6939555&u=https%3A%2F%2Fwww.udemy.com%2Fmanagement-skills-mastering-management&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/qWjzd5",
     "language": "English",
     "certificate": true,
     "students": 2932,
@@ -5188,7 +5289,7 @@
     "bestseller": true,
     "description": "Pass the Claude Architect exam and build production-style AI apps with tools, agents, MCP, Claude Code, and evals.",
     "image": "https://i.udemycdn.com/course/480x270/7251347_fb97_3.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3939309/39854?prodsku=course.7251347&u=https%3A%2F%2Fwww.udemy.com%2Fclaude-certified-architect-foundations-complete-course&intsrc=APIG_34565",
+    "url": "https://trk.udemy.com/1GN9xd",
     "language": "English",
     "certificate": true,
     "students": 10829,
@@ -5305,7 +5406,7 @@
     "updated": "10/2026",
     "description": "Pass the AWS Certified AI Business Strategist (AIB-C01) exam with 6 realistic practice tests and detailed explanations.",
     "image": "https://i.udemycdn.com/course/480x270/7322089_8aa8.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7322089&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-ai-business-strategist-practice-exams-aib-c01&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/xJGL1v",
     "language": "English",
     "certificate": true,
     "students": 37,
@@ -5421,7 +5522,7 @@
     "updated": "10/2026",
     "description": "Become A Truly Exceptional Leader With This All-in-One Leadership And Management Skills Course Taught By Global Experts",
     "image": "https://i.udemycdn.com/course/480x270/4709438_ff9d_5.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.4709438&u=https%3A%2F%2Fwww.udemy.com%2Fleadership-management-skills&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/9VYLX3",
     "language": "English",
     "certificate": true,
     "students": 33970,
@@ -5562,7 +5663,7 @@
     "updated": "10/2026",
     "description": "Learn Soil Science, Plant Biology, Crop Production, Irrigation, and Sustainable Farming Practices",
     "image": "https://i.udemycdn.com/course/480x270/7359639_e007.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7359639&u=https%3A%2F%2Fwww.udemy.com%2Fagriculture-science-mastery-soil-plants-farming&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/gREOjA",
     "language": "English",
     "certificate": true,
     "students": 15,
@@ -5652,7 +5753,7 @@
     "bestseller": true,
     "description": "The complete roadmap to FDE and AI Architect with Agent Harness Engineering, LangGraph, ADLC, MCP, AWS AgentCore, Evals",
     "image": "https://i.udemycdn.com/course/480x270/7373713_78c9_5.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7373713&u=https%3A%2F%2Fwww.udemy.com%2Fai-fde-forward-deployed-engineer-agentic-ai-architect&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/PzDOXe",
     "language": "English",
     "certificate": true,
     "students": 6130,
@@ -5755,7 +5856,7 @@
     "bestseller": true,
     "description": "Use Excel for HR Analytics, calculate HR metrics, build HR dashboards & ML models for Human Resource & People Analytics",
     "image": "https://i.udemycdn.com/course/480x270/3361270_1ebe_3.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.3361270&u=https%3A%2F%2Fwww.udemy.com%2Fhr-analytics-using-excel&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/7XNajg",
     "language": "English",
     "certificate": true,
     "students": 140602,
@@ -5990,12 +6091,18 @@
     "updated": "10/2026",
     "description": "[Latest Syllabus] Pass The AIB-C01 Exam On Your First Attempt | Full Practice Exam, Section Quizzes And Demos",
     "image": "https://i.udemycdn.com/course/480x270/7330001_70f8.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7330001&u=https%3A%2F%2Fwww.udemy.com%2Faib-c01-aws-certified-ai-business-strategist&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/B5MnW9",
     "language": "English",
     "certificate": true,
     "students": 1025,
     "sections": 8,
     "lectures": 66,
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "[NEW] AWS Certified AI Business Strategist AIB-C01 Training is a all level IT Certifications course from Vladimir Raykov on Udemy. It runs about 5 hours, and holds 4.8★ from 88 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
     "requirements": "No specific prerequisites required to take this course. You do not need coding skills or hands-on AWS experience. This is an independent, self-paced course of video lessons, practice questions, and study resources. You register for the official exam separately, through your AWS Certification Account. Pearson VUE delivers the exam online or at a test center.",
     "learn": [
       "Pass the AWS Certified AI Business Strategist (AIB-C01) exam: 8 sections, a full practice exam, section quizzes, and a 43-page study guide.",
@@ -6062,7 +6169,12 @@
       "5": 88
     },
     "quality": {
-      "content": 0
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
     },
     "faq": [
       {
@@ -6077,13 +6189,7 @@
         "q": "Is it worth the price?",
         "a": "At $44.99 with a 4.8★ average from 88 students, our Udemy course reviews put it above most IT Certifications alternatives."
       }
-    ],
-    "access": "Lifetime access",
-    "moneyBack": true,
-    "summary": "[NEW] AWS Certified AI Business Strategist AIB-C01 Training is a all level IT Certifications course from Vladimir Raykov on Udemy. It runs about 5 hours, and holds 4.8★ from 88 students in our Udemy course reviews.",
-    "bestFor": "all level learners who want one guided path through IT Certifications",
-    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
-    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+    ]
   },
   {
     "title": "New Manager: The Basics and More of Being a Great Leader",
@@ -6103,7 +6209,7 @@
     "bestseller": true,
     "description": "Go from a slightly uncertain, confused newbie to a confident, skilled manager who builds and leads effective teams.",
     "image": "https://i.udemycdn.com/course/480x270/429062_6e2a_7.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.429062&u=https%3A%2F%2Fwww.udemy.com%2Fnew-manager&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/L0NKJa",
     "language": "English",
     "certificate": true,
     "students": 31578,
@@ -6250,7 +6356,7 @@
     "updated": "10/2026",
     "description": "Combine the power of Agentic AI, Generative AI, Prompt Engineering and Deep RL to build powerful AIs with AWS and Python",
     "image": "https://img-c.udemycdn.com/course/480x270/1219332_bdd7_2.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.1219332&u=https%3A%2F%2Fwww.udemy.com%2Fartificial-intelligence-az&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/0GN9b3",
     "language": "English",
     "certificate": true,
     "students": 360888,
@@ -6364,7 +6470,7 @@
     "updated": "10/2026",
     "description": "The Only SQL Course with 200+ Visual Animations: Learn Fast, Practice Hard & Build Real-World Projects",
     "image": "https://img-c.udemycdn.com/course/480x270/5934818_9a72.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.5934818&u=https%3A%2F%2Fwww.udemy.com%2Fthe-complete-sql-bootcamp-30-hours-go-from-zero-to-hero&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/xJGLeO",
     "language": "English",
     "certificate": true,
     "students": 64180,
@@ -6488,7 +6594,7 @@
     "bestseller": true,
     "description": "The material is aligned with the official 2026 exam guide and includes scenario-based practice questions, a full-length timed mock exam (60 questions, 120 minutes), detailed answer explanations, and practical strategies for handling both multiple-choice and multiple-response questions. Ideal for solution architects, AI engineers, and practitioners who want to demonstrate their ability to design production-grade agentic systems with Claude.",
     "image": "https://img-c.udemycdn.com/course/480x270/7150101_2585_5.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3939309/39854?prodsku=course.7150101&u=https%3A%2F%2Fwww.udemy.com%2Fcertified-claude-architect-masterclass-2026&intsrc=APIG_34565",
+    "url": "https://trk.udemy.com/ZVA6oW",
     "language": "English",
     "certificate": true,
     "students": 33780,
@@ -6681,7 +6787,7 @@
     "bestseller": true,
     "description": "The 2026 Claude Masterclass teaches comprehensive skills for using Claude’s AI agents, cowork workflows, coding environment, and Microsoft Office automation to build applications and automate professional tasks",
     "image": "https://img-c.udemycdn.com/course/480x270/7066971_118a_4.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.7066971&u=https%3A%2F%2Fwww.udemy.com%2Fclaude-aiagents-cowork-masterclass&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/n4QXqa",
     "language": "English",
     "certificate": true,
     "students": 22040,
@@ -6784,7 +6890,7 @@
     "updated": "09/2026",
     "description": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games.",
     "image": "https://i.udemycdn.com/course/480x270/2263832_ac7c_2.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.2263832&u=https%3A%2F%2Fwww.udemy.com%2Fpython-from-zero-to-hero&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/m4mO9Z",
     "language": "English",
     "certificate": true,
     "students": 926056,
@@ -6898,7 +7004,7 @@
     "bestseller": true,
     "description": "Master Excel: formulas, PivotTables, Power Query, dashboards, and VBA for analysts and finance teams.",
     "image": "https://img-c.udemycdn.com/course/480x270/793796_0e89_5.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.793796&u=https%3A%2F%2Fwww.udemy.com%2Fmicrosoft-excel-2013-from-beginner-to-advanced-and-beyond&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/ZVA6nW",
     "language": "English",
     "certificate": true,
     "students": 1139135,
@@ -7012,7 +7118,7 @@
     "bestseller": true,
     "description": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
     "image": "https://img-c.udemycdn.com/course/480x270/2776760_f176_10.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.793796&u=https%3A%2F%2Fwww.udemy.com%2Fmicrosoft-excel-2013-from-beginner-to-advanced-and-beyond&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/k4qOLv",
     "language": "English",
     "certificate": true,
     "students": 937333,
@@ -7188,7 +7294,7 @@
     "bestseller": true,
     "description": "Pass the SAA-C03: EC2, S3, VPC, IAM, serverless, plus practice exams and hands-on labs.",
     "image": "https://img-c.udemycdn.com/course/480x270/2196488_8fc7_10.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.2196488&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-solutions-architect-associate-saa-c03&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/zzVx6x",
     "language": "English",
     "certificate": true,
     "students": 607028,
@@ -7301,7 +7407,7 @@
     "updated": "08/2026",
     "description": "The legendary bootcamp: HTML, CSS, JS, Node, Express, Mongo, auth, and deployment.",
     "image": "https://img-c.udemycdn.com/course/480x270/625204_436a_3.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.2196488&u=https%3A%2F%2Fwww.udemy.com%2Faws-certified-solutions-architect-associate-saa-c03&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/dyzOb3",
     "language": "English",
     "certificate": true,
     "students": 567648,
@@ -7415,7 +7521,7 @@
     "bestseller": true,
     "description": "PostgreSQL from SELECT to window functions, joins, and query optimization.",
     "image": "https://img-c.udemycdn.com/course/480x270/762616_7693_3.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.762616&u=https%3A%2F%2Fwww.udemy.com%2Fthe-complete-sql-bootcamp&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/rEPaAd",
     "language": "English",
     "certificate": true,
     "students": 471094,
@@ -7523,7 +7629,7 @@
     "bestseller": true,
     "description": "Hooks, Router, Redux, Next.js 15, Server Components, and TypeScript.",
     "image": "https://img-c.udemycdn.com/course/480x270/1362070_b9a1_2.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.1362070&u=https%3A%2F%2Fwww.udemy.com%2Freact-the-complete-guide-incl-redux&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/zzVzgx",
     "language": "English",
     "certificate": true,
     "students": 448193,
@@ -7637,7 +7743,7 @@
     "bestseller": true,
     "description": "Standalone components, signals, RxJS, NgRx, and deployment.",
     "image": "https://img-c.udemycdn.com/course/480x270/756150_c033_4.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.756150&u=https%3A%2F%2Fwww.udemy.com%2Fthe-complete-guide-to-angular-2&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/gRERbg",
     "language": "English",
     "certificate": true,
     "students": 318656,
@@ -7751,7 +7857,7 @@
     "bestseller": true,
     "description": "Master AI Agents in 30 days: build 8 real-world projects with OpenAI Agents SDK, CrewAI, LangGraph, AutoGen and MCP.",
     "image": "https://img-c.udemycdn.com/course/480x270/6566789_2e8a_10.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6566789&u=https%3A%2F%2Fwww.udemy.com%2Fthe-complete-agentic-ai-engineering-course&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/4aNae0",
     "language": "English",
     "certificate": true,
     "students": 2874,
@@ -7865,7 +7971,7 @@
     "bestseller": true,
     "description": "Complete AI Engineer Training: Python, NLP, Transformers, LLMs, LangChain, Hugging Face, APIs",
     "image": "https://img-c.udemycdn.com/course/480x270/6112535_7103.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.6112535&u=https%3A%2F%2Fwww.udemy.com%2Fthe-ai-engineer-course-complete-ai-engineer-bootcamp&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/m4m4g7",
     "language": "English",
     "certificate": true,
     "students": 2816,
@@ -7969,7 +8075,7 @@
     "bestseller": true,
     "description": "150k Learners- Playwright tutorials on TypeScript and JavaScript (Web - API )Testing, AI Agents, Cucumber, CI/CD etc.",
     "image": "https://img-c.udemycdn.com/course/480x270/4574326_d02f_5.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.4574326&u=https%3A%2F%2Fwww.udemy.com%2Fplaywright-tutorials-automation-testing&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/PzDzyj",
     "language": "English",
     "certificate": true,
     "students": 2762,
@@ -8078,7 +8184,7 @@
     "bestseller": true,
     "description": "LangChain and LangGraph from basics to production: chains, agents, memory, RAG, tools and deployment.",
     "image": "https://i.udemycdn.com/course/480x270/5281528_8f36_2.jpg",
-    "url": "https://trk.udemy.com/c/6591367/3227798/39854?prodsku=course.5281528&u=https%3A%2F%2Fwww.udemy.com%2Flangchain&intsrc=APIG_26324",
+    "url": "https://trk.udemy.com/oN9Nqo",
     "language": "English",
     "certificate": true,
     "students": 2046,
