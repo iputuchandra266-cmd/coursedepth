@@ -32,7 +32,8 @@ const jsonLd = {
 };
 ---
 
-<Layout title="Mastering FinOps for AI (Level 1): Take Control of AI Costs — CourseDepth" description="Learn how to manage and optimize AI costs using FinOps principles" set:html={JSON.stringify(jsonLd)}>
+<Layout title="Mastering FinOps for AI (Level 1): Take Control of AI Costs — CourseDepth" description="Learn how to manage and optimize AI costs using FinOps principles">
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 <Header />
 
 <section class="page-hero"><div class="container"><h1>Mastering FinOps for AI (Level 1): Take Control of AI Costs</h1><p>Discover how to manage and optimize your AI spending using FinOps best practices.</p></div></section>
@@ -54,7 +55,7 @@ const jsonLd = {
     <div style="margin-top:24px; padding-top:24px; border-top:1px solid var(--border);">
       <h3>Related course</h3>
       <p>Check out the <strong>Mastering FinOps for AI (Level 1)</strong> course through our affiliate link:</p>
-      <a class="btn-dark" href={affiliateLink} target="_blank" rel="sponsored nofollow noopener">
+      <a class="btn-dark" href={affiliateLink} target="_blank" rel="sponsored nofollow noopener" data-course="mastering-finops-for-ai-level-1" data-provider="Udemy" data-placement="article-related">
         🎓 Master FinOps for AI on Udemy →
       </a>
       <p style="margin-top:12px; font-size:13px; color:var(--muted)">

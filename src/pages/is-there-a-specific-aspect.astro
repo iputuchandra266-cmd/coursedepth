@@ -41,7 +41,8 @@ const jsonLd = {
 };
 ---
 
-<Layout title="Is There a Specific Aspect You'd Like to Know More About? — CourseDepth" description="FAQ about admin form fields, article templates, API endpoints and more" set:html={JSON.stringify(jsonLd)}>
+<Layout title="Is There a Specific Aspect You'd Like to Know More About? — CourseDepth" description="FAQ about admin form fields, article templates, API endpoints and more">
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 <Header />
 
 <section class="page-hero"><div class="container"><h1>Is There a Specific Aspect You'd Like to Know More About?</h1><p>Below are the most common questions about how CourseDepth works, from the admin form to the article template and API.</p></div></section>
@@ -59,7 +60,7 @@ const jsonLd = {
   <div style="margin-top:32px; padding-top:24px; border-top:1px solid var(--border);">
     <h3>Related course</h3>
     <p>If you're interested in the <strong>NCP AAI Bootcamp</strong> course mentioned in our affiliate program, you can check it out through our link:</p>
-    <a class="btn-dark" href={affiliateLink} target="_blank" rel="sponsored nofollow noopener">
+    <a class="btn-dark" href={affiliateLink} target="_blank" rel="sponsored nofollow noopener" data-course="ncp-aai-prep-course-learn-and-pass-ncp-agentic-ai-cert" data-provider="Udemy" data-placement="article-related">
       🎓 View NCP AAI Bootcamp on Udemy →
     </a>
     <p style="margin-top:12px; font-size:13px; color:var(--muted)">

@@ -1,4 +1,15 @@
+# CourseDepth - Independent online course reviews and ratings
+# https://coursedepth.com
+#
+# Search engine robots configuration:
+# - Allow all content pages for indexing
+# - Disallow administrative or private paths
+# - Point to sitemap for complete URL discovery
+
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.html$
 
 Sitemap: https://coursedepth.com/sitemap.xml

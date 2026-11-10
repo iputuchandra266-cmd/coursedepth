@@ -8,6 +8,8 @@ interface Props {
   image?: string;
   /** Open Graph type. Use "article" for guides and reviews. */
   type?: "website" | "article";
+  /** Additional meta keywords (comma-separated). */
+  keywords?: string;
 }
 const {
   title = "Course Reviews — Ratings & Best Picks | CourseDepth",
@@ -16,6 +18,7 @@ const {
   bodyClass = "",
   image,
   type = "website",
+  keywords,
 } = Astro.props;
 import "../styles/global.css";
 import { u } from "../lib/u";
@@ -76,6 +79,7 @@ const ld = {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <meta name="keywords" content={keywords || ""} />
     <meta name="robots" content={robots} />
     <meta name="google-site-verification" content="10yuLeZ2qhvag_zD9PkjLG49rg10la3f57_12DpOSDA" />
     <meta name="impact-site-verification" value="a3c4b02b-2856-448c-8029-c3576b09819a" />
