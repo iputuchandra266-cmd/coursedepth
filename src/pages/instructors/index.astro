@@ -57,8 +57,8 @@ const jsonLd = {
   <div class="inst-grid" style="margin-top:18px">
 {instructors.map(i => (
   <div class="inst-card" id={i.slug}>
-    <span class="avatar">{i.image ? <img src={u(i.image)} alt={i.name} width="44" height="44" loading="lazy" /> : <span class="emoji">{i.name.split(/\s+/).map(w => w[0]).slice(0, 2).join("").toUpperCase()}</span>}</span>
     <span><b>{i.name}</b><small>{i.courses} courses • {i.reviews} reviews • {i.students} students</small>{i.specialty && <small style="display:block;color:var(--muted)">{i.specialty}</small>}</span>
+    <span class="avatar">{i.image ? <img src={u(i.image)} alt={i.name} width="44" height="44" loading="lazy" /> : <span class="emoji">{i.name.split(/\s+/).map(w => w[0]).slice(0, 2).join("").toUpperCase()}</span>}</span>
   </div>
 ))}
 </div>

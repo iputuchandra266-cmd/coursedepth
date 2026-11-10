@@ -121,8 +121,8 @@ const guides = [
     <div class="inst-grid">
       {topInstructors.map(i => (
         <a class="inst-card" href={u("/instructors")}>
-          <span class="avatar"><img src={u(i.image ?? `/images/instructors/${i.slug}.svg`)} alt={i.name} width="44" height="44" loading="lazy" /></span>
           <span><b>{i.name}</b><small>{i.courses} courses, {i.reviews} reviews</small></span>
+          <span class="avatar"><img src={u(i.image ?? `/images/instructors/${i.slug}.svg`)} alt={i.name} width="44" height="44" loading="lazy" /></span>
         </a>
       ))}
     </div>
