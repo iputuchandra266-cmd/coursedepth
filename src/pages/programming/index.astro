@@ -4,11 +4,53 @@ import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import { categories, groups } from "../../data/categories";
 import { u } from "../../lib/u";
+
+const site = "https://coursedepth.com";
+const url = `${site}/programming/`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: site + "/" },
+        { "@type": "ListItem", position: 2, name: "All course categories", item: url },
+      ],
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": `${url}#webpage`,
+      url,
+      name: "Online Course Categories — Browse by Topic",
+      description: `Browse ${categories.length} online course topics across ${groups.length} groups, each ranked by student reviews and ratings.`,
+      inLanguage: "en",
+      isPartOf: { "@id": `${site}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        name: "Online course categories",
+        numberOfItems: categories.length,
+        itemListElement: categories.map((c, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          item: {
+            "@type": "CollectionPage",
+            name: `Best ${c.name} courses`,
+            url: `${site}/programming/${c.slug}/`,
+            description: c.description,
+          },
+        })),
+      },
+    },
+  ],
+};
 ---
-<Layout title="All Course Categories — Reviews & Ratings | CourseDepth" description={`Browse ${categories.length} course topics — ratings, reviews and update history for every category.`}>
+<Layout title="Online Course Categories — Browse by Topic | CourseDepth" description={`Browse ${categories.length} online course topics across ${groups.length} groups — ratings, reviews and update history for Python, web development, data science, AI and more.`}>
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 <Header />
-<section class="page-hero"><div class="container"><h1>Browse every category</h1><p>{categories.length} topics across {groups.length} groups, ranked by student reviews.</p></div></section>
+<section class="page-hero"><div class="container"><h1>Browse every course category</h1><p>{categories.length} topics across {groups.length} groups, ranked by student reviews.</p></div></section>
 <section class="section"><div class="container">
+<p style="max-width:760px;color:var(--muted)">Start from the subject you want to learn. Each category page ranks the courses we track by student rating, review volume, freshness and curriculum depth — so the first result is the strongest pick, not the best-paid one. Popular starting points are <a href={u("/programming/python")}>Python</a>, <a href={u("/programming/web-development")}>web development</a>, <a href={u("/programming/data-science")}>data science</a> and <a href={u("/programming/artificial-intelligence")}>artificial intelligence</a>.</p>
 {groups.map(g => (
   <div style="margin-bottom:28px">
     <h2 id={`group-${g.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`} style="color:var(--navy)">{g}</h2>

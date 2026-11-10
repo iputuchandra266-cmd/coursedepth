@@ -15,8 +15,6 @@ const topRated = [...courses].sort((a,b)=> (b.rating||0)-(a.rating||0) || (b.rev
 const fresh = [...courses].sort((a,b)=> parseUpdated(b.updated)-parseUpdated(a.updated) ).slice(0,8);
 const totalReviews = courses.reduce((s,c)=>s+(c.reviews||0),0);
 const jsonLd = {"@context":"https://schema.org","@graph":[
-  {"@type":"Organization","@id":"https://coursedepth.com/#org","name":"CourseDepth","url":"https://coursedepth.com/","logo":"https://coursedepth.com/images/og-default.png","sameAs":[]},
-  {"@type":"WebSite","@id":"https://coursedepth.com/#site","url":"https://coursedepth.com/","name":"CourseDepth","publisher":{"@id":"https://coursedepth.com/#org"},"potentialAction":{"@type":"SearchAction","target":"https://coursedepth.com/search?q={search_term_string}","query-input":"required name=search_term_string"}},
   {"@type":"FAQPage","mainEntity":[
     {"@type":"Question","name":"Are course reviews reliable?","acceptedAnswer":{"@type":"Answer","text":"CourseDepth aggregates public ratings and review counts from each course provider, then adds editorial analysis (our take, pros/cons, update history) that the provider does not show. The headline rating is the provider's own aggregate score, not a score we invent."}},
     {"@type":"Question","name":"How do I find the best courses?","acceptedAnswer":{"@type":"Answer","text":"Sort by student rating (4.5+ is excellent), check the last update date (within 12 months is ideal), read the curriculum breakdown, and look at instructor review counts. CourseDepth lists all of this on every course page."}},
@@ -24,9 +22,17 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
   ]},
   {"@type":"ItemList","name":"Highest Rated Courses","itemListElement":topRated.map((c,i)=>({"@type":"ListItem","position":i+1,"item":{"@type":"Course","name":c.title,"url":"https://coursedepth.com/course/"+c.slug+"/","provider":{"@type":"Organization","name":c.provider},"aggregateRating":{"@type":"AggregateRating","ratingValue":c.rating,"reviewCount":c.reviews}}}))}
 ]};
+const guides = [
+  { href: "/how-to-choose-an-online-course", title: "How to choose an online course", desc: "A 7-step checklist before you pay for anything." },
+  { href: "/are-udemy-courses-worth-it", title: "Are online courses worth it?", desc: "When a course is worth your time — and when to skip it." },
+  { href: "/are-udemy-reviews-fake", title: "Are course reviews fake?", desc: "Six signals that separate real reviews from coupon hype." },
+  { href: "/udemy-certificate-worth-it", title: "Are course certificates worth it?", desc: "What employers actually think of completion certificates." },
+  { href: "/udemy-python-course-reviews", title: "Python course reviews", desc: "Real ratings for the best Python bootcamps of 2026." },
+  { href: "/vouchers", title: "Course vouchers & deals", desc: "Current discounts on the courses we review." },
+];
 ---
 
-<Layout title="Course Reviews 2026 — Ratings & Best Picks | CourseDepth" description="Honest course reviews with real student ratings, update dates and instructor details. Compare the best Python, Web Dev, Data Science and AI courses before you buy.">
+<Layout title="Course Reviews 2026 — Ratings & Best Picks | CourseDepth" description="Honest course reviews with real student ratings, update dates and instructor details. Compare the best Python, web development, data science and AI courses.">
 
 
 <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
@@ -135,6 +141,22 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
   </div>
 </section>
 
+
+<!-- GUIDES -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="sec-head">
+      <div><span class="eyebrow">Buying guides</span><h2>Learn how to judge a course</h2><p>Short, practical guides that explain the checks behind every review.</p></div>
+    </div>
+    <div class="why-grid">
+      {guides.map(g => (
+        <a class="why-card guide-card" href={u(g.href)}>
+          <div><h3>{g.title}</h3><p>{g.desc}</p><span class="guide-more">Read the guide →</span></div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
 
 <!-- FAQ (GEO/AI) -->
 <section class="section" style="padding-top:0" aria-label="Frequently asked questions about course reviews">

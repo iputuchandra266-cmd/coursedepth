@@ -196,18 +196,19 @@ a:hover { color: var(--navy-700); }
 .link-more { font-weight: 600; font-size: 0.95rem; white-space: nowrap; }
 
 /* Topic grid */
-.topic-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
-@media (min-width: 700px) { .topic-grid { grid-template-columns: repeat(4, 1fr); gap: 14px; } }
+.topic-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (min-width: 700px) { .topic-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; } }
 .topic-card {
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 14px; display: flex; align-items: center; gap: 12px;
-  box-shadow: var(--shadow-xs);
+  box-shadow: var(--shadow-xs); min-width: 0;
   transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
 }
 .topic-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: var(--line-strong); }
 .topic-ico { width: 44px; height: 44px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; background: var(--navy-50); overflow: hidden; }
 .topic-ico img { width: 32px; height: 32px; }
-.topic-card b { display: block; font-size: 15px; color: var(--ink); }
+.topic-card > span:not(.topic-ico) { min-width: 0; }
+.topic-card b { display: block; font-size: 15px; color: var(--ink); overflow-wrap: anywhere; }
 .topic-card small { color: var(--muted); font-weight: 500; font-size: 13px; }
 
 /* Course cards */
@@ -242,19 +243,24 @@ a:hover { color: var(--navy-700); }
 @media (min-width: 720px) { .why-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .why-card { display: flex; gap: 14px; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 @media (min-width: 720px) and (max-width: 999px) { .why-card { flex-direction: column; gap: 12px; } }
+@media (min-width: 720px) { .why-grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .why-ico { flex: none; width: 44px; height: 44px; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; background: var(--yellow-100); color: #6b4d00; font-size: 22px; }
 .why-card h3 { margin: 2px 0 4px; font-size: 1.05rem; }
 .why-card p { margin: 0; color: var(--muted); font-size: 0.93rem; }
+.guide-card { color: inherit; transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; }
+.guide-card:hover { transform: translateY(-3px); border-color: var(--navy); box-shadow: var(--shadow-sm); }
+.guide-more { display: inline-block; margin-top: 10px; color: var(--navy); font-size: 0.86rem; font-weight: 700; }
 
 /* Instructors */
 .inst-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-@media (max-width: 719px) { .inst-grid { grid-template-columns: 1fr; gap: 8px; } }
+@media (max-width: 719px) { .inst-grid { grid-template-columns: minmax(0, 1fr); gap: 8px; } }
 @media (min-width: 720px) { .inst-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; } }
 @media (min-width: 1000px) { .inst-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-.inst-card { display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: #fff; border: 1px solid var(--line); border-radius: 12px; min-height: 64px; color: var(--ink); box-shadow: var(--shadow-xs); transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; }
+.inst-card { display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: #fff; border: 1px solid var(--line); border-radius: 12px; min-height: 64px; min-width: 0; color: var(--ink); box-shadow: var(--shadow-xs); transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; }
 .inst-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--navy-100); color: var(--navy); }
+.inst-card > span:last-child { min-width: 0; }
 .avatar { width: 44px; height: 44px; border-radius: 50%; flex: none; display: block; overflow: hidden; background: var(--bg-2); margin: 0; }
-.inst-card b { display: block; font-size: 0.92rem; }
+.inst-card b { display: block; font-size: 0.92rem; overflow-wrap: anywhere; }
 .inst-card small { display: block; color: var(--muted); font-weight: 400; font-size: 0.78rem; margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* Steps */

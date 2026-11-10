@@ -1,8 +1,30 @@
-// Tulis dist/sitemap.xml dari semua halaman hasil build (kecuali /admin dan noindex).
+// Tulis dist/sitemap.xml dari semua halaman hasil build.
+// Halaman /admin, /login, /search, /review-course dan semua halaman ber-noindex
+// sengaja tidak dimasukkan supaya sitemap hanya berisi URL yang boleh di-index.
 import fs from "node:fs";
 import path from "node:path";
 
-const EXCLUDE = new Set(["login", "search", "review-course", "admin"]);
+const EXCLUDE = new Set(["login", "search", "review-course", "admin", "404"]);
+
+function isNoindex(pathname) {
+  const clean = pathname.replace(/^\/+/, "");
+  const candidates = clean
+    ? [
+        path.join(process.cwd(), "dist", clean, "index.html"),
+        path.join(process.cwd(), "dist", `${clean}.html`),
+      ]
+    : [path.join(process.cwd(), "dist", "index.html")];
+
+  for (const file of candidates) {
+    if (!fs.existsSync(file)) continue;
+    const html = fs.readFileSync(file, "utf8");
+    if (/<meta\s+name=["']robots["']\s+content=["'][^"']*noindex/i.test(html)) {
+      return true;
+    }
+    return false;
+  }
+  return false;
+}
 
 export default function sitemap({ site = "https://coursedepth.com" } = {}) {
   const base = site.replace(/\/+$/, "");
@@ -15,7 +37,9 @@ export default function sitemap({ site = "https://coursedepth.com" } = {}) {
           .map((p) => p.pathname)
           .filter((p) => {
             const seg = (p || "").replace(/^\/+/, "").toLowerCase().replace(/\/+$/, "");
-            return seg && !EXCLUDE.has(seg.split("/")[0]);
+            if (!seg) return false;
+            if (EXCLUDE.has(seg.split("/")[0])) return false;
+            return !isNoindex(p);
           })
           .map((p) => `  <url><loc>${base}/${p.replace(/^\/+/, "").replace(/\/?$/, "/")}</loc><lastmod>${lastmod}</lastmod></url>`);
         const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>\n`;

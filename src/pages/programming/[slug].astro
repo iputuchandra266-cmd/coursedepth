@@ -39,7 +39,11 @@ const updatedLabel = "Updated October 21, 2026";
 
 const courseW = n === 1 ? "course" : "courses";
 const h1 = empty ? `Best ${cat.name} Courses & Certificates [2026]` : n === 1 ? `Best ${cat.name} Course & Certificate [2026]` : `${n} Best ${cat.name} Courses & Certificates [2026]`;
-const pageTitle = empty ? `${cat.name} Courses — Reviews & Ratings | CourseDepth` : `${h1} | CourseDepth`;
+const pageTitle = empty
+  ? `${cat.name} Courses — Reviews & Ratings | CourseDepth`
+  : n === 1
+    ? `Best ${cat.name} Course [2026] | CourseDepth`
+    : `${n} Best ${cat.name} Courses [2026] | CourseDepth`;
 const metaDesc = empty
   ? `${cat.name} courses with student ratings, reviews and update dates. ${cat.description}`
   : `Compare ${n} ${cat.name} ${courseW} from ${providers} provider${providers === 1 ? "" : "s"}, ranked by ${reviewsLong} student reviews. Ratings, length, price and update dates.`;
@@ -117,6 +121,17 @@ const itemGraph = empty ? [] : [{
       description: c.description,
       provider: { "@type": "Organization", name: c.provider },
       aggregateRating: { "@type": "AggregateRating", ratingValue: c.rating, reviewCount: c.reviews },
+      ...(typeof c.price === "number" && c.price > 0
+        ? {
+            offers: {
+              "@type": "Offer",
+              price: c.price,
+              priceCurrency: "USD",
+              availability: "https://schema.org/InStock",
+              url: c.url ?? `${site}/course/${c.slug}/`,
+            },
+          }
+        : {}),
     },
   })),
 }];

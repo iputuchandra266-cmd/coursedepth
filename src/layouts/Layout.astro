@@ -4,12 +4,18 @@ interface Props {
   description?: string;
   robots?: string;
   bodyClass?: string;
+  /** Absolute URL or site-relative path. Defaults to /images/og-default.png. */
+  image?: string;
+  /** Open Graph type. Use "article" for guides and reviews. */
+  type?: "website" | "article";
 }
 const {
   title = "Course Reviews — Ratings & Best Picks | CourseDepth",
   description = "Honest course reviews: ratings, update history and instructor details for the best Python, Web Dev, Data Science and AI courses.",
   robots = "index, follow",
   bodyClass = "",
+  image,
+  type = "website",
 } = Astro.props;
 import "../styles/global.css";
 import { u } from "../lib/u";
@@ -22,19 +28,46 @@ const analyticsEndpoint = (import.meta.env.PUBLIC_ANALYTICS_ENDPOINT as string |
 const site = Astro.site ?? new URL("https://coursedepth.com");
 const canonical = new URL(Astro.url.pathname, site).href;
 const siteName = "CourseDepth";
-const keyword = "Course Reviews";
+const orgId = `${site.origin}/#organization`;
+const websiteId = `${site.origin}/#website`;
+const defaultImage = new URL(u("/images/og-default.png"), site).href;
+const ogImage = image ? new URL(u(image), site).href : defaultImage;
 const ld = {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: siteName,
-  alternateName: keyword,
-  url: site.href,
-  description,
-  potentialAction: {
-    "@type": "SearchAction",
-    target: { "@type": "EntryPoint", urlTemplate: `${site.href}?q={search_term_string}` },
-    "query-input": "required name=search_term_string",
-  },
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": orgId,
+      name: siteName,
+      url: `${site.origin}/`,
+      logo: {
+        "@type": "ImageObject",
+        url: new URL(u("/images/logo-mark.svg"), site).href,
+      },
+      sameAs: [
+        "https://x.com/CouponsFreeDis1",
+        "https://www.facebook.com/dewi.s.bati/",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": websiteId,
+      name: siteName,
+      alternateName: "Course Reviews",
+      url: `${site.origin}/`,
+      description,
+      inLanguage: "en",
+      publisher: { "@id": orgId },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${site.origin}/search?q={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
+      },
+    },
+  ],
 };
 ---
 <!doctype html>
@@ -53,18 +86,22 @@ const ld = {
     <link rel="alternate icon" href={u("/favicon.ico")} sizes="any" />
     <link rel="sitemap" href={u("/sitemap.xml")} />
 
-    <meta property="og:type" content="website" />
+    <meta name="author" content={siteName} />
+    <meta property="og:type" content={type} />
     <meta property="og:site_name" content={siteName} />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={new URL(u("/images/og-default.png"), site).href} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content={title} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={new URL(u("/images/og-default.png"), site).href} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={title} />
 
     {gaId && (
       <>

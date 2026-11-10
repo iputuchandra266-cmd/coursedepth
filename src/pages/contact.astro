@@ -2,10 +2,25 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+
+const site = "https://coursedepth.com";
+const url = `${site}/contact/`;
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "@id": `${url}#webpage`,
+  url,
+  name: "Contact CourseDepth",
+  description: "Report a wrong course price or rating, ask a question, or contact the CourseDepth editorial team.",
+  inLanguage: "en",
+  isPartOf: { "@id": `${site}/#website` },
+  about: { "@id": `${site}/#organization` },
+};
 ---
-<Layout title="Contact — CourseDepth" description="Report a wrong price or rating, ask a question, or get in touch with CourseDepth.">
+<Layout title="Contact CourseDepth — Corrections & Questions" description="Report a wrong course price or rating, ask a question, or contact the CourseDepth editorial team. We reply within 2 business days.">
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 <Header />
-<section class="page-hero"><div class="container"><h1>Contact</h1><p>Questions, corrections, or partnerships — we reply within 2 business days.</p></div></section>
+<section class="page-hero"><div class="container"><h1>Contact CourseDepth</h1><p>Questions, corrections, or partnerships — we reply within 2 business days.</p></div></section>
 <section class="section"><div class="container" style="max-width:720px">
 <div class="review">
 <h2 style="margin-top:0">Report a wrong price or rating</h2>

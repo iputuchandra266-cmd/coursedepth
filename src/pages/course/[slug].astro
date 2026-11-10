@@ -61,6 +61,7 @@ const faqLd = cleanFaq?.length ? { "@context": "https://schema.org", "@type": "F
     <Stars rating={c.rating} reviews={c.reviews} />
     <a href="#reviews" style="font-weight:600">({c.reviews.toLocaleString()} reviews)</a>
     <span>Created by: <b>{c.instructor}</b></span>
+    {c.instructorImage && <img src={c.instructorImage} alt={c.instructor} style="width:40px;height:40px;border-radius:50%;object-fit:cover;" />}
     <span style="color:#cfc4f5">Last updated {c.updated}</span>
   </div>
   {c.url && (

@@ -4,17 +4,64 @@ import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import { instructors } from "../../data/instructors";
 import { u } from "../../lib/u";
+
+const site = "https://coursedepth.com";
+const url = `${site}/instructors/`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: site + "/" },
+        { "@type": "ListItem", position: 2, name: "All instructors", item: url },
+      ],
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": `${url}#webpage`,
+      url,
+      name: "Best Online Course Instructors 2026 — Ranked",
+      description: "The most-reviewed online course instructors, ranked by student reviews across the courses CourseDepth tracks.",
+      inLanguage: "en",
+      isPartOf: { "@id": `${site}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        name: "Top online course instructors",
+        numberOfItems: instructors.length,
+        itemListElement: instructors.map((i, n) => ({
+          "@type": "ListItem",
+          position: n + 1,
+          item: {
+            "@type": "Person",
+            name: i.name,
+            description: i.specialty,
+            url: `${url}#${i.slug}`,
+          },
+        })),
+      },
+    },
+  ],
+};
 ---
-<Layout title="All instructors A-Z — CourseDepth">
+<Layout
+  title="Best Online Course Instructors 2026 — Ranked | CourseDepth"
+  description={`The ${instructors.length} most-reviewed online course instructors, ranked by student reviews. Compare each instructor's courses, ratings and specialties.`}
+>
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 <Header />
-<section class="page-hero"><div class="container"><h1>All instructors A-Z</h1><p>The most-reviewed instructors, ranked by students.</p></div></section>
-<section class="section"><div class="container"><div class="inst-grid">
+<section class="page-hero"><div class="container"><h1>Best online course instructors</h1><p>The most-reviewed instructors, ranked by students across every course we track.</p></div></section>
+<section class="section"><div class="container">
+  <p style="max-width:720px;color:var(--muted)">An instructor's review count matters as much as a single course rating: it shows how many students have tested their teaching over time. These {instructors.length} instructors are ordered by total student reviews, with their main subjects listed. Every name links to the courses we track for them.</p>
+  <div class="inst-grid" style="margin-top:18px">
 {instructors.map(i => (
   <div class="inst-card" id={i.slug}>
     <span class="avatar">{i.image ? <img src={u(i.image)} alt={i.name} width="44" height="44" loading="lazy" /> : <span class="emoji">{i.name.split(/\s+/).map(w => w[0]).slice(0, 2).join("").toUpperCase()}</span>}</span>
-    <span><b>{i.name}</b><small>{i.courses} courses • {i.reviews} reviews • {i.students} students</small></span>
+    <span><b>{i.name}</b><small>{i.courses} courses • {i.reviews} reviews • {i.students} students</small>{i.specialty && <small style="display:block;color:var(--muted)">{i.specialty}</small>}</span>
   </div>
 ))}
-</div></div></section>
+</div>
+</div></section>
 <Footer />
 </Layout>
