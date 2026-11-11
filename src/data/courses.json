@@ -1,5 +1,560 @@
 [
   {
+    "title": "MO-211 (and MO-201) exam preparation: Microsoft Excel Expert",
+    "slug": "mo-211-and-mo-201-exam-preparation-microsoft-excel-expert",
+    "provider": "Udemy",
+    "category": "Microsoft Excel",
+    "categorySlug": "microsoft-excel",
+    "instructor": "Phillip Burton - over one million students so far",
+    "instructorSlug": "phillip-burton-over-one-million-students-so-far",
+    "instructorImage": "https://img-c.udemycdn.com/course/480x270/5190998_da29.jpg",
+    "rating": 4.7,
+    "reviews": 874,
+    "level": "All Level",
+    "duration": "8 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Pass your Microsoft Office Specialist (MOS) Excel Expert exam with confidence and unlock the highest level of spreadsheet mastery.",
+    "image": "https://img-c.udemycdn.com/course/480x270/5190998_da29.jpg",
+    "url": "https://trk.udemy.com/zzVbOe",
+    "language": "English",
+    "certificate": true,
+    "students": 5220,
+    "sections": 12,
+    "lectures": 95,
+    "access": "Akses",
+    "summary": "The MO-211 (Excel Microsoft 365 Apps) and MO-201 (Excel 2019) certifications are the ultimate industry credentials validating your advanced spreadsheet capabilities. This course is a laser-focused, project-based prep environment designed to help you ace the official performance-based exam format on your very first try.\nRather than just memorizing functions, you will build true corporate-level mastery. You will learn to manage complex data environments, build advanced financial and statistical models, automate repetitive tasks, and audit formulas for flawless reporting.",
+    "requirements": "Before beginning, you will need to know how to use a Windows computer, including a mouse. You also need to have all of the skills covered by the MO-210 Excel exam. You should have MS Excel (or Office) from 2022 or later installed on your PC computer. This program is also known as a Microsoft 365 App.",
+    "learn": [
+      "Manage workbook options and settings, including preparing workbooks for collaboration",
+      "Manage and format data",
+      "Fill cells based on existing data, format and validate data and apply advanced conditional formatting",
+      "Create advanced formulas and macros",
+      "Logical functions include IFS, SWITCH, SUMIF, SUMIFS, AND, OR, NOT and LET",
+      "Lookup functions are XLOOKUP, VLOOKUP, HLOOKUP, MATCH and INDEX",
+      "Other functions include WEEKDAY, WORKDAY, NPER, PMT, FILTER and SORTBY",
+      "Manage PivotTables, PivotCharts and advanced charts, including g Box & Whisker, Combo, Funnel, Histogram, Sunburst, and Waterfall charts"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 15,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 17,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 14,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 10,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 11,
+        "duration": "1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 10,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 18,
+        "duration": "1.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Hi. I'm Phillip, and I'm proud to Teach with Udemy as a Udemy Instructor Partner. I have been teaching on Udemy since 2015, and I have over 1,000,000 students and more than 70 video courses, including over a dozen Bestseller courses.\n\nMy courses include Microsoft Power BI and Fabric, Tableau, SQL Server, Power Platform (Power Apps, Power Automate, etc.), Azure, Microsoft Office, AI and more. The majority of my courses align with the requirements for official certifications from Microsoft, Oracle, and Tableau - so with a bit of practice, you could enter the exam or assessment and put it on your CV or resume.\n\nI have been a Computing Consultant providing expert services in the development of computer systems and data analysis. I am one of 9 award winning Experts for Experts Exchange's 11th Annual Expert Awards. My interests are working with data, including Microsoft Power BI, Excel, Access, SQL Server, and the Power Platform.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is MO-211 (and MO-201) exam preparation: Microsoft Excel Expert suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 874 students, our Udemy course reviews put it above most Microsoft Excel alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through Microsoft Excel",
+    "skipIf": "You already work professionally in Microsoft Excel and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Microsoft DP-700 prep: Fabric Data Engineer Associate",
+    "slug": "microsoft-dp-700-prep-fabric-data-engineer-associate",
+    "provider": "Udemy",
+    "category": "Microsoft Fabric",
+    "categorySlug": "microsoft-fabric",
+    "instructor": "Phillip Burton - over one million students so far",
+    "instructorSlug": "phillip-burton-over-one-million-students-so-far",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/12861544_ccc3_4.jpg",
+    "rating": 4.6,
+    "reviews": 202996,
+    "level": "All Level",
+    "duration": "17 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "DP-700 Prep: Microsoft Certified: Fabric Data Engineer Associate\n\nPass the Microsoft DP-700 Exam on your first try and validate your enterprise-scale data engineering expertise using Microsoft Fabric.",
+    "image": "https://img-c.udemycdn.com/course/480x270/6247889_41b4_2.jpg",
+    "url": "https://trk.udemy.com/5kNZm1",
+    "language": "English",
+    "certificate": true,
+    "students": 25427,
+    "sections": 26,
+    "lectures": 188,
+    "access": "Akses",
+    "summary": "The Microsoft Certified: Fabric Data Engineer Associate (DP-700) is the premier credential for data professionals looking to establish authority in unified, cloud-scale analytics. This course is meticulously designed to bridge the gap between your existing data engineering knowledge and the exact competencies measured by Microsoft.\nGoing far beyond theoretical definitions, this exam preparation bootcamp combines deep architectural breakdowns, hands-on lab scenarios, and official-style practice question sets. You will master how to implement data loading patterns, orchestrate automated workflows, secure sensitive items, and fine-tune performance across the entire Fabric ecosystem",
+    "requirements": "Before you begin this course, you should have a computer with access to the internet. That's it! It would be good if you had an office/school email address (which you have if you have accessed other Microsoft apps). If you haven't, I can give you some suggestions as to how to get one. No prior knowledge of PySpark, SQL or KQL is needed. However, if you do have some, that would be useful.",
+    "learn": [
+      "Implement and manage an analytics solution",
+      "Configure security and governance",
+      "Ingest and transform data",
+      "Monitor and optimize an analytics solution"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 28,
+        "duration": "2.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 29,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 27,
+        "duration": "2.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 31,
+        "duration": "2.8h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 26,
+        "duration": "2.4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 24,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 23,
+        "duration": "2h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hi. I'm Phillip, and I'm proud to Teach with Udemy as a Udemy Instructor Partner. I have been teaching on Udemy since 2015, and I have over 1,000,000 students and more than 70 video courses, including over a dozen Bestseller courses.\n\nMy courses include Microsoft Power BI and Fabric, Tableau, SQL Server, Power Platform (Power Apps, Power Automate, etc.), Azure, Microsoft Office, AI and more. The majority of my courses align with the requirements for official certifications from Microsoft, Oracle, and Tableau - so with a bit of practice, you could enter the exam or assessment and put it on your CV or resume.\n\nI have been a Computing Consultant providing expert services in the development of computer systems and data analysis. I am one of 9 award winning Experts for Experts Exchange's 11th Annual Expert Awards. My interests are working with data, including Microsoft Power BI, Excel, Access, SQL Server, and the Power Platform.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Microsoft DP-700 prep: Fabric Data Engineer Associate suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 202,996 students, our Udemy course reviews put it above most Microsoft Fabric alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through Microsoft Fabric",
+    "skipIf": "You already work professionally in Microsoft Fabric and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Microsoft Fabric - The Complete Guide",
+    "slug": "microsoft-fabric-the-complete-guide",
+    "provider": "Udemy",
+    "category": "Microsoft Fabric",
+    "categorySlug": "microsoft-fabric",
+    "instructor": "Nikolai Schuler",
+    "instructorSlug": "nikolai-schuler",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/99103732_8c1e_4.jpg",
+    "rating": 4.6,
+    "reviews": 5989,
+    "level": "All Level",
+    "duration": "10 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Microsoft Fabric is an all-in-one, end-to-end analytics platform that unifies data movement, data engineering, data warehousing, real-time analytics, data science, and visualization into a single environment.",
+    "image": "https://img-c.udemycdn.com/course/480x270/5831888_d296_11.jpg",
+    "url": "https://trk.udemy.com/GbNVV6",
+    "language": "English",
+    "certificate": true,
+    "students": 42876,
+    "sections": 10,
+    "lectures": 106,
+    "access": "Akses",
+    "summary": "Microsoft Fabric - The Complete Guide\n\nMaster the all-in-one, AI-powered analytics platform and transform how your organization manages, processes, and visualizes data.\n\nCourse Overview\n\nData is the lifeblood of modern enterprise, but managing separate pipelines for engineering, warehousing, and business intelligence creates friction. Microsoft Fabric solves this by uniting data movement, data science, real-time analytics, and business intelligence into a single, SaaS-based platform.\nThis comprehensive course is your ultimate blueprint to mastering Microsoft Fabric. Designed from the ground up for data professionals, this course takes you from absolute beginner to an advanced practitioner capable of architecting end-to-end analytics solutions. You will get hands-on experience with OneLake, Data Factory, Synapse Data Engineering, Data Science, Real-Time Intelligence, and Power BI—all under a single unified environment.",
+    "bestFor": "Course Structure & Modules  • Module 1: Introduction to Microsoft Fabric \t• Understanding the Fabric architecture and the evolution of data analytics. \t• Navigating the Fabric SaaS portal and setting up your capacity/workspace. \t• The philosophy of OneLake: One copy of data for the entire enterprise. • Module 2: Data Integration with Data Factory \t• Creating Data Pipelines for orchestration. \t• Building low-code Dataflows (Gen2) for data transformation. \t• Connecting to external cloud and on-premises data sources. • Module 3: Data Engineering & The Lakehouse \t• Setting up a Lakehouse environment. \t• Working with Lakehouse tables (Managed vs. External). \t• Harnessing Spark Notebooks for advanced data cleaning and transformations. • Module 4: Enterprise Data Warehousing \t• Building a Synapse Data Warehouse. \t• Writing T-SQL queries for data manipulation and analysis. \t• Understanding performance tuning, indexing, and data modeling in Fabric. • Module 5: Data Science & Copilot Integration \t• Leveraging built-in AI and Copilot to accelerate your workflow. \t• Training machine learning models and tracking them via MLflow. \t• Scoring data and generating predictive insights. • Module 6: Real-Time Intelligence \t• Handling streaming data, IoT feeds, and log analytics. \t• Setting up Eventstreams and KQL databases. \t• Triggering automated actions based on real-time data insights. • Module 7: BI & Reporting via DirectLake \t• The revolution of DirectLake mode in Power BI. \t• Designing interactive, high-performance dashboards directly on top of OneLake. \t• Optimizing DAX measures for Fabric data models. • Module 8: Administration, Security & Governance \t• Managing capacities, tenants, and user access. \t• Implementing data sensitivity labels and tracking data lineage. \t• Best practices for deployment pipelines and CI/CD integration.",
+    "skipIf": "Who This Course Is For  • Data Engineers looking to transition from traditional pipeline tools to a unified SaaS analytics environment. • Power BI Developers & Analysts wanting to leverage DirectLake and expand their skills into backend data engineering. • Data Scientists who want a seamless platform to train models and serve insights directly to business users. • Database Administrators & Architects tasked with designing or migrating to modern cloud data platforms. • IT Leaders & Decision Makers evaluating Microsoft Fabric for their organizational data strategy.",
+    "suits": "Prerequisites  • Basic familiarity with data concepts (SQL, databases, or data warehousing). • A fundamental understanding of Power BI or cloud analytics is helpful but not required. • No prior experience with Microsoft Fabric is necessary—we start from scratch!",
+    "requirements": "No previous experience is needed. You will learn everythign you need to know Microsoft Fabric trial account",
+    "learn": [
+      "• Unified Data Lakehouse: Master OneLake, the \"OneDrive for data,\" and eliminate data silos using shortcuts and the Delta Parquet format.",
+      "• Data Integration: Build scalable, automated data pipelines and dataflows using Data Factory.",
+      "• Big Data Engineering: Write efficient PySpark and SQL code inside Synapse Notebooks to transform massive datasets.",
+      "• Data Science & AI: Build, train, and deploy machine learning models using Synapse Data Science and track experiments with MLflow.",
+      "• Real-Time Analytics: Capture, process, and analyze high-velocity streaming data using Real-Time Intelligence.",
+      "• Enterprise Data Warehousing: Architect scalable, high-performance Synapse Data Warehouses using T-SQL.",
+      "• Next-Gen Power BI: Connect directly to OneLake using DirectLake mode for lightning-fast report performance without importing or refreshing data.",
+      "• Governance & Security: Implement workspace-level security, row-level security (RLS), and data lineage to keep your data mesh secure."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 14,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 19,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 12,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 18,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 15,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 11,
+        "duration": "1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 17,
+        "duration": "1.8h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Are you thinking about pursuing a career as a Data Analyst or Data Scientist?\n\nDo you ever think that your career could take a leap forward if you would have more knowledge and skills in the world of data?\n\nPerhaps you are even feeling overwhelmed by the number of courses available or by the fact that your life is already too full to concentrate on one more course?\n\n\n\nI am Nikolai Schuler, I am a data scientist and BI consultant, and I have been there too...\n\nA few years ago I noticed that the world of data benefits from many new tools and technologies. However, I also realized that it is extremely difficult to get trained in the field: Practical courses with real quality content are rare and are often structured in such a way that they are incompatible with a working life full of other tasks and activities.\n\nWhile going through hours of research and training, I came up with the idea of creating a course that would offer extremely valuable content but that would be at the same time easy to follow due to its structure.\n\nMy goal is to help as many people as possible to pursue their desired career in this new Digital Age by enabling them to upgrade their data analysis skills. I am proud to say that I am heading in the right direction as my courses have already found their audience in over 170 countries and received thousands of positive feedbacks.\n\n\n\nI am super excited about equipping you with the skillset to master Data Science and Data Analytics! If you are looking for quality AND approachable training, then jump onboard! I am really looking forward to leveling up your IT skills.\n\n\n\n-- German version --\n\nIn meiner Arbeit als Data Scientist sehe ich, dass in der heutigen Zeit neue Tools riesige Vorteile bringen und sie nicht mehr wegzudenken sind. Allerdings sehe ich auch, dass es nicht immer leicht ist, sich neben der täglichen Arbeit in diese neuen Tools einzuarbeiten.\n\nMir selbst ist es auch schwer gefallen Kurse zu finden, die einerseits qualitativ hochwertig und andererseits verständlich und gut strukturiert sind.\n\nAus diesem Grund habe ich mich dazu entschlossen, selbst strukturierte und praxisorientierte Kurse zu erstellen.\n\nDa ich sowohl für einfache Anwender als auch für Datenspezialisten Einweisungen in Power BI und anderen Tools gebe, bin ich einerseits technischer Spezialist, habe aber andererseits auch ein gutes Gefühl für die, die nicht die reinen Datenspezialisten sind.\n\nMir zu überlegen, wie man das Wissen wirklich sinnvoll und verständlich vermitteln kann, ist das, was mir dabei Freude macht.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Microsoft Fabric - The Complete Guide suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 5,989 students, our Udemy course reviews put it above most Microsoft Fabric alternatives."
+      }
+    ],
+    "moneyBack": true
+  },
+  {
+    "title": "PL-300 certification prep: Microsoft Power BI Data Analyst",
+    "slug": "pl-300-certification-prep-microsoft-power-bi-data-analyst",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Phillip Burton - over one million students so far",
+    "instructorSlug": "phillip-burton-over-one-million-students-so-far",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/12861544_ccc3_4.jpg",
+    "rating": 4.6,
+    "reviews": 202996,
+    "level": "All Level",
+    "duration": "30 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "The Microsoft Certified: Power BI Data Analyst Associate (PL-300) exam validates your skills in preparing, modeling, visualizing, and managing data using Microsoft Power BI.",
+    "image": "https://img-c.udemycdn.com/course/480x270/2265622_8081_3.jpg",
+    "url": "https://trk.udemy.com/m4mEzD",
+    "language": "English",
+    "certificate": true,
+    "students": 216594,
+    "sections": 49,
+    "lectures": 326,
+    "access": "Akses",
+    "summary": "Key Exam Domains & Weighting\n\n1. Prepare the Data (25–30%): Connecting to data sources, profiling, cleaning, transforming (Power Query, M, pivoting, merging), and selecting storage modes (Import vs. DirectQuery / Direct Lake).\n2. Model the Data: Designing a star schema (fact and dimension tables), establishing relationships, and writing Data Analysis Expressions (DAX) calculations, time intelligence, and calculation groups.\n3. Visualize and Analyze Data: Designing effective reports, enhancing user experience (drill-downs, conditional formatting), and applying advanced visual calculations.\n4. Manage and Secure Power BI: Administering workspaces, deploying semantic models, configuring Row-Level Security (RLS), sensitivity labels, and utilizing Copilot features.\n\n\necommended Preparation Steps\n\n• Official Study Path: Use the free, structured Microsoft Learn PL-300 Study Guide.\n• Practice Assessments: Take the official practice assessment available via Microsoft AI Skills Navigator / Microsoft Learn Certification Page.\n• Interactive Sandbox: Explore the live UI using the Microsoft Exam Sandbox to familiarize yourself with the testing interface.\n• Third-Party Deep Dives: Supplement with hands-on bootcamps or structured courses such as Phillip Burton’s Udemy Power BI Bootcamp",
+    "requirements": "Before you begin this course, you should have a computer with access to the internet, and be able to install Windows programs. You will need Windows 8.1, 10 or 11 or Windows Server 2012 R2 or later, to install the Power BI Desktop program. That's it! The more experience in reporting using other packages including Excel, the better, but it is not essential. If you have a Mac, then you will need to be able to either dual-boot into Windows, or use Parallel Desktop boot into Windows. However, Mac users can use the Power BI Service, and be able to do most of Part 1 and Part 4 of this course.",
+    "learn": [
+      "Download for free and install and run the full version of Power BI Desktop, the BI and analysis software.",
+      "Be able to create analyses, such as line charts, stacked bar charts, or geographic analyses using maps.",
+      "You will be able to format numbers and dates, and add labels, tooltips and animation.",
+      "You will be able to Get and Transform multiple sources of data, including merging multiple files from a folder, pivoting and unpivotting.",
+      "Building and refine models, including adding calculated columns and measures.",
+      "You will learn the important M and DAX functions, to enable you to build your own formulas."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 49,
+        "duration": "4.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 40,
+        "duration": "3.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 56,
+        "duration": "5.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 38,
+        "duration": "3.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 51,
+        "duration": "4.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 36,
+        "duration": "3.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 56,
+        "duration": "5.2h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hi. I'm Phillip, and I'm proud to Teach with Udemy as a Udemy Instructor Partner. I have been teaching on Udemy since 2015, and I have over 1,000,000 students and more than 70 video courses, including over a dozen Bestseller courses.\n\nMy courses include Microsoft Power BI and Fabric, Tableau, SQL Server, Power Platform (Power Apps, Power Automate, etc.), Azure, Microsoft Office, AI and more. The majority of my courses align with the requirements for official certifications from Microsoft, Oracle, and Tableau - so with a bit of practice, you could enter the exam or assessment and put it on your CV or resume.\n\nI have been a Computing Consultant providing expert services in the development of computer systems and data analysis. I am one of 9 award winning Experts for Experts Exchange's 11th Annual Expert Awards. My interests are working with data, including Microsoft Power BI, Excel, Access, SQL Server, and the Power Platform.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is PL-300 certification prep: Microsoft Power BI Data Analyst suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 202,996 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "SC-900 prep: Microsoft Security, Compliance, Identity",
+    "slug": "sc-900-prep-microsoft-security-compliance-identity",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Phillip Burton - over one million students so far",
+    "instructorSlug": "phillip-burton-over-one-million-students-so-far",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/12861544_ccc3_4.jpg",
+    "rating": 4.6,
+    "reviews": 202996,
+    "level": "All Level",
+    "duration": "6 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "The Microsoft SC-900 (Security, Compliance, and Identity Fundamentals) certification validates foundational knowledge of security, compliance, and identity (SCI) concepts and how they apply across Microsoft cloud services like Microsoft Azure and Microsoft 365",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKjZrW_wzGi7vEYKS2R1rS2Qru7TW-rCwdo7TY2t4DwQ&s=10",
+    "url": "https://trk.udemy.com/OYxKeW",
+    "language": "English",
+    "certificate": true,
+    "students": 13125,
+    "sections": 21,
+    "lectures": 100,
+    "summary": "Exam Overview & Details\n\n• Exam Code: SC-900\n• Target Audience: Business stakeholders, students, and new or existing IT professionals wanting to understand Microsoft SCI solutions.\n• Cost: Typically $99 USD (varies by region/country).\n• Prerequisites: None required, though basic familiarity with Microsoft Azure and Microsoft 365 is recommended.\n• Language Accommodations: Extra time is available if the exam is not offered in your native language.\n\nCore Exam Domains & Weighting\n\n• Describe security and compliance concepts (10–15%)\n\t• Shared Responsibility Model: How security duties split between the cloud provider and the customer across IaaS, PaaS, and SaaS (customers always retain data, device, and identity ownership).\n\t• Defense in Depth: Layered security approaches (physical, identity, perimeter, network, compute, application, and data).\n\t• Zero Trust Model: Core principles of \"never trust, always verify\", explicit verification, least privilege access, and assume breach.\n\t• CIA Triad: Confidentiality, integrity, and availability.\n\t• Encryption vs. Hashing: Symmetric and asymmetric encryption versus irreversible one-way hashing for passwords.\n\t• Governance, Risk, and Compliance (GRC): Managing organizational policies, risk assessment, and regulatory frameworks.\n• Describe the capabilities of Microsoft Entra (25–30%)\n\t• Microsoft Entra ID (formerly Azure AD): Identity types, directory services, and hybrid identity capabilities.\n\t• Authentication & Access Management: Multi-factor authentication (MFA), self-service password reset (SSPR), conditional access, and role-based access control (RBAC).\n\t• Identity Protection & Governance: Privileged Identity Management (PIM) and identity reviews.\n• Describe the capabilities of Microsoft security solutions\n\t• Azure Infrastructure Security: Core Azure network security, firewalls, and security management tools.\n\t• Microsoft Defender XDR: Threat protection across endpoints, email, identity, and cloud apps.\n\t• Microsoft Sentinel: Cloud-native SIEM and SOAR capabilities for threat detection and response.\n• Describe the capabilities of Microsoft compliance solutions\n\t• Microsoft Purview: Information protection, data lifecycle management, data governance, and insider risk.\n\t• Privacy Principles & Service Trust Portal: Data residency, sovereignty, and compliance offerings.\n\nRecommended Study Resources\n\n• Official Training: Free self-paced learning paths on Microsoft Learn.\n• Practice Assessments: Free practice tests available directly on the Microsoft Learn SC-900 page.\n• Documentation & Community: Microsoft Security Documentation and the Microsoft Q&A community forums.\nIf you'd like, tell me:\n• What is your current IT or cloud background?\n• Which specific domain (Entra, Defender, Purview, or general concepts) feels the hardest for you right now?",
+    "requirements": "You need to know how to use a computer, and hopefully know how to use a spreadsheet. No prior knowledge of Microsoft Azure or 365 is required. Also, no prior knowledge of security, compliance or identity is required. You can access Azure or Microsoft 365 Centers on Windows, iOS or Linux. There is a 30-day refund guarantee of this Udemy course (see Udemy's refund policy). Why not have a look at the curriculum below and see what you can learn?",
+    "learn": [
+      "Describe the concepts of security, compliance, and identity",
+      "Describe the capabilities of Microsoft identity and access management solutions",
+      "Describe the capabilities of Microsoft security solutions",
+      "Describe the capabilities of Microsoft compliance solutions"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 12,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 17,
+        "duration": "1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 18,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 11,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 16,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 13,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 13,
+        "duration": "0.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "I Do Data is dedicated to creating video courses on Udemy in a variety of computer-related topics, such as SQL in its different dialects and Microsoft Office.\n\nAre you wanting to learn a new skill from the beginning? Or are you wanting to build on an existing skill? In either case, welcome.\n\nOur courses are available on Udemy at any time, so you can watch them whenever you like, as often as you like.\n\nFor many of our courses, if you master the skills taught, you are able (if you wish) to take (and hopefully pass) the official certification offered by Microsoft, Tableau or other companies.\n\nThat would look good on your CV or resume? It could make the difference between getting a promotion, or a more rewarding job.\n\nI Do Data courses are dedicated to enabling you to succeed.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is SC-900 prep: Microsoft Security, Compliance, Identity suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 202,996 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ],
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "CISSP Certification: CISSP Domain 3 & 4 Boot Camp 2026 Exam",
     "slug": "cissp-certification-cissp-domain-3-4-boot-camp-2026-exam",
     "provider": "Udemy",
@@ -1835,6 +2390,7 @@
     "rating": 5,
     "reviews": 26,
     "level": "All Level",
+    "duration": "8h total",
     "updated": "11/2026",
     "description": "AZ-900 Practice Test: Ace AZ-900 Certification With Real AZ900 Exam Standard Microsoft Azure Fundamentals AZ900 Practice",
     "image": "https://i.udemycdn.com/course/480x270/7310217_8689_2.jpg",
@@ -1939,8 +2495,7 @@
         "q": "Is it worth the price?",
         "a": "At $0 with a 5★ average from 26 students, our Udemy course reviews put it above most IT Certifications alternatives."
       }
-    ],
-    "duration": "8h total"
+    ]
   },
   {
     "title": "CompTIA Security+ SY0-701 Practice Tests 2026",
