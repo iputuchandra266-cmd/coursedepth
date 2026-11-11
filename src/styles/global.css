@@ -48,6 +48,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: var(--text);
+  font-weight: 500;
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -163,7 +164,7 @@ a:hover { color: var(--navy-700); }
 }
 .hero-search button:hover { background: var(--hero-btn-hover); }
 .popular { margin: 18px 0 0; font-size: 1rem; color: #ded7f9; display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
-.popular span { font-weight: 400; color: #b9a9ef; }
+.popular span { font-weight: 500; color: #b9a9ef; }
 .popular a { color: #fff; font-weight: 700; border-bottom: 1px solid #8b76e0; padding-bottom: 1px; }
 .popular a:hover { color: var(--yellow); border-color: var(--yellow); }
 .hero-art { display: block; width: 100%; max-width: 620px; height: auto; margin: 0 auto; }
@@ -234,7 +235,7 @@ a:hover { color: var(--navy-700); }
 .stars-on { position: absolute; left: 0; top: 0; z-index: 1; overflow: hidden; color: var(--star); white-space: nowrap; }
 .stars-off { position: relative; white-space: nowrap; }
 .stars-num { color: var(--ink); font-variant-numeric: tabular-nums; }
-.stars-count { color: var(--muted); font-weight: 400; font-size: 13px; }
+.stars-count { color: var(--muted); font-weight: 500; font-size: 13px; }
 .price-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 10px; margin-top: auto; padding-top: 8px; font-size: 0.85rem; }
 .price { font-weight: 700; color: var(--ink); }
 
@@ -261,7 +262,7 @@ a:hover { color: var(--navy-700); }
 .inst-card > span:last-child { min-width: 0; }
 .avatar { width: 44px; height: 44px; border-radius: 50%; flex: none; display: block; overflow: hidden; background: var(--bg-2); margin: 0; }
 .inst-card b { display: block; font-size: 0.92rem; overflow-wrap: anywhere; }
-.inst-card small { display: block; color: var(--muted); font-weight: 400; font-size: 0.78rem; margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.inst-card small { display: block; color: var(--muted); font-weight: 500; font-size: 0.78rem; margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* Steps */
 .steps { display: grid; grid-template-columns: 1fr; gap: 14px; counter-reset: step; }
