@@ -1,5 +1,536 @@
 [
   {
+    "title": "MB-920 Dynamics 365 Fundamentals (ERP) Practice Exams",
+    "slug": "mb-920-dynamics-365-fundamentals-erp-practice-exams",
+    "provider": "Udemy",
+    "category": "Microsoft Dynamics 365",
+    "categorySlug": "microsoft-dynamics-365",
+    "instructor": "Soma Academy",
+    "instructorSlug": "soma-academy",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/346464057_16f1.jpg",
+    "rating": 4.9,
+    "reviews": 1399,
+    "level": "All Level",
+    "duration": "6 practice",
+    "updated": "11/2026",
+    "description": "300 original questions matched to the official MB-920 study guide, every option explained",
+    "image": "https://img-c.udemycdn.com/course/480x270/7410289_6111_2.jpg",
+    "url": "https://trk.udemy.com/WOk0rA",
+    "language": "English",
+    "certificate": true,
+    "students": 32,
+    "access": "Akses",
+    "learn": [
+      "Pass the MB-920 Dynamics 365 Fundamentals (ERP) exam",
+      "Describe Dynamics 365 finance and operations apps principles",
+      "Describe Dynamics 365 Finance and Supply Chain Management",
+      "Describe Dynamics 365 Commerce, Human Resources, and Project Operations"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 6,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 7,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 5,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 5,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 4,
+        "duration": "1.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Soma Academy is an exam-preparation publisher from Japan. We build original practice tests and courses for international IT, project-management, and language certifications — every question grounded in the latest official exam outline and reviewed so that exactly one answer is defensibly correct.\n\n・Exam-realistic practice tests aligned to the current official outlines\n\n・A clear explanation for every option — not just the correct one\n\n・Continuous updates whenever exam blueprints change\n\n\n\nSoma Academy is an exam-preparation publisher from Japan. We build original practice tests and courses for international IT, project-management, and language certifications — every question grounded in the latest official exam outline and reviewed so that exactly one answer is defensibly correct.\n\n・Exam-realistic practice tests aligned to the current official outlines\n\n・A clear explanation for every option — not just the correct one\n\n・Continuous updates whenever exam blueprints change",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is MB-920 Dynamics 365 Fundamentals (ERP) Practice Exams suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.9★ average from 1,399 students, our Udemy course reviews put it above most Microsoft Dynamics 365 alternatives."
+      }
+    ],
+    "sections": 5,
+    "lectures": 27,
+    "moneyBack": true,
+    "summary": "MB-920 Dynamics 365 Fundamentals (ERP) Practice Exams is a all level Microsoft Dynamics 365 course from Soma Academy on Udemy. It runs about 6 practice, and holds 4.9★ from 1,399 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Microsoft Dynamics 365",
+    "skipIf": "You already work professionally in Microsoft Dynamics 365 and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed."
+  },
+  {
+    "title": "AB-100: Agentic AI Business Solutions Architect Exam Prep",
+    "slug": "ab-100-agentic-ai-business-solutions-architect-exam-prep",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Kuljot Singh Bakshi | 90,000+ Enrollments Worldwide",
+    "instructorSlug": "kuljot-singh-bakshi-90000-enrollments-worldwide",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/247079500_9b0f_13.jpg",
+    "rating": 4.4,
+    "reviews": 299,
+    "level": "All Level",
+    "duration": "14 hours",
+    "updated": "11/2026",
+    "description": "Prepare for the AB 100 Certification with Instructor-led Labs and Practise Tests",
+    "image": "https://img-c.udemycdn.com/course/480x270/6975487_734e_3.jpg",
+    "url": "https://trk.udemy.com/aNX4QM",
+    "language": "English",
+    "certificate": true,
+    "students": 3422,
+    "sections": 15,
+    "lectures": 95,
+    "access": "Akses",
+    "requirements": "No prior experience required. You will learn everything you need to know.",
+    "learn": [
+      "Plan AI-powered business solutions by identifying agent use cases, assessing data readiness, ROI, and applying Azure CAF and AI CoE principles.",
+      "Design agentic AI architectures using Copilot Studio, Microsoft 365 Copilot, and Azure AI Foundry, aligned with AB-100 exam scenarios.",
+      "Select and integrate AI components across Power Apps, Dynamics 365, and Microsoft platforms to build end-to-end AI business solutions.",
+      "Deploy, monitor, and govern AI solutions using best practices for testing, telemetry, security, and Responsible AI at enterprise scale."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 16,
+        "duration": "2.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 12,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 15,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 10,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 11,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 15,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 16,
+        "duration": "2.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Kuljot Singh Bakshi is an Azure, Databricks, and AI instructor passionate about making complex cloud and artificial intelligence technologies easier to understand through practical, hands-on learning. Through his courses on Udemy, he has helped tens of thousands of learners build skills across AI, cloud computing, data engineering, generative AI, and emerging agentic technologies.\n\nKuljot is also a Udemy Instructor Partner. Several of his courses have also been selected for the Udemy Business collection, bringing his content to professional learners and organizations around the world.\n\nHis teaching philosophy revolves around simplifying technically challenging concepts without losing their practical depth. His courses combine clear explanations with demonstrations, hands-on labs, real-world scenarios, and certification-focused learning. This approach has earned consistently positive feedback from learners, particularly for his ability to break down complex technologies into approachable and actionable concepts.\n\nAlongside teaching, Kuljot is pursuing his undergraduate degree in Environmental Science and Engineering at the Indian Institute of Technology Bombay (IIT Bombay). His interests increasingly lie at the intersection of artificial intelligence, cloud technologies, data, and sustainability.\n\nKuljot continuously explores the rapidly evolving AI ecosystem, with particular interests in generative AI, AI agents, multi-agent systems, context engineering, cloud AI platforms, and production-grade AI applications. He enjoys translating what he learns into practical educational content that helps learners keep pace with an industry that is changing remarkably quickly.\n\nOutside technology and teaching, Kuljot enjoys badminton, lawn tennis, and golf. When he isn't experimenting with the latest AI technology or working on a new course, you'll often find him on the badminton court.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AB-100: Agentic AI Business Solutions Architect Exam Prep suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.4★ average from 299 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "AB-100: Agentic AI Business Solutions Architect Exam Prep is a all level IT Certifications course from Kuljot Singh Bakshi | 90,000+ Enrollments Worldwide on Udemy. It runs about 14 hours, and holds 4.4★ from 299 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "CISSP Certification: CISSP Domain 5 & 6 Boot Camp 2026 Exam",
+    "slug": "cissp-certification-cissp-domain-5-6-boot-camp-2026-exam",
+    "provider": "Udemy",
+    "category": "IT Certifications",
+    "categorySlug": "it-certifications",
+    "instructor": "Thor Pedersen | 670,000+ Enrollments Worldwide",
+    "instructorSlug": "thor-pedersen-670000-enrollments-worldwide",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/4953084_ffba_9.jpg",
+    "rating": 4.9,
+    "reviews": 6232,
+    "level": "All Level",
+    "duration": "3.5 hours",
+    "updated": "11/2026",
+    "description": "Take the CISSP Domain 5 and 6 2026 certifications boot camp: Get 3.5 hrs of video, study guides, and practice questions.",
+    "image": "https://img-c.udemycdn.com/course/480x270/1673538_5187_9.jpg",
+    "url": "https://trk.udemy.com/dyzEJK",
+    "language": "English",
+    "certificate": true,
+    "students": 50420,
+    "sections": 4,
+    "lectures": 34,
+    "access": "Akses",
+    "moneyBack": true,
+    "summary": "CISSP Certification: CISSP Domain 5 & 6 Boot Camp 2026 Exam is a all level IT Certifications course from Thor Pedersen | 670,000+ Enrollments Worldwide on Udemy. It runs about 3.5 hours, and holds 4.9★ from 6,232 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT Certifications",
+    "skipIf": "You already work professionally in IT Certifications and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A basic understanding and knowledge of computers, networks, IT, and cyber security. Personal cyber security knowledge and experience are bonuses but not required. The CISSP certification is THE senior-level cyber security certification and will assume an intermediate understanding of cyber security concepts. Wanting to learn about management level IT Security and Cyber Security.",
+    "learn": [
+      "Prepare for the 2025 version of the Certified Information Systems Security Professional (CISSP) Certification Exam.",
+      "Includes the April 2024 CISSP exam updates.",
+      "Get your free 39-page CISSP Study Guide and your 17-pages Quick Sheets for download (PDF).",
+      "Join the over 800,000 people who have enrolled from 209 countries.",
+      "78 CISSP practice questions.",
+      "Gain a clear understanding of CISSP Domain 5 (Identity and Access Management (IAM) and Domain 6 (Security Assessment and Testing).",
+      "Understand IT Security and Cyber Security from a management-level perspective.",
+      "4 Detailed CISSP Domain 5-6 Mind Maps."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 7,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 11,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 6,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 10,
+        "duration": "0.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Getting certified is a smart career move that can open doors to high-paying jobs and career advancement, they can help you stand out in a competitive market and achieve your career goals.\n\nWith our on-demand courses, you can get certified on your schedule, making it easier to balance your studies with your busy life.\n\nThere are over 760,000 open jobs in Cyber Security in the US.\nIn 2020 and 2021 alone, 263,000 new professionals joined the cybersecurity workforce, even with that, the job openings still increased by 17,000.\n\nHere are some compelling reasons to get certified:\n\n  •  CISSP: Average salary: $125,000/year; 140,000 open jobs in the US.\n\n  •  CISM: Average salary: $137,000/year; 58,000 open jobs in the US.\n\n  •  CC: Average salary: $119,000/year; 760,000 open jobs in cybersecurity in the US.\n\n  •  PMP: Average salary: $120,000/year; 200,000 open jobs in the US.\n\n\n\nWhy should I use your courses for my certification studying?\n\nPassing your certifications requires the right approach and materials, in my courses you get both.\n\nWith over 670,000 enrollments from 200+ countries, my CISSP, CC, and CISM courses are not only \"Best Selling\" but also the \"Highest Rated\" on Udemy.\n\nJoin a community of successful students who have transformed their careers with my proven methods.\n\n\n\nWho are you, Thor?\n\nHi, I’m Thor Pedersen, a seasoned IT, Cyber Security, and Project Management instructor teaching the CISSP, CISM, CC, and PMP certifications.\n\nMy journey began in 1987 with a Commodore 64, turning a hobby into a rewarding career in cybersecurity, networking, data centers, and project management.\n\nMy extensive experience and dedication to teaching helps thousands of students pass their certification exams every year.\n\n\n\nStudent Testimonials\n\nI think my courses are fantastic, but don't just take my word for it. Here's what some of my students have to say:\n\n\"Thor's videos played a major factor in my ability to pass. I cannot recommend them enough.\" (Blair, 5-stars)\n\n\"Thank you Thor for your lectures and valuable insights. I passed the CISM exam today.\" (Amit, 5-stars)\n\n\"I passed the CISSP with the ISC Book and Thor's lectures and practice questions. Enough said.\" (Warren, 5-stars)\n\n\"Thor's lessons got me to pass my CISSP on the first attempt, now for the CISM. Consistent quality across his boot camps.\" (Ryan, 5-stars)\n\n\"This content helped me pass my CISSP the first time. It was the main material I used for studying. Very helpful.\" (Duncan, 5-stars)\n\n\"I recently passed my CC exam and this course has been an amazing resource to be prepared for the certification exam.\" (Valdet, 5-stars)\n\n\"I studied for the CC with this course and passed. I absolutely recommend it.\" (Lezly, 5-stars)\n\n\n\nHow should I start my certification studying?\n\n1. Find the materials you need:\n\n  •  CISSP: 1-2 good video courses, 1-2 good books, 2,500-3,500 Easy/Mid questions, and 1,000-1,500 Hard/Complex questions.\n\n  •  CISM: 1 good video course, the CISM AIO book, and the ISACA CISM QAE questions.\n\n  •  PMP: 1 good video course, Rita’s PMP book, the PMBOK, and 1,000-2,000 practice questions.\n\n  •  CC: 1 good video course and 400-1,700+ practice questions.\n\n2. Build a study plan and commit to it.\n\n3. Learn to deconstruct questions and find the keywords and indicators.\n\n4. Manage your time during the exam.\n\nFor more detailed guidance, take a look at my free ThorTeaches \"CISSP: How to Study\" course.\n\n\n\n\n\nLet me help YOU get certified. Take the first step towards advancing your career with my comprehensive, highly-rated courses.\n\nThor Pedersen\n\nCISSP | PMP | CISM | CC | CDPSE | CompTIA Security+ | CCNP R/S | CCNP Enterprise | CCNA R/S | CCNA Enterprise | CCNA-Security",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
+    },
+    "faq": [
+      {
+        "q": "Is CISSP Certification: CISSP Domain 5 & 6 Boot Camp 2026 Exam suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.9★ average from 6,232 students, our Udemy course reviews put it above most IT Certifications alternatives."
+      }
+    ]
+  },
+  {
+    "title": "CISSP Certification: CISSP Domain 1 & 2 Boot Camp 2026 Exam",
+    "slug": "cissp-certification-cissp-domain-1-2-boot-camp-2026-exam",
+    "provider": "Udemy",
+    "category": "Network & Security",
+    "categorySlug": "network-security",
+    "instructor": "Thor Pedersen | 670,000+ Enrollments Worldwide",
+    "instructorSlug": "thor-pedersen-670000-enrollments-worldwide",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/4953084_ffba_9.jpg",
+    "rating": 4.6,
+    "reviews": 107180,
+    "level": "All Level",
+    "duration": "9 hours",
+    "updated": "11/2026",
+    "description": "Take the CISSP Domain 1 and 2 2026 certifications boot camp: Get 9 hours of video, study guides, and practice questions",
+    "image": "https://img-c.udemycdn.com/course/480x270/1348924_089a_12.jpg",
+    "url": "https://trk.udemy.com/5kNxDL",
+    "language": "English",
+    "certificate": true,
+    "students": 117783,
+    "sections": 8,
+    "lectures": 68,
+    "access": "Akses",
+    "requirements": "A basic understanding and knowledge of computers, networks, IT, and cyber security. Personal cyber security knowledge and experience are bonuses but not required. The CISSP certification is THE senior-level cyber security certification and will assume an intermediate understanding of cyber security concepts. Wanting to learn about management level IT Security and Cyber Security.",
+    "learn": [
+      "Prepare for the 2025 version of the Certified Information Systems Security Professional (CISSP) Certification Exam.",
+      "Includes the April 2024 CISSP exam updates.",
+      "Get your free 44-page CISSP Study Guide and your 15-pages Quick Sheets for download (PDF).",
+      "Join the over 800,000 people who have enrolled from 209 countries.",
+      "114 CISSP practice questions.",
+      "Gain a clear understanding of CISSP Domain 1 (Security and Risk Management) and Domain 2 (Asset Security).",
+      "Understand IT Security and Cyber Security from a management-level perspective.",
+      "Learn where and how to start on your CISSP certification journey.",
+      "Learn why you want to get your CISSP certification, what it can give you.",
+      "14 CISSP Domain 1-2 Mind Maps"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 10,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 9,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 8,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 12,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 10,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 7,
+        "duration": "1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 12,
+        "duration": "1.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Getting certified is a smart career move that can open doors to high-paying jobs and career advancement, they can help you stand out in a competitive market and achieve your career goals.\n\nWith our on-demand courses, you can get certified on your schedule, making it easier to balance your studies with your busy life.\n\nThere are over 760,000 open jobs in Cyber Security in the US.\nIn 2020 and 2021 alone, 263,000 new professionals joined the cybersecurity workforce, even with that, the job openings still increased by 17,000.\n\nHere are some compelling reasons to get certified:\n\n  •  CISSP: Average salary: $125,000/year; 140,000 open jobs in the US.\n\n  •  CISM: Average salary: $137,000/year; 58,000 open jobs in the US.\n\n  •  CC: Average salary: $119,000/year; 760,000 open jobs in cybersecurity in the US.\n\n  •  PMP: Average salary: $120,000/year; 200,000 open jobs in the US.\n\n\n\nWhy should I use your courses for my certification studying?\n\nPassing your certifications requires the right approach and materials, in my courses you get both.\n\nWith over 670,000 enrollments from 200+ countries, my CISSP, CC, and CISM courses are not only \"Best Selling\" but also the \"Highest Rated\" on Udemy.\n\nJoin a community of successful students who have transformed their careers with my proven methods.\n\n\n\nWho are you, Thor?\n\nHi, I’m Thor Pedersen, a seasoned IT, Cyber Security, and Project Management instructor teaching the CISSP, CISM, CC, and PMP certifications.\n\nMy journey began in 1987 with a Commodore 64, turning a hobby into a rewarding career in cybersecurity, networking, data centers, and project management.\n\nMy extensive experience and dedication to teaching helps thousands of students pass their certification exams every year.\n\n\n\nStudent Testimonials\n\nI think my courses are fantastic, but don't just take my word for it. Here's what some of my students have to say:\n\n\"Thor's videos played a major factor in my ability to pass. I cannot recommend them enough.\" (Blair, 5-stars)\n\n\"Thank you Thor for your lectures and valuable insights. I passed the CISM exam today.\" (Amit, 5-stars)\n\n\"I passed the CISSP with the ISC Book and Thor's lectures and practice questions. Enough said.\" (Warren, 5-stars)\n\n\"Thor's lessons got me to pass my CISSP on the first attempt, now for the CISM. Consistent quality across his boot camps.\" (Ryan, 5-stars)\n\n\"This content helped me pass my CISSP the first time. It was the main material I used for studying. Very helpful.\" (Duncan, 5-stars)\n\n\"I recently passed my CC exam and this course has been an amazing resource to be prepared for the certification exam.\" (Valdet, 5-stars)\n\n\"I studied for the CC with this course and passed. I absolutely recommend it.\" (Lezly, 5-stars)\n\n\n\nHow should I start my certification studying?\n\n1. Find the materials you need:\n\n  •  CISSP: 1-2 good video courses, 1-2 good books, 2,500-3,500 Easy/Mid questions, and 1,000-1,500 Hard/Complex questions.\n\n  •  CISM: 1 good video course, the CISM AIO book, and the ISACA CISM QAE questions.\n\n  •  PMP: 1 good video course, Rita’s PMP book, the PMBOK, and 1,000-2,000 practice questions.\n\n  •  CC: 1 good video course and 400-1,700+ practice questions.\n\n2. Build a study plan and commit to it.\n\n3. Learn to deconstruct questions and find the keywords and indicators.\n\n4. Manage your time during the exam.\n\nFor more detailed guidance, take a look at my free ThorTeaches \"CISSP: How to Study\" course.\n\n\n\n\n\nLet me help YOU get certified. Take the first step towards advancing your career with my comprehensive, highly-rated courses.\n\nThor Pedersen\n\nCISSP | PMP | CISM | CC | CDPSE | CompTIA Security+ | CCNP R/S | CCNP Enterprise | CCNA R/S | CCNA Enterprise | CCNA-Security",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is CISSP Certification: CISSP Domain 1 & 2 Boot Camp 2026 Exam suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 107,180 students, our Udemy course reviews put it above most Network & Security alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "CISSP Certification: CISSP Domain 1 & 2 Boot Camp 2026 Exam is a all level Network & Security course from Thor Pedersen | 670,000+ Enrollments Worldwide on Udemy. It runs about 9 hours, and holds 4.6★ from 107,180 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Network & Security",
+    "skipIf": "You already work professionally in Network & Security and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "The Complete Hands-On Cybersecurity Analyst Course",
+    "slug": "the-complete-hands-on-cybersecurity-analyst-course",
+    "provider": "Udemy",
+    "category": "Cybersecurity",
+    "categorySlug": "cybersecurity",
+    "instructor": "Mike S",
+    "instructorSlug": "mike-s",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/279688689_23b2.jpg",
+    "rating": 4.7,
+    "reviews": 1861,
+    "level": "All Level",
+    "duration": "104 hours",
+    "updated": "11/2026",
+    "description": "a comprehensive, self-paced training program designed to take learners from foundational IT and networking concepts to practical blue-team and red-team cybersecurity operations.",
+    "image": "https://img-c.udemycdn.com/course/480x270/6176211_d2f8_2.jpg",
+    "url": "https://trk.udemy.com/B5M11x",
+    "language": "English",
+    "certificate": true,
+    "students": 20751,
+    "sections": 38,
+    "lectures": 478,
+    "requirements": "Desire to learn cybersecurity skills. Access to a computer that can support running multiple virtual machines. Recommend at least 16GB of RAM.",
+    "learn": [
+      "A wide range of cybersecurity skills including basic through advanced skills; ranging from Linux basics to penetration testing and malware analysis.",
+      "How to build home lab virtual environments for hands-on learning, testing tools safely, enhancing skills, and simulating real-world cybersecurity scenarios.",
+      "Incident response skills required to quickly detect, contain, investigate, and mitigate cyber threats to minimize damage and ensure recovery.",
+      "Practical experience from projects and labs that can be added to resume/cv and portfolios.",
+      "Threat detection and analysis, incident response and management, use of SIEM and event management tools, network monitoring and forensics, and pentesting."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 57,
+        "duration": "12.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 62,
+        "duration": "13.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 90,
+        "duration": "19.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 74,
+        "duration": "16.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 57,
+        "duration": "12.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 84,
+        "duration": "18.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 54,
+        "duration": "11.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Cyber threat professional with 16 years of experience in cyber threat analysis focused on Digital Forensics and Incident response (DFIR) and Cyber Threat Intelligence (CTI). Technical certifications include CISSP, GREM, GCFA, GCFE, GCTI, GCIH, GNFA, GBFA, C|EH, CCNA (expired), Security+, Network+, and Splunk Certified Power User. Member of SANS Advisory Board.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is The Complete Hands-On Cybersecurity Analyst Course suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 1,861 students, our Udemy course reviews put it above most Cybersecurity alternatives."
+      }
+    ],
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "The Complete Hands-On Cybersecurity Analyst Course is a all level Cybersecurity course from Mike S on Udemy. It runs about 104 hours, and holds 4.7★ from 1,861 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Cybersecurity",
+    "skipIf": "You already work professionally in Cybersecurity and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "MO-211 (and MO-201) exam preparation: Microsoft Excel Expert",
     "slug": "mo-211-and-mo-201-exam-preparation-microsoft-excel-expert",
     "provider": "Udemy",
