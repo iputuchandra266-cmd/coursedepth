@@ -1,5 +1,577 @@
 [
   {
+    "title": "Curso Completo de Codex: Crea Aplicaciones con IA y OpenAI",
+    "slug": "curso-completo-de-codex-crea-aplicaciones-con-ia-y-openai",
+    "provider": "Udemy",
+    "category": "OpenAI Codex",
+    "categorySlug": "openai-codex",
+    "instructor": "Santiago Hernández",
+    "instructorSlug": "santiago-hernndez",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/43210112_41c0.jpg",
+    "rating": 4.8,
+    "reviews": 229,
+    "level": "All Level",
+    "duration": "17.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Domina Codex a nivel profesional y crea aplicaciones reales y seguras con Agentes de IA, MCP, Hooks, Skills y más!",
+    "image": "https://img-c.udemycdn.com/course/480x270/7152871_e5ca_6.jpg",
+    "url": "https://trk.udemy.com/jRL9Vn",
+    "language": "English",
+    "certificate": true,
+    "students": 1744,
+    "sections": 14,
+    "lectures": 136,
+    "access": "Akses",
+    "requirements": "Una computadora, conexión a Internet y muchas ganas de aprender y experimentar con las tecnologías más avanzadas de IA de la actualidad.",
+    "learn": [
+      "Dominar Codex desde cero hasta nivel profesional para crear aplicaciones reales de forma rápida, estructurada y segura.",
+      "Configurar y usar Codex en terminal, VS Code, Cursor, Antigravity y Windsurf según diferentes flujos de trabajo.",
+      "Construir sistemas con subagentes especializados y equipos multi-agente para exploración e implementación en paralelo, ciberseguridad y más.",
+      "Desarrollar proyectos empresariales reales: landing pages, navegadores controlados por IA, pasarelas de pago digitales, simuladores 3D y más.",
+      "Escribir prompts profesionales para explorar, planificar, dividir tareas complejas y depurar problemas con mayor precisión.",
+      "Diseñar sistemas de memoria, reglas modulares, Memories y NOTES para mantener contexto entre sesiones.",
+      "Aplicar seguridad con la sandbox, políticas de aprobación granulares y hooks en proyectos reales con IA.",
+      "Integrar MCP para conectar Codex con GitHub, Bases de datos, herramientas externas y servidores personalizados.",
+      "Desarrollar Skills y Plugins personalizados para reutilizar capacidades y ampliar el entorno de trabajo.",
+      "Aplicar Ciberseguridad profesional con IA detectando patrones peligrosos del código generado, ejecutando revisiones automáticas y personalizadas"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 19,
+        "duration": "2.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 21,
+        "duration": "2.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 19,
+        "duration": "2.4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 15,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 22,
+        "duration": "2.9h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 15,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 25,
+        "duration": "3.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Santiago Hernández es ingeniero informático por la Universidad de Salamanca, con un máster en seguridad de la información y de las comunicaciones por la Universidad Europea y especialización en Deep Learning e Inteligencia Artificial por la universidad de Standford. Su experiencia profesional abarca diferentes posiciones en el ámbito de la Ciberseguridad y de la Inteligencia Artificial en compañías como Endesa, Telefónica/11paths o BBVA. Además, es profesor universitario en la UEM, en la UCLM y UCAM en diferentes postgrados relacionados con la Inteligencia Artificial y la seguridad de la información y ponente habitual en conferencias especializadas. Entre las conferencias en las que ha participado como ponente se encuentran: BlackHat Europe, ToorCon San Diego, Navaja Negra, Noconname, Cybercamp, CCN-CERT…\n\n---\n\nSantiago Hernández is a computer engineer from the University of Salamanca, holding a master's degree in Information and Communications Security from the European University. His professional experience spans various roles in the fields of Cybersecurity and Artificial Intelligence at companies such as Endesa, Telefónica/11paths, and BBVA. Additionally, he is a university lecturer at UEM, UCLM, and UCAM in several postgraduate programs related to Artificial Intelligence and Information Security, and a frequent speaker at specialized conferences. Among the conferences where he has participated as a speaker are BlackHat Europe, ToorCon San Diego, Navaja Negra, Noconname, Cybercamp, CCN-CERT, and others.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Curso Completo de Codex: Crea Aplicaciones con IA y OpenAI suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.8★ average from 229 students, our Udemy course reviews put it above most OpenAI Codex alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Curso Completo de Codex: Crea Aplicaciones con IA y OpenAI is a all level OpenAI Codex course from Santiago Hernández on Udemy. It runs about 17.5 hours, and holds 4.8★ from 229 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through OpenAI Codex",
+    "skipIf": "You already work professionally in OpenAI Codex and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Patrones de diseño agéntico: Respuestas efectivas a desafíos",
+    "slug": "patrones-de-diseo-agntico-respuestas-efectivas-a-desafos",
+    "provider": "Udemy",
+    "category": "Software Engineering",
+    "categorySlug": "software-engineering",
+    "instructor": "{d/t} - DevTalles",
+    "instructorSlug": "dt-devtalles",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/267457580_ae55.jpg",
+    "rating": 4.9,
+    "reviews": 43,
+    "level": "All Level",
+    "duration": "9 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "ToolUse, CodeAct, Planning, Execute, Multi-Agent, ReAct, Orchestrator & Workers, Human in the loop y muchos más patrones",
+    "image": "https://img-c.udemycdn.com/course/480x270/7297179_552b_2.jpg",
+    "url": "https://trk.udemy.com/zzVoPm",
+    "language": "English",
+    "certificate": true,
+    "students": 804,
+    "sections": 15,
+    "lectures": 105,
+    "access": "Akses",
+    "requirements": "Saber programar y manejarte con async/await. Node.js instalado y tu editor favorito. No necesitas experiencia previa con agentes ni con IA.",
+    "learn": [
+      "Implementar desde cero los patrones agénticos: tool use, planning, reflection, ReAct, prompt chaining, CodeAct, router, orquestador y paralelización.",
+      "Saber cuándo un patrón aporta valor real y cuándo solo suma costo y latencia.",
+      "Conectar un proyecto a Groq, Anthropic, OpenAI, Google y Ollama sin quedar atado a uno.",
+      "Controlar tus agentes: approval gates, guardrails, límites de tokens y sandboxing."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 16,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 11,
+        "duration": "1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 19,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 15,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 11,
+        "duration": "1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 19,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 14,
+        "duration": "1.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Soy un analista programador de sistemas de computo, con poco más de 20 años en el mundo del desarrollo de aplicaciones frontend y backend.\n\nDurante mis últimos años me he dedicado a la enseñanza en línea,  mientras trabajo en una empresa en Canadá.\n\nMe encanta enseñar y programar, son mis dos pasatiempos favoritos que a su vez, es mi trabajo.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Patrones de diseño agéntico: Respuestas efectivas a desafíos suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.9★ average from 43 students, our Udemy course reviews put it above most Software Engineering alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Patrones de diseño agéntico: Respuestas efectivas a desafíos is a all level Software Engineering course from {d/t} - DevTalles on Udemy. It runs about 9 hours, and holds 4.9★ from 43 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Software Engineering",
+    "skipIf": "You already work professionally in Software Engineering and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Curso n8n: Crea Agentes de IA sin Código con Make y Zapier",
+    "slug": "curso-n8n-crea-agentes-de-ia-sin-cdigo-con-make-y-zapier",
+    "provider": "Udemy",
+    "category": "Office Productivity",
+    "categorySlug": "office-productivity",
+    "instructor": "Santiago Hernández",
+    "instructorSlug": "santiago-hernndez",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/43210112_41c0.jpg",
+    "rating": 4.7,
+    "reviews": 1335,
+    "level": "All Level",
+    "duration": "10.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Automatiza sin programar con n8n: Crea Agentes de IA y Workflows con Make, Zapier, Relevance AI y más soluciones No-Code",
+    "image": "https://img-c.udemycdn.com/course/480x270/6586907_e7a4_21.jpg",
+    "url": "https://trk.udemy.com/xJGMK1",
+    "language": "English",
+    "certificate": true,
+    "students": 7260,
+    "sections": 11,
+    "lectures": 121,
+    "access": "Akses",
+    "requirements": "No necesitas experiencia previa, solo una computadora, conexión a Internet y muchas ganas de aprender y crear con n8n, Inteligencia Artificial y Agentes de IA.",
+    "learn": [
+      "Crear agentes de IA sin saber programar usando n8n, Make, Zapier, Relevance AI y otras herramientas no-code.",
+      "Construir asistentes inteligentes que respondan por correo, WhatsApp, Telegram e incluso por teléfono.",
+      "Crear agentes de voz que hablan con usuarios en tiempo real o atienden llamadas usando Twilio y ElevenLabs.",
+      "Implementar flujos automatizados con IA que entienden PDFs, extraen datos y generan respuestas personalizadas con RAG.",
+      "Diseñar workflows inteligentes con n8n y el protocolo MCP para conectar APIs, bases de datos y asistentes conversacionales.",
+      "Usar IA multimodal: crea agentes que entienden texto, voz, imágenes y audio con herramientas como ElevenLabs",
+      "Automatizar tareas reales como el control de gastos, atención al cliente o la gestión de pedidos con agentes de IA.",
+      "Integrar modelos como OpenAI, Hugging Face y DeepSeek para potenciar la comprensión y generación de texto",
+      "Aplicar IA generativa y bases vectoriales (Pinecone, Supabase) para que tus agentes respondan como verdaderos expertos."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 18,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 16,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 18,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 17,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 19,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 18,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 15,
+        "duration": "1.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Santiago Hernández es ingeniero informático por la Universidad de Salamanca, con un máster en seguridad de la información y de las comunicaciones por la Universidad Europea y especialización en Deep Learning e Inteligencia Artificial por la universidad de Standford. Su experiencia profesional abarca diferentes posiciones en el ámbito de la Ciberseguridad y de la Inteligencia Artificial en compañías como Endesa, Telefónica/11paths o BBVA. Además, es profesor universitario en la UEM, en la UCLM y UCAM en diferentes postgrados relacionados con la Inteligencia Artificial y la seguridad de la información y ponente habitual en conferencias especializadas. Entre las conferencias en las que ha participado como ponente se encuentran: BlackHat Europe, ToorCon San Diego, Navaja Negra, Noconname, Cybercamp, CCN-CERT…\n\n---\n\nSantiago Hernández is a computer engineer from the University of Salamanca, holding a master's degree in Information and Communications Security from the European University. His professional experience spans various roles in the fields of Cybersecurity and Artificial Intelligence at companies such as Endesa, Telefónica/11paths, and BBVA. Additionally, he is a university lecturer at UEM, UCLM, and UCAM in several postgraduate programs related to Artificial Intelligence and Information Security, and a frequent speaker at specialized conferences. Among the conferences where he has participated as a speaker are BlackHat Europe, ToorCon San Diego, Navaja Negra, Noconname, Cybercamp, CCN-CERT, and others.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Curso n8n: Crea Agentes de IA sin Código con Make y Zapier suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 1,335 students, our Udemy course reviews put it above most Office Productivity alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Curso n8n: Crea Agentes de IA sin Código con Make y Zapier is a all level Office Productivity course from Santiago Hernández on Udemy. It runs about 10.5 hours, and holds 4.7★ from 1,335 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Office Productivity",
+    "skipIf": "You already work professionally in Office Productivity and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Curso Completo de Claude Code: Crea Aplicaciones con IA",
+    "slug": "curso-completo-de-claude-code-crea-aplicaciones-con-ia",
+    "provider": "Udemy",
+    "category": "Data Science",
+    "categorySlug": "data-science",
+    "instructor": "Santiago Hernández",
+    "instructorSlug": "santiago-hernndez",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/43210112_41c0.jpg",
+    "rating": 4.7,
+    "reviews": 3249,
+    "level": "All Level",
+    "duration": "13 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Domina Claude Code a nivel profesional y crea aplicaciones reales y seguras con Agentes de IA, MCP, Hooks, Skills y más!",
+    "image": "https://img-c.udemycdn.com/course/480x270/7094093_e6a1_10.jpg",
+    "url": "https://trk.udemy.com/YVaebK",
+    "language": "English",
+    "certificate": true,
+    "students": 19861,
+    "sections": 12,
+    "lectures": 112,
+    "access": "Akses",
+    "moneyBack": true,
+    "summary": "Curso Completo de Claude Code: Crea Aplicaciones con IA is a all level Data Science course from Santiago Hernández on Udemy. It runs about 13 hours, and holds 4.7★ from 3,249 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Data Science",
+    "skipIf": "You already work professionally in Data Science and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "Se recomienda tener conocimientos básicos de programación y desarrollo de software. No necesitas experiencia previa con SDD, Claude Code, Codex ni OpenSpec. Aprenderás desde cero y paso a paso. Tener un computador con Windows, macOS o Linux y conexión a Internet. Acceso a Claude Code y Codex. Algunas herramientas y servicios pueden requerir suscripciones o pagos adicionales.",
+    "learn": [
+      "Dominar Claude Code desde cero hasta nivel profesional para crear aplicaciones reales de forma rápida, estructurada y segura.",
+      "Configurar y usar Claude Code en terminal, VS Code, Cursor y Ollama según diferentes flujos de trabajo.",
+      "Construir sistemas con subagentes especializados y equipos multi-agente para testing, documentación, bases de datos, Ciberseguridad y más.",
+      "Desarrollar proyectos empresariales reales: landing pages, navegadores controlados por IA, pasarelas de pago digitales, simuladores 3D y más.",
+      "Escribir prompts profesionales para explorar, planificar, dividir tareas complejas y depurar problemas con mayor precisión.",
+      "Diseñar sistemas de memoria, reglas modulares, Auto Memory y Auto Dream para mantener contexto entre sesiones.",
+      "Aplicar seguridad, permisos personalizados, sandboxing y hooks de seguridad en proyectos reales con IA.",
+      "Integrar MCP para conectar Claude Code con GitHub, bases de datos, herramientas externas y servidores personalizados.",
+      "Desarrollar Skills y Plugins personalizados para reutilizar capacidades y ampliar el entorno de trabajo.",
+      "Aplicar Ciberseguridad profesional con IA detectando patrones peligrosos del código generado, ejecutando revisiones automáticas y personalizadas"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 13,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 18,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 14,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 12,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 19,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 20,
+        "duration": "2.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 16,
+        "duration": "1.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Santiago Hernández es ingeniero informático por la Universidad de Salamanca, con un máster en seguridad de la información y de las comunicaciones por la Universidad Europea y especialización en Deep Learning e Inteligencia Artificial por la universidad de Standford. Su experiencia profesional abarca diferentes posiciones en el ámbito de la Ciberseguridad y de la Inteligencia Artificial en compañías como Endesa, Telefónica/11paths o BBVA. Además, es profesor universitario en la UEM, en la UCLM y UCAM en diferentes postgrados relacionados con la Inteligencia Artificial y la seguridad de la información y ponente habitual en conferencias especializadas. Entre las conferencias en las que ha participado como ponente se encuentran: BlackHat Europe, ToorCon San Diego, Navaja Negra, Noconname, Cybercamp, CCN-CERT…\n\n---\n\nSantiago Hernández is a computer engineer from the University of Salamanca, holding a master's degree in Information and Communications Security from the European University. His professional experience spans various roles in the fields of Cybersecurity and Artificial Intelligence at companies such as Endesa, Telefónica/11paths, and BBVA. Additionally, he is a university lecturer at UEM, UCLM, and UCAM in several postgraduate programs related to Artificial Intelligence and Information Security, and a frequent speaker at specialized conferences. Among the conferences where he has participated as a speaker are BlackHat Europe, ToorCon San Diego, Navaja Negra, Noconname, Cybercamp, CCN-CERT, and others.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
+    },
+    "faq": [
+      {
+        "q": "Is Curso Completo de Claude Code: Crea Aplicaciones con IA suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 3,249 students, our Udemy course reviews put it above most Data Science alternatives."
+      }
+    ]
+  },
+  {
+    "title": "Curso Spec Driven Development (SDD) con Agentes de IA",
+    "slug": "curso-spec-driven-development-sdd-con-agentes-de-ia",
+    "provider": "Udemy",
+    "category": "Software Engineering",
+    "categorySlug": "software-engineering",
+    "instructor": "Experto en Inteligencia Artificial & Full Stack Developer",
+    "instructorSlug": "experto-en-inteligencia-artificial-full-stack-developer",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/31337086_d2fc_8.jpg",
+    "rating": 5,
+    "reviews": 4,
+    "level": "All Level",
+    "duration": "24 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Domina SDD con Claude Code, Codex y OpenSpec: Subagents, Skills, Full Stack, Git, Supabase, Cloudinary y Vercel.",
+    "image": "https://img-c.udemycdn.com/course/480x270/7377543_7e4e_2.jpg",
+    "url": "https://trk.udemy.com/WOk5Gn",
+    "language": "English",
+    "certificate": true,
+    "students": 91,
+    "sections": 9,
+    "lectures": 181,
+    "access": "Akses",
+    "requirements": "Se recomienda tener conocimientos básicos de programación y desarrollo de software. No necesitas experiencia previa con SDD, Claude Code, Codex ni OpenSpec. Aprenderás desde cero y paso a paso. Tener un computador con Windows, macOS o Linux y conexión a Internet. Acceso a Claude Code y Codex. Algunas herramientas y servicios pueden requerir suscripciones o pagos adicionales.",
+    "learn": [
+      "Domina Specification-Driven Development (SDD) para crear software profesional guiado por especificaciones.",
+      "Aprende a utilizar Claude Code de Anthropic y Codex de OpenAI para desarrollar aplicaciones con agentes de IA.",
+      "Implementa SDD con OpenSpec: requerimientos, especificaciones, planificación, desarrollo y verificación.",
+      "Domina la ingeniería de agentes IA: Agents, Subagents, Multi-Agents y Skills.",
+      "Integra servidores MCP para conectar agentes de IA con herramientas y servicios externos.",
+      "Desarrolla aplicaciones Full Stack con React, Next.js, NestJS y Prisma utilizando agentes de IA.",
+      "Implementa APIs REST, autenticación, autorización y bases de datos PostgreSQL con Supabase.",
+      "Aprende Git y control de versiones para gestionar y revisar cambios realizados por agentes de IA.",
+      "Integra Cloudinary para gestionar imágenes y despliega aplicaciones Full Stack en Vercel."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 25,
+        "duration": "3.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 25,
+        "duration": "3.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 20,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 31,
+        "duration": "4.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 28,
+        "duration": "3.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 23,
+        "duration": "3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 29,
+        "duration": "3.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Soy Ingeniero Civil, con más de 20 años de experiencia en desarrollo de software, tecnologías de la información e Inteligencia Artificial, desempeñándome como desarrollador Full Stack, líder de proyectos y arquitecto de software.\n\nApasionado por la tecnología, la investigación y la enseñanza, cuento con amplia experiencia en Java, Python, POO, UML, Patrones de Diseño, Jakarta EE, Hibernate, JPA, Spring Framework, Spring Boot, Spring Cloud, Microservicios, Docker, Kubernetes, JavaScript, Angular y React.\n\nActualmente, estoy enfocado en la Inteligencia Artificial aplicada al desarrollo de software, trabajando con agentes de IA, Claude Code, OpenAI Codex, Google Antigravity, Spec-Driven Development (SDD), RAG, Skills, MCP, LLMs, Spring AI y automatización inteligente.\n\nMi objetivo es compartir conocimientos y ayudar a desarrolladores, profesionales y empresas a aprovechar la tecnología y la inteligencia artificial para crear soluciones modernas, eficientes y escalables.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Curso Spec Driven Development (SDD) con Agentes de IA suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 5★ average from 4 students, our Udemy course reviews put it above most Software Engineering alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Curso Spec Driven Development (SDD) con Agentes de IA is a all level Software Engineering course from Experto en Inteligencia Artificial & Full Stack Developer on Udemy. It runs about 24 hours, and holds 5★ from 4 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Software Engineering",
+    "skipIf": "You already work professionally in Software Engineering and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "MB-920 Dynamics 365 Fundamentals (ERP) Practice Exams",
     "slug": "mb-920-dynamics-365-fundamentals-erp-practice-exams",
     "provider": "Udemy",
