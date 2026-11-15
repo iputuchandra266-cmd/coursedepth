@@ -1,5 +1,463 @@
 [
   {
+    "title": "AI Agents: The Complete Agentic AI Engineering Course",
+    "slug": "ai-agents-the-complete-agentic-ai-engineering-course",
+    "provider": "Udemy",
+    "category": "IT & Software",
+    "categorySlug": "it-software",
+    "instructor": "Arjun Janananda",
+    "instructorSlug": "arjun-janananda",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/7502042_2710_3.jpg",
+    "rating": 5,
+    "reviews": 8,
+    "level": "All Level",
+    "duration": "4 hours",
+    "updated": "11/2026",
+    "description": "Build AI agents with Codex and Claude Code using LangGraph, CrewAI, Google ADK through hands-on real-world projects.",
+    "image": "https://img-c.udemycdn.com/course/480x270/7414435_67c0_6.jpg",
+    "url": "https://trk.udemy.com/enWVxZ",
+    "language": "English",
+    "certificate": true,
+    "students": 115,
+    "sections": 9,
+    "lectures": 37,
+    "access": "Akses",
+    "requirements": "No prior experience in programming or building AI agents is required. We start with the fundamentals and progress step by step. Basic computer skills and familiarity with using a computer are sufficient to get started.",
+    "learn": [
+      "Build AI agents from scratch using AI coding tools such as Claude Code and OpenAI Codex.",
+      "Use LangGraph, CrewAI and Google's Agent Development Kit (ADK) to build sophisticated agent systems.",
+      "Equip AI agents with tools, APIs and external data sources so they can interact with real-world systems.",
+      "Design structured agent workflows using sequential, parallel and iterative execution patterns.",
+      "Build multi-agent systems where specialized agents collaborate to solve complex problems.",
+      "Implement practical AI agent applications through hands-on projects based on real-world use cases.",
+      "Test, debug and improve agentic applications, while incorporating safeguards and human oversight."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 6,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 6,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 6,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 5,
+        "duration": "0.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 5,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 6,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 3,
+        "duration": "0.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "I am an engineer and the founder-CTO of Huviair Technologies.\n\nI have a deep understanding of  Computer Programming, Artificial Intelligence, Image Processing and Drone data analytics\nWith this expertise and being in the industry for more than 15 years, I have created industry-leading software products, widely embraced for their innovation and effectiveness.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AI Agents: The Complete Agentic AI Engineering Course suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 5★ average from 8 students, our Udemy course reviews put it above most IT & Software alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "AI Agents: The Complete Agentic AI Engineering Course is a all level IT & Software course from Arjun Janananda on Udemy. It runs about 4 hours, and holds 5★ from 8 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT & Software",
+    "skipIf": "You already work professionally in IT & Software and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Agentic AI Engineer: The Complete AI Agents & MCP Course",
+    "slug": "agentic-ai-engineer-the-complete-ai-agents-mcp-course",
+    "provider": "Udemy",
+    "category": "IT & Software",
+    "categorySlug": "it-software",
+    "instructor": "Corels Emmanuel",
+    "instructorSlug": "corels-emmanuel",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/191717736_07cc.jpg",
+    "rating": 4.5,
+    "reviews": 17,
+    "level": "All Level",
+    "duration": "80.5 hours",
+    "updated": "11/2026",
+    "description": "Build and Deploy AI Agents, Multi-Agent Systems and MCP Apps",
+    "image": "https://img-c.udemycdn.com/course/480x270/7322235_ece8_4.jpg",
+    "url": "https://trk.udemy.com/bkoAQ6",
+    "language": "English",
+    "certificate": true,
+    "students": 78,
+    "sections": 32,
+    "lectures": 368,
+    "access": "Akses",
+    "requirements": "No previous AI or machine-learning experience is required. The course introduces Agentic AI concepts from the ground up. Basic familiarity with computers, installing software, managing files and using a web browser is recommended. Basic Python knowledge—such as variables, functions, lists, dictionaries and classes—will be helpful, but the essential concepts are explained throughout the course. No prior experience with AI agents, large language models, MCP, CrewAI, LangChain, LangGraph, AutoGen or the OpenAI Agents SDK is required. A Windows, macOS or Linux computer capable of running Python development tools is required. At least 8 GB of RAM is recommended, while 16 GB is preferable for Docker and local-model exercises. A stable internet connection is required for downloading development tools, accessing model APIs and deploying course projects. Learners should be comfortable following terminal commands. The course provides step-by-step guidance for the commands used. You will need permission to install software, including Python, Git, an editor such as Visual Studio Code or Cursor, uv and Docker. A GitHub account is recommended for accessing course repositories, managing source code and building a project portfolio. Access to at least one supported AI model API is required for the main projects. Some API usage may involve a small additional cost. A payment method may be required by third-party model or cloud-service providers. Free tiers and local alternatives are introduced where practical. A willingness to code, troubleshoot errors and build practical projects is the most important requirement. Beginners are welcome. You do not need to be an experienced AI engineer or data scientist. If you have basic computer skills and are prepared to follow the guided lessons and complete the hands-on exercises, you can take this course.",
+    "learn": [
+      "Understand how AI agents reason, use tools, maintain context and complete multi- step objectives.",
+      "Distinguish autonomous agents from deterministic workflows and conventional software automation.",
+      "Build complete agent loops from scratch using Python and structured tool calling.",
+      "Apply chaining, routing, parallelization, delegation, handoffs and orchestrator- worker patterns.",
+      "Create dependable agents with structured outputs, validation, guardrails and human approval.",
+      "Build single-agent and multi-agent applications with OpenAI Agents SDK.",
+      "Develop coordinated agent crews with CrewAI, custom tools and hierarchical workflows.",
+      "Build stateful and resumable agent applications with LangChain and LangGraph.",
+      "Create browser-enabled agents with Playwright and MCP.",
+      "Build coding agents that safely execute and test software inside Docker.",
+      "Use AutoGen and Microsoft Agent Framework to create typed agents and multi- agent workflows.",
+      "Explore Google ADK, Pydantic AI, AWS Strands, Agno and Mastra.",
+      "Design agents that generate, test and launch other agent applications.",
+      "Connect AI agents to tools, data and external services through Model Context Protocol.",
+      "Build custom MCP servers with FastMCP.",
+      "Add short-term memory, long-term memory, document retrieval and agentic RAG.",
+      "Implement tracing, observability, automated evaluations and feedback loops.",
+      "Control model usage, execution cost, latency, permissions and tool access.",
+      "Build user interfaces with Gradio and APIs with FastAPI.",
+      "Package and deploy agent applications with Docker and React.",
+      "Select the right model, framework and architecture for different Agentic AI projects.",
+      "Complete eight portfolio-ready Agentic AI engineering projects."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 47,
+        "duration": "10.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 43,
+        "duration": "9.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 68,
+        "duration": "14.9h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 47,
+        "duration": "10.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 54,
+        "duration": "11.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 47,
+        "duration": "10.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 62,
+        "duration": "13.8h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "My name is Emmanuel Corels, and I am a technology executive, IT consultant, network engineer, cybersecurity and AI practitioner, and educator with more than a decade of industry experience.\n\n\n\nI hold multiple degrees and professional qualifications in computer science and related technology disciplines, complemented by specialist certifications in enterprise networking, network security, backend web development, Cisco technologies, and MikroTik solutions.\n\n\n\nI spent nearly a decade researching, programming, configuring, and deploying network equipment while working as a freelance IT consultant. I currently serve as a network engineer for a large managed service provider specializing in secure, data-sensitive, and HIPAA-compliant IT environments.\n\n\n\nI also serve in CTO and consulting-partner roles for multiple organizations across the fintech, SaaS, and internet service provider sectors. In these capacities, I provide leadership and strategic guidance in technology planning, systems architecture, product development, infrastructure scalability, cybersecurity, automation, regulatory compliance, and digital transformation.\n\n\n\nMy expertise extends into artificial intelligence and cybersecurity, with an emphasis on using AI, intelligent automation, and modern security practices to solve real-world business and technology challenges. My work includes secure infrastructure design, systems hardening, access control, threat and risk mitigation, data protection, and the responsible integration of AI-powered solutions.\n\n\n\nAs an educator and digital course creator, I transform complex technical concepts into practical, accessible, and engaging learning experiences. I create professional digital courses, hands-on labs, instructional resources, and technical training programs covering network engineering, cybersecurity, artificial intelligence, backend development, and other emerging technologies.\n\n\n\nBy combining technical expertise, executive leadership, consulting experience, and practical teaching, I help organizations build secure and scalable technology solutions while equipping learners and IT professionals with relevant, career-ready skills.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Agentic AI Engineer: The Complete AI Agents & MCP Course suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 17 students, our Udemy course reviews put it above most IT & Software alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Agentic AI Engineer: The Complete AI Agents & MCP Course is a all level IT & Software course from Corels Emmanuel on Udemy. It runs about 80.5 hours, and holds 4.5★ from 17 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT & Software",
+    "skipIf": "You already work professionally in IT & Software and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "AI Engineer Core & Agentic Track with RAG, LLM, Agent, QLoRA",
+    "slug": "ai-engineer-core-agentic-track-with-rag-llm-agent-qlora",
+    "provider": "Udemy",
+    "category": "Personal Productivity",
+    "categorySlug": "personal-productivity",
+    "instructor": "Satish Kothala",
+    "instructorSlug": "satish-kothala",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/260211692_fc2e.jpg",
+    "rating": 4.6,
+    "reviews": 67,
+    "level": "All Level",
+    "duration": "102.5 hours",
+    "updated": "11/2026",
+    "description": "Learn AI Engineer Core & Agentic Track with RAG, LLM, Agent, QLoRA and Agentic AI Design Pattern and More",
+    "image": "https://img-c.udemycdn.com/course/480x270/6252635_fe7e_3.jpg",
+    "url": "https://trk.udemy.com/E0NoWX",
+    "language": "English",
+    "certificate": true,
+    "students": 252,
+    "sections": 80,
+    "lectures": 405,
+    "access": "Akses",
+    "requirements": "You must be curious to learn",
+    "learn": [
+      "Understand Large Language Models (LLMs), transformer architectures, prompt engineering, and model integration to build intelligent AI-powered applications.",
+      "Develop RAG pipelines using embeddings, vector databases, document processing, and semantic search to create context-aware AI applications",
+      "Design and implement agentic AI systems using tools, memory, reasoning, and multi-agent workflows to automate complex tasks and build intelligent AI-driven solu",
+      "Learn parameter-efficient fine-tuning techniques with Quantized Low-Rank Adaptation (QLoRA) to customize large language models"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 59,
+        "duration": "14.9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 39,
+        "duration": "10h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 63,
+        "duration": "16h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 71,
+        "duration": "18h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 61,
+        "duration": "15.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 51,
+        "duration": "12.8h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 61,
+        "duration": "15.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I am Satish. I want to share my knowledge with those who intend to master Programming from basic to advanced. One of my primary goals as a Programmer educator is to cultivate critical thinking and problem-solving skills in my students. I design lessons that challenge students to think creatively and apply Programming concepts to real-world situations. I am committed to supporting the basics of programming development of my students through extracurricular activities and competitions.  You will learn every programming language from basics to More advanced concepts.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AI Engineer Core & Agentic Track with RAG, LLM, Agent, QLoRA suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 67 students, our Udemy course reviews put it above most Personal Productivity alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "AI Engineer Core & Agentic Track with RAG, LLM, Agent, QLoRA is a all level Personal Productivity course from Satish Kothala on Udemy. It runs about 102.5 hours, and holds 4.6★ from 67 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Personal Productivity",
+    "skipIf": "You already work professionally in Personal Productivity and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "FDE: Forward Deployed Engineer - GenAI, Agentic AI, RAG, LLM",
+    "slug": "fde-forward-deployed-engineer-genai-agentic-ai-rag-llm",
+    "provider": "Udemy",
+    "category": "IT & Software",
+    "categorySlug": "it-software",
+    "instructor": "Skill Surger",
+    "instructorSlug": "skill-surger",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/345229671_b699.jpg",
+    "rating": 4.9,
+    "reviews": 28,
+    "level": "All Level",
+    "duration": "24 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Build production GenAI apps: Python, RAG, AI agents, LLM fine-tuning, security, evals and 2 capstone projects.",
+    "image": "https://img-c.udemycdn.com/course/480x270/7361879_af4f_2.jpg",
+    "url": "https://trk.udemy.com/JkNEjq",
+    "language": "English",
+    "certificate": true,
+    "students": 198,
+    "sections": 18,
+    "lectures": 164,
+    "access": "Akses",
+    "requirements": "Basic programming knowledge in Python and familiarity with SQL, APIs and Git. A laptop or development environment capable of running Python and Docker. Willingness to debug real systems and work through hands-on engineering exercises.",
+    "learn": [
+      "Understand AI, especially Gen AI from beginner to advanced, in both conceptual and hands on way",
+      "Build production-ready Python services and REST/GraphQL APIs for AI applications.",
+      "Explain transformer and LLM internals well enough to make model, context and serving decisions.",
+      "In depth topics deep dive on Gen AI like RAG, Fine tuning, Agentic AI, long running agents, MCP/ A2A",
+      "Lead the FDE consulting lifecycle from technical discovery and architecture through UAT, ROI and executive handoff.",
+      "Secure GenAI applications with SSO, RBAC, PII controls, sandboxing, guardrails and prompt-injection defenses.",
+      "Optimize inference for latency, throughput and cost using caching, batching, quantization and parallelism.",
+      "Complete two portfolio-ready FDE capstone projects to showcase in job interviews and client pitches."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 21,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 20,
+        "duration": "3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 25,
+        "duration": "3.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 28,
+        "duration": "4.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 20,
+        "duration": "3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 27,
+        "duration": "4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 23,
+        "duration": "3.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I am from the founding team of SkillSurger with 15 years of experience in IT field and focused in AI. I have 7 years experience in teaching 50k + learners. I have consulted large MNCs and Product companies in the field of Generative AI as a Head of Forward Deployed Engineers",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is FDE: Forward Deployed Engineer - GenAI, Agentic AI, RAG, LLM suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.9★ average from 28 students, our Udemy course reviews put it above most IT & Software alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "FDE: Forward Deployed Engineer - GenAI, Agentic AI, RAG, LLM is a all level IT & Software course from Skill Surger on Udemy. It runs about 24 hours, and holds 4.9★ from 28 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through IT & Software",
+    "skipIf": "You already work professionally in IT & Software and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "Curso Completo de Codex: Crea Aplicaciones con IA y OpenAI",
     "slug": "curso-completo-de-codex-crea-aplicaciones-con-ia-y-openai",
     "provider": "Udemy",
