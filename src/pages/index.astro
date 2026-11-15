@@ -12,7 +12,7 @@ const topTopics = [...categories].sort((a,b)=>b.courses-a.courses).slice(0,12);
 const topInstructors = instructors.slice(0,8);
 const parseUpdated = (u) => { const [m,y]=String(u||"").split("/"); return (parseInt(y)||0)*100+(parseInt(m)||0); };
 const topRated = [...courses].sort((a,b)=> (b.rating||0)-(a.rating||0) || (b.reviews||0)-(a.reviews||0) ).slice(0,8);
-const fresh = [...courses].sort((a,b)=> parseUpdated(b.updated)-parseUpdated(a.updated) ).slice(0,8);
+const fresh = [...courses].sort((a,b)=> parseUpdated(b.updated)-parseUpdated(a.updated) ).slice(0,24);
 const totalReviews = courses.reduce((s,c)=>s+(c.reviews||0),0);
 const jsonLd = {"@context":"https://schema.org","@graph":[
   {"@type":"FAQPage","mainEntity":[
