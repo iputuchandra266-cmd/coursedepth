@@ -1,5 +1,498 @@
 [
   {
+    "title": "Diseño Web Profesional: Curso Completo, Práctico y desde 0",
+    "slug": "diseo-web-profesional-curso-completo-prctico-y-desde-0",
+    "provider": "Udemy",
+    "category": "Responsive Design",
+    "categorySlug": "responsive-design",
+    "instructor": "Carlos Arturo Esparza",
+    "instructorSlug": "carlos-arturo-esparza",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/2904600_950b_9.jpg",
+    "rating": 4.8,
+    "reviews": 51032,
+    "level": "All Level",
+    "duration": "97 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "HTML, CSS, Flexbox, Grid, Javascript, Responsive Design, Figma, React, Tailwind, WordPress, Git, GitHub, Deploy",
+    "image": "https://img-c.udemycdn.com/course/480x270/782428_b5cf_6.jpg",
+    "url": "https://trk.udemy.com/5kNXVb",
+    "language": "English",
+    "certificate": true,
+    "students": 51032,
+    "sections": 41,
+    "lectures": 647,
+    "access": "Akses",
+    "requirements": "No se necesitan conocimientos previos Una computadora con conexión a internet Puedes seguir el curso en Windows, Linux o Mac OS",
+    "learn": [
+      "HTML, CSS, Flexbox, Grid, Javascript, Responsive Design, Figma, Vite, React, Tailwind, WordPress, Git, GitHub, Deploy",
+      "Diseñar bocetos y prototipos de sitios web utilizando Figma",
+      "Programar cualquier sitio web con HTML y CSS, Flexbox y CSS Grid",
+      "Crear sitios adaptables a dispositivos moviles (responsive design)",
+      "Crear sitios web dinamicos mediante JavaScript",
+      "Utilizar Vite para iniciar proyectos de diseño web de forma moderna",
+      "Utilizar Tailwind, el mejor framework de CSS, para crear sitios web optimizados en poco tiempo",
+      "Utilizar Wordpress para gestionar el contenido de tus páginas web",
+      "Crear temas de wordpress",
+      "Subir sus propios sitios web a Internet",
+      "Utilizar Git para llevar un registro de cambios y compartir tu código en Github"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 99,
+        "duration": "14.8h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 88,
+        "duration": "13.2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 95,
+        "duration": "14.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 117,
+        "duration": "17.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 94,
+        "duration": "14.2h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 65,
+        "duration": "9.7h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 89,
+        "duration": "13.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Mi nombre es Carlos Arturo Esparza, soy creador de múltiples proyectos en la web, incluyendo FalconMasters una Comunidad en donde enseño Diseño y Desarrollo web y en donde cuento con más de 500,000 estudiantes siguiendo mis cursos y tutoriales.\n\n\n\nMe he dedicado al Diseño y Desarrollo web por más de 10 años, durante todo ese tiempo he descubierto todas las ventajas que me otorga programar sitios web, es por eso que comparto mi conocimiento con otras personas para que también puedan hacerlo.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Diseño Web Profesional: Curso Completo, Práctico y desde 0 suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.8★ average from 51,032 students, our Udemy course reviews put it above most Responsive Design alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Diseño Web Profesional: Curso Completo, Práctico y desde 0 is a all level Responsive Design course from Carlos Arturo Esparza on Udemy. It runs about 97 hours, and holds 4.8★ from 51,032 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Responsive Design",
+    "skipIf": "You already work professionally in Responsive Design and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL",
+    "slug": "desarrollo-web-completo-con-html5-css3-js-ajax-php-y-mysql",
+    "provider": "Udemy",
+    "category": "Web Development",
+    "categorySlug": "web-development",
+    "instructor": "Juan Pablo De la torre Valdez",
+    "instructorSlug": "juan-pablo-de-la-torre-valdez",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/4748648_5109_2.jpg",
+    "rating": 4.6,
+    "reviews": 60621,
+    "level": "All Level",
+    "duration": "82.5 hours",
+    "updated": "11/2026",
+    "description": "Aprende Desarrollo Web con este curso 100% práctico, paso a paso y sin conocimientos previo INCLUYE 4 PROYECTOS FINALES",
+    "image": "https://img-c.udemycdn.com/course/480x270/980450_7fc0_4.jpg",
+    "url": "https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/?couponCode=CP261116G2",
+    "language": "English",
+    "certificate": true,
+    "students": 173170,
+    "sections": 94,
+    "lectures": 793,
+    "access": "Akses",
+    "requirements": "No tienes que tener experiencia previa ni con HTML5 o CSS3 para comenzar, sin embargo cualquier experiencia que tengas te ayudará bastante No es necesario tener experiencia en programación Instalaremos un editor de Texto y Servidor local, así que se recomienda tener acceso de administrador Este curso incluye el desarrollo de un sitio web completo que integrará HTML5, CSS3, JavaScript, Fetch, SASS, PHP y MySQL Aprenderás JavaScript Y Fetch API para añadir interactividad a tu sitio web. Es necesario contar con una conexión a internet para poder ver los videos, pero puedes descargarlos por medio de la app de Udemy",
+    "learn": [
+      "Crear un íncreible Portafolio con muchos proyectos que te ayudarán a obtener un empleo",
+      "Aprender y Dominar HTML y CSS para crear diseños modernos siguiendo buenas prácticas",
+      "Aprender Metodologias HTML y CSS como Módulos y BEM",
+      "Crear páginas web con HTML y CSS que puedas vender a tus clientes",
+      "Escribir código JavaScript Moderno (ES6)",
+      "Crear sitios web dínamicos con PHP y MYSQL",
+      "Entender como funciona JavaScript, PHP y Fetch API",
+      "Aplicar a un empleo de Desarrollador Web Junior",
+      "Aprender a crear sitios dínamicos, que utilicen bases de datos para almacenar y obtener información",
+      "Crear aplicaciones CRUD con PHP y MySQL",
+      "Agregar pagos de PayPal a tus sitios web",
+      "Crear aplicaciones seguras con PHP y MySQL"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 112,
+        "duration": "11.7h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 136,
+        "duration": "14.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 91,
+        "duration": "9.4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 124,
+        "duration": "13h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 113,
+        "duration": "11.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 97,
+        "duration": "10.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 120,
+        "duration": "12.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "¡Soy diseñador y programador web desde hace 19 años! (2006)\n\nNo te aburriré ni te contaré la típica historia de que soy programador desde los 6 años porque eso sería mentir.\n\nEmpecé a los 18 años y la programación cambió mi vida.\n\nAprendí con tutoriales en video, por eso creo en este formato de enseñanza; el problema es que muchos cursos hablaban con términos confusos, extraños y no creaban un proyecto real, es por eso que enseño Creando Proyectos Reales.\n\nPor años he trabajado con WordPress, Drupal, PHP, JavaScript, Laravel, Node.js, Express, React, Angular, Vue, Ruby on Rails, Django, React Native, Flutter en diferentes empresas de mi Ciudad y para algunos clientes de forma Freelancer, pero cuando conocí a Udemy descubrí que podia realizar los cursos creando proyectos reales que tanta falta hacían, por lo tanto renuncie a mi trabajo y deje mi agencia de diseño Freelancer para comenzar Código Con Juan en Udemy.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 60,621 students, our Udemy course reviews put it above most Web Development alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL is a all level Web Development course from Juan Pablo De la torre Valdez on Udemy. It runs about 82.5 hours, and holds 4.6★ from 60,621 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Web Development",
+    "skipIf": "You already work professionally in Web Development and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Desarrollo Web con IA: OpenAI, DeepSeek, JavaScript y NodeJS",
+    "slug": "desarrollo-web-con-ia-openai-deepseek-javascript-y-nodejs",
+    "provider": "Udemy",
+    "category": "Artificial Intelligence (AI)",
+    "categorySlug": "artificial-intelligence-ai",
+    "instructor": "Víctor Robles",
+    "instructorSlug": "vctor-robles",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/16661812_b24c.jpg",
+    "rating": 4.5,
+    "reviews": 332,
+    "level": "All Level",
+    "duration": "10 hours",
+    "updated": "11/2026",
+    "description": "Aprende a desarrollar aplicaciones web con inteligencia artificial integrada con JS, Node, OpenAI API, Deepseek, Agentes",
+    "image": "https://img-c.udemycdn.com/course/480x270/6025826_b6eb_2.jpg",
+    "url": "https://trk.udemy.com/5kNXJD",
+    "language": "English",
+    "certificate": true,
+    "students": 2582,
+    "sections": 14,
+    "lectures": 72,
+    "requirements": "HTML, CSS y JavaScript básico Saber usar un sistema operativo",
+    "learn": [
+      "Aprender a desarrollo web paso a paso",
+      "Aprender a crear aplicaciones web que integren inteligencia artificial",
+      "Aprender inteligencia artificial generativa",
+      "Entender como funcionan los modelos de IA",
+      "Integrar modelos de inteligencia artificial en sitios web",
+      "Desarrollar proyectos de desarrollo web potenciados con IA",
+      "Integración de inteligencia artificial en webapps",
+      "Aprender Ingeniería de prompts",
+      "Entender el consumo de tokens y crédito de las IAs",
+      "Dominar el API de OpenAI",
+      "Dominar el API de Deepseek",
+      "Desarrollo backend con NodeJS y Express",
+      "Maquetación web con HTML5 y CSS3",
+      "Crear proyectos web con HTML, CSS, JavaScript, Node, OpenAI y DeepSeek",
+      "Aprender a programar con Asistents y Threads de OpenAI",
+      "ChatGPT para programadores",
+      "Deepseek para programadores",
+      "Desarrollo web fullstack",
+      "Crear aplicaciones de traducción a medida",
+      "Desarrollar chatbots a medida para negocios",
+      "Desarrollar asistentes de inteligencia artificial a medida",
+      "Crear aplicaciones de generación de textos, imágenes y audios",
+      "Aumentar las posibilidades laborales como desarrollador",
+      "Mejorar la capacidad de adaptación a otras inteligencias artificiales",
+      "Crear aplicaciones web modernas con JavaScript y OpenAI",
+      "Desarrollo web con IA",
+      "Aumentar mucho tus posibilidades laborales",
+      "¡Y mucho más!"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 12,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 9,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 9,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 8,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 10,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 13,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 11,
+        "duration": "1.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Soy desarrollador web en una empresa y llevo inmerso en el mundo de la programación y la informática desde los 15 años.\n\nMe encanta programar y todo lo relacionado con Internet y las nuevas tecnologías, crear cosas y enseñar a los demás.\n\nSoy casi completamente autodidacta, por eso voy a ofrecerte muchos de mis conocimientos para que tú puedas aprender más fácilmente y más rápido de lo yo lo hice y hago cada día.\n\nPuedes saber más de mi trabajo en el blog victorroblesweb y en mis perfiles en las diferentes redes sociales",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Desarrollo Web con IA: OpenAI, DeepSeek, JavaScript y NodeJS suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 332 students, our Udemy course reviews put it above most Artificial Intelligence (AI) alternatives."
+      }
+    ],
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "Desarrollo Web con IA: OpenAI, DeepSeek, JavaScript y NodeJS is a all level Artificial Intelligence (AI) course from Víctor Robles on Udemy. It runs about 10 hours, and holds 4.5★ from 332 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Artificial Intelligence (AI)",
+    "skipIf": "You already work professionally in Artificial Intelligence (AI) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "+100 Proyectos de Desarrollo Web con HTML, CSS y JavaScript",
+    "slug": "100-proyectos-de-desarrollo-web-con-html-css-y-javascript",
+    "provider": "Udemy",
+    "category": "Web Development",
+    "categorySlug": "web-development",
+    "instructor": "Víctor Robles",
+    "instructorSlug": "vctor-robles",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/16661812_b24c.jpg",
+    "rating": 4.8,
+    "reviews": 698,
+    "level": "All Level",
+    "duration": "31.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Aprende Desarrollo Web Completo con HTML5, CSS3, JS, AJAX con este curso 100% práctico (INCLUYE MÁS DE 100 PROYECTOS)",
+    "image": "https://img-c.udemycdn.com/course/480x270/4871882_ecd4_4.jpg",
+    "url": "https://trk.udemy.com/gREvn5",
+    "language": "English",
+    "certificate": true,
+    "students": 3930,
+    "sections": 7,
+    "lectures": 249,
+    "access": "Akses",
+    "requirements": "HTML, CSS y JavaScript básico Saber usar un sistema operativo",
+    "learn": [
+      "Dominar HTML",
+      "Dominar HTML5",
+      "Dominar CSS",
+      "Dominar CSS3",
+      "Dominar JavaScript",
+      "+180 ejercicios de programación y pruebas técnicas reales resueltas",
+      "Superar pruebas técnicas de HTML, CSS y JS",
+      "Aumentar y mejorar la Lógica de programación",
+      "Practicar con muchos retos de programación",
+      "Prepararte para entrevistas técnicas con pruebas de código",
+      "Pruebas técnicas para puestos de programación, desarrollo web e ingeniería de software",
+      "Proyectos para programar mejor y aumentar tus habilidades",
+      "Aprender a usar todas las etiquetas más importantes en profundidad",
+      "HTML moderno en profundidad",
+      "Aplicar efectos y animaciones a tus webs",
+      "Aplicar diseños avanzados a un sitio web",
+      "Aumentar el nivel en el desarrollo web front-end",
+      "Animaciones y transiciones avanzadas en CSS",
+      "Conocer las nuevas características de CSS3",
+      "Reforzar el conocimiento de JavaScript y buenas prácticas",
+      "Crear aplicaciones web modernas con JavaScript",
+      "Ejercicios de programación explicados y resueltos",
+      "Aumentar tus posibilidades laborales",
+      "¡Y mucho más!"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 41,
+        "duration": "5.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 33,
+        "duration": "4.2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 41,
+        "duration": "5.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 32,
+        "duration": "4.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 36,
+        "duration": "4.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 33,
+        "duration": "4.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 33,
+        "duration": "4.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Soy desarrollador web en una empresa y llevo inmerso en el mundo de la programación y la informática desde los 15 años.\n\nMe encanta programar y todo lo relacionado con Internet y las nuevas tecnologías, crear cosas y enseñar a los demás.\n\nSoy casi completamente autodidacta, por eso voy a ofrecerte muchos de mis conocimientos para que tú puedas aprender más fácilmente y más rápido de lo yo lo hice y hago cada día.\n\nPuedes saber más de mi trabajo en el blog victorroblesweb y en mis perfiles en las diferentes redes sociales",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is +100 Proyectos de Desarrollo Web con HTML, CSS y JavaScript suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.8★ average from 698 students, our Udemy course reviews put it above most Web Development alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "+100 Proyectos de Desarrollo Web con HTML, CSS y JavaScript is a all level Web Development course from Víctor Robles on Udemy. It runs about 31.5 hours, and holds 4.8★ from 698 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Web Development",
+    "skipIf": "You already work professionally in Web Development and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "AI Agents: The Complete Agentic AI Engineering Course",
     "slug": "ai-agents-the-complete-agentic-ai-engineering-course",
     "provider": "Udemy",
