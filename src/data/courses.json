@@ -1,5 +1,873 @@
 [
   {
+    "title": "Python Mega Course: Build 20 Real-World Apps and AI Agents",
+    "slug": "python-mega-course-build-20-real-world-apps-and-ai-agents",
+    "provider": "Udemy",
+    "category": "Programming Languages",
+    "categorySlug": "programming-languages",
+    "instructor": "Ardit Sulce | 600,000+ Students",
+    "instructorSlug": "ardit-sulce-600000-students",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/717783_3157_10.jpg",
+    "rating": 4.5,
+    "reviews": 376530,
+    "level": "All Level",
+    "duration": "48 hours",
+    "updated": "11/2026",
+    "description": "Learn Python from beginner to pro — build and deploy web apps, APIs, automation, data science & AI agents.",
+    "image": "https://img-c.udemycdn.com/course/480x270/692188_9da7_39.jpg",
+    "url": "https://trk.udemy.com/4aVYVo",
+    "language": "English",
+    "certificate": true,
+    "students": 376530,
+    "sections": 57,
+    "lectures": 465,
+    "access": "Akses",
+    "requirements": "A computer running Windows, macOS, or Linux No prior programming experience needed",
+    "learn": [
+      "Build 20 real-world Python apps, AI Automations & Agents from scratch.",
+      "Automate repetitive tasks using Python scripts.",
+      "Create your own web apps, data science tools, and desktop GUIs.",
+      "Master core Python concepts through a hands-on, project-based approach.",
+      "Integrate Python with modern AI tools like LangChain to build intelligent Agents and Automations.",
+      "Work with APIs, web scraping, and data processing to solve real problems.",
+      "Gain the confidence to tackle any new Python project on your own.",
+      "Build apps using essential Python libraries -including PyQt, Flask, Django, Pandas, Selenium, LangChain 1, and more."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 50,
+        "duration": "5.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 71,
+        "duration": "7.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 66,
+        "duration": "6.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 82,
+        "duration": "8.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 76,
+        "duration": "7.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 46,
+        "duration": "4.8h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 74,
+        "duration": "7.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Ardit Sulce is a Python programmer and Udemy instructor with 10 years of teaching experience.\n\nHe also publishes the Daily Python Projects newsletter on Substack — the most popular Python newsletter on the platform.\n\nArdit holds a Master’s degree in Geospatial Technologies from the University of Muenster, Germany.\n\nHe has worked with organizations such as the Center for Conservation Geography, in-Terra, and Rapid Intelligence, applying Python in areas like environmental analysis, image processing, and data mining.\n\nHis teaching philosophy is simple: you learn Python best by building real apps. Ardit’s courses are known for being beginner-friendly, practical, and focused on tools you can actually use — from automation scripts to AI agents.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Python Mega Course: Build 20 Real-World Apps and AI Agents suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 376,530 students, our Udemy course reviews put it above most Programming Languages alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Python Mega Course: Build 20 Real-World Apps and AI Agents is a all level Programming Languages course from Ardit Sulce | 600,000+ Students on Udemy. It runs about 48 hours, and holds 4.5★ from 376,530 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Programming Languages",
+    "skipIf": "You already work professionally in Programming Languages and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Generative AI Engineer: LangChain, AI Agents & 12 Projects",
+    "slug": "generative-ai-engineer-langchain-ai-agents-12-projects",
+    "provider": "Udemy",
+    "category": "Programming Languages",
+    "categorySlug": "programming-languages",
+    "instructor": "Ardit Sulce | 600,000+ Students",
+    "instructorSlug": "ardit-sulce-600000-students",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/717783_3157_10.jpg",
+    "rating": 4.5,
+    "reviews": 738,
+    "level": "All Level",
+    "duration": "11.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "A beginner AI bootcamp in Python: become a GenAI engineer and AI developer by building AI agents, RAG and more.",
+    "image": "https://img-c.udemycdn.com/course/480x270/7101771_1cd7_2.jpg",
+    "url": "https://trk.udemy.com/DWxrGn",
+    "language": "English",
+    "certificate": true,
+    "students": 10243,
+    "sections": 20,
+    "lectures": 127,
+    "access": "Akses",
+    "requirements": "Basic Python Knowledge: You should understand variables, loops, functions, and lists. No AI Experience Required: We will cover the AI and LLM concepts from the ground up.",
+    "learn": [
+      "Build AI agents in Python with LangChain 1 that call your own Python functions as tools.",
+      "Give agents memory and save their conversations in SQLite and in a PostgreSQL database on Supabase.",
+      "Turn an AI agent into a Flask web app with chat history and the user's location.",
+      "Run free and private LLMs on your own computer with Ollama, and serve one through your own API.",
+      "Get structured JSON output from LLMs and agents with Pydantic models.",
+      "Automate Google Sheets with Python and send yourself a daily AI summary of new rows by email.",
+      "Build apps that read images, generate images and talk with the user by voice.",
+      "Chat with your own documents, then build a full RAG system with embeddings and a vector store.",
+      "Search the web from Python with Tavily and turn the results into a newsletter with Gemini.",
+      "Build a Claude Code clone in Python: a coding agent that reads and writes files on your computer."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 14,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 17,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 22,
+        "duration": "2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 17,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 20,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 18,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 19,
+        "duration": "1.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Ardit Sulce is a Python programmer and Udemy instructor with 10 years of teaching experience.\n\nHe also publishes the Daily Python Projects newsletter on Substack — the most popular Python newsletter on the platform.\n\nArdit holds a Master’s degree in Geospatial Technologies from the University of Muenster, Germany.\n\nHe has worked with organizations such as the Center for Conservation Geography, in-Terra, and Rapid Intelligence, applying Python in areas like environmental analysis, image processing, and data mining.\n\nHis teaching philosophy is simple: you learn Python best by building real apps. Ardit’s courses are known for being beginner-friendly, practical, and focused on tools you can actually use — from automation scripts to AI agents.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Generative AI Engineer: LangChain, AI Agents & 12 Projects suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 738 students, our Udemy course reviews put it above most Programming Languages alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Generative AI Engineer: LangChain, AI Agents & 12 Projects is a all level Programming Languages course from Ardit Sulce | 600,000+ Students on Udemy. It runs about 11.5 hours, and holds 4.5★ from 738 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Programming Languages",
+    "skipIf": "You already work professionally in Programming Languages and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Learn Git and GitHub in One Day (2026)",
+    "slug": "learn-git-and-github-in-one-day-2026",
+    "provider": "Udemy",
+    "category": "Git",
+    "categorySlug": "git",
+    "instructor": "Ardit Sulce | 600,000+ Students",
+    "instructorSlug": "ardit-sulce-600000-students",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/717783_3157_10.jpg",
+    "rating": 4.6,
+    "reviews": 587,
+    "level": "All Level",
+    "duration": "2.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Learn Git and GitHub for beginners using both command line and GUI—build your portfolio & integrate Git with AI coding.",
+    "image": "https://img-c.udemycdn.com/course/480x270/6870589_c27e.jpg",
+    "url": "https://trk.udemy.com/gRdVVr",
+    "language": "English",
+    "certificate": true,
+    "students": 5583,
+    "sections": 10,
+    "lectures": 47,
+    "access": "Akses",
+    "requirements": "Basic Computer Skills and an Interest in Programming",
+    "learn": [
+      "Master Git and GitHub to confidently manage any project.",
+      "Track and control code changes to avoid mistakes and lost work.",
+      "Organize features and fixes with branches like a pro.",
+      "Undo errors and recover past versions effortlessly with Git",
+      "Collaborate seamlessly on projects with GitHub.",
+      "Speed up your workflow using IDEs and AI-powered Git tools."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 8,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 6,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 6,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 7,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 8,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 7,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 5,
+        "duration": "0.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Ardit Sulce is a Python programmer and Udemy instructor with 10 years of teaching experience.\n\nHe also publishes the Daily Python Projects newsletter on Substack — the most popular Python newsletter on the platform.\n\nArdit holds a Master’s degree in Geospatial Technologies from the University of Muenster, Germany.\n\nHe has worked with organizations such as the Center for Conservation Geography, in-Terra, and Rapid Intelligence, applying Python in areas like environmental analysis, image processing, and data mining.\n\nHis teaching philosophy is simple: you learn Python best by building real apps. Ardit’s courses are known for being beginner-friendly, practical, and focused on tools you can actually use — from automation scripts to AI agents.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Learn Git and GitHub in One Day (2026) suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 587 students, our Udemy course reviews put it above most Git alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Learn Git and GitHub in One Day (2026) is a all level Git course from Ardit Sulce | 600,000+ Students on Udemy. It runs about 2.5 hours, and holds 4.6★ from 587 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Git",
+    "skipIf": "You already work professionally in Git and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Automate Everything with Python",
+    "slug": "automate-everything-with-python",
+    "provider": "Udemy",
+    "category": "Python",
+    "categorySlug": "python",
+    "instructor": "Ardit Sulce | 600,000+ Students",
+    "instructorSlug": "ardit-sulce-600000-students",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/717783_3157_10.jpg",
+    "rating": 4.7,
+    "reviews": 3057,
+    "level": "All Level",
+    "duration": "19.5 hours",
+    "updated": "11/2026",
+    "description": "Learn to build APIs, automate emails, web scraping, chatbots, RegEx, NLP, SQL, GUIs, schedule tasks, and more in Python!",
+    "image": "https://img-c.udemycdn.com/course/480x270/2824319_c32e_21.jpg",
+    "url": "https://trk.udemy.com/qWdq6j",
+    "language": "English",
+    "certificate": true,
+    "students": 52305,
+    "sections": 28,
+    "lectures": 184,
+    "access": "Akses",
+    "requirements": "Knowledge of Python basics (variables, basic data types, functions, conditionals, and loops)",
+    "learn": [
+      "Learn to use Python to automate web scraping, video processing, chatbots, and hundreds of more tasks",
+      "Build a vast GitHub portfolio of your own programs, which you will build during the course",
+      "Validate and improve your skills with independent Python exercises",
+      "Be ready to apply for Python jobs after finishing the course",
+      "Learn the latest Python high-tech tools and packages",
+      "Learn Python programming tricks as you build real-world programs",
+      "Get support from the instructor and the student community forum"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 29,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 32,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 20,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 21,
+        "duration": "2.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 20,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 31,
+        "duration": "3.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 31,
+        "duration": "3.2h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Ardit Sulce is a Python programmer and Udemy instructor with 10 years of teaching experience.\n\nHe also publishes the Daily Python Projects newsletter on Substack — the most popular Python newsletter on the platform.\n\nArdit holds a Master’s degree in Geospatial Technologies from the University of Muenster, Germany.\n\nHe has worked with organizations such as the Center for Conservation Geography, in-Terra, and Rapid Intelligence, applying Python in areas like environmental analysis, image processing, and data mining.\n\nHis teaching philosophy is simple: you learn Python best by building real apps. Ardit’s courses are known for being beginner-friendly, practical, and focused on tools you can actually use — from automation scripts to AI agents.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Automate Everything with Python suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 3,057 students, our Udemy course reviews put it above most Python alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Automate Everything with Python is a all level Python course from Ardit Sulce | 600,000+ Students on Udemy. It runs about 19.5 hours, and holds 4.7★ from 3,057 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Python",
+    "skipIf": "You already work professionally in Python and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Advanced Python with 10 OOP Projects",
+    "slug": "advanced-python-with-10-oop-projects",
+    "provider": "Udemy",
+    "category": "Python",
+    "categorySlug": "python",
+    "instructor": "Ardit Sulce | 600,000+ Students",
+    "instructorSlug": "ardit-sulce-600000-students",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/717783_3157_10.jpg",
+    "rating": 4.4,
+    "reviews": 4480,
+    "level": "All Level",
+    "duration": "23 hours",
+    "updated": "11/2026",
+    "description": "Everything you need to know to become an expert in Python including OOP, Git, APIs, databases, deployment, PEP8 and more",
+    "image": "https://img-c.udemycdn.com/course/480x270/2563788_0ef3_35.jpg",
+    "url": "https://trk.udemy.com/oNdZye",
+    "language": "English",
+    "certificate": true,
+    "students": 45024,
+    "sections": 59,
+    "lectures": 240,
+    "access": "Akses",
+    "requirements": "Students should already know Python basics that are variables, numbers, strings, lists, functions, conditionals, and loops.",
+    "learn": [
+      "Master Object-Oriented Programming (OOP) in Python",
+      "Build 10 Python applications using object-oriented programming",
+      "Learn databases, APIs, package development, Git, code refactoring, debugging, and more",
+      "Build three advanced Python projects on your own",
+      "Learn to write high quality code following the PEP8 Style Guide",
+      "Learn how to deploy applications making them accessible to users globally"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 35,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 34,
+        "duration": "3.2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 44,
+        "duration": "4.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 36,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 27,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 28,
+        "duration": "2.7h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 36,
+        "duration": "3.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Ardit Sulce is a Python programmer and Udemy instructor with 10 years of teaching experience.\n\nHe also publishes the Daily Python Projects newsletter on Substack — the most popular Python newsletter on the platform.\n\nArdit holds a Master’s degree in Geospatial Technologies from the University of Muenster, Germany.\n\nHe has worked with organizations such as the Center for Conservation Geography, in-Terra, and Rapid Intelligence, applying Python in areas like environmental analysis, image processing, and data mining.\n\nHis teaching philosophy is simple: you learn Python best by building real apps. Ardit’s courses are known for being beginner-friendly, practical, and focused on tools you can actually use — from automation scripts to AI agents.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Advanced Python with 10 OOP Projects suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.4★ average from 4,480 students, our Udemy course reviews put it above most Python alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Advanced Python with 10 OOP Projects is a all level Python course from Ardit Sulce | 600,000+ Students on Udemy. It runs about 23 hours, and holds 4.4★ from 4,480 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Python",
+    "skipIf": "You already work professionally in Python and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "ChatGPT for Programmers: Build Python Apps in Seconds",
+    "slug": "chatgpt-for-programmers-build-python-apps-in-seconds",
+    "provider": "Udemy",
+    "category": "ChatGPT",
+    "categorySlug": "chatgpt",
+    "instructor": "Ardit Sulce | 600,000+ Students",
+    "instructorSlug": "ardit-sulce-600000-students",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/717783_3157_10.jpg",
+    "rating": 4.3,
+    "reviews": 3293,
+    "level": "All Level",
+    "duration": "2 hours",
+    "updated": "11/2026",
+    "description": "Learn how to use ChatGPT to build apps, fix bugs, and automate your workflow in Python or other programming languages.",
+    "image": "https://img-c.udemycdn.com/course/480x270/5143086_f259_5.jpg",
+    "url": "https://trk.udemy.com/m4dVzZ",
+    "language": "English",
+    "certificate": true,
+    "students": 15899,
+    "sections": 6,
+    "lectures": 21,
+    "access": "Akses",
+    "requirements": "Basic knowledge of any programming language",
+    "learn": [
+      "You will learn how to use ChatGPT to automate coding tasks, streamline their workflow, and increase your coding efficiency.",
+      "You will receive hands-on experience using ChatGPT to build coding projects and develop a deep understanding of how the tool works.",
+      "You will learn how to use ChatGPT to fix broken programs.",
+      "You will learn how to use ChatGPT to add new features to existing programs.",
+      "You will learn how to use ChatGPT to write more elegant code.",
+      "You will learn how to use ChatGPT to refactor existing code.",
+      "You will learn how to use ChatGPT to write unit tests for your programs."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 3,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 3,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 3,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 3,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 4,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 5,
+        "duration": "0.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Ardit Sulce is a Python programmer and Udemy instructor with 10 years of teaching experience.\n\nHe also publishes the Daily Python Projects newsletter on Substack — the most popular Python newsletter on the platform.\n\nArdit holds a Master’s degree in Geospatial Technologies from the University of Muenster, Germany.\n\nHe has worked with organizations such as the Center for Conservation Geography, in-Terra, and Rapid Intelligence, applying Python in areas like environmental analysis, image processing, and data mining.\n\nHis teaching philosophy is simple: you learn Python best by building real apps. Ardit’s courses are known for being beginner-friendly, practical, and focused on tools you can actually use — from automation scripts to AI agents.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is ChatGPT for Programmers: Build Python Apps in Seconds suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.3★ average from 3,293 students, our Udemy course reviews put it above most ChatGPT alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "ChatGPT for Programmers: Build Python Apps in Seconds is a all level ChatGPT course from Ardit Sulce | 600,000+ Students on Udemy. It runs about 2 hours, and holds 4.3★ from 3,293 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through ChatGPT",
+    "skipIf": "You already work professionally in ChatGPT and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Vibe Coding with ChatGPT",
+    "slug": "vibe-coding-with-chatgpt",
+    "provider": "Udemy",
+    "category": "ChatGPT",
+    "categorySlug": "chatgpt",
+    "instructor": "Ardit Sulce | 600,000+ Students",
+    "instructorSlug": "ardit-sulce-600000-students",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/717783_3157_10.jpg",
+    "rating": 4.7,
+    "reviews": 722,
+    "level": "All Level",
+    "duration": "3 hours",
+    "updated": "11/2026",
+    "description": "Learn how to create Python apps and automate tasks with zero coding experience using ChatGPT.",
+    "image": "https://img-c.udemycdn.com/course/480x270/5143246_9537_2.jpg",
+    "url": "https://trk.udemy.com/4aVja1",
+    "language": "English",
+    "certificate": true,
+    "students": 5688,
+    "sections": 5,
+    "lectures": 27,
+    "access": "Akses",
+    "requirements": "No programming experience needed. You will learn everything you need to know.",
+    "learn": [
+      "Generate Python Code Easily: Master how to instruct ChatGPT to write Python code for you, even if you've never coded before.",
+      "Automate Daily Tasks: Discover how to create scripts that simplify your workflow, saving you hours each day.",
+      "Analyze and Visualize Data: Learn to transform numbers into insights with Python scripts for data visualization.",
+      "Create Web and Desktop Applications: Step-by-step guidance on developing your own web and desktop apps tailored to your needs.",
+      "Hands-On Projects: Apply what you learn with real-world examples and gain practical experience."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 6,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 4,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 6,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 6,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 5,
+        "duration": "0.7h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Ardit Sulce is a Python programmer and Udemy instructor with 10 years of teaching experience.\n\nHe also publishes the Daily Python Projects newsletter on Substack — the most popular Python newsletter on the platform.\n\nArdit holds a Master’s degree in Geospatial Technologies from the University of Muenster, Germany.\n\nHe has worked with organizations such as the Center for Conservation Geography, in-Terra, and Rapid Intelligence, applying Python in areas like environmental analysis, image processing, and data mining.\n\nHis teaching philosophy is simple: you learn Python best by building real apps. Ardit’s courses are known for being beginner-friendly, practical, and focused on tools you can actually use — from automation scripts to AI agents.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Vibe Coding with ChatGPT suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 722 students, our Udemy course reviews put it above most ChatGPT alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Vibe Coding with ChatGPT is a all level ChatGPT course from Ardit Sulce | 600,000+ Students on Udemy. It runs about 3 hours, and holds 4.7★ from 722 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through ChatGPT",
+    "skipIf": "You already work professionally in ChatGPT and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Vibe Coding with ChatGPT, GitHub Copilot, Tabnine & More",
+    "slug": "vibe-coding-with-chatgpt-github-copilot-tabnine-more",
+    "provider": "Udemy",
+    "category": "Software Development Tools",
+    "categorySlug": "software-development-tools",
+    "instructor": "Ardit Sulce | 600,000+ Students",
+    "instructorSlug": "ardit-sulce-600000-students",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/717783_3157_10.jpg",
+    "rating": 4.6,
+    "reviews": 2152,
+    "level": "All Level",
+    "duration": "2 hours",
+    "updated": "11/2026",
+    "description": "Boost your coding productivity in 2024 using AI code assistants. Generate code, fix, refactor, unit test, and more!",
+    "image": "https://img-c.udemycdn.com/course/480x270/5821518_ba58_5.jpg",
+    "url": "https://trk.udemy.com/0GaD93",
+    "language": "English",
+    "certificate": true,
+    "students": 9958,
+    "sections": 6,
+    "lectures": 20,
+    "access": "Akses",
+    "requirements": "Basic understanding of programming",
+    "learn": [
+      "Learn and compare various AI code assistants",
+      "Master ChatGPT, Google Gemini, GitHub Copilot, Tabnine, and Cursor AI",
+      "Generate, fix, refactor, and test any code (Python, HTML, CSS, and other programming languages)",
+      "Learn how to integrate the AI tools into existing projects",
+      "Apply AI tools to solve practical programming challenges across various domains"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 4,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 4,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 3,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 2,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 4,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 3,
+        "duration": "0.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Ardit Sulce is a Python programmer and Udemy instructor with 10 years of teaching experience.\n\nHe also publishes the Daily Python Projects newsletter on Substack — the most popular Python newsletter on the platform.\n\nArdit holds a Master’s degree in Geospatial Technologies from the University of Muenster, Germany.\n\nHe has worked with organizations such as the Center for Conservation Geography, in-Terra, and Rapid Intelligence, applying Python in areas like environmental analysis, image processing, and data mining.\n\nHis teaching philosophy is simple: you learn Python best by building real apps. Ardit’s courses are known for being beginner-friendly, practical, and focused on tools you can actually use — from automation scripts to AI agents.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Vibe Coding with ChatGPT, GitHub Copilot, Tabnine & More suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 2,152 students, our Udemy course reviews put it above most Software Development Tools alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Vibe Coding with ChatGPT, GitHub Copilot, Tabnine & More is a all level Software Development Tools course from Ardit Sulce | 600,000+ Students on Udemy. It runs about 2 hours, and holds 4.6★ from 2,152 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Software Development Tools",
+    "skipIf": "You already work professionally in Software Development Tools and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "Diseño Web Profesional: Curso Completo, Práctico y desde 0",
     "slug": "diseo-web-profesional-curso-completo-prctico-y-desde-0",
     "provider": "Udemy",
