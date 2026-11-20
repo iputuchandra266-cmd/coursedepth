@@ -1,5 +1,467 @@
 [
   {
+    "title": "JavaScript Unit Testing - The Practical Guide",
+    "slug": "javascript-unit-testing-the-practical-guide",
+    "provider": "Udemy",
+    "category": "JavaScript",
+    "categorySlug": "javascript",
+    "instructor": "Academind by Maximilian Schwarzmüller",
+    "instructorSlug": "academind-by-maximilian-schwarzmller",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/31926668_94e7_6.jpg",
+    "rating": 4.7,
+    "reviews": 5450,
+    "level": "All Level",
+    "duration": "5.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Learn how to write automated tests (unit & integration tests) for your JavaScript projects with Vitest & Jest.",
+    "image": "https://img-c.udemycdn.com/course/480x270/4649166_678c_2.jpg",
+    "url": "https://trk.udemy.com/E0D40P",
+    "language": "English",
+    "certificate": true,
+    "students": 33494,
+    "sections": 10,
+    "lectures": 92,
+    "access": "Akses",
+    "requirements": "Basic JavaScript knowledge is required NO prior testing knowledge is necessary at all",
+    "learn": [
+      "Write and structure unit & integration tests",
+      "Remove side effects from tests via mocking and spies",
+      "Work with popular JavaScript test runners and libraries",
+      "Write good tests and focus on testing core business logic"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 17,
+        "duration": "1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 12,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 12,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 10,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 14,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 16,
+        "duration": "1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 11,
+        "duration": "0.7h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Bundling the courses and know how of successful instructors, Academind strives to deliver high quality online education. \n\nOnline Education, Real-Life Success - that's what Academind stands for. Learn topics like web development, data analyses and more in a fun and engaging way.\n\nWe've taught more than 3,000,000 students on a broad variety of topics. We'd love to teach you as well! :)\n\nKeep learning!",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is JavaScript Unit Testing - The Practical Guide suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 5,450 students, our Udemy course reviews put it above most JavaScript alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "JavaScript Unit Testing - The Practical Guide is a all level JavaScript course from Academind by Maximilian Schwarzmüller on Udemy. It runs about 5.5 hours, and holds 4.7★ from 5,450 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through JavaScript",
+    "skipIf": "You already work professionally in JavaScript and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "AWS Cloud Development Kit (CDK) - V2- Beginner to Advanced",
+    "slug": "aws-cloud-development-kit-cdk-v2-beginner-to-advanced",
+    "provider": "Udemy",
+    "category": "AWS",
+    "categorySlug": "aws",
+    "instructor": "Rahul Trisal",
+    "instructorSlug": "rahul-trisal",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/188361630_663c_2.jpg",
+    "rating": 4.5,
+    "reviews": 1318,
+    "level": "All Level",
+    "duration": "6.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Learn to Provision &amp; Deploy Serverless Apps with AWS CDK v2 &amp; Typescipt &amp; Generative AI (No Coding Experience Required)",
+    "image": "https://img-c.udemycdn.com/course/480x270/4961148_eae9_2.jpg",
+    "url": "https://trk.udemy.com/WOoVqG",
+    "language": "English",
+    "certificate": true,
+    "students": 7298,
+    "sections": 15,
+    "lectures": 59,
+    "access": "Akses",
+    "requirements": "No programming experience required for developing the resources using AWS CDK Typescript Basic knowledge on AWS Services",
+    "learn": [
+      "Learn provisioning and deploying Resources using Cloud Development Kit - CDK v2 (using Typescript) - No previous Coding Experience in TypeScript required",
+      "Using AWS CDK, provision S3, DynamoDB, Lambda, CloudWatch, API Gateway, IAM",
+      "Section on AWS Generative AI Tool - AWS CodeWhisperer to auto generate CDK Code with exceptional results.",
+      "Use Case 1 - Provision a Banking Serverless Application - AWS API Gateway, Lambda and S3 using AWS CDK v2",
+      "Use Case 2 : Provision Retail Enterprise Serverless Application - API Gateway, Lambda, DynamoDB using AWS CDK v2",
+      "Learn to create AWS CI-CD pipeline using CDK and deploy AWS Services usning the CI-CD pipeline built using CDK",
+      "Learn the CDK Best Practices based on Real World Migrations experience of the Instructor in migrating large number of apps from on-premise to AWS using CDK v2",
+      "Use Case 3 : Provision a Web Server with VPC, Subnets, Security Group, EC2 and UserData using AWS CDK v2",
+      "Learn the Fundamentals and Advanced Concepts of the AWS CDK and Typescript",
+      "Learn concepts related to Multi-Stack Deployment and Outputs",
+      "AWS CDK Testing : Fine-Grained Assertions Tests and Snapshot Test",
+      "I strongly believe this is the best AWS CDK V2 course on Internet. Try out the course, If you donot like it, comes with 30 day money back guarantee from Udemy.",
+      "If you are an advanced user of TypeScript and AWS CDK , please review the course content to determine suitability as this course will start from absolute basics",
+      "AWS CDK - Intermediate Concepts 1 - L1, L2 and L3 Constructs Demos",
+      "Strategies for Resource Sharing across Apps and Stacks using AWS SSM, CfnOutput and MultiStack"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 6,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 9,
+        "duration": "1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 9,
+        "duration": "1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 7,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 9,
+        "duration": "1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 9,
+        "duration": "1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 10,
+        "duration": "1.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "- I work as an AWS Agentic and Generative AI Architect with a Fortune 500 company, bringing over 17 years of hands-on experience designing, modernizing, and scaling enterprise systems on AWS.\n\n- Built more than 12 enterprise-grade Agentic AI applications, with multiple solutions running in production environments.\n\n- Led the migration of several hundred applications to AWS. My current focus is building and productionizing Generative AI and Agentic AI solutions.\n\n- 10× AWS Certified, AWS Ambassador, and AWS Community Builder.\n\n- Taught 100,000+ learners Generative AI and Agentic AI on AWS, with over 15 million minutes of learning content consumed.\n\n- My mission is to help engineers and architects bridge the gap between tutorials and real-world production systems through practical, hands-on learning.\n\n- I am currently based in Bengaluru, India, and have previously worked across the USA, UK, Africa, and Latin America.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AWS Cloud Development Kit (CDK) - V2- Beginner to Advanced suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 1,318 students, our Udemy course reviews put it above most AWS alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "AWS Cloud Development Kit (CDK) - V2- Beginner to Advanced is a all level AWS course from Rahul Trisal on Udemy. It runs about 6.5 hours, and holds 4.5★ from 1,318 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through AWS",
+    "skipIf": "You already work professionally in AWS and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "AWS & Typescript Masterclass - CDK, Serverless, React",
+    "slug": "aws-typescript-masterclass-cdk-serverless-react",
+    "provider": "Udemy",
+    "category": "AWS",
+    "categorySlug": "aws",
+    "instructor": "Alex Dan",
+    "instructorSlug": "alex-dan",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/11107920_ad02_2.jpg",
+    "rating": 4.6,
+    "reviews": 2050,
+    "level": "All Level",
+    "duration": "13 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Code with AWS and Typescript by creating serverless projects with CDK, CloudFormation, Cognito, Lambda and Amplify!",
+    "image": "https://img-c.udemycdn.com/course/480x270/3876610_5776_4.jpg",
+    "url": "https://trk.udemy.com/0GaV0N",
+    "language": "English",
+    "certificate": true,
+    "students": 16719,
+    "sections": 17,
+    "lectures": 131,
+    "access": "Akses",
+    "requirements": "AWS account and AWS basics Basic to medium programming level Time and patience",
+    "learn": [
+      "Write infrastructure as code with AWS Cloud development Kit - CDK",
+      "Handle multiple CloudFormation stacks with CDK to reduce blast radius",
+      "Basic usage of CDK with constructs, outputs and parameters",
+      "Build CI/CD pipelines with AWS CodePipeline for CDK",
+      "Serverless APIs with Lambda, ApiGateway, DynamoDB, S3",
+      "Intermediate CDK topics like intrinsic functions, aspects, cross stack references",
+      "CDK code testing: declarative tests, matchers, captors and snapshots",
+      "Multiple tenant apps with AWS Cognito and Amplify",
+      "Handle L1, L2, L3 CDK constructs",
+      "Basics and advanced topics of Typescript",
+      "Build a UI with React and Typescript",
+      "AWS IAM and CloudWatch",
+      "Make AWS SDK calls from anywhere",
+      "CDK best practices"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 16,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 19,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 15,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 16,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 21,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 24,
+        "duration": "2.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 20,
+        "duration": "1.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Alex Dan — Cloud Architect, Developer & Instructor\n\nWith over a decade of hands-on software engineering experience, I've built my career at the intersection of cloud infrastructure, web development, and practical education.\n\nMy technical journey started in embedded automotive systems — developing Java-based navigation solutions for major car brands. From there, I moved into cloud engineering, building AWS-powered data pipelines for connected vehicles using Node.js, TypeScript, Lambda, DynamoDB, and a full suite of AWS services. I later worked as a Node.js developer at one of Eastern Europe's largest e-commerce platforms, before transitioning into independent cloud architecture consulting.\n\nToday, as a freelance Cloud Architect, I design and implement scalable cloud solutions across industries — from automotive to enterprise — with a focus on infrastructure reliability, CI/CD automation, and modern serverless architectures.\n\nParallel to my engineering career, I've been teaching on Udemy since 2017, growing a community of over 300,000 students across 19 courses. My current focus is AI-assisted development — helping developers work smarter with tools like GitHub Copilot, VS Code AI extensions, and agentic coding workflows.\n\nI hold a Master's degree in Internet Technologies, and I bring that same rigor to how I teach: no fluff, no death-by-slides — just real projects, real code, and skills you can apply from day one. My philosophy is simple: the best way to learn how production systems are built is to build them yourself, guided by someone who builds them every day. I teach because I remember what it felt like to be stuck without that kind of guidance — and I want every student to walk away not just understanding a concept, but able to ship it.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AWS & Typescript Masterclass - CDK, Serverless, React suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 2,050 students, our Udemy course reviews put it above most AWS alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "AWS & Typescript Masterclass - CDK, Serverless, React is a all level AWS course from Alex Dan on Udemy. It runs about 13 hours, and holds 4.6★ from 2,050 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through AWS",
+    "skipIf": "You already work professionally in AWS and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Understanding NPM - Node.js Package Manager",
+    "slug": "understanding-npm-nodejs-package-manager",
+    "provider": "Udemy",
+    "category": "npm",
+    "categorySlug": "npm",
+    "instructor": "Bogdan Stashchuk | 300K Students Worldwide | MBA, PhD",
+    "instructorSlug": "bogdan-stashchuk-300k-students-worldwide-mba-phd",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/589907_c856_17.jpg",
+    "rating": 4.6,
+    "reviews": 1816,
+    "level": "All Level",
+    "duration": "2.5 hours",
+    "updated": "11/2026",
+    "description": "Understand and practice NPM. Learn how to use NPM in Node.js, how to install NPM packages, how to configure NPM scripts.",
+    "image": "https://img-c.udemycdn.com/course/480x270/1869566_f54d_8.jpg",
+    "url": "https://trk.udemy.com/PzG7Jj",
+    "language": "English",
+    "certificate": true,
+    "students": 25067,
+    "sections": 9,
+    "lectures": 41,
+    "access": "Akses",
+    "requirements": "Basic JavaScript knowledge is desirable but not required Any computer - Mac or PC",
+    "learn": [
+      "Initialize any project using NPM init",
+      "Install project dependencies",
+      "Understand what is the difference between dependencies and development dependencies",
+      "Explain what is Semantic Versioning and what different kinds of packages versions mean",
+      "Explain difference between Browser Application and Server Package",
+      "Understand purpose of the \"package-lock\" file",
+      "Update project dependencies",
+      "Configure NPM scripts and execute them",
+      "Combine NPM scripts into the one script",
+      "Explain what is executable script and how it is executed on the Mac and on Windows"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 5,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 8,
+        "duration": "0.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 6,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 5,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 8,
+        "duration": "0.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 5,
+        "duration": "0.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 4,
+        "duration": "0.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Do you really want to understand and practice instead of sitting and watching long presentations or trying to code along without any clue what is happening behind the scenes?\n\nJoin me in any of my courses and you will get real knowledge based on the deep understanding of every single topic.\n\nBut who am I?\n\nMy name is Bogdan Stashchuk and I teach students more than 20 years. I am working as Software Engineer and love to teach and learn myself.\n\nI have a huge experience in explaining difficult things in an easy to understand format backed up with practice activities. That is the perfect combination that enables you to really learn and retain gained knowledge for a long period of time.\n\nLet's connect in the Social Networks! All links you could find under the profile picture.\n\nSee you on my courses!",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Understanding NPM - Node.js Package Manager suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 1,816 students, our Udemy course reviews put it above most npm alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Understanding NPM - Node.js Package Manager is a all level npm course from Bogdan Stashchuk | 300K Students Worldwide | MBA, PhD on Udemy. It runs about 2.5 hours, and holds 4.6★ from 1,816 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through npm",
+    "skipIf": "You already work professionally in npm and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "Python Mega Course: Build 20 Real-World Apps and AI Agents",
     "slug": "python-mega-course-build-20-real-world-apps-and-ai-agents",
     "provider": "Udemy",
