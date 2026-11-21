@@ -1,5 +1,466 @@
 [
   {
+    "title": "Playwright E2E Automation With TypeScript, MCP & AI Agents",
+    "slug": "playwright-e2e-automation-with-typescript-mcp-ai-agents",
+    "provider": "Udemy",
+    "category": "Software Testing",
+    "categorySlug": "software-testing",
+    "instructor": "Cope Automation",
+    "instructorSlug": "cope-automation",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/159091352_86d0.jpg",
+    "rating": 4.5,
+    "reviews": 769,
+    "level": "All Level",
+    "duration": "22.5 hours",
+    "updated": "11/2026",
+    "description": "BRAND NEW COURSE - Covering The Latest Features Of Playwright Automation With TypeScript, Web, API, Device & MCP server",
+    "image": "https://img-c.udemycdn.com/course/480x270/6802537_b405_15.jpg",
+    "url": "https://trk.udemy.com/0Gag1V",
+    "language": "English",
+    "certificate": true,
+    "students": 7229,
+    "sections": 28,
+    "lectures": 189,
+    "access": "Akses",
+    "requirements": "No prior Playwright knowledge is required — we’ll start from scratch and build a complete end-to-end framework together using Cope Automation’s hands-on approach.",
+    "learn": [
+      "Basics of JavaScript and TypeScripts for Playwright Automation",
+      "From very basics of Playwright Automation to the Power of AI",
+      "Build and own a deploy-ready Playwright Automation Framework designed for real-time project use",
+      "Gain an in-depth understanding of Playwright’s core capabilities through hands-on practical demos",
+      "Learn Playwright from scratch and understand how it fits into modern automation testing",
+      "Build a complete E2E Test Automation Framework step-by-step, the Cope Automation way",
+      "Master Page Object Model (POM), custom fixtures, and test hooks",
+      "Handle data-driven, parallel, and cross-browser testing with ease",
+      "Integrate reporters, annotations, and environment configs like a pro",
+      "Implement MCP (Model Context Protocol) Server Integration to enable AI-assisted test generation and execution",
+      "Learn Industry Best Practices for Playwright Automation",
+      "Boost Your Productivity 5X — Master Smart Shortcuts & Pro Techniques"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 31,
+        "duration": "3.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 31,
+        "duration": "3.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 35,
+        "duration": "4.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 30,
+        "duration": "3.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 23,
+        "duration": "2.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 20,
+        "duration": "2.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 19,
+        "duration": "2.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "*** Trusted by 10,000+ students worldwide to simplify the Art of Test Automation ***\n\n\"I believe in one thing strongly - Automation is not about a bunch of screen navigation but action with ASSERTIONS. I feel happy seeing failing tests that add value to end stakeholders!\"\n\nMyself: 18+ yrs in this field, I’ve seen our industry evolve — and nothing is more exciting than the wave of AI transforming how we test and build quality software.\n\nI’m here to share, explore, and grow with you in this new era of AI-powered quality engineering.\n\nMy goal is simple — to help you build real-world automation project, share practical insights, and make learning automation a rewarding experience.\n\nLet’s embrace this journey together!",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Playwright E2E Automation With TypeScript, MCP & AI Agents suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 769 students, our Udemy course reviews put it above most Software Testing alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Playwright E2E Automation With TypeScript, MCP & AI Agents is a all level Software Testing course from Cope Automation on Udemy. It runs about 22.5 hours, and holds 4.5★ from 769 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Software Testing",
+    "skipIf": "You already work professionally in Software Testing and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Visual Studio Code for Developers: Beginner to Advanced",
+    "slug": "visual-studio-code-for-developers-beginner-to-advanced",
+    "provider": "Udemy",
+    "category": "Visual Studio Code",
+    "categorySlug": "visual-studio-code",
+    "instructor": "Estefania Cassingena Navone",
+    "instructorSlug": "estefania-cassingena-navone",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/38230490_0487_9.jpg",
+    "rating": 4.6,
+    "reviews": 3348,
+    "level": "All Level",
+    "duration": "10.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Learn Visual Studio Code, Extensions, Copilot, Version Control, Debugging, Jupyter Notebooks, Markdown, and More.",
+    "image": "https://img-c.udemycdn.com/course/480x270/4601546_f235_11.jpg",
+    "url": "https://trk.udemy.com/vDd5be",
+    "language": "English",
+    "certificate": true,
+    "students": 25607,
+    "sections": 20,
+    "lectures": 251,
+    "access": "Akses",
+    "requirements": "Basic programming experience or familiarity with programming concepts is recommended. We will go through the features of Visual Studio Code with Python, HTML, CSS, and JavaScript. The code will be explained step by step. You must have a computer or device where you can install Visual Studio Code. We will download and install it during the course. For the Source Control section, you must have prior knowledge of Git, GitHub, and Version Control concepts such as repositories, commits, and branches. You will learn how to work with git in Visual Studio Code. We use and mention keyboard shortcuts for Windows and macOS. Enthusiasm and willingness to learn Visual Studio Code and improve your productivity.",
+    "learn": [
+      "Optimize your productivity with Visual Studio Code.",
+      "Master the fundamental features of Visual Studio Code.",
+      "Customize Visual Studio Code to fit your needs, style, and personal taste.",
+      "Install helpful extensions from the Extensions Marketplace.",
+      "Work with repositories, git, and GitHub in Visual Studio Code.",
+      "Learn how to work with the debugger and Jupyter Notebooks in Visual Studio Code.",
+      "Optimize Visual Studio Code to work with Python and Web Development.",
+      "Work with the integrated terminal and run commands.",
+      "Add built-in code snippets, install new ones, and create custom snippets.",
+      "Learn to use GitHub Copilot in Ask Mode, Edit Mode, and Agent Mode"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 39,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 27,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 42,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 37,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 28,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 36,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 42,
+        "duration": "1.7h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I'm Estefania. I love teaching. I'm a Web Developer with experience in Python, JavaScript, HTML, CSS, React, and other web technologies.\n\nMy goal is to create engaging courses where you will learn programming and understand it so well that you will be able to apply your knowledge to new situations, projects, and professional opportunities. I know that learning how to code can be challenging, but I'm here to make your journey smoother and to help you create memories that you will never forget about how you learned how to code.\n\nI currently have 30,000+ students and 10+ courses on Udemy and my top priority is to support you by answering every single one of your questions. I'm here to help you, so please do not hesitate to ask if you ever have a question during my courses.\n\nI believe that detailed and clear explanations combined with the power of visual learning materials create the learning experience that every learner deserves. That is the experience that I want to give you during my courses.\n\nCoding is amazing. I love programming, data structures, algorithms, and I know what it feels like when you learn something new and you are able to create a new project or product just with your computer and a few lines of code. It's like magic!\n\nI'm part of the freeCodeCamp staff, where I create coding courses and write articles on computer science and programming. My 26+ articles for this publication have received 2,400,000+ views with 5,000+ views per day, on average. I run the freeCodeCamp Español YouTube channel, which currently has 165,000+ subscribers and I create full courses for this channel. My JavaScript for Beginners course has 1,000,000+ views.\n\nI served as Community Teaching Assistant (Community TA) for the Massachusetts Institute of Technology on edX (MITx) for the course \"Introduction to Computer Science and Programming Using Python\" where I help by writing tutorials and creating diagrams to complement the course content.\n\nMy \"Python OOP - Object Oriented Programming for Beginners\" and \"Python Exercises for Beginners: Solve 100+ Coding Challenges\" courses were selected for Udemy for Business, a curated collection of top Udemy courses used for corporate training. \n\nSo... I'm here for you. If you choose one of my courses, I promise you that you will find an engaging and carefully crafted learning experience. Thank you very much for reading more about me and I will see you in the courses :).",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Visual Studio Code for Developers: Beginner to Advanced suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 3,348 students, our Udemy course reviews put it above most Visual Studio Code alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Visual Studio Code for Developers: Beginner to Advanced is a all level Visual Studio Code course from Estefania Cassingena Navone on Udemy. It runs about 10.5 hours, and holds 4.6★ from 3,348 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Visual Studio Code",
+    "skipIf": "You already work professionally in Visual Studio Code and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Generative AI on AWS - Amazon Bedrock, RAG & KIRO [2026]",
+    "slug": "generative-ai-on-aws-amazon-bedrock-rag-kiro-2026",
+    "provider": "Udemy",
+    "category": "Amazon Bedrock",
+    "categorySlug": "amazon-bedrock",
+    "instructor": "Rahul Trisal",
+    "instructorSlug": "rahul-trisal",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/188361630_663c_2.jpg",
+    "rating": 4.4,
+    "reviews": 8525,
+    "level": "All Level",
+    "duration": "10 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Build production-ready GenAI apps with Amazon Bedrock, Agentic RAG, Guardrails, Evaluation, Model Fine-Tuning & AWS Kiro",
+    "image": "https://img-c.udemycdn.com/course/480x270/5617274_014b_5.jpg",
+    "url": "https://trk.udemy.com/7XgELA",
+    "language": "English",
+    "certificate": true,
+    "students": 43125,
+    "sections": 13,
+    "lectures": 76,
+    "access": "Akses",
+    "requirements": "Basic familiarity with AWS cloud. No prior Generative AI experience is required. We start with the fundamentals. Basic Python/Any programming knowledge is recommended for the hands-on development sections.",
+    "learn": [
+      "Understand AI, machine learning, Generative AI, foundation models, prompts, tokens, inference, and key GenAI terminology.",
+      "Understand Amazon Bedrock architecture and how foundation models are accessed through the Bedrock runtime.",
+      "Design production-ready GenAI architectures using AWS services such as Lambda, API Gateway, and CloudWatch.",
+      "Real-World Project 1: GenAI Equipment SME Assistant (PoC to Production)",
+      "Real-World Project 2: Build a Serverless Agentic RAG E-Learning App with Bedrock",
+      "Real-World Project 3: Build FleetMate Application using AWS KIRO - Agentic AI powered Integrated Development Environment (IDE)",
+      "Apply GenAI concepts including evaluation, responsible AI, guardrails, monitoring, and observability.",
+      "Understand document ingestion, chunking, embeddings, vector search, retrieval, and generation in RAG architectures.",
+      "Build Retrieval Augmented Generation (RAG) applications using Amazon Bedrock Knowledge Bases.",
+      "Understand how to move GenAI solutions from proof of concept toward production-ready AWS architectures.",
+      "AWS Lambda and API Gateway Refresher",
+      "Python Basics Refresher"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 10,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 11,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 15,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 10,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 10,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 9,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 11,
+        "duration": "1.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "- I work as an AWS Agentic and Generative AI Architect with a Fortune 500 company, bringing over 17 years of hands-on experience designing, modernizing, and scaling enterprise systems on AWS.\n\n- Built more than 12 enterprise-grade Agentic AI applications, with multiple solutions running in production environments.\n\n- Led the migration of several hundred applications to AWS. My current focus is building and productionizing Generative AI and Agentic AI solutions.\n\n- 10× AWS Certified, AWS Ambassador, and AWS Community Builder.\n\n- Taught 100,000+ learners Generative AI and Agentic AI on AWS, with over 15 million minutes of learning content consumed.\n\n- My mission is to help engineers and architects bridge the gap between tutorials and real-world production systems through practical, hands-on learning.\n\n- I am currently based in Bengaluru, India, and have previously worked across the USA, UK, Africa, and Latin America.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Generative AI on AWS - Amazon Bedrock, RAG & KIRO [2026] suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.4★ average from 8,525 students, our Udemy course reviews put it above most Amazon Bedrock alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Generative AI on AWS - Amazon Bedrock, RAG & KIRO [2026] is a all level Amazon Bedrock course from Rahul Trisal on Udemy. It runs about 10 hours, and holds 4.4★ from 8,525 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Amazon Bedrock",
+    "skipIf": "You already work professionally in Amazon Bedrock and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Generative AI for NodeJs: OpenAI, LangChain - TypeScript",
+    "slug": "generative-ai-for-nodejs-openai-langchain-typescript",
+    "provider": "Udemy",
+    "category": "OpenAI API",
+    "categorySlug": "openai-api",
+    "instructor": "Alex Dan",
+    "instructorSlug": "alex-dan",
+    "instructorImage": "https://www.udemy.com/user/alexhorea/",
+    "rating": 4.5,
+    "reviews": 900,
+    "level": "All Level",
+    "duration": "7.5 hours",
+    "updated": "11/2026",
+    "description": "Hands-On Practice with OpenAI, ChatGPT and LangChain. Use Pinecone and Huggingface and integrate AI into your Node app",
+    "image": "https://img-c.udemycdn.com/course/480x270/5772108_67c4.jpg",
+    "url": "https://trk.udemy.com/VOXJRA",
+    "language": "English",
+    "certificate": true,
+    "students": 6000,
+    "sections": 12,
+    "lectures": 91,
+    "access": "Akses",
+    "requirements": "Basic JavaScript/TypeScript knowledge Basic understand of NPM packages and node modules OpenAI/Huggingface accounts",
+    "learn": [
+      "Integrate OpenAI APIs in JavaScript and TypeScript applications. Use text, speech and Image modes",
+      "Use LangChain, Pinecone, and OpenAI to Build LLM-Powered Applications.",
+      "Translate and transcribe audio files using open source models in NodeJS apps",
+      "Learn the basics of AI with OpenAI and ChatGPT: build a console chat app with NodeJS",
+      "Integrate Tools and Functions into your OpenAI apps and chat with real-time data",
+      "Master crucial AI topics like Embeddings, similarity and Vector databases",
+      "Use ChromaDB as a local DB for your embeddings and run special queries",
+      "Use Pinecone as serverless DB and run special embeddings queries. Use indexes and run similarity searches",
+      "Learn about LangChain components, LLM wrappers, prompt templates, chains, and agents."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 16,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 12,
+        "duration": "1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 14,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 9,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 13,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 14,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 13,
+        "duration": "1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Alex Dan — Cloud Architect, Developer & Instructor\n\nWith over a decade of hands-on software engineering experience, I've built my career at the intersection of cloud infrastructure, web development, and practical education.\n\nMy technical journey started in embedded automotive systems — developing Java-based navigation solutions for major car brands. From there, I moved into cloud engineering, building AWS-powered data pipelines for connected vehicles using Node.js, TypeScript, Lambda, DynamoDB, and a full suite of AWS services. I later worked as a Node.js developer at one of Eastern Europe's largest e-commerce platforms, before transitioning into independent cloud architecture consulting.\n\nToday, as a freelance Cloud Architect, I design and implement scalable cloud solutions across industries — from automotive to enterprise — with a focus on infrastructure reliability, CI/CD automation, and modern serverless architectures.\n\nParallel to my engineering career, I've been teaching on Udemy since 2017, growing a community of over 300,000 students across 19 courses. My current focus is AI-assisted development — helping developers work smarter with tools like GitHub Copilot, VS Code AI extensions, and agentic coding workflows.\n\nI hold a Master's degree in Internet Technologies, and I bring that same rigor to how I teach: no fluff, no death-by-slides — just real projects, real code, and skills you can apply from day one. My philosophy is simple: the best way to learn how production systems are built is to build them yourself, guided by someone who builds them every day. I teach because I remember what it felt like to be stuck without that kind of guidance — and I want every student to walk away not just understanding a concept, but able to ship it.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Generative AI for NodeJs: OpenAI, LangChain - TypeScript suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 900 students, our Udemy course reviews put it above most OpenAI API alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Generative AI for NodeJs: OpenAI, LangChain - TypeScript is a all level OpenAI API course from Alex Dan on Udemy. It runs about 7.5 hours, and holds 4.5★ from 900 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through OpenAI API",
+    "skipIf": "You already work professionally in OpenAI API and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "JavaScript Unit Testing - The Practical Guide",
     "slug": "javascript-unit-testing-the-practical-guide",
     "provider": "Udemy",
