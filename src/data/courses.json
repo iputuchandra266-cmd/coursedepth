@@ -1,5 +1,914 @@
 [
   {
+    "title": "[NEW] Learn Apache Maven in Just 5 Hours: The Complete Guide",
+    "slug": "new-learn-apache-maven-in-just-5-hours-the-complete-guide",
+    "provider": "Udemy",
+    "category": "Web Development",
+    "categorySlug": "web-development",
+    "instructor": "Ramesh Fadatare (Java Guides)",
+    "instructorSlug": "ramesh-fadatare-java-guides",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/52467702_5352_4.jpg",
+    "rating": 4.5,
+    "reviews": 16572,
+    "description": "By end of this course, you’ll be able to create, configure, build, and manage Java apps with confidence using Maven",
+    "image": "https://img-c.udemycdn.com/course/480x270/6852721_b512_4.jpg",
+    "url": "https://trk.udemy.com/oNMqPe",
+    "language": "English",
+    "certificate": true,
+    "students": 132177,
+    "sections": 15,
+    "lectures": 57,
+    "access": "Akses",
+    "requirements": "Java Programming",
+    "learn": [
+      "Understand the core concepts of Apache Maven and how it works behind the scenes",
+      "Set up and manage Maven projects using IntelliJ IDEA",
+      "Work with Maven dependencies and repositories effectively",
+      "Use Maven plugins to automate build tasks and enhance project capabilities",
+      "Master Maven build lifecycles including clean, default, and site lifecycles",
+      "Create and activate custom Maven build profiles for dev, test, and prod environments",
+      "Perform unit testing and generate test reports using Maven",
+      "Generate project documentation using the Maven Site plugin",
+      "Create multi-module Maven projects and manage dependencies between modules",
+      "Build a simple Java web application using Maven from scratch"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 9,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 8,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 7,
+        "duration": "1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 9,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 8,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 7,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 9,
+        "duration": "1.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Hi, I'm Ramesh Fadatare, a Software Engineer, Udemy Instructor Partner, Blogger, and YouTuber teaching Java, Spring Boot, Microservices, REST APIs, Hibernate, Angular, React, Kafka, Docker, and Full-Stack Java Development.\n\nAlong with Java, I also teach AI, Generative AI, ChatGPT, Google Gemini, NotebookLM, Claude, AI Tools, LLMs, RAG, AI Agents, and Agentic AI.\n\nI have 15+ years of software engineering experience and I am a VMware Spring Certified Professional.\n\nI am the founder of Java Guides, one of the top Java learning websites with 1 million+ views per month. I also run two YouTube channels: one focused on Java with 187K+ subscribers and another focused on AI with 13K+ subscribers.\n\nMy teaching style is simple, practical, and beginner-friendly. I explain concepts step by step with real-world examples.\n\nNote: All my courses are available only on the Udemy platform, so you can join my courses here.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is [NEW] Learn Apache Maven in Just 5 Hours: The Complete Guide suitable for beginners?",
+        "a": "Yes — it is rated \"Beginner\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated recently. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 16,572 students, our Udemy course reviews put it above most Web Development alternatives."
+      }
+    ],
+    "duration": "8h total",
+    "moneyBack": true,
+    "summary": "[NEW] Learn Apache Maven in Just 5 Hours: The Complete Guide is a beginner Web Development course from Ramesh Fadatare (Java Guides) on Udemy. It runs about 8h, and holds 4.5★ from 16,572 students in our Udemy course reviews.",
+    "bestFor": "beginner learners who want one guided path through Web Development",
+    "skipIf": "You already work professionally in Web Development and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "From Java Dev to AI Engineer: Spring AI Fast Track",
+    "slug": "from-java-dev-to-ai-engineer-spring-ai-fast-track",
+    "provider": "Udemy",
+    "category": "Software Engineering",
+    "categorySlug": "software-engineering",
+    "instructor": "Madan Reddy",
+    "instructorSlug": "madan-reddy",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/74055578_a7f0_2.jpg",
+    "rating": 4.6,
+    "reviews": 56029,
+    "level": "All Level",
+    "duration": "18 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Build AI Agents with Spring AI, OpenAI, RAG, MCP, AI Testing, Observability, Speech & Image Generation",
+    "image": "https://img-c.udemycdn.com/course/480x270/6745851_bb37_3.jpg",
+    "url": "https://www.udemy.com/course/java-spring-ai/?couponCode=KEEPLEARNING",
+    "language": "English",
+    "certificate": true,
+    "sections": 12,
+    "lectures": 119,
+    "access": "Akses",
+    "requirements": "Knowledge on Java, Spring Boot is mandatory",
+    "learn": [
+      "Build Spring Boot applications powered by Spring AI",
+      "Integrate Spring AI app with OpenAI, Ollama, Docker Model Runner, and AWS Bedrock",
+      "Use prompt templates and prompt stuffing techniques",
+      "Convert AI text responses to Java Beans, Lists, and Maps",
+      "Understand how LLMs work internally with tokens and embeddings",
+      "Implement Retrieval-Augmented Generation (RAG) with Spring AI",
+      "Implement memory in chat apps using Spring AI advisors",
+      "Teach LLMs to call tools exposed by Java methods",
+      "Build both MCP clients and servers with Spring AI",
+      "From Testing to Production – Making AI Answers Safer with Evaluators",
+      "Observability in Spring AI – Metrics, Monitoring & Tracing",
+      "Transcription, Speech, and Image Generation using Spring AI"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 14,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 14,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 19,
+        "duration": "2.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 16,
+        "duration": "2.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 19,
+        "duration": "2.9h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 17,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 20,
+        "duration": "3.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Madan Reddy is the founder of eazybytes, who boasts over 15 years of experience creating and distributing enterprise web applications using Java, Spring, SpringBoot, Microservices, React, Angular, Cloud & Generative AI. He is consistently enthusiastic about staying current and imparting his knowledge with others. With his remarkable talent for simplifying complex concepts, he has been able to instruct novice software developers for many years, and has recently extended his knowledge to Udemy, where he has created top-rated courses. Through his teachings on Udemy, he intends to impart the knowledge he has acquired to other software engineers and college students.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is From Java Dev to AI Engineer: Spring AI Fast Track suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 56,029 students, our Udemy course reviews put it above most Software Engineering alternatives."
+      }
+    ],
+    "students": 117640,
+    "moneyBack": true,
+    "summary": "From Java Dev to AI Engineer: Spring AI Fast Track is a all level Software Engineering course from Madan Reddy on Udemy. It runs about 18 hours, and holds 4.6★ from 56,029 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Software Engineering",
+    "skipIf": "You already work professionally in Software Engineering and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Java Spring Boot Microservices eCommerce Project Masterclass",
+    "slug": "java-spring-boot-microservices-ecommerce-project-masterclass",
+    "provider": "Udemy",
+    "category": "Programming Languages",
+    "categorySlug": "programming-languages",
+    "instructor": "Faisal Memon (EmbarkX)",
+    "instructorSlug": "faisal-memon-embarkx",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/18861496_f672_5.jpg",
+    "rating": 4.5,
+    "reviews": 22139,
+    "level": "All Level",
+    "duration": "77 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "[70+ HOURS] Microservices with Java Spring Cloud, Security, Kubernetes, Docker, SpringBoot, RabbitMQ, Kafka, Grafana",
+    "image": "https://img-c.udemycdn.com/course/480x270/6072261_4b0e_2.jpg",
+    "url": "https://trk.udemy.com/6kjen3",
+    "language": "English",
+    "certificate": true,
+    "students": 171041,
+    "sections": 49,
+    "lectures": 535,
+    "access": "Akses",
+    "requirements": "Familiarity with Java syntax and object-oriented programming concepts. Access to a computer with internet, and the ability to install Java, IntelliJ, Docker, and Kubernetes. An open mind and a willingness to dive into new concepts and technologies, even if you’re a beginner.",
+    "learn": [
+      "BUILD A REAL-WORLD E-COMMERCE MICROSERVICES APPLICATION: Step-by-step development of a scalable, production-grade project.",
+      "MASTER SPRING BOOT MICROSERVICES: Learn how to design and build cloud-native microservices using Spring Boot 3.",
+      "DEVELOP CORE MICROSERVICES: Implement product catalog, user authentication, order management, and payment services.",
+      "CONTAINERIZE WITH DOCKER & DEPLOY WITH KUBERNETES [K8S]: Gain hands-on experience in containerization and orchestration.",
+      "APACHE KAFKA & SPRING CLOUD STREAMS: Become a messaging and streaming pro by seeing real world usage of these technology in Microservices Architecture",
+      "IMPLEMENT SECURE MICROSERVICES ARCHITECTURE: Use JWT, OAuth2, and Keycloak for authentication and API security.",
+      "LEARN SCALABLE, HIGH-PERFORMANCE PATTERNS: Build resilient, observable microservices with real-world communication strategies.",
+      "MASTER SPRING BOOT & REST API DEVELOPMENT: Build robust REST APIs with Spring Boot through hands-on projects and real-world examples.",
+      "LEVEL UP WITH JPA & DATABASES: Integrate and manage data using JPA, PostgreSQL, and MongoDB to power dynamic applications.",
+      "SPRING SECURITY: Secure applications using Keycloak & OAuth2. We cover OAuth2 flows like - Auth Code, PKCE, Client Credentials with Refresh Token Strategy",
+      "MONOLITH TO MICROSERVICES ARCHITECTURE: Seamlessly transition from monolithic to microservices architecture.",
+      "MULTI CONTAINER SETUPS: Dockerize Spring Boot applications and manage multi-container setups.",
+      "DEPLOY TO K8S: Deploy and orchestrate scalable microservices using Kubernetes.",
+      "INTERSERVICE COMMUNICATION: Implement inter-service communication with New Rest Clients, RestTemplate and OpenFeign.",
+      "OBSERVABILITY: Monitor and optimize your microservices with observability techniques. Monitor and trace microservices with Zipkin and Micrometer.",
+      "MULTI DATBASE APPLICATION: Integrate and configure PostgreSQL and MongoDB databases using Docker.",
+      "SPRING CLOUD EUREKA SERVER: Utilize Eureka for effective service registry and discoverability."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 84,
+        "duration": "12.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 88,
+        "duration": "12.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 93,
+        "duration": "13.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 68,
+        "duration": "9.7h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 84,
+        "duration": "12.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 63,
+        "duration": "9.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 55,
+        "duration": "8h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I'm the founder of EmbarkX, a global developer education platform trusted by over 300,000 learners worldwide. My mission is to bridge the gap between what universities teach and what the industry actually demands — building engineers who are production-ready, not just tutorial-ready.\n\nWith a background spanning multiple ventures and recognition as a Google Accelerator alumnus, I've been at the forefront of reimagining how software engineers learn, grow, and build careers in a rapidly evolving tech landscape.\n\nI am here on Udemy to share my knowledge with seekers and help them grow personally and professionally.\n\nGlad to meet you :)",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Java Spring Boot Microservices eCommerce Project Masterclass suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 22,139 students, our Udemy course reviews put it above most Programming Languages alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Java Spring Boot Microservices eCommerce Project Masterclass is a all level Programming Languages course from Faisal Memon (EmbarkX) on Udemy. It runs about 77 hours, and holds 4.5★ from 22,139 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Programming Languages",
+    "skipIf": "You already work professionally in Programming Languages and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Spring Security Zero to Master along with JWT,OAUTH2",
+    "slug": "spring-security-zero-to-master-along-with-jwtoauth2",
+    "provider": "Udemy",
+    "category": "Spring Security",
+    "categorySlug": "spring-security",
+    "instructor": "Madan Reddy",
+    "instructorSlug": "madan-reddy",
+    "instructorImage": "https://img-c.udemycdn.com/course/480x270/3485044_ef54_2.jpg",
+    "rating": 4.6,
+    "reviews": 56029,
+    "level": "All Level",
+    "duration": "24.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Spring Security , SpringBoot Security, CORs,CSRF,JWT, OAUTH2, OpenID Connect, KeyCloak, Spring Authorization Server",
+    "image": "https://img-c.udemycdn.com/course/480x270/3485044_ef54_2.jpg",
+    "url": "https://trk.udemy.com/WO5qR3",
+    "language": "English",
+    "certificate": true,
+    "students": 74168,
+    "sections": 17,
+    "lectures": 160,
+    "access": "Akses",
+    "requirements": "Java Basics of Spring framework",
+    "learn": [
+      "Spring Security framework details and it features.",
+      "How to adapt security for a Java web application using Spring Security",
+      "What is CSRF, CORS, JWT, OAUTH2",
+      "Applying authorization rules using roles, authorities inside a web application using Spring Security",
+      "Method level security in web/non-web applications"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 26,
+        "duration": "4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 19,
+        "duration": "2.9h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 21,
+        "duration": "3.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 22,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 25,
+        "duration": "3.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 30,
+        "duration": "4.5h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 17,
+        "duration": "2.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Madan Reddy is the founder of eazybytes, who boasts over 15 years of experience creating and distributing enterprise web applications using Java, Spring, SpringBoot, Microservices, React, Angular, Cloud & Generative AI. He is consistently enthusiastic about staying current and imparting his knowledge with others. With his remarkable talent for simplifying complex concepts, he has been able to instruct novice software developers for many years, and has recently extended his knowledge to Udemy, where he has created top-rated courses. Through his teachings on Udemy, he intends to impart the knowledge he has acquired to other software engineers and college students.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Spring Security Zero to Master along with JWT,OAUTH2 suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 56,029 students, our Udemy course reviews put it above most Spring Security alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Spring Security Zero to Master along with JWT,OAUTH2 is a all level Spring Security course from Madan Reddy on Udemy. It runs about 24.5 hours, and holds 4.6★ from 56,029 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Spring Security",
+    "skipIf": "You already work professionally in Spring Security and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Reactive Programming in Java: Spring WebFlux & Testing",
+    "slug": "reactive-programming-in-java-spring-webflux-testing",
+    "provider": "Udemy",
+    "category": "Spring WebFlux",
+    "categorySlug": "spring-webflux",
+    "instructor": "Ramesh Fadatare (Java Guides)",
+    "instructorSlug": "ramesh-fadatare-java-guides",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/52467702_5352_4.jpg",
+    "rating": 4.5,
+    "reviews": 47,
+    "level": "All Level",
+    "duration": "3.5 hours",
+    "updated": "11/2026",
+    "description": "Build Reactive REST APIs, Master Unit and Integration Testing - Java, Spring Boot, WebFlux, REST, MongoDB, IntelliJ",
+    "image": "https://img-c.udemycdn.com/course/480x270/6138583_2dcb_6.jpg",
+    "url": "https://trk.udemy.com/n4MLyA",
+    "language": "English",
+    "certificate": true,
+    "students": 391,
+    "sections": 6,
+    "lectures": 35,
+    "access": "Akses",
+    "requirements": "Java programming Good to know how to use IntelliJ IDEA Familiar with Spring Boot Good to know MongoDB",
+    "learn": [
+      "Introduction to Reactive Programming in Java",
+      "Learn how to Use Spring WebFlux in Spring Boot App",
+      "Learn to Build Reactive CRUD REST APIs for Employee Management Project",
+      "Learn to Write Unit Tests for Reactive CRUD REST APIs",
+      "Learn to Write Integration Tests for Reactive CRUD REST APIs"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 7,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 6,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 6,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 4,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 6,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 6,
+        "duration": "0.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Hi, I'm Ramesh Fadatare, a Software Engineer, Udemy Instructor Partner, Blogger, and YouTuber teaching Java, Spring Boot, Microservices, REST APIs, Hibernate, Angular, React, Kafka, Docker, and Full-Stack Java Development.\n\nAlong with Java, I also teach AI, Generative AI, ChatGPT, Google Gemini, NotebookLM, Claude, AI Tools, LLMs, RAG, AI Agents, and Agentic AI.\n\nI have 15+ years of software engineering experience and I am a VMware Spring Certified Professional.\n\nI am the founder of Java Guides, one of the top Java learning websites with 1 million+ views per month. I also run two YouTube channels: one focused on Java with 187K+ subscribers and another focused on AI with 13K+ subscribers.\n\nMy teaching style is simple, practical, and beginner-friendly. I explain concepts step by step with real-world examples.\n\nNote: All my courses are available only on the Udemy platform, so you can join my courses here.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Reactive Programming in Java: Spring WebFlux & Testing suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 47 students, our Udemy course reviews put it above most Spring WebFlux alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Reactive Programming in Java: Spring WebFlux & Testing is a all level Spring WebFlux course from Ramesh Fadatare (Java Guides) on Udemy. It runs about 3.5 hours, and holds 4.5★ from 47 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Spring WebFlux",
+    "skipIf": "You already work professionally in Spring WebFlux and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Gen AI for QA: Playwright, Copilot & Claude Code",
+    "slug": "gen-ai-for-qa-playwright-copilot-claude-code",
+    "provider": "Udemy",
+    "category": "Generative AI (GenAI)",
+    "categorySlug": "generative-ai-genai",
+    "instructor": "Alex Dan",
+    "instructorSlug": "alex-dan",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/11107920_ad02_2.jpg",
+    "rating": 4.6,
+    "reviews": 976,
+    "level": "All Level",
+    "duration": "5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "AI for software testing, hands-on: Claude Code, GitHub Copilot &amp; Playwright MCP for faster test automation",
+    "image": "https://img-c.udemycdn.com/course/480x270/7079573_8b2e_6.jpg",
+    "url": "https://trk.udemy.com/xJMkyv",
+    "language": "English",
+    "certificate": true,
+    "students": 7299,
+    "sections": 16,
+    "lectures": 81,
+    "access": "Akses",
+    "requirements": "No prior AI experience needed — we start from the fundamentals Basic familiarity with software testing concepts is helpful but not required A computer with VS Code installed (free) — setup is covered in the course",
+    "learn": [
+      "Apply Prompt Engineering techniques to improve QA test case generation",
+      "Build a complete Playwright test project with GitHub Copilot, and apply the same workflow to Selenium",
+      "Build AI agents and MCP integrations for QA automation workflows",
+      "Generate test plans, test cases, and test data using LLM tools",
+      "Apply Generative AI across the full software testing lifecycle — planning, execution and reporting",
+      "Integrate Playwright MCP into AI powered test automation",
+      "Run local LLM models privately with Ollama inside GitHub Copilot and Claude Code",
+      "Install and configure MCP servers to connect AI agents to real testing tools",
+      "Set up Chrome DevTools MCP and AWS Documentation MCP to give AI agents real tool access",
+      "Design reusable prompt patterns for test case generation, test data and bug reports"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 12,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 10,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 13,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 13,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 12,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 9,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 12,
+        "duration": "0.7h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Alex Dan — Cloud Architect, Developer & Instructor\n\nWith over a decade of hands-on software engineering experience, I've built my career at the intersection of cloud infrastructure, web development, and practical education.\n\nMy technical journey started in embedded automotive systems — developing Java-based navigation solutions for major car brands. From there, I moved into cloud engineering, building AWS-powered data pipelines for connected vehicles using Node.js, TypeScript, Lambda, DynamoDB, and a full suite of AWS services. I later worked as a Node.js developer at one of Eastern Europe's largest e-commerce platforms, before transitioning into independent cloud architecture consulting.\n\nToday, as a freelance Cloud Architect, I design and implement scalable cloud solutions across industries — from automotive to enterprise — with a focus on infrastructure reliability, CI/CD automation, and modern serverless architectures.\n\nParallel to my engineering career, I've been teaching on Udemy since 2017, growing a community of over 300,000 students across 19 courses. My current focus is AI-assisted development — helping developers work smarter with tools like GitHub Copilot, VS Code AI extensions, and agentic coding workflows.\n\nI hold a Master's degree in Internet Technologies, and I bring that same rigor to how I teach: no fluff, no death-by-slides — just real projects, real code, and skills you can apply from day one. My philosophy is simple: the best way to learn how production systems are built is to build them yourself, guided by someone who builds them every day. I teach because I remember what it felt like to be stuck without that kind of guidance — and I want every student to walk away not just understanding a concept, but able to ship it.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Gen AI for QA: Playwright, Copilot & Claude Code suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 976 students, our Udemy course reviews put it above most Generative AI (GenAI) alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Gen AI for QA: Playwright, Copilot & Claude Code is a all level Generative AI (GenAI) course from Alex Dan on Udemy. It runs about 5 hours, and holds 4.6★ from 976 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Generative AI (GenAI)",
+    "skipIf": "You already work professionally in Generative AI (GenAI) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "GitHub Copilot - The Complete Guide 2026: Agents, CLI & MCP",
+    "slug": "github-copilot-the-complete-guide-2026-agents-cli-mcp",
+    "provider": "Udemy",
+    "category": "GitHub Copilot",
+    "categorySlug": "github-copilot",
+    "instructor": "Alex Dan",
+    "instructorSlug": "alex-dan",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/11107920_ad02_2.jpg",
+    "rating": 4.6,
+    "reviews": 42455,
+    "level": "All Level",
+    "duration": "5 hours",
+    "updated": "11/2026",
+    "description": "GitHub Copilot in 2026 has evolved from an inline autocomplete tool into a multi-surface agentic engineering platform spanning IDEs, the terminal, and cloud workflows.",
+    "image": "https://img-c.udemycdn.com/course/480x270/5724536_df76_6.jpg",
+    "url": "https://trk.udemy.com/gR01OB",
+    "language": "English",
+    "certificate": true,
+    "students": 87288,
+    "sections": 15,
+    "lectures": 83,
+    "access": "Akses",
+    "requirements": "Basic programming experience in any language. The hands-on project is available in JavaScript/TypeScript, Python, Java and .NET (C#) Visual Studio Code. The course is recorded in VS Code; if you use a JetBrains IDE such as IntelliJ IDEA, the setup lecture shows where to install the Copilot plugin A GitHub account with GitHub Copilot. The Free plan is enough to try things out; a paid plan is recommended for the agentic sections Basic Git and GitHub knowledge (commits, branches, pull requests, issues) for the cloud agent and GitHub Actions sections Optional: a database you can install locally (MySQL, PostgreSQL or MongoDB) and Docker, to follow the database and CI lectures hands-on",
+    "learn": [
+      "Use GitHub Copilot in Visual Studio Code: chat, inline suggestions, and the agent, ask and plan modes",
+      "Build custom agents and agent skills for GitHub Copilot, and know when to use each one",
+      "Connect GitHub Copilot to GitHub, databases and other tools with MCP (Model Context Protocol) servers",
+      "Assign issues to the GitHub Copilot cloud agent and use Copilot code review on pull requests",
+      "Work from the terminal with GitHub Copilot CLI: sessions, models and MCP servers",
+      "Build a project with Copilot in JavaScript/TypeScript, Python, Java or .NET (C#): API endpoints, a database and tests",
+      "Understand the GH-300 GitHub Copilot certification exam, including Responsible AI and Copilot plans",
+      "Set project rules for Copilot with custom instruction files, AGENTS md and agent hooks",
+      "Give Copilot the right context, pick the right model and use prompt engineering to get reliable results",
+      "Generate GitHub Actions workflows, debug failing CI tests, run tests in Docker and write Terraform with Copilot",
+      "Use your own API key (BYOK) or free local models with Ollama inside GitHub Copilot",
+      "Keep token usage and costs down under Copilot's usage-based billing"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 13,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 10,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 11,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 15,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 13,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 12,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 9,
+        "duration": "0.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Alex Dan — Cloud Architect, Developer & Instructor\n\nWith over a decade of hands-on software engineering experience, I've built my career at the intersection of cloud infrastructure, web development, and practical education.\n\nMy technical journey started in embedded automotive systems — developing Java-based navigation solutions for major car brands. From there, I moved into cloud engineering, building AWS-powered data pipelines for connected vehicles using Node.js, TypeScript, Lambda, DynamoDB, and a full suite of AWS services. I later worked as a Node.js developer at one of Eastern Europe's largest e-commerce platforms, before transitioning into independent cloud architecture consulting.\n\nToday, as a freelance Cloud Architect, I design and implement scalable cloud solutions across industries — from automotive to enterprise — with a focus on infrastructure reliability, CI/CD automation, and modern serverless architectures.\n\nParallel to my engineering career, I've been teaching on Udemy since 2017, growing a community of over 300,000 students across 19 courses. My current focus is AI-assisted development — helping developers work smarter with tools like GitHub Copilot, VS Code AI extensions, and agentic coding workflows.\n\nI hold a Master's degree in Internet Technologies, and I bring that same rigor to how I teach: no fluff, no death-by-slides — just real projects, real code, and skills you can apply from day one. My philosophy is simple: the best way to learn how production systems are built is to build them yourself, guided by someone who builds them every day. I teach because I remember what it felt like to be stuck without that kind of guidance — and I want every student to walk away not just understanding a concept, but able to ship it.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is GitHub Copilot - The Complete Guide 2026: Agents, CLI & MCP suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 42,455 students, our Udemy course reviews put it above most GitHub Copilot alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "GitHub Copilot - The Complete Guide 2026: Agents, CLI & MCP is a all level GitHub Copilot course from Alex Dan on Udemy. It runs about 5 hours, and holds 4.6★ from 42,455 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through GitHub Copilot",
+    "skipIf": "You already work professionally in GitHub Copilot and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "AWS Kiro Masterclass: Spec-Driven Agentic AI Development",
+    "slug": "aws-kiro-masterclass-spec-driven-agentic-ai-development",
+    "provider": "Udemy",
+    "category": "AWS Kiro",
+    "categorySlug": "aws-kiro",
+    "instructor": "Rahul Trisal",
+    "instructorSlug": "rahul-trisal",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/188361630_663c_2.jpg",
+    "rating": 4.4,
+    "reviews": 458,
+    "level": "All Level",
+    "duration": "3 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Build Agentic AI-powered applications using Kiro, MCP, Steering Files, Hooks, Powers and AIDLC",
+    "image": "https://img-c.udemycdn.com/course/480x270/7184633_cac5_4.jpg",
+    "url": "https://trk.udemy.com/qWM445",
+    "language": "English",
+    "certificate": true,
+    "students": 2590,
+    "sections": 10,
+    "lectures": 23,
+    "access": "Akses",
+    "requirements": "Knowledge of the AWS Cloud Services",
+    "learn": [
+      "AWS Kiro Masterclass - Learn how to build software using the AI-Driven Development Lifecycle (AIDLC).",
+      "Spec-Driven Development with Kiro - Create Requirement, Design, and Task files that transform business requirements into actionable implementation plans.",
+      "Model Context Protocol (MCP) integration between Kiro and Jira for publishing FleetMate user stories in Jira through a chat interface.",
+      "MCP integration between Kiro and Confluence for publishing FleetMate Design in Confluence through a chat interface.",
+      "Kiro Steering Files for Standarization of Design, Architecture and Code Generation across the Enterprise teams and Developers.",
+      "Kiro Hooks for Automation of workflows to improve Developer productivity and improve quality.",
+      "Kiro Powers for reusable AI workflows and enhanced contextual response generation",
+      "Kiro Model selection and Development best practices"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 4,
+        "duration": "0.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 3,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 4,
+        "duration": "0.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 3,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 3,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 3,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 3,
+        "duration": "0.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "- I work as an AWS Agentic and Generative AI Architect with a Fortune 500 company, bringing over 17 years of hands-on experience designing, modernizing, and scaling enterprise systems on AWS.\n\n- Built more than 12 enterprise-grade Agentic AI applications, with multiple solutions running in production environments.\n\n- Led the migration of several hundred applications to AWS. My current focus is building and productionizing Generative AI and Agentic AI solutions.\n\n- 10× AWS Certified, AWS Ambassador, and AWS Community Builder.\n\n- Taught 100,000+ learners Generative AI and Agentic AI on AWS, with over 15 million minutes of learning content consumed.\n\n- My mission is to help engineers and architects bridge the gap between tutorials and real-world production systems through practical, hands-on learning.\n\n- I am currently based in Bengaluru, India, and have previously worked across the USA, UK, Africa, and Latin America.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AWS Kiro Masterclass: Spec-Driven Agentic AI Development suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.4★ average from 458 students, our Udemy course reviews put it above most AWS Kiro alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "AWS Kiro Masterclass: Spec-Driven Agentic AI Development is a all level AWS Kiro course from Rahul Trisal on Udemy. It runs about 3 hours, and holds 4.4★ from 458 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through AWS Kiro",
+    "skipIf": "You already work professionally in AWS Kiro and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "Playwright E2E Automation With TypeScript, MCP & AI Agents",
     "slug": "playwright-e2e-automation-with-typescript-mcp-ai-agents",
     "provider": "Udemy",
