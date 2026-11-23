@@ -1,5 +1,1055 @@
 [
   {
+    "title": "AI SDLC: The AI-Native Software Engineer in the Agentic Era",
+    "slug": "ai-sdlc-the-ai-native-software-engineer-in-the-agentic-era",
+    "provider": "Udemy",
+    "category": "AI Agents & Agentic AI",
+    "categorySlug": "ai-agents-agentic-ai",
+    "instructor": "Ed Donner",
+    "instructorSlug": "ed-donner",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/276658919_02e6_3.jpg",
+    "rating": 4.7,
+    "reviews": 135360,
+    "level": "All Level",
+    "duration": "10 hours",
+    "updated": "11/2026",
+    "description": "Be industry-ready with the Agentic Software Development Lifecycle in Claude Code, Codex, Copilot and any coding agent",
+    "image": "https://img-c.udemycdn.com/course/480x270/7421219_e5a5.jpg",
+    "url": "https://trk.udemy.com/MKODyo",
+    "language": "English",
+    "certificate": true,
+    "students": 778229,
+    "sections": 10,
+    "lectures": 67,
+    "access": "Akses",
+    "requirements": "Some experience with Coding and Coding Agents is ideal but not required",
+    "learn": [
+      "Use coding agents as a force multiplier while providing intent, judgment and taste, and staying accountable for quality",
+      "Capitalize on the strengths of Claude Code, Codex and Copilot and recognize the limitations",
+      "Ground coding agents in repo context, custom skills, plugins and MCP servers / Code Mode",
+      "Apply Harness Engineering to enforce standards with hooks, tests, CI/CD and AI code review",
+      "Deliver features from intent to production through Anthropic’s AI-native SDLC with parallel agents and subagents",
+      "Combine the best of the emerging Agentic SDLC practices from Anthropic, OpenAI, AWS, Google and Atlassian",
+      "Drive team-wide adoption of coding agents to achieve parallel delivery with a common process",
+      "Collaborate safely on large codebases with robust security, refactoring, testing and debugging",
+      "Amplify your team’s output with cloud agents and push the boundary with a software factory",
+      "Advance your career as an AI-Native Software Engineer: supercharged, accountable and not drowning in code reviews"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 11,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 11,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 9,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 10,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 10,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 9,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 7,
+        "duration": "0.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Ed Donner is a coder, speaker and leader in the field of Agentic AI, Forward Deployed Engineering and LLMs. He’s the co-founder and CTO of AI startup Nebula, a former Managing Director at JPMorgan Chase, and a well-regarded lecturer on LLMs and Agents with over a million enrollments across 194 countries. He previously founded AI startup untapt, acquired in 2021, after a 15 year career in technology on Wall street. He holds a patent in a deep learning matching model, and an MA in Physics from Oxford. When he’s not at work experimenting with LLMs, Ed can usually be found at home.. experimenting with LLMs.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AI SDLC: The AI-Native Software Engineer in the Agentic Era suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 135,360 students, our Udemy course reviews put it above most AI Agents & Agentic AI alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "AI SDLC: The AI-Native Software Engineer in the Agentic Era is a all level AI Agents & Agentic AI course from Ed Donner on Udemy. It runs about 10 hours, and holds 4.7★ from 135,360 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through AI Agents & Agentic AI",
+    "skipIf": "You already work professionally in AI Agents & Agentic AI and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Core Java Tricky Coding & Scenario-Based Interview Questions",
+    "slug": "core-java-tricky-coding-scenario-based-interview-questions",
+    "provider": "Udemy",
+    "category": "Java",
+    "categorySlug": "java",
+    "instructor": "Ramesh Fadatare (Java Guides)",
+    "instructorSlug": "ramesh-fadatare-java-guides",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/52467702_5352_4.jpg",
+    "rating": 4.5,
+    "reviews": 16579,
+    "level": "All Level",
+    "duration": "8.5 hours",
+    "updated": "11/2026",
+    "description": "Top Core Java Tricky Questions, Find Output Tricky Coding Questions, Scenario-Based Questions, & Java 8 Coding Programs",
+    "image": "https://img-c.udemycdn.com/course/480x270/6929211_48ef_5.jpg",
+    "url": "https://trk.udemy.com/bkXDVx",
+    "language": "English",
+    "certificate": true,
+    "students": 132199,
+    "sections": 5,
+    "lectures": 88,
+    "access": "Akses",
+    "requirements": "Knowledge on Core Java programming",
+    "learn": [
+      "Solve tricky Core Java coding questions and accurately determine program output.",
+      "Analyze and answer tricky Core Java interview questions with clear explanations.",
+      "Prepare for scenario-based Java interview questions asked in real technical interviews.",
+      "Frequently asked Java Stream and Lambda Coding Programs"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 13,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 20,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 18,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 22,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 15,
+        "duration": "1.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Hi, I'm Ramesh Fadatare, a Software Engineer, Udemy Instructor Partner, Blogger, and YouTuber teaching Java, Spring Boot, Microservices, REST APIs, Hibernate, Angular, React, Kafka, Docker, and Full-Stack Java Development.\n\nAlong with Java, I also teach AI, Generative AI, ChatGPT, Google Gemini, NotebookLM, Claude, AI Tools, LLMs, RAG, AI Agents, and Agentic AI.\n\nI have 15+ years of software engineering experience and I am a VMware Spring Certified Professional.\n\nI am the founder of Java Guides, one of the top Java learning websites with 1 million+ views per month. I also run two YouTube channels: one focused on Java with 187K+ subscribers and another focused on AI with 13K+ subscribers.\n\nMy teaching style is simple, practical, and beginner-friendly. I explain concepts step by step with real-world examples.\n\nNote: All my courses are available only on the Udemy platform, so you can join my courses here.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Core Java Tricky Coding & Scenario-Based Interview Questions suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 16,579 students, our Udemy course reviews put it above most Java alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Core Java Tricky Coding & Scenario-Based Interview Questions is a all level Java course from Ramesh Fadatare (Java Guides) on Udemy. It runs about 8.5 hours, and holds 4.5★ from 16,579 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Java",
+    "skipIf": "You already work professionally in Java and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Microservices with Spring Boot, Spring Cloud, Docker & Kafka",
+    "slug": "microservices-with-spring-boot-spring-cloud-docker-kafka",
+    "provider": "Udemy",
+    "category": "Microservices",
+    "categorySlug": "microservices",
+    "instructor": "Ramesh Fadatare (Java Guides)",
+    "instructorSlug": "ramesh-fadatare-java-guides",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/52467702_5352_4.jpg",
+    "rating": 4.5,
+    "reviews": 16579,
+    "level": "All Level",
+    "duration": "46 hours",
+    "updated": "11/2026",
+    "description": "Build Real-World Microservices with Java, Spring Boot, Spring Cloud, Docker, Kafka, RabbitMQ, React, REST APIs, IntelliJ",
+    "image": "https://img-c.udemycdn.com/course/480x270/4923018_c5b4_5.jpg",
+    "url": "https://trk.udemy.com/L06xnj",
+    "language": "English",
+    "certificate": true,
+    "students": 27565,
+    "sections": 52,
+    "lectures": 424,
+    "access": "Akses",
+    "requirements": "Basic knowledge of Java programming. Familiar with IntelliJ IDEA Basic understanding of Spring Boot is helpful but not mandatory. No Microservices experience needed. You will learn everything you need to know about Microservices No Docker experience needed. You will learn Docker essentials for deployment No RabbitMQ and Kafka experience needed. You will learn RabbitMQ and Kafka essentials for building event-driven microservices Willingness to follow hands-on coding examples and build projects step by step.",
+    "learn": [
+      "Build complete real-world microservices using Spring Boot and Spring Cloud.",
+      "Dockerize Spring Boot microservices and run the complete system with Docker Compose.",
+      "Build event-driven microservices using Apache Kafka.",
+      "Build event-driven microservices using RabbitMQ",
+      "Implement Service Registry and Discovery using Netflix Eureka.",
+      "Build an API Gateway using Spring Cloud Gateway.",
+      "Manage centralized configuration with Spring Cloud Config Server.",
+      "Implement Circuit Breaker, Retry, and RateLimiter with Resilience4J.",
+      "Communicate between microservices using RestTemplate, WebClient, and OpenFeign.",
+      "Add client-side load balancing with Spring Cloud LoadBalancer.",
+      "Integrate React with Spring Boot microservices.",
+      "Build REST APIs using Spring Boot.",
+      "Create CRUD applications with Spring Data JPA and MySQL.",
+      "Use DTOs, validation, mapping, and exception handling.",
+      "Document and test REST APIs using Swagger / OpenAPI.",
+      "How to Add Step by Step New Microservice to Existing Project",
+      "Dockering Spring Boot Application Step by Step",
+      "Dockering Spring Boot MySQL CRUD Application Step by Step",
+      "Migrate Existing Microservices Project into Latest Version",
+      "Build real-world Spring Boot REST API projects.",
+      "Understand Microservices Architecture and core distributed-system concepts.",
+      "Understand REST API fundamentals and best practices."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 69,
+        "duration": "7.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 71,
+        "duration": "7.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 49,
+        "duration": "5.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 75,
+        "duration": "8.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 58,
+        "duration": "6.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 51,
+        "duration": "5.5h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 51,
+        "duration": "5.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hi, I'm Ramesh Fadatare, a Software Engineer, Udemy Instructor Partner, Blogger, and YouTuber teaching Java, Spring Boot, Microservices, REST APIs, Hibernate, Angular, React, Kafka, Docker, and Full-Stack Java Development.\n\nAlong with Java, I also teach AI, Generative AI, ChatGPT, Google Gemini, NotebookLM, Claude, AI Tools, LLMs, RAG, AI Agents, and Agentic AI.\n\nI have 15+ years of software engineering experience and I am a VMware Spring Certified Professional.\n\nI am the founder of Java Guides, one of the top Java learning websites with 1 million+ views per month. I also run two YouTube channels: one focused on Java with 187K+ subscribers and another focused on AI with 13K+ subscribers.\n\nMy teaching style is simple, practical, and beginner-friendly. I explain concepts step by step with real-world examples.\n\nNote: All my courses are available only on the Udemy platform, so you can join my courses here.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Microservices with Spring Boot, Spring Cloud, Docker & Kafka suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 16,579 students, our Udemy course reviews put it above most Microservices alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Microservices with Spring Boot, Spring Cloud, Docker & Kafka is a all level Microservices course from Ramesh Fadatare (Java Guides) on Udemy. It runs about 46 hours, and holds 4.5★ from 16,579 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Microservices",
+    "skipIf": "You already work professionally in Microservices and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Full-Stack Java Developer Course with Spring Boot 4 & React",
+    "slug": "full-stack-java-developer-course-with-spring-boot-4-react",
+    "provider": "Udemy",
+    "category": "Web Development",
+    "categorySlug": "web-development",
+    "instructor": "Ramesh Fadatare (Java Guides)",
+    "instructorSlug": "ramesh-fadatare-java-guides",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/52467702_5352_4.jpg",
+    "rating": 4.5,
+    "reviews": 16579,
+    "level": "All Level",
+    "duration": "20 hours",
+    "updated": "11/2026",
+    "description": "Build FULL-STACK Web Apps using Java, Spring Boot 4, Spring Data JPA, Spring Security 7, JWT, JavaScript, React & MySQL",
+    "image": "https://img-c.udemycdn.com/course/480x270/5338984_4d3a_8.jpg",
+    "url": "https://trk.udemy.com/qWMEWj",
+    "language": "English",
+    "certificate": true,
+    "students": 13053,
+    "sections": 19,
+    "lectures": 181,
+    "access": "Akses",
+    "requirements": "Java 17+ Familiar with IntelliJ IDEA and VS Code Familiar with HTML, CSS and JavaScript No Spring Boot REST API experience is needed, You will learn building Spring Boot REST APIs from the scratch No React JS experience is needed, I will teach React JS from the scratch",
+    "learn": [
+      "Learn to develop a FULL-STACK Web Application with React and Spring Boot 4",
+      "Build Employee Management System FULL-STACK Web Application with React and Spring Boot 4",
+      "Build Todo Management FULL-STACK Web Application with React and Spring Boot 4",
+      "Learn Spring Boot Fundamentals and REST API Basics",
+      "Learn React JS Fundamentals",
+      "Building RESTful APIs with Spring Boot 4",
+      "Consuming RESTful APIs in React JS",
+      "Data Persistence with Spring Data JPA and Hibernate",
+      "Secure REST APIs using Spring Security 7",
+      "Build User Registration and Login Module",
+      "Secure REST APIs using JWT (JSON Web Token)",
+      "Using JWT (JSON Web Token) in React App",
+      "Style Web Pages using the Bootstrap CSS framework",
+      "Use Modern and Popular tools to build full-stack web applications such as IntelliJ IDEA, VS Code, Maven, Postman, NPM, etc."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 28,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 22,
+        "duration": "2.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 31,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 24,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 24,
+        "duration": "2.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 21,
+        "duration": "2.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 31,
+        "duration": "3.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hi, I'm Ramesh Fadatare, a Software Engineer, Udemy Instructor Partner, Blogger, and YouTuber teaching Java, Spring Boot, Microservices, REST APIs, Hibernate, Angular, React, Kafka, Docker, and Full-Stack Java Development.\n\nAlong with Java, I also teach AI, Generative AI, ChatGPT, Google Gemini, NotebookLM, Claude, AI Tools, LLMs, RAG, AI Agents, and Agentic AI.\n\nI have 15+ years of software engineering experience and I am a VMware Spring Certified Professional.\n\nI am the founder of Java Guides, one of the top Java learning websites with 1 million+ views per month. I also run two YouTube channels: one focused on Java with 187K+ subscribers and another focused on AI with 13K+ subscribers.\n\nMy teaching style is simple, practical, and beginner-friendly. I explain concepts step by step with real-world examples.\n\nNote: All my courses are available only on the Udemy platform, so you can join my courses here.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Full-Stack Java Developer Course with Spring Boot 4 & React suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 16,579 students, our Udemy course reviews put it above most Web Development alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Full-Stack Java Developer Course with Spring Boot 4 & React is a all level Web Development course from Ramesh Fadatare (Java Guides) on Udemy. It runs about 20 hours, and holds 4.5★ from 16,579 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Web Development",
+    "skipIf": "You already work professionally in Web Development and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Spring Boot 4, Spring 7 & Hibernate for Beginners",
+    "slug": "spring-boot-4-spring-7-hibernate-for-beginners",
+    "provider": "Udemy",
+    "category": "Programming Languages",
+    "categorySlug": "programming-languages",
+    "instructor": "Chad Darby",
+    "instructorSlug": "chad-darby",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/7644438_8f29.jpg",
+    "rating": 4.6,
+    "reviews": 95818,
+    "level": "All Level",
+    "duration": "35.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Spring Boot 4: Learn Spring 7, Spring Core, Spring REST, Spring Security, JPA, Hibernate, Swagger, Spring MVC, MySQL",
+    "image": "https://img-c.udemycdn.com/course/480x270/647428_be28_10.jpg",
+    "url": "https://trk.udemy.com/m4MXOa",
+    "language": "English",
+    "certificate": true,
+    "students": 468960,
+    "sections": 14,
+    "lectures": 419,
+    "access": "Akses",
+    "requirements": "Basic Java knowledge is required Basic HTML knowledge is helpful",
+    "learn": [
+      "NEW FOR SPRING BOOT 4, SPRING 7 and IntelliJ (free version)",
+      "You will TYPE IN EVERY LINE of code with me in the videos. I EXPLAIN every line of code to help you learn!",
+      "LEARN key Spring Boot 4 features: Core, Annotations, Java Config, Spring REST, Spring MVC, AOP, Hibernate/JPA and Maven",
+      "I am a RESPONSIVE INSTRUCTOR ... post your questions and I will RESPOND in 24 hours.",
+      "POPULAR VIDEOS for: Spring Boot 4, Spring Boot REST APIs, Spring Boot Security, Spring Data JPA, Spring Data REST, OpenAPI, Swagger and Thymeleaf",
+      "Join an ACTIVE COMMUNITY of 440,000+ students that are already enrolled! Over 92,000+ Reviews - 5 STARS",
+      "Develop code using MODERN development tools: IntelliJ (free version) and Maven",
+      "You can DOWNLOAD all source code and PDFs. Perfect for offline LEARNING and REVIEW.",
+      "Students have LANDED NEW JOBS with the skills from this course. Spring Boot and Hibernate developers are in HIGH-DEMAND!"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 51,
+        "duration": "4.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 74,
+        "duration": "6.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 61,
+        "duration": "5.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 62,
+        "duration": "5.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 45,
+        "duration": "3.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 51,
+        "duration": "4.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 75,
+        "duration": "6.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Chád (shod) Darby is an author, instructor and speaker in the Java development world. \n\nChád is a contributing author to several Java books, including  Professional Java E-Commerce (Wrox Press), Beginning Java Networking  (Wrox Press), and XML and Web Services Unleashed (Sams Publishing). \n\nChád has Java certifications from Oracle and IBM. \n\nHe holds a B.S. in Computer Science from Carnegie Mellon University.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Spring Boot 4, Spring 7 & Hibernate for Beginners suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 95,818 students, our Udemy course reviews put it above most Programming Languages alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Spring Boot 4, Spring 7 & Hibernate for Beginners is a all level Programming Languages course from Chad Darby on Udemy. It runs about 35.5 hours, and holds 4.6★ from 95,818 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Programming Languages",
+    "skipIf": "You already work professionally in Programming Languages and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Spring Boot 4 REST APIs: Building Modern REST APIs",
+    "slug": "spring-boot-4-rest-apis-building-modern-rest-apis",
+    "provider": "Udemy",
+    "category": "Programming Languages",
+    "categorySlug": "programming-languages",
+    "instructor": "Chad Darby",
+    "instructorSlug": "chad-darby",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/7644438_8f29.jpg",
+    "rating": 4.6,
+    "reviews": 847,
+    "level": "All Level",
+    "duration": "14 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Develop Real-Time Spring Boot 4 RESTful Endpoints: CRUD, JWTs, OpenAPI, Swagger, Auth, H2 Embedded DB, MySQL",
+    "image": "https://img-c.udemycdn.com/course/480x270/6270233_987e.jpg",
+    "url": "https://trk.udemy.com/L06xXo",
+    "language": "English",
+    "certificate": true,
+    "students": 7121,
+    "sections": 8,
+    "lectures": 176,
+    "access": "Akses",
+    "requirements": "Java: Java 17 or higher Spring Boot: version 3.x or higher Maven: version 3.9 or higher",
+    "learn": [
+      "Explore the architecture of the Spring Boot 4 REST framework and professional CRUD operations.",
+      "Develop REST endpoints with OpenAPI and supporting Swagger Implementation",
+      "Build reusable service-layer logic for scalable solutions",
+      "Avoid code duplication with service/repository patterns",
+      "Respond with appropriate status codes and error reporting",
+      "Implement JWT authentication and authorization using Spring Security",
+      "Protect endpoints with Authentication & Authorization",
+      "We are RESPONSIVE INSTRUCTORS ... post your questions and we will RESPOND in 24 hours.",
+      "Spring Boot developers with REST endpoints experience are in HIGH-DEMAND. Level up your career!",
+      "You can DOWNLOAD all source code and PDFs. Perfect for offline LEARNING and REVIEW."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 25,
+        "duration": "2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 25,
+        "duration": "2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 27,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 32,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 19,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 21,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 27,
+        "duration": "2h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Chád (shod) Darby is an author, instructor and speaker in the Java development world. \n\nChád is a contributing author to several Java books, including  Professional Java E-Commerce (Wrox Press), Beginning Java Networking  (Wrox Press), and XML and Web Services Unleashed (Sams Publishing). \n\nChád has Java certifications from Oracle and IBM. \n\nHe holds a B.S. in Computer Science from Carnegie Mellon University.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Spring Boot 4 REST APIs: Building Modern REST APIs suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 847 students, our Udemy course reviews put it above most Programming Languages alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Spring Boot 4 REST APIs: Building Modern REST APIs is a all level Programming Languages course from Chad Darby on Udemy. It runs about 14 hours, and holds 4.6★ from 847 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Programming Languages",
+    "skipIf": "You already work professionally in Programming Languages and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Spring Boot Testing with JUnit 5, Mockito & Testcontainers",
+    "slug": "spring-boot-testing-with-junit-5-mockito-testcontainers",
+    "provider": "Udemy",
+    "category": "Software Development Tools",
+    "categorySlug": "software-development-tools",
+    "instructor": "Ramesh Fadatare (Java Guides)",
+    "instructorSlug": "ramesh-fadatare-java-guides",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/52467702_5352_4.jpg",
+    "rating": 4.5,
+    "reviews": 1717,
+    "level": "All Level",
+    "duration": "16.5 hours",
+    "updated": "11/2026",
+    "description": "Unit tests and Integration tests for Spring Boot App and Spring WebFlux App using JUnit 5, Mockito and Testcontainers",
+    "image": "https://img-c.udemycdn.com/course/480x270/4457400_b340_4.jpg",
+    "url": "https://trk.udemy.com/Pzxr0R",
+    "language": "English",
+    "certificate": true,
+    "students": 13609,
+    "sections": 23,
+    "lectures": 143,
+    "access": "Akses",
+    "requirements": "Java programming Good to know JUnit and Mockito basics Good to know Spring Boot basics Basic understanding of using IntelliJ IDEA",
+    "learn": [
+      "Learn to write industry-standard Unit and Integration tests in BDD (Behaviour Driven Development) style using Spring Boot Starter Test dependency from scratch",
+      "Learn how to use BDD (Behaviour Driven Development) format that is given/when/then to write Unit tests.",
+      "Learn everything about JUnit Framework 5",
+      "Learn to Unit test Spring boot application Repository layer",
+      "Learn to Unit test Spring boot application Service layer",
+      "Learn to Unit test Spring boot application Controller layer - Unit test REST API's",
+      "Learn how to do Integration testing for the Spring boot application",
+      "You will learn to use the most important Unit Testing annotations - @SpringBootTest, @WebMvcTest, @DataJpaTest, and @MockBean",
+      "Use all the frameworks in Spring Boot Starter Test - JUnit, Spring Test, Spring Boot Test, AssertJ, Hamcrest, Mockito, JSONassert, and JsonPath.",
+      "You will learn to write Unit tests using Mocks and Stubs created with Mockito",
+      "Learn how to use Mockito annotations to create mock objects.",
+      "Learn to write Integration Tests using a MySQL database",
+      "You will learn to write independent Integration tests for RESTFUL web services talking with MULTIPLE LAYERS - controller, service, and repository layers.",
+      "Learn to write Integration Tests using a Testcontainers",
+      "Learn Building Reactive CRUD REST APIs using Spring WebFlux and MongoDB",
+      "Learn Unit Testing Reactive CRUD REST APIs using JUnit and Mockito",
+      "Learn Integration Testing Reactive CRUD REST APIs using WebTestClient"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 26,
+        "duration": "3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 17,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 18,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 22,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 22,
+        "duration": "2.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 20,
+        "duration": "2.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 18,
+        "duration": "2.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hi, I'm Ramesh Fadatare, a Software Engineer, Udemy Instructor Partner, Blogger, and YouTuber teaching Java, Spring Boot, Microservices, REST APIs, Hibernate, Angular, React, Kafka, Docker, and Full-Stack Java Development.\n\nAlong with Java, I also teach AI, Generative AI, ChatGPT, Google Gemini, NotebookLM, Claude, AI Tools, LLMs, RAG, AI Agents, and Agentic AI.\n\nI have 15+ years of software engineering experience and I am a VMware Spring Certified Professional.\n\nI am the founder of Java Guides, one of the top Java learning websites with 1 million+ views per month. I also run two YouTube channels: one focused on Java with 187K+ subscribers and another focused on AI with 13K+ subscribers.\n\nMy teaching style is simple, practical, and beginner-friendly. I explain concepts step by step with real-world examples.\n\nNote: All my courses are available only on the Udemy platform, so you can join my courses here.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Spring Boot Testing with JUnit 5, Mockito & Testcontainers suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 1,717 students, our Udemy course reviews put it above most Software Development Tools alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Spring Boot Testing with JUnit 5, Mockito & Testcontainers is a all level Software Development Tools course from Ramesh Fadatare (Java Guides) on Udemy. It runs about 16.5 hours, and holds 4.5★ from 1,717 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Software Development Tools",
+    "skipIf": "You already work professionally in Software Development Tools and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "ChatGPT + Generative AI + Prompt Engineering for Beginners",
+    "slug": "chatgpt-generative-ai-prompt-engineering-for-beginners",
+    "provider": "Udemy",
+    "category": "ChatGPT",
+    "categorySlug": "chatgpt",
+    "instructor": "Ramesh Fadatare (Java Guides)",
+    "instructorSlug": "ramesh-fadatare-java-guides",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/52467702_5352_4.jpg",
+    "rating": 4.5,
+    "reviews": 523,
+    "level": "All Level",
+    "duration": "9.5 hours",
+    "updated": "11/2026",
+    "description": "Learn AI, Generative AI, ChatGPT, Prompt Engineering, RAG and AI Agents from scratch – no coding or tech skills needed",
+    "image": "https://img-c.udemycdn.com/course/480x270/6701371_7b47_5.jpg",
+    "url": "https://trk.udemy.com/k46zkx",
+    "language": "English",
+    "certificate": true,
+    "students": 2512,
+    "sections": 21,
+    "lectures": 120,
+    "access": "Akses",
+    "requirements": "No AI and programming knowledge required No ChatGPT experience needed. You will learn everything you need to know No Generative AI knowledge required No AI Agents knowledge required No Prompt Engineering knowledge required",
+    "learn": [
+      "AI Foundations: ML, Deep Learning and LLMs",
+      "Generative AI Fundamentals",
+      "ChatGPT Fundamentals",
+      "Prompt Engineering",
+      "Prompt Engineering Techniques",
+      "ChatGPT for Content Creation",
+      "Download the eBook - 50 ChatGPT Shortcuts for Content Creation",
+      "Create Images with ChatGPT",
+      "Create Presentations and Documents with ChatGPT",
+      "Write and Reply to Emails with ChatGPT",
+      "Download the eBook - 50 ChatGPT Shortcuts for Everyday Work",
+      "Edit Photos with ChatGPT",
+      "ChatGPT Search: Get Real-Time Information",
+      "ChatGPT Advanced Features",
+      "Multimodal AI: Text, Images, Audio and Video",
+      "RAG: Chat with Your Own Documents",
+      "AI Agents, Agentic AI, MCP and AGI"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 18,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 14,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 13,
+        "duration": "1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 22,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 21,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 21,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 11,
+        "duration": "1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Hi, I'm Ramesh Fadatare, a Software Engineer, Udemy Instructor Partner, Blogger, and YouTuber teaching Java, Spring Boot, Microservices, REST APIs, Hibernate, Angular, React, Kafka, Docker, and Full-Stack Java Development.\n\nAlong with Java, I also teach AI, Generative AI, ChatGPT, Google Gemini, NotebookLM, Claude, AI Tools, LLMs, RAG, AI Agents, and Agentic AI.\n\nI have 15+ years of software engineering experience and I am a VMware Spring Certified Professional.\n\nI am the founder of Java Guides, one of the top Java learning websites with 1 million+ views per month. I also run two YouTube channels: one focused on Java with 187K+ subscribers and another focused on AI with 13K+ subscribers.\n\nMy teaching style is simple, practical, and beginner-friendly. I explain concepts step by step with real-world examples.\n\nNote: All my courses are available only on the Udemy platform, so you can join my courses here.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is ChatGPT + Generative AI + Prompt Engineering for Beginners suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 523 students, our Udemy course reviews put it above most ChatGPT alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "ChatGPT + Generative AI + Prompt Engineering for Beginners is a all level ChatGPT course from Ramesh Fadatare (Java Guides) on Udemy. It runs about 9.5 hours, and holds 4.5★ from 523 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through ChatGPT",
+    "skipIf": "You already work professionally in ChatGPT and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Master Spring Data JPA with Hibernate: E-Commerce Project",
+    "slug": "master-spring-data-jpa-with-hibernate-e-commerce-project",
+    "provider": "Udemy",
+    "category": "Hibernate",
+    "categorySlug": "hibernate",
+    "instructor": "Ramesh Fadatare (Java Guides)",
+    "instructorSlug": "ramesh-fadatare-java-guides",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/52467702_5352_4.jpg",
+    "rating": 4.5,
+    "reviews": 16572,
+    "level": "All Level",
+    "duration": "19.5 hours",
+    "updated": "11/2026",
+    "description": "Learn Spring Data JPA Features and Learn to Build Domain Model Relationships for E-Commerce Project Using Hibernate ORM",
+    "image": "https://img-c.udemycdn.com/course/480x270/4696514_06f6_2.jpg",
+    "url": "https://trk.udemy.com/k46zVx",
+    "language": "English",
+    "certificate": true,
+    "students": 4400,
+    "sections": 20,
+    "lectures": 178,
+    "access": "Akses",
+    "requirements": "Java Good to know Spring Boot Basics Basic Understanding of JPA and Hibernate Basic Understanding of SQL",
+    "learn": [
+      "Learn How to Use Spring Data JPA in the Spring Boot Application",
+      "Build Domain Model Relationships for E-commerce Project Using Hibernate ORM Framework",
+      "Learn How to Use JPA Annotations to Create an Entity and Map to a Database Table",
+      "Learn 4 Types of Primary key Generation Strategies - AUTO, IDENTITY, SEQUENCE, and TABLE",
+      "Learn How to Use the Lombok Library to Reduce a Boilerplate Code",
+      "Learn Spring Data JPA Repository Interfaces and Its Hierarchy",
+      "Learn Steps to Use Spring Data JPA Repository",
+      "Learn Important Spring Data JPA Repository Methods (CRUD Operations)",
+      "Learn How to Create Query Methods or Finder Methods Using Method Names",
+      "Learn How to Create JPQL and Native SQL Queries Using @Query Annotation",
+      "Learn How to Create JPQL and Native SQL Queries With Named Queries",
+      "Learn How to Implement Pagination and Sorting Using Spring Data JPA",
+      "Learn JPA/Hibernate One to One Mapping Using Spring Data JPA",
+      "Learn JPA/Hibernate One to Many Mapping Using Spring Data JPA",
+      "Learn JPA/Hibernate Many to Many Mapping Using Spring Data JPA",
+      "Learn JPA Cascade Types and Fetch Types (EAGER and LAZY)",
+      "Learn to implement Search/Filter Functionality",
+      "Learn Transaction Management with Spring Data JPA and Spring Boot",
+      "Unit Testing Spring Data JPA Repository using @DataJpaTest annotation"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 29,
+        "duration": "3.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 28,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 31,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 19,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 27,
+        "duration": "3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 21,
+        "duration": "2.3h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 23,
+        "duration": "2.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hi, I'm Ramesh Fadatare, a Software Engineer, Udemy Instructor Partner, Blogger, and YouTuber teaching Java, Spring Boot, Microservices, REST APIs, Hibernate, Angular, React, Kafka, Docker, and Full-Stack Java Development.\n\nAlong with Java, I also teach AI, Generative AI, ChatGPT, Google Gemini, NotebookLM, Claude, AI Tools, LLMs, RAG, AI Agents, and Agentic AI.\n\nI have 15+ years of software engineering experience and I am a VMware Spring Certified Professional.\n\nI am the founder of Java Guides, one of the top Java learning websites with 1 million+ views per month. I also run two YouTube channels: one focused on Java with 187K+ subscribers and another focused on AI with 13K+ subscribers.\n\nMy teaching style is simple, practical, and beginner-friendly. I explain concepts step by step with real-world examples.\n\nNote: All my courses are available only on the Udemy platform, so you can join my courses here.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Master Spring Data JPA with Hibernate: E-Commerce Project suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 16,572 students, our Udemy course reviews put it above most Hibernate alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Master Spring Data JPA with Hibernate: E-Commerce Project is a all level Hibernate course from Ramesh Fadatare (Java Guides) on Udemy. It runs about 19.5 hours, and holds 4.5★ from 16,572 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Hibernate",
+    "skipIf": "You already work professionally in Hibernate and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "[NEW] Learn Apache Maven in Just 5 Hours: The Complete Guide",
     "slug": "new-learn-apache-maven-in-just-5-hours-the-complete-guide",
     "provider": "Udemy",
