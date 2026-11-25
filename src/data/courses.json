@@ -1,5 +1,1907 @@
 [
   {
+    "title": "Snowflake for Beginners: Intro to Cloud Data Warehousing",
+    "slug": "snowflake-for-beginners-intro-to-cloud-data-warehousing",
+    "provider": "Udemy",
+    "category": "Snowflake",
+    "categorySlug": "snowflake",
+    "instructor": "Maven Analytics (2,000,000+ Learners)",
+    "instructorSlug": "maven-analytics-2000000-learners",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/75004102_f8b0_2.jpg",
+    "rating": 4.6,
+    "reviews": 635540,
+    "level": "All Level",
+    "duration": "3 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Master Snowflake fundamentals – learn hands-on SQL and cloud data warehousing for data analysts, scientists & engineers",
+    "image": "https://img-c.udemycdn.com/course/480x270/7313255_3125_3.jpg",
+    "url": "https://trk.udemy.com/9VkdA3",
+    "language": "English",
+    "certificate": true,
+    "students": 73122,
+    "sections": 6,
+    "lectures": 61,
+    "access": "Akses",
+    "requirements": "We strongly recommend taking our Analytics Engineering 101 and Data Modeling courses first Basic familiarity with SQL is helpful but not required",
+    "learn": [
+      "Learn what Snowflake is, how it differs from traditional data warehouses, and where it fits into the modern data stack",
+      "Understand Snowflake's 3-layer architecture – storage, compute, and services – and concepts like micro-partitioning and virtual warehouses",
+      "Review basic SQL queries, and learn about Snowflake-specific SQL functions and how to work with JSON data in Snowflake",
+      "Learn about Snowflake’s additional features, including time travel, data cloning, secure data sharing, query optimization, and Cortex AI"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 9,
+        "duration": "0.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 13,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 12,
+        "duration": "0.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 10,
+        "duration": "0.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 9,
+        "duration": "0.4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 8,
+        "duration": "0.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Alice Zhao is a data scientist who is passionate about teaching and making complex things easy to understand.\n\nShe is a lecturer for Northwestern University's Machine Learning and Data Science graduate program where she teaches Python, R, Data Warehousing and Data Visualization.\n\nShe is the author of the book, SQL Pocket Guide, 4th Edition (O'Reilly) and has the most popular Natural Language Processing in Python tutorial on YouTube, with 1.2 million views.\n\nShe has an M.S. in Analytics and B.S. in Electrical Engineering, both from Northwestern University.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Snowflake for Beginners: Intro to Cloud Data Warehousing suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 635,540 students, our Udemy course reviews put it above most Snowflake alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Snowflake for Beginners: Intro to Cloud Data Warehousing is a all level Snowflake course from Maven Analytics (2,000,000+ Learners) on Udemy. It runs about 3 hours, and holds 4.6★ from 635,540 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Snowflake",
+    "skipIf": "You already work professionally in Snowflake and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Adobe Firefly Ultimate Guide: Become an Adobe Firefly Expert",
+    "slug": "adobe-firefly-ultimate-guide-become-an-adobe-firefly-expert",
+    "provider": "Udemy",
+    "category": "Adobe Firefly",
+    "categorySlug": "adobe-firefly",
+    "instructor": "DFA Course Academy",
+    "instructorSlug": "dfa-course-academy",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/240876498_48e1_2.jpg",
+    "rating": 4.4,
+    "reviews": 19887,
+    "level": "All Level",
+    "duration": "9 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Learn Adobe Firefly and Adobe Photoshop: Explore Text-To-Image 4, Text-To-Video, Generative Fill, Text Effects, and more",
+    "image": "https://img-c.udemycdn.com/course/480x270/5496120_36f0_4.jpg",
+    "url": "https://trk.udemy.com/B5gdKL",
+    "language": "English",
+    "certificate": true,
+    "students": 153603,
+    "sections": 16,
+    "lectures": 81,
+    "access": "Akses",
+    "requirements": "Internet Connection Computer, Laptop or Tablet You don't need any knowledge, I will teach you everything step-by-step from the basics to the most advanced tools & techniques",
+    "learn": [
+      "Learn How to Use All Adobe Firefly Tools to Make Your Designs Stand Out From the Crowd",
+      "Get CONSTANTLY UPDATED Adobe Firefly Features and AI Art Tools With the Latest Tips and Techniques",
+      "Master Prompt Engineering With ChatGPT to Generate Outstanding Prompts in Adobe Firefly",
+      "Adobe Photoshop - Basic Of Photoshop Connected With Adobe Firefly Features & Outpainting Techniques",
+      "Text-To-Image 4 - Turn Your Words Into Outstanding Images",
+      "Text-To-Video - Instantly Generate Videos From Written Descriptions",
+      "Scene-To-Image - Transform a Scene Description Into a Unique Visual",
+      "Image-To-Video - Animate Still Images Into Dynamic AI Videos",
+      "Text Effects - Turn Text Into AI Art From Any Material",
+      "Generative Fill - Replace, Add, Remove Objects & Elements With Precision",
+      "Generative Expand - Expand The Image In Any Directions With Adobe Firefly",
+      "Generative Recolor - Change Quickly Colors Of Any Vector Images",
+      "Text-To-Vector - Convert Simple Text Into Scalable Vector Graphics",
+      "Adobe Boards - Plan and Present Your Projects in a Visual Workspace"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 12,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 10,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 12,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 14,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 9,
+        "duration": "1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 12,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 12,
+        "duration": "1.2h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Hi, I’m Krystian, an instructor passionate about helping people master the future of technology through Artificial Intelligence, automations, and AI-powered creativity.\n\n\n\nMy goal is simple: to make complex topics easy and enjoyable to learn.\n\n\n\nMy mission is to equip you with the precise skills you need to enhance your work, save time, and unleash your creative potential.\n\n\n\nI believe in teaching step-by-step, with short and focused lessons that cut through the noise and deliver only what’s most useful. You won’t find endless theory in my courses - instead, you’ll gain hands-on skills you can apply immediately.\n\n\n\nWhether you’re here to boost your career, grow your business, or explore AI-powered creativity, my courses are designed to guide you every step of the way.\n\n\n\nJoin thousands of learners already building their skills with me, and let’s take your knowledge to the next level together.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Adobe Firefly Ultimate Guide: Become an Adobe Firefly Expert suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.4★ average from 19,887 students, our Udemy course reviews put it above most Adobe Firefly alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Adobe Firefly Ultimate Guide: Become an Adobe Firefly Expert is a all level Adobe Firefly course from DFA Course Academy on Udemy. It runs about 9 hours, and holds 4.4★ from 19,887 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Adobe Firefly",
+    "skipIf": "You already work professionally in Adobe Firefly and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "The Complete Full-Stack Web Development Bootcamp",
+    "slug": "the-complete-full-stack-web-development-bootcamp",
+    "provider": "Udemy",
+    "category": "Web Development",
+    "categorySlug": "web-development",
+    "instructor": "Dr. Angela Yu, Developer and Lead Instructor",
+    "instructorSlug": "dr-angela-yu-developer-and-lead-instructor",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/31334738_a13c_3.jpg",
+    "rating": 4.7,
+    "reviews": 1083312,
+    "level": "All Level",
+    "duration": "61 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps",
+    "image": "https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
+    "url": "https://trk.udemy.com/PzxdOz",
+    "language": "English",
+    "certificate": true,
+    "students": 3584639,
+    "sections": 45,
+    "lectures": 374,
+    "access": "Akses",
+    "requirements": "No programming experience needed - I'll teach you everything you need to know A computer with access to the internet No paid software required I'll walk you through, step-by-step how to get all the software installed and set up",
+    "learn": [
+      "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.",
+      "Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+      "After the course you will be able to build ANY website you want.",
+      "Build fully-fledged websites and web apps for your startup or business.",
+      "Work as a freelance web developer.",
+      "Master frontend development with React",
+      "Master backend development with Node",
+      "Learn professional developer best practices."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 68,
+        "duration": "11.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 42,
+        "duration": "6.8h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 54,
+        "duration": "8.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 45,
+        "duration": "7.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 62,
+        "duration": "10.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 52,
+        "duration": "8.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 51,
+        "duration": "8.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I'm Angela, I'm a developer with a passion for teaching. I'm the lead instructor at the London App Brewery, London's leading Programming Bootcamp. I've helped hundreds of thousands of students learn to code and change their lives by becoming a developer. I've been invited by companies such as Twitter, Facebook and Google to teach their employees.\n\nMy first foray into programming was when I was just 12 years old, wanting to build my own Space Invader game. Since then, I've made hundred of websites, apps and games. But most importantly, I realised that my greatest passion is teaching.\n\nI spend most of my time researching how to make learning to code fun and make hard concepts easy to understand. I apply everything I discover into my bootcamp courses. In my courses, you'll find lots of geeky humour but also lots of explanations and animations to make sure everything is easy to understand.\n\nI'll be there for you every step of the way.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is The Complete Full-Stack Web Development Bootcamp suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 1,083,312 students, our Udemy course reviews put it above most Web Development alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "The Complete Full-Stack Web Development Bootcamp is a all level Web Development course from Dr. Angela Yu, Developer and Lead Instructor on Udemy. It runs about 61 hours, and holds 4.7★ from 1,083,312 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Web Development",
+    "skipIf": "You already work professionally in Web Development and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Chatbot - The Development Guide 2027 (Beginner + Advanced)",
+    "slug": "chatbot-the-development-guide-2027-beginner-advanced",
+    "provider": "Udemy",
+    "category": "Chatbot",
+    "categorySlug": "chatbot",
+    "instructor": "Eric Roby",
+    "instructorSlug": "eric-roby",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/8770618_3cac_6.jpg",
+    "rating": 4.6,
+    "reviews": 25573,
+    "level": "All Level",
+    "duration": "10 hours",
+    "updated": "11/2026",
+    "description": "Create a Chatbot by leveraging and integrating the power of OpenAI, GPT, ChatGPT, DALL-E and FastAPI",
+    "image": "https://img-c.udemycdn.com/course/480x270/5479572_f367_2.jpg",
+    "url": "https://trk.udemy.com/xJM6Ed",
+    "language": "English",
+    "certificate": true,
+    "students": 207186,
+    "sections": 8,
+    "lectures": 142,
+    "access": "Akses",
+    "requirements": "Some prior programming experience in any programming language will help. The course includes a full Python & FastAPI refresher. Understanding of Python, FastAPI and Web Development would be helpful. OpenAI requires a balance of $5 to be added to your account.",
+    "learn": [
+      "Master the modern way to create Chatbots",
+      "Structure and define GPT's output for consistency & clarity",
+      "Boost efficiency by creating a Chatbot that is integrated into your daily life",
+      "Understand the basics of the OpenAI API",
+      "Integrate GPT and create a Chatbot into your personal application",
+      "Learn how to create content and images for your Chatbot & users",
+      "Create a Fullstack application by leveraging the power of FastAPI",
+      "Integrate DALLE-2 API to have your Chatbot generate images"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 18,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 26,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 20,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 18,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 22,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 16,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 22,
+        "duration": "1.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Eric J. Roby is a full stack developer that has worked in the freelance and corporate world solving technical problems to bridge gaps in businesses.\n\nEric made his technical debut when he began learning Java at the age of 14. Since learning Java, Eric has found himself completely addicted with learning technologies.\n\nYou can have full confidence that Eric's courses are of exceptional quality, and that you can be a software developer if you choose so.\n\nEric holds a bachelor's degree in Computer Science, and a Master degree in Quantitive Finance and Eric is dedicated to teaching you how to program like he does.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Chatbot - The Development Guide 2027 (Beginner + Advanced) suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 25,573 students, our Udemy course reviews put it above most Chatbot alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Chatbot - The Development Guide 2027 (Beginner + Advanced) is a all level Chatbot course from Eric Roby on Udemy. It runs about 10 hours, and holds 4.6★ from 25,573 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Chatbot",
+    "skipIf": "You already work professionally in Chatbot and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "FastAPI - The Complete Course 2027 (Beginner + Advanced)",
+    "slug": "fastapi-the-complete-course-2027-beginner-advanced",
+    "provider": "Udemy",
+    "category": "FastAPI",
+    "categorySlug": "fastapi",
+    "instructor": "Eric Roby",
+    "instructorSlug": "eric-roby",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/8770618_3cac_6.jpg",
+    "rating": 4.6,
+    "reviews": 25573,
+    "level": "All Level",
+    "duration": "21.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Dive in and learn FastAPI from scratch! Learn FastAPI, RESTful APIs using Python, SQLAlchemy, OAuth, JWT and way more!",
+    "image": "https://img-c.udemycdn.com/course/480x270/4355412_2065_7.jpg",
+    "url": "https://trk.udemy.com/bkXKWb",
+    "language": "English",
+    "certificate": true,
+    "students": 207186,
+    "sections": 19,
+    "lectures": 242,
+    "access": "Akses",
+    "requirements": "Basic python knowledge. No FastAPI knowledge required.",
+    "learn": [
+      "Develop REAL-TIME RESTful APIs & Full Stack Applications using FastAPI",
+      "Learn to Deploy your FastAPI applications so the whole world can use YOUR app!",
+      "Learn KEY FastAPI features: Modern Authentication, Password Hashing with BCrypt, Authorization, JSON Web Tokens (JWT)",
+      "You will TYPE IN EVERY LINE of code with me in the videos. I EXPLAIN every line of code to help you learn!",
+      "Establish Table Relationships and Deploy Production Ready Databases",
+      "Develop & Deploy professional-grade REST APIs and a Full Stack application with expert instruction",
+      "I am a RESPONSIVE INSTRUCTOR ... post your questions and I will RESPOND in 24 hours.",
+      "You can DOWNLOAD all source code. Perfect for offline LEARNING and REVIEW."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 30,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 48,
+        "duration": "4.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 46,
+        "duration": "4.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 29,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 32,
+        "duration": "2.9h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 29,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 28,
+        "duration": "2.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Eric J. Roby is a full stack developer that has worked in the freelance and corporate world solving technical problems to bridge gaps in businesses.\n\nEric made his technical debut when he began learning Java at the age of 14. Since learning Java, Eric has found himself completely addicted with learning technologies.\n\nYou can have full confidence that Eric's courses are of exceptional quality, and that you can be a software developer if you choose so.\n\nEric holds a bachelor's degree in Computer Science, and a Master degree in Quantitive Finance and Eric is dedicated to teaching you how to program like he does.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is FastAPI - The Complete Course 2027 (Beginner + Advanced) suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 25,573 students, our Udemy course reviews put it above most FastAPI alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "FastAPI - The Complete Course 2027 (Beginner + Advanced) is a all level FastAPI course from Eric Roby on Udemy. It runs about 21.5 hours, and holds 4.6★ from 25,573 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through FastAPI",
+    "skipIf": "You already work professionally in FastAPI and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "The Complete Shopify Dropshipping Masterclass 2027",
+    "slug": "the-complete-shopify-dropshipping-masterclass-2027",
+    "provider": "Udemy",
+    "category": "Shopify Dropshipping",
+    "categorySlug": "shopify-dropshipping",
+    "instructor": "Robin & Jesper",
+    "instructorSlug": "robin-jesper",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/36921905_7a32_8.jpg",
+    "rating": 4.5,
+    "reviews": 113178,
+    "level": "All Level",
+    "duration": "9 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Make Money Online, Build a Successful eCommerce Business with Shopify Dropshipping, Aliexpress from Scratch with DSers",
+    "image": "https://i.udemycdn.com/course/480x270/1869286_61fe_12.jpg",
+    "url": "https://trk.udemy.com/xJMvVy",
+    "language": "English",
+    "certificate": true,
+    "students": 609517,
+    "sections": 10,
+    "lectures": 81,
+    "access": "Akses",
+    "requirements": "A Computer with internet connection Willingness to Pay for a Shopify subscription.",
+    "learn": [
+      "Build a Shopify Dropshipping Store.",
+      "Business Setup.",
+      "Choose Profitable Markets.",
+      "Choose Profitable Products.",
+      "Order Management & Fulfilment.",
+      "Drive Traffic.",
+      "Sales Increasing Techniques.",
+      "Build Niche Stores.",
+      "Abandoned Cart Recovery.",
+      "Copywriting."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 11,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 8,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 11,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 12,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 14,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 10,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 15,
+        "duration": "1.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "There's no greater joy than watching beautiful testimonials of people achieving their goals and dreams. That's why we STRONGLY believe in full and constant support. With ALL of our courses you can expect:\n\n Practical Courses - Hands-on Teaching for Real World Results.\n\nStep-by-step Instructions - Maximize Your Learning.\n\nUnlimited Premium Support Within 24 Hours - Guaranteed Learning.\n\nIf you're interested in learning Digital Marketing, WordPress or ChatGPT.\n\nWe're at your service.\n\nLove\n\nRobin & Jesper",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is The Complete Shopify Dropshipping Masterclass 2027 suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 113,178 students, our Udemy course reviews put it above most Shopify Dropshipping alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "The Complete Shopify Dropshipping Masterclass 2027 is a all level Shopify Dropshipping course from Robin & Jesper on Udemy. It runs about 9 hours, and holds 4.5★ from 113,178 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Shopify Dropshipping",
+    "skipIf": "You already work professionally in Shopify Dropshipping and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Powerful Social Media Marketing: From Beginner to Advanced",
+    "slug": "powerful-social-media-marketing-from-beginner-to-advanced",
+    "provider": "Udemy",
+    "category": "Social Media Management",
+    "categorySlug": "social-media-management",
+    "instructor": "Maggie Stara",
+    "instructorSlug": "maggie-stara",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/18924688_6b66_13.jpg",
+    "rating": 4.6,
+    "reviews": 17773,
+    "level": "All Level",
+    "duration": "12.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Master Social Media Management in 2026 Including Meta Ads, Canva Creation, AI Tools, Strategy And More!",
+    "image": "https://img-c.udemycdn.com/course/480x270/1217488_2374_11.jpg",
+    "url": "https://trk.udemy.com/enzBkX",
+    "language": "English",
+    "certificate": true,
+    "students": 114411,
+    "sections": 10,
+    "lectures": 92,
+    "access": "Akses",
+    "moneyBack": true,
+    "summary": "Powerful Social Media Marketing: From Beginner to Advanced is a all level Social Media Management course from Maggie Stara on Udemy. It runs about 12.5 hours, and holds 4.6★ from 17,773 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Social Media Management",
+    "skipIf": "You already work professionally in Social Media Management and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "Just a basic understanding of social media and a positive attitude! It will help if you have access to a laptop but you can follow along on your phone or tablet as well",
+    "learn": [
+      "Understand your own purpose within your career as a social media marketing professional",
+      "Create captivating graphics, GIFs and videos for various social media platforms",
+      "Leverage automation tools to optimise your workflow and save your client previous time and money!",
+      "Conduct an audit and create an impressive social media strategy, specific to individual client needs",
+      "Understand how to analyse your performance and make adjustments to your strategy",
+      "Learn about the latest AI tools and how to use them for social media",
+      "Go from being a complete beginner in the world of social media to a professional social media manager, ready to take on any client!"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 11,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 11,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 14,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 16,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 15,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 13,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 12,
+        "duration": "1.7h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hey I’m Maggie - your creative instructor!\n\nI was first introduced to the world of social media marketing in 2016. I was SO excited about the possibility of working online but I was really struggling with the lack of honest, authentic, and high-quality information out there for beginners. So before I even began working in this world, I knew one day I'd want to create the kind of high-quality resources for aspiring marketers that I felt were missing in this space.\n\n\n\nWhy my courses\n\nMy online skills have led to working with an exciting range of talented people, from sole traders to multi-million dollar businesses. And in addition to working as a freelancer, I've also worked in a digital marketing agency and an in-house corporate role. With this wide range of hands-on experiences, I am now able to teach impactful marketing courses designed with other creative overachievers in mind. So you can feel confident that my courses are made by someone who knows exactly how intimidating it can be to be trying to master 20 tools at once and stay on top of constant updates with each of them. And I hope to take away some of the overwhelm and make you feel like you're not alone in this.\n\n\n\nWhy I love what I do:\n\nI'm originally from Slovakia, spent 10 years living in Canada, lived out of a backpack for a few years while working as a tour guide in Europe and have now been living in Australia since 2015. And my dream was always to be able to not be attached to physical office space and I'm so happy to say that becoming a freelancer has allowed me to continue my happy nomadic life and take my work with me to amazing places like Bali, Thailand, Cambodia and others.\n\n\n\nBut since becoming a mom in 2023, my vision of 'freedom' looks a little less like laptops on a beach and a lot more like just getting to spend more time on the things (and people) that matter the most. (Though to be honest, we flew with my son three times before he was seven months old, so travel is still a huge part of my life.)\n\n\n\nWhere you come in:\n\nNow, my ultimate goal is to continuously keep improving as an instructor, empowering you to be excited about your future in the digital world, having learned valuable new skills within this exciting world of online marketing. :)\n\nI couldn't live the life I live and do what I love to do every day without you, so from the bottom of my heart thank you for being here and giving me your valuable time - I can't wait to see you in my courses!",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0,
+      "video": 0,
+      "instructor": 0,
+      "pace": 0,
+      "depth": 0,
+      "total": 0
+    },
+    "faq": [
+      {
+        "q": "Is Powerful Social Media Marketing: From Beginner to Advanced suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 17,773 students, our Udemy course reviews put it above most Social Media Management alternatives."
+      }
+    ]
+  },
+  {
+    "title": "Introduction to Reliability Engineering",
+    "slug": "introduction-to-reliability-engineering",
+    "provider": "Udemy",
+    "category": "Reliability Engineering",
+    "categorySlug": "reliability-engineering",
+    "instructor": "Ray Harkins, The Manufacturing Academy",
+    "instructorSlug": "ray-harkins-the-manufacturing-academy",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/35233328_87b8.jpg",
+    "rating": 4.6,
+    "reviews": 59761,
+    "level": "All Level",
+    "duration": "5.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Learn reliability engineering tools to reduce failures, improve product performance, and ensure quality",
+    "image": "https://img-c.udemycdn.com/course/480x270/2513962_7e40_4.jpg",
+    "url": "https://trk.udemy.com/7XPxnd",
+    "language": "English",
+    "certificate": true,
+    "students": 14306,
+    "sections": 1,
+    "lectures": 43,
+    "access": "Akses",
+    "requirements": "Basic math and Excel skill are helpful An understanding of manufacturing is also helpful",
+    "learn": [
+      "What is Reliability and How is it Measured",
+      "Why Things Fail",
+      "The Fundamentals of Strength-Stress Analysis",
+      "The Basics of the Normal and Exponential Distributions",
+      "Z-Score and how it's used in Strength-Stress Analysis",
+      "Introductions to Life Testing, Accelerated Life Testing (ALT), Highly Accelerated Life Testing (HALT), and Highly Accelerated Stress Screening (HASS)",
+      "The \"Bathtub\" or Weibull Curve",
+      "Reliability Block Diagrams",
+      "Redundancy, Preventive/Predictive Maintenance, and Derating and Methods for Improving Reliability",
+      "How Reliability Engineering is a key component in the product design and manufacturing processes",
+      "And much more!!"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 43,
+        "duration": "5.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Ray Harkins is a senior manufacturing leader, educator, and founder of The Manufacturing Academy, with more than 30 years of experience in manufacturing engineering, quality engineering and management, and operations leadership. He currently serves as a General Manager in manufacturing, overseeing operations, quality, engineering, and continuous improvement while remaining actively engaged in solving the day-to-day challenges faced by manufacturers.\n\nAfter beginning his career in manufacturing engineering, Ray expanded into quality and operations leadership, working alongside leading industry professionals throughout North America and Japan and touring hundreds of manufacturing facilities. These experiences shaped his belief that manufacturing professionals deserve practical training that they can immediately apply to improve quality, productivity, and their careers.\n\nThat philosophy has guided the development of more than 60 online courses covering Lean Six Sigma, Statistical Process Control, Supply Chain Analytics, Manufacturing Leadership, Reliability Engineering, and Operations Management. His courses are used by individual professionals and corporate training departments worldwide and have helped more than 140,000 students build practical skills and advance their careers.\n\nRay's goal is simple: to make complex engineering and management concepts accessible, practical, and immediately useful. Every course is designed with the realities of the manufacturing floor in mind, emphasizing clear explanations, real-world examples, and practical application rather than theory alone.\n\nHe earned a Bachelor of Science in Mechanical Technology from the University of Akron, a Master of Science in Manufacturing Leadership and Project Management from Rochester Institute of Technology, and a Master of Business Administration from Youngstown State University. He also earned four certifications from the American Society for Quality (ASQ): Certified Quality Engineer (CQE), Certified Quality Auditor (CQA), Certified Quality Technician (CQT), and Certified Calibration Technician (CCT).\n\nIn addition to teaching, Ray has written extensively on quality engineering, manufacturing, and career development for national trade publications and industry organizations. Many of his courses are also available through Udemy Business for organizations seeking scalable, high-quality training solutions.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Introduction to Reliability Engineering suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 59,761 students, our Udemy course reviews put it above most Reliability Engineering alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Introduction to Reliability Engineering is a all level Reliability Engineering course from Ray Harkins, The Manufacturing Academy on Udemy. It runs about 5.5 hours, and holds 4.6★ from 59,761 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Reliability Engineering",
+    "skipIf": "You already work professionally in Reliability Engineering and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "The Complete WordPress & SEO Masterclass 2027",
+    "slug": "the-complete-wordpress-seo-masterclass-2027",
+    "provider": "Udemy",
+    "category": "WordPress",
+    "categorySlug": "wordpress",
+    "instructor": "Robin & Jesper",
+    "instructorSlug": "robin-jesper",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/36921905_7a32_8.jpg",
+    "rating": 4.5,
+    "reviews": 113178,
+    "level": "All Level",
+    "duration": "42.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Build a WordPress Website with ChatGPT, SEO & Prompt Engineering. Learn Web Development, Elementor, Design, Woocommerce.",
+    "image": "https://img-c.udemycdn.com/course/480x270/2269982_1507_9.jpg",
+    "url": "https://trk.udemy.com/qWMNZg",
+    "language": "English",
+    "certificate": true,
+    "students": 29175,
+    "sections": 31,
+    "lectures": 308,
+    "access": "Akses",
+    "requirements": "A Computer with Internet Connection Willingness to Pay a Few Dollars for Website Hosting.",
+    "learn": [
+      "Professional WordPress Website Creation.",
+      "Web Development.",
+      "Website Design.",
+      "Website Security.",
+      "SEO.",
+      "Drive Traffic.",
+      "Keyword Research.",
+      "SEO with Prompt Engineering.",
+      "SEO Ranking Techniques.",
+      "Copywriting.",
+      "Off-Page SEO",
+      "On-Page SEO",
+      "Mobile Optimizations."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 52,
+        "duration": "7.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 40,
+        "duration": "5.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 40,
+        "duration": "5.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 44,
+        "duration": "6.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 53,
+        "duration": "7.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 39,
+        "duration": "5.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 40,
+        "duration": "5.4h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "There's no greater joy than watching beautiful testimonials of people achieving their goals and dreams. That's why we STRONGLY believe in full and constant support. With ALL of our courses you can expect:\n\n Practical Courses - Hands-on Teaching for Real World Results.\n\nStep-by-step Instructions - Maximize Your Learning.\n\nUnlimited Premium Support Within 24 Hours - Guaranteed Learning.\n\nIf you're interested in learning Digital Marketing, WordPress or ChatGPT.\n\nWe're at your service.\n\nLove\n\nRobin & Jesper",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is The Complete WordPress & SEO Masterclass 2027 suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 113,178 students, our Udemy course reviews put it above most WordPress alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "The Complete WordPress & SEO Masterclass 2027 is a all level WordPress course from Robin & Jesper on Udemy. It runs about 42.5 hours, and holds 4.5★ from 113,178 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through WordPress",
+    "skipIf": "You already work professionally in WordPress and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "The Social Media Marketing & Management Masterclass 2027",
+    "slug": "the-social-media-marketing-management-masterclass-2027",
+    "provider": "Udemy",
+    "category": "Social Media Marketing",
+    "categorySlug": "social-media-marketing",
+    "instructor": "Robin & Jesper",
+    "instructorSlug": "robin-jesper",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/36921905_7a32_8.jpg",
+    "rating": 4.5,
+    "reviews": 113178,
+    "level": "All Level",
+    "duration": "36 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Master Social Media Marketing and Management, Digital Marketing, Facebook Ads, Instagram, YouTube, Build a Strategy.",
+    "image": "https://img-c.udemycdn.com/course/480x270/2152586_d09a_23.jpg",
+    "url": "https://trk.udemy.com/3kQOAv",
+    "language": "English",
+    "certificate": true,
+    "students": 57185,
+    "sections": 27,
+    "lectures": 331,
+    "access": "Akses",
+    "requirements": "A Computer or a Smartphone with internet connection",
+    "learn": [
+      "Social Media Marketing.",
+      "Social Media Advertising.",
+      "Social Media Management.",
+      "Grow an Online Audience.",
+      "Freelancing.",
+      "Become an Influencer.",
+      "Get Hired."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 37,
+        "duration": "4.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 35,
+        "duration": "3.8h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 34,
+        "duration": "3.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 55,
+        "duration": "5.9h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 52,
+        "duration": "5.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 57,
+        "duration": "6.2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 61,
+        "duration": "6.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "There's no greater joy than watching beautiful testimonials of people achieving their goals and dreams. That's why we STRONGLY believe in full and constant support. With ALL of our courses you can expect:\n\n Practical Courses - Hands-on Teaching for Real World Results.\n\nStep-by-step Instructions - Maximize Your Learning.\n\nUnlimited Premium Support Within 24 Hours - Guaranteed Learning.\n\nIf you're interested in learning Digital Marketing, WordPress or ChatGPT.\n\nWe're at your service.\n\nLove\n\nRobin & Jesper",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is The Social Media Marketing & Management Masterclass 2027 suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 113,178 students, our Udemy course reviews put it above most Social Media Marketing alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "The Social Media Marketing & Management Masterclass 2027 is a all level Social Media Marketing course from Robin & Jesper on Udemy. It runs about 36 hours, and holds 4.5★ from 113,178 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Social Media Marketing",
+    "skipIf": "You already work professionally in Social Media Marketing and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "AI Engineer Bootcamp 2027: LLM, RAG, AI Agents, MCP (Python)",
+    "slug": "ai-engineer-bootcamp-2027-llm-rag-ai-agents-mcp-python",
+    "provider": "Udemy",
+    "category": "AI Agents & Agentic AI",
+    "categorySlug": "ai-agents-agentic-ai",
+    "instructor": "Bahadır ERDUN",
+    "instructorSlug": "bahadr-erdun",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/49164036_1db8_2.jpg",
+    "rating": 4.4,
+    "reviews": 44,
+    "level": "all level",
+    "duration": "11 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Learn AI engineering in Python: prompt engineering, RAG, tool calling, AI agents, LangGraph, MCP, Ollama. Build Jarvis",
+    "image": "https://img-c.udemycdn.com/course/480x270/7403207_d7a7.jpg",
+    "url": "https://trk.udemy.com/3kQXbM",
+    "language": "English",
+    "certificate": true,
+    "students": 554,
+    "sections": 11,
+    "lectures": 80,
+    "access": "Akses",
+    "requirements": "course are explained briefly the first time they appear, and there are two \"Python for AI\" lessons. Python 3.14 and VS Code should be installed. If you don't know how, that's fine: the first lesson shows how to install Python, VS Code and Ollama on a clean PC step by step, and a written setup guide (PDF) is included in the course files. A Windows, macOS or Linux computer. At least 8 GB of RAM is recommended for the local model lessons; a GPU is not required. An OpenAI API key (paid; the calls in the lessons cost fractions of a cent, and we show how to set a spending limit). Gemini and local model (Ollama) options are covered too. No AI or machine learning knowledge is needed.",
+    "learn": [
+      "Call OpenAI-compatible APIs from Python and understand messages, roles, system prompts, tokens and cost",
+      "Use OpenAI, Gemini and Ollama with one codebase, and learn how the Claude SDK differs",
+      "Build a streaming chat screen with Streamlit and manage conversation history",
+      "Get reliable structured output from a model with JSON and pydantic schemas",
+      "Test LLM apps with a fake model and pytest, without any network calls",
+      "Build semantic search and a semantic cache with embeddings and cosine similarity",
+      "Build a RAG system that answers questions about PDFs: chunking, thresholds, citing sources, preventing hallucinations",
+      "Build tool calling by hand and then natively, and add approval and undo to tools that write",
+      "Write a think-act-observe (ReAct) agent by hand, make it safe and rebuild it with LangGraph",
+      "Write an MCP server and connect your app to other MCP servers",
+      "Run local models with Ollama and route requests local first, cloud when the local model doesn't know",
+      "Round off the app with speech (Whisper, TTS), vision, evals, cost measurement and prompt injection defenses"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 14,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 11,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 11,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 12,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 11,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 12,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 9,
+        "duration": "1.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Over the last few years my focus has shifted to applied AI engineering: building real products on top of large language models rather than only talking about them. I design and build AI assistants and chatbots for business applications and websites. In Cuvion CRM, a CRM/ERP product I develop with cloud and on-premise (Docker) editions, the AI layer writes account summaries, suggests next steps, scores leads, answers natural-language queries and drafts e-mails; personal data is masked before it reaches the model, several AI providers are supported, the on-premise edition runs local models (Ollama), and the website assistant answers visitors' questions from the site content with RAG. I train and fine-tune models on cloud GPUs (H100 on RunPod) as well as my own workstation, including training a small Turkish language model from scratch, and I use AI coding agents every day in production projects. My courses grow directly out of this hands-on work: every lesson is a small runnable project, and every claim in a lesson is tested before it is recorded.\n\nUntil mid-2026 I worked at a Microsoft Partner company, providing full-time outsourced support to the investment arm of a major bank on software development and application security: Dynamics 365 CRM integration with core banking systems, and finding and closing vulnerabilities (OWASP, IDOR, CSRF, header hardening). I keep a public, sanitised library of 53 real vulnerability findings from that work, each with the vulnerable code, the fix and its CWE/OWASP mapping. Today I work independently, focusing on AI engineering projects and consultancy, and I continue to deliver corporate and individual training through professional training partners and the Udemy platform.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is AI Engineer Bootcamp 2027: LLM, RAG, AI Agents, MCP (Python) suitable for beginners?",
+        "a": "Yes — it is rated \"all level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.4★ average from 44 students, our Udemy course reviews put it above most AI Agents & Agentic AI alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "AI Engineer Bootcamp 2027: LLM, RAG, AI Agents, MCP (Python) is a all level AI Agents & Agentic AI course from Bahadır ERDUN on Udemy. It runs about 11 hours, and holds 4.4★ from 44 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through AI Agents & Agentic AI",
+    "skipIf": "You already work professionally in AI Agents & Agentic AI and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "C# 14 - Ultimate Guide - Beginner to Advanced | Master class",
+    "slug": "c-14-ultimate-guide-beginner-to-advanced-master-class",
+    "provider": "Udemy",
+    "category": "C# (programming language)",
+    "categorySlug": "c-programming-language",
+    "instructor": "Web Academy by Harsha Vardhan",
+    "instructorSlug": "web-academy-by-harsha-vardhan",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/41532630_f626_4.jpg",
+    "rating": 4.6,
+    "reviews": 28524,
+    "level": "All Level",
+    "duration": "76.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Learn C# by doing | C# projects | Bootcamp for C# Interview | Advanced C# | .NET 9 | LINQ | Interview Questions",
+    "image": "https://img-c.udemycdn.com/course/480x270/3237889_1bcc_2.jpg",
+    "url": "https://trk.udemy.com/VOPRJE",
+    "language": "English",
+    "certificate": true,
+    "students": 39032,
+    "sections": 40,
+    "lectures": 489,
+    "access": "Akses",
+    "requirements": "Basic programming skills (Basic level) in any one programming language (such as 'C' language) is recommended",
+    "learn": [
+      "Confidently speak about most of the essential concepts of C#",
+      "Crack C# job interviews easier",
+      "Solve most common bugs and issues in C# applications",
+      "Understand further technologies of .net (in future), such as Asp .Net, Asp .Net Core, Xamarin etc. easier, with strong-base knowledge of C#",
+      "Create C# Apps from scratch and scale it up to any level",
+      "Write OOP code easier with industry-standards and best practices like a Pro",
+      "Add C# to your prior knowledge of any technology (Asp .Net Core, Xamarin, Unity etc.), to get new career opportunities"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 56,
+        "duration": "8.7h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 60,
+        "duration": "9.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 81,
+        "duration": "12.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 69,
+        "duration": "10.8h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 72,
+        "duration": "11.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 80,
+        "duration": "12.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 71,
+        "duration": "11.3h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "My strength is I can make complicated things simple and will provide detailed knowledge about each and every concept, and I will be happy if people learn skills from my videos and build their careers.\n\n\n\nI am a web & frontend lover, developer, architect, instructor to make web easy for you.\n\n\n\nMy expertise is mostly on following technologies:\n\nC#, Asp.Net Core, Microservices, Azure, Asp.Net Mvc, Asp.Net, Python, React, Angular, JavaScript, jQuery, Bootstrap, NodeJS, HTML, CSS\n\n\n\nThis is not an academic university but an online learning channel.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is C# 14 - Ultimate Guide - Beginner to Advanced | Master class suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 28,524 students, our Udemy course reviews put it above most C# (programming language) alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "C# 14 - Ultimate Guide - Beginner to Advanced | Master class is a all level C# (programming language) course from Web Academy by Harsha Vardhan on Udemy. It runs about 76.5 hours, and holds 4.6★ from 28,524 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through C# (programming language)",
+    "skipIf": "You already work professionally in C# (programming language) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "2027 Bootcamp: How to become an AI Consultant",
+    "slug": "2027-bootcamp-how-to-become-an-ai-consultant",
+    "provider": "Udemy",
+    "category": "Generative AI (GenAI)",
+    "categorySlug": "generative-ai-genai",
+    "instructor": "Julio Colomer",
+    "instructorSlug": "julio-colomer",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/26746922_60ad_4.jpg",
+    "rating": 4.3,
+    "reviews": 8565,
+    "level": "All Level",
+    "duration": "19.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Learn how to successfully introduce Generative AI in a company",
+    "image": "https://img-c.udemycdn.com/course/480x270/7191061_480a_3.jpg",
+    "url": "https://trk.udemy.com/k46Q5d",
+    "language": "English",
+    "certificate": true,
+    "students": 71812,
+    "sections": 27,
+    "lectures": 139,
+    "access": "Akses",
+    "requirements": "No previous technical knowledge is required. Students with some prior knowledge will improve their professional preparation.",
+    "learn": [
+      "Complete methodology for the Adoption of Generative AI in a company",
+      "Understand the technology stack they need to adopt AI",
+      "Identify and prioritize areas where AI can deliver value",
+      "Design Generative AI projects",
+      "That meet the requirements of technical and financial directors",
+      "That comply with regulations and usage policies",
+      "Hire and supervise AI Engineers",
+      "Verify the execution of the pilot project",
+      "Train project users",
+      "Implement a success metrics system",
+      "Ensure the permanent adoption of AI across the company"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 15,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 18,
+        "duration": "2.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 26,
+        "duration": "3.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 18,
+        "duration": "2.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 21,
+        "duration": "2.9h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 22,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 19,
+        "duration": "2.7h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "CEO of AI Accelera (United States, Canada, Australia, India, UE) and Aceleradora AI (Spain and Latam). Trained +71,000 students from +33,500 top companies of +164 countries. Author of 7 books on Gen AI, Prompt Engineering, AI Agents, AI Startups, AI Consulting, and Agent Engineering. Worked 10 years in Silicon Valley. Always open to meet new business opportunities and collaborate.\n\nPassionate about Generative AI, LLM Apps, AI Agents, and the new AI Coding Assistants like Cursor AI. The day chatGPT was launched, it was clear to me that Generative Artificial Intelligence was going to be my main focus for the next few years, a field in which I had to learn many new things and in which I could apply many of the lessons learned in my previous roles with (Software as a Service) SaaS companies.\n\nGenerative AI, LLM Apps, AI Agents, and the new AI Coding Assistants like Cursor AI have all the components I'm passionate about: huge potential, real-time innovation, and a global community of enthusiasts that speaks three languages I understand well: English, software, and Silicon Valley.\n\nGenerative AI has already begun to change everything, including the very disciplines on which it is based (Machine Learning, Deep Learning, Data Science, etc). At this exciting moment in history, it's more important than ever to experiment extensively, join forces, and be part of good teams.\n\nIn my previous roles I founded, programmed version 1.0, and led a SaaS (Software as a Service) startup that closed 5 investment rounds, recruiting and coordinating an international team of 12 people with the formidable support of a team of high-level advisors (VP of Dell Computers, VP of Flywire, VP of Cloudinary, and VP of Carto among others) and more than 30 professional investors.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is 2027 Bootcamp: How to become an AI Consultant suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.3★ average from 8,565 students, our Udemy course reviews put it above most Generative AI (GenAI) alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "2027 Bootcamp: How to become an AI Consultant is a all level Generative AI (GenAI) course from Julio Colomer on Udemy. It runs about 19.5 hours, and holds 4.3★ from 8,565 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Generative AI (GenAI)",
+    "skipIf": "You already work professionally in Generative AI (GenAI) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Vibe Coding Bootcamp: Build Any App, Game or Website with AI",
+    "slug": "vibe-coding-bootcamp-build-any-app-game-or-website-with-ai",
+    "provider": "Udemy",
+    "category": "Vibe Coding",
+    "categorySlug": "vibe-coding",
+    "instructor": "Ivan Lourenço Gomes",
+    "instructorSlug": "ivan-loureno-gomes",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/28208536_78ad_23.jpg",
+    "rating": 4.5,
+    "reviews": 58232,
+    "level": "All Level",
+    "duration": "4 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "AI Web Development with ChatGPT, Claude, Gemini & Github Copilot – Build & Deploy Production Apps with Vibe Coding Tools",
+    "image": "https://img-c.udemycdn.com/course/480x270/6656669_927d_3.jpg",
+    "url": "https://trk.udemy.com/4a9Rb9",
+    "language": "English",
+    "certificate": true,
+    "students": 14053,
+    "sections": 4,
+    "lectures": 47,
+    "access": "Akses",
+    "requirements": "No prior experience with AI tools is required, this course is beginner-friendly and will guide you step by step. Basic knowledge of HTML, CSS, and JavaScript is helpful, but not mandatory.",
+    "learn": [
+      "Use AI tools like ChatGPT, Claude, Gemini, and GitHub Copilot to design, build, and deploy complete web applications.",
+      "Create full-stack projects with user authentication, databases, and custom features using platforms like Replit & Lovable.",
+      "Apply modern web development best practices, including component architecture, scoped styles, unit testing, and state management guided by AI.",
+      "Translate Figma prototypes into pixel-perfect websites by combining prompt engineering techniques with AI coding assistants."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 11,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 17,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 10,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 9,
+        "duration": "0.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Ivan is a leading tech educator on Udemy.\n\nWith 30+ courses under his belt and a community of over 500,000 students worldwide, Ivan's here to guide you through the tech and business skills you need today.\n\nWith a solid experience of 18 years in various business and technology sectors, Ivan has dedicated himself since 2016 to transforming his expertise into accessible learning paths for a global audience.\n\nRenowned for a dynamic teaching style that mixes project-based learning with incremental challenges, his courses are the right fit for you, whether you're just starting your learning journey or looking to deepen existing skills.\n\nHis courses cover essential foundations and cutting-edge trends in technology and business communication:\n\n• Web Development Essentials: Dive into the world of web development with courses on HTML/CSS and Javascript, and master the art of creating engaging, responsive websites.\n\n• Advanced Frontend Frameworks: Elevate your web projects with Vue JS, React JS & TypeScript, focusing on building dynamic, user-centric applications.\n\n• Software Best Practices: Gain proficiency in Git for version control, ensuring your projects are managed with industry-standard efficiency.\n\n• Data Analysis & Visualization: Unlock the power of data with Microsoft Excel, & Python from basics to advanced data analysis techniques.\n\n• Web Performance: Take your Website to the top of your industry by mastering the Core Web Vitals & Web Performance best practices.\n\n• Professional Communication: Enhance your career with Business English, Email Writing, and Etiquette, essential skills for the modern professional.\n\nEach course is designed to not just teach, but to engage, challenge, and inspire students.\n\nEmbark on a learning journey with Ivan and accelerate your professional growth.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Vibe Coding Bootcamp: Build Any App, Game or Website with AI suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 58,232 students, our Udemy course reviews put it above most Vibe Coding alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Vibe Coding Bootcamp: Build Any App, Game or Website with AI is a all level Vibe Coding course from Ivan Lourenço Gomes on Udemy. It runs about 4 hours, and holds 4.5★ from 58,232 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Vibe Coding",
+    "skipIf": "You already work professionally in Vibe Coding and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "ChatGPT Work, GPT-6 Astra, and Codex Masterclass [2026]",
+    "slug": "chatgpt-work-gpt-6-astra-and-codex-masterclass-2026",
+    "provider": "Udemy",
+    "category": "OpenAI Codex",
+    "categorySlug": "openai-codex",
+    "instructor": "Prof. Ryan Ahmed, PhD, MBA",
+    "instructorSlug": "prof-ryan-ahmed-phd-mba",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/23449198_c519_34.jpg",
+    "rating": 4.5,
+    "reviews": 127243,
+    "level": "All Level",
+    "duration": "25.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Master GPT-6 Astra, ChatGPT Work, Codex, Plugins and Skills to Build AI Apps, Automate Business and Deploy AI Agents",
+    "image": "https://img-c.udemycdn.com/course/480x270/7319201_8082_5.jpg",
+    "url": "https://trk.udemy.com/WO5J1P",
+    "language": "English",
+    "certificate": true,
+    "students": 2863,
+    "sections": 22,
+    "lectures": 187,
+    "access": "Akses",
+    "requirements": "No programming experience is required, the course is open to anyone with a laptop and internet connection!",
+    "learn": [
+      "Master ChatGPT Work and Codex to research, analyze, create, build, and automate real-world knowledge-work and business workflows.",
+      "Know when to use ChatGPT Work vs. Codex, and apply prompting, Meta Prompting, and context techniques for better results.",
+      "Use Agent Skills and Plugins to extend AI capabilities and create reusable workflows for specialized tasks.",
+      "Build custom AI Skills and repeatable automations for research, monitoring, content creation, and business processes.",
+      "Connect AI with Gmail, Google Calendar, Google Drive, Canva, and other tools using plugins, connectors, and MCP.",
+      "Create professional presentations, reports, dashboards, spreadsheets, documents, marketing assets, and websites.",
+      "Build interactive apps, internal tools, websites, and browser games with Codex and agentic development workflows.",
+      "Use Codex and browser automation for competitor research, market intelligence, positioning decks, and infographics.",
+      "Analyze datasets, uncover insights, create visualizations, and build interactive dashboards with ChatGPT Work and Codex.",
+      "Automate recurring work with scheduled tasks, browser automation, Computer Use, voice agents, and remote workflows.",
+      "Apply Codex to forecasting and quantitative analysis using models such as ARIMA, SARIMA, and Prophet.",
+      "Design multi-agent systems that divide complex projects across specialized AI agents from research to final delivery."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 32,
+        "duration": "4.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 32,
+        "duration": "4.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 23,
+        "duration": "3.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 20,
+        "duration": "2.7h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 33,
+        "duration": "4.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 28,
+        "duration": "3.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 19,
+        "duration": "2.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I'm Dr. Ryan Ahmed, professor, engineer, and founder of Stemplicity, where we help people get past the hype and actually build things with AI, Agentic AI, Cloud, and Data Science.\n\nOver the past 10 years, I've taught 1 million learners across 160 countries — 700,000+ enrolled in my Udemy courses, 260,000+ subscribers on the \"Prof. Ryan Ahmed\" YouTube channel, and 120,000+ on Coursera. I also run corporate AI training for teams at HSBC, RBC, Discover, and Barclays across the US, Canada, and the UK. I held leadership roles at GM, Samsung, and Stellantis in Canada and the U.S., working on electric and autonomous vehicle technologies.\n\nI hold a MASc, PhD, and MBA from McMaster University. I’m also a licensed Professional Engineer and a Stanford-certified program manager with over 60+ published research papers in AI and battery systems.\n\nBut credentials are the least interesting part. Here's what I actually believe: \"AI is the biggest opportunity of our lifetime\", and most people are sitting it out because they think they need to code or have a PhD. You don't. If you're willing to show up and try, I'll help you get good at this.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is ChatGPT Work, GPT-6 Astra, and Codex Masterclass [2026] suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 127,243 students, our Udemy course reviews put it above most OpenAI Codex alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "ChatGPT Work, GPT-6 Astra, and Codex Masterclass [2026] is a all level OpenAI Codex course from Prof. Ryan Ahmed, PhD, MBA on Udemy. It runs about 25.5 hours, and holds 4.5★ from 127,243 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through OpenAI Codex",
+    "skipIf": "You already work professionally in OpenAI Codex and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Revit MEP Beginners to Advanced (Contractor Services)",
+    "slug": "revit-mep-beginners-to-advanced-contractor-services",
+    "provider": "Udemy",
+    "category": "Revit",
+    "categorySlug": "revit",
+    "instructor": "BIM it! AEC",
+    "instructorSlug": "bim-it-aec",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/39389846_a549_9.jpg",
+    "rating": 4.7,
+    "reviews": 3387,
+    "level": "All Level",
+    "duration": "21.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "The course is suitable for Revit 2020 and later versions up to Revit 2027",
+    "image": "https://img-c.udemycdn.com/course/480x270/3878900_3895_7.jpg",
+    "url": "https://trk.udemy.com/k46QYn",
+    "language": "English",
+    "certificate": true,
+    "students": 12810,
+    "sections": 9,
+    "lectures": 68,
+    "requirements": "Be able to read MEP drawings Need to install a trial of Autodesk Revit 2020 or later versions up to Revit 2025",
+    "learn": [
+      "1) Project Setup",
+      "2) 2D to 3D model creation",
+      "3) MEP coordination by finding the clashes and solving them",
+      "4) Prepare the builders work by using dynamo",
+      "5) Extract the coordinated shop drawings and builders work",
+      "6) Schedules and material take off extraction",
+      "7) MEP Composite Drawing",
+      "8) Where and How to Add Access Panels",
+      "9) AI & Revit"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 7,
+        "duration": "2.3h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 12,
+        "duration": "3.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 10,
+        "duration": "3.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 11,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 8,
+        "duration": "2.5h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 11,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 9,
+        "duration": "3.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "BIM Manager, Revit and Navisworks Instructor with over than 12 years of experience delivering complex, large-scale construction projects across Europe and the Middle East. Specialized in leading BIM implementation, coordinating multidisciplinary teams, and driving efficiency through digital workflows and automation. Passionate about bridging the gap between theory and real-world application in BIM.\n\nVision\n\n* To empower engineers and professionals worldwide by sharing practical BIM knowledge that drives smarter, more efficient construction practices.\n\nMission\n\n* Lead BIM teams in developing high-quality 3D building information models based on design drawings and technical specifications.\n\n* Oversee and streamline multidisciplinary coordination processes to ensure clash-free, constructible models.\n\n* Manage the production, review, and submission of coordinated shop drawings to project stakeholders.\n\n* Incorporate consultant feedback and ensure timely revision of deliverables.\n\n* Generate precise material take-offs to support cost estimation and procurement.\n* Integrate and manage models from multiple subcontractors within a unified BIM environment.\n* Maintain and update BIM documentation in line with project requirements and standards.\n\n* Develop Dynamo scripts and automation workflows to enhance productivity and reduce manual effort.\n\n* Produce accurate progress monitoring and performance reports.\n\n* Analyze Employer’s Information Requirements (EIR) and develop comprehensive BIM Execution Plans (BEP).\n\n* Prepare detailed handover documentation to support facility management and operations.\n\n* Train and mentor engineers and students in BIM methodologies and tools, including Revit, Aecosim, BricsCAD, and Navisworks.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Revit MEP Beginners to Advanced (Contractor Services) suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 3,387 students, our Udemy course reviews put it above most Revit alternatives."
+      }
+    ],
+    "access": "Lifetime access",
+    "moneyBack": true,
+    "summary": "Revit MEP Beginners to Advanced (Contractor Services) is a all level Revit course from BIM it! AEC on Udemy. It runs about 21.5 hours, and holds 4.7★ from 3,387 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Revit",
+    "skipIf": "You already work professionally in Revit and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "BIM- Revit Architecture 2027- From Zero to Advanced Level",
+    "slug": "bim-revit-architecture-2027-from-zero-to-advanced-level",
+    "provider": "Udemy",
+    "category": "3D Modeling",
+    "categorySlug": "3d-modeling",
+    "instructor": "Amir Karami • BIM",
+    "instructorSlug": "amir-karami-bim",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/220633904_9b43.jpg",
+    "rating": 4.5,
+    "reviews": 8780,
+    "level": "All Level",
+    "duration": "68.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Revit 2019 and above + BIM Project in 4 discipline (RVT files) + All Revit Families as Gifts + Exercise files + Quizzes",
+    "image": "https://img-c.udemycdn.com/course/480x270/5246522_552f_2.jpg",
+    "url": "https://trk.udemy.com/qWMkaj",
+    "language": "English",
+    "certificate": true,
+    "students": 20341,
+    "sections": 24,
+    "lectures": 315,
+    "access": "Akses",
+    "requirements": "No experience needed, just bring your design passion",
+    "learn": [
+      "BIM Pro Environment & Shortcuts in Autodesk Revit - Start from Zero to Productivity",
+      "BIM Walls, Floors & Ceilings in Autodesk Revit - Professional Modeling and Insulations",
+      "BIM Wall-Floor Connections in Revit - High-Detail Junctions, Partitions and Stacked Walls",
+      "BIM Stairs in Revit - Executive Models, Editing, and Fast Replication",
+      "BIM Ramps, Spiral & Helical Stairs in Revit - Diverse Designs and Handrails",
+      "BIM Curtain Wall in Revit - Panels, Mullions, Partitions and Reveal/Sweep Tools",
+      "BIM Roof Footprint in Revit - Sloped Roofs, Sub-Elements, and Practical Examples",
+      "BIM Roof Extrusion in Revit - Skylights, Dormers, Entrances and AutoCAD Importing",
+      "BIM Steel & Concrete Structures in Autodesk Revit - Columns, Beams, Slabs and Rebar Mastery",
+      "BIM Links & Copy/Monitor in Revit MEP - Integration of Structure, Architecture and MEP",
+      "BIM Drafting Graphics in Revit - Object Styles, Linework, Hidden Lines and Hatch Control",
+      "BIM Dimensions, Views & Templates in Revit - Accurate Scheduling and Conditional Tables",
+      "BIM Toposurface in Revit - Dynamic Site Plans, Landscaping and AutoCAD Workflow",
+      "BIM Toposolid in Revit 2024 - Shape Editing, Openings, Mass Voids and Complex Shells",
+      "BIM Model In-Place in Revit - Objects, Furniture, Sweep, Swept Blend and Wall Openings",
+      "BIM Annotations in Revit - Tags, Revision Clouds, Grouping and Professional Detailing",
+      "BIM Printing & Sheet Output in Revit - Titleblocks, Scope Boxes and Presentation-Ready Exports",
+      "BIM Facade & Interior Design in Revit - Professional Construction and Real-World Examples"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 55,
+        "duration": "12h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 41,
+        "duration": "8.9h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 43,
+        "duration": "9.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 57,
+        "duration": "12.4h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 33,
+        "duration": "7.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 41,
+        "duration": "8.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 45,
+        "duration": "9.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "4.5 Instructor Rating\n8,780 Reviews\n85,953 Students\n48 Courses\n\"Everything here is based on experience\"\n\nI, Amir Karami, have spent nearly 20 years researching BIM software and have worked on numerous large-scale projects worldwide to provide you with the best possible instruction. The courses published on my Udemy account feature the following characteristics:\n\n1- Project-based learning: Each course is structured around a complete project, allowing you to learn in real-world scenarios.\n\n2- Exercise files: After completing each section, exercise files are provided for you to practice what you have learned.\n\n3- Q&A Support: Myself and my team are available 24/7 to answer your questions and facilitate your learning process.\n\n4- Gift files: I have included all the projects I have worked on over the years as gift files in the courses, allowing you to use the objects and families and see what a real project looks like.\n\n5- Quizzes: A quiz is provided at the end of each section to test your understanding.\n\nI am with you every step of the way and hope to help you become the best version of yourself, equipped with the necessary skills to enter the job market with confidence.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is BIM- Revit Architecture 2027- From Zero to Advanced Level suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 8,780 students, our Udemy course reviews put it above most 3D Modeling alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "BIM- Revit Architecture 2027- From Zero to Advanced Level is a all level 3D Modeling course from Amir Karami • BIM on Udemy. It runs about 68.5 hours, and holds 4.5★ from 8,780 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through 3D Modeling",
+    "skipIf": "You already work professionally in 3D Modeling and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "AI SDLC: The AI-Native Software Engineer in the Agentic Era",
     "slug": "ai-sdlc-the-ai-native-software-engineer-in-the-agentic-era",
     "provider": "Udemy",
@@ -13473,7 +15375,7 @@
     "price": 124.99,
     "level": "Beginner",
     "duration": "65h total",
-    "updated": "10/2026",
+    "updated": "11/2026",
     "bestseller": true,
     "description": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
     "image": "https://img-c.udemycdn.com/course/480x270/2776760_f176_10.jpg",
