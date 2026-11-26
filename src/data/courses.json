@@ -1,5 +1,554 @@
 [
   {
+    "title": "Ultimate Guide to Certified Quality Engineer (CQE) Training",
+    "slug": "ultimate-guide-to-certified-quality-engineer-cqe-training",
+    "provider": "Udemy",
+    "category": "Quality Management",
+    "categorySlug": "quality-management",
+    "instructor": "Sandeep Kumar ­ Quality Gurus Inc.",
+    "instructorSlug": "sandeep-kumar-quality-gurus-inc",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/523368_7e83_12.jpg",
+    "rating": 4.6,
+    "reviews": 92264,
+    "level": "All Level",
+    "duration": "37.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Comprehensive Certified Quality Engineer (CQE) Exam Preparation Course (Latest 2022 Body of Knowledge) + 894 Questions",
+    "image": "https://img-c.udemycdn.com/course/480x270/1673566_be87_13.jpg",
+    "url": "https://trk.udemy.com/R0QQX9",
+    "language": "English",
+    "certificate": true,
+    "students": 363711,
+    "sections": 8,
+    "lectures": 378,
+    "access": "Akses",
+    "requirements": "Basic understanding of the quality concepts in your industry",
+    "learn": [
+      "Transform your CQE dreams into reality with our proven prep course designed to help you become a Certified Quality Engineer.",
+      "This course includes 118 quizzes after each main topic and include 894 multiple choice questions",
+      "Gain confidence in using key quality concepts such as Reliability, Acceptance Sampling, Measurement System Analysis, Control Charts, and Design of Experiments.",
+      "Master descriptive and inferential statistics including Hypothesis Testing, Probability Distributions, Z Test, t Test, Chi-Square Test, and ANOVA.",
+      "This course is fully aligned with the Certified Quality Engineer (CQE) Body of Knowledge as provided by internationally recognized certification bodies.",
+      "Equip yourself with the knowledge and skills needed to confidently pass the CQE exam and excel in your quality engineering career.",
+      "Learn how to apply quality engineering principles in real-world scenarios to improve processes and products effectively.",
+      "Increase your job prospects and career growth opportunities with a recognized CQE certification that sets you apart.",
+      "Gain a thorough understanding of advanced quality engineering techniques and their practical applications in the industry.",
+      "Show your commitment to quality and excellence by achieving CQE certification and becoming a key player in your organization’s quality initiatives."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 65,
+        "duration": "6.5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 47,
+        "duration": "4.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 45,
+        "duration": "4.4h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 46,
+        "duration": "4.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 58,
+        "duration": "5.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 65,
+        "duration": "6.5h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 52,
+        "duration": "5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "I am Sandeep Kumar, founder of Quality Gurus Inc. and creator of multiple quality management, Six Sigma, Lean, auditing, and ASQ exam preparation courses. Over the years, I have helped more than 300,000 professionals build practical quality skills and prepare for professional certifications. This community is designed for quality professionals, Six Sigma practitioners, auditors, engineers, supervisors, managers, and anyone serious about career growth in quality. Inside the community, members can learn practical tools, ask questions, discuss real workplace challenges, prepare for ASQ exams, and connect with others on the same professional journey. My teaching style is simple, practical, and focused on helping you understand concepts clearly so you can apply them with confidence. Whether you are preparing for CQE, CQA, CMQ/OE, CSSGB, CSSBB, CQIA, CCQM, CSQP or another quality-related certification, this community will help you stay focused, motivated, and supported.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Ultimate Guide to Certified Quality Engineer (CQE) Training suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 92,264 students, our Udemy course reviews put it above most Quality Management alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Ultimate Guide to Certified Quality Engineer (CQE) Training is a all level Quality Management course from Sandeep Kumar ­ Quality Gurus Inc. on Udemy. It runs about 37.5 hours, and holds 4.6★ from 92,264 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Quality Management",
+    "skipIf": "You already work professionally in Quality Management and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Playwright: Web Automation Testing From Zero to Hero",
+    "slug": "playwright-web-automation-testing-from-zero-to-hero",
+    "provider": "Udemy",
+    "category": "Microsoft Playwright",
+    "categorySlug": "microsoft-playwright",
+    "instructor": "Artem Bondar",
+    "instructorSlug": "artem-bondar",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/25323110_8a2c_2.jpg",
+    "rating": 4.7,
+    "reviews": 31206,
+    "level": "All Level",
+    "duration": "12 hours",
+    "updated": "11/2026",
+    "description": "Complete Playwright course with TypeScript. API testing, Page Objects, Advanced features: Fully Updated 08/26",
+    "image": "https://img-c.udemycdn.com/course/480x270/5540846_699e_2.jpg",
+    "url": "https://trk.udemy.com/MKOO33",
+    "language": "English",
+    "certificate": true,
+    "students": 132638,
+    "sections": 9,
+    "lectures": 76,
+    "access": "Akses",
+    "requirements": "Basic JavaScript knowledge is required. JavaScript Fundamentals section is included in the class. Ask me a question in Q&A section of the class or send me a message if something is not clear or does not work.",
+    "learn": [
+      "avaScript fundamentals for beginners needed to automate in the Playwright",
+      "How to install Playwright from scratch run and debug tests, analyze reports and test results",
+      "How to locate any web element on the page following Playwright best practices",
+      "How to interact with different UI components such as: input fields, radio buttons, check boxes, lists, tooltips, date pickers, web tables, sliders, iFrames",
+      "What is Page Object Model and how to organize test code using Page Objects",
+      "How to work with APIs in Playwright: API mocking, API requests, API call intercept, shared authentication and API authentication",
+      "Advanced topics: global setup and teardown, visual testing, mobile device emulation, fixtures, environment variables, test execution in Docker container"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 9,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 12,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 10,
+        "duration": "1.6h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 9,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 15,
+        "duration": "2.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 9,
+        "duration": "1.5h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 12,
+        "duration": "1.8h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Automation engineer, author, content creator, and founder at Bondar Academy. Udemy instructor and test automation coach.\n\nMore than 100,000 students completed my classes around the globe.\n\nI teach how to do test automation the right way. I share best practices, an approach, and a philosophy of good code. Passionate about teaching and upskilling people to reach their career goals.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Playwright: Web Automation Testing From Zero to Hero suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 31,206 students, our Udemy course reviews put it above most Microsoft Playwright alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Playwright: Web Automation Testing From Zero to Hero is a all level Microsoft Playwright course from Artem Bondar on Udemy. It runs about 12 hours, and holds 4.7★ from 31,206 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Microsoft Playwright",
+    "skipIf": "You already work professionally in Microsoft Playwright and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "SC-900: Microsoft Security, Compliance, & Identity with SIMS",
+    "slug": "sc-900-microsoft-security-compliance-identity-with-sims",
+    "provider": "Udemy",
+    "category": "SC-300: Microsoft Identity and Access Administrator Associate",
+    "categorySlug": "sc-300-microsoft-identity-and-access-administrator-associate",
+    "instructor": "John Christopher | 600,000+ enrollments",
+    "instructorSlug": "john-christopher-600000-enrollments",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/108921066_4953_2.jpg",
+    "rating": 4.7,
+    "reviews": 130752,
+    "level": "All Level",
+    "duration": "12 hours",
+    "updated": "11/2026",
+    "description": "Get prepared for the SC-900 exam with instructor led labs and hands on online simulations available 24/7",
+    "image": "https://img-c.udemycdn.com/course/480x270/4996974_c0ff_3.jpg",
+    "url": "https://trk.udemy.com/MKOOd3",
+    "language": "English",
+    "certificate": true,
+    "students": 371518,
+    "sections": 19,
+    "lectures": 81,
+    "access": "Akses",
+    "requirements": "Willingness to put in the time and practice the steps shown in the course",
+    "learn": [
+      "Learn the concepts and perform hands on activities needed to pass the SC-900 exam",
+      "Gain a tremendous amount of knowledge involving securing Microsoft 365 / Azure Services",
+      "Get loads of hands on experience with securing Microsoft 365 / Azure Services",
+      "Utilize hands on simulations that can be access anytime, anywhere!"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 12,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 9,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 12,
+        "duration": "1.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 13,
+        "duration": "2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 10,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 14,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 11,
+        "duration": "1.8h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "John Christopher is a Technical Instructor that has been in the business for over 27 years. His first experience with information technology occurred in the early 90s when he ran an MS-DOS based BBS(Bulletin Board System) as a System Operator. In the late 90s, after working with Windows NT 3.50 performing backups for Regal Group, he decided to get Windows NT Microsoft Certified.\n\nIn 1998 he got his first Microsoft Certified Systems Engineer and Microsoft Certified Trainer certification. Shortly after getting certified, he began working as a Junior Administrator and Instructor for Knowledge Alliance. From there John was able to become one of the first people in the world to gain an MCSE for the Windows 2000 operating system and he began teaching full time for a company called Productivity Point International. At Productivity Point, John got Citrix Metaframe certified and began teaching Citrix along with Microsoft classes. Productivity Point began experiencing financial troubles and John moved on to work with another training company in 2001\n\nFor many years at the training company in Atlanta John was the network administrator and held the title of Senior Technical Instructor for the company. John designed and administered their network from the ground up, going from a single floor in a single building, to multiple floors in multiple buildings and locations. He furthered his certifications, gaining the MCSE for 2003, 2008(MCITP), 2012, A+, Network+, Security+, Exchange, and CCNA. Along with his Network admin duties, John taught hundreds of students during his 11 years for the company. During all his years of training, John has had the honor of doing lots of classes with the military, along with quite a few classes within on-site military bases. In 2012, he decided to break away from the company he had been working for and do consulting and contract teaching. Currently, John gets hired by many different training companies to teach technical training classes all over the United States. He is also hired as a consultant to go into companies and work on their networks and implement, along with troubleshoot real world scenarios.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is SC-900: Microsoft Security, Compliance, & Identity with SIMS suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 130,752 students, our Udemy course reviews put it above most SC-300: Microsoft Identity and Access Administrator Associate alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "SC-900: Microsoft Security, Compliance, & Identity with SIMS is a all level SC-300: Microsoft Identity and Access Administrator Associate course from John Christopher | 600,000+ enrollments on Udemy. It runs about 12 hours, and holds 4.7★ from 130,752 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through SC-300: Microsoft Identity and Access Administrator Associate",
+    "skipIf": "You already work professionally in SC-300: Microsoft Identity and Access Administrator Associate and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "ISC2 CISSP 6 Practice Exams",
+    "slug": "isc2-cissp-6-practice-exams",
+    "provider": "Udemy",
+    "category": "Certified Information Systems Security Professional (CISSP)",
+    "categorySlug": "certified-information-systems-security-professional-cissp",
+    "instructor": "Jason Dion • 3 Million+ Enrollments Worldwide",
+    "instructorSlug": "jason-dion-3-million-enrollments-worldwide",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/27592028_e3fb_6.jpg",
+    "rating": 4.6,
+    "reviews": 619052,
+    "level": "All Level",
+    "updated": "11/2026",
+    "description": "Full-length ISC2 CISSP * Timed * 600 Multiple-choice Questions with detailed feedback for each question",
+    "image": "https://img-c.udemycdn.com/course/480x270/6249593_a119_5.jpg",
+    "url": "https://trk.udemy.com/KBbbvy",
+    "language": "English",
+    "certificate": true,
+    "students": 1816821,
+    "access": "Akses",
+    "learn": [
+      "Develop and implement risk management strategies",
+      "Classify and secure information assets effectively",
+      "Design and maintain secure network architectures",
+      "Implement identity and access management protocols",
+      "Conduct security assessments and vulnerability testing",
+      "Manage and respond to security incidents",
+      "Integrate secure practices in software development processes",
+      "Apply industry standards and frameworks in information security"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 6,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 6,
+        "duration": "2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 6,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 3,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 5,
+        "duration": "1.2h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Jason Dion, CISSP No. 349867, is a former college professor and the lead instructor at Dion Training Solutions. He has multiple information technology professional certifications, including Certified Information Systems Security Professional (CISSP), Certified Ethical Hacker (CEH), Certified Network Defense Architect (CNDA), Digital Forensic Examiner (DFE), Digital Media Collector (DMC), CySA+, Security+, Network+, A+, PRINCE2 Practitioner, and ITIL. With networking experience dating back to 1992, Jason has been a network engineer, Director of a Network Operations and Security Center, and an Information Systems Officer for large organizations around the globe. \n\nHe holds a Master’s of Science degree in Information Technology with a specialization in Information Assurance.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is ISC2 CISSP 6 Practice Exams suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 619,052 students, our Udemy course reviews put it above most Certified Information Systems Security Professional (CISSP) alternatives."
+      }
+    ],
+    "duration": "8h total",
+    "sections": 5,
+    "lectures": 26,
+    "moneyBack": true,
+    "summary": "ISC2 CISSP 6 Practice Exams is a all level Certified Information Systems Security Professional (CISSP) course from Jason Dion • 3 Million+ Enrollments Worldwide on Udemy. It runs about 8h, and holds 4.6★ from 619,052 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Certified Information Systems Security Professional (CISSP)",
+    "skipIf": "You already work professionally in Certified Information Systems Security Professional (CISSP) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed."
+  },
+  {
+    "title": "ISC2 CISSP Full Course & Practice Exam",
+    "slug": "isc2-cissp-full-course-practice-exam",
+    "provider": "Udemy",
+    "category": "Certified Information Systems Security Professional (CISSP)",
+    "categorySlug": "certified-information-systems-security-professional-cissp",
+    "instructor": "Jason Dion • 3 Million+ Enrollments Worldwide",
+    "instructorSlug": "jason-dion-3-million-enrollments-worldwide",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/27592028_e3fb_6.jpg",
+    "rating": 4.6,
+    "reviews": 619052,
+    "level": "All Level",
+    "duration": "39 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Pass the ISC2 CISSP exam on your 1st attempt, includes a full practice exam!",
+    "image": "https://img-c.udemycdn.com/course/480x270/6167895_13de_5.jpg",
+    "url": "https://trk.udemy.com/DWooab",
+    "language": "English",
+    "certificate": true,
+    "students": 1816821,
+    "sections": 35,
+    "lectures": 261,
+    "access": "Akses",
+    "requirements": "Minimum of five years of professional experience in two or more CISSP domains (required for CISSP certification) Basic understanding of networking and information systems Access to a computer with an internet connection for coursework and the practice exam",
+    "learn": [
+      "Develop and implement risk management strategies",
+      "Classify and secure information assets effectively",
+      "Design and maintain secure network architectures",
+      "Implement identity and access management protocols",
+      "Conduct security assessments and vulnerability testing",
+      "Manage and respond to security incidents",
+      "Integrate secure practices in software development processes",
+      "Apply industry standards and frameworks in information security"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 34,
+        "duration": "5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 44,
+        "duration": "6.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 44,
+        "duration": "6.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 35,
+        "duration": "5.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 40,
+        "duration": "6h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 33,
+        "duration": "4.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 31,
+        "duration": "4.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Jason Dion, CISSP No. 349867, is a former college professor and the lead instructor at Dion Training Solutions. He has multiple information technology professional certifications, including Certified Information Systems Security Professional (CISSP), Certified Ethical Hacker (CEH), Certified Network Defense Architect (CNDA), Digital Forensic Examiner (DFE), Digital Media Collector (DMC), CySA+, Security+, Network+, A+, PRINCE2 Practitioner, and ITIL. With networking experience dating back to 1992, Jason has been a network engineer, Director of a Network Operations and Security Center, and an Information Systems Officer for large organizations around the globe. \n\nHe holds a Master’s of Science degree in Information Technology with a specialization in Information Assurance.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is ISC2 CISSP Full Course & Practice Exam suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 619,052 students, our Udemy course reviews put it above most Certified Information Systems Security Professional (CISSP) alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "ISC2 CISSP Full Course & Practice Exam is a all level Certified Information Systems Security Professional (CISSP) course from Jason Dion • 3 Million+ Enrollments Worldwide on Udemy. It runs about 39 hours, and holds 4.6★ from 619,052 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Certified Information Systems Security Professional (CISSP)",
+    "skipIf": "You already work professionally in Certified Information Systems Security Professional (CISSP) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "Snowflake for Beginners: Intro to Cloud Data Warehousing",
     "slug": "snowflake-for-beginners-intro-to-cloud-data-warehousing",
     "provider": "Udemy",
