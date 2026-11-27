@@ -1,5 +1,593 @@
 [
   {
+    "title": "The Complete Python Developer",
+    "slug": "the-complete-python-developer",
+    "provider": "Udemy",
+    "category": "Python",
+    "categorySlug": "python",
+    "instructor": "Andrei Neagoie",
+    "instructorSlug": "andrei-neagoie",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/38516954_b11c_3.jpg",
+    "rating": 4.6,
+    "reviews": 245120,
+    "level": "All Level",
+    "duration": "30.5 hours",
+    "updated": "11/2026",
+    "description": "How to become a Python 3 Developer and get hired! Build 12+ projects, learn Web Development, Machine Learning + more!",
+    "image": "https://img-c.udemycdn.com/course/480x270/2473048_8255_5.jpg",
+    "url": "https://trk.udemy.com/ZVaoDg",
+    "language": "English",
+    "certificate": true,
+    "students": 1385015,
+    "sections": 25,
+    "lectures": 346,
+    "access": "Akses",
+    "requirements": "A computer (Windows/Mac/Linux). That's it! No prior knowledge of Python is required. No previous programming experience is needed. Prepare to fall in love with Python and programming!",
+    "learn": [
+      "Become a professional Python Developer and get hired",
+      "Master modern Python 3.13(latest) fundamentals as well as advanced topics",
+      "Learn Object Oriented Programming",
+      "Learn Function Programming",
+      "Build 12+ real world Python projects you can show off",
+      "Learn how to use Python in Web Development",
+      "Learn Machine Learning with Python",
+      "Build a Machine Learning Model",
+      "Learn Data Science - Analyze and Visualize Data",
+      "Build a professional Portfolio Website",
+      "Use Python to process: Images, CSVs, PDFs, and other Files",
+      "Build a Web Scraper with Python and BeautifulSoup",
+      "Use Python to send Emails and SMS",
+      "Use Python to build a Twitter bot",
+      "Learn to Test, Debug and Handle Errors in your Python programs",
+      "Learn best practices to write clean, performant, and bug free code",
+      "Learn to use Selenium and Python in Automation",
+      "Set up a professional workspace with Jupyter Notebooks, PyCharm, VS Code + more"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 41,
+        "duration": "3.6h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 42,
+        "duration": "3.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 59,
+        "duration": "5.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 46,
+        "duration": "4.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 42,
+        "duration": "3.7h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 52,
+        "duration": "4.6h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 64,
+        "duration": "5.6h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Andrei is the instructor of some of the highest rated programming and technical courses online. He no longer teaches on Udemy. Instead, he is now the founder of ZTM Academy which is one of the fastest growing education platforms in the world\n\nZTM Academy is known for having some of the best instructors and success rates for students.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is The Complete Python Developer suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 245,120 students, our Udemy course reviews put it above most Python alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "The Complete Python Developer is a all level Python course from Andrei Neagoie on Udemy. It runs about 30.5 hours, and holds 4.6★ from 245,120 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Python",
+    "skipIf": "You already work professionally in Python and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "The Complete Python Bootcamp (13Hours): Go from Zero to Hero",
+    "slug": "the-complete-python-bootcamp-13hours-go-from-zero-to-hero",
+    "provider": "Udemy",
+    "category": "Python",
+    "categorySlug": "python",
+    "instructor": "Baraa Khatib Salkini",
+    "instructorSlug": "baraa-khatib-salkini",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/210728354_d7e2_3.jpg",
+    "rating": 4.7,
+    "reviews": 19722,
+    "level": "All Level",
+    "duration": "13 hours",
+    "updated": "11/2026",
+    "description": "The Only Python Course with 200+ Visual Animations: Learn Fast, Practice Hard & Build Real-World Projects",
+    "image": "https://img-c.udemycdn.com/course/480x270/7054969_57d0_2.jpg",
+    "url": "https://trk.udemy.com/DWoYzb",
+    "language": "English",
+    "certificate": true,
+    "students": 98233,
+    "sections": 19,
+    "lectures": 167,
+    "access": "Akses",
+    "requirements": "No prior programming experience is required All tools used in this course are free and easy to install We guide you step by step through setup and everything you need to get started A willingness to practice and think logically is all you really need",
+    "learn": [
+      "You’ll learn what Python is, how it works, and why it powers modern tech",
+      "You’ll understand how Python executes code and manages variables in memory",
+      "You’ll master core data types like strings, numbers, and booleans",
+      "You’ll control program flow using conditional statements and logic",
+      "You’ll master for and while loops, including range, break, and continue",
+      "You’ll work confidently with lists, including slicing, sorting, and transformations",
+      "You’ll use tuples, sets, and dictionaries in practical scenarios",
+      "You’ll design clean functions using parameters, scope, return values, args, and kwargs",
+      "You’ll understand mutability, object references, and shallow versus deep copy",
+      "You’ll write clean, scalable, and maintainable Python code",
+      "You’ll build real-world projects to apply your knowledge",
+      "You’ll learn to think in Python, not just memorize syntax"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 18,
+        "duration": "1.4h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 32,
+        "duration": "2.5h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 27,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 23,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 23,
+        "duration": "1.8h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 24,
+        "duration": "1.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 20,
+        "duration": "1.5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Hey, I’m Baraa, a Data Engineer with over 17 years of experience and former Lead Data Engineer at Mercedes-Benz.\nI’ve spent my career building large-scale data platforms for analytics and AI, and now I teach the same skills that shaped my journey.\n\nMy courses focus on visual explanations, real-world projects, and practical lessons that make complex topics simple and help you build the skills that get you hired.\n\nIf you want to learn data in a calm, clear, and structured way, you’re in the right place.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is The Complete Python Bootcamp (13Hours): Go from Zero to Hero suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.7★ average from 19,722 students, our Udemy course reviews put it above most Python alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "The Complete Python Bootcamp (13Hours): Go from Zero to Hero is a all level Python course from Baraa Khatib Salkini on Udemy. It runs about 13 hours, and holds 4.7★ from 19,722 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Python",
+    "skipIf": "You already work professionally in Python and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "Human Resources with Claude AI: Streamline HR Operations",
+    "slug": "human-resources-with-claude-ai-streamline-hr-operations",
+    "provider": "Udemy",
+    "category": "Human Resources",
+    "categorySlug": "human-resources",
+    "instructor": "Silviu Marisca",
+    "instructorSlug": "silviu-marisca",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/5274990_13b2_12.jpg",
+    "rating": 4.8,
+    "reviews": 46742,
+    "level": "All Level",
+    "duration": "5.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Human Resources: Hire Smarter, Onboard Faster, Simplify HR Policies and Handle Sensitive Employee Conversations",
+    "image": "https://img-c.udemycdn.com/course/480x270/7337395_a2ac_2.jpg",
+    "url": "https://trk.udemy.com/oNMxgo",
+    "language": "English",
+    "certificate": true,
+    "students": 315723,
+    "sections": 6,
+    "lectures": 61,
+    "access": "Akses",
+    "requirements": "No previous artificial intelligence, programming or coding experience is required. This course is designed for HR professionals who are new to AI. A basic understanding of Human Resources functions, such as recruitment, onboarding, employee administration and employee relations, is helpful. A computer with internet access and a free or paid Claude AI account. Access to other generative AI tools can also be useful. An interest in improving HR productivity, employee experience and everyday people operations through practical AI applications.",
+    "learn": [
+      "Reclaim 10+ hours a week by automating routine Human Resources admin tasks using AI prompts.",
+      "Generate unbiased job descriptions, boolean searches, and interview scorecards.",
+      "Draft clear HR policies and structure 30-60-90 day employee onboarding plans.",
+      "Use AI to safely de-escalate workplace conflicts and summarize HR grievances.",
+      "Master the \"Context + Task + Tone\" prompt framework to generate reliable, high-quality HR outputs.",
+      "Automate daily HR inbox triage to instantly categorize and respond to urgent vs. non-urgent requests.",
+      "Clean and format messy HR data, including headcount and PTO spreadsheets, in seconds using AI tools.",
+      "Write highly inclusive, bias-free job descriptions that attract diverse and qualified talent pools.",
+      "Generate complex Boolean search strings and highly personalized passive candidate outreach sequences.",
+      "Create customized behavioral and technical interview question banks based on specific job requirements.",
+      "Build objective candidate grading scorecards and use AI to safely summarize dense interview notes.",
+      "Design automated, role-specific 30-60-90 day onboarding plans that accelerate new hire time-to-value.",
+      "Transform static company documents and history into interactive, asynchronous new hire training modules.",
+      "Audit existing employee handbooks to quickly identify outdated clauses and compliance contradictions.",
+      "Translate complex legal disclaimers and dense HR policies into simple, plain-English one-pagers.",
+      "Use AI to safely de-escalate emotional workplace conflicts and summarize lengthy grievance threads."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 8,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 13,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 8,
+        "duration": "0.8h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 8,
+        "duration": "0.7h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 11,
+        "duration": "1h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 13,
+        "duration": "1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "10x Udemy Bestselling Instructor\n\n3x Udemy Highest Rated Instructor\n\n10+ years of teaching experience\n\n\n\nI am thrilled to connect with you. My name is Silviu, and I am a dedicated professional and global instructor with a mission: to bridge the gap between academic theory and real-world business practice.\n\n\n\nMy academic journey is anchored by a Postgraduate in Management from the prestigious Sciences PO Paris, a globally recognized institution known for its rigorous approach to public affairs and international business. This education provided me with a world-class framework in strategic thinking, global economics, and effective organizational leadership - the very principles that underpin the structure and quality of my courses.\n\n\n\nFollowing my studies, I embarked on a dynamic corporate career, accumulating 10 years of intensive work experience across diverse sectors. My specialization lies in the critical fields of Business Analysis (BA) and Project Management (PM). During this time, I've worked on projects ranging from multi-million dollar software implementations to organizational restructuring initiatives.\n\n\n\nMy greatest professional joy is teaching, and I am profoundly proud of the community we have built together. I have had the privilege of teaching more than 250,000 students all over the world, representing a diverse tapestry of cultures, professional backgrounds, and career aspirations. This vast experience has given me a unique perspective on the learning needs of a global workforce.\n\n\n\nMy teaching philosophy is simple: complex topics do not require complex explanations. I focus on clarity, practical examples, and engaging delivery to ensure that the material not only makes sense but sticks with you long after the lecture is over.\n\n\n\nMy journey as an instructor is driven by the desire to see you succeed.\n\n\n\nI look forward to welcoming you into my classroom. Let's work together to transform your professional knowledge, unlock your full potential, and turn your career aspirations into reality.\n\n\n\nJoin one of my courses today, and let's build your success story.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is Human Resources with Claude AI: Streamline HR Operations suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.8★ average from 46,742 students, our Udemy course reviews put it above most Human Resources alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "Human Resources with Claude AI: Streamline HR Operations is a all level Human Resources course from Silviu Marisca on Udemy. It runs about 5.5 hours, and holds 4.8★ from 46,742 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Human Resources",
+    "skipIf": "You already work professionally in Human Resources and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "The Complete AI & GenAI Engineer Bootcamp 2027: Zero to Hero",
+    "slug": "the-complete-ai-genai-engineer-bootcamp-2027-zero-to-hero",
+    "provider": "Udemy",
+    "category": "Artificial Intelligence (AI)",
+    "categorySlug": "artificial-intelligence-ai",
+    "instructor": "AI University",
+    "instructorSlug": "ai-university",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/324113107_f879_2.jpg",
+    "rating": 4.1,
+    "reviews": 175,
+    "level": "All Level",
+    "duration": "48.5 hours",
+    "updated": "11/2026",
+    "description": "Machine Learning, Deep Learning, NLP, LLMs, RAG, AI Agents, Hugging Face, LangChain, LangGraph, Build Real AI Projects",
+    "image": "https://img-c.udemycdn.com/course/480x270/7005441_fb85_3.jpg",
+    "url": "https://trk.udemy.com/rEM9eB",
+    "language": "English",
+    "certificate": true,
+    "students": 3150,
+    "sections": 20,
+    "lectures": 90,
+    "access": "Akses",
+    "requirements": "Basic knowledge of Python is helpful but not mandatory. No prior experience is required. We'll start from the very basics.",
+    "learn": [
+      "Build Machine Learning models from scratch using Python, NumPy, Pandas, and Scikit-Learn for real-world tasks like prediction, classification, and clustering.",
+      "Understand Deep Learning and Neural Networks with TensorFlow and Keras, including CNNs for image data and RNN/LSTM for sequence data.",
+      "Learn Natural Language Processing (NLP) including text preprocessing, embeddings, and transformer models like BERT.",
+      "Work with modern Generative AI tools such as Hugging Face, Transformers, and advanced prompt engineering techniques.",
+      "Build real-world GenAI applications including RAG systems, LLM chatbots, and AI agents using LangChain and LangGraph.",
+      "Create portfolio-ready AI projects with interactive interfaces using Streamlit and Gradio.",
+      "All slides available as downloadable PDF"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 13,
+        "duration": "6.9h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 14,
+        "duration": "7.6h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 14,
+        "duration": "7.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 12,
+        "duration": "6.5h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 14,
+        "duration": "7.4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 14,
+        "duration": "7.4h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 9,
+        "duration": "5h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "AI University is a dedicated education initiative built around one goal: making Artificial Intelligence genuinely usable in everyday life, work, and engineering practice. Founded by an AI professional with hands-on industry and applied research experience across Generative AI, Prompt Engineering, Machine Learning, and real-world AI systems - bridging the gap between AI theory and practical application.\n\n\n\nWe specialize in a comprehensive range of AI and data-driven disciplines, including:\n\n1. AI for Everyday Life & Work – Practical use of ChatGPT, Claude, Gemini, and other leading AI tools for real tasks: writing, summarizing, research, brainstorming, and daily productivity, no coding required\n\n2. Prompt Engineering & Applied AI – In-depth training on designing, evaluating, and optimizing prompts for accuracy, reliability, and scalability across real-world use cases\n\n3. Generative AI & Modern Tools – Working with text, image, and multimodal AI systems using industry-standard platforms and workflows\n\n4. AI Engineering & Data Science – Python, Machine Learning, Deep Learning, NLP, LLMs, RAG, AI Agents, and engineering-grade practices used to build and deploy production-ready AI systems\n\n\n\nAll of our courses are:\n\n- Hands-on and project-based\n\n- Grounded in real industry practice, not just theory\n\n- Designed to take learners from beginner to confident practitioner in the shortest possible time\n\n\n\nWhether you want to finally feel confident using AI, get more done at work, become a prompt engineer, a generative AI specialist, or a job-ready AI Engineer - AI University's courses are the perfect place to start.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 10,
+      "5": 82
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is The Complete AI & GenAI Engineer Bootcamp 2027: Zero to Hero suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.1★ average from 175 students, our Udemy course reviews put it above most Artificial Intelligence (AI) alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "The Complete AI & GenAI Engineer Bootcamp 2027: Zero to Hero is a all level Artificial Intelligence (AI) course from AI University on Udemy. It runs about 48.5 hours, and holds 4.1★ from 175 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through Artificial Intelligence (AI)",
+    "skipIf": "You already work professionally in Artificial Intelligence (AI) and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "The Complete AI Guide: Learn ChatGPT, Claude & Generative AI",
+    "slug": "the-complete-ai-guide-learn-chatgpt-claude-generative-ai",
+    "provider": "Udemy",
+    "category": "ChatGPT",
+    "categorySlug": "chatgpt",
+    "instructor": "Julian Melanson",
+    "instructorSlug": "julian-melanson",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/25772334_47ac_18.jpg",
+    "rating": 4.5,
+    "reviews": 78847,
+    "level": "All Level",
+    "duration": "44.5",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "50+ Generative AI Tools to 10x Business, Productivity, Creativity | ChatGPT, Artificial Intelligence, Prompt Engineering",
+    "image": "https://img-c.udemycdn.com/course/480x270/5170404_d282_12.jpg",
+    "url": "https://trk.udemy.com/gR0mqA",
+    "language": "English",
+    "certificate": true,
+    "students": 632928,
+    "sections": 56,
+    "lectures": 555,
+    "access": "Akses",
+    "requirements": "No prior experience with AI or programming is needed, but an eagerness to learn and explore new technologies is a plus!",
+    "learn": [
+      "Generative AI: Create content, synthesize information, and learn faster than ever with effective prompt engineering!",
+      "ChatGPT: Turn your creativity into paid work, generate fresh ideas, reach new audiences, and scale your projects!",
+      "Productivity: Achieve goals faster with artificial intelligence, manage time, prioritize tasks, and create an optimized daily schedule!",
+      "Marketing: Generate targeted content with generative AI, capitalize on trends, create ads, newsletters, specialized content, and media campaigns!",
+      "Soft Skills: Improve your communication, leadership, problem-solving, and social skills with personalized ChatGPT feedback!",
+      "AI Voice Tools: Easily create AI-generated speech for any use case and even clone your own voice entirely!",
+      "AI Video Tools: Create an AI avatar that transforms scripts into presentations and quickly generate social media content!",
+      "AI Photo Tools: Add motion to images, dynamically enhance image aesthetics, and create custom images in bulk!",
+      "AI Writing Tools: Automate writing tasks, generate effective copy, and integrate with Google Sheets/Excel!",
+      "AI Music Tools: Create unique compositions for any types of video and save time with a streamlined creative process.",
+      "Branding: Develop a visual identity, design logos, and generate content to establish a strong online presence!",
+      "AI Art Generation: Create photos from prompts, fill in or remove elements of images using inpainting and outpainting techniques!",
+      "Business: Streamline your AI workflow, automate repetitive tasks, and gain insights that help you make data-driven decisions for your business!",
+      "Multimodal: Combine multiple AI tools to create immersive and engaging content that would have previously taken an entire team to create!",
+      "Midjourney: Use prompts, parameters, and modifiers to create amazing images that showcase your personal style and creativity!",
+      "Coding: Combine the power of ChatGPT with programming fundamentals, algorithms, debugging, and documentation!",
+      "Custom GPTs & AI Assistants: Build and optimize your workflows for business and personal use, tailoring AI to specific needs!",
+      "AI Automation: Task automating with Zapier, Make, and OpenAI APIs, integrating AI in efficient and scalable ways!."
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 81,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 90,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 76,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 79,
+        "duration": "1.1h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 92,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 65,
+        "duration": "0.9h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 72,
+        "duration": "1.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "My name is Julian. I'm a full-time educator and bestselling Udemy instructor with one focus: helping you turn AI from something overwhelming into your biggest competitive advantage. With the honor of teaching over 600,000+ students from 130+ countries, I've spent years on the front lines of AI.\n\nI've helped complete beginners write their first prompt and trained entire teams at Fortune 500 companies. My teaching style is results-first, built around real-world examples, live demonstrations, and done-for-you workflows you can apply the same day you learn them.\n\nMy goal for every student is the same: unlock your ability to 10x your creativity and productivity, not through concepts, but through the exact tools and techniques I've refined working with thousands of students. Alongside Udemy, I work directly with businesses and teams, which means everything I teach is field-tested. If it doesn't hold up in the real world, it doesn't make it into my courses or community.\n\nI'm truly honored to be part of your journey and can't wait to help you grow into the most capable, confident version of yourself with AI by your side.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is The Complete AI Guide: Learn ChatGPT, Claude & Generative AI suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 78,847 students, our Udemy course reviews put it above most ChatGPT alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "The Complete AI Guide: Learn ChatGPT, Claude & Generative AI is a all level ChatGPT course from Julian Melanson on Udemy. It runs about 44.5, and holds 4.5★ from 78,847 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through ChatGPT",
+    "skipIf": "You already work professionally in ChatGPT and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "Ultimate Guide to Certified Quality Engineer (CQE) Training",
     "slug": "ultimate-guide-to-certified-quality-engineer-cqe-training",
     "provider": "Udemy",
