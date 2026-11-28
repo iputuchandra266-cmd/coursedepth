@@ -1,5 +1,435 @@
 [
   {
+    "title": "[NEW] SY0-801 CompTIA Security+ v8 Complete Course + Labs",
+    "slug": "comptia-security-exam-voucher",
+    "provider": "Udemy",
+    "category": "CompTIA Security+",
+    "categorySlug": "it-certifications",
+    "instructor": "Vision Training Systems : IT Training",
+    "instructorSlug": "unknown",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/188446098_93c2_7.jpg",
+    "rating": 4.5,
+    "reviews": 8006,
+    "level": "All Level",
+    "duration": "30.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Pass the Security+ SY0-801 exam. Master threats, cryptography, cloud, security operations, and real hands-on labs.",
+    "image": "https://img-c.udemycdn.com/course/480x270/7428701_5e40_3.jpg",
+    "url": "https://trk.udemy.com/xJgJY1",
+    "language": "English",
+    "certificate": true,
+    "students": 902,
+    "sections": 6,
+    "lectures": 122,
+    "access": "Akses",
+    "moneyBack": true,
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "No prior cybersecurity certification or experience is required Basic familiarity with networking and operating systems is helpful (CompTIA Network+ or equivalent experience recommended, but not required) A Windows PC able to run the virtual lab environment for the optional hands-on activities (a full setup guide is included)",
+    "learn": [
+      "Pass the CompTIA Security+ SY0-801 certification exam with confidence",
+      "Understand all five Security+ exam domains and 100% of the exam objectives",
+      "Apply core security principles: the CIA triad, security controls, and Zero Trust",
+      "Work confidently with cryptography, hashing, digital certificates, and PKI",
+      "Identify threats, vulnerabilities, and attacks, and recognize indicators of compromise",
+      "Defend against modern threats, including AI and large language model attacks",
+      "Design secure architectures across networks, cloud, IoT, and industrial systems",
+      "Run security operations: hardening, firewalls, monitoring, incident response, and forensics",
+      "Manage governance, risk, compliance, audits, and supply chain security"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 20,
+        "duration": "5h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 24,
+        "duration": "6.1h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 23,
+        "duration": "5.7h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 23,
+        "duration": "5.6h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 16,
+        "duration": "4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 16,
+        "duration": "4.1h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Vision Training Systems is a provider quality online educational products.\n\nVision focuses on providing corporations a high quality, customizable solution that gives their employees valuable training that can be done on the go, 24/7. Courses are built with a myriad of features, providing any type of learner with the style of training they need to excel.\n\nVision has become one of the fast growing companies in the IT training space by delivering the highest quality training in the marketplace.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is [NEW] SY0-801 CompTIA Security+ v8 Complete Course + Labs suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.5★ average from 8,006 students, our Udemy course reviews put it above most CompTIA Security+ alternatives."
+      }
+    ],
+    "summary": "[NEW] SY0-801 CompTIA Security+ v8 Complete Course + Labs is a all level CompTIA Security+ course from Vision Training Systems : IT Training on Udemy. It runs about 30.5 hours, and holds 4.5★ from 8,006 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through CompTIA Security+",
+    "skipIf": "You already work professionally in CompTIA Security+ and need advanced architecture patterns"
+  },
+  {
+    "title": "CompTIA Security+ V8 (SY0-801) Complete Course 2026",
+    "slug": "comptia-security-v8-sy0-801-complete-course-2026",
+    "provider": "Udemy",
+    "category": "CompTIA Security+",
+    "categorySlug": "comptia-security",
+    "instructor": "Nasser Alaeddine | Ph.D., CISSP, CISM, PMP",
+    "instructorSlug": "nasser-alaeddine-phd-cissp-cism-pmp",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/118231596_5648_2.jpg",
+    "rating": 4.6,
+    "reviews": 3784,
+    "level": "All Level",
+    "duration": "17.5 hours",
+    "updated": "11/2026",
+    "description": "Security Plus V8 • All 27 Objectives • 5 PBQ Walkthroughs • 2 Full Practice Exams • Every Answer Explained • Exam Tips",
+    "image": "https://img-c.udemycdn.com/course/480x270/7419235_1297_2.jpg",
+    "url": "https://trk.udemy.com/R0M0Mb",
+    "language": "English",
+    "certificate": true,
+    "students": 54920,
+    "sections": 8,
+    "lectures": 92,
+    "access": "Akses",
+    "requirements": "A working knowledge of IT and networking basics, such as IP addressing, common services and operating systems •",
+    "learn": [
+      "Master all 27 CompTIA Security+ V8 (SY0-801) objectives across the five domains, taught at the depth the exam expects",
+      "Recognize and respond to the AI threats V8 adds, including prompt injection, poisoning, jailbreaking and evasion",
+      "Choose the right control in a scenario, from passkeys and just-in-time access to segmentation and Security Service Edge",
+      "Work performance-based questions in five interactive labs: read the exhibit, find the gap and choose the action",
+      "Measure your readiness with two full 90-question practice exams that explain every answer and end with an exam tip"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 17,
+        "duration": "3.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 14,
+        "duration": "2.7h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 13,
+        "duration": "2.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 11,
+        "duration": "2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 12,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 11,
+        "duration": "2h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 14,
+        "duration": "2.9h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Dr. Nasser Alaeddine is a technology and cybersecurity leader with more than 20 years of experience managing, developing, and leading IT services for organizations and universities. He has taught cybersecurity at the master's level for over 15 years, combining deep academic expertise with extensive real-world experience.\n\nHe holds a Ph.D. in Computer Science and a Master of Science in Software Engineering from Southern Methodist University (SMU). He is a Certified Information Systems Security Professional (CISSP), Certified Information Security Manager (CISM), and Project Management Professional (PMP).\n\nDr. Alaeddine is passionate about helping professionals, educators, and students leverage artificial intelligence to improve productivity, creativity, and decision-making while maintaining a strong focus on cybersecurity, privacy, and responsible AI use. He combines his expertise in enterprise technology, cybersecurity, and AI to provide practical, real-world guidance that learners can apply immediately.\n\nAs an educator and technology leader, he is committed to making complex technical concepts clear, practical, and accessible, empowering learners with the knowledge and skills they need to succeed in today's rapidly evolving digital world.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is CompTIA Security+ V8 (SY0-801) Complete Course 2026 suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 3,784 students, our Udemy course reviews put it above most CompTIA Security+ alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "CompTIA Security+ V8 (SY0-801) Complete Course 2026 is a all level CompTIA Security+ course from Nasser Alaeddine | Ph.D., CISSP, CISM, PMP on Udemy. It runs about 17.5 hours, and holds 4.6★ from 3,784 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through CompTIA Security+",
+    "skipIf": "You already work professionally in CompTIA Security+ and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
+    "title": "CompTIA Security+ (SY0-801) | 6 Practice Exams",
+    "slug": "comptia-security-sy0-801-6-practice-exams",
+    "provider": "Udemy",
+    "category": "CompTIA Security+",
+    "categorySlug": "comptia-security",
+    "instructor": "Jason Dion • 3 Million+ Enrollments Worldwide",
+    "instructorSlug": "jason-dion-3-million-enrollments-worldwide",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/27592028_e3fb_6.jpg",
+    "rating": 4.6,
+    "reviews": 619452,
+    "level": "All Level",
+    "duration": "6 practice",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "Pass the CompTIA Security+ SY0-801 exam with 6 full-length practice tests, 540 questions, and detailed explanations",
+    "image": "https://img-c.udemycdn.com/course/480x270/7312117_951c.jpg",
+    "url": "https://trk.udemy.com/DWvWod",
+    "language": "English",
+    "certificate": true,
+    "students": 1818013,
+    "access": "Akses",
+    "learn": [
+      "Explain core cybersecurity principles, security controls, cryptography, and Zero Trust",
+      "Identify cyber threats, vulnerabilities, malware, social engineering, and attack techniques",
+      "Apply security architecture concepts to protect networks, cloud environments, and sensitive data",
+      "Understand security monitoring, vulnerability management, identity management, and incident response",
+      "Explain cybersecurity governance, risk management, compliance, and security policies",
+      "Apply cybersecurity knowledge to real-world scenarios and prepare for the CompTIA Security+ (SY0-801) exam"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 7,
+        "duration": "2.1h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 4,
+        "duration": "1.3h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 7,
+        "duration": "2.2h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 4,
+        "duration": "1.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 4,
+        "duration": "1.2h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Short — best as a supplement, not a full path"
+    ],
+    "instructorBio": "Jason Dion, CISSP No. 349867, is a former college professor and the lead instructor at Dion Training Solutions. He has multiple information technology professional certifications, including Certified Information Systems Security Professional (CISSP), Certified Ethical Hacker (CEH), Certified Network Defense Architect (CNDA), Digital Forensic Examiner (DFE), Digital Media Collector (DMC), CySA+, Security+, Network+, A+, PRINCE2 Practitioner, and ITIL. With networking experience dating back to 1992, Jason has been a network engineer, Director of a Network Operations and Security Center, and an Information Systems Officer for large organizations around the globe. \n\nHe holds a Master’s of Science degree in Information Technology with a specialization in Information Assurance.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is CompTIA Security+ (SY0-801) | 6 Practice Exams suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 619,452 students, our Udemy course reviews put it above most CompTIA Security+ alternatives."
+      }
+    ],
+    "sections": 5,
+    "lectures": 26,
+    "moneyBack": true,
+    "summary": "CompTIA Security+ (SY0-801) | 6 Practice Exams is a all level CompTIA Security+ course from Jason Dion • 3 Million+ Enrollments Worldwide on Udemy. It runs about 6 practice, and holds 4.6★ from 619,452 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through CompTIA Security+",
+    "skipIf": "You already work professionally in CompTIA Security+ and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure",
+    "requirements": "A computer with internet. No prior experience needed."
+  },
+  {
+    "title": "CompTIA Security+ (SY0-801) Complete Course & Practice Exam",
+    "slug": "comptia-security-sy0-801-complete-course-practice-exam",
+    "provider": "Udemy",
+    "category": "CompTIA Security+",
+    "categorySlug": "comptia-security",
+    "instructor": "Jason Dion • 3 Million+ Enrollments Worldwide",
+    "instructorSlug": "jason-dion-3-million-enrollments-worldwide",
+    "instructorImage": "https://img-c.udemycdn.com/user/200_H/27592028_e3fb_6.jpg",
+    "rating": 4.6,
+    "reviews": 619452,
+    "level": "All Level",
+    "duration": "28.5 hours",
+    "updated": "11/2026",
+    "bestseller": true,
+    "description": "CompTIA Security+ (SY0-801) Bootcamp - Your preparation for the world's best cybersecurity certification!",
+    "image": "https://img-c.udemycdn.com/course/480x270/2015076_2944_9.jpg",
+    "url": "https://trk.udemy.com/ZVMV5q",
+    "language": "English",
+    "certificate": true,
+    "students": 1818013,
+    "sections": 33,
+    "lectures": 306,
+    "access": "Akses",
+    "requirements": "No formal prerequisites are required, although prior IT or security experience is beneficial Basic understanding of computers, operating systems, and networking is recommended A computer with a reliable internet connection to access course materials and assessments",
+    "learn": [
+      "Explain core cybersecurity principles, security controls, cryptography, and Zero Trust",
+      "Identify cyber threats, vulnerabilities, malware, social engineering, and attack techniques",
+      "Apply security architecture concepts to protect networks, cloud environments, and sensitive data",
+      "Understand security monitoring, vulnerability management, identity management, and incident response",
+      "Explain cybersecurity governance, risk management, compliance, and security policies",
+      "Apply cybersecurity knowledge to real-world scenarios and prepare for the CompTIA Security+ (SY0-801) exam"
+    ],
+    "curriculum": [
+      {
+        "title": "Getting started",
+        "lectures": 56,
+        "duration": "5.2h"
+      },
+      {
+        "title": "Core foundations",
+        "lectures": 34,
+        "duration": "3.2h"
+      },
+      {
+        "title": "Building real projects",
+        "lectures": 38,
+        "duration": "3.5h"
+      },
+      {
+        "title": "Intermediate techniques",
+        "lectures": 56,
+        "duration": "5.2h"
+      },
+      {
+        "title": "Deep dive & best practices",
+        "lectures": 37,
+        "duration": "3.4h"
+      },
+      {
+        "title": "Capstone project",
+        "lectures": 41,
+        "duration": "3.8h"
+      },
+      {
+        "title": "Next steps",
+        "lectures": 44,
+        "duration": "4.2h"
+      }
+    ],
+    "pros": [
+      "Clear explanations that start from zero",
+      "Hands-on exercises after every major topic",
+      "Fresh 11/2026 content and lifetime access"
+    ],
+    "cons": [
+      "Pace accelerates in the middle sections",
+      "Limited advanced, production-scale projects",
+      "Long: budget several weeks to finish"
+    ],
+    "instructorBio": "Jason Dion, CISSP No. 349867, is a former college professor and the lead instructor at Dion Training Solutions. He has multiple information technology professional certifications, including Certified Information Systems Security Professional (CISSP), Certified Ethical Hacker (CEH), Certified Network Defense Architect (CNDA), Digital Forensic Examiner (DFE), Digital Media Collector (DMC), CySA+, Security+, Network+, A+, PRINCE2 Practitioner, and ITIL. With networking experience dating back to 1992, Jason has been a network engineer, Director of a Network Operations and Security Center, and an Information Systems Officer for large organizations around the globe. \n\nHe holds a Master’s of Science degree in Information Technology with a specialization in Information Assurance.",
+    "ratingBreakdown": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 7,
+      "5": 88
+    },
+    "quality": {
+      "content": 0
+    },
+    "faq": [
+      {
+        "q": "Is CompTIA Security+ (SY0-801) Complete Course & Practice Exam suitable for beginners?",
+        "a": "Yes — it is rated \"All Level\" and starts from the fundamentals, though beginners should budget extra time for the practice exercises."
+      },
+      {
+        "q": "How often is the course updated?",
+        "a": "Last updated 11/2026. Lifetime access means future refreshes are included at no extra cost."
+      },
+      {
+        "q": "Is it worth the price?",
+        "a": "At $0 with a 4.6★ average from 619,452 students, our Udemy course reviews put it above most CompTIA Security+ alternatives."
+      }
+    ],
+    "moneyBack": true,
+    "summary": "CompTIA Security+ (SY0-801) Complete Course & Practice Exam is a all level CompTIA Security+ course from Jason Dion • 3 Million+ Enrollments Worldwide on Udemy. It runs about 28.5 hours, and holds 4.6★ from 619,452 students in our Udemy course reviews.",
+    "bestFor": "all level learners who want one guided path through CompTIA Security+",
+    "skipIf": "You already work professionally in CompTIA Security+ and need advanced architecture patterns",
+    "suits": "Complete beginners, career switchers, and self-taught devs who want structure"
+  },
+  {
     "title": "The Complete Python Developer",
     "slug": "the-complete-python-developer",
     "provider": "Udemy",
